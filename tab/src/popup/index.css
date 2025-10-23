@@ -13,14 +13,14 @@ body {
   min-height: 580px;
   height: 100vh;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-  background-color: #020617; /* slate-950 */
+  background-color: #ffffff; /* white */
   overflow: hidden;
 }
 
 #root {
   width: 100%;
   height: 100%;
-  background-color: #020617; /* slate-950 */
+  background-color: #ffffff; /* white */
 }
 
 /* 添加动画 */

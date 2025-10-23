@@ -3,6 +3,11 @@
   "name": "AI 书签助手",
   "version": "1.0.0",
   "description": "智能标签推荐的浏览器书签管理工具",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
   "action": {
     "default_title": "AI 书签助手",
     "default_popup": "src/popup/index.html",

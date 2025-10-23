@@ -3,17 +3,31 @@ import { createPortal } from 'react-dom'
 import { useParams } from 'react-router-dom'
 import { TagSidebar } from '@/components/tags/TagSidebar'
 import { BookmarkListContainer } from '@/components/bookmarks/BookmarkListContainer'
+import { PaginationFooter } from '@/components/common/PaginationFooter'
 import { SortSelector, type SortOption } from '@/components/common/SortSelector'
 import { usePublicShare } from '@/hooks/useShare'
+import type { Bookmark, Tag } from '@/lib/types'
 
 const VIEW_MODES = ['list', 'minimal', 'card', 'title'] as const
 type ViewMode = typeof VIEW_MODES[number]
+type VisibilityFilter = 'all' | 'public' | 'private'
 
 interface MenuPosition {
   top: number
   left: number
   width?: number
 }
+
+const VISIBILITY_LABELS: Record<VisibilityFilter, string> = {
+  all: '全部书签',
+  public: '仅公开',
+  private: '仅私密',
+}
+
+const VISIBILITY_OPTIONS: VisibilityFilter[] = ['all', 'public', 'private']
+
+// 分页配置
+const PAGE_SIZE = 30 // 每页显示30个书签
 
 function ViewModeIcon({ mode }: { mode: ViewMode }) {
   if (mode === 'card') {
@@ -49,6 +63,32 @@ function ViewModeIcon({ mode }: { mode: ViewMode }) {
   )
 }
 
+function VisibilityIcon({ filter }: { filter: VisibilityFilter }) {
+  if (filter === 'public') {
+    return (
+      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 5c-7 0-10 7-10 7s3 7 10 7 10-7 10-7-3-7-10-7z" />
+        <circle cx="12" cy="12" r="3" />
+      </svg>
+    )
+  }
+
+  if (filter === 'private') {
+    return (
+      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+        <rect x="4" y="10" width="16" height="10" rx="2" ry="2" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M8 10V7a4 4 0 118 0v3" />
+      </svg>
+    )
+  }
+
+  return (
+    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+    </svg>
+  )
+}
+
 
 
 export function PublicSharePage() {
@@ -57,27 +97,44 @@ export function PublicSharePage() {
   const [searchKeyword, setSearchKeyword] = useState('')
   const [viewMode, setViewMode] = useState<ViewMode>('card')
   const [sortBy, setSortBy] = useState<SortOption>('popular')
+  const [visibilityFilter, setVisibilityFilter] = useState<VisibilityFilter>('all')
   const [tagLayout, setTagLayout] = useState<'grid' | 'masonry'>('grid')
   const [isTagSidebarOpen, setIsTagSidebarOpen] = useState(false)
+  const [currentPage, setCurrentPage] = useState(1)
   const viewMenuButtonRef = useRef<HTMLButtonElement>(null)
+  const visibilityMenuButtonRef = useRef<HTMLButtonElement>(null)
   const viewMenuContentRef = useRef<HTMLDivElement | null>(null)
+  const visibilityMenuContentRef = useRef<HTMLDivElement | null>(null)
   const [viewMenuPosition, setViewMenuPosition] = useState<MenuPosition | null>(null)
+  const [visibilityMenuPosition, setVisibilityMenuPosition] = useState<MenuPosition | null>(null)
   const [isViewMenuOpen, setIsViewMenuOpen] = useState(false)
+  const [isVisibilityMenuOpen, setIsVisibilityMenuOpen] = useState(false)
+  const autoCleanupTimerRef = useRef<NodeJS.Timeout | null>(null)
   const searchCleanupTimerRef = useRef<NodeJS.Timeout | null>(null)
 
   const shareQuery = usePublicShare(slug, Boolean(slug))
-  const allBookmarks = shareQuery.data?.bookmarks || []
+  const allBookmarks = useMemo(() => shareQuery.data?.bookmarks || [], [shareQuery.data?.bookmarks])
 
-  const filteredBookmarks = useMemo(() => {
+  // 完整筛选后的书签列表（用于分页）
+  const allFilteredBookmarks = useMemo(() => {
+    // 1. 可见性筛选
+    const byVisibility = visibilityFilter === 'all'
+      ? allBookmarks
+      : visibilityFilter === 'public'
+        ? allBookmarks.filter((bookmark: Bookmark) => bookmark.is_public)
+        : allBookmarks.filter((bookmark: Bookmark) => !bookmark.is_public)
+
+    // 2. 标签筛选
     const byTags = selectedTags.length
-      ? allBookmarks.filter((bookmark) => {
-          const bookmarkTagIds = bookmark.tags?.map((t) => t.id) || []
+      ? byVisibility.filter((bookmark: Bookmark) => {
+          const bookmarkTagIds = bookmark.tags?.map((t: Tag) => t.id) || []
           return selectedTags.every((tagId) => bookmarkTagIds.includes(tagId))
         })
-      : allBookmarks
+      : byVisibility
 
+    // 3. 关键词搜索
     const byKeyword = searchKeyword.trim()
-      ? byTags.filter((bookmark) => {
+      ? byTags.filter((bookmark: Bookmark) => {
           const keyword = searchKeyword.trim().toLowerCase()
           return (
             bookmark.title.toLowerCase().includes(keyword) ||
@@ -87,6 +144,7 @@ export function PublicSharePage() {
         })
       : byTags
 
+    // 4. 排序
     const sorted = [...byKeyword].sort((a, b) => {
       switch (sortBy) {
         case 'updated':
@@ -111,10 +169,24 @@ export function PublicSharePage() {
     })
 
     return sorted
-  }, [allBookmarks, selectedTags, searchKeyword, sortBy])
+  }, [allBookmarks, selectedTags, searchKeyword, sortBy, visibilityFilter])
+
+  // 当前页显示的书签（分页后）
+  const displayedBookmarks = useMemo(() => {
+    return allFilteredBookmarks.slice(0, currentPage * PAGE_SIZE)
+  }, [allFilteredBookmarks, currentPage])
+
+  // 分页信息
+  const hasMore = displayedBookmarks.length < allFilteredBookmarks.length
+  const currentPageCount = Math.min(PAGE_SIZE, allFilteredBookmarks.length - (currentPage - 1) * PAGE_SIZE)
 
   const shareInfo = shareQuery.data?.profile
   const tags = shareQuery.data?.tags || []
+
+  // 当筛选条件改变时，重置到第一页
+  useEffect(() => {
+    setCurrentPage(1)
+  }, [selectedTags, searchKeyword, sortBy, visibilityFilter])
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -127,11 +199,43 @@ export function PublicSharePage() {
         setIsViewMenuOpen(false)
         setViewMenuPosition(null)
       }
+      if (
+        isVisibilityMenuOpen &&
+        !visibilityMenuButtonRef.current?.contains(target) &&
+        !visibilityMenuContentRef.current?.contains(target)
+      ) {
+        setIsVisibilityMenuOpen(false)
+        setVisibilityMenuPosition(null)
+      }
     }
 
     document.addEventListener('mousedown', handleClickOutside)
     return () => document.removeEventListener('mousedown', handleClickOutside)
-  }, [isViewMenuOpen])
+  }, [isViewMenuOpen, isVisibilityMenuOpen])
+
+  // 标签自动清空逻辑 - 30秒后自动清除选中状态
+  useEffect(() => {
+    // 清除之前的定时器
+    if (autoCleanupTimerRef.current) {
+      clearTimeout(autoCleanupTimerRef.current)
+      autoCleanupTimerRef.current = null
+    }
+
+    // 如果有选中的标签，设置30秒后自动清空
+    if (selectedTags.length > 0) {
+      autoCleanupTimerRef.current = setTimeout(() => {
+        setSelectedTags([])
+      }, 30000) // 30秒
+    }
+
+    // 清理函数
+    return () => {
+      if (autoCleanupTimerRef.current) {
+        clearTimeout(autoCleanupTimerRef.current)
+        autoCleanupTimerRef.current = null
+      }
+    }
+  }, [selectedTags])
 
   // 搜索关键词自动清空逻辑 - 20秒后自动清除搜索内容
   useEffect(() => {
@@ -157,19 +261,47 @@ export function PublicSharePage() {
     }
   }, [searchKeyword])
 
+  const toggleVisibilityMenu = () => {
+    setIsVisibilityMenuOpen((prev) => {
+      const next = !prev
+      if (next) {
+        if (visibilityMenuButtonRef.current) {
+          const rect = visibilityMenuButtonRef.current.getBoundingClientRect()
+          const width = Math.max(rect.width + 100, 160)
+          const maxLeft = window.scrollX + window.innerWidth - width - 12
+          const left = Math.min(rect.left + window.scrollX, maxLeft)
+          setVisibilityMenuPosition({
+            top: rect.bottom + window.scrollY + 8,
+            left,
+            width,
+          })
+        }
+        setIsViewMenuOpen(false)
+        setViewMenuPosition(null)
+      } else {
+        setVisibilityMenuPosition(null)
+      }
+      return next
+    })
+  }
+
   const toggleViewMenu = () => {
     setIsViewMenuOpen((prev) => {
       const next = !prev
-      if (next && viewMenuButtonRef.current) {
-        const rect = viewMenuButtonRef.current.getBoundingClientRect()
-        const width = Math.max(rect.width + 120, 200)
-        const maxLeft = window.scrollX + window.innerWidth - width - 12
-        const left = Math.min(rect.left + window.scrollX, maxLeft)
-        setViewMenuPosition({
-          top: rect.bottom + window.scrollY + 8,
-          left,
-          width,
-        })
+      if (next) {
+        if (viewMenuButtonRef.current) {
+          const rect = viewMenuButtonRef.current.getBoundingClientRect()
+          const width = Math.max(rect.width + 110, 180)
+          const maxLeft = window.scrollX + window.innerWidth - width - 12
+          const left = Math.min(rect.left + window.scrollX, maxLeft)
+          setViewMenuPosition({
+            top: rect.bottom + window.scrollY + 8,
+            left,
+            width,
+          })
+        }
+        setIsVisibilityMenuOpen(false)
+        setVisibilityMenuPosition(null)
       } else {
         setViewMenuPosition(null)
       }
@@ -183,6 +315,54 @@ export function PublicSharePage() {
     setViewMenuPosition(null)
     viewMenuContentRef.current = null
   }
+
+  const handleVisibilityChange = (filter: VisibilityFilter) => {
+    setVisibilityFilter(filter)
+    setIsVisibilityMenuOpen(false)
+    setVisibilityMenuPosition(null)
+    visibilityMenuContentRef.current = null
+  }
+
+  const handleLoadMore = () => {
+    setCurrentPage((prev) => prev + 1)
+  }
+
+  const visibilityMenuPortal =
+    typeof document !== 'undefined' && isVisibilityMenuOpen && visibilityMenuPosition
+      ? createPortal(
+          <div
+            ref={(node) => {
+              visibilityMenuContentRef.current = node
+            }}
+            className="rounded-lg border border-border shadow-lg overflow-hidden"
+            style={{
+              position: 'absolute',
+              top: visibilityMenuPosition.top,
+              left: visibilityMenuPosition.left,
+              width: visibilityMenuPosition.width ?? 180,
+              backgroundColor: 'var(--card)',
+              zIndex: 1000,
+            }}
+          >
+            {VISIBILITY_OPTIONS.map((option) => (
+              <button
+                key={option}
+                type="button"
+                onClick={() => handleVisibilityChange(option)}
+                className={`w-full px-3 py-2 text-sm flex items-center gap-2 transition-colors ${
+                  visibilityFilter === option
+                    ? 'bg-primary/10 text-primary font-medium'
+                    : 'text-base-content/80 hover:bg-base-200/60'
+                }`}
+              >
+                <VisibilityIcon filter={option} />
+                <span>{VISIBILITY_LABELS[option]}</span>
+              </button>
+            ))}
+          </div>,
+          document.body,
+        )
+      : null
 
   const viewMenuPortal =
     typeof document !== 'undefined' && isViewMenuOpen && viewMenuPosition
@@ -231,6 +411,7 @@ export function PublicSharePage() {
 
   return (
     <>
+      {visibilityMenuPortal}
       {viewMenuPortal}
       <div className="w-full mx-auto py-3 sm:py-4 md:py-6 px-3 sm:px-4 md:px-6">
       {shareQuery.isLoading && (
@@ -261,7 +442,7 @@ export function PublicSharePage() {
             {/* 分享信息卡片 */}
             <div className="card shadow-float">
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-                <div>
+                <div className="flex-1">
                   <h1 className="text-xl sm:text-2xl font-bold text-primary">
                     {shareInfo?.title || `${shareInfo?.username || '访客'}的书签精选`}
                   </h1>
@@ -269,6 +450,18 @@ export function PublicSharePage() {
                     <p className="text-sm text-base-content/70 mt-1">{shareInfo.description}</p>
                   )}
                 </div>
+                {/* 统计信息 */}
+                {allBookmarks.length > 0 && (
+                  <div className="text-sm text-base-content/60">
+                    {allFilteredBookmarks.length === allBookmarks.length ? (
+                      <span>共 {allBookmarks.length} 个书签</span>
+                    ) : (
+                      <span>
+                        筛选出 {allFilteredBookmarks.length} / {allBookmarks.length} 个书签
+                      </span>
+                    )}
+                  </div>
+                )}
               </div>
             </div>
 
@@ -304,31 +497,81 @@ export function PublicSharePage() {
                   </div>
                 </div>
 
-                <div className="flex items-center gap-2">
-                  <SortSelector
-                    value={sortBy}
-                    onChange={setSortBy}
-                  />
+                <div className="flex items-center gap-2 w-full sm:w-auto">
+                  <div className="relative flex-1 sm:flex-initial">
+                    <SortSelector
+                      value={sortBy}
+                      onChange={setSortBy}
+                      className="w-full sm:w-auto"
+                    />
+                  </div>
 
-                  <button
-                    ref={viewMenuButtonRef}
-                    type="button"
-                    onClick={toggleViewMenu}
-                    className="w-11 h-11 rounded-xl flex items-center justify-center transition-all shadow-float bg-base-200 text-base-content/80 hover:bg-base-300"
-                    title="切换视图"
-                    aria-label="切换视图"
-                  >
-                    <ViewModeIcon mode={viewMode} />
-                  </button>
+                  <div className="flex items-center gap-2">
+                    <div className="relative">
+                      <button
+                        ref={visibilityMenuButtonRef}
+                        onClick={toggleVisibilityMenu}
+                        className={`w-10 h-10 sm:w-11 sm:h-11 rounded-xl flex items-center justify-center transition-all shadow-float touch-manipulation ${
+                          visibilityFilter === 'all'
+                            ? 'bg-base-200 text-base-content/80 hover:bg-base-300'
+                            : visibilityFilter === 'public'
+                              ? 'bg-success/10 text-success hover:bg-success/20'
+                              : 'bg-warning/10 text-warning hover:bg-warning/20'
+                        }`}
+                        title={`${VISIBILITY_LABELS[visibilityFilter]}筛选`}
+                        aria-label={`${VISIBILITY_LABELS[visibilityFilter]}筛选`}
+                        type="button"
+                      >
+                        <VisibilityIcon filter={visibilityFilter} />
+                      </button>
+                    </div>
+
+                    <div className="relative">
+                      <button
+                        ref={viewMenuButtonRef}
+                        onClick={toggleViewMenu}
+                        className="w-10 h-10 sm:w-11 sm:h-11 rounded-xl flex items-center justify-center transition-all shadow-float bg-base-200 text-base-content/80 hover:bg-base-300 touch-manipulation"
+                        title="切换视图"
+                        aria-label="切换视图"
+                        type="button"
+                      >
+                        <ViewModeIcon mode={viewMode} />
+                      </button>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <BookmarkListContainer
-              bookmarks={filteredBookmarks}
-              viewMode={viewMode}
-              readOnly
-            />
+            {/* 书签列表 */}
+            {displayedBookmarks.length > 0 ? (
+              <>
+                <BookmarkListContainer
+                  bookmarks={displayedBookmarks}
+                  viewMode={viewMode}
+                  readOnly
+                />
+
+                {/* 分页控制 */}
+                <PaginationFooter
+                  hasMore={hasMore}
+                  isLoading={false}
+                  onLoadMore={handleLoadMore}
+                  currentCount={currentPageCount}
+                  totalLoaded={displayedBookmarks.length}
+                />
+              </>
+            ) : !shareQuery.isLoading && allBookmarks.length > 0 ? (
+              <div className="card text-center py-12">
+                <div className="text-base-content/40 mb-2">
+                  <svg className="w-16 h-16 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
+                  <p className="text-lg font-medium">没有找到匹配的书签</p>
+                  <p className="text-sm mt-2">尝试调整筛选条件或搜索关键词</p>
+                </div>
+              </div>
+            ) : null}
           </div>
           </main>
         </div>

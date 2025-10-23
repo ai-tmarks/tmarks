@@ -18,13 +18,13 @@ export function TagList({ tags, selectedTags, onToggle }: TagListProps) {
         const stateClasses = (() => {
           if (isSelected) {
             return isNew
-              ? 'border border-amber-300/50 bg-amber-400/25 text-amber-100 shadow-inner shadow-amber-500/20'
-              : 'border border-emerald-300/40 bg-emerald-400/25 text-emerald-100 shadow-inner shadow-emerald-500/20';
+              ? 'border border-amber-300 bg-amber-100 text-amber-700 shadow-sm'
+              : 'border border-emerald-300 bg-emerald-100 text-emerald-700 shadow-sm';
           }
 
           return isNew
-            ? 'border border-blue-300/50 bg-blue-500/15 text-blue-100 hover:bg-blue-500/20'
-            : 'border border-white/10 bg-white/8 text-white/70 hover:bg-white/15';
+            ? 'border border-blue-300 bg-blue-100 text-blue-700 hover:bg-blue-200'
+            : 'border border-purple-300 bg-purple-100 text-purple-700 hover:bg-purple-200';
         })();
 
         return (
@@ -35,7 +35,7 @@ export function TagList({ tags, selectedTags, onToggle }: TagListProps) {
           >
             <span className="truncate max-w-[110px]">{tag.name}</span>
             {isNew && (
-              <span className={`ml-1 text-[10px] uppercase tracking-wide ${isSelected ? 'text-amber-100/90' : 'text-blue-100/90'}`}>
+              <span className={`ml-1 text-[10px] uppercase tracking-wide ${isSelected ? 'text-amber-600' : 'text-blue-600'}`}>
                 new
               </span>
             )}

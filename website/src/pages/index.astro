@@ -1,0 +1,25 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import HeaderNew from '@/components/layout/HeaderNew.astro';
+import FooterNew from '@/components/layout/FooterNew';
+import HeroNew from '@/components/home/HeroNew';
+import FeaturesNew from '@/components/home/FeaturesNew';
+import HowItWorksNew from '@/components/home/HowItWorksNew';
+import TestimonialsNew from '@/components/home/TestimonialsNew';
+import CTANew from '@/components/home/CTANew';
+---
+
+<Layout>
+  <HeaderNew />
+
+  <main>
+    <HeroNew client:load />
+    <FeaturesNew client:load />
+    <HowItWorksNew client:load />
+    <TestimonialsNew client:load />
+    <CTANew client:load />
+  </main>
+
+  <FooterNew client:load />
+</Layout>
+

@@ -18,16 +18,17 @@ export interface TabGroupMenuActions {
   onPinToTop: (group: TabGroup) => void
   onRemoveDuplicates: (group: TabGroup) => void
   onLock: (group: TabGroup) => void
-  onMove: (group: TabGroup) => void
+  onMove: (group: TabGroup) => Promise<void>
   onMoveToTrash: (group: TabGroup) => void
 }
 
 interface UseTabGroupMenuProps {
   onRefresh?: () => Promise<void>
   onStartRename: (groupId: string, title: string) => void
+  onOpenMoveDialog?: (group: TabGroup) => void
 }
 
-export function useTabGroupMenu({ onRefresh, onStartRename }: UseTabGroupMenuProps): TabGroupMenuActions {
+export function useTabGroupMenu({ onRefresh, onStartRename, onOpenMoveDialog }: UseTabGroupMenuProps): TabGroupMenuActions {
   // 打开所有标签页
   const openAllTabs = (group: TabGroup, mode: 'new' | 'current' | 'incognito') => {
     if (!group.items || group.items.length === 0) return
@@ -199,9 +200,17 @@ export function useTabGroupMenu({ onRefresh, onStartRename }: UseTabGroupMenuPro
     }
   }
 
-  const onPinToTop = async (_group: TabGroup) => {
-    // 固定功能需要数据库支持 position 或 pinned 字段
-    alert('固定功能需要数据库支持\n\n需要添加以下字段：\n- position: 排序位置\n- is_pinned: 是否固定\n\n未来版本将支持此功能。')
+  const onPinToTop = async (group: TabGroup) => {
+    try {
+      // 将该项的 position 设置为 -1（最小值），这样排序时会在最前面
+      await tabGroupsService.updateTabGroup(group.id, {
+        position: -1
+      })
+      await onRefresh?.()
+    } catch (err) {
+      console.error('Failed to pin to top:', err)
+      alert('固定失败')
+    }
   }
 
   const onRemoveDuplicates = async (group: TabGroup) => {
@@ -235,15 +244,37 @@ export function useTabGroupMenu({ onRefresh, onStartRename }: UseTabGroupMenuPro
     }
   }
 
-  const onLock = async (_group: TabGroup) => {
-    // 锁定功能需要数据库支持 is_locked 字段
-    alert('锁定功能需要数据库支持\n\n需要添加以下字段：\n- is_locked: 是否锁定\n\n锁定后的分组将无法编辑、删除或移动。\n\n未来版本将支持此功能。')
+  const onLock = async (group: TabGroup) => {
+    // 锁定功能：使用 tags 字段存储锁定状态
+    try {
+      const currentTags = group.tags || []
+      const isLocked = currentTags.includes('__locked__')
+
+      let newTags: string[]
+      if (isLocked) {
+        // 解锁：移除 __locked__ 标签
+        newTags = currentTags.filter(tag => tag !== '__locked__')
+      } else {
+        // 锁定：添加 __locked__ 标签
+        newTags = [...currentTags, '__locked__']
+      }
+
+      await tabGroupsService.updateTabGroup(group.id, {
+        tags: newTags
+      })
+      await onRefresh?.()
+    } catch (err) {
+      console.error('Failed to lock/unlock:', err)
+      alert('操作失败')
+    }
   }
 
   const onMove = async (group: TabGroup) => {
-    // TODO: 实现移动功能（显示文件夹选择器）
-    console.log('Move group:', group.id)
-    alert('移动功能开发中（请使用拖拽）')
+    if (onOpenMoveDialog) {
+      onOpenMoveDialog(group)
+    } else {
+      alert('移动功能开发中（请使用拖拽）')
+    }
   }
 
   const onMoveToTrash = async (group: TabGroup) => {

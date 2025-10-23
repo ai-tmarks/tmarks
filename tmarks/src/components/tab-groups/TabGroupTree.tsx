@@ -7,31 +7,35 @@ import {
   Circle,
   FolderPlus,
   ExternalLink,
-  EyeOff,
   Edit2,
   Share2,
   Copy,
   FolderPlus as FolderPlusIcon,
   FilePlus,
   Trash2,
-  Move
+  Move,
+  Lock,
+  Pin
 } from 'lucide-react'
-import { useState, useRef, useEffect } from 'react'
+import { useState, useRef } from 'react'
 import { useSortable, SortableContext, verticalListSortingStrategy } from '@dnd-kit/sortable'
 import {
   DndContext,
   closestCenter,
   KeyboardSensor,
   PointerSensor,
+  pointerWithin,
   useSensor,
   useSensors,
   DragOverlay,
+  type CollisionDetection,
   type DragEndEvent,
   type DragOverEvent,
   type DragStartEvent,
 } from '@dnd-kit/core'
 import { DropdownMenu, type MenuItem } from '@/components/common/DropdownMenu'
 import { useTabGroupMenu } from '@/hooks/useTabGroupMenu'
+import { MoveToFolderDialog } from './MoveToFolderDialog'
 
 interface TabGroupTreeProps {
   tabGroups: TabGroup[]
@@ -61,6 +65,7 @@ interface TreeNodeProps {
   activeId: string | null
   overId: string | null
   dropPosition: 'before' | 'inside' | 'after' | null
+  onOpenMoveDialog?: (group: TabGroup) => void
 }
 
 // 构建树形结构
@@ -123,6 +128,7 @@ function TreeNode({
   activeId,
   overId,
   dropPosition,
+  onOpenMoveDialog,
 }: TreeNodeProps) {
   const isSelected = selectedGroupId === group.id
   const isExpanded = expandedGroups.has(group.id)
@@ -131,6 +137,7 @@ function TreeNode({
   const isEditing = editingGroupId === group.id
   const isBeingDragged = activeId === group.id
   const isDropTarget = overId === group.id && !isBeingDragged
+  const isLocked = group.tags?.includes('__locked__') || false
 
   // Sortable hook for drag and drop
   const {
@@ -143,33 +150,90 @@ function TreeNode({
     data: {
       type: isFolder ? 'folder' : 'group',
       parentId: group.parent_id,
-    }
+    },
+    disabled: isLocked // 锁定时禁用拖拽
   })
 
-  // 不使用 transform，元素保持原位
+  // 拖拽时的样式：增强视觉反馈
   const style = {
-    opacity: isDragging ? 0.3 : 1, // 拖拽时更透明，表示正在拖拽
+    opacity: isDragging ? 0.4 : 1,
+    cursor: isLocked ? 'not-allowed' : (isDragging ? 'grabbing' : 'grab'),
+    transition: 'opacity 0.2s ease',
+  }
+
+  // 防止双击与单击冲突
+  const clickTimeoutRef = useRef<NodeJS.Timeout | null>(null)
+  const clickCountRef = useRef(0)
+
+  const handleClick = () => {
+    clickCountRef.current++
+
+    if (clickCountRef.current === 1) {
+      // 第一次点击：设置延迟
+      clickTimeoutRef.current = setTimeout(() => {
+        clickCountRef.current = 0
+      }, 300)
+    } else if (clickCountRef.current === 2) {
+      // 第二次点击：触发双击
+      if (clickTimeoutRef.current) {
+        clearTimeout(clickTimeoutRef.current)
+      }
+      clickCountRef.current = 0
+      handleDoubleClick()
+    }
   }
 
   const handleDoubleClick = () => {
-    if (onRenameGroup) {
+    if (onRenameGroup && !isLocked) {
       setEditingGroupId(group.id)
       setEditingTitle(group.title)
     }
   }
 
   const handleRenameSubmit = async () => {
-    if (editingTitle.trim() && editingTitle !== group.title && onRenameGroup) {
-      await onRenameGroup(group.id, editingTitle.trim())
+    const trimmedTitle = editingTitle.trim()
+
+    // 输入验证
+    if (!trimmedTitle) {
+      alert('标题不能为空')
+      return
     }
-    setEditingGroupId(null)
+
+    if (trimmedTitle.length > 100) {
+      alert('标题长度不能超过 100 个字符')
+      return
+    }
+
+    // 检查特殊字符（可选）
+    const invalidChars = /[<>:"/\\|?*]/g
+    if (invalidChars.test(trimmedTitle)) {
+      alert('标题不能包含特殊字符: < > : " / \\ | ? *')
+      return
+    }
+
+    if (trimmedTitle === group.title) {
+      setEditingGroupId(null)
+      return
+    }
+
+    if (onRenameGroup) {
+      try {
+        await onRenameGroup(group.id, trimmedTitle)
+        setEditingGroupId(null)
+      } catch (error) {
+        console.error('Failed to rename:', error)
+        alert('重命名失败，请重试')
+      }
+    }
   }
 
   const handleRenameKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === 'Enter') {
+      e.preventDefault()
       handleRenameSubmit()
     } else if (e.key === 'Escape') {
       setEditingGroupId(null)
+      setEditingTitle(group.title)
     }
   }
 
@@ -179,7 +243,8 @@ function TreeNode({
     onStartRename: (groupId, title) => {
       setEditingGroupId(groupId)
       setEditingTitle(title)
-    }
+    },
+    onOpenMoveDialog
   })
 
   // 构建菜单项
@@ -197,17 +262,12 @@ function TreeNode({
       onClick: () => menuActions.onOpenInCurrentWindow(group),
       disabled: isFolder
     },
-    {
-      label: '在新的隐身窗口中打开',
-      icon: <EyeOff className="w-4 h-4" />,
-      onClick: () => menuActions.onOpenInIncognito(group),
-      disabled: isFolder
-    },
     // 编辑功能
     {
       label: '重命名',
       icon: <Edit2 className="w-4 h-4" />,
       onClick: () => menuActions.onRename(group),
+      disabled: isLocked,
       divider: true
     },
     {
@@ -266,13 +326,25 @@ function TreeNode({
     {
       label: '移动',
       icon: <Move className="w-4 h-4" />,
-      onClick: () => menuActions.onMove(group)
+      onClick: () => menuActions.onMove(group),
+      disabled: isLocked
+    },
+    {
+      label: '固定到顶部',
+      icon: <Pin className="w-4 h-4" />,
+      onClick: () => menuActions.onPinToTop(group)
+    },
+    {
+      label: isLocked ? '解锁' : '锁定',
+      icon: <Lock className="w-4 h-4" />,
+      onClick: () => menuActions.onLock(group)
     },
     // 删除功能
     {
       label: '移至回收站',
       icon: <Trash2 className="w-4 h-4" />,
       onClick: () => menuActions.onMoveToTrash(group),
+      disabled: isLocked,
       danger: true,
       divider: true
     }
@@ -286,10 +358,12 @@ function TreeNode({
           className="absolute left-0 right-0 pointer-events-none"
           style={{
             top: '-2px',
-            height: '4px',
+            height: '3px',
             backgroundColor: '#3b82f6',
+            borderRadius: '2px',
             zIndex: 999,
-            transition: 'opacity 150ms ease-in-out'
+            boxShadow: '0 0 8px rgba(59, 130, 246, 0.5)',
+            animation: 'pulse 1.5s ease-in-out infinite'
           }}
         />
       )}
@@ -299,11 +373,12 @@ function TreeNode({
         <div
           className="absolute inset-0 pointer-events-none"
           style={{
-            border: '2px dashed #3b82f6',
-            backgroundColor: 'rgba(59, 130, 246, 0.1)',
-            borderRadius: '4px',
+            border: '2px solid #3b82f6',
+            backgroundColor: 'rgba(59, 130, 246, 0.15)',
+            borderRadius: '6px',
             zIndex: 999,
-            transition: 'opacity 150ms ease-in-out'
+            boxShadow: '0 0 12px rgba(59, 130, 246, 0.3)',
+            animation: 'pulse 1.5s ease-in-out infinite'
           }}
         />
       )}
@@ -314,10 +389,12 @@ function TreeNode({
           className="absolute left-0 right-0 pointer-events-none"
           style={{
             bottom: '-2px',
-            height: '4px',
+            height: '3px',
             backgroundColor: '#3b82f6',
+            borderRadius: '2px',
             zIndex: 999,
-            transition: 'opacity 150ms ease-in-out'
+            boxShadow: '0 0 8px rgba(59, 130, 246, 0.5)',
+            animation: 'pulse 1.5s ease-in-out infinite'
           }}
         />
       )}
@@ -394,8 +471,8 @@ function TreeNode({
           {/* 图标和标题区域 - 整行可拖拽 */}
           <div
             {...attributes}
-            {...listeners}
-            className="flex items-center gap-2 flex-1 cursor-grab active:cursor-grabbing"
+            {...(isLocked ? {} : listeners)}
+            className={`flex items-center gap-2 flex-1 ${isLocked ? 'cursor-not-allowed' : 'cursor-grab active:cursor-grabbing'}`}
           >
             {/* 图标 */}
             {isFolder ? (
@@ -427,9 +504,9 @@ function TreeNode({
                 onClick={(e) => {
                   e.stopPropagation()
                   onSelectGroup(group.id)
+                  handleClick()
                 }}
-                onDoubleClick={handleDoubleClick}
-                className={`text-sm flex-1 truncate ${
+                className={`text-sm flex-1 truncate cursor-pointer ${
                   isSelected ? 'text-primary font-medium' : 'text-foreground'
                 }`}
               >
@@ -437,6 +514,11 @@ function TreeNode({
               </span>
             )}
           </div>
+
+          {/* 锁定图标 */}
+          {isLocked && (
+            <Lock className="w-3 h-3 text-muted-foreground flex-shrink-0" />
+          )}
 
           {/* 数量 */}
           {!isFolder && (
@@ -485,6 +567,7 @@ function TreeNode({
               activeId={activeId}
               overId={overId}
               dropPosition={dropPosition}
+              onOpenMoveDialog={onOpenMoveDialog}
             />
           ))}
         </div>
@@ -511,6 +594,10 @@ export function TabGroupTree({
   const [activeId, setActiveId] = useState<string | null>(null)
   const [overId, setOverId] = useState<string | null>(null)
   const [dropPosition, setDropPosition] = useState<DropPosition | null>(null)
+  const [moveDialogOpen, setMoveDialogOpen] = useState(false)
+  const [movingGroup, setMovingGroup] = useState<TabGroup | null>(null)
+  const pointerInitialYRef = useRef<number | null>(null)
+  const pointerInitialXRef = useRef<number | null>(null)
 
   const sensors = useSensors(
     useSensor(PointerSensor, {
@@ -520,6 +607,18 @@ export function TabGroupTree({
     }),
     useSensor(KeyboardSensor)
   )
+
+  // 简化的碰撞检测：优先使用 pointerWithin，其次使用 closestCenter
+  const collisionDetection: CollisionDetection = (args) => {
+    // 1. 优先使用指针位置检测（最精确）
+    const pointerCollisions = pointerWithin(args)
+    if (pointerCollisions && pointerCollisions.length > 0) {
+      return pointerCollisions
+    }
+
+    // 2. 使用最近中心点检测（作为后备）
+    return closestCenter(args)
+  }
 
   const totalCount = tabGroups.reduce((sum, group) => {
     if (group.is_folder === 1) return sum
@@ -547,19 +646,15 @@ export function TabGroupTree({
       title: draggedGroup?.title,
       isFolder: draggedGroup?.is_folder
     })
+    if (event.activatorEvent instanceof PointerEvent) {
+      pointerInitialYRef.current = event.activatorEvent.clientY
+      pointerInitialXRef.current = event.activatorEvent.clientX
+    } else {
+      pointerInitialYRef.current = null
+      pointerInitialXRef.current = null
+    }
     setActiveId(draggedId)
   }
-
-  // 使用 ref 来跟踪鼠标位置
-  const mouseYRef = useRef<number>(0)
-
-  useEffect(() => {
-    const handleMouseMove = (e: MouseEvent) => {
-      mouseYRef.current = e.clientY
-    }
-    window.addEventListener('mousemove', handleMouseMove)
-    return () => window.removeEventListener('mousemove', handleMouseMove)
-  }, [])
 
   const handleDragOver = (event: DragOverEvent) => {
     const overId = event.over?.id as string | null
@@ -577,38 +672,67 @@ export function TabGroupTree({
       return
     }
 
-    // 获取目标元素的 DOM 节点
-    const overElement = event.over.rect
-    if (!overElement) {
+    const overRect = event.over.rect
+    const activeRect = event.active.rect.current
+    const initialRect = activeRect.initial
+
+    if (!overRect || !initialRect || overRect.height === 0) {
       setDropPosition(null)
       return
     }
 
-    // 使用实时鼠标位置计算相对位置
-    const mouseY = mouseYRef.current
-    const relativeY = (mouseY - overElement.top) / overElement.height
+    // translated 在未应用 transform 时可能为 null，因此回退到初始 + delta。优先使用真实指针位置，提升靠近时的命中率。
+    const translatedRect = activeRect.translated
+    let pointerY: number
+    let pointerX: number
+    if (pointerInitialYRef.current !== null) {
+      pointerY = pointerInitialYRef.current + event.delta.y
+    } else if (translatedRect) {
+      pointerY = translatedRect.top + translatedRect.height / 2
+    } else {
+      pointerY = initialRect.top + event.delta.y + initialRect.height / 2
+    }
+
+    if (pointerInitialXRef.current !== null) {
+      pointerX = pointerInitialXRef.current + event.delta.x
+    } else if (translatedRect) {
+      pointerX = translatedRect.left + translatedRect.width / 2
+    } else {
+      pointerX = initialRect.left + event.delta.x + initialRect.width / 2
+    }
+
+    const relativeYRaw = (pointerY - overRect.top) / overRect.height
+    const relativeXRaw = (pointerX - overRect.left) / overRect.width
+    const relativeY = Math.min(Math.max(relativeYRaw, 0), 1)
+    const relativeX = Math.min(Math.max(relativeXRaw, 0), 1)
 
     console.log('🎯 DragOver:', {
       overId,
       overTitle: overGroup.title,
       isFolder: overGroup.is_folder,
       relativeY: relativeY.toFixed(2),
-      mouseY,
-      overTop: overElement.top,
-      overHeight: overElement.height
+      relativeX: relativeX.toFixed(2),
+      pointerY: pointerY.toFixed(2),
+      pointerX: pointerX.toFixed(2),
+      overTop: overRect.top,
+      overHeight: overRect.height,
+      overWidth: overRect.width
     })
 
     // 如果是文件夹，使用三区域逻辑
     if (overGroup.is_folder === 1) {
-      if (relativeY < 0.2) {
-        console.log('  → before')
-        setDropPosition('before') // 上边缘 20%
-      } else if (relativeY > 0.8) {
-        console.log('  → after')
-        setDropPosition('after') // 下边缘 20%
-      } else {
+      const insideByVertical = relativeY >= 0.15 && relativeY <= 0.85
+      const insideByHorizontal = relativeX >= 0.45
+
+      if (insideByVertical || insideByHorizontal) {
         console.log('  → inside')
-        setDropPosition('inside') // 中间 60%
+        setDropPosition('inside') // 中间区域
+      } else if (relativeY < 0.15) {
+        console.log('  → before')
+        setDropPosition('before') // 上边缘
+      } else {
+        console.log('  → after')
+        setDropPosition('after') // 下边缘
       }
     } else {
       // 如果是分组，使用两区域逻辑
@@ -629,6 +753,8 @@ export function TabGroupTree({
     setActiveId(null)
     setOverId(null)
     setDropPosition(null)
+    pointerInitialYRef.current = null
+    pointerInitialXRef.current = null
 
     if (!over || active.id === over.id || !onMoveGroup) return
 
@@ -708,6 +834,14 @@ export function TabGroupTree({
     }
   }
 
+  const handleDragCancel = () => {
+    pointerInitialYRef.current = null
+    pointerInitialXRef.current = null
+    setActiveId(null)
+    setOverId(null)
+    setDropPosition(null)
+  }
+
   // 构建树形结构
   const treeData = buildTree(tabGroups)
 
@@ -715,13 +849,15 @@ export function TabGroupTree({
   const allIds = tabGroups.map(g => g.id)
 
   return (
-    <DndContext
-      sensors={sensors}
-      collisionDetection={closestCenter}
-      onDragStart={handleDragStart}
-      onDragOver={handleDragOver}
-      onDragEnd={handleDragEnd}
-    >
+    <>
+      <DndContext
+        sensors={sensors}
+        collisionDetection={collisionDetection}
+        onDragStart={handleDragStart}
+        onDragOver={handleDragOver}
+        onDragEnd={handleDragEnd}
+        onDragCancel={handleDragCancel}
+      >
       <div className="w-full h-full bg-card border-r border-border flex flex-col overflow-hidden">
         {/* Header */}
         <div className="px-3 py-2 border-b border-border flex items-center justify-between">
@@ -793,6 +929,10 @@ export function TabGroupTree({
                   activeId={activeId}
                   overId={overId}
                   dropPosition={dropPosition}
+                  onOpenMoveDialog={(group) => {
+                    setMovingGroup(group)
+                    setMoveDialogOpen(true)
+                  }}
                 />
               ))}
             </div>
@@ -829,7 +969,36 @@ export function TabGroupTree({
           </div>
         ) : null}
       </DragOverlay>
-    </DndContext>
+      </DndContext>
+
+      {/* 移动到文件夹对话框 */}
+      {movingGroup && (
+        <MoveToFolderDialog
+          isOpen={moveDialogOpen}
+          currentGroup={movingGroup}
+          allGroups={tabGroups}
+          onConfirm={async (targetFolderId) => {
+            if (!onMoveGroup) return
+
+            // 计算新位置：放在目标文件夹的最后
+            const siblingsInTarget = tabGroups.filter(g =>
+              (g.parent_id || null) === targetFolderId
+            )
+            const maxPosition = siblingsInTarget.length > 0
+              ? Math.max(...siblingsInTarget.map(g => g.position || 0))
+              : -1
+            const newPosition = maxPosition + 1
+
+            await onMoveGroup(movingGroup.id, targetFolderId, newPosition)
+            setMoveDialogOpen(false)
+            setMovingGroup(null)
+          }}
+          onCancel={() => {
+            setMoveDialogOpen(false)
+            setMovingGroup(null)
+          }}
+        />
+      )}
+    </>
   )
 }
-

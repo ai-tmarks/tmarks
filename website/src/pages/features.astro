@@ -1,0 +1,17 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import HeaderNew from '@/components/layout/HeaderNew.astro';
+import FooterNew from '@/components/layout/FooterNew';
+import FeaturesNew from '@/components/home/FeaturesNew';
+---
+
+<Layout title="功能介绍 - TMarks" description="了解 TMarks 的强大功能：AI 智能标签、标签页管理、多端同步等。">
+  <HeaderNew />
+
+  <main class="pt-24">
+    <FeaturesNew client:load />
+  </main>
+
+  <FooterNew client:load />
+</Layout>
+

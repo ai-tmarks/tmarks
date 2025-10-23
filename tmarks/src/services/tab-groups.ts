@@ -126,21 +126,21 @@ export const tabGroupsService = {
    * 恢复标签页组
    */
   async restoreTabGroup(id: string) {
-    await apiClient.post(`/../tab-groups/${id}/restore`, {})
+    await apiClient.post(`/api/tab-groups/${id}/restore`, {})
   },
 
   /**
    * 永久删除标签页组
    */
   async permanentDeleteTabGroup(id: string) {
-    await apiClient.delete(`/../tab-groups/${id}/permanent-delete`)
+    await apiClient.delete(`/api/tab-groups/${id}/permanent-delete`)
   },
 
   /**
    * 创建分享链接
    */
   async createShare(groupId: string, options?: { is_public?: boolean; expires_in_days?: number }) {
-    const response = await apiClient.post<ShareResponse>(`/../tab-groups/${groupId}/share`, options || {})
+    const response = await apiClient.post<ShareResponse>(`/api/tab-groups/${groupId}/share`, options || {})
     return response.data!
   },
 
@@ -148,7 +148,7 @@ export const tabGroupsService = {
    * 获取分享信息
    */
   async getShare(groupId: string) {
-    const response = await apiClient.get<ShareResponse>(`/../tab-groups/${groupId}/share`)
+    const response = await apiClient.get<ShareResponse>(`/api/tab-groups/${groupId}/share`)
     return response.data!
   },
 
@@ -156,7 +156,7 @@ export const tabGroupsService = {
    * 删除分享
    */
   async deleteShare(groupId: string) {
-    await apiClient.delete(`/../tab-groups/${groupId}/share`)
+    await apiClient.delete(`/api/tab-groups/${groupId}/share`)
   },
 
   /**

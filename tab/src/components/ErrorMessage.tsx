@@ -6,7 +6,7 @@ interface ErrorMessageProps {
 
 export function ErrorMessage({ message, onDismiss, onRetry }: ErrorMessageProps) {
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 bg-red-50 dark:bg-red-900/20 border-b border-red-200 dark:border-red-800 p-4 shadow-lg">
+    <div className="fixed top-0 left-0 right-0 z-[9999] bg-red-50 dark:bg-red-900/20 border-b border-red-200 dark:border-red-800 p-4 shadow-lg">
       <div className="max-w-4xl mx-auto">
         <div className="flex items-start justify-between gap-3">
           <div className="flex items-start gap-3">

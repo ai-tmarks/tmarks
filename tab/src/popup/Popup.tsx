@@ -252,13 +252,10 @@ export function Popup() {
   }
 
   return (
-    <div className="relative h-[80vh] min-h-[620px] w-[380px] overflow-hidden rounded-2xl bg-slate-950 text-slate-100 shadow-2xl">
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(56,189,248,0.25),transparent_65%)]" />
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_bottom,_rgba(129,140,248,0.22),transparent_60%)]" />
-      <div className="absolute inset-0 bg-slate-950/85 backdrop-blur-2xl" />
+    <div className="relative h-[80vh] min-h-[620px] w-[380px] overflow-hidden rounded-2xl bg-white text-gray-900 shadow-2xl">
 
       <div className="relative flex h-full flex-col">
-        <div className="pointer-events-none absolute top-4 left-0 right-0 z-30 px-4 space-y-2">
+        <div className="pointer-events-none absolute top-16 left-0 right-0 z-[9999] px-4 space-y-2">
           {error && (
             <div className="pointer-events-auto">
               <ErrorMessage
@@ -275,61 +272,37 @@ export function Popup() {
           )}
         </div>
 
-        <header className="relative px-3 pt-2.5 pb-2">
-          <div className="absolute inset-0 rounded-b-3xl bg-gradient-to-br from-blue-600/90 via-indigo-600/85 to-purple-600/90 shadow-[0_25px_55px_rgba(79,70,229,0.35)]" />
-          <div className="relative flex items-center justify-between gap-3">
-            <div className="flex items-center gap-1.5">
-              <button
-                onClick={handleBackToSelector}
-                className="flex h-7 w-7 items-center justify-center rounded-lg text-white transition-all duration-200 hover:bg-white/15 active:scale-95"
-                title="返回"
-              >
-                <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
-                </svg>
-              </button>
-              <div className="flex h-7 w-7 items-center justify-center rounded-xl bg-white/15 backdrop-blur-xl shadow-lg shadow-indigo-500/40">
-                <svg className="h-4 w-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M5 4a2 2 0 012-2h6a2 2 0 012 2v14l-5-2.5L5 18V4z" />
-                </svg>
-              </div>
-              <div className="flex flex-col justify-center">
-                <p className="text-[10px] font-semibold leading-none tracking-[0.28em] text-white">AI 标签助手</p>
-              </div>
-            </div>
+        <header className="fixed top-0 left-0 right-0 z-40 px-3 pt-2 pb-2.5 bg-white border-b border-gray-200 shadow-sm rounded-b-2xl">
+          <div className="flex items-center gap-2">
             <button
-              onClick={openOptions}
-              className="relative flex h-7 w-7 items-center justify-center rounded-lg text-white transition-all duration-200 hover:bg-white/15 active:scale-95"
-              title="打开设置"
+              onClick={handleBackToSelector}
+              className="flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-lg text-gray-600 transition-all duration-200 hover:bg-gray-100 active:scale-95"
+              title="返回"
             >
-              <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+              <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
               </svg>
             </button>
-          </div>
-
-          <div className="relative mt-2 flex flex-nowrap items-center gap-1.5 text-[9.5px] text-white/70">
-            <span className="inline-flex items-center gap-1 rounded-full bg-white/15 px-2 py-0.5 text-white/85">
+            <span className="inline-flex flex-shrink-0 items-center gap-1 rounded-full bg-blue-50 px-2 py-1 text-[10px] text-blue-600 font-medium">
               推荐 {recommendedTags.length}
             </span>
-            <span className="inline-flex items-center gap-1 rounded-full bg-white/12 px-2 py-0.5 text-white/80">
-              已选择 {selectedTags.length}
+            <span className="inline-flex flex-shrink-0 items-center gap-1 rounded-full bg-indigo-50 px-2 py-1 text-[10px] text-indigo-600 font-medium">
+              已选 {selectedTags.length}
             </span>
-            <span className="inline-flex items-center gap-1 rounded-full bg-white/10 px-2 py-0.5 text-white/75">
-              标签库 {existingTags.length}
+            <span className="inline-flex flex-shrink-0 items-center gap-1 rounded-full bg-purple-50 px-2 py-1 text-[10px] text-purple-600 font-medium">
+              库 {existingTags.length}
             </span>
             <div className="ml-auto flex gap-1.5">
               <button
                 onClick={() => window.close()}
-                className="rounded-lg border border-white/10 bg-white/10 px-3 py-1.5 text-[11px] font-medium text-white/75 transition-all duration-200 hover:bg-white/20 active:scale-95"
+                className="rounded-lg border border-gray-300 bg-white px-3 py-1.5 text-[11px] font-medium text-gray-700 transition-all duration-200 hover:bg-gray-50 active:scale-95"
               >
                 取消
               </button>
               <button
                 onClick={handleSave}
                 disabled={isSaving || selectedTags.length === 0}
-                className="rounded-lg bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 px-4 py-1.5 text-[11px] font-semibold text-white shadow-lg shadow-blue-500/30 transition-all duration-200 hover:shadow-xl hover:shadow-blue-500/40 disabled:cursor-not-allowed disabled:opacity-40 active:scale-95"
+                className="rounded-lg bg-gradient-to-r from-blue-500 to-indigo-500 px-4 py-1.5 text-[11px] font-semibold text-white shadow-sm transition-all duration-200 hover:shadow-md disabled:cursor-not-allowed disabled:opacity-40 active:scale-95"
               >
                 {isSaving ? (
                   <span className="flex items-center justify-center gap-1">
@@ -345,33 +318,34 @@ export function Popup() {
               </button>
             </div>
           </div>
-
         </header>
 
-        <main className="relative flex-1 space-y-3 overflow-y-auto px-4 pb-5 pt-4">
+        <main className="relative flex-1 space-y-2.5 overflow-y-auto px-4 pb-[70px] pt-[60px] bg-white">
           {isRecommending && (
-            <section className="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/5 p-4 text-sm text-white/80 shadow-inner shadow-indigo-500/10 backdrop-blur-xl">
+            <section className="flex items-center gap-3 rounded-xl border border-gray-200 bg-white p-3.5 text-sm text-gray-700 shadow-lg">
               <LoadingSpinner />
               <p>AI 正在分析当前页面，请稍候...</p>
             </section>
           )}
 
           {selectedTags.length > 0 && (
-            <section className="rounded-2xl border border-blue-500/20 bg-blue-500/10 p-4 shadow-lg shadow-blue-900/20 backdrop-blur-xl">
-              <div className="mb-2 flex items-center justify-between">
-                <p className="text-sm font-semibold text-white">已选择标签</p>
-                <span className="rounded-full bg-white/15 px-2 py-0.5 text-xs font-medium text-white/80">
+            <section className="rounded-xl border border-blue-200 bg-gradient-to-br from-blue-50 to-indigo-50 p-3.5 shadow-lg">
+              <div className="mb-2 flex items-center justify-between gap-2">
+                <div className="flex items-center gap-2">
+                  <p className="text-sm font-semibold text-gray-800">已选择标签</p>
+                  <span className="text-[10px] text-gray-500">点击标签可取消选择。</span>
+                </div>
+                <span className="rounded-full bg-blue-100 px-2 py-0.5 text-xs font-medium text-blue-700">
                   {selectedTags.length}
                 </span>
               </div>
-              <p className="mb-2 text-[11px] text-white/60">点击标签可取消选择。</p>
               <div className="flex flex-wrap gap-1.5">
                 {selectedTags.map((tag) => (
                   <button
                     key={tag}
                     onClick={() => toggleTag(tag)}
                     title="点击移除标签"
-                className="inline-flex items-center rounded-lg bg-white/90 px-2.5 py-1 text-xs font-semibold text-blue-700 shadow-sm shadow-blue-500/20 transition-all duration-200 hover:bg-white/80 active:scale-95"
+                className="inline-flex items-center rounded-lg bg-white px-2.5 py-1 text-xs font-semibold text-blue-700 border border-blue-200 shadow-sm transition-all duration-200 hover:bg-blue-50 active:scale-95"
                   >
                     <span className="truncate max-w-[120px]">{tag}</span>
                   </button>
@@ -381,22 +355,22 @@ export function Popup() {
           )}
 
           {currentPage && (
-            <section className="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-lg shadow-indigo-500/10 backdrop-blur-xl">
-              <div className="mb-3 flex flex-wrap items-center justify-between gap-3">
+            <section className="rounded-xl border border-gray-200 bg-white p-3.5 shadow-lg">
+              <div className="mb-2.5 flex flex-wrap items-center justify-between gap-3">
                 <div>
-                  <p className="text-xs font-semibold text-white">可见性</p>
-                  <p className="text-[10px] text-white/60">选择保存后的访问权限</p>
+                  <p className="text-xs font-semibold text-gray-800">可见性</p>
+                  <p className="text-[10px] text-gray-500">选择保存后的访问权限</p>
                 </div>
                 <div className="flex items-center gap-2">
-                  <div className="inline-flex rounded-xl border border-white/20 bg-white/10 p-0.5 text-xs text-white shadow-inner shadow-white/10">
+                  <div className="inline-flex rounded-xl border border-gray-300 bg-gray-50 p-0.5 text-xs shadow-inner">
                     <button
                       type="button"
                       onClick={() => setIsPublic(false)}
                       aria-pressed={!isPublic}
-                      className={`rounded-lg px-3 py-1 font-medium transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-300/60 ${
+                      className={`rounded-lg px-3 py-1 font-medium transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-300 ${
                         !isPublic
-                          ? 'bg-slate-900/80 text-white shadow-lg shadow-slate-900/40'
-                          : 'text-white/70 hover:text-white'
+                          ? 'bg-gradient-to-r from-blue-500 to-indigo-500 text-white shadow-md'
+                          : 'text-gray-600 hover:text-gray-800'
                       }`}
                     >
                       隐私
@@ -405,10 +379,10 @@ export function Popup() {
                       type="button"
                       onClick={() => setIsPublic(true)}
                       aria-pressed={isPublic}
-                      className={`rounded-lg px-3 py-1 font-medium transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-300/60 ${
+                      className={`rounded-lg px-3 py-1 font-medium transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300 ${
                         isPublic
-                          ? 'bg-blue-500/80 text-white shadow-lg shadow-blue-700/40'
-                          : 'text-white/70 hover:text-white'
+                          ? 'bg-gradient-to-r from-emerald-500 to-teal-500 text-white shadow-md'
+                          : 'text-gray-600 hover:text-gray-800'
                       }`}
                     >
                       公开
@@ -419,18 +393,17 @@ export function Popup() {
                     type="button"
                     onClick={handleToggleThumbnail}
                     disabled={!currentPage.thumbnail}
-                    className={`rounded-lg border px-3 py-1 text-xs font-medium transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-300/60 ${
+                    className={`rounded-lg border px-3 py-1 text-xs font-medium transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-300 ${
                       includeThumbnail
-                        ? 'border-white/20 bg-white/10 text-white hover:bg-white/20'
-                        : 'border-amber-400/60 bg-amber-500/20 text-amber-100 shadow-inner shadow-amber-500/20'
+                        ? 'border-gray-300 bg-white text-gray-700 hover:bg-gray-50'
+                        : 'border-amber-400 bg-amber-50 text-amber-700 shadow-sm'
                     } ${!currentPage.thumbnail ? 'cursor-not-allowed opacity-40' : ''}`}
                   >
                     {includeThumbnail ? '忽略封面图' : '恢复封面图'}
                   </button>
                 </div>
               </div>
-              <div className="mb-3 space-y-2">
-                <p className="text-xs font-medium text-white/80">快速覆写标题</p>
+              <div className="mb-2.5">
                 <div className="flex gap-2">
                   <input
                     type="text"
@@ -442,12 +415,12 @@ export function Popup() {
                       }
                     }}
                     placeholder="输入自定义标题后回车或点击应用"
-                    className="flex-1 rounded-xl border border-white/20 bg-white/10 px-3 py-2 text-sm text-white placeholder:text-white/40 focus:outline-none focus:ring-2 focus:ring-blue-300/60 backdrop-blur"
+                    className="flex-1 rounded-xl border border-gray-300 bg-white px-3 py-2 text-sm text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                   />
                   <button
                     onClick={handleApplyTitleOverride}
                     disabled={!titleOverride.trim() || !currentPage}
-                    className="rounded-xl bg-gradient-to-r from-blue-500 to-indigo-500 px-4 py-2 text-sm font-medium text-white shadow-lg shadow-blue-500/30 transition-all duration-200 hover:shadow-xl hover:shadow-blue-500/40 disabled:cursor-not-allowed disabled:opacity-40 active:scale-95"
+                    className="rounded-xl bg-gradient-to-r from-blue-500 to-indigo-500 px-4 py-2 text-sm font-medium text-white shadow-sm transition-all duration-200 hover:shadow-md disabled:cursor-not-allowed disabled:opacity-40 active:scale-95"
                   >
                     应用
                   </button>
@@ -463,15 +436,15 @@ export function Popup() {
           )}
 
           {recommendedTags.length > 0 && (
-            <section className="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-lg shadow-blue-900/15 backdrop-blur-xl">
-              <div className="mb-3 flex items-center justify-between">
+            <section className="rounded-xl border border-purple-200 bg-gradient-to-br from-purple-50 to-blue-50 p-3.5 shadow-lg">
+              <div className="mb-2.5 flex items-center justify-between">
                 <div>
-                  <h2 className="flex items-center gap-2 text-sm font-semibold text-white">
+                  <h2 className="flex items-center gap-2 text-sm font-semibold text-gray-800">
                     AI 推荐
                   </h2>
-                  <p className="mt-1 text-xs text-blue-100/80">根据页面内容实时生成，点击可快速选择。</p>
+                  <p className="mt-1 text-xs text-gray-600">根据页面内容实时生成，点击可快速选择。</p>
                 </div>
-                <span className="rounded-full bg-white/15 px-2 py-0.5 text-xs font-medium text-white/80">
+                <span className="rounded-full bg-purple-100 px-2 py-0.5 text-xs font-medium text-purple-700">
                   {recommendedTags.length}
                 </span>
               </div>
@@ -479,23 +452,29 @@ export function Popup() {
             </section>
           )}
 
-          {existingTags.length > 0 && (
-            <section className="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-lg shadow-slate-900/30 backdrop-blur-xl">
-              <div className="mb-3 flex items-center justify-between">
-                <div>
-                  <h2 className="flex items-center gap-2 text-sm font-semibold text-white">
-                    <svg className="h-4 w-4 text-emerald-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
-                    </svg>
-                    标签库
-                  </h2>
-                  <p className="mt-1 text-xs text-white/60">与你的历史标签数据同步，点选即可加入。</p>
-                </div>
-                <span className="rounded-full bg-white/15 px-2 py-0.5 text-xs font-medium text-white/70">
-                  {existingTags.length}
-                </span>
+          <section className="rounded-xl border border-emerald-200 bg-gradient-to-br from-emerald-50 to-teal-50 p-3.5 shadow-lg">
+            <div className="mb-2.5 flex items-center justify-between">
+              <div>
+                <h2 className="flex items-center gap-2 text-sm font-semibold text-gray-800">
+                  <svg className="h-4 w-4 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+                  </svg>
+                  标签库
+                </h2>
+                <p className="mt-1 text-xs text-gray-600">与你的历史标签数据同步，点选即可加入。</p>
               </div>
-              <div className="max-h-48 overflow-y-auto pr-1 scrollbar-thin scrollbar-thumb-white/20 scrollbar-track-transparent">
+              <span className="rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-medium text-emerald-700">
+                {existingTags.length}
+              </span>
+            </div>
+            <div className="max-h-48 overflow-y-auto pr-1 scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent">
+              {existingTags.length === 0 ? (
+                <div className="flex items-center justify-center py-6">
+                  <p className="text-xs text-gray-500">
+                    {isLoading ? '加载中...' : '暂无标签'}
+                  </p>
+                </div>
+              ) : (
                 <div className="flex flex-wrap gap-1.5">
                   {existingTags
                     .sort((a, b) => b.count - a.count)
@@ -507,8 +486,8 @@ export function Popup() {
                           onClick={() => toggleTag(tag.name)}
                           className={`inline-flex items-center rounded-lg px-2.5 py-1 text-xs font-medium transition-all duration-200 active:scale-95 ${
                             isSelected
-                              ? 'border border-emerald-300/40 bg-emerald-400/25 text-emerald-100 shadow-inner shadow-emerald-500/20'
-                              : 'border border-white/10 bg-white/8 text-white/70 hover:bg-white/15'
+                              ? 'border border-emerald-300 bg-emerald-100 text-emerald-700 shadow-sm'
+                              : 'border border-gray-300 bg-white text-gray-700 hover:bg-gray-50'
                           }`}
                         >
                           <span
@@ -523,42 +502,40 @@ export function Popup() {
                       );
                     })}
                 </div>
-              </div>
-            </section>
-          )}
-
-          <section className="rounded-2xl border border-purple-500/25 bg-gradient-to-r from-purple-500/15 via-indigo-500/15 to-blue-500/15 p-4 shadow-lg shadow-purple-900/20 backdrop-blur-xl">
-            <h2 className="mb-2 flex items-center gap-2 text-sm font-semibold text-white">
-              <svg className="h-4 w-4 text-purple-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
-              </svg>
-              自定义标签
-            </h2>
-            <div className="flex gap-2">
-              <input
-                type="text"
-                value={customTagInput}
-                onChange={(e) => setCustomTagInput(e.target.value)}
-                onKeyPress={handleKeyPress}
-                placeholder="输入标签名并回车添加"
-                className="flex-1 rounded-xl border border-white/20 bg-white/10 px-3 py-2 text-sm text-white placeholder:text-white/40 focus:outline-none focus:ring-2 focus:ring-purple-300/50 backdrop-blur-lg"
-              />
-              <button
-                onClick={handleAddCustomTag}
-                disabled={!customTagInput.trim()}
-                className="rounded-xl bg-gradient-to-r from-purple-500 to-indigo-500 px-4 py-2 text-sm font-medium text-white shadow-lg shadow-purple-500/30 transition-all duration-200 hover:shadow-xl hover:shadow-purple-500/40 disabled:cursor-not-allowed disabled:opacity-40 active:scale-95"
-              >
-                添加
-              </button>
+              )}
             </div>
           </section>
 
           {lastSaveDurationMs !== null && (
-            <section className="rounded-2xl border border-white/10 bg-white/5 p-3 text-xs text-white/70 shadow-inner shadow-white/10 backdrop-blur-xl">
+            <section className="rounded-xl border border-gray-200 bg-white p-2.5 text-xs text-gray-600 shadow-sm">
               最近一次保存耗时 {(lastSaveDurationMs / 1000).toFixed(2)}s
             </section>
           )}
         </main>
+
+        {/* Fixed Footer - Custom Tag Input */}
+        <footer className="fixed bottom-0 left-0 right-0 z-40 px-3 pt-2 pb-2.5 bg-white border-t border-gray-200 shadow-sm rounded-t-2xl">
+          <div className="flex items-center gap-2">
+            <svg className="h-4 w-4 flex-shrink-0 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
+            </svg>
+            <input
+              type="text"
+              value={customTagInput}
+              onChange={(e) => setCustomTagInput(e.target.value)}
+              onKeyPress={handleKeyPress}
+              placeholder="输入标签名并回车添加"
+              className="flex-1 rounded-xl border border-gray-300 bg-white px-3 py-1.5 text-sm text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+            />
+            <button
+              onClick={handleAddCustomTag}
+              disabled={!customTagInput.trim()}
+              className="rounded-xl bg-gradient-to-r from-blue-500 to-indigo-500 px-4 py-1.5 text-sm font-medium text-white shadow-sm transition-all duration-200 hover:shadow-md disabled:cursor-not-allowed disabled:opacity-40 active:scale-95"
+            >
+              添加
+            </button>
+          </div>
+        </footer>
 
       </div>
     </div>

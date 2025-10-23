@@ -105,7 +105,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
     return success({
       access_token: accessToken,
       token_type: 'Bearer',
-      expires_in: 2592000, // 30 days in seconds
+      expires_in: 31536000, // 365 days in seconds
       user: {
         id: user.id,
         username: user.username,

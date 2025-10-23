@@ -192,6 +192,23 @@ export interface PublicSharePayload {
   generated_at: string
 }
 
+export interface PublicSharePaginatedPayload {
+  profile: {
+    username: string
+    title: string | null
+    description: string | null
+    slug: string
+  }
+  bookmarks: Bookmark[]
+  tags: Array<Tag & { bookmark_count: number }>
+  meta: {
+    page_size: number
+    count: number
+    next_cursor: string | null
+    has_more: boolean
+  }
+}
+
 // 查询参数
 export interface BookmarkQueryParams {
   keyword?: string

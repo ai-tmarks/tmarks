@@ -1,6 +1,6 @@
-import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query'
+import { useQuery, useMutation, useQueryClient, useInfiniteQuery } from '@tanstack/react-query'
 import { shareService } from '@/services/share'
-import type { ShareSettings, UpdateShareSettingsRequest, PublicSharePayload } from '@/lib/types'
+import type { ShareSettings, UpdateShareSettingsRequest, PublicSharePayload, PublicSharePaginatedPayload } from '@/lib/types'
 
 export const SHARE_SETTINGS_QUERY_KEY = 'share-settings'
 
@@ -16,7 +16,7 @@ export function useUpdateShareSettings() {
   const queryClient = useQueryClient()
   return useMutation({
     mutationFn: (payload: UpdateShareSettingsRequest) => shareService.updateSettings(payload),
-    onSuccess: (data) => {
+    onSuccess: (data: ShareSettings) => {
       queryClient.setQueryData([SHARE_SETTINGS_QUERY_KEY], data)
     },
   })
@@ -28,5 +28,22 @@ export function usePublicShare(slug: string, enabled: boolean) {
     queryFn: () => shareService.getPublicShare(slug),
     enabled: enabled && Boolean(slug),
     staleTime: 60 * 1000,
+  })
+}
+
+export function useInfinitePublicShare(slug: string, enabled: boolean, pageSize = 30) {
+  return useInfiniteQuery<PublicSharePaginatedPayload>({
+    queryKey: ['public-share-infinite', slug, pageSize],
+    queryFn: ({ pageParam }: { pageParam: unknown }) =>
+      shareService.getPublicSharePaginated(slug, {
+        page_size: pageSize,
+        page_cursor: pageParam as string | undefined,
+      }),
+    enabled: enabled && Boolean(slug),
+    staleTime: 60 * 1000,
+    initialPageParam: undefined,
+    getNextPageParam: (lastPage: PublicSharePaginatedPayload) => {
+      return lastPage.meta.has_more ? lastPage.meta.next_cursor : undefined
+    },
   })
 }

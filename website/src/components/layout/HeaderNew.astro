@@ -1,0 +1,20 @@
+---
+import { Bookmark } from 'lucide-react';
+---
+
+<header class="fixed top-0 left-0 right-0 z-50 glass border-b border-border/50 shadow-deep backdrop-blur-xl">
+  <div class="container mx-auto px-6">
+    <div class="flex items-center justify-center h-20 animate-fade-in-down">
+      {/* Logo */}
+      <a href="/" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 rounded-lg bg-foreground flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
+          <Bookmark className="w-6 h-6 text-background" strokeWidth={1.5} />
+        </div>
+        <span class="text-2xl font-bold text-foreground tracking-tight">
+          TMarks
+        </span>
+      </a>
+    </div>
+  </div>
+</header>
+

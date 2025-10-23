@@ -43,19 +43,25 @@ function getFaviconUrl(url: string): string {
 }
 
 /**
- * Collect all tabs in current window and save to TMarks
+ * Collect selected tabs in current window and save to TMarks
  */
 export async function collectCurrentWindowTabs(
-  config: BookmarkSiteConfig
+  config: BookmarkSiteConfig,
+  selectedTabIds?: Set<number>
 ): Promise<TabGroupResult> {
   try {
     // Get all tabs in current window
     const tabs = await getCurrentWindowTabs();
 
     // Filter out empty tabs and current popup
-    const validTabs = tabs.filter(
+    let validTabs = tabs.filter(
       (tab) => tab.url && !tab.url.startsWith('chrome://') && !tab.url.startsWith('chrome-extension://')
     );
+
+    // If selectedTabIds is provided, only collect selected tabs
+    if (selectedTabIds && selectedTabIds.size > 0) {
+      validTabs = validTabs.filter((tab) => tab.id && selectedTabIds.has(tab.id));
+    }
 
     if (validTabs.length === 0) {
       return {

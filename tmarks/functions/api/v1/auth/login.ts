@@ -99,13 +99,13 @@ export const onRequestPost: PagesFunction<Env>[] = [
       getJwtAccessTokenExpiresIn()
     )
 
-    // 生成刷新令牌（7天或30天，取决于 remember_me）
+    // 生成刷新令牌（365天）
     const refreshToken = generateToken(32)
     const refreshTokenHash = await hashRefreshToken(refreshToken)
 
-    // 计算过期时间
+    // 计算过期时间（365天）
     const expiresAt = new Date()
-    expiresAt.setDate(expiresAt.getDate() + (body.remember_me ? 30 : 7))
+    expiresAt.setDate(expiresAt.getDate() + 365)
 
     // 存储刷新令牌
     await context.env.DB.prepare(
@@ -136,7 +136,7 @@ export const onRequestPost: PagesFunction<Env>[] = [
       access_token: accessToken,
       refresh_token: refreshToken,
       token_type: 'Bearer',
-      expires_in: 2592000, // 30 days in seconds
+      expires_in: 31536000, // 365 days in seconds
       user: {
         id: user.id,
         username: user.username,

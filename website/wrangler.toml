@@ -1,0 +1,6 @@
+name = "tmarks-website"
+compatibility_date = "2025-01-21"
+
+# Cloudflare Pages 配置
+pages_build_output_dir = "dist"
+

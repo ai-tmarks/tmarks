@@ -152,24 +152,45 @@ export function TabGroupsPage() {
     try {
       console.log('📦 handleMoveGroup:', { groupId, newParentId, newPosition })
 
-      // 更新拖拽项的 parent_id 和 position
-      await tabGroupsService.updateTabGroup(groupId, {
-        parent_id: newParentId,
-        position: newPosition
-      })
+      // 获取拖拽项
+      const draggedGroup = tabGroups.find(g => g.id === groupId)
+      if (!draggedGroup) {
+        console.error('Dragged group not found')
+        return
+      }
 
-      // 更新同级其他项的 position（将大于等于 newPosition 的项都 +1）
+      // 获取同级所有项（包括拖拽项）
       const siblings = tabGroups.filter(g =>
-        (g.parent_id || null) === newParentId && g.id !== groupId
+        (g.parent_id || null) === newParentId
       )
 
-      const needsUpdate = siblings.filter(g => (g.position || 0) >= newPosition)
-      console.log('  → Updating positions for', needsUpdate.length, 'siblings')
+      // 按当前 position 排序
+      siblings.sort((a, b) => (a.position || 0) - (b.position || 0))
 
+      // 移除拖拽项（如果在同级中）
+      const draggedIndex = siblings.findIndex(g => g.id === groupId)
+      if (draggedIndex !== -1) {
+        siblings.splice(draggedIndex, 1)
+      }
+
+      // 插入到新位置
+      siblings.splice(newPosition, 0, draggedGroup)
+
+      // 重新分配 position（从 0 开始）
+      const updates = siblings.map((g, index) => ({
+        id: g.id,
+        position: index,
+        parent_id: newParentId
+      }))
+
+      console.log('  → Reordering', updates.length, 'items')
+
+      // 批量更新
       await Promise.all(
-        needsUpdate.map(g =>
-          tabGroupsService.updateTabGroup(g.id, {
-            position: (g.position || 0) + 1
+        updates.map(update =>
+          tabGroupsService.updateTabGroup(update.id, {
+            position: update.position,
+            parent_id: update.parent_id
           })
         )
       )

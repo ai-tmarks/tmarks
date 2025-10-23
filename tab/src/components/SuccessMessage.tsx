@@ -18,7 +18,7 @@ export function SuccessMessage({ message, onDismiss, autoHideDuration = 3000 }: 
   }, [onDismiss, autoHideDuration]);
 
   return (
-    <div className="fixed top-4 right-4 z-50 animate-in slide-in-from-top-5 fade-in duration-300">
+    <div className="fixed top-4 right-4 z-[9999] animate-in slide-in-from-top-5 fade-in duration-300">
       <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-green-200 dark:border-green-800 p-4 min-w-[320px] max-w-md">
         <div className="flex items-start gap-3">
           <div className="bg-green-100 dark:bg-green-900/30 rounded-full p-1.5 flex-shrink-0">
