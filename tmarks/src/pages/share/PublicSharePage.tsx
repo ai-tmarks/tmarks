@@ -245,11 +245,11 @@ export function PublicSharePage() {
       searchCleanupTimerRef.current = null
     }
 
-    // 如果有搜索关键词，设置20秒后自动清空
+    // 如果有搜索关键词，设置15秒后自动清空
     if (searchKeyword.trim()) {
       searchCleanupTimerRef.current = setTimeout(() => {
         setSearchKeyword('')
-      }, 20000) // 20秒
+      }, 15000) // 15秒
     }
 
     // 清理函数

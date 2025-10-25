@@ -93,7 +93,7 @@ export const tabGroupsService = {
    */
   async updateTabGroupItem(
     itemId: string,
-    data: { title?: string; is_pinned?: number; is_todo?: number; position?: number }
+    data: { title?: string; is_pinned?: number; is_todo?: number; is_archived?: number; position?: number }
   ) {
     const response = await apiClient.patch<{ item: any }>(`/../tab-groups/items/${itemId}`, data)
     return response.data!.item
@@ -107,11 +107,30 @@ export const tabGroupsService = {
   },
 
   /**
+   * 移动标签页项到其他分组
+   */
+  async moveTabGroupItem(itemId: string, targetGroupId: string, position?: number) {
+    const response = await apiClient.post<{ item: any }>(
+      `/../tab-groups/items/${itemId}/move`,
+      {
+        target_group_id: targetGroupId,
+        position,
+      }
+    )
+    return response.data!.item
+  },
+
+  /**
    * 批量添加标签页项到分组
    */
-  async addItemsToGroup(_groupId: string, _items: Array<{ title: string; url: string; favicon?: string }>) {
-    // 由于后端没有批量添加的 API，暂时不支持此功能
-    throw new Error('批量添加功能需要后端支持')
+  async addItemsToGroup(groupId: string, items: Array<{ title: string; url: string; favicon?: string }>) {
+    const response = await apiClient.post<{
+      message: string
+      added_count: number
+      total_items: number
+      items: any[]
+    }>(`/../tab-groups/${groupId}/items/batch`, { items })
+    return response.data!
   },
 
   /**
@@ -126,21 +145,21 @@ export const tabGroupsService = {
    * 恢复标签页组
    */
   async restoreTabGroup(id: string) {
-    await apiClient.post(`/api/tab-groups/${id}/restore`, {})
+    await apiClient.post(`/../tab-groups/${id}/restore`, {})
   },
 
   /**
    * 永久删除标签页组
    */
   async permanentDeleteTabGroup(id: string) {
-    await apiClient.delete(`/api/tab-groups/${id}/permanent-delete`)
+    await apiClient.delete(`/../tab-groups/${id}/permanent-delete`)
   },
 
   /**
    * 创建分享链接
    */
   async createShare(groupId: string, options?: { is_public?: boolean; expires_in_days?: number }) {
-    const response = await apiClient.post<ShareResponse>(`/api/tab-groups/${groupId}/share`, options || {})
+    const response = await apiClient.post<ShareResponse>(`/../tab-groups/${groupId}/share`, options || {})
     return response.data!
   },
 
@@ -148,7 +167,7 @@ export const tabGroupsService = {
    * 获取分享信息
    */
   async getShare(groupId: string) {
-    const response = await apiClient.get<ShareResponse>(`/api/tab-groups/${groupId}/share`)
+    const response = await apiClient.get<ShareResponse>(`/../tab-groups/${groupId}/share`)
     return response.data!
   },
 
@@ -156,7 +175,7 @@ export const tabGroupsService = {
    * 删除分享
    */
   async deleteShare(groupId: string) {
-    await apiClient.delete(`/api/tab-groups/${groupId}/share`)
+    await apiClient.delete(`/../tab-groups/${groupId}/share`)
   },
 
   /**

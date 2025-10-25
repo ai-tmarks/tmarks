@@ -32,12 +32,18 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
     // 如果没有用户ID，尝试查找数据库中的第一个用户
     if (!userId) {
       try {
+        interface UserRow {
+          id: string
+          username: string
+          email: string | null
+        }
+        
         const { results: users } = await context.env.DB.prepare(
           'SELECT id, username, email FROM users ORDER BY created_at ASC LIMIT 1'
-        ).all()
+        ).all<UserRow>()
 
         if (users && users.length > 0) {
-          userId = (users[0] as any).id
+          userId = users[0].id
         } else {
           userId = 'default-user'
         }
@@ -116,7 +122,14 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
 async function collectUserData(db: D1Database, userId: string): Promise<TMarksExportData> {
   try {
     // 获取用户信息（如果是默认用户，创建虚拟用户信息）
-    let user: any
+    interface UserRow {
+      id: string
+      email: string | null
+      username: string
+      created_at: string
+    }
+    
+    let user: UserRow
     if (userId === 'default-user') {
       user = {
         id: 'default-user',
@@ -127,12 +140,13 @@ async function collectUserData(db: D1Database, userId: string): Promise<TMarksEx
     } else {
       const { results: users } = await db.prepare(
         'SELECT id, email, username, created_at FROM users WHERE id = ?'
-      ).bind(userId).all()
+      ).bind(userId).all<UserRow>()
 
-      user = users?.[0] as any
-      if (!user) {
+      const foundUser = users?.[0]
+      if (!foundUser) {
         throw new Error('User not found')
       }
+      user = foundUser
     }
 
     // 获取所有书签
@@ -267,19 +281,23 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
 }
 
 async function getExportStats(db: D1Database, userId: string) {
+  interface CountRow {
+    count: number
+  }
+  
   const [bookmarkCount, tagCount, pinnedCount] = await Promise.all([
     db.prepare('SELECT COUNT(*) as count FROM bookmarks WHERE user_id = ? AND deleted_at IS NULL')
-      .bind(userId).first(),
+      .bind(userId).first<CountRow>(),
     db.prepare('SELECT COUNT(*) as count FROM tags WHERE user_id = ? AND deleted_at IS NULL')
-      .bind(userId).first(),
+      .bind(userId).first<CountRow>(),
     db.prepare('SELECT COUNT(*) as count FROM bookmarks WHERE user_id = ? AND is_pinned = 1 AND deleted_at IS NULL')
-      .bind(userId).first()
+      .bind(userId).first<CountRow>()
   ])
 
   return {
-    total_bookmarks: (bookmarkCount as any)?.count || 0,
-    total_tags: (tagCount as any)?.count || 0,
-    pinned_bookmarks: (pinnedCount as any)?.count || 0
+    total_bookmarks: bookmarkCount?.count || 0,
+    total_tags: tagCount?.count || 0,
+    pinned_bookmarks: pinnedCount?.count || 0
   }
 }
 

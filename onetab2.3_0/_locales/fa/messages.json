@@ -1,0 +1,1715 @@
+{
+   "95PctMemoryReduction": {
+      "message": "95% کاهش مصرف حافظه"
+   },
+   "Folder": {
+      "message": "پوشه"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "message": "OneTab برای Firefox نیز در دسترس است"
+   },
+   "aDashZ": {
+      "message": "الف–ی"
+   },
+   "about": {
+      "message": "درباره"
+   },
+   "addOneTabNow": {
+      "message": "اکنون OneTab را اضافه کنید"
+   },
+   "all": {
+      "message": "همه"
+   },
+   "allBookmarks": {
+      "message": "همهٔ نشانک‌ها"
+   },
+   "allOpenTabsAlreadyStoredHere": {
+      "message": "همهٔ برگه‌های باز از قبل اینجا ذخیره شده‌اند:"
+   },
+   "allowFileAccessInstructions": {
+      "message": "برای اجازهٔ باز شدن مستقیم فایل‌ها، به تنظیمات ➝ افزونه‌ها ➝ OneTab ➝ جزئیات ➝ اجازهٔ دسترسی به URLهای فایل بروید"
+   },
+   "alreadyExistingOpenTabsWillBeClosedAfterMerge": {
+      "message": "همهٔ زبانه‌های باز که از قبل در این گروه وجود دارند، پس از ادغام بسته خواهند شد."
+   },
+   "alternatePlainTextFormat": {
+      "message": "یا می‌توانید متن ساده را در این قالب بیاورید:"
+   },
+   "approve": {
+      "message": "تأیید"
+   },
+   "archived": {
+      "message": "بایگانی‌شده"
+   },
+   "autoTheme": {
+      "message": "خودکار (مطابق تنظیمات سیستم‌عامل)"
+   },
+   "backupAndSync": {
+      "message": "پشتیبان‌گیری و همگام‌سازی"
+   },
+   "betaReleaseReportBugsHere": {
+      "message": "بتا — گزارش اشکال"
+   },
+   "bookmarkCount_few": {
+      "message": "{COUNT} نشانک"
+   },
+   "bookmarkCount_many": {
+      "message": "{COUNT} نشانک"
+   },
+   "bookmarkCount_one": {
+      "message": "{COUNT} نشانک"
+   },
+   "bookmarkCount_other": {
+      "message": "{COUNT} نشانک"
+   },
+   "bookmarkCount_two": {
+      "message": "{COUNT} نشانک"
+   },
+   "bookmarkCount_zero": {
+      "message": "{COUNT} نشانک"
+   },
+   "bookmarksPermissionNecesssary": {
+      "message": "مجوز نشانک‌ها برای امکان درون‌ریزی نشانک‌های مرورگرتان توسط OneTab لازم است"
+   },
+   "bulkActions": {
+      "message": "عملیات گروهی"
+   },
+   "canDragTextNote": {
+      "message": "توجه: امکان کشیدن و رها کردن متنی که حاوی پیوندهای وب است، مستقیماً از صفحهٔ وب دیگر یا از یک سند نیز وجود دارد. می‌توانید متن را بدون نیاز به این جعبهٔ درون‌ریزی، مستقیماً به صفحهٔ OneTab خود بکشید."
+   },
+   "canPasteWebContentForExample": {
+      "message": "می‌توانید متنی را که از یک صفحهٔ وب یا سندی کپی کرده‌اید جای‌گذاری کنید و پیوندها به‌طور خودکار استخراج می‌شوند. برای مثال:"
+   },
+   "cancel": {
+      "message": "لغو"
+   },
+   "cannotConnectToServerDeletionRequestQueued": {
+      "message": "اتصال به سرور OneTab برقرار نشد. لطفاً اتصال اینترنت خود را بررسی کنید. درخواست حذف صفحهٔ اشتراکی شما به‌صورت محلی در صف قرار گرفت و به‌محض در دسترس بودنِ دوبارهٔ سرور OneTab به‌طور خودکار ارسال خواهد شد."
+   },
+   "cannotCreateTabGroupInTabGroup": {
+      "message": "مقصد انتخاب‌شده یک گروهِ برگه است. نمی‌توانید داخل یک گروهِ برگهٔ موجود، گروهِ برگهٔ دیگری بسازید. لطفاً مقصد دیگری را انتخاب کنید."
+   },
+   "cannotMixTabsGroupsFoldersDuringDrag": {
+      "message": "امکان ترکیب برگه‌ها، گروه‌ها و پوشه‌ها هنگام کشیدن وجود ندارد. زیرا مثلاً نمی‌توانید یک پوشه را به همان جاهایی بکشید که می‌توان یک برگه را کشید."
+   },
+   "caseSensitive": {
+      "message": "حساس به کوچکی/بزرگی حروف"
+   },
+   "changesMadeSinceSharedPageCreation": {
+      "message": "از زمان ایجاد صفحهٔ اشتراک‌گذاری‌شده تغییراتی اعمال شده است. برای به‌روزرسانی صفحهٔ اشتراکی موجود، دکمهٔ «به‌روزرسانی» را کلیک کنید."
+   },
+   "checkboxesDeterminePinnedAndGroupedTabMergeInclusion": {
+      "message": "چک‌باکس‌های بالای این صفحه تعیین می‌کنند که آیا برگه‌های سنجاق‌شده یا برگه‌های داخل گروه‌های برگه در ادغام گنجانده شوند یا نه."
+   },
+   "chooseALocation": {
+      "message": "مکان را انتخاب کنید"
+   },
+   "chooseALocationToImportTo": {
+      "message": "مکانی برای درون‌ریزی انتخاب کنید"
+   },
+   "chooseExportLocation": {
+      "message": "مکانِ مبدأ برون‌ریزی را انتخاب کنید"
+   },
+   "chooseLightDarkTheme": {
+      "message": "انتخاب تم روشن/تاریک"
+   },
+   "chooseLocationToCopyTo": {
+      "message": "مکانی برای کپی انتخاب کنید"
+   },
+   "chooseLocationToMoveTo": {
+      "message": "مکانی برای انتقال انتخاب کنید"
+   },
+   "chooseLocationToRestoreTo": {
+      "message": "مکانی برای بازیابی انتخاب کنید"
+   },
+   "chooseToIncludeNotes": {
+      "message": "اگر به زبانه‌ها یا گروه‌ها یادداشتی افزوده‌اید، انتخاب کنید که آیا آن‌ها در صفحهٔ وبِ اشتراکی گنجانده شوند یا نه"
+   },
+   "chooseToIncludeRatings": {
+      "message": "اگر به زبانه‌ها یا گروه‌ها امتیاز ستاره‌ای داده‌اید، انتخاب کنید که آیا آن‌ها در صفحهٔ وبِ اشتراکی گنجانده شوند یا نه"
+   },
+   "chromeIncognitoInstructions": {
+      "message": "در تنظیمات مرورگر، به «تنظیمات» → «افزونه‌ها» → «OneTab» → «جزئیات» بروید و سپس «اجازه در حالت ناشناس» را فعال کنید."
+   },
+   "clickButtonToAllowTabAccess": {
+      "message": "برای دادن اجازهٔ دسترسی OneTab به برگه‌های بازتان، روی دکمهٔ زیر کلیک کنید."
+   },
+   "clickHereToContinue": {
+      "message": "برای ادامه اینجا کلیک کنید."
+   },
+   "clickOneTabIconToStoreTabsHere": {
+      "message": "برای ذخیرهٔ زبانه‌های بازتان اینجا، روی نماد OneTab در نوارابزار مرورگرتان کلیک کنید."
+   },
+   "closeSelectedTabsAndStoreInONETAB_few": {
+      "message": "بستن {COUNT} برگهٔ انتخاب‌شده و ذخیره در ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_many": {
+      "message": "بستن {COUNT} برگهٔ انتخاب‌شده و ذخیره در ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_one": {
+      "message": "بستن {COUNT} برگهٔ انتخاب‌شده و ذخیره در ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_other": {
+      "message": "بستن {COUNT} برگهٔ انتخاب‌شده و ذخیره در ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_two": {
+      "message": "بستن {COUNT} برگهٔ انتخاب‌شده و ذخیره در ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_zero": {
+      "message": "بستن {COUNT} برگهٔ انتخاب‌شده و ذخیره در ONETAB"
+   },
+   "closeSelectedTabs_few": {
+      "message": "بستن {COUNT} برگهٔ انتخاب‌شده"
+   },
+   "closeSelectedTabs_many": {
+      "message": "بستن {COUNT} برگهٔ انتخاب‌شده"
+   },
+   "closeSelectedTabs_one": {
+      "message": "بستن {COUNT} برگهٔ انتخاب‌شده"
+   },
+   "closeSelectedTabs_other": {
+      "message": "بستن {COUNT} برگهٔ انتخاب‌شده"
+   },
+   "closeSelectedTabs_two": {
+      "message": "بستن {COUNT} برگهٔ انتخاب‌شده"
+   },
+   "closeSelectedTabs_zero": {
+      "message": "بستن {COUNT} برگهٔ انتخاب‌شده"
+   },
+   "closeTab": {
+      "message": "بستن برگه"
+   },
+   "closeTabAndStore": {
+      "message": "بستن برگه و ذخیره در ONETAB"
+   },
+   "closeTabs": {
+      "message": "بستن برگه‌ها"
+   },
+   "closeTabsAfterMerge": {
+      "message": "بستن برگه‌ها پس از ادغام"
+   },
+   "closeTabsAlreadyStoredInOneTab_few": {
+      "message": "بستن {COUNT} برگهٔ بازِ از قبل ذخیره‌شده در OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_many": {
+      "message": "بستن {COUNT} برگهٔ بازِ از قبل ذخیره‌شده در OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_one": {
+      "message": "بستن {COUNT} برگهٔ بازِ از قبل ذخیره‌شده در OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_other": {
+      "message": "بستن {COUNT} برگهٔ بازِ از قبل ذخیره‌شده در OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_two": {
+      "message": "بستن {COUNT} برگهٔ بازِ از قبل ذخیره‌شده در OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_zero": {
+      "message": "بستن {COUNT} برگهٔ بازِ از قبل ذخیره‌شده در OneTab"
+   },
+   "closeTabsAndStore": {
+      "message": "بستن برگه‌ها و ذخیره در ONETAB"
+   },
+   "closeTheseDuplicates": {
+      "message": "بستن این موارد تکراری"
+   },
+   "closeThisDuplicate": {
+      "message": "بستن این مورد تکراری"
+   },
+   "completeEditingShortcutInfo": {
+      "message": "هنگام ویرایش فیلد یادداشت، از این میان‌بر برای پایان‌دادن به ویرایش استفاده کنید."
+   },
+   "configureShortcuts": {
+      "message": "پیکربندی میان‌برها"
+   },
+   "conflictingShortcutsHint": {
+      "message": "اگر هر یک از میان‌برهای بالا کار نکرد یا با برنامه‌های دیگر تداخل داشت، می‌توانید کلید میان‌بر دیگری پیکربندی کنید."
+   },
+   "continue": {
+      "message": "ادامه"
+   },
+   "convertTabsIntoAList": {
+      "message": "تبدیل زبانه‌ها به یک فهرست"
+   },
+   "copiedToClipboard": {
+      "message": "در کلیپ‌بورد کپی شد"
+   },
+   "copy": {
+      "message": "کپی"
+   },
+   "copyLinksToClipboard": {
+      "message": "کپی پیوندها در کلیپ‌بورد"
+   },
+   "copySharedPageUrl": {
+      "message": "کپی URL صفحهٔ اشتراکی"
+   },
+   "copyToClipboard": {
+      "message": "کپی در کلیپ‌بورد"
+   },
+   "createANewGroupHere": {
+      "message": "ایجاد گروه جدید در اینجا"
+   },
+   "createFolderAbove": {
+      "message": "ایجاد پوشه در بالا"
+   },
+   "createFolderAboveBelow": {
+      "message": "ایجاد پوشه در بالا / پایین"
+   },
+   "createFolderAboveWithinBelow": {
+      "message": "ایجاد پوشه در بالا / داخل / پایین"
+   },
+   "createFolderBelow": {
+      "message": "ایجاد پوشه در پایین"
+   },
+   "createFolderWithin": {
+      "message": "ایجاد پوشه در داخل"
+   },
+   "createGroupAbove": {
+      "message": "ایجاد گروه در بالا"
+   },
+   "createGroupAboveBelow": {
+      "message": "ایجاد گروه در بالا / پایین"
+   },
+   "createGroupAboveWithinBelow": {
+      "message": "ایجاد گروه در بالا / داخل / پایین"
+   },
+   "createGroupBelow": {
+      "message": "ایجاد گروه در پایین"
+   },
+   "createGroupInsideDestination": {
+      "message": "ایجاد گروه جدید داخل مقصد"
+   },
+   "createGroupInsideDestinationHelp": {
+      "message": "اگر تیک نزنید، برگه‌هایتان مستقیماً به گروهِ مقصد افزوده می‌شوند. اگر تیک بزنید، یک گروهِ برگهٔ مرورگرِ جدید برای برگه‌هایتان درون گروهِ مقصد ایجاد می‌شود. فقط زمانی این گزینه را تیک بزنید که می‌خواهید از ویژگی «گروه‌های برگه» مرورگر استفاده کنید."
+   },
+   "createGroupWithin": {
+      "message": "ایجاد گروه در داخل"
+   },
+   "createNewGroupTip": {
+      "message": "برای ایجاد گروه جدید، تیکِ «نمایش فقط پوشه‌ها» را بردارید"
+   },
+   "createdOnOrAfterColon": {
+      "message": "ایجاد در یا پس از:"
+   },
+   "createdOnOrBeforeColon": {
+      "message": "ایجاد در یا پیش از:"
+   },
+   "createdPreceedingDate": {
+      "message": "ایجاد شده"
+   },
+   "darkTheme": {
+      "message": "تم تاریک"
+   },
+   "dayCount_few": {
+      "message": "{COUNT} روز"
+   },
+   "dayCount_many": {
+      "message": "{COUNT} روز"
+   },
+   "dayCount_one": {
+      "message": "{COUNT} روز"
+   },
+   "dayCount_other": {
+      "message": "{COUNT} روز"
+   },
+   "dayCount_two": {
+      "message": "{COUNT} روز"
+   },
+   "dayCount_zero": {
+      "message": "{COUNT} روز"
+   },
+   "delete": {
+      "message": "حذف"
+   },
+   "deleteAllTrash": {
+      "message": "حذف همه در زباله‌دان"
+   },
+   "deleteThisCopy": {
+      "message": "حذف این کپی"
+   },
+   "deselectAll": {
+      "message": "لغو انتخاب همه"
+   },
+   "destinationColon": {
+      "message": "مقصد:"
+   },
+   "disabled": {
+      "message": "غیرفعال"
+   },
+   "doneTaskCount_few": {
+      "message": "{COUNT} انجام‌شده"
+   },
+   "doneTaskCount_many": {
+      "message": "{COUNT} انجام‌شده"
+   },
+   "doneTaskCount_one": {
+      "message": "{COUNT} انجام‌شده"
+   },
+   "doneTaskCount_other": {
+      "message": "{COUNT} انجام‌شده"
+   },
+   "doneTaskCount_two": {
+      "message": "{COUNT} انجام‌شده"
+   },
+   "doneTaskCount_zero": {
+      "message": "{COUNT} انجام‌شده"
+   },
+   "dontCloseGroupedTabs": {
+      "message": "هیچ برگه‌ای را داخلِ گروه‌های برگه نبند"
+   },
+   "dontClosePinnedTabs": {
+      "message": "هیچ زبانهٔ سنجاق‌شده‌ای را نبند"
+   },
+   "dontCloseTabsFromDomains": {
+      "message": "هیچ برگه‌ای از EXAMPLE.COM را نبند"
+   },
+   "dragTabsHereForQuickList": {
+      "message": "زبانه‌ها یا گروه‌های ذخیره‌شده‌تان را اینجا بکشید. به فهرست سریع شما افزوده می‌شوند."
+   },
+   "editTabGroupTitleAndNotes": {
+      "message": "ویرایش عنوان و یادداشت‌های گروهِ برگه"
+   },
+   "emojiShortcutInfo": {
+      "message": "هنگام ویرایش فیلد یادداشت، از این میان‌بر برای باز کردن انتخاب‌گر ایموجی استفاده کنید."
+   },
+   "emptyInBrackets": {
+      "message": "(خالی)"
+   },
+   "emptyOneTabInfoMsg": {
+      "message": "وقتی چند زبانه باز دارید، روی نماد OneTab در نوارابزار مرورگر کلیک کنید تا زبانه‌های بازتان اینجا ظاهر شوند."
+   },
+   "enabled": {
+      "message": "فعال"
+   },
+   "encryptedSyncAndBackup": {
+      "message": "همگام‌سازی و پشتیبان‌گیری رمزگذاری‌شده"
+   },
+   "encryptedSyncAndBackupComingSoonMessage": {
+      "message": "به‌زودی: می‌توانید داده‌های OneTab خود را میان چند نمایهٔ مرورگر و چند رایانه همگام کنید.\nOneTab کاملاً بازنویسی شده است تا تغییراتی که روی یک دستگاه انجام می‌دهید فوراً روی همهٔ دستگاه‌های دیگر نیز ظاهر شوند.\nاگر از این قابلیت استفاده کنید، داده‌های شما با رمزنگاری سرتاسری و با رمزنگاری قدرتمند AES-256 رمزگذاری می‌شوند. بنابراین برای توسعه‌دهندگان OneTab دیدن برگه‌هایی که میان دستگاه‌ها همگام یا پشتیبان گرفته‌اید ناممکن است، چون فقط شما کلید رمزنگاری را دارید."
+   },
+   "everything": {
+      "message": "همه"
+   },
+   "exampleLink": {
+      "message": "پیوند نمونه"
+   },
+   "exampleLinkTitle": {
+      "message": "عنوان پیوند نمونه"
+   },
+   "exampleLinkTitleOptional": {
+      "message": "عنوان پیوند نمونه (اختیاری)"
+   },
+   "exampleRichTextParagraph": {
+      "message": "پاراگراف نمونه‌ای از متن با PLACEHOLDER و PLACEHOLDER"
+   },
+   "exampleWebsitePageTitle": {
+      "message": "عنوان صفحهٔ وبِ نمونه"
+   },
+   "excludeDomainFromOneTab": {
+      "message": "استثنا کردن EXAMPLE.COM از OneTab"
+   },
+   "excludeWebSiteFromOneTab": {
+      "message": "استثنا کردن این وب‌سایت از OneTab"
+   },
+   "expiresColon": {
+      "message": "انقضا:"
+   },
+   "export": {
+      "message": "برون‌ریزی"
+   },
+   "exportImportUrls": {
+      "message": "برون‌ریزی / درون‌ریزی URLها"
+   },
+   "exportThenImportNote": {
+      "message": "فهرست URLهای زیر را می‌توان در این رایانه یا رایانه‌ای دیگر دوباره به OneTab درون‌ریزی کرد"
+   },
+   "exportUrls": {
+      "message": "برون‌ریزی URLها"
+   },
+   "feedback": {
+      "message": "بازخورد"
+   },
+   "filter": {
+      "message": "فیلتر"
+   },
+   "firefoxIncognitoInstructions": {
+      "message": "در تنظیمات مرورگر، به «تنظیمات» → «افزونه‌ها و تم‌ها» → «افزونه‌ها» → «OneTab» → «...» → «مدیریت» بروید و سپس «اجرا در پنجره‌های خصوصی» را فعال کنید."
+   },
+   "firefoxShortcutConfigInstructions": {
+      "message": "نشانی \"about:addons?type=extension\" را در نوار آدرس مرورگر وارد کنید. پس از باز شدن صفحه، روی آیکون چرخ‌دنده کلیک کنید و «مدیریت میان‌برهای افزونه‌ها» را انتخاب کنید"
+   },
+   "folderCount_few": {
+      "message": "{COUNT} پوشه"
+   },
+   "folderCount_many": {
+      "message": "{COUNT} پوشه"
+   },
+   "folderCount_one": {
+      "message": "{COUNT} پوشه"
+   },
+   "folderCount_other": {
+      "message": "{COUNT} پوشه"
+   },
+   "folderCount_two": {
+      "message": "{COUNT} پوشه"
+   },
+   "folderCount_zero": {
+      "message": "{COUNT} پوشه"
+   },
+   "folders": {
+      "message": "پوشه‌ها"
+   },
+   "foldersOnly": {
+      "message": "فقط پوشه‌ها"
+   },
+   "gettingStarted": {
+      "message": "آغاز به کار"
+   },
+   "goToParentFolder": {
+      "message": "رفتن به پوشهٔ والد"
+   },
+   "groupCount_few": {
+      "message": "{COUNT} گروه"
+   },
+   "groupCount_many": {
+      "message": "{COUNT} گروه"
+   },
+   "groupCount_one": {
+      "message": "{COUNT} گروه"
+   },
+   "groupCount_other": {
+      "message": "{COUNT} گروه"
+   },
+   "groupCount_two": {
+      "message": "{COUNT} گروه"
+   },
+   "groupCount_zero": {
+      "message": "{COUNT} گروه"
+   },
+   "groups": {
+      "message": "گروه‌ها"
+   },
+   "hasNotes": {
+      "message": "یادداشت دارد"
+   },
+   "hasRating": {
+      "message": "امتیاز دارد"
+   },
+   "help": {
+      "message": "راهنما"
+   },
+   "hideArchivedItems": {
+      "message": "مخفی کردن موارد بایگانی‌شده"
+   },
+   "import": {
+      "message": "درون‌ریزی"
+   },
+   "importAndExport": {
+      "message": "درون‌ریزی و برون‌ریزی"
+   },
+   "importBookmarks": {
+      "message": "درون‌ریزی نشانک‌ها"
+   },
+   "importFolderAndSubfolders": {
+      "message": "درون‌ریزی پوشه و زیرپوشه‌ها"
+   },
+   "importLinksHere": {
+      "message": "درون‌ریزی پیوندها در اینجا"
+   },
+   "importReadingList": {
+      "message": "درون‌ریزی فهرست مطالعه"
+   },
+   "importText": {
+      "message": "درون‌ریزی متن"
+   },
+   "importUrls": {
+      "message": "درون‌ریزی URLها"
+   },
+   "importedBookmarks": {
+      "message": "نشانک‌های درون‌ریزی‌شده"
+   },
+   "includeGroupedTabs": {
+      "message": "شاملِ برگه‌های داخلِ گروه‌های برگه"
+   },
+   "includeNotes": {
+      "message": "شاملِ یادداشت‌ها"
+   },
+   "includePinnedTabs": {
+      "message": "شاملِ زبانه‌های سنجاق‌شده"
+   },
+   "includeStarRatings": {
+      "message": "شاملِ امتیازهای ستاره‌ای"
+   },
+   "includeTabsAlreadyStored": {
+      "message": "شاملِ برگه‌هایی که قبلاً ذخیره کرده‌اید"
+   },
+   "includeTabsFromDomains": {
+      "message": "شاملِ برگه‌ها از EXAMPLE.COM"
+   },
+   "incogitoPermissionRequired": {
+      "message": "OneTab برای ایجاد پنجره‌های ناشناس به اجازه نیاز دارد."
+   },
+   "incognitoWindows": {
+      "message": "پنجره‌های ناشناس"
+   },
+   "invertSelection": {
+      "message": "وارونه کردن انتخاب"
+   },
+   "justNow": {
+      "message": "همین حالا"
+   },
+   "keyboardShortcutsColon": {
+      "message": "میان‌برهای صفحه‌کلید:"
+   },
+   "languageTitle": {
+      "message": "زبان:"
+   },
+   "lightTheme": {
+      "message": "تم روشن"
+   },
+   "localeId": {
+      "message": "fa"
+   },
+   "locationColon": {
+      "message": "مکان:"
+   },
+   "lock": {
+      "message": "قفل کردن"
+   },
+   "lockMenuItemHelp": {
+      "message": "وقتی گروهی قفل باشد، نمی‌توانید موارد داخل گروه را حذف یا دوباره مرتب کنید. هنگام باز کردن گروهِ قفل، اقدامات خودکار اعمال نمی‌شوند. برای اطلاعات دربارهٔ اقدامات خودکار، به صفحهٔ گزینه‌ها مراجعه کنید."
+   },
+   "lockedGroupUnlockHelp": {
+      "message": "برای باز کردن قفل، از منوی کشویی استفاده کنید. وقتی گروهی قفل است، نمی‌توانید گروه یا برگه‌های آن را حذف کنید و برگه‌ها قابلِ جابه‌جایی نیستند."
+   },
+   "makeThisATask": {
+      "message": "به‌عنوان کار علامت بزن"
+   },
+   "manifestDescription": {
+      "message": "تا 95% در مصرف حافظه صرفه‌جویی کنید و شلوغی زبانه‌ها را کاهش دهید"
+   },
+   "markAsArchived": {
+      "message": "نشانه‌گذاری به‌عنوان بایگانی‌شده"
+   },
+   "markAsArchivedMenuItemHelp": {
+      "message": "توجه داشته باشید که کارهای بایگانی‌شده و کارهای داخل گروه‌های بایگانی‌شده در ستون کارها نمایش داده نمی‌شوند"
+   },
+   "markAsDoneTask": {
+      "message": "نشانه‌گذاری به‌عنوان کارِ انجام‌شده"
+   },
+   "markAsPendingTask": {
+      "message": "نشانه‌گذاری به‌عنوان کارِ در انتظار"
+   },
+   "matchCount_few": {
+      "message": "{COUNT} نتیجه"
+   },
+   "matchCount_many": {
+      "message": "{COUNT} نتیجه"
+   },
+   "matchCount_one": {
+      "message": "{COUNT} نتیجه"
+   },
+   "matchCount_other": {
+      "message": "{COUNT} نتیجه"
+   },
+   "matchCount_two": {
+      "message": "{COUNT} نتیجه"
+   },
+   "matchCount_zero": {
+      "message": "{COUNT} نتیجه"
+   },
+   "matchWholeWordsOnly": {
+      "message": "فقط تطبیقِ واژه‌های کامل"
+   },
+   "mayNeedToRestartBrowser": {
+      "message": "ممکن است نیاز باشد مرورگرتان را به‌روزرسانی و دوباره راه‌اندازی کنید."
+   },
+   "mergeIntoParent": {
+      "message": "ادغام در والد"
+   },
+   "mergeOpenTabsHere_few": {
+      "message": "ادغام {COUNT} برگهٔ باز در اینجا"
+   },
+   "mergeOpenTabsHere_many": {
+      "message": "ادغام {COUNT} برگهٔ باز در اینجا"
+   },
+   "mergeOpenTabsHere_one": {
+      "message": "ادغام {COUNT} برگهٔ باز در اینجا"
+   },
+   "mergeOpenTabsHere_other": {
+      "message": "ادغام {COUNT} برگهٔ باز در اینجا"
+   },
+   "mergeOpenTabsHere_two": {
+      "message": "ادغام {COUNT} برگهٔ باز در اینجا"
+   },
+   "mergeOpenTabsHere_zero": {
+      "message": "ادغام {COUNT} برگهٔ باز در اینجا"
+   },
+   "mergeSelectedTabsHere_few": {
+      "message": "ادغام {COUNT} برگهٔ انتخاب‌شده در اینجا"
+   },
+   "mergeSelectedTabsHere_many": {
+      "message": "ادغام {COUNT} برگهٔ انتخاب‌شده در اینجا"
+   },
+   "mergeSelectedTabsHere_one": {
+      "message": "ادغام {COUNT} برگهٔ انتخاب‌شده در اینجا"
+   },
+   "mergeSelectedTabsHere_other": {
+      "message": "ادغام {COUNT} برگهٔ انتخاب‌شده در اینجا"
+   },
+   "mergeSelectedTabsHere_two": {
+      "message": "ادغام {COUNT} برگهٔ انتخاب‌شده در اینجا"
+   },
+   "mergeSelectedTabsHere_zero": {
+      "message": "ادغام {COUNT} برگهٔ انتخاب‌شده در اینجا"
+   },
+   "mergeWithInnerGroups": {
+      "message": "ادغام با گروه‌های درونی"
+   },
+   "modifySharing": {
+      "message": "ویرایش اشتراک‌گذاری"
+   },
+   "moreEllipsis": {
+      "message": "بیشتر…"
+   },
+   "moreSearchFilters": {
+      "message": "فیلترهای جست‌وجوی بیشتر"
+   },
+   "moreTripleDot": {
+      "message": "بیشتر…"
+   },
+   "move": {
+      "message": "انتقال"
+   },
+   "moveToTrash": {
+      "message": "انتقال به زباله‌دان"
+   },
+   "namedOnly": {
+      "message": "فقط نام‌دار"
+   },
+   "navigationFilter": {
+      "message": "فیلتر ناوبری"
+   },
+   "newExclamation": {
+      "message": "جدید!"
+   },
+   "noDupsExistExceptForColon": {
+      "message": "هیچ مورد تکراری‌ای وجود ندارد، به‌جز:"
+   },
+   "noDupsFoundHere": {
+      "message": "اینجا مورد تکراری یافت نشد"
+   },
+   "noMatches": {
+      "message": "هیچ موردی یافت نشد"
+   },
+   "noMatchesFound": {
+      "message": "هیچ موردی یافت نشد"
+   },
+   "noOpenTabsToStore": {
+      "message": "در این پنجره هیچ برگهٔ باز برای ذخیره وجود ندارد."
+   },
+   "noReadingListEntries": {
+      "message": "هیچ ورودیِ فهرست مطالعه‌ای یافت نشد"
+   },
+   "noTabsInOneTabYet": {
+      "message": "هنوز هیچ زبانه‌ای در OneTab ندارید"
+   },
+   "noTabsMeetCriteriaUseCheckboxes": {
+      "message": "هیچ زبانهٔ باز با معیارهای شما مطابقت ندارد. لطفاً از چک‌باکس‌های بالا استفاده کنید."
+   },
+   "noTextHasBeenEntered": {
+      "message": "متنی وارد نشده است"
+   },
+   "nonArchived": {
+      "message": "بایگانی‌نشده"
+   },
+   "notAssigned": {
+      "message": "اختصاص نیافته"
+   },
+   "notes": {
+      "message": "یادداشت‌ها"
+   },
+   "notesAboutTheLinkOptional": {
+      "message": "یادداشت دربارهٔ پیوند (اختیاری)"
+   },
+   "notesAboutTheSecondLinkOptional": {
+      "message": "یادداشت دربارهٔ پیوند دوم (اختیاری)"
+   },
+   "ok": {
+      "message": "تأیید"
+   },
+   "omniboxShortcutInfo": {
+      "message": "برای جست‌وجو در فهرست OneTab از هر زبانه: به نوار آدرس مرورگر بروید، عدد 1، سپس فاصله، و بعد واژهٔ جست‌وجو را تایپ کنید."
+   },
+   "oneTabDesignedToProtectPrivacy": {
+      "message": "OneTab با هدف حفاظت از حریم خصوصی شما طراحی شده است. برگه‌های شما برای ما افشا نمی‌شوند."
+   },
+   "oneTabImportExportPageTitle": {
+      "message": "درون‌ریزی/برون‌ریزی OneTab"
+   },
+   "oneTabNeedsPermissionToAccessYourTabs": {
+      "message": "OneTab برای دسترسی به زبانه‌هایتان به اجازه نیاز دارد."
+   },
+   "oneTabOptionsPageTitle": {
+      "message": "گزینه‌های OneTab"
+   },
+   "oneTabPermissionRequired": {
+      "message": "OneTab - نیاز به اجازه"
+   },
+   "oneTabRestartRequired": {
+      "message": "راه‌اندازی مجدد OneTab لازم است."
+   },
+   "oneTabSlashShortcutInfo": {
+      "message": "در صفحهٔ OneTab، کلید / را بزنید تا کادر جست‌وجو فعال شود."
+   },
+   "open": {
+      "message": "باز کردن"
+   },
+   "openActionPopup": {
+      "message": "باز کردن پنجرهٔ بازشوِ اقدام"
+   },
+   "openAsCollapsedTabGroup": {
+      "message": "باز کردن به‌صورت یک گروهِ برگهٔ «جمع‌شده»"
+   },
+   "openAsCollapsedTabGroupMenuItemHelp": {
+      "message": "اگر این برگه‌ها را به‌صورت یک «گروهِ برگهٔ جمع‌شده» باز کنید، فقط برچسب گروه نمایش داده می‌شود تا وقتی روی آن کلیک کنید و برگه‌های داخلش نمایان شوند."
+   },
+   "openAsTabGroup": {
+      "message": "باز کردن به‌صورت یک گروهِ برگه"
+   },
+   "openAsTabGroupMenuItemHelp": {
+      "message": "مرورگر شما اجازه می‌دهد برگه‌ها در «گروه‌های برگه» رنگی داخل یک پنجره گروه‌بندی شوند."
+   },
+   "openGroupsLimitNotice_few": {
+      "message": "برای جلوگیری از فشار به مرورگر شما، فقط {COUNT} گروهِ اول باز می‌شوند."
+   },
+   "openGroupsLimitNotice_many": {
+      "message": "برای جلوگیری از فشار به مرورگر شما، فقط {COUNT} گروهِ اول باز می‌شوند."
+   },
+   "openGroupsLimitNotice_one": {
+      "message": "برای جلوگیری از فشار به مرورگر شما، فقط {COUNT} گروهِ اول باز می‌شود."
+   },
+   "openGroupsLimitNotice_other": {
+      "message": "برای جلوگیری از فشار به مرورگر شما، فقط {COUNT} گروهِ اول باز می‌شوند."
+   },
+   "openGroupsLimitNotice_two": {
+      "message": "برای جلوگیری از فشار به مرورگر شما، فقط {COUNT} گروهِ اول باز می‌شوند."
+   },
+   "openGroupsLimitNotice_zero": {
+      "message": "برای جلوگیری از فشار به مرورگر شما، فقط {COUNT} گروهِ اول باز می‌شوند."
+   },
+   "openInIncognitoWindow": {
+      "message": "باز کردن در یک پنجرهٔ ناشناس جدید"
+   },
+   "openInNewWindow": {
+      "message": "باز کردن در یک پنجرهٔ جدید"
+   },
+   "openInThisWindow": {
+      "message": "باز کردن در همین پنجره"
+   },
+   "openONETABLogo": {
+      "message": "باز کردن ONETAB"
+   },
+   "openOneTab": {
+      "message": "باز کردن OneTab"
+   },
+   "openOneTabAfter": {
+      "message": "پس از ذخیرهٔ برگه‌ها، OneTab را باز کن"
+   },
+   "openTabFromWebsite": {
+      "message": "یک برگه باز کنید و به آن وب‌سایت بروید"
+   },
+   "openTabLimit_few": {
+      "message": "برای جلوگیری از فشار به مرورگر شما، حداکثر {COUNT} برگه را می‌توان هم‌زمان باز کرد."
+   },
+   "openTabLimit_many": {
+      "message": "برای جلوگیری از فشار به مرورگر شما، حداکثر {COUNT} برگه را می‌توان هم‌زمان باز کرد."
+   },
+   "openTabLimit_one": {
+      "message": "برای جلوگیری از فشار به مرورگر شما، حداکثر {COUNT} برگه را می‌توان هم‌زمان باز کرد."
+   },
+   "openTabLimit_other": {
+      "message": "برای جلوگیری از فشار به مرورگر شما، حداکثر {COUNT} برگه را می‌توان هم‌زمان باز کرد."
+   },
+   "openTabLimit_two": {
+      "message": "برای جلوگیری از فشار به مرورگر شما، حداکثر {COUNT} برگه را می‌توان هم‌زمان باز کرد."
+   },
+   "openTabLimit_zero": {
+      "message": "برای جلوگیری از فشار به مرورگر شما، حداکثر {COUNT} برگه را می‌توان هم‌زمان باز کرد."
+   },
+   "openTabsAlreadyStoredHere_few": {
+      "message": "{COUNT} برگهٔ باز از قبل در اینجا ذخیره‌شده:"
+   },
+   "openTabsAlreadyStoredHere_many": {
+      "message": "{COUNT} برگهٔ باز از قبل در اینجا ذخیره‌شده:"
+   },
+   "openTabsAlreadyStoredHere_one": {
+      "message": "{COUNT} برگهٔ باز از قبل در اینجا ذخیره‌شده:"
+   },
+   "openTabsAlreadyStoredHere_other": {
+      "message": "{COUNT} برگهٔ باز از قبل در اینجا ذخیره‌شده:"
+   },
+   "openTabsAlreadyStoredHere_two": {
+      "message": "{COUNT} برگهٔ باز از قبل در اینجا ذخیره‌شده:"
+   },
+   "openTabsAlreadyStoredHere_zero": {
+      "message": "{COUNT} برگهٔ باز از قبل در اینجا ذخیره‌شده:"
+   },
+   "openTabsConfirm_few": {
+      "message": "در شرف باز کردن {COUNT} برگه هستید. مطمئنید؟"
+   },
+   "openTabsConfirm_many": {
+      "message": "در شرف باز کردن {COUNT} برگه هستید. مطمئنید؟"
+   },
+   "openTabsConfirm_one": {
+      "message": "در شرف باز کردن {COUNT} برگه هستید. مطمئنید؟"
+   },
+   "openTabsConfirm_other": {
+      "message": "در شرف باز کردن {COUNT} برگه هستید. مطمئنید؟"
+   },
+   "openTabsConfirm_two": {
+      "message": "در شرف باز کردن {COUNT} برگه هستید. مطمئنید؟"
+   },
+   "openTabsConfirm_zero": {
+      "message": "در شرف باز کردن {COUNT} برگه هستید. مطمئنید؟"
+   },
+   "openTabsNotStoredInOneTab_few": {
+      "message": "{COUNT} برگهٔ باز در OneTab ذخیره نشده"
+   },
+   "openTabsNotStoredInOneTab_many": {
+      "message": "{COUNT} برگهٔ باز در OneTab ذخیره نشده"
+   },
+   "openTabsNotStoredInOneTab_one": {
+      "message": "{COUNT} برگهٔ باز در OneTab ذخیره نشده"
+   },
+   "openTabsNotStoredInOneTab_other": {
+      "message": "{COUNT} برگهٔ باز در OneTab ذخیره نشده"
+   },
+   "openTabsNotStoredInOneTab_two": {
+      "message": "{COUNT} برگهٔ باز در OneTab ذخیره نشده"
+   },
+   "openTabsNotStoredInOneTab_zero": {
+      "message": "{COUNT} برگهٔ باز در OneTab ذخیره نشده"
+   },
+   "optionAutoActionOnGroupOpenArchiveDesc": {
+      "message": "برای جلوگیری از علامت‌خوردن گروه به‌عنوان بایگانی‌شده، هنگام کلیک برای باز کردن گروه کلید Alt/Option را نگه دارید"
+   },
+   "optionAutoActionOnGroupOpenArchiveTitle": {
+      "message": "زبانه‌ها را باز کن و گروه را به‌عنوان بایگانی‌شده علامت بزن"
+   },
+   "optionAutoActionOnGroupOpenHeading": {
+      "message": "عمل خودکار هنگام کلیک برای باز کردن یک گروه از زبانه‌ها:"
+   },
+   "optionAutoActionOnGroupOpenNote": {
+      "message": "اقدام‌های خودکار روی گروه‌های قفل‌شده یا گروه‌هایی که به‌عنوان کار هستند اعمال نمی‌شود."
+   },
+   "optionAutoActionOnGroupOpenOpenDesc": {
+      "message": "برای علامت‌زدن گروه به‌عنوان بایگانی‌شده، هنگام کلیک برای باز کردن گروه کلید Alt/Option را نگه دارید"
+   },
+   "optionAutoActionOnGroupOpenOpenTitle": {
+      "message": "فقط زبانه‌ها را باز کن"
+   },
+   "optionAutoActionOnGroupOpenTrashDesc": {
+      "message": "برای جلوگیری از ارسال خودکار گروه به زباله‌دان، هنگام کلیک برای باز کردن گروه کلید Alt/Option را نگه دارید"
+   },
+   "optionAutoActionOnGroupOpenTrashTitle": {
+      "message": "زبانه‌ها را باز کن و گروه را به زباله‌دان بفرست"
+   },
+   "optionAutoActionOnTabOpenArchiveDesc": {
+      "message": "برای جلوگیری از علامت‌خوردن خودکار زبانه به‌عنوان بایگانی‌شده، هنگام کلیک برای باز کردن زبانه کلید Alt/Option را نگه دارید"
+   },
+   "optionAutoActionOnTabOpenArchiveTitle": {
+      "message": "زبانه را باز کن و آن را به‌عنوان بایگانی‌شده علامت بزن"
+   },
+   "optionAutoActionOnTabOpenHeading": {
+      "message": "عمل خودکار هنگام کلیک برای باز کردن یک زبانه:"
+   },
+   "optionAutoActionOnTabOpenNote": {
+      "message": "اقدام‌های خودکار بر زبانه‌های داخل گروه‌هایی که قفل شده‌اند یا به‌عنوان کار هستند اعمال نمی‌شود."
+   },
+   "optionAutoActionOnTabOpenOpenDesc": {
+      "message": "برای علامت‌زدن زبانه به‌عنوان بایگانی‌شده، هنگام کلیک برای باز کردن زبانه کلید Alt/Option را نگه دارید"
+   },
+   "optionAutoActionOnTabOpenOpenTitle": {
+      "message": "فقط زبانه را باز کن"
+   },
+   "optionAutoActionOnTabOpenTrashDesc": {
+      "message": "برای جلوگیری از ارسال خودکار زبانه به زباله‌دان، هنگام کلیک برای باز کردن زبانه کلید Alt/Option را نگه دارید"
+   },
+   "optionAutoActionOnTabOpenTrashTitle": {
+      "message": "زبانه را باز کن و آن را به زباله‌دان بفرست"
+   },
+   "optionCopyToClipboardFormatHeading": {
+      "message": "کپی کردن پیوندها به کلیپ‌بورد:"
+   },
+   "optionCopyToClipboardFormatNote": {
+      "message": "این تنظیم هنگام استفاده از عمل «کپی در کلیپ‌بورد» اعمال می‌شود. همچنین می‌توانید زبانه‌ها و گروه‌ها را مستقیماً از OneTab به یک سند بکشید."
+   },
+   "optionCopyToClipboardFormatRichTextDesc": {
+      "message": "برنامه‌هایی مانند واژه‌پردازها اجازهٔ جای‌گذاریِ متن غنی را می‌دهند. اگر پشتیبانی نشود، به‌جای آن متن ساده جای‌گذاری می‌شود."
+   },
+   "optionCopyToClipboardFormatRichTextTitle": {
+      "message": "متن غنی، در صورت امکان"
+   },
+   "optionCopyToClipboardFormatTitleUrlTitle": {
+      "message": "عنوان و URL"
+   },
+   "optionCopyToClipboardFormatUrlOnlyTitle": {
+      "message": "فقط URL"
+   },
+   "optionCopyToClipboardFormatUrlTitleTitle": {
+      "message": "URL و عنوان"
+   },
+   "optionDefaultTabGroupOpenTypeCurrentWindow": {
+      "message": "باز کردن گروهِ برگهٔ مرورگر در پنجرهٔ فعلی"
+   },
+   "optionDefaultTabGroupOpenTypeHeading": {
+      "message": "هنگام کلیک برای باز کردن گروهی از زبانه‌ها که برای باز شدن به‌صورت «گروهِ برگه» پیکربندی شده‌اند:"
+   },
+   "optionDefaultTabGroupOpenTypeNewWindow": {
+      "message": "باز کردن گروهِ برگهٔ مرورگر در یک پنجرهٔ جدید"
+   },
+   "optionDefaultTabGroupOpenTypeNote": {
+      "message": "اگر از فهرست کشویی گزینه‌ای خاص را انتخاب کنید (مثلاً باز کردن زبانه‌ها در یک پنجرهٔ ناشناس)، آن گزینه برای همان گروه به‌خاطر سپرده می‌شود."
+   },
+   "optionDefaultWindowGroupOpenTypeCurrentWindow": {
+      "message": "زبانه‌ها را در پنجرهٔ فعلی باز کن"
+   },
+   "optionDefaultWindowGroupOpenTypeHeading": {
+      "message": "هنگام کلیک برای باز کردن یک گروه از برگه‌ها:"
+   },
+   "optionDefaultWindowGroupOpenTypeNewWindow": {
+      "message": "زبانه‌ها را در یک پنجرهٔ جدید باز کن"
+   },
+   "optionDefaultWindowGroupOpenTypeNote": {
+      "message": "اگر از فهرست کشویی گزینه‌ای خاص را انتخاب کنید (مثلاً باز کردن زبانه‌ها در یک پنجرهٔ ناشناس)، آن گزینه برای همان گروه به‌خاطر سپرده می‌شود."
+   },
+   "optionDiscardNonActiveTabOnOpenHeading": {
+      "message": "صرفه‌جویی فوری در حافظه (RAM) هنگام اولین باز کردن برگه‌ها:"
+   },
+   "optionDiscardNonActiveTabOnOpenNote": {
+      "message": "اگر این تنظیم فعال باشد، وقتی برگه‌ها را برای نخستین بار از فهرست OneTab خود باز می‌کنید، بلافاصله از حافظه تخلیه می‌شوند. اگر معمولاً ده‌ها برگه را هم‌زمان باز می‌کنید مفید است، چون تا زمانی که به آن‌ها مراجعه نکنید همگی در حافظه بارگذاری نمی‌شوند. اگر این تنظیم غیرفعال باشد، بسیاری از مرورگرهای وب همچنان ممکن است به‌طور خودکار برگه‌هایی را که در حال استفاده از آن‌ها نیستید از حافظه خارج کنند."
+   },
+   "optionDisplayContextMenuHeading": {
+      "message": "برای دسترسی به منوی زمینهٔ OneTab داخل یک صفحهٔ وب راست‌کلیک کنید:"
+   },
+   "optionDisplayContextMenuNote": {
+      "message": "اگر این منو را غیرفعال کنید، به ویژگی «استثنا کردن وب‌سایت از OneTab» دسترسی نخواهید داشت"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenFalseTitle": {
+      "message": "جابه‌جایی به پنجره‌ای که برگهٔ OneTab در آن از قبل باز است"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenHeading": {
+      "message": "عمل «باز کردن OneTab»:"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenNote": {
+      "message": "به عمل «باز کردن OneTab» از طریق یک میان‌بر صفحه‌کلید می‌توان دسترسی داشت. همچنین در پاپ‌آپی که با کلیک روی نماد OneTab در نوارابزار مرورگر ظاهر می‌شود نیز در دسترس است."
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenTrueTitle": {
+      "message": "انتقال هر برگهٔ موجودِ OneTab به پنجرهٔ فعلی"
+   },
+   "optionStartupLaunchDisplay": {
+      "message": "باز کردن OneTab هر بار که مرورگر را شروع می‌کنید"
+   },
+   "optionStartupLaunchNone": {
+      "message": "عدم باز کردن خودکار OneTab"
+   },
+   "optionStartupLaunchNoneDesc3": {
+      "message": "برای باز کردن OneTab به‌صورت دستی، روی نماد OneTab در نوارابزار مرورگر کلیک کنید و «باز کردن OneTab» را انتخاب کنید. یا می‌توانید روی هر صفحهٔ وب راست‌کلیک کنید و در منوی OneTab، «باز کردن OneTab» را بزنید."
+   },
+   "optionStartupLaunchTitle": {
+      "message": "هنگام شروع:"
+   },
+   "optionSwitchToOpenedTabFalseTitle": {
+      "message": "زبانه را باز کن و در OneTab بمان"
+   },
+   "optionSwitchToOpenedTabHeading": {
+      "message": "هنگام باز کردن زبانه‌ها از صفحهٔ OneTab:"
+   },
+   "optionSwitchToOpenedTabNote": {
+      "message": "اگر هنگام کلیک Shift را نگه دارید، زبانه در یک پنجرهٔ جدید باز می‌شود"
+   },
+   "optionSwitchToOpenedTabTrueTitle": {
+      "message": "زبانه را باز کن و به آن جابه‌جا شو (مگر اینکه هنگام کلیک Command ⌘/Ctrl را نگه دارید)"
+   },
+   "optionUrlAbbr": {
+      "message": "کوتاه‌شده"
+   },
+   "optionUrlDisplayTitle": {
+      "message": "نمایش URL:"
+   },
+   "optionUrlDomain": {
+      "message": "فقط دامنه"
+   },
+   "optionUrlFull": {
+      "message": "کامل"
+   },
+   "optionUrlNone": {
+      "message": "هیچ‌کدام"
+   },
+   "options": {
+      "message": "گزینه‌ها"
+   },
+   "otherCopiesColon": {
+      "message": "کپی‌های دیگر:"
+   },
+   "pasteRichOrPlainTextBelow": {
+      "message": "می‌توانید در پایین متن غنی یا متن ساده جای‌گذاری کنید."
+   },
+   "pendingTaskCount_few": {
+      "message": "{COUNT} در انتظار"
+   },
+   "pendingTaskCount_many": {
+      "message": "{COUNT} در انتظار"
+   },
+   "pendingTaskCount_one": {
+      "message": "{COUNT} در انتظار"
+   },
+   "pendingTaskCount_other": {
+      "message": "{COUNT} در انتظار"
+   },
+   "pendingTaskCount_two": {
+      "message": "{COUNT} در انتظار"
+   },
+   "pendingTaskCount_zero": {
+      "message": "{COUNT} در انتظار"
+   },
+   "permissionRequiredPleaseTryAgain": {
+      "message": "برای ایجاد صفحهٔ اشتراکی که از هر رایانه‌ای قابل دسترسی باشد، اجازه برای هماهنگی با سرور وبِ OneTab لازم است. لطفاً دوباره تلاش کنید."
+   },
+   "pinToTopOfFolder": {
+      "message": "سنجاق به ابتدای پوشه"
+   },
+   "pinToTopOfList": {
+      "message": "سنجاق به بالای فهرست"
+   },
+   "pinnedTabs": {
+      "message": "زبانه‌های سنجاق‌شده"
+   },
+   "placeholderAndOtherLocations_few": {
+      "message": "PLACEHOLDER و {COUNT} مورد دیگر"
+   },
+   "placeholderAndOtherLocations_many": {
+      "message": "PLACEHOLDER و {COUNT} مورد دیگر"
+   },
+   "placeholderAndOtherLocations_one": {
+      "message": "PLACEHOLDER و {COUNT} مورد دیگر"
+   },
+   "placeholderAndOtherLocations_other": {
+      "message": "PLACEHOLDER و {COUNT} مورد دیگر"
+   },
+   "placeholderAndOtherLocations_two": {
+      "message": "PLACEHOLDER و {COUNT} مورد دیگر"
+   },
+   "placeholderAndOtherLocations_zero": {
+      "message": "PLACEHOLDER و {COUNT} مورد دیگر"
+   },
+   "placeholderExplanation": {
+      "message": "به‌دلیل قوانین امنیتی مرورگر وب، OneTab اجازهٔ بازیابی مستقیم این صفحه را ندارد. لطفاً URL خود را کپی کنید و در نوار آدرس مرورگرتان جای‌گذاری کنید."
+   },
+   "plainTextLineFormat": {
+      "message": "اگر متن ساده جای‌گذاری می‌کنید، مطمئن شوید هر URL پروتکل مشخصی دارد (https://wikipedia.org به‌جای صرفاً wikipedia.org). هر خط باید در قالب زیر باشد:"
+   },
+   "pleaseWaitTripleDot": {
+      "message": "لطفاً صبر کنید…"
+   },
+   "popupSlashShortcutInfo": {
+      "message": "در پاپ‌آپ اقدام OneTab (که با کلیک روی نماد OneTab ظاهر می‌شود)، کلید / را بزنید تا انتخاب‌گر مقصد باز و کادر جست‌وجو فعال شود."
+   },
+   "privacyAssurance": {
+      "message": "تضمین حریم خصوصی"
+   },
+   "privacyAssuranceDetail": {
+      "message": "فهرست زبانه‌های شما هرگز به توسعه‌دهندگان OneTab یا هیچ طرف دیگری ارسال یا افشا نمی‌شود. تنها استثنا زمانی است که عمداً از قابلیت «اشتراک به‌صورت صفحهٔ وب» استفاده کنید تا فهرست زبانه‌هایتان را برای اشتراک‌گذاری با دیگران در یک صفحهٔ وب بارگذاری کنید."
+   },
+   "privacyFirst": {
+      "message": "اولویت با حریم خصوصی"
+   },
+   "privacyFirstMessage": {
+      "message": "OneTab با هدف حفاظت از داده‌های خصوصی شما طراحی شده است. برگه‌های شما فقط روی رایانهٔ خودتان ذخیره می‌شوند و هرگز با توسعه‌دهندگان OneTab یا هیچ طرف دیگری به‌اشتراک گذاشته نمی‌شوند.\nاگر از قابلیت پشتیبان‌گیری/همگام‌سازی ما استفاده کنید، داده‌های شما با رمزنگاری سرتاسری و با رمزنگاری قدرتمند AES-256 رمزگذاری می‌شوند. بنابراین برای توسعه‌دهندگان OneTab دیدن برگه‌هایی که میان دستگاه‌ها همگام یا پشتیبان گرفته‌اید ناممکن است، چون فقط شما کلید رمزنگاری را دارید.\nتنها استثنا زمانی است که عمداً تصمیم بگیرید با استفاده از قابلیت «اشتراک به‌صورت صفحهٔ وب» برخی از برگه‌های خود را با دیگران به‌اشتراک بگذارید.\nما به اصل «اولویت با حریم خصوصی» باور داریم."
+   },
+   "privateBrowsingPermissionRequired": {
+      "message": "OneTab برای ایجاد پنجره‌های خصوصی به اجازه نیاز دارد."
+   },
+   "privateBrowsingWindows": {
+      "message": "پنجره‌های مرور خصوصی"
+   },
+   "quickList": {
+      "message": "فهرست سریع"
+   },
+   "rating": {
+      "message": "امتیاز"
+   },
+   "readingList": {
+      "message": "فهرست مطالعه"
+   },
+   "readingListPermissionNecesssary": {
+      "message": "مجوز فهرست مطالعه لازم است تا OneTab بتواند موارد فهرست مطالعهٔ شما را درون‌ریزی کند. اگر این قابلیت کار نمی‌کند، ممکن است مرورگر شما از فهرست مطالعه پشتیبانی نکند."
+   },
+   "recent": {
+      "message": "اخیر"
+   },
+   "recentDestinationsColon": {
+      "message": "مقصدهای اخیر:"
+   },
+   "recentDuplicateRetainedHelp": {
+      "message": "اگر برگه‌ای بیش از یک‌بار رخ داده باشد، فقط جدیدترینِ تکراری نگه داشته می‌شود"
+   },
+   "recentlyAccessed": {
+      "message": "تازه دسترسی‌شده"
+   },
+   "recentlyCreated": {
+      "message": "تازه ایجادشده"
+   },
+   "recentlyModified": {
+      "message": "تازه ویرایش‌شده"
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "message": "مصرف حافظه را 95% کاهش دهید"
+   },
+   "removeDuplicateTabsHere_few": {
+      "message": "حذف {COUNT} برگهٔ تکراری در اینجا"
+   },
+   "removeDuplicateTabsHere_many": {
+      "message": "حذف {COUNT} برگهٔ تکراری در اینجا"
+   },
+   "removeDuplicateTabsHere_one": {
+      "message": "حذف {COUNT} برگهٔ تکراری در اینجا"
+   },
+   "removeDuplicateTabsHere_other": {
+      "message": "حذف {COUNT} برگهٔ تکراری در اینجا"
+   },
+   "removeDuplicateTabsHere_two": {
+      "message": "حذف {COUNT} برگهٔ تکراری در اینجا"
+   },
+   "removeDuplicateTabsHere_zero": {
+      "message": "حذف {COUNT} برگهٔ تکراری در اینجا"
+   },
+   "removeDuplicates": {
+      "message": "حذف موارد تکراری"
+   },
+   "removeFromQuickList": {
+      "message": "حذف از فهرست سریع"
+   },
+   "removeTabsElsewhereAlsoHere_few": {
+      "message": "حذف {COUNT} برگه از جاهای دیگر که اینجا هم وجود دارند"
+   },
+   "removeTabsElsewhereAlsoHere_many": {
+      "message": "حذف {COUNT} برگه از جاهای دیگر که اینجا هم وجود دارند"
+   },
+   "removeTabsElsewhereAlsoHere_one": {
+      "message": "حذف {COUNT} برگه از جاهای دیگر که اینجا هم وجود دارد"
+   },
+   "removeTabsElsewhereAlsoHere_other": {
+      "message": "حذف {COUNT} برگه از جاهای دیگر که اینجا هم وجود دارند"
+   },
+   "removeTabsElsewhereAlsoHere_two": {
+      "message": "حذف {COUNT} برگه از جاهای دیگر که اینجا هم وجود دارند"
+   },
+   "removeTabsElsewhereAlsoHere_zero": {
+      "message": "حذف {COUNT} برگه از جاهای دیگر که اینجا هم وجود دارند"
+   },
+   "removeTabsHereAlsoElsewhere_few": {
+      "message": "حذف {COUNT} برگهٔ اینجا که در جاهای دیگر هم وجود دارند"
+   },
+   "removeTabsHereAlsoElsewhere_many": {
+      "message": "حذف {COUNT} برگهٔ اینجا که در جاهای دیگر هم وجود دارند"
+   },
+   "removeTabsHereAlsoElsewhere_one": {
+      "message": "حذف {COUNT} برگهٔ اینجا که در جاهای دیگر هم وجود دارد"
+   },
+   "removeTabsHereAlsoElsewhere_other": {
+      "message": "حذف {COUNT} برگهٔ اینجا که در جاهای دیگر هم وجود دارند"
+   },
+   "removeTabsHereAlsoElsewhere_two": {
+      "message": "حذف {COUNT} برگهٔ اینجا که در جاهای دیگر هم وجود دارند"
+   },
+   "removeTabsHereAlsoElsewhere_zero": {
+      "message": "حذف {COUNT} برگهٔ اینجا که در جاهای دیگر هم وجود دارند"
+   },
+   "rename": {
+      "message": "تغییر نام"
+   },
+   "restore": {
+      "message": "بازیابی"
+   },
+   "restrictSearchToFolderColon": {
+      "message": "محدود کردن جست‌وجو به پوشهٔ زیر:"
+   },
+   "results": {
+      "message": "نتایج"
+   },
+   "returnToOneTab": {
+      "message": "بازگشت به OneTab"
+   },
+   "reverse": {
+      "message": "معکوس"
+   },
+   "rightClickAndOpenOneTabMenu": {
+      "message": "در صفحهٔ وب راست‌کلیک کنید و به منوی OneTab بروید"
+   },
+   "rightClickMenuDisabledNote": {
+      "message": "توجه: منوی راست‌کلیک OneTab را غیرفعال کرده‌اید. لطفاً آن را در صفحهٔ گزینه‌های OneTab فعال کنید."
+   },
+   "rightClickSelectionOptionsTip": {
+      "message": "نکته: پس از تیک‌زدن یک مورد، روی نماد تیک راست‌کلیک کنید تا گزینه‌های انتخاب بیشتری نمایش داده شوند"
+   },
+   "rightClickTickTip": {
+      "message": "نکته: برای ابزارهای انتخاب، روی نمادِ تیک کنار هر برگه راست‌کلیک کنید"
+   },
+   "safariApproveOneTabInSettings": {
+      "message": "لطفاً به تنظیمات بروید و دسترسی OneTab به همهٔ وب‌سایت‌ها را تأیید کنید."
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "message": "تا 95% در مصرف حافظه صرفه‌جویی کنید و شلوغی زبانه‌ها را در Google Chrome کاهش دهید"
+   },
+   "searchHere": {
+      "message": "اینجا جست‌وجو کن"
+   },
+   "searchOneTab": {
+      "message": "جست‌وجو در OneTab"
+   },
+   "secondExampleLink": {
+      "message": "پیوند نمونهٔ دوم"
+   },
+   "secondExampleLinkTitle": {
+      "message": "عنوان پیوند نمونهٔ دوم"
+   },
+   "secondExampleLinkTitleOptional": {
+      "message": "عنوان پیوند نمونهٔ دوم (اختیاری)"
+   },
+   "seeOtherTabsInThisGroup_few": {
+      "message": "مشاهدهٔ {COUNT} برگهٔ دیگر در این گروه"
+   },
+   "seeOtherTabsInThisGroup_many": {
+      "message": "مشاهدهٔ {COUNT} برگهٔ دیگر در این گروه"
+   },
+   "seeOtherTabsInThisGroup_one": {
+      "message": "مشاهدهٔ {COUNT} برگهٔ دیگر در این گروه"
+   },
+   "seeOtherTabsInThisGroup_other": {
+      "message": "مشاهدهٔ {COUNT} برگهٔ دیگر در این گروه"
+   },
+   "seeOtherTabsInThisGroup_two": {
+      "message": "مشاهدهٔ {COUNT} برگهٔ دیگر در این گروه"
+   },
+   "seeOtherTabsInThisGroup_zero": {
+      "message": "مشاهدهٔ {COUNT} برگهٔ دیگر در این گروه"
+   },
+   "seePasteInstructions": {
+      "message": "مشاهدهٔ دستورالعمل‌های جای‌گذاری…"
+   },
+   "seeTabsInThisGroup_few": {
+      "message": "مشاهدهٔ {COUNT} برگه در این گروه"
+   },
+   "seeTabsInThisGroup_many": {
+      "message": "مشاهدهٔ {COUNT} برگه در این گروه"
+   },
+   "seeTabsInThisGroup_one": {
+      "message": "مشاهدهٔ {COUNT} برگه در این گروه"
+   },
+   "seeTabsInThisGroup_other": {
+      "message": "مشاهدهٔ {COUNT} برگه در این گروه"
+   },
+   "seeTabsInThisGroup_two": {
+      "message": "مشاهدهٔ {COUNT} برگه در این گروه"
+   },
+   "seeTabsInThisGroup_zero": {
+      "message": "مشاهدهٔ {COUNT} برگه در این گروه"
+   },
+   "selectAll": {
+      "message": "انتخاب همه"
+   },
+   "selectAllExceptThis": {
+      "message": "انتخاب همه به‌جز این مورد"
+   },
+   "selectThisAndAbove": {
+      "message": "انتخاب این مورد و همهٔ مواردِ بالاتر"
+   },
+   "selectThisAndBelow": {
+      "message": "انتخاب این مورد و همهٔ مواردِ پایین‌تر"
+   },
+   "selectedItemCount_few": {
+      "message": "{COUNT} مورد"
+   },
+   "selectedItemCount_many": {
+      "message": "{COUNT} مورد"
+   },
+   "selectedItemCount_one": {
+      "message": "{COUNT} مورد"
+   },
+   "selectedItemCount_other": {
+      "message": "{COUNT} مورد"
+   },
+   "selectedItemCount_two": {
+      "message": "{COUNT} مورد"
+   },
+   "selectedItemCount_zero": {
+      "message": "{COUNT} مورد"
+   },
+   "selection": {
+      "message": "انتخاب‌ها"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "message": "ارسال همهٔ زبانه‌ها از همهٔ پنجره‌ها به OneTab"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "message": "ارسال همهٔ زبانه‌ها به‌جز این زبانه به OneTab"
+   },
+   "sendAllTabsInGroupToOneTab": {
+      "message": "ارسال همهٔ برگه‌های این گروهِ برگه به OneTab"
+   },
+   "sendAllTabsInWindowToOneTab": {
+      "message": "ارسال همهٔ برگه‌های این پنجره به OneTab"
+   },
+   "sendCurrentTabToOneTab": {
+      "message": "ارسال زبانهٔ فعلی به OneTab"
+   },
+   "sendLeftTabsToOneTab": {
+      "message": "ارسال زبانه‌های سمت چپ به OneTab"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "message": "ارسال فقط این زبانه به OneTab"
+   },
+   "sendRightTabsToOneTab": {
+      "message": "ارسال زبانه‌های سمت راست به OneTab"
+   },
+   "sendSelectedTabsToOneTab": {
+      "message": "ارسال زبانه‌های انتخاب‌شده به OneTab"
+   },
+   "sendThisWebLinkToOneTab": {
+      "message": "ارسال این پیوند وب به OneTab"
+   },
+   "serverUnreachable": {
+      "message": "سرور در دسترس نیست. لطفاً اتصال اینترنت خود را بررسی کنید."
+   },
+   "share": {
+      "message": "اشتراک‌گذاری"
+   },
+   "shareAsAWebPage": {
+      "message": "اشتراک به‌صورت صفحهٔ وب"
+   },
+   "shared": {
+      "message": "به‌اشتراک‌گذاشته‌شده"
+   },
+   "sharedExpiresColon": {
+      "message": "به‌صورت صفحهٔ وب به‌اشتراک گذاشته شده. انقضا:"
+   },
+   "sharedPageOptions": {
+      "message": "گزینه‌های صفحهٔ اشتراک‌گذاری‌شده"
+   },
+   "sharedPageTabLimit_few": {
+      "message": "صفحه‌های به‌اشتراک‌گذاشته‌شده به {COUNT} برگه محدود می‌شوند"
+   },
+   "sharedPageTabLimit_many": {
+      "message": "صفحه‌های به‌اشتراک‌گذاشته‌شده به {COUNT} برگه محدود می‌شوند"
+   },
+   "sharedPageTabLimit_one": {
+      "message": "صفحه‌های به‌اشتراک‌گذاشته‌شده به {COUNT} برگه محدود می‌شود"
+   },
+   "sharedPageTabLimit_other": {
+      "message": "صفحه‌های به‌اشتراک‌گذاشته‌شده به {COUNT} برگه محدود می‌شوند"
+   },
+   "sharedPageTabLimit_two": {
+      "message": "صفحه‌های به‌اشتراک‌گذاشته‌شده به {COUNT} برگه محدود می‌شوند"
+   },
+   "sharedPageTabLimit_zero": {
+      "message": "صفحه‌های به‌اشتراک‌گذاشته‌شده به {COUNT} برگه محدود می‌شوند"
+   },
+   "sharedPageWillAutomaticallyExpire": {
+      "message": "صفحهٔ اشتراک‌گذاری‌شده به‌صورت خودکار منقضی می‌شود، اما می‌توانید هر زمان تاریخ انقضا را تمدید کنید."
+   },
+   "shiftDragShortcutInfo": {
+      "message": "هنگام رها کردن یک برگه، کلید Shift را نگه دارید تا به‌جای جابه‌جایی، یک کپی از آن ساخته شود. مهم: فقط پس از شروعِ کشیدن، کلید Shift را فشار دهید."
+   },
+   "showEverything": {
+      "message": "نمایش همه"
+   },
+   "showFoldersOnly": {
+      "message": "نمایش فقط پوشه‌ها"
+   },
+   "showNamedItemsOnly": {
+      "message": "نمایش فقط موارد نام‌دار"
+   },
+   "showNamedOnly": {
+      "message": "نمایش فقط موارد نام‌دار"
+   },
+   "showNextCount_few": {
+      "message": "نمایش {COUNT} بعدی"
+   },
+   "showNextCount_many": {
+      "message": "نمایش {COUNT} بعدی"
+   },
+   "showNextCount_one": {
+      "message": "نمایش {COUNT} بعدی"
+   },
+   "showNextCount_other": {
+      "message": "نمایش {COUNT} بعدی"
+   },
+   "showNextCount_two": {
+      "message": "نمایش {COUNT} بعدی"
+   },
+   "showNextCount_zero": {
+      "message": "نمایش {COUNT} بعدی"
+   },
+   "showPreviousCount_few": {
+      "message": "نمایش {COUNT} قبلی"
+   },
+   "showPreviousCount_many": {
+      "message": "نمایش {COUNT} قبلی"
+   },
+   "showPreviousCount_one": {
+      "message": "نمایش {COUNT} قبلی"
+   },
+   "showPreviousCount_other": {
+      "message": "نمایش {COUNT} قبلی"
+   },
+   "showPreviousCount_two": {
+      "message": "نمایش {COUNT} قبلی"
+   },
+   "showPreviousCount_zero": {
+      "message": "نمایش {COUNT} قبلی"
+   },
+   "soon": {
+      "message": "به‌زودی"
+   },
+   "sort": {
+      "message": "مرتب‌سازی"
+   },
+   "sortByColon": {
+      "message": "مرتب‌سازی بر اساس:"
+   },
+   "sortGroups": {
+      "message": "مرتب‌سازی گروه‌ها"
+   },
+   "sourceColon": {
+      "message": "مبدأ:"
+   },
+   "starRatingTooltip": {
+      "message": "تنظیم امتیاز ستاره‌ای"
+   },
+   "storeSelectedTabsInONETAB_few": {
+      "message": "ذخیرهٔ {COUNT} برگهٔ انتخاب‌شده در ONETAB"
+   },
+   "storeSelectedTabsInONETAB_many": {
+      "message": "ذخیرهٔ {COUNT} برگهٔ انتخاب‌شده در ONETAB"
+   },
+   "storeSelectedTabsInONETAB_one": {
+      "message": "ذخیرهٔ {COUNT} برگهٔ انتخاب‌شده در ONETAB"
+   },
+   "storeSelectedTabsInONETAB_other": {
+      "message": "ذخیرهٔ {COUNT} برگهٔ انتخاب‌شده در ONETAB"
+   },
+   "storeSelectedTabsInONETAB_two": {
+      "message": "ذخیرهٔ {COUNT} برگهٔ انتخاب‌شده در ONETAB"
+   },
+   "storeSelectedTabsInONETAB_zero": {
+      "message": "ذخیرهٔ {COUNT} برگهٔ انتخاب‌شده در ONETAB"
+   },
+   "storeTabInAdditionalLocation": {
+      "message": "برگه‌تان را در یک مکان اضافی ذخیره کنید"
+   },
+   "storeTabInONETAB": {
+      "message": "ذخیرهٔ برگه در ONETAB"
+   },
+   "storeTabsInAdditionalLocation": {
+      "message": "برگه‌هایتان را در یک مکان اضافی ذخیره کنید"
+   },
+   "storeTabsInONETAB": {
+      "message": "ذخیرهٔ برگه‌ها در ONETAB"
+   },
+   "subFoldersNotShared": {
+      "message": "توجه داشته باشید زیرپوشه‌ها به‌اشتراک گذاشته نمی‌شوند. فقط گروه‌هایی که مستقیماً داخل پوشه هستند به‌اشتراک گذاشته می‌شوند."
+   },
+   "tab": {
+      "message": "زبانه"
+   },
+   "tabAlreadyStoredHere": {
+      "message": "برگهٔ باز شما از قبل اینجا ذخیره شده است:"
+   },
+   "tabCaretTooltipTitleNotes": {
+      "message": "ویرایش عنوان و یادداشت‌های برگه"
+   },
+   "tabCaretTooltipTitleNotesUrl": {
+      "message": "ویرایش عنوان، URL و یادداشت‌های برگه"
+   },
+   "tabCount_few": {
+      "message": "{COUNT} برگه"
+   },
+   "tabCount_many": {
+      "message": "{COUNT} برگه"
+   },
+   "tabCount_one": {
+      "message": "{COUNT} برگه"
+   },
+   "tabCount_other": {
+      "message": "{COUNT} برگه"
+   },
+   "tabCount_two": {
+      "message": "{COUNT} برگه"
+   },
+   "tabCount_zero": {
+      "message": "{COUNT} برگه"
+   },
+   "tabGroupColorColon": {
+      "message": "رنگِ گروهِ برگه:"
+   },
+   "tabShortcutInfo": {
+      "message": "در صفحهٔ OneTab، کلید Tab را بزنید تا کانون بین گروه‌ها در ستونِ وسط جابه‌جا شود. این کار پرش سریع میان گروه‌ها را آسان می‌کند، به‌ویژه اگر بزرگ باشند. اگر گروهی کانون دارد، برای باز کردنش Enter را بزنید. برای حرکت به عقب از Shift+Tab استفاده کنید."
+   },
+   "tabTotalCount_few": {
+      "message": "مجموع: {COUNT} برگه"
+   },
+   "tabTotalCount_many": {
+      "message": "مجموع: {COUNT} برگه"
+   },
+   "tabTotalCount_one": {
+      "message": "مجموع: {COUNT} برگه"
+   },
+   "tabTotalCount_other": {
+      "message": "مجموع: {COUNT} برگه"
+   },
+   "tabTotalCount_two": {
+      "message": "مجموع: {COUNT} برگه"
+   },
+   "tabTotalCount_zero": {
+      "message": "مجموع: {COUNT} برگه"
+   },
+   "tabs": {
+      "message": "زبانه‌ها"
+   },
+   "tabsFromExcludedDomains": {
+      "message": "برگه‌ها از دامنه‌های مستثنا"
+   },
+   "tabsInTabGroups": {
+      "message": "برگه‌ها در گروه‌های برگه"
+   },
+   "taskTotalCount_few": {
+      "message": "{COUNT} کل"
+   },
+   "taskTotalCount_many": {
+      "message": "{COUNT} کل"
+   },
+   "taskTotalCount_one": {
+      "message": "{COUNT} کل"
+   },
+   "taskTotalCount_other": {
+      "message": "{COUNT} کل"
+   },
+   "taskTotalCount_two": {
+      "message": "{COUNT} کل"
+   },
+   "taskTotalCount_zero": {
+      "message": "{COUNT} کل"
+   },
+   "tasks": {
+      "message": "کارها"
+   },
+   "tasksDone": {
+      "message": "کارها (انجام‌شده)"
+   },
+   "tasksPending": {
+      "message": "کارها (در انتظار)"
+   },
+   "tasksWillAppearHere": {
+      "message": "اگر هر یک از زبانه‌ها یا گروه‌ها را به‌عنوان کار علامت بزنید، اینجا نمایش داده می‌شوند."
+   },
+   "thenClickToolbarIcon": {
+      "message": "سپس دوباره روی نماد OneTab در نوارابزار کلیک کنید تا از OneTab استفاده کنید."
+   },
+   "thisFolderIsEmpty": {
+      "message": "این پوشه خالی است"
+   },
+   "thisTab": {
+      "message": "این برگه"
+   },
+   "thisTabGroup": {
+      "message": "این گروهِ برگه"
+   },
+   "thisTabNotStored": {
+      "message": "این برگه در OneTab ذخیره نشده است"
+   },
+   "thisWindow": {
+      "message": "این پنجره"
+   },
+   "tickOrUntickToExclude": {
+      "message": "برای مستثنا کردن وب‌سایت، گزینه را تیک بزنید یا بردارید"
+   },
+   "title": {
+      "message": "عنوان"
+   },
+   "toAddOrRemoveExclusions": {
+      "message": "برای افزودن یا حذف وب‌سایتی از فهرست استثناها:"
+   },
+   "toAllowOneTabInIncognito": {
+      "message": "برای اجازهٔ نمایش نماد OneTab در پنجره‌های ناشناس: "
+   },
+   "toImportBrowserBookmarksUseMenuOption": {
+      "message": "برای درون‌ریزی از نشانک‌های مرورگر، از گزینهٔ منوی «پیوندها را اینجا درون‌ریزی کن» در صفحهٔ OneTab خود استفاده کنید"
+   },
+   "toMakeOpenButtonWorkApprovePermission": {
+      "message": "برای اینکه دکمهٔ «باز کردن» در صفحه‌های اشتراکی کار کند، لطفاً درخواستِ اجازه را تأیید کنید."
+   },
+   "toSaveChangesClickButton": {
+      "message": "برای ذخیرهٔ تغییرات، روی دکمه کلیک کنید"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "message": "زبانه‌ها زیادند؟ زبانه‌هایتان را به یک فهرست تبدیل کنید و Firefox را سریع‌تر کنید"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "message": "برگه‌ها زیادند؟ برگه‌هایتان را به یک فهرست تبدیل کنید و Safari را سریع‌تر کنید"
+   },
+   "total0Tabs": {
+      "message": "مجموع: 0 برگه"
+   },
+   "trash": {
+      "message": "زباله‌دان"
+   },
+   "unMarkAsTask": {
+      "message": "لغو علامت‌گذاری به‌عنوان کار"
+   },
+   "unPin": {
+      "message": "برداشتن سنجاق"
+   },
+   "unlock": {
+      "message": "باز کردن قفل"
+   },
+   "unmarkAsArchived": {
+      "message": "لغو نشانه‌گذاری به‌عنوان بایگانی‌شده"
+   },
+   "unshare": {
+      "message": "لغو اشتراک‌گذاری"
+   },
+   "untitled": {
+      "message": "بی‌نام"
+   },
+   "update": {
+      "message": "به‌روزرسانی"
+   },
+   "userLanguage": {
+      "message": "فارسی"
+   },
+   "website": {
+      "message": "وب‌سایت"
+   },
+   "yearCount_few": {
+      "message": "{COUNT} سال"
+   },
+   "yearCount_many": {
+      "message": "{COUNT} سال"
+   },
+   "yearCount_one": {
+      "message": "{COUNT} سال"
+   },
+   "yearCount_other": {
+      "message": "{COUNT} سال"
+   },
+   "yearCount_two": {
+      "message": "{COUNT} سال"
+   },
+   "yearCount_zero": {
+      "message": "{COUNT} سال"
+   },
+   "yourTabAlreadyStoredHere": {
+      "message": "برگهٔ شما از قبل اینجا ذخیره شده است:"
+   }
+}

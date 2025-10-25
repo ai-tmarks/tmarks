@@ -1,0 +1,1715 @@
+{
+   "95PctMemoryReduction": {
+      "message": "Redução de memória de 95%"
+   },
+   "Folder": {
+      "message": "Pasta"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "message": "OneTab também está disponível para o Firefox"
+   },
+   "aDashZ": {
+      "message": "A-Z"
+   },
+   "about": {
+      "message": "Sobre"
+   },
+   "addOneTabNow": {
+      "message": "Adicionar OneTab agora"
+   },
+   "all": {
+      "message": "Tudo"
+   },
+   "allBookmarks": {
+      "message": "Todos os favoritos"
+   },
+   "allOpenTabsAlreadyStoredHere": {
+      "message": "Todas as guias abertas já estão armazenadas aqui:"
+   },
+   "allowFileAccessInstructions": {
+      "message": "Para permitir abrir arquivos diretamente, acesse Configurações ➝ Extensões ➝ OneTab ➝ Detalhes ➝ Permitir acesso a URLs de arquivo"
+   },
+   "alreadyExistingOpenTabsWillBeClosedAfterMerge": {
+      "message": "Todas as guias abertas que já existem neste grupo serão fechadas após a mesclagem."
+   },
+   "alternatePlainTextFormat": {
+      "message": "Como alternativa, o texto simples pode estar no formato:"
+   },
+   "approve": {
+      "message": "Aprovar"
+   },
+   "archived": {
+      "message": "Arquivados"
+   },
+   "autoTheme": {
+      "message": "Automático (usar a configuração do sistema operacional)"
+   },
+   "backupAndSync": {
+      "message": "Backup e sincronização"
+   },
+   "betaReleaseReportBugsHere": {
+      "message": "Versão beta - Reporte bugs aqui"
+   },
+   "bookmarkCount_few": {
+      "message": "{COUNT} favoritos"
+   },
+   "bookmarkCount_many": {
+      "message": "{COUNT} favoritos"
+   },
+   "bookmarkCount_one": {
+      "message": "{COUNT} favorito"
+   },
+   "bookmarkCount_other": {
+      "message": "{COUNT} favoritos"
+   },
+   "bookmarkCount_two": {
+      "message": "{COUNT} favoritos"
+   },
+   "bookmarkCount_zero": {
+      "message": "{COUNT} favoritos"
+   },
+   "bookmarksPermissionNecesssary": {
+      "message": "A permissão de favoritos é necessária para permitir que o OneTab importe seus favoritos do navegador"
+   },
+   "bulkActions": {
+      "message": "Ações em lote"
+   },
+   "canDragTextNote": {
+      "message": "Observação: também é possível arrastar e soltar texto que contenha links da web diretamente de outra página da web ou de um documento. Você pode arrastar o texto diretamente para sua página do OneTab, sem precisar usar esta caixa de importação."
+   },
+   "canPasteWebContentForExample": {
+      "message": "Você pode colar texto copiado de uma página da web ou de um documento, e os links serão extraídos automaticamente. Por exemplo:"
+   },
+   "cancel": {
+      "message": "Cancelar"
+   },
+   "cannotConnectToServerDeletionRequestQueued": {
+      "message": "Não é possível conectar ao servidor do OneTab. Verifique sua conexão com a internet. Sua solicitação de exclusão da página compartilhada foi colocada em fila localmente e será enviada automaticamente ao servidor do OneTab assim que ele estiver acessível novamente."
+   },
+   "cannotCreateTabGroupInTabGroup": {
+      "message": "Seu destino escolhido é um grupo de guias. Você não pode criar um grupo de guias dentro de um grupo de guias existente. Escolha outro destino."
+   },
+   "cannotMixTabsGroupsFoldersDuringDrag": {
+      "message": "Não é possível misturar guias, grupos e pastas ao arrastar. Isso ocorre porque, por exemplo, você não pode arrastar uma pasta para os mesmos lugares em que pode arrastar uma guia."
+   },
+   "caseSensitive": {
+      "message": "Diferenciar maiúsculas e minúsculas"
+   },
+   "changesMadeSinceSharedPageCreation": {
+      "message": "Foram feitas alterações desde que você criou a página compartilhada. Clique no botão 'Atualizar' para atualizar a página compartilhada existente."
+   },
+   "checkboxesDeterminePinnedAndGroupedTabMergeInclusion": {
+      "message": "As caixas de seleção no topo desta página determinam se guias fixadas ou guias em grupos de guias serão incluídas na mesclagem."
+   },
+   "chooseALocation": {
+      "message": "Escolha um local"
+   },
+   "chooseALocationToImportTo": {
+      "message": "Escolha um local de destino para importar"
+   },
+   "chooseExportLocation": {
+      "message": "Escolha um local de onde exportar"
+   },
+   "chooseLightDarkTheme": {
+      "message": "Escolher tema claro/escuro"
+   },
+   "chooseLocationToCopyTo": {
+      "message": "Escolha um local de destino para copiar"
+   },
+   "chooseLocationToMoveTo": {
+      "message": "Escolha um local de destino para mover"
+   },
+   "chooseLocationToRestoreTo": {
+      "message": "Escolha um local de destino para restaurar"
+   },
+   "chooseToIncludeNotes": {
+      "message": "Se você adicionou notas a guias ou grupos, escolha se deseja incluí-las na página da web compartilhada"
+   },
+   "chooseToIncludeRatings": {
+      "message": "Se você adicionou avaliações por estrelas a guias ou grupos, escolha se deseja incluí-las na página da web compartilhada"
+   },
+   "chromeIncognitoInstructions": {
+      "message": "Nas configurações do navegador, vá em 'Configurações' → 'Extensões' → 'OneTab' → 'Detalhes' e, em seguida, ative 'Permitir no modo anônimo'."
+   },
+   "clickButtonToAllowTabAccess": {
+      "message": "Clique no botão abaixo para permitir que o OneTab acesse suas guias abertas."
+   },
+   "clickHereToContinue": {
+      "message": "Clique aqui para continuar."
+   },
+   "clickOneTabIconToStoreTabsHere": {
+      "message": "Clique no ícone do OneTab na barra de ferramentas do navegador para armazenar suas guias abertas aqui."
+   },
+   "closeSelectedTabsAndStoreInONETAB_few": {
+      "message": "Fechar {COUNT} guias selecionadas e armazenar no ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_many": {
+      "message": "Fechar {COUNT} guias selecionadas e armazenar no ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_one": {
+      "message": "Fechar {COUNT} guia selecionada e armazenar no ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_other": {
+      "message": "Fechar {COUNT} guias selecionadas e armazenar no ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_two": {
+      "message": "Fechar {COUNT} guias selecionadas e armazenar no ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_zero": {
+      "message": "Fechar {COUNT} guias selecionadas e armazenar no ONETAB"
+   },
+   "closeSelectedTabs_few": {
+      "message": "Fechar {COUNT} guias selecionadas"
+   },
+   "closeSelectedTabs_many": {
+      "message": "Fechar {COUNT} guias selecionadas"
+   },
+   "closeSelectedTabs_one": {
+      "message": "Fechar {COUNT} guia selecionada"
+   },
+   "closeSelectedTabs_other": {
+      "message": "Fechar {COUNT} guias selecionadas"
+   },
+   "closeSelectedTabs_two": {
+      "message": "Fechar {COUNT} guias selecionadas"
+   },
+   "closeSelectedTabs_zero": {
+      "message": "Fechar {COUNT} guias selecionadas"
+   },
+   "closeTab": {
+      "message": "Fechar guia"
+   },
+   "closeTabAndStore": {
+      "message": "Fechar guia e armazenar no ONETAB"
+   },
+   "closeTabs": {
+      "message": "Fechar guias"
+   },
+   "closeTabsAfterMerge": {
+      "message": "Fechar as guias após a mesclagem"
+   },
+   "closeTabsAlreadyStoredInOneTab_few": {
+      "message": "Fechar {COUNT} guias já armazenadas no OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_many": {
+      "message": "Fechar {COUNT} guias já armazenadas no OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_one": {
+      "message": "Fechar {COUNT} guia já armazenada no OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_other": {
+      "message": "Fechar {COUNT} guias já armazenadas no OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_two": {
+      "message": "Fechar {COUNT} guias já armazenadas no OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_zero": {
+      "message": "Fechar {COUNT} guias já armazenadas no OneTab"
+   },
+   "closeTabsAndStore": {
+      "message": "Fechar guias e armazenar no ONETAB"
+   },
+   "closeTheseDuplicates": {
+      "message": "Fechar estas guias duplicadas"
+   },
+   "closeThisDuplicate": {
+      "message": "Fechar esta guia duplicada"
+   },
+   "completeEditingShortcutInfo": {
+      "message": "Ao editar um campo de notas, use este atalho para concluir a edição."
+   },
+   "configureShortcuts": {
+      "message": "Configurar atalhos"
+   },
+   "conflictingShortcutsHint": {
+      "message": "Se algum dos atalhos acima não funcionar ou entrar em conflito com outros aplicativos, você pode configurar outro atalho."
+   },
+   "continue": {
+      "message": "Continuar"
+   },
+   "convertTabsIntoAList": {
+      "message": "Converter guias em uma lista"
+   },
+   "copiedToClipboard": {
+      "message": "Copiado para a área de transferência"
+   },
+   "copy": {
+      "message": "Copiar"
+   },
+   "copyLinksToClipboard": {
+      "message": "Copiar links para a área de transferência"
+   },
+   "copySharedPageUrl": {
+      "message": "Copiar URL da página compartilhada"
+   },
+   "copyToClipboard": {
+      "message": "Copiar para a área de transferência"
+   },
+   "createANewGroupHere": {
+      "message": "Criar um novo grupo aqui"
+   },
+   "createFolderAbove": {
+      "message": "Criar pasta acima"
+   },
+   "createFolderAboveBelow": {
+      "message": "Criar pasta acima / abaixo"
+   },
+   "createFolderAboveWithinBelow": {
+      "message": "Criar pasta acima / dentro / abaixo"
+   },
+   "createFolderBelow": {
+      "message": "Criar pasta abaixo"
+   },
+   "createFolderWithin": {
+      "message": "Criar subpasta"
+   },
+   "createGroupAbove": {
+      "message": "Criar grupo acima"
+   },
+   "createGroupAboveBelow": {
+      "message": "Criar grupo acima / abaixo"
+   },
+   "createGroupAboveWithinBelow": {
+      "message": "Criar grupo acima / dentro / abaixo"
+   },
+   "createGroupBelow": {
+      "message": "Criar grupo abaixo"
+   },
+   "createGroupInsideDestination": {
+      "message": "Criar novo grupo dentro do destino"
+   },
+   "createGroupInsideDestinationHelp": {
+      "message": "Se desmarcado, suas guias serão adicionadas diretamente ao grupo de destino. Se marcado, será criado um novo grupo de guias do navegador para suas guias dentro do grupo de destino. Marque esta opção apenas se quiser usar o recurso \"grupos de guias\" do seu navegador."
+   },
+   "createGroupWithin": {
+      "message": "Criar subgrupo"
+   },
+   "createNewGroupTip": {
+      "message": "Para criar um novo grupo, desmarque \"Mostrar apenas pastas\""
+   },
+   "createdOnOrAfterColon": {
+      "message": "Criado em ou depois de:"
+   },
+   "createdOnOrBeforeColon": {
+      "message": "Criado em ou antes de:"
+   },
+   "createdPreceedingDate": {
+      "message": "Criado em"
+   },
+   "darkTheme": {
+      "message": "Tema escuro"
+   },
+   "dayCount_few": {
+      "message": "{COUNT} dias"
+   },
+   "dayCount_many": {
+      "message": "{COUNT} dias"
+   },
+   "dayCount_one": {
+      "message": "{COUNT} dia"
+   },
+   "dayCount_other": {
+      "message": "{COUNT} dias"
+   },
+   "dayCount_two": {
+      "message": "{COUNT} dias"
+   },
+   "dayCount_zero": {
+      "message": "{COUNT} dias"
+   },
+   "delete": {
+      "message": "Excluir"
+   },
+   "deleteAllTrash": {
+      "message": "Esvaziar lixeira"
+   },
+   "deleteThisCopy": {
+      "message": "Excluir esta cópia"
+   },
+   "deselectAll": {
+      "message": "Desmarcar tudo"
+   },
+   "destinationColon": {
+      "message": "Destino:"
+   },
+   "disabled": {
+      "message": "Desativado"
+   },
+   "doneTaskCount_few": {
+      "message": "{COUNT} concluídos"
+   },
+   "doneTaskCount_many": {
+      "message": "{COUNT} concluídos"
+   },
+   "doneTaskCount_one": {
+      "message": "{COUNT} concluído"
+   },
+   "doneTaskCount_other": {
+      "message": "{COUNT} concluídos"
+   },
+   "doneTaskCount_two": {
+      "message": "{COUNT} concluídos"
+   },
+   "doneTaskCount_zero": {
+      "message": "{COUNT} concluídos"
+   },
+   "dontCloseGroupedTabs": {
+      "message": "Não fechar nenhuma guia dentro de grupos de guias"
+   },
+   "dontClosePinnedTabs": {
+      "message": "Não fechar nenhuma guia fixada"
+   },
+   "dontCloseTabsFromDomains": {
+      "message": "Não fechar nenhuma guia de EXAMPLE.COM"
+   },
+   "dragTabsHereForQuickList": {
+      "message": "Arraste suas guias ou grupos armazenados aqui. Eles serão adicionados à sua lista rápida."
+   },
+   "editTabGroupTitleAndNotes": {
+      "message": "Editar o título e as notas do grupo de guias"
+   },
+   "emojiShortcutInfo": {
+      "message": "Ao editar um campo de notas, use este atalho para abrir o seletor de emojis."
+   },
+   "emptyInBrackets": {
+      "message": "(vazio)"
+   },
+   "emptyOneTabInfoMsg": {
+      "message": "Quando você tiver várias guias abertas, clique no ícone do OneTab na barra de ferramentas do navegador e suas guias abertas aparecerão aqui."
+   },
+   "enabled": {
+      "message": "Ativado"
+   },
+   "encryptedSyncAndBackup": {
+      "message": "Sincronização e backup criptografados"
+   },
+   "encryptedSyncAndBackupComingSoonMessage": {
+      "message": "Em breve: você poderá sincronizar seus dados do OneTab entre vários perfis de navegador e computadores.\nO OneTab foi completamente reescrito para que as alterações feitas em um dispositivo apareçam instantaneamente em todos os outros.\nSe você usar esse recurso, seus dados serão protegidos com criptografia de ponta a ponta usando AES-256 de alta segurança. Isso torna impossível para os desenvolvedores do OneTab verem as guias que você fez backup ou sincronizou entre dispositivos, porque somente você tem a chave de criptografia."
+   },
+   "everything": {
+      "message": "Tudo"
+   },
+   "exampleLink": {
+      "message": "Link de exemplo"
+   },
+   "exampleLinkTitle": {
+      "message": "Título do link de exemplo"
+   },
+   "exampleLinkTitleOptional": {
+      "message": "Título do link de exemplo (opcional)"
+   },
+   "exampleRichTextParagraph": {
+      "message": "Exemplo de parágrafo de texto com PLACEHOLDER e PLACEHOLDER"
+   },
+   "exampleWebsitePageTitle": {
+      "message": "Título de página de site de exemplo"
+   },
+   "excludeDomainFromOneTab": {
+      "message": "Excluir EXAMPLE.COM do OneTab"
+   },
+   "excludeWebSiteFromOneTab": {
+      "message": "Excluir este site do OneTab"
+   },
+   "expiresColon": {
+      "message": "Expira:"
+   },
+   "export": {
+      "message": "Exportar"
+   },
+   "exportImportUrls": {
+      "message": "Exportar / Importar URLs"
+   },
+   "exportThenImportNote": {
+      "message": "A lista de URLs abaixo também pode ser importada de volta para o OneTab neste ou em outro computador"
+   },
+   "exportUrls": {
+      "message": "Exportar URLs"
+   },
+   "feedback": {
+      "message": "Feedback"
+   },
+   "filter": {
+      "message": "Filtro"
+   },
+   "firefoxIncognitoInstructions": {
+      "message": "Nas configurações do navegador, vá em 'Configurações' → 'Extensões e temas' → 'Extensões' → 'OneTab' → '...' → 'Gerenciar' e, em seguida, ative 'Executar em janelas privativas'."
+   },
+   "firefoxShortcutConfigInstructions": {
+      "message": "Digite a URL \"about:addons?type=extension\" na barra de endereços do navegador. Quando a página abrir, clique no ícone de engrenagem e escolha \"Gerenciar atalhos de extensões\""
+   },
+   "folderCount_few": {
+      "message": "{COUNT} pastas"
+   },
+   "folderCount_many": {
+      "message": "{COUNT} pastas"
+   },
+   "folderCount_one": {
+      "message": "{COUNT} pasta"
+   },
+   "folderCount_other": {
+      "message": "{COUNT} pastas"
+   },
+   "folderCount_two": {
+      "message": "{COUNT} pastas"
+   },
+   "folderCount_zero": {
+      "message": "{COUNT} pastas"
+   },
+   "folders": {
+      "message": "Pastas"
+   },
+   "foldersOnly": {
+      "message": "Apenas pastas"
+   },
+   "gettingStarted": {
+      "message": "Primeiros passos"
+   },
+   "goToParentFolder": {
+      "message": "Ir para a pasta pai"
+   },
+   "groupCount_few": {
+      "message": "{COUNT} grupos"
+   },
+   "groupCount_many": {
+      "message": "{COUNT} grupos"
+   },
+   "groupCount_one": {
+      "message": "{COUNT} grupo"
+   },
+   "groupCount_other": {
+      "message": "{COUNT} grupos"
+   },
+   "groupCount_two": {
+      "message": "{COUNT} grupos"
+   },
+   "groupCount_zero": {
+      "message": "{COUNT} grupos"
+   },
+   "groups": {
+      "message": "Grupos"
+   },
+   "hasNotes": {
+      "message": "Com notas"
+   },
+   "hasRating": {
+      "message": "Com avaliação"
+   },
+   "help": {
+      "message": "Ajuda"
+   },
+   "hideArchivedItems": {
+      "message": "Ocultar itens arquivados"
+   },
+   "import": {
+      "message": "Importar"
+   },
+   "importAndExport": {
+      "message": "Importar & Exportar"
+   },
+   "importBookmarks": {
+      "message": "Importar favoritos"
+   },
+   "importFolderAndSubfolders": {
+      "message": "Importar pasta e subpastas"
+   },
+   "importLinksHere": {
+      "message": "Importar links aqui"
+   },
+   "importReadingList": {
+      "message": "Importar lista de leitura"
+   },
+   "importText": {
+      "message": "Importar texto"
+   },
+   "importUrls": {
+      "message": "Importar URLs"
+   },
+   "importedBookmarks": {
+      "message": "Favoritos importados"
+   },
+   "includeGroupedTabs": {
+      "message": "Incluir guias em grupos de guias"
+   },
+   "includeNotes": {
+      "message": "Incluir notas"
+   },
+   "includePinnedTabs": {
+      "message": "Incluir guias fixadas"
+   },
+   "includeStarRatings": {
+      "message": "Incluir avaliações por estrelas"
+   },
+   "includeTabsAlreadyStored": {
+      "message": "Incluir guias que você já armazenou"
+   },
+   "includeTabsFromDomains": {
+      "message": "Incluir guias de EXAMPLE.COM"
+   },
+   "incogitoPermissionRequired": {
+      "message": "O OneTab precisa de permissão para criar janelas anônimas."
+   },
+   "incognitoWindows": {
+      "message": "Janelas anônimas"
+   },
+   "invertSelection": {
+      "message": "Inverter seleção"
+   },
+   "justNow": {
+      "message": "agora mesmo"
+   },
+   "keyboardShortcutsColon": {
+      "message": "Atalhos de teclado:"
+   },
+   "languageTitle": {
+      "message": "Idioma:"
+   },
+   "lightTheme": {
+      "message": "Tema claro"
+   },
+   "localeId": {
+      "message": "pt_BR"
+   },
+   "locationColon": {
+      "message": "Local:"
+   },
+   "lock": {
+      "message": "Bloquear"
+   },
+   "lockMenuItemHelp": {
+      "message": "Quando um grupo está bloqueado, você não pode excluir ou reordenar itens dentro do grupo. Ao abrir um grupo bloqueado, as ações automáticas não se aplicam. Consulte a página de Opções para informações sobre ações automáticas."
+   },
+   "lockedGroupUnlockHelp": {
+      "message": "Para desbloquear, use o menu suspenso. Quando um grupo está bloqueado, você não pode excluir o grupo ou suas guias, e as guias não podem ser reordenadas."
+   },
+   "makeThisATask": {
+      "message": "Marcar como tarefa"
+   },
+   "manifestDescription": {
+      "message": "Economize até 95% de memória e reduza o excesso de guias"
+   },
+   "markAsArchived": {
+      "message": "Marcar como arquivado"
+   },
+   "markAsArchivedMenuItemHelp": {
+      "message": "Observação: tarefas arquivadas e tarefas dentro de grupos arquivados não aparecerão na coluna de tarefas"
+   },
+   "markAsDoneTask": {
+      "message": "Marcar como tarefa concluída"
+   },
+   "markAsPendingTask": {
+      "message": "Marcar como tarefa pendente"
+   },
+   "matchCount_few": {
+      "message": "{COUNT} resultados"
+   },
+   "matchCount_many": {
+      "message": "{COUNT} resultados"
+   },
+   "matchCount_one": {
+      "message": "{COUNT} resultado"
+   },
+   "matchCount_other": {
+      "message": "{COUNT} resultados"
+   },
+   "matchCount_two": {
+      "message": "{COUNT} resultados"
+   },
+   "matchCount_zero": {
+      "message": "{COUNT} resultados"
+   },
+   "matchWholeWordsOnly": {
+      "message": "Correspondência apenas de palavras inteiras"
+   },
+   "mayNeedToRestartBrowser": {
+      "message": "Talvez seja necessário atualizar e reiniciar seu navegador."
+   },
+   "mergeIntoParent": {
+      "message": "Mesclar com o pai"
+   },
+   "mergeOpenTabsHere_few": {
+      "message": "Mesclar {COUNT} guias abertas aqui"
+   },
+   "mergeOpenTabsHere_many": {
+      "message": "Mesclar {COUNT} guias abertas aqui"
+   },
+   "mergeOpenTabsHere_one": {
+      "message": "Mesclar {COUNT} guia aberta aqui"
+   },
+   "mergeOpenTabsHere_other": {
+      "message": "Mesclar {COUNT} guias abertas aqui"
+   },
+   "mergeOpenTabsHere_two": {
+      "message": "Mesclar {COUNT} guias abertas aqui"
+   },
+   "mergeOpenTabsHere_zero": {
+      "message": "Mesclar {COUNT} guias abertas aqui"
+   },
+   "mergeSelectedTabsHere_few": {
+      "message": "Mesclar {COUNT} guias selecionadas aqui"
+   },
+   "mergeSelectedTabsHere_many": {
+      "message": "Mesclar {COUNT} guias selecionadas aqui"
+   },
+   "mergeSelectedTabsHere_one": {
+      "message": "Mesclar {COUNT} guia selecionada aqui"
+   },
+   "mergeSelectedTabsHere_other": {
+      "message": "Mesclar {COUNT} guias selecionadas aqui"
+   },
+   "mergeSelectedTabsHere_two": {
+      "message": "Mesclar {COUNT} guias selecionadas aqui"
+   },
+   "mergeSelectedTabsHere_zero": {
+      "message": "Mesclar {COUNT} guias selecionadas aqui"
+   },
+   "mergeWithInnerGroups": {
+      "message": "Mesclar com grupos internos"
+   },
+   "modifySharing": {
+      "message": "Modificar compartilhamento"
+   },
+   "moreEllipsis": {
+      "message": "Mais…"
+   },
+   "moreSearchFilters": {
+      "message": "Mais filtros de pesquisa"
+   },
+   "moreTripleDot": {
+      "message": "Mais…"
+   },
+   "move": {
+      "message": "Mover"
+   },
+   "moveToTrash": {
+      "message": "Mover para a lixeira"
+   },
+   "namedOnly": {
+      "message": "Apenas itens nomeados"
+   },
+   "navigationFilter": {
+      "message": "Filtro de navegação"
+   },
+   "newExclamation": {
+      "message": "Novo!"
+   },
+   "noDupsExistExceptForColon": {
+      "message": "Não há duplicatas, exceto por:"
+   },
+   "noDupsFoundHere": {
+      "message": "Nenhuma duplicata encontrada aqui"
+   },
+   "noMatches": {
+      "message": "Nenhum resultado"
+   },
+   "noMatchesFound": {
+      "message": "Nenhum resultado encontrado"
+   },
+   "noOpenTabsToStore": {
+      "message": "Não há guias abertas nesta janela para armazenar."
+   },
+   "noReadingListEntries": {
+      "message": "Nenhum item da lista de leitura encontrado"
+   },
+   "noTabsInOneTabYet": {
+      "message": "Você ainda não tem nenhuma guia no OneTab"
+   },
+   "noTabsMeetCriteriaUseCheckboxes": {
+      "message": "Nenhuma guia aberta atende aos seus critérios. Use as caixas de seleção acima."
+   },
+   "noTextHasBeenEntered": {
+      "message": "Nenhum texto foi inserido"
+   },
+   "nonArchived": {
+      "message": "Não arquivados"
+   },
+   "notAssigned": {
+      "message": "Não atribuído"
+   },
+   "notes": {
+      "message": "Notas"
+   },
+   "notesAboutTheLinkOptional": {
+      "message": "Notas sobre o link (opcional)"
+   },
+   "notesAboutTheSecondLinkOptional": {
+      "message": "Notas sobre o segundo link (opcional)"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "omniboxShortcutInfo": {
+      "message": "Para pesquisar sua lista do OneTab a partir de qualquer guia: Vá para a barra de endereços do navegador, digite 1, depois espaço, e em seguida uma palavra-chave de pesquisa."
+   },
+   "oneTabDesignedToProtectPrivacy": {
+      "message": "O OneTab foi desenvolvido para proteger sua privacidade. Suas guias não são divulgadas para nós."
+   },
+   "oneTabImportExportPageTitle": {
+      "message": "Importação/exportação do OneTab"
+   },
+   "oneTabNeedsPermissionToAccessYourTabs": {
+      "message": "O OneTab precisa de permissão para acessar suas guias."
+   },
+   "oneTabOptionsPageTitle": {
+      "message": "Opções do OneTab"
+   },
+   "oneTabPermissionRequired": {
+      "message": "OneTab - Permissão necessária"
+   },
+   "oneTabRestartRequired": {
+      "message": "É necessário reiniciar o OneTab."
+   },
+   "oneTabSlashShortcutInfo": {
+      "message": "Quando estiver na página do OneTab, pressione a tecla barra (/) para focar a caixa de pesquisa."
+   },
+   "open": {
+      "message": "Abrir"
+   },
+   "openActionPopup": {
+      "message": "Abrir o pop-up da extensão"
+   },
+   "openAsCollapsedTabGroup": {
+      "message": "Abrir como um grupo de guias 'recolhido'"
+   },
+   "openAsCollapsedTabGroupMenuItemHelp": {
+      "message": "Se você abrir estas guias como um \"grupo de guias\" recolhido, apenas o rótulo do grupo será exibido até você clicar nele para revelar as guias dentro."
+   },
+   "openAsTabGroup": {
+      "message": "Abrir como um grupo de guias do navegador"
+   },
+   "openAsTabGroupMenuItemHelp": {
+      "message": "Seu navegador permite agrupar guias em \"grupos de guias\" coloridos dentro de uma janela."
+   },
+   "openGroupsLimitNotice_few": {
+      "message": "Para evitar sobrecarga do seu navegador, apenas os primeiros {COUNT} grupos serão abertos."
+   },
+   "openGroupsLimitNotice_many": {
+      "message": "Para evitar sobrecarga do seu navegador, apenas os primeiros {COUNT} grupos serão abertos."
+   },
+   "openGroupsLimitNotice_one": {
+      "message": "Para evitar sobrecarga do seu navegador, apenas o {COUNT}º grupo será aberto."
+   },
+   "openGroupsLimitNotice_other": {
+      "message": "Para evitar sobrecarga do seu navegador, apenas os primeiros {COUNT} grupos serão abertos."
+   },
+   "openGroupsLimitNotice_two": {
+      "message": "Para evitar sobrecarga do seu navegador, apenas os primeiros {COUNT} grupos serão abertos."
+   },
+   "openGroupsLimitNotice_zero": {
+      "message": "Para evitar sobrecarga do seu navegador, apenas os primeiros {COUNT} grupos serão abertos."
+   },
+   "openInIncognitoWindow": {
+      "message": "Abrir em uma nova janela anônima"
+   },
+   "openInNewWindow": {
+      "message": "Abrir em uma nova janela"
+   },
+   "openInThisWindow": {
+      "message": "Abrir nesta janela"
+   },
+   "openONETABLogo": {
+      "message": "Abrir ONETAB"
+   },
+   "openOneTab": {
+      "message": "Abrir OneTab"
+   },
+   "openOneTabAfter": {
+      "message": "Abrir o OneTab após armazenar as guias"
+   },
+   "openTabFromWebsite": {
+      "message": "Abra uma guia e acesse o site"
+   },
+   "openTabLimit_few": {
+      "message": "Para evitar sobrecarga do seu navegador, no máximo {COUNT} guias podem ser abertas de uma vez."
+   },
+   "openTabLimit_many": {
+      "message": "Para evitar sobrecarga do seu navegador, no máximo {COUNT} guias podem ser abertas de uma vez."
+   },
+   "openTabLimit_one": {
+      "message": "Para evitar sobrecarga do seu navegador, no máximo {COUNT} guia pode ser aberta de uma vez."
+   },
+   "openTabLimit_other": {
+      "message": "Para evitar sobrecarga do seu navegador, no máximo {COUNT} guias podem ser abertas de uma vez."
+   },
+   "openTabLimit_two": {
+      "message": "Para evitar sobrecarga do seu navegador, no máximo {COUNT} guias podem ser abertas de uma vez."
+   },
+   "openTabLimit_zero": {
+      "message": "Para evitar sobrecarga do seu navegador, no máximo {COUNT} guias podem ser abertas de uma vez."
+   },
+   "openTabsAlreadyStoredHere_few": {
+      "message": "{COUNT} guias abertas já armazenadas aqui:"
+   },
+   "openTabsAlreadyStoredHere_many": {
+      "message": "{COUNT} guias abertas já armazenadas aqui:"
+   },
+   "openTabsAlreadyStoredHere_one": {
+      "message": "{COUNT} guia aberta já armazenada aqui:"
+   },
+   "openTabsAlreadyStoredHere_other": {
+      "message": "{COUNT} guias abertas já armazenadas aqui:"
+   },
+   "openTabsAlreadyStoredHere_two": {
+      "message": "{COUNT} guias abertas já armazenadas aqui:"
+   },
+   "openTabsAlreadyStoredHere_zero": {
+      "message": "{COUNT} guias abertas já armazenadas aqui:"
+   },
+   "openTabsConfirm_few": {
+      "message": "Você está prestes a abrir {COUNT} guias. Tem certeza?"
+   },
+   "openTabsConfirm_many": {
+      "message": "Você está prestes a abrir {COUNT} guias. Tem certeza?"
+   },
+   "openTabsConfirm_one": {
+      "message": "Você está prestes a abrir {COUNT} guia. Tem certeza?"
+   },
+   "openTabsConfirm_other": {
+      "message": "Você está prestes a abrir {COUNT} guias. Tem certeza?"
+   },
+   "openTabsConfirm_two": {
+      "message": "Você está prestes a abrir {COUNT} guias. Tem certeza?"
+   },
+   "openTabsConfirm_zero": {
+      "message": "Você está prestes a abrir {COUNT} guias. Tem certeza?"
+   },
+   "openTabsNotStoredInOneTab_few": {
+      "message": "{COUNT} guias abertas não armazenadas no OneTab"
+   },
+   "openTabsNotStoredInOneTab_many": {
+      "message": "{COUNT} guias abertas não armazenadas no OneTab"
+   },
+   "openTabsNotStoredInOneTab_one": {
+      "message": "{COUNT} guia aberta não armazenada no OneTab"
+   },
+   "openTabsNotStoredInOneTab_other": {
+      "message": "{COUNT} guias abertas não armazenadas no OneTab"
+   },
+   "openTabsNotStoredInOneTab_two": {
+      "message": "{COUNT} guias abertas não armazenadas no OneTab"
+   },
+   "openTabsNotStoredInOneTab_zero": {
+      "message": "{COUNT} guias abertas não armazenadas no OneTab"
+   },
+   "optionAutoActionOnGroupOpenArchiveDesc": {
+      "message": "Para evitar marcar o grupo como arquivado, mantenha a tecla Alt/Option pressionada ao clicar para abrir o grupo"
+   },
+   "optionAutoActionOnGroupOpenArchiveTitle": {
+      "message": "Abrir as guias e marcar o grupo como arquivado"
+   },
+   "optionAutoActionOnGroupOpenHeading": {
+      "message": "Ação automática ao clicar para abrir um grupo de abas:"
+   },
+   "optionAutoActionOnGroupOpenNote": {
+      "message": "Ações automáticas não serão aplicadas a grupos bloqueados ou que sejam tarefas."
+   },
+   "optionAutoActionOnGroupOpenOpenDesc": {
+      "message": "Para marcar o grupo como arquivado, mantenha a tecla Alt/Option pressionada ao clicar para abrir o grupo"
+   },
+   "optionAutoActionOnGroupOpenOpenTitle": {
+      "message": "Apenas abrir as guias"
+   },
+   "optionAutoActionOnGroupOpenTrashDesc": {
+      "message": "Para evitar enviar automaticamente o grupo para a lixeira, mantenha a tecla Alt/Option pressionada ao clicar para abrir o grupo"
+   },
+   "optionAutoActionOnGroupOpenTrashTitle": {
+      "message": "Abrir as guias e mover o grupo para a lixeira"
+   },
+   "optionAutoActionOnTabOpenArchiveDesc": {
+      "message": "Para evitar marcar automaticamente a guia como arquivada, mantenha a tecla Alt/Option pressionada ao clicar para abrir a guia"
+   },
+   "optionAutoActionOnTabOpenArchiveTitle": {
+      "message": "Abrir a guia e marcá-la como arquivada"
+   },
+   "optionAutoActionOnTabOpenHeading": {
+      "message": "Ação automática ao clicar para abrir uma guia:"
+   },
+   "optionAutoActionOnTabOpenNote": {
+      "message": "Ações automáticas não serão aplicadas a guias em grupos bloqueados ou que sejam tarefas."
+   },
+   "optionAutoActionOnTabOpenOpenDesc": {
+      "message": "Para marcar a guia como arquivada, mantenha a tecla Alt/Option pressionada ao clicar para abrir a guia"
+   },
+   "optionAutoActionOnTabOpenOpenTitle": {
+      "message": "Apenas abrir a guia"
+   },
+   "optionAutoActionOnTabOpenTrashDesc": {
+      "message": "Para evitar enviar automaticamente a guia para a lixeira, mantenha a tecla Alt/Option pressionada ao clicar para abrir a guia"
+   },
+   "optionAutoActionOnTabOpenTrashTitle": {
+      "message": "Abrir a guia e movê-la para a lixeira"
+   },
+   "optionCopyToClipboardFormatHeading": {
+      "message": "Copiando links para a área de transferência:"
+   },
+   "optionCopyToClipboardFormatNote": {
+      "message": "Essa configuração se aplica quando você usa a ação 'Copiar para a área de transferência'. Você também pode arrastar guias e grupos diretamente do OneTab para um documento."
+   },
+   "optionCopyToClipboardFormatRichTextDesc": {
+      "message": "Aplicativos como processadores de texto permitem colar texto rico. Se não houver suporte, será colado texto simples."
+   },
+   "optionCopyToClipboardFormatRichTextTitle": {
+      "message": "Texto rico, quando disponível"
+   },
+   "optionCopyToClipboardFormatTitleUrlTitle": {
+      "message": "Título e URL"
+   },
+   "optionCopyToClipboardFormatUrlOnlyTitle": {
+      "message": "Apenas URL"
+   },
+   "optionCopyToClipboardFormatUrlTitleTitle": {
+      "message": "URL e título"
+   },
+   "optionDefaultTabGroupOpenTypeCurrentWindow": {
+      "message": "Abrir o grupo de guias do navegador na janela atual"
+   },
+   "optionDefaultTabGroupOpenTypeHeading": {
+      "message": "Ao clicar para abrir um grupo de abas configurado para abrir como um \"grupo de guias\" do navegador:"
+   },
+   "optionDefaultTabGroupOpenTypeNewWindow": {
+      "message": "Abrir o grupo de guias do navegador em uma nova janela"
+   },
+   "optionDefaultTabGroupOpenTypeNote": {
+      "message": "Se você usar o menu suspenso para escolher uma opção específica (como abrir guias em uma janela anônima), essa opção será lembrada para aquele grupo."
+   },
+   "optionDefaultWindowGroupOpenTypeCurrentWindow": {
+      "message": "Abrir as guias na janela atual"
+   },
+   "optionDefaultWindowGroupOpenTypeHeading": {
+      "message": "Ao clicar para abrir um grupo de abas:"
+   },
+   "optionDefaultWindowGroupOpenTypeNewWindow": {
+      "message": "Abrir as guias em uma nova janela"
+   },
+   "optionDefaultWindowGroupOpenTypeNote": {
+      "message": "Se você usar o menu suspenso para escolher uma opção específica (como abrir guias em uma janela anônima), essa opção será lembrada para aquele grupo."
+   },
+   "optionDiscardNonActiveTabOnOpenHeading": {
+      "message": "Economize memória (RAM) imediatamente quando as guias forem abertas pela primeira vez:"
+   },
+   "optionDiscardNonActiveTabOnOpenNote": {
+      "message": "Se esta configuração estiver ativada, as guias serão descarregadas da memória imediatamente quando você abri-las pela primeira vez a partir da sua lista do OneTab. Isso é útil se você frequentemente abre dezenas de guias de uma vez, pois impede que todas sejam carregadas na memória até você acessá-las. Se esta configuração estiver desativada, muitos navegadores ainda poderão optar automaticamente por descarregar guias da memória quando você não estiver usando-as."
+   },
+   "optionDisplayContextMenuHeading": {
+      "message": "Clique com o botão direito em uma página da web para acessar o menu de contexto do OneTab:"
+   },
+   "optionDisplayContextMenuNote": {
+      "message": "Se você desativar o menu, não poderá acessar o recurso \"Excluir site do OneTab\""
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenFalseTitle": {
+      "message": "Alternar para a janela onde a guia do OneTab já está aberta"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenHeading": {
+      "message": "Ação \"Abrir OneTab\":"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenNote": {
+      "message": "A ação \"Abrir OneTab\" pode ser acessada por um atalho de teclado. Ela também pode ser acessada no pop-up que aparece ao clicar no ícone do OneTab na barra de ferramentas do navegador."
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenTrueTitle": {
+      "message": "Mover qualquer guia do OneTab existente para a janela atual"
+   },
+   "optionStartupLaunchDisplay": {
+      "message": "Abrir o OneTab sempre que iniciar o navegador"
+   },
+   "optionStartupLaunchNone": {
+      "message": "Não abrir o OneTab automaticamente"
+   },
+   "optionStartupLaunchNoneDesc3": {
+      "message": "Para abrir o OneTab manualmente, clique no ícone do OneTab na barra de ferramentas do navegador e escolha 'Abrir OneTab'. Como alternativa, você pode clicar com o botão direito em qualquer página da web e clicar em 'Abrir OneTab' no menu do OneTab."
+   },
+   "optionStartupLaunchTitle": {
+      "message": "Inicialização:"
+   },
+   "optionSwitchToOpenedTabFalseTitle": {
+      "message": "Abrir a guia e permanecer no OneTab"
+   },
+   "optionSwitchToOpenedTabHeading": {
+      "message": "Ao abrir guias pela página do OneTab:"
+   },
+   "optionSwitchToOpenedTabNote": {
+      "message": "Se você mantiver Shift ao clicar, a guia será aberta em uma nova janela"
+   },
+   "optionSwitchToOpenedTabTrueTitle": {
+      "message": "Abrir a guia e alternar para ela (a menos que você mantenha Command ⌘/Ctrl ao clicar)"
+   },
+   "optionUrlAbbr": {
+      "message": "Abreviada"
+   },
+   "optionUrlDisplayTitle": {
+      "message": "Exibição de URL:"
+   },
+   "optionUrlDomain": {
+      "message": "Somente domínio"
+   },
+   "optionUrlFull": {
+      "message": "Completa"
+   },
+   "optionUrlNone": {
+      "message": "Nenhuma"
+   },
+   "options": {
+      "message": "Opções"
+   },
+   "otherCopiesColon": {
+      "message": "Outras cópias:"
+   },
+   "pasteRichOrPlainTextBelow": {
+      "message": "Você pode colar abaixo texto formatado ou texto simples."
+   },
+   "pendingTaskCount_few": {
+      "message": "{COUNT} pendentes"
+   },
+   "pendingTaskCount_many": {
+      "message": "{COUNT} pendentes"
+   },
+   "pendingTaskCount_one": {
+      "message": "{COUNT} pendente"
+   },
+   "pendingTaskCount_other": {
+      "message": "{COUNT} pendentes"
+   },
+   "pendingTaskCount_two": {
+      "message": "{COUNT} pendentes"
+   },
+   "pendingTaskCount_zero": {
+      "message": "{COUNT} pendentes"
+   },
+   "permissionRequiredPleaseTryAgain": {
+      "message": "Para criar uma página compartilhada acessível de qualquer computador, é necessária permissão para se comunicar com o servidor web do OneTab. Tente novamente."
+   },
+   "pinToTopOfFolder": {
+      "message": "Fixar no topo da pasta"
+   },
+   "pinToTopOfList": {
+      "message": "Fixar no topo da lista"
+   },
+   "pinnedTabs": {
+      "message": "guias fixadas"
+   },
+   "placeholderAndOtherLocations_few": {
+      "message": "PLACEHOLDER e mais {COUNT} outros"
+   },
+   "placeholderAndOtherLocations_many": {
+      "message": "PLACEHOLDER e mais {COUNT} outros"
+   },
+   "placeholderAndOtherLocations_one": {
+      "message": "PLACEHOLDER e mais {COUNT} outro"
+   },
+   "placeholderAndOtherLocations_other": {
+      "message": "PLACEHOLDER e mais {COUNT} outros"
+   },
+   "placeholderAndOtherLocations_two": {
+      "message": "PLACEHOLDER e mais {COUNT} outros"
+   },
+   "placeholderAndOtherLocations_zero": {
+      "message": "PLACEHOLDER e mais {COUNT} outros"
+   },
+   "placeholderExplanation": {
+      "message": "Devido às regras de segurança do navegador, o OneTab não pode restaurar esta página diretamente. Copie a URL e cole-a na barra de endereços do navegador."
+   },
+   "plainTextLineFormat": {
+      "message": "Se você colar texto simples, verifique se cada URL tem um protocolo especificado (https://wikipedia.org, em vez de apenas wikipedia.org). Cada linha deve estar no seguinte formato:"
+   },
+   "pleaseWaitTripleDot": {
+      "message": "Aguarde…"
+   },
+   "popupSlashShortcutInfo": {
+      "message": "Quando estiver no pop-up da extensão do OneTab (que aparece ao clicar no ícone do OneTab), pressione a tecla barra (/) para abrir o seletor de destino e focar a caixa de pesquisa."
+   },
+   "privacyAssurance": {
+      "message": "Garantia de privacidade"
+   },
+   "privacyAssuranceDetail": {
+      "message": "Sua lista de guias nunca é transmitida ou divulgada aos desenvolvedores do OneTab nem a terceiros. A única exceção é se você usar intencionalmente o recurso 'compartilhar como página da web' para enviar sua lista de guias para uma página da web a fim de compartilhá-la com outras pessoas."
+   },
+   "privacyFirst": {
+      "message": "Privacidade em primeiro lugar"
+   },
+   "privacyFirstMessage": {
+      "message": "O OneTab foi desenvolvido para proteger seus dados privados. Suas guias são armazenadas apenas no seu computador e nunca são compartilhadas com os desenvolvedores do OneTab nem com terceiros.\nSe você usar nosso recurso de backup/sincronização, seus dados serão protegidos com criptografia de ponta a ponta usando AES-256 de alta segurança. Isso torna impossível para os desenvolvedores do OneTab verem as guias que você fez backup ou sincronizou entre dispositivos, porque somente você tem a chave de criptografia.\nA única exceção é se você intencionalmente decidir compartilhar algumas de suas guias com outras pessoas usando o recurso \"Compartilhar como uma página da web\".\nAcreditamos em Privacidade em primeiro lugar."
+   },
+   "privateBrowsingPermissionRequired": {
+      "message": "O OneTab precisa de permissão para criar janelas de navegação privativa."
+   },
+   "privateBrowsingWindows": {
+      "message": "Janelas de navegação privativa"
+   },
+   "quickList": {
+      "message": "Lista rápida"
+   },
+   "rating": {
+      "message": "Avaliação"
+   },
+   "readingList": {
+      "message": "Lista de leitura"
+   },
+   "readingListPermissionNecesssary": {
+      "message": "A permissão da lista de leitura é necessária para permitir que o OneTab importe itens da sua lista de leitura. Se este recurso não estiver funcionando, seu navegador pode não oferecer suporte a listas de leitura."
+   },
+   "recent": {
+      "message": "Recentes"
+   },
+   "recentDestinationsColon": {
+      "message": "Destinos recentes:"
+   },
+   "recentDuplicateRetainedHelp": {
+      "message": "Se uma guia ocorrer mais de uma vez, apenas a duplicata mais recente será mantida"
+   },
+   "recentlyAccessed": {
+      "message": "Acessados recentemente"
+   },
+   "recentlyCreated": {
+      "message": "Criados recentemente"
+   },
+   "recentlyModified": {
+      "message": "Modificados recentemente"
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "message": "Reduza o uso de memória em 95%"
+   },
+   "removeDuplicateTabsHere_few": {
+      "message": "Remover {COUNT} guias duplicadas aqui"
+   },
+   "removeDuplicateTabsHere_many": {
+      "message": "Remover {COUNT} guias duplicadas aqui"
+   },
+   "removeDuplicateTabsHere_one": {
+      "message": "Remover {COUNT} guia duplicada aqui"
+   },
+   "removeDuplicateTabsHere_other": {
+      "message": "Remover {COUNT} guias duplicadas aqui"
+   },
+   "removeDuplicateTabsHere_two": {
+      "message": "Remover {COUNT} guias duplicadas aqui"
+   },
+   "removeDuplicateTabsHere_zero": {
+      "message": "Remover {COUNT} guias duplicadas aqui"
+   },
+   "removeDuplicates": {
+      "message": "Remover duplicatas"
+   },
+   "removeFromQuickList": {
+      "message": "Remover da lista rápida"
+   },
+   "removeTabsElsewhereAlsoHere_few": {
+      "message": "Remover {COUNT} guias em outros locais que também existem aqui"
+   },
+   "removeTabsElsewhereAlsoHere_many": {
+      "message": "Remover {COUNT} guias em outros locais que também existem aqui"
+   },
+   "removeTabsElsewhereAlsoHere_one": {
+      "message": "Remover {COUNT} guia em outros locais que também existe aqui"
+   },
+   "removeTabsElsewhereAlsoHere_other": {
+      "message": "Remover {COUNT} guias em outros locais que também existem aqui"
+   },
+   "removeTabsElsewhereAlsoHere_two": {
+      "message": "Remover {COUNT} guias em outros locais que também existem aqui"
+   },
+   "removeTabsElsewhereAlsoHere_zero": {
+      "message": "Remover {COUNT} guias em outros locais que também existem aqui"
+   },
+   "removeTabsHereAlsoElsewhere_few": {
+      "message": "Remover {COUNT} guias aqui que também existem em outros locais"
+   },
+   "removeTabsHereAlsoElsewhere_many": {
+      "message": "Remover {COUNT} guias aqui que também existem em outros locais"
+   },
+   "removeTabsHereAlsoElsewhere_one": {
+      "message": "Remover {COUNT} guia aqui que também existe em outros locais"
+   },
+   "removeTabsHereAlsoElsewhere_other": {
+      "message": "Remover {COUNT} guias aqui que também existem em outros locais"
+   },
+   "removeTabsHereAlsoElsewhere_two": {
+      "message": "Remover {COUNT} guias aqui que também existem em outros locais"
+   },
+   "removeTabsHereAlsoElsewhere_zero": {
+      "message": "Remover {COUNT} guias aqui que também existem em outros locais"
+   },
+   "rename": {
+      "message": "Renomear"
+   },
+   "restore": {
+      "message": "Restaurar"
+   },
+   "restrictSearchToFolderColon": {
+      "message": "Restringir a pesquisa à seguinte pasta:"
+   },
+   "results": {
+      "message": "Resultados"
+   },
+   "returnToOneTab": {
+      "message": "Voltar ao OneTab"
+   },
+   "reverse": {
+      "message": "Inverter"
+   },
+   "rightClickAndOpenOneTabMenu": {
+      "message": "Clique com o botão direito na página da web e vá ao menu do OneTab"
+   },
+   "rightClickMenuDisabledNote": {
+      "message": "Observação: você desativou o menu de clique com o botão direito do OneTab. Ative-o na página de opções do OneTab."
+   },
+   "rightClickSelectionOptionsTip": {
+      "message": "Dica: Após marcar um item, clique com o botão direito no ícone de marcação para ver mais opções de seleção"
+   },
+   "rightClickTickTip": {
+      "message": "Dica: clique com o botão direito no ícone de marcação ao lado de cada guia para ferramentas de seleção"
+   },
+   "safariApproveOneTabInSettings": {
+      "message": "Acesse Ajustes e autorize o OneTab a acessar todos os sites."
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "message": "Economize até 95% de memória e reduza o excesso de guias no Google Chrome"
+   },
+   "searchHere": {
+      "message": "Pesquisar aqui"
+   },
+   "searchOneTab": {
+      "message": "Pesquisar no OneTab"
+   },
+   "secondExampleLink": {
+      "message": "Segundo link de exemplo"
+   },
+   "secondExampleLinkTitle": {
+      "message": "Segundo título de link de exemplo"
+   },
+   "secondExampleLinkTitleOptional": {
+      "message": "Segundo título de link de exemplo (opcional)"
+   },
+   "seeOtherTabsInThisGroup_few": {
+      "message": "Ver {COUNT} outras guias neste grupo"
+   },
+   "seeOtherTabsInThisGroup_many": {
+      "message": "Ver {COUNT} outras guias neste grupo"
+   },
+   "seeOtherTabsInThisGroup_one": {
+      "message": "Ver {COUNT} outra guia neste grupo"
+   },
+   "seeOtherTabsInThisGroup_other": {
+      "message": "Ver {COUNT} outras guias neste grupo"
+   },
+   "seeOtherTabsInThisGroup_two": {
+      "message": "Ver {COUNT} outras guias neste grupo"
+   },
+   "seeOtherTabsInThisGroup_zero": {
+      "message": "Ver {COUNT} outras guias neste grupo"
+   },
+   "seePasteInstructions": {
+      "message": "Ver instruções de colagem…"
+   },
+   "seeTabsInThisGroup_few": {
+      "message": "Ver {COUNT} guias neste grupo"
+   },
+   "seeTabsInThisGroup_many": {
+      "message": "Ver {COUNT} guias neste grupo"
+   },
+   "seeTabsInThisGroup_one": {
+      "message": "Ver {COUNT} guia neste grupo"
+   },
+   "seeTabsInThisGroup_other": {
+      "message": "Ver {COUNT} guias neste grupo"
+   },
+   "seeTabsInThisGroup_two": {
+      "message": "Ver {COUNT} guias neste grupo"
+   },
+   "seeTabsInThisGroup_zero": {
+      "message": "Ver {COUNT} guias neste grupo"
+   },
+   "selectAll": {
+      "message": "Selecionar tudo"
+   },
+   "selectAllExceptThis": {
+      "message": "Selecionar tudo, exceto este item"
+   },
+   "selectThisAndAbove": {
+      "message": "Selecionar este item e todos acima"
+   },
+   "selectThisAndBelow": {
+      "message": "Selecionar este item e todos abaixo"
+   },
+   "selectedItemCount_few": {
+      "message": "{COUNT} itens"
+   },
+   "selectedItemCount_many": {
+      "message": "{COUNT} itens"
+   },
+   "selectedItemCount_one": {
+      "message": "{COUNT} item"
+   },
+   "selectedItemCount_other": {
+      "message": "{COUNT} itens"
+   },
+   "selectedItemCount_two": {
+      "message": "{COUNT} itens"
+   },
+   "selectedItemCount_zero": {
+      "message": "{COUNT} itens"
+   },
+   "selection": {
+      "message": "Seleção"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "message": "Enviar todas as guias de todas as janelas para o OneTab"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "message": "Enviar todas as guias, exceto esta, para o OneTab"
+   },
+   "sendAllTabsInGroupToOneTab": {
+      "message": "Enviar todas as guias deste grupo de guias para o OneTab"
+   },
+   "sendAllTabsInWindowToOneTab": {
+      "message": "Enviar todas as guias desta janela para o OneTab"
+   },
+   "sendCurrentTabToOneTab": {
+      "message": "Enviar a guia atual para o OneTab"
+   },
+   "sendLeftTabsToOneTab": {
+      "message": "Enviar as guias à esquerda para o OneTab"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "message": "Enviar somente esta guia para o OneTab"
+   },
+   "sendRightTabsToOneTab": {
+      "message": "Enviar as guias à direita para o OneTab"
+   },
+   "sendSelectedTabsToOneTab": {
+      "message": "Enviar as guias selecionadas para o OneTab"
+   },
+   "sendThisWebLinkToOneTab": {
+      "message": "Enviar este link da web para o OneTab"
+   },
+   "serverUnreachable": {
+      "message": "O servidor está inacessível. Verifique sua conexão com a internet."
+   },
+   "share": {
+      "message": "Compartilhar"
+   },
+   "shareAsAWebPage": {
+      "message": "Compartilhar como uma página da web"
+   },
+   "shared": {
+      "message": "Compartilhados"
+   },
+   "sharedExpiresColon": {
+      "message": "Compartilhado como página da web. Expira:"
+   },
+   "sharedPageOptions": {
+      "message": "Opções da página compartilhada"
+   },
+   "sharedPageTabLimit_few": {
+      "message": "Páginas compartilhadas são limitadas a {COUNT} guias"
+   },
+   "sharedPageTabLimit_many": {
+      "message": "Páginas compartilhadas são limitadas a {COUNT} guias"
+   },
+   "sharedPageTabLimit_one": {
+      "message": "Páginas compartilhadas são limitadas a {COUNT} guia"
+   },
+   "sharedPageTabLimit_other": {
+      "message": "Páginas compartilhadas são limitadas a {COUNT} guias"
+   },
+   "sharedPageTabLimit_two": {
+      "message": "Páginas compartilhadas são limitadas a {COUNT} guias"
+   },
+   "sharedPageTabLimit_zero": {
+      "message": "Páginas compartilhadas são limitadas a {COUNT} guias"
+   },
+   "sharedPageWillAutomaticallyExpire": {
+      "message": "A página compartilhada expirará automaticamente, mas você pode estender a data de expiração a qualquer momento."
+   },
+   "shiftDragShortcutInfo": {
+      "message": "Mantenha a tecla Shift pressionada ao soltar uma guia para criar uma cópia em vez de movê-la. Importante: pressione a tecla Shift somente depois de começar a arrastar."
+   },
+   "showEverything": {
+      "message": "Mostrar tudo"
+   },
+   "showFoldersOnly": {
+      "message": "Mostrar apenas pastas"
+   },
+   "showNamedItemsOnly": {
+      "message": "Mostrar apenas itens nomeados"
+   },
+   "showNamedOnly": {
+      "message": "Mostrar apenas itens nomeados"
+   },
+   "showNextCount_few": {
+      "message": "Mostrar {COUNT} próximos"
+   },
+   "showNextCount_many": {
+      "message": "Mostrar {COUNT} próximos"
+   },
+   "showNextCount_one": {
+      "message": "Mostrar {COUNT} próximo"
+   },
+   "showNextCount_other": {
+      "message": "Mostrar {COUNT} próximos"
+   },
+   "showNextCount_two": {
+      "message": "Mostrar {COUNT} próximos"
+   },
+   "showNextCount_zero": {
+      "message": "Mostrar {COUNT} próximos"
+   },
+   "showPreviousCount_few": {
+      "message": "Mostrar {COUNT} anteriores"
+   },
+   "showPreviousCount_many": {
+      "message": "Mostrar {COUNT} anteriores"
+   },
+   "showPreviousCount_one": {
+      "message": "Mostrar {COUNT} anterior"
+   },
+   "showPreviousCount_other": {
+      "message": "Mostrar {COUNT} anteriores"
+   },
+   "showPreviousCount_two": {
+      "message": "Mostrar {COUNT} anteriores"
+   },
+   "showPreviousCount_zero": {
+      "message": "Mostrar {COUNT} anteriores"
+   },
+   "soon": {
+      "message": "em breve"
+   },
+   "sort": {
+      "message": "Ordenar"
+   },
+   "sortByColon": {
+      "message": "Ordenar por:"
+   },
+   "sortGroups": {
+      "message": "Ordenar grupos"
+   },
+   "sourceColon": {
+      "message": "Origem:"
+   },
+   "starRatingTooltip": {
+      "message": "Definir uma avaliação por estrelas"
+   },
+   "storeSelectedTabsInONETAB_few": {
+      "message": "Armazenar {COUNT} guias selecionadas no ONETAB"
+   },
+   "storeSelectedTabsInONETAB_many": {
+      "message": "Armazenar {COUNT} guias selecionadas no ONETAB"
+   },
+   "storeSelectedTabsInONETAB_one": {
+      "message": "Armazenar {COUNT} guia selecionada no ONETAB"
+   },
+   "storeSelectedTabsInONETAB_other": {
+      "message": "Armazenar {COUNT} guias selecionadas no ONETAB"
+   },
+   "storeSelectedTabsInONETAB_two": {
+      "message": "Armazenar {COUNT} guias selecionadas no ONETAB"
+   },
+   "storeSelectedTabsInONETAB_zero": {
+      "message": "Armazenar {COUNT} guias selecionadas no ONETAB"
+   },
+   "storeTabInAdditionalLocation": {
+      "message": "Armazenar sua guia em um local adicional"
+   },
+   "storeTabInONETAB": {
+      "message": "Armazenar guia no ONETAB"
+   },
+   "storeTabsInAdditionalLocation": {
+      "message": "Armazenar suas guias em um local adicional"
+   },
+   "storeTabsInONETAB": {
+      "message": "Armazenar guias no ONETAB"
+   },
+   "subFoldersNotShared": {
+      "message": "Observação: subpastas não são compartilhadas. Apenas grupos de abas diretamente dentro da pasta são compartilhados."
+   },
+   "tab": {
+      "message": "guia"
+   },
+   "tabAlreadyStoredHere": {
+      "message": "Sua guia aberta já está armazenada aqui:"
+   },
+   "tabCaretTooltipTitleNotes": {
+      "message": "Editar o título e as notas da guia"
+   },
+   "tabCaretTooltipTitleNotesUrl": {
+      "message": "Editar o título, a URL e as notas da guia"
+   },
+   "tabCount_few": {
+      "message": "{COUNT} guias"
+   },
+   "tabCount_many": {
+      "message": "{COUNT} guias"
+   },
+   "tabCount_one": {
+      "message": "{COUNT} guia"
+   },
+   "tabCount_other": {
+      "message": "{COUNT} guias"
+   },
+   "tabCount_two": {
+      "message": "{COUNT} guias"
+   },
+   "tabCount_zero": {
+      "message": "{COUNT} guias"
+   },
+   "tabGroupColorColon": {
+      "message": "Cor do grupo de guias:"
+   },
+   "tabShortcutInfo": {
+      "message": "Quando estiver na página do OneTab, pressione a tecla Tab para mover o foco entre grupos na coluna central. Isso facilita pular rapidamente por grupos, especialmente se forem grandes. Se um grupo estiver em foco, pressione a tecla Enter para abri-lo. Use Shift+Tab para mover o foco para trás."
+   },
+   "tabTotalCount_few": {
+      "message": "Total: {COUNT} guias"
+   },
+   "tabTotalCount_many": {
+      "message": "Total: {COUNT} guias"
+   },
+   "tabTotalCount_one": {
+      "message": "Total: {COUNT} guia"
+   },
+   "tabTotalCount_other": {
+      "message": "Total: {COUNT} guias"
+   },
+   "tabTotalCount_two": {
+      "message": "Total: {COUNT} guias"
+   },
+   "tabTotalCount_zero": {
+      "message": "Total: {COUNT} guias"
+   },
+   "tabs": {
+      "message": "Guias"
+   },
+   "tabsFromExcludedDomains": {
+      "message": "guias de domínios excluídos"
+   },
+   "tabsInTabGroups": {
+      "message": "guias em grupos de guias"
+   },
+   "taskTotalCount_few": {
+      "message": "{COUNT} total"
+   },
+   "taskTotalCount_many": {
+      "message": "{COUNT} total"
+   },
+   "taskTotalCount_one": {
+      "message": "{COUNT} total"
+   },
+   "taskTotalCount_other": {
+      "message": "{COUNT} total"
+   },
+   "taskTotalCount_two": {
+      "message": "{COUNT} total"
+   },
+   "taskTotalCount_zero": {
+      "message": "{COUNT} total"
+   },
+   "tasks": {
+      "message": "Tarefas"
+   },
+   "tasksDone": {
+      "message": "Tarefas (concluídas)"
+   },
+   "tasksPending": {
+      "message": "Tarefas (pendentes)"
+   },
+   "tasksWillAppearHere": {
+      "message": "Se você marcar alguma de suas guias ou grupos como tarefas, eles aparecerão aqui."
+   },
+   "thenClickToolbarIcon": {
+      "message": "Em seguida, clique novamente no ícone do OneTab na barra de ferramentas para usar o OneTab."
+   },
+   "thisFolderIsEmpty": {
+      "message": "Esta pasta está vazia"
+   },
+   "thisTab": {
+      "message": "Esta guia"
+   },
+   "thisTabGroup": {
+      "message": "Este grupo de guias"
+   },
+   "thisTabNotStored": {
+      "message": "Esta guia não está armazenada no OneTab"
+   },
+   "thisWindow": {
+      "message": "Esta janela"
+   },
+   "tickOrUntickToExclude": {
+      "message": "Marque ou desmarque para excluir o site"
+   },
+   "title": {
+      "message": "Título"
+   },
+   "toAddOrRemoveExclusions": {
+      "message": "Para adicionar ou remover um site da lista de exclusão:"
+   },
+   "toAllowOneTabInIncognito": {
+      "message": "Para permitir que o ícone do OneTab apareça em janelas anônimas: "
+   },
+   "toImportBrowserBookmarksUseMenuOption": {
+      "message": "Para importar dos favoritos do navegador, use a opção de menu 'Importar links aqui' na sua página do OneTab"
+   },
+   "toMakeOpenButtonWorkApprovePermission": {
+      "message": "Para que o botão \"Abrir\" em páginas compartilhadas funcione, aprove a solicitação de permissão."
+   },
+   "toSaveChangesClickButton": {
+      "message": "Para salvar suas alterações, clique no botão"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "message": "Guias demais? Converta suas guias em uma lista e deixe o Firefox mais rápido"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "message": "Guias demais? Converta suas guias em uma lista e deixe o Safari mais rápido"
+   },
+   "total0Tabs": {
+      "message": "Total: 0 guias"
+   },
+   "trash": {
+      "message": "Lixeira"
+   },
+   "unMarkAsTask": {
+      "message": "Desmarcar como tarefa"
+   },
+   "unPin": {
+      "message": "Desafixar"
+   },
+   "unlock": {
+      "message": "Desbloquear"
+   },
+   "unmarkAsArchived": {
+      "message": "Desmarcar como arquivado"
+   },
+   "unshare": {
+      "message": "Cancelar compartilhamento"
+   },
+   "untitled": {
+      "message": "Sem título"
+   },
+   "update": {
+      "message": "Atualizar"
+   },
+   "userLanguage": {
+      "message": "Português (Brasil)"
+   },
+   "website": {
+      "message": "Site"
+   },
+   "yearCount_few": {
+      "message": "{COUNT} anos"
+   },
+   "yearCount_many": {
+      "message": "{COUNT} anos"
+   },
+   "yearCount_one": {
+      "message": "{COUNT} ano"
+   },
+   "yearCount_other": {
+      "message": "{COUNT} anos"
+   },
+   "yearCount_two": {
+      "message": "{COUNT} anos"
+   },
+   "yearCount_zero": {
+      "message": "{COUNT} anos"
+   },
+   "yourTabAlreadyStoredHere": {
+      "message": "Sua guia já está armazenada aqui:"
+   }
+}

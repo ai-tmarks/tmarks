@@ -4,6 +4,7 @@ import type { TabGroup, TabGroupItem } from '@/lib/types'
 import { useToastStore } from '@/stores/toastStore'
 import { formatDistanceToNow } from 'date-fns'
 import { zhCN } from 'date-fns/locale'
+import { logger } from '@/lib/logger'
 
 interface UseTabGroupActionsProps {
   setTabGroups: React.Dispatch<React.SetStateAction<TabGroup[]>>
@@ -58,7 +59,7 @@ export function useTabGroupActions({
           setTabGroups((prev) => prev.filter((g) => g.id !== id))
           success('已移至回收站')
         } catch (err) {
-          console.error('Failed to delete tab group:', err)
+          logger.error('Failed to delete tab group:', err)
           showError('删除失败，请重试')
         } finally {
           setDeletingId(null)
@@ -68,10 +69,32 @@ export function useTabGroupActions({
   }
 
   const handleOpenAll = (items: TabGroupItem[]) => {
-    items.forEach((item) => {
-      window.open(item.url, '_blank')
+    if (!items || items.length === 0) {
+      showError('没有可打开的标签页')
+      return
+    }
+
+    const itemCount = items.length
+
+    // 提示用户
+    const message =
+      itemCount > 10
+        ? `即将打开 ${itemCount} 个标签页。\n\n⚠️ 如果浏览器拦截弹窗，请在地址栏点击"允许弹窗"。\n\n是否继续？`
+        : `确定要打开 ${itemCount} 个标签页吗？`
+
+    if (!window.confirm(message)) {
+      return
+    }
+
+    // 直接打开所有标签
+    items.forEach((item, index) => {
+      setTimeout(() => {
+        window.open(item.url, '_blank', 'noopener,noreferrer')
+      }, index * 20) // 20ms 间隔
     })
-    success(`已打开 ${items.length} 个标签页`)
+
+    // 显示成功消息
+    success(`正在打开 ${itemCount} 个标签页...`)
   }
 
   const handleExportMarkdown = (group: TabGroup) => {
@@ -126,7 +149,7 @@ export function useTabGroupActions({
       setEditingGroupTitle('')
       success('重命名成功')
     } catch (err) {
-      console.error('Failed to update group title:', err)
+      logger.error('Failed to update group title:', err)
       showError('重命名失败，请重试')
     }
   }
@@ -148,11 +171,11 @@ export function useTabGroupActions({
         prev.map((group) =>
           group.id === groupId
             ? {
-                ...group,
-                items: group.items?.map((item) =>
-                  item.id === itemId ? { ...item, title: editingTitle } : item
-                ),
-              }
+              ...group,
+              items: group.items?.map((item) =>
+                item.id === itemId ? { ...item, title: editingTitle } : item
+              ),
+            }
             : group
         )
       )
@@ -160,7 +183,7 @@ export function useTabGroupActions({
       setEditingTitle('')
       success('编辑成功')
     } catch (err) {
-      console.error('Failed to update item:', err)
+      logger.error('Failed to update item:', err)
       showError('编辑失败，请重试')
     }
   }
@@ -173,17 +196,17 @@ export function useTabGroupActions({
         prev.map((group) =>
           group.id === groupId
             ? {
-                ...group,
-                items: group.items?.map((item) =>
-                  item.id === itemId ? { ...item, is_pinned: newPinned } : item
-                ),
-              }
+              ...group,
+              items: group.items?.map((item) =>
+                item.id === itemId ? { ...item, is_pinned: newPinned } : item
+              ),
+            }
             : group
         )
       )
       success(newPinned === 1 ? '已固定' : '已取消固定')
     } catch (err) {
-      console.error('Failed to toggle pin:', err)
+      logger.error('Failed to toggle pin:', err)
       showError('操作失败，请重试')
     }
   }
@@ -196,17 +219,17 @@ export function useTabGroupActions({
         prev.map((group) =>
           group.id === groupId
             ? {
-                ...group,
-                items: group.items?.map((item) =>
-                  item.id === itemId ? { ...item, is_todo: newTodo } : item
-                ),
-              }
+              ...group,
+              items: group.items?.map((item) =>
+                item.id === itemId ? { ...item, is_todo: newTodo } : item
+              ),
+            }
             : group
         )
       )
       success(newTodo === 1 ? '已标记待办' : '已取消待办')
     } catch (err) {
-      console.error('Failed to toggle todo:', err)
+      logger.error('Failed to toggle todo:', err)
       showError('操作失败，请重试')
     }
   }
@@ -224,16 +247,16 @@ export function useTabGroupActions({
             prev.map((group) =>
               group.id === groupId
                 ? {
-                    ...group,
-                    items: group.items?.filter((item) => item.id !== itemId),
-                    item_count: (group.item_count || 0) - 1,
-                  }
+                  ...group,
+                  items: group.items?.filter((item) => item.id !== itemId),
+                  item_count: (group.item_count || 0) - 1,
+                }
                 : group
             )
           )
           success('删除成功')
         } catch (err) {
-          console.error('Failed to delete item:', err)
+          logger.error('Failed to delete item:', err)
           showError('删除失败，请重试')
         }
       },

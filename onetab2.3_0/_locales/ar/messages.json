@@ -1,0 +1,1715 @@
+{
+   "95PctMemoryReduction": {
+      "message": "تقليل استخدام الذاكرة بنسبة 95%"
+   },
+   "Folder": {
+      "message": "مجلد"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "message": "OneTab متاح أيضًا لـ Firefox"
+   },
+   "aDashZ": {
+      "message": "أ-ي"
+   },
+   "about": {
+      "message": "حول"
+   },
+   "addOneTabNow": {
+      "message": "أضف OneTab الآن"
+   },
+   "all": {
+      "message": "الكل"
+   },
+   "allBookmarks": {
+      "message": "جميع الإشارات المرجعية"
+   },
+   "allOpenTabsAlreadyStoredHere": {
+      "message": "جميع علامات التبويب المفتوحة محفوظة هنا بالفعل:"
+   },
+   "allowFileAccessInstructions": {
+      "message": "للسماح بفتح الملفات مباشرة، انتقل إلى الإعدادات ➝ الإضافات ➝ OneTab ➝ التفاصيل ➝ السماح بالوصول إلى عناوين URL للملفات"
+   },
+   "alreadyExistingOpenTabsWillBeClosedAfterMerge": {
+      "message": "ستُغلق جميع علامات التبويب المفتوحة الموجودة بالفعل في هذه المجموعة بعد الدمج."
+   },
+   "alternatePlainTextFormat": {
+      "message": "بدلًا من ذلك، يمكن أن يكون النص العادي بالتنسيق:"
+   },
+   "approve": {
+      "message": "موافقة"
+   },
+   "archived": {
+      "message": "مؤرشفة"
+   },
+   "autoTheme": {
+      "message": "تلقائي (استخدم إعداد نظام التشغيل)"
+   },
+   "backupAndSync": {
+      "message": "النسخ الاحتياطي والمزامنة"
+   },
+   "betaReleaseReportBugsHere": {
+      "message": "إصدار تجريبي - أبلغ عن الأخطاء هنا"
+   },
+   "bookmarkCount_few": {
+      "message": "{COUNT} إشارات مرجعية"
+   },
+   "bookmarkCount_many": {
+      "message": "{COUNT} إشارات مرجعية"
+   },
+   "bookmarkCount_one": {
+      "message": "{COUNT} إشارة مرجعية"
+   },
+   "bookmarkCount_other": {
+      "message": "{COUNT} إشارات مرجعية"
+   },
+   "bookmarkCount_two": {
+      "message": "{COUNT} إشارتا مرجعية"
+   },
+   "bookmarkCount_zero": {
+      "message": "{COUNT} إشارات مرجعية"
+   },
+   "bookmarksPermissionNecesssary": {
+      "message": "إذن الإشارات المرجعية ضروري للسماح لـ OneTab باستيراد إشاراتك المرجعية"
+   },
+   "bulkActions": {
+      "message": "إجراءات جماعية"
+   },
+   "canDragTextNote": {
+      "message": "ملاحظة: يمكنك أيضًا سحب نص يحتوي على روابط ويب وإفلاته مباشرةً من صفحة ويب أخرى أو من مستند. يمكنك سحب النص مباشرةً إلى صفحة OneTab لديك دون الحاجة إلى استخدام مربع الاستيراد هذا."
+   },
+   "canPasteWebContentForExample": {
+      "message": "يمكنك لصق نص منسوخ من صفحة ويب أو مستند، وستُستخرَج الروابط تلقائيًا. على سبيل المثال:"
+   },
+   "cancel": {
+      "message": "إلغاء"
+   },
+   "cannotConnectToServerDeletionRequestQueued": {
+      "message": "تعذّر الاتصال بخادم OneTab. يرجى التحقق من اتصال الإنترنت. تم وضع طلب حذف صفحتك المشتركة في قائمة الانتظار محليًا وسيُرسل تلقائيًا إلى خادم OneTab بمجرد أن يصبح متاحًا مرة أخرى."
+   },
+   "cannotCreateTabGroupInTabGroup": {
+      "message": "الوجهة التي اخترتها هي مجموعة علامات تبويب. لا يمكنك إنشاء مجموعة علامات تبويب داخل مجموعة علامات تبويب موجودة بالفعل. يُرجى اختيار وجهة مختلفة."
+   },
+   "cannotMixTabsGroupsFoldersDuringDrag": {
+      "message": "لا يمكن خلط علامات التبويب والمجموعات والمجلدات أثناء السحب. وذلك لأنك، مثلًا، لا يمكنك سحب مجلد إلى الأماكن نفسها التي يمكنك سحب علامة تبويب إليها."
+   },
+   "caseSensitive": {
+      "message": "مراعاة حالة الأحرف"
+   },
+   "changesMadeSinceSharedPageCreation": {
+      "message": "تم إجراء تغييرات منذ إنشائك للصفحة المشتركة. انقر زر 'تحديث' لتحديث الصفحة المشتركة الحالية."
+   },
+   "checkboxesDeterminePinnedAndGroupedTabMergeInclusion": {
+      "message": "تحدد مربعات الاختيار أعلى هذه الصفحة ما إذا كانت علامات التبويب المثبتة أو الموجودة ضمن مجموعات علامات التبويب ستُدرج في عملية الدمج."
+   },
+   "chooseALocation": {
+      "message": "اختر موقعًا"
+   },
+   "chooseALocationToImportTo": {
+      "message": "اختر موقعًا للاستيراد إليه"
+   },
+   "chooseExportLocation": {
+      "message": "اختر موقعًا للتصدير منه"
+   },
+   "chooseLightDarkTheme": {
+      "message": "اختيار سمة فاتحة/داكنة"
+   },
+   "chooseLocationToCopyTo": {
+      "message": "اختر موقعًا للنسخ إليه"
+   },
+   "chooseLocationToMoveTo": {
+      "message": "اختر موقعًا للنقل إليه"
+   },
+   "chooseLocationToRestoreTo": {
+      "message": "اختر موقعًا للاستعادة إليه"
+   },
+   "chooseToIncludeNotes": {
+      "message": "إذا أضفت أي ملاحظات إلى علامات التبويب أو المجموعات، اختر ما إذا كنت تريد تضمينها في صفحة الويب المشتركة"
+   },
+   "chooseToIncludeRatings": {
+      "message": "إذا أضفت أي تقييمات نجوم إلى علامات التبويب أو المجموعات، اختر ما إذا كنت تريد تضمينها في صفحة الويب المشتركة"
+   },
+   "chromeIncognitoInstructions": {
+      "message": "في إعدادات المتصفح، انتقل إلى 'الإعدادات' → 'الإضافات' → 'OneTab' → 'التفاصيل'، ثم فعّل 'السماح في وضع التصفح المتخفي'."
+   },
+   "clickButtonToAllowTabAccess": {
+      "message": "انقر الزر أدناه للسماح لـ OneTab بالوصول إلى علامات التبويب المفتوحة لديك."
+   },
+   "clickHereToContinue": {
+      "message": "انقر هنا للمتابعة."
+   },
+   "clickOneTabIconToStoreTabsHere": {
+      "message": "انقر أيقونة OneTab في شريط أدوات متصفحك لتخزين علامات تبويبك المفتوحة هنا."
+   },
+   "closeSelectedTabsAndStoreInONETAB_few": {
+      "message": "إغلاق {COUNT} علامات تبويب محددة وحفظها في ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_many": {
+      "message": "إغلاق {COUNT} علامات تبويب محددة وحفظها في ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_one": {
+      "message": "إغلاق {COUNT} علامة تبويب محددة وحفظها في ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_other": {
+      "message": "إغلاق {COUNT} علامات تبويب محددة وحفظها في ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_two": {
+      "message": "إغلاق {COUNT} علامتَي تبويب محددتين وحفظهما في ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_zero": {
+      "message": "إغلاق {COUNT} علامات تبويب محددة وحفظها في ONETAB"
+   },
+   "closeSelectedTabs_few": {
+      "message": "إغلاق {COUNT} علامات تبويب محددة"
+   },
+   "closeSelectedTabs_many": {
+      "message": "إغلاق {COUNT} علامات تبويب محددة"
+   },
+   "closeSelectedTabs_one": {
+      "message": "إغلاق {COUNT} علامة تبويب محددة"
+   },
+   "closeSelectedTabs_other": {
+      "message": "إغلاق {COUNT} علامات تبويب محددة"
+   },
+   "closeSelectedTabs_two": {
+      "message": "إغلاق {COUNT} علامتَي تبويب محددتين"
+   },
+   "closeSelectedTabs_zero": {
+      "message": "إغلاق {COUNT} علامات تبويب محددة"
+   },
+   "closeTab": {
+      "message": "إغلاق علامة التبويب"
+   },
+   "closeTabAndStore": {
+      "message": "إغلاق علامة التبويب وحفظها في ONETAB"
+   },
+   "closeTabs": {
+      "message": "إغلاق علامات التبويب"
+   },
+   "closeTabsAfterMerge": {
+      "message": "إغلاق علامات التبويب بعد الدمج"
+   },
+   "closeTabsAlreadyStoredInOneTab_few": {
+      "message": "إغلاق {COUNT} علامات تبويب محفوظة بالفعل في OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_many": {
+      "message": "إغلاق {COUNT} علامات تبويب محفوظة بالفعل في OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_one": {
+      "message": "إغلاق {COUNT} علامة تبويب محفوظة بالفعل في OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_other": {
+      "message": "إغلاق {COUNT} علامات تبويب محفوظة بالفعل في OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_two": {
+      "message": "إغلاق {COUNT} علامتَي تبويب محفوظتين بالفعل في OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_zero": {
+      "message": "إغلاق {COUNT} علامات تبويب محفوظة بالفعل في OneTab"
+   },
+   "closeTabsAndStore": {
+      "message": "إغلاق علامات التبويب وحفظها في ONETAB"
+   },
+   "closeTheseDuplicates": {
+      "message": "إغلاق هذه المكررات"
+   },
+   "closeThisDuplicate": {
+      "message": "إغلاق هذا المكرر"
+   },
+   "completeEditingShortcutInfo": {
+      "message": "عند تحرير حقل ملاحظات، استخدم هذا الاختصار لإكمال التحرير."
+   },
+   "configureShortcuts": {
+      "message": "تكوين الاختصارات"
+   },
+   "conflictingShortcutsHint": {
+      "message": "إذا لم يعمل أي من اختصارات لوحة المفاتيح أعلاه أو تعارض مع أي تطبيقات أخرى، يمكنك تكوين مفتاح اختصار مختلف."
+   },
+   "continue": {
+      "message": "متابعة"
+   },
+   "convertTabsIntoAList": {
+      "message": "تحويل علامات التبويب إلى قائمة"
+   },
+   "copiedToClipboard": {
+      "message": "تم النسخ إلى الحافظة"
+   },
+   "copy": {
+      "message": "نسخ"
+   },
+   "copyLinksToClipboard": {
+      "message": "نسخ الروابط إلى الحافظة"
+   },
+   "copySharedPageUrl": {
+      "message": "نسخ عنوان URL للصفحة المشتركة"
+   },
+   "copyToClipboard": {
+      "message": "نسخ إلى الحافظة"
+   },
+   "createANewGroupHere": {
+      "message": "إنشاء مجموعة جديدة هنا"
+   },
+   "createFolderAbove": {
+      "message": "إنشاء مجلد أعلى"
+   },
+   "createFolderAboveBelow": {
+      "message": "إنشاء مجلد أعلى / أسفل"
+   },
+   "createFolderAboveWithinBelow": {
+      "message": "إنشاء مجلد أعلى / داخل / أسفل"
+   },
+   "createFolderBelow": {
+      "message": "إنشاء مجلد أسفل"
+   },
+   "createFolderWithin": {
+      "message": "إنشاء مجلد داخل"
+   },
+   "createGroupAbove": {
+      "message": "إنشاء مجموعة أعلى"
+   },
+   "createGroupAboveBelow": {
+      "message": "إنشاء مجموعة أعلى / أسفل"
+   },
+   "createGroupAboveWithinBelow": {
+      "message": "إنشاء مجموعة أعلى / داخل / أسفل"
+   },
+   "createGroupBelow": {
+      "message": "إنشاء مجموعة أسفل"
+   },
+   "createGroupInsideDestination": {
+      "message": "إنشاء مجموعة جديدة داخل الوجهة"
+   },
+   "createGroupInsideDestinationHelp": {
+      "message": "إذا لم تُحدِّده، ستُضاف علامات تبويبك مباشرةً إلى مجموعة الوجهة. وإذا حدَّدته، فسيتم إنشاء \"مجموعة علامات التبويب\" جديدة لعلامات تبويبك داخل مجموعة الوجهة. حدِّد هذا المربع فقط إذا كنت تريد استخدام ميزة \"مجموعات علامات التبويب\" في متصفحك."
+   },
+   "createGroupWithin": {
+      "message": "إنشاء مجموعة داخل"
+   },
+   "createNewGroupTip": {
+      "message": "لإنشاء مجموعة جديدة، ألغِ تحديد \"عرض المجلدات فقط\""
+   },
+   "createdOnOrAfterColon": {
+      "message": "تم الإنشاء في أو بعد:"
+   },
+   "createdOnOrBeforeColon": {
+      "message": "تم الإنشاء في أو قبل:"
+   },
+   "createdPreceedingDate": {
+      "message": "تم الإنشاء"
+   },
+   "darkTheme": {
+      "message": "سمة داكنة"
+   },
+   "dayCount_few": {
+      "message": "{COUNT} أيام"
+   },
+   "dayCount_many": {
+      "message": "{COUNT} أيام"
+   },
+   "dayCount_one": {
+      "message": "{COUNT} يوم"
+   },
+   "dayCount_other": {
+      "message": "{COUNT} أيام"
+   },
+   "dayCount_two": {
+      "message": "{COUNT} يومان"
+   },
+   "dayCount_zero": {
+      "message": "{COUNT} أيام"
+   },
+   "delete": {
+      "message": "حذف"
+   },
+   "deleteAllTrash": {
+      "message": "إفراغ المهملات"
+   },
+   "deleteThisCopy": {
+      "message": "حذف هذه النسخة"
+   },
+   "deselectAll": {
+      "message": "إلغاء تحديد الكل"
+   },
+   "destinationColon": {
+      "message": "الوجهة:"
+   },
+   "disabled": {
+      "message": "معطّل"
+   },
+   "doneTaskCount_few": {
+      "message": "{COUNT} مكتمل"
+   },
+   "doneTaskCount_many": {
+      "message": "{COUNT} مكتمل"
+   },
+   "doneTaskCount_one": {
+      "message": "{COUNT} مكتمل"
+   },
+   "doneTaskCount_other": {
+      "message": "{COUNT} منجزة"
+   },
+   "doneTaskCount_two": {
+      "message": "{COUNT} مكتمل"
+   },
+   "doneTaskCount_zero": {
+      "message": "{COUNT} مكتمل"
+   },
+   "dontCloseGroupedTabs": {
+      "message": "عدم إغلاق أي علامات تبويب ضمن مجموعات علامات التبويب"
+   },
+   "dontClosePinnedTabs": {
+      "message": "عدم إغلاق أي علامات تبويب مثبتة"
+   },
+   "dontCloseTabsFromDomains": {
+      "message": "عدم إغلاق أي علامات تبويب من EXAMPLE.COM"
+   },
+   "dragTabsHereForQuickList": {
+      "message": "اسحب علامات التبويب أو المجموعات المخزّنة هنا. ستُضاف إلى قائمتك السريعة."
+   },
+   "editTabGroupTitleAndNotes": {
+      "message": "تحرير عنوان مجموعة علامات التبويب والملاحظات"
+   },
+   "emojiShortcutInfo": {
+      "message": "عند تحرير حقل ملاحظات، استخدم هذا الاختصار لفتح منتقي الرموز التعبيرية."
+   },
+   "emptyInBrackets": {
+      "message": "(فارغ)"
+   },
+   "emptyOneTabInfoMsg": {
+      "message": "عند فتح عدة علامات تبويب، انقر أيقونة OneTab في شريط أدوات المتصفح، وستظهر علامات التبويب المفتوحة هنا."
+   },
+   "enabled": {
+      "message": "مفعّل"
+   },
+   "encryptedSyncAndBackup": {
+      "message": "مزامنة ونسخ احتياطي مشفّران"
+   },
+   "encryptedSyncAndBackupComingSoonMessage": {
+      "message": "قريبًا: ستتمكن من مزامنة بيانات OneTab عبر عدة ملفات تعريف للمتصفح وأجهزة كمبيوتر.\nأُعيدت كتابة OneTab كليًا بحيث تظهر التغييرات التي تُجريها على جهاز على الفور في جميع الأجهزة الأخرى.\nإذا استخدمت هذه الميزة، فستُشفَّر بياناتك من الطرف إلى الطرف بتشفير قوي AES-256. وهذا يجعل من المستحيل على مطوّري OneTab الاطلاع على علامات التبويب التي قمت بنسخها احتياطيًا أو مزامنتها بين الأجهزة، لأن مفتاح التشفير لديك أنت فقط."
+   },
+   "everything": {
+      "message": "الكل"
+   },
+   "exampleLink": {
+      "message": "رابط مثال"
+   },
+   "exampleLinkTitle": {
+      "message": "عنوان رابط مثال"
+   },
+   "exampleLinkTitleOptional": {
+      "message": "عنوان رابط مثال (اختياري)"
+   },
+   "exampleRichTextParagraph": {
+      "message": "فقرة نصية كمثال تحتوي على PLACEHOLDER وPLACEHOLDER"
+   },
+   "exampleWebsitePageTitle": {
+      "message": "عنوان صفحة موقع ويب كمثال"
+   },
+   "excludeDomainFromOneTab": {
+      "message": "استثناء EXAMPLE.COM من OneTab"
+   },
+   "excludeWebSiteFromOneTab": {
+      "message": "استثناء هذا الموقع من OneTab"
+   },
+   "expiresColon": {
+      "message": "تاريخ الانتهاء:"
+   },
+   "export": {
+      "message": "تصدير"
+   },
+   "exportImportUrls": {
+      "message": "تصدير / استيراد عناوين URL"
+   },
+   "exportThenImportNote": {
+      "message": "يمكن أيضًا استيراد قائمة عناوين URL التالية مرة أخرى إلى OneTab على هذا الحاسوب أو على حاسوب آخر"
+   },
+   "exportUrls": {
+      "message": "تصدير عناوين URL"
+   },
+   "feedback": {
+      "message": "ملاحظات"
+   },
+   "filter": {
+      "message": "التصفية"
+   },
+   "firefoxIncognitoInstructions": {
+      "message": "في إعدادات المتصفح، انتقل إلى 'الإعدادات' → 'الإضافات والسمات' → 'الامتدادات' → 'OneTab' → '...' → 'إدارة'، ثم فعّل 'التشغيل في النوافذ الخاصة'."
+   },
+   "firefoxShortcutConfigInstructions": {
+      "message": "أدخل عنوان URL \"about:addons?type=extension\" في شريط عناوين المتصفح. عند ظهور الصفحة، انقر أيقونة الترس، ثم اختر \"إدارة اختصارات الإضافات\""
+   },
+   "folderCount_few": {
+      "message": "{COUNT} مجلدات"
+   },
+   "folderCount_many": {
+      "message": "{COUNT} مجلدات"
+   },
+   "folderCount_one": {
+      "message": "{COUNT} مجلد"
+   },
+   "folderCount_other": {
+      "message": "{COUNT} مجلدات"
+   },
+   "folderCount_two": {
+      "message": "{COUNT} مجلدان"
+   },
+   "folderCount_zero": {
+      "message": "{COUNT} مجلدات"
+   },
+   "folders": {
+      "message": "المجلدات"
+   },
+   "foldersOnly": {
+      "message": "المجلدات فقط"
+   },
+   "gettingStarted": {
+      "message": "البدء"
+   },
+   "goToParentFolder": {
+      "message": "الانتقال إلى المجلد الأب"
+   },
+   "groupCount_few": {
+      "message": "{COUNT} مجموعات"
+   },
+   "groupCount_many": {
+      "message": "{COUNT} مجموعات"
+   },
+   "groupCount_one": {
+      "message": "{COUNT} مجموعة"
+   },
+   "groupCount_other": {
+      "message": "{COUNT} مجموعات"
+   },
+   "groupCount_two": {
+      "message": "{COUNT} مجموعتان"
+   },
+   "groupCount_zero": {
+      "message": "{COUNT} مجموعات"
+   },
+   "groups": {
+      "message": "المجموعات"
+   },
+   "hasNotes": {
+      "message": "يتضمن ملاحظات"
+   },
+   "hasRating": {
+      "message": "يتضمن تقييمًا بالنجوم"
+   },
+   "help": {
+      "message": "مساعدة"
+   },
+   "hideArchivedItems": {
+      "message": "إخفاء العناصر المؤرشفة"
+   },
+   "import": {
+      "message": "استيراد"
+   },
+   "importAndExport": {
+      "message": "استيراد وتصدير"
+   },
+   "importBookmarks": {
+      "message": "استيراد الإشارات المرجعية"
+   },
+   "importFolderAndSubfolders": {
+      "message": "استيراد مجلد والمجلدات الفرعية"
+   },
+   "importLinksHere": {
+      "message": "استيراد الروابط هنا"
+   },
+   "importReadingList": {
+      "message": "استيراد قائمة القراءة"
+   },
+   "importText": {
+      "message": "استيراد نص"
+   },
+   "importUrls": {
+      "message": "استيراد عناوين URL"
+   },
+   "importedBookmarks": {
+      "message": "إشارات مرجعية مستوردة"
+   },
+   "includeGroupedTabs": {
+      "message": "تضمين علامات التبويب ضمن مجموعات علامات التبويب"
+   },
+   "includeNotes": {
+      "message": "تضمين الملاحظات"
+   },
+   "includePinnedTabs": {
+      "message": "تضمين علامات التبويب المثبتة"
+   },
+   "includeStarRatings": {
+      "message": "تضمين تقييمات النجوم"
+   },
+   "includeTabsAlreadyStored": {
+      "message": "تضمين علامات التبويب التي خزّنتها بالفعل"
+   },
+   "includeTabsFromDomains": {
+      "message": "تضمين علامات التبويب من EXAMPLE.COM"
+   },
+   "incogitoPermissionRequired": {
+      "message": "يحتاج OneTab إلى إذن لإنشاء نوافذ للتصفح المتخفي."
+   },
+   "incognitoWindows": {
+      "message": "نوافذ التصفح المتخفي"
+   },
+   "invertSelection": {
+      "message": "عكس التحديد"
+   },
+   "justNow": {
+      "message": "الآن"
+   },
+   "keyboardShortcutsColon": {
+      "message": "اختصارات لوحة المفاتيح:"
+   },
+   "languageTitle": {
+      "message": "اللغة:"
+   },
+   "lightTheme": {
+      "message": "سمة فاتحة"
+   },
+   "localeId": {
+      "message": "ar"
+   },
+   "locationColon": {
+      "message": "الموقع:"
+   },
+   "lock": {
+      "message": "قفل"
+   },
+   "lockMenuItemHelp": {
+      "message": "عند قفل مجموعة، لا يمكنك حذف العناصر داخل المجموعة أو إعادة ترتيبها. وعند فتح مجموعة مقفلة، لا تُطبَّق الإجراءات التلقائية. راجع صفحة الخيارات لمزيد من المعلومات حول الإجراءات التلقائية."
+   },
+   "lockedGroupUnlockHelp": {
+      "message": "لإلغاء القفل، استخدم القائمة المنسدلة. عند قفل مجموعة، لا يمكنك حذف المجموعة أو علامات تبويبها، ولا يمكن إعادة ترتيب علامات التبويب."
+   },
+   "makeThisATask": {
+      "message": "اجعل هذا مهمة"
+   },
+   "manifestDescription": {
+      "message": "وفّر حتى 95% من الذاكرة وقلّل فوضى علامات التبويب"
+   },
+   "markAsArchived": {
+      "message": "وضع علامة كمؤرشف"
+   },
+   "markAsArchivedMenuItemHelp": {
+      "message": "لاحظ أن المهام المؤرشفة والمهام داخل المجموعات المؤرشفة لن تظهر في عمود المهام"
+   },
+   "markAsDoneTask": {
+      "message": "تعيين كمهمة منجزة"
+   },
+   "markAsPendingTask": {
+      "message": "تعيين كمهمة قيد التنفيذ"
+   },
+   "matchCount_few": {
+      "message": "{COUNT} نتائج"
+   },
+   "matchCount_many": {
+      "message": "{COUNT} نتائج"
+   },
+   "matchCount_one": {
+      "message": "{COUNT} نتيجة"
+   },
+   "matchCount_other": {
+      "message": "{COUNT} نتائج"
+   },
+   "matchCount_two": {
+      "message": "{COUNT} نتيجتان"
+   },
+   "matchCount_zero": {
+      "message": "{COUNT} نتائج"
+   },
+   "matchWholeWordsOnly": {
+      "message": "مطابقة الكلمات الكاملة فقط"
+   },
+   "mayNeedToRestartBrowser": {
+      "message": "قد تحتاج أيضًا إلى تحديث متصفحك وإعادة تشغيله."
+   },
+   "mergeIntoParent": {
+      "message": "دمج في العنصر الأب"
+   },
+   "mergeOpenTabsHere_few": {
+      "message": "دمج {COUNT} علامات تبويب مفتوحة هنا"
+   },
+   "mergeOpenTabsHere_many": {
+      "message": "دمج {COUNT} علامات تبويب مفتوحة هنا"
+   },
+   "mergeOpenTabsHere_one": {
+      "message": "دمج {COUNT} علامة تبويب مفتوحة هنا"
+   },
+   "mergeOpenTabsHere_other": {
+      "message": "دمج {COUNT} علامات تبويب مفتوحة هنا"
+   },
+   "mergeOpenTabsHere_two": {
+      "message": "دمج {COUNT} علامتَي تبويب مفتوحتين هنا"
+   },
+   "mergeOpenTabsHere_zero": {
+      "message": "دمج {COUNT} علامات تبويب مفتوحة هنا"
+   },
+   "mergeSelectedTabsHere_few": {
+      "message": "دمج {COUNT} علامات تبويب محددة هنا"
+   },
+   "mergeSelectedTabsHere_many": {
+      "message": "دمج {COUNT} علامات تبويب محددة هنا"
+   },
+   "mergeSelectedTabsHere_one": {
+      "message": "دمج {COUNT} علامة تبويب محددة هنا"
+   },
+   "mergeSelectedTabsHere_other": {
+      "message": "دمج {COUNT} علامات تبويب محددة هنا"
+   },
+   "mergeSelectedTabsHere_two": {
+      "message": "دمج {COUNT} علامتَي تبويب محددتين هنا"
+   },
+   "mergeSelectedTabsHere_zero": {
+      "message": "دمج {COUNT} علامات تبويب محددة هنا"
+   },
+   "mergeWithInnerGroups": {
+      "message": "الدمج مع المجموعات الداخلية"
+   },
+   "modifySharing": {
+      "message": "تعديل المشاركة"
+   },
+   "moreEllipsis": {
+      "message": "المزيد…"
+   },
+   "moreSearchFilters": {
+      "message": "المزيد من مرشحات البحث"
+   },
+   "moreTripleDot": {
+      "message": "المزيد…"
+   },
+   "move": {
+      "message": "نقل"
+   },
+   "moveToTrash": {
+      "message": "نقل إلى المهملات"
+   },
+   "namedOnly": {
+      "message": "العناصر المسمّاة فقط"
+   },
+   "navigationFilter": {
+      "message": "مرشح التنقل"
+   },
+   "newExclamation": {
+      "message": "جديد!"
+   },
+   "noDupsExistExceptForColon": {
+      "message": "لا توجد مكررات، باستثناء:"
+   },
+   "noDupsFoundHere": {
+      "message": "لا توجد مكررات هنا"
+   },
+   "noMatches": {
+      "message": "لا توجد نتائج مطابقة"
+   },
+   "noMatchesFound": {
+      "message": "لم يتم العثور على نتائج"
+   },
+   "noOpenTabsToStore": {
+      "message": "لا توجد علامات تبويب مفتوحة في هذه النافذة لحفظها."
+   },
+   "noReadingListEntries": {
+      "message": "لم يتم العثور على إدخالات في قائمة القراءة"
+   },
+   "noTabsInOneTabYet": {
+      "message": "ليس لديك أي علامات تبويب في OneTab بعد"
+   },
+   "noTabsMeetCriteriaUseCheckboxes": {
+      "message": "لا تلبي أي علامات تبويب مفتوحة معاييرك. يرجى استخدام مربعات الاختيار أعلاه."
+   },
+   "noTextHasBeenEntered": {
+      "message": "لم يتم إدخال أي نص"
+   },
+   "nonArchived": {
+      "message": "غير مؤرشفة"
+   },
+   "notAssigned": {
+      "message": "غير معيّن"
+   },
+   "notes": {
+      "message": "ملاحظات"
+   },
+   "notesAboutTheLinkOptional": {
+      "message": "ملاحظات حول الرابط (اختياري)"
+   },
+   "notesAboutTheSecondLinkOptional": {
+      "message": "ملاحظات حول الرابط الثاني (اختياري)"
+   },
+   "ok": {
+      "message": "موافق"
+   },
+   "omniboxShortcutInfo": {
+      "message": "للبحث في قائمة OneTab من أي علامة تبويب: انتقل إلى شريط عناوين المتصفح، اكتب 1، ثم مسافة، ثم كلمة بحث."
+   },
+   "oneTabDesignedToProtectPrivacy": {
+      "message": "صُمِّم OneTab لحماية خصوصيتك. لا نطّلع على علامات تبويبك."
+   },
+   "oneTabImportExportPageTitle": {
+      "message": "OneTab للاستيراد/التصدير"
+   },
+   "oneTabNeedsPermissionToAccessYourTabs": {
+      "message": "يحتاج OneTab إلى إذن للوصول إلى علامات تبويبك."
+   },
+   "oneTabOptionsPageTitle": {
+      "message": "خيارات OneTab"
+   },
+   "oneTabPermissionRequired": {
+      "message": "OneTab - إذن مطلوب"
+   },
+   "oneTabRestartRequired": {
+      "message": "يلزم إعادة تشغيل OneTab."
+   },
+   "oneTabSlashShortcutInfo": {
+      "message": "عند التواجد داخل صفحة OneTab، اضغط مفتاح / لتركيز المؤشر في مربع البحث."
+   },
+   "open": {
+      "message": "فتح"
+   },
+   "openActionPopup": {
+      "message": "فتح نافذة الإجراء المنبثقة"
+   },
+   "openAsCollapsedTabGroup": {
+      "message": "فتح كمجموعة علامات التبويب 'مطوية'"
+   },
+   "openAsCollapsedTabGroupMenuItemHelp": {
+      "message": "إذا فتحت علامات التبويب هذه كمجموعة علامات تبويب مطوية، فسيُعرَض اسم المجموعة فقط حتى تنقر عليه لإظهار علامات التبويب بداخلها."
+   },
+   "openAsTabGroup": {
+      "message": "فتح كمجموعة علامات التبويب في المتصفح"
+   },
+   "openAsTabGroupMenuItemHelp": {
+      "message": "يسمح متصفحك بتجميع علامات التبويب ضمن \"مجموعات علامات التبويب\" ملوّنة داخل نافذة."
+   },
+   "openGroupsLimitNotice_few": {
+      "message": "لمنع زيادة حمل متصفحك، سيتم فتح أول {COUNT} مجموعات فقط."
+   },
+   "openGroupsLimitNotice_many": {
+      "message": "لمنع زيادة حمل متصفحك، سيتم فتح أول {COUNT} مجموعات فقط."
+   },
+   "openGroupsLimitNotice_one": {
+      "message": "لمنع زيادة حمل متصفحك، سيتم فتح أول {COUNT} مجموعة فقط."
+   },
+   "openGroupsLimitNotice_other": {
+      "message": "لمنع زيادة حمل متصفحك، سيتم فتح أول {COUNT} مجموعات فقط."
+   },
+   "openGroupsLimitNotice_two": {
+      "message": "لمنع زيادة حمل متصفحك، سيتم فتح أول مجموعتين فقط ({COUNT})."
+   },
+   "openGroupsLimitNotice_zero": {
+      "message": "لمنع زيادة حمل متصفحك، سيتم فتح أول {COUNT} مجموعات فقط."
+   },
+   "openInIncognitoWindow": {
+      "message": "فتح في نافذة جديدة للتصفح المتخفي"
+   },
+   "openInNewWindow": {
+      "message": "فتح في نافذة جديدة"
+   },
+   "openInThisWindow": {
+      "message": "فتح في هذه النافذة"
+   },
+   "openONETABLogo": {
+      "message": "فتح ONETAB"
+   },
+   "openOneTab": {
+      "message": "فتح OneTab"
+   },
+   "openOneTabAfter": {
+      "message": "فتح OneTab بعد تخزين علامات التبويب"
+   },
+   "openTabFromWebsite": {
+      "message": "افتح علامة تبويب وانتقل إلى موقع الويب"
+   },
+   "openTabLimit_few": {
+      "message": "لمنع زيادة حمل متصفحك، يمكن فتح ما يصل إلى {COUNT} علامات تبويب في آنٍ واحد."
+   },
+   "openTabLimit_many": {
+      "message": "لمنع زيادة حمل متصفحك، يمكن فتح ما يصل إلى {COUNT} علامات تبويب في آنٍ واحد."
+   },
+   "openTabLimit_one": {
+      "message": "لمنع زيادة حمل متصفحك، يمكن فتح ما يصل إلى {COUNT} علامة تبويب في آنٍ واحد."
+   },
+   "openTabLimit_other": {
+      "message": "لمنع زيادة حمل متصفحك، يمكن فتح ما يصل إلى {COUNT} علامات تبويب في آنٍ واحد."
+   },
+   "openTabLimit_two": {
+      "message": "لمنع زيادة حمل متصفحك، يمكن فتح ما يصل إلى {COUNT} علامتَي تبويب في آنٍ واحد."
+   },
+   "openTabLimit_zero": {
+      "message": "لمنع زيادة حمل متصفحك، يمكن فتح ما يصل إلى {COUNT} علامات تبويب في آنٍ واحد."
+   },
+   "openTabsAlreadyStoredHere_few": {
+      "message": "{COUNT} علامات تبويب مفتوحة محفوظة هنا بالفعل:"
+   },
+   "openTabsAlreadyStoredHere_many": {
+      "message": "{COUNT} علامات تبويب مفتوحة محفوظة هنا بالفعل:"
+   },
+   "openTabsAlreadyStoredHere_one": {
+      "message": "{COUNT} علامة تبويب مفتوحة محفوظة هنا بالفعل:"
+   },
+   "openTabsAlreadyStoredHere_other": {
+      "message": "{COUNT} علامات تبويب مفتوحة محفوظة هنا بالفعل:"
+   },
+   "openTabsAlreadyStoredHere_two": {
+      "message": "{COUNT} علامتا تبويب مفتوحتان محفوظتان هنا بالفعل:"
+   },
+   "openTabsAlreadyStoredHere_zero": {
+      "message": "{COUNT} علامات تبويب مفتوحة محفوظة هنا بالفعل:"
+   },
+   "openTabsConfirm_few": {
+      "message": "أنت على وشك فتح {COUNT} علامات تبويب. هل أنت متأكد؟"
+   },
+   "openTabsConfirm_many": {
+      "message": "أنت على وشك فتح {COUNT} علامات تبويب. هل أنت متأكد؟"
+   },
+   "openTabsConfirm_one": {
+      "message": "أنت على وشك فتح {COUNT} علامة تبويب. هل أنت متأكد؟"
+   },
+   "openTabsConfirm_other": {
+      "message": "أنت على وشك فتح {COUNT} علامات تبويب. هل أنت متأكد؟"
+   },
+   "openTabsConfirm_two": {
+      "message": "أنت على وشك فتح {COUNT} علامتَي تبويب. هل أنت متأكد؟"
+   },
+   "openTabsConfirm_zero": {
+      "message": "أنت على وشك فتح {COUNT} علامات تبويب. هل أنت متأكد؟"
+   },
+   "openTabsNotStoredInOneTab_few": {
+      "message": "{COUNT} علامات تبويب مفتوحة غير محفوظة في OneTab"
+   },
+   "openTabsNotStoredInOneTab_many": {
+      "message": "{COUNT} علامات تبويب مفتوحة غير محفوظة في OneTab"
+   },
+   "openTabsNotStoredInOneTab_one": {
+      "message": "{COUNT} علامة تبويب مفتوحة غير محفوظة في OneTab"
+   },
+   "openTabsNotStoredInOneTab_other": {
+      "message": "{COUNT} علامات تبويب مفتوحة غير محفوظة في OneTab"
+   },
+   "openTabsNotStoredInOneTab_two": {
+      "message": "{COUNT} علامتا تبويب مفتوحتان غير محفوظتان في OneTab"
+   },
+   "openTabsNotStoredInOneTab_zero": {
+      "message": "{COUNT} علامات تبويب مفتوحة غير محفوظة في OneTab"
+   },
+   "optionAutoActionOnGroupOpenArchiveDesc": {
+      "message": "لمنع وضع المجموعة كمؤرشفة، اضغط Alt/Option أثناء النقر لفتح المجموعة"
+   },
+   "optionAutoActionOnGroupOpenArchiveTitle": {
+      "message": "فتح علامات التبويب، ووضع المجموعة كمؤرشفة"
+   },
+   "optionAutoActionOnGroupOpenHeading": {
+      "message": "الإجراء التلقائي عند النقر لفتح مجموعة من علامات التبويب:"
+   },
+   "optionAutoActionOnGroupOpenNote": {
+      "message": "لن تُطبَّق الإجراءات التلقائية على المجموعات المقفلة أو التي هي مهام."
+   },
+   "optionAutoActionOnGroupOpenOpenDesc": {
+      "message": "لوضع المجموعة كمؤرشفة، اضغط Alt/Option أثناء النقر لفتح المجموعة"
+   },
+   "optionAutoActionOnGroupOpenOpenTitle": {
+      "message": "فتح علامات التبويب فقط"
+   },
+   "optionAutoActionOnGroupOpenTrashDesc": {
+      "message": "لمنع إرسال المجموعة تلقائيًا إلى المهملات، اضغط Alt/Option أثناء النقر لفتح المجموعة"
+   },
+   "optionAutoActionOnGroupOpenTrashTitle": {
+      "message": "فتح علامات التبويب ونقل المجموعة إلى المهملات"
+   },
+   "optionAutoActionOnTabOpenArchiveDesc": {
+      "message": "لمنع وضع علامة التبويب كمؤرشفة تلقائيًا، اضغط Alt/Option أثناء النقر لفتح علامة التبويب"
+   },
+   "optionAutoActionOnTabOpenArchiveTitle": {
+      "message": "فتح علامة التبويب ووضعها كمؤرشفة"
+   },
+   "optionAutoActionOnTabOpenHeading": {
+      "message": "الإجراء التلقائي عند النقر لفتح علامة تبويب:"
+   },
+   "optionAutoActionOnTabOpenNote": {
+      "message": "لن تُطبَّق الإجراءات التلقائية على علامات التبويب في المجموعات المقفلة أو التي هي مهام."
+   },
+   "optionAutoActionOnTabOpenOpenDesc": {
+      "message": "لوضع علامة التبويب كمؤرشفة، اضغط Alt/Option أثناء النقر لفتح علامة التبويب"
+   },
+   "optionAutoActionOnTabOpenOpenTitle": {
+      "message": "فتح علامة التبويب فقط"
+   },
+   "optionAutoActionOnTabOpenTrashDesc": {
+      "message": "لمنع إرسال علامة التبويب تلقائيًا إلى المهملات، اضغط Alt/Option أثناء النقر لفتح علامة التبويب"
+   },
+   "optionAutoActionOnTabOpenTrashTitle": {
+      "message": "فتح علامة التبويب ونقلها إلى المهملات"
+   },
+   "optionCopyToClipboardFormatHeading": {
+      "message": "نسخ الروابط إلى الحافظة:"
+   },
+   "optionCopyToClipboardFormatNote": {
+      "message": "ينطبق هذا الإعداد عند استخدام إجراء 'نسخ إلى الحافظة'. يمكنك أيضًا سحب علامات التبويب والمجموعات مباشرةً من OneTab إلى مستند."
+   },
+   "optionCopyToClipboardFormatRichTextDesc": {
+      "message": "ستتيح لك تطبيقات مثل معالِج الكلمات لصق النص المنسّق. وإذا لم يكن مدعومًا، فسيتم لصق نص عادي بدلًا منه."
+   },
+   "optionCopyToClipboardFormatRichTextTitle": {
+      "message": "نص منسّق، عند توفره"
+   },
+   "optionCopyToClipboardFormatTitleUrlTitle": {
+      "message": "العنوان وURL"
+   },
+   "optionCopyToClipboardFormatUrlOnlyTitle": {
+      "message": "URL فقط"
+   },
+   "optionCopyToClipboardFormatUrlTitleTitle": {
+      "message": "عنوان URL والعنوان"
+   },
+   "optionDefaultTabGroupOpenTypeCurrentWindow": {
+      "message": "فتح مجموعة علامات التبويب في النافذة الحالية"
+   },
+   "optionDefaultTabGroupOpenTypeHeading": {
+      "message": "عند النقر لفتح مجموعة من علامات التبويب المُعدّة للفتح كـ \"مجموعة علامات التبويب\" في المتصفح:"
+   },
+   "optionDefaultTabGroupOpenTypeNewWindow": {
+      "message": "فتح مجموعة علامات التبويب في نافذة جديدة"
+   },
+   "optionDefaultTabGroupOpenTypeNote": {
+      "message": "إذا استخدمت القائمة المنسدلة لاختيار خيار معيّن (مثل فتح علامات التبويب في نافذة للتصفح المتخفي)، فسيتذكر ذلك الخيار لتلك المجموعة بالذات."
+   },
+   "optionDefaultWindowGroupOpenTypeCurrentWindow": {
+      "message": "فتح علامات التبويب في النافذة الحالية"
+   },
+   "optionDefaultWindowGroupOpenTypeHeading": {
+      "message": "عند النقر لفتح مجموعة من علامات التبويب:"
+   },
+   "optionDefaultWindowGroupOpenTypeNewWindow": {
+      "message": "فتح علامات التبويب في نافذة جديدة"
+   },
+   "optionDefaultWindowGroupOpenTypeNote": {
+      "message": "إذا استخدمت القائمة المنسدلة لاختيار خيار معيّن (مثل فتح علامات التبويب في نافذة للتصفح المتخفي)، فسيتذكر ذلك الخيار لتلك المجموعة بالذات."
+   },
+   "optionDiscardNonActiveTabOnOpenHeading": {
+      "message": "توفير الذاكرة (RAM) فور فتح علامات التبويب لأول مرة:"
+   },
+   "optionDiscardNonActiveTabOnOpenNote": {
+      "message": "إذا كان هذا الإعداد مفعّلًا، فسيتم تفريغ علامات التبويب من الذاكرة فور فتحها لأول مرة من قائمتك في OneTab. يفيد ذلك إذا كنت تفتح كثيرًا عشرات علامات التبويب دفعة واحدة، لأنه سيمنع تحميلها جميعًا في الذاكرة إلى أن تصل إليها. وإذا عطّلت هذا الإعداد، فسيختار العديد من متصفحات الويب تلقائيًا تفريغ علامات التبويب من الذاكرة إذا لم تكن تستخدمها حاليًا."
+   },
+   "optionDisplayContextMenuHeading": {
+      "message": "انقر بزر الماوس الأيمن داخل صفحة ويب للوصول إلى قائمة سياق OneTab:"
+   },
+   "optionDisplayContextMenuNote": {
+      "message": "إذا عطّلت القائمة، فلن تتمكن من الوصول إلى ميزة \"استثناء موقع ويب من OneTab\""
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenFalseTitle": {
+      "message": "التبديل إلى النافذة التي تكون فيها علامة تبويب OneTab مفتوحة بالفعل"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenHeading": {
+      "message": "إجراء \"فتح OneTab\":"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenNote": {
+      "message": "يمكن الوصول إلى إجراء \"فتح OneTab\" عبر اختصار لوحة المفاتيح. ويمكن الوصول إليه أيضًا من النافذة المنبثقة التي تظهر عند النقر على أيقونة OneTab في شريط أدوات المتصفح."
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenTrueTitle": {
+      "message": "نقل أي علامة تبويب OneTab موجودة إلى النافذة الحالية"
+   },
+   "optionStartupLaunchDisplay": {
+      "message": "افتح OneTab عند بدء تشغيل متصفحك"
+   },
+   "optionStartupLaunchNone": {
+      "message": "لا تفتح OneTab تلقائيًا"
+   },
+   "optionStartupLaunchNoneDesc3": {
+      "message": "لفتح OneTab يدويًا، انقر أيقونة OneTab في شريط أدوات متصفحك، واختر 'فتح OneTab'. بدلاً من ذلك، يمكنك النقر بزر الماوس الأيمن داخل أي صفحة ويب، ثم النقر 'فتح OneTab' ضمن قائمة OneTab."
+   },
+   "optionStartupLaunchTitle": {
+      "message": "بدء التشغيل:"
+   },
+   "optionSwitchToOpenedTabFalseTitle": {
+      "message": "افتح علامة التبويب وابقَ في OneTab"
+   },
+   "optionSwitchToOpenedTabHeading": {
+      "message": "عند فتح علامات التبويب من صفحة OneTab:"
+   },
+   "optionSwitchToOpenedTabNote": {
+      "message": "إذا ضغطت Shift عند النقر، فستفتح علامة التبويب في نافذة جديدة"
+   },
+   "optionSwitchToOpenedTabTrueTitle": {
+      "message": "افتح علامة التبويب، ثم انتقل إليها (إلا إذا ضغطت Command ⌘/Ctrl عند النقر)"
+   },
+   "optionUrlAbbr": {
+      "message": "مختصر"
+   },
+   "optionUrlDisplayTitle": {
+      "message": "عرض عنوان URL:"
+   },
+   "optionUrlDomain": {
+      "message": "النطاق فقط"
+   },
+   "optionUrlFull": {
+      "message": "كامل"
+   },
+   "optionUrlNone": {
+      "message": "بلا"
+   },
+   "options": {
+      "message": "الخيارات"
+   },
+   "otherCopiesColon": {
+      "message": "نسخ أخرى:"
+   },
+   "pasteRichOrPlainTextBelow": {
+      "message": "يمكنك لصق نص منسّق أو نص عادي أدناه."
+   },
+   "pendingTaskCount_few": {
+      "message": "{COUNT} قيد الانتظار"
+   },
+   "pendingTaskCount_many": {
+      "message": "{COUNT} قيد الانتظار"
+   },
+   "pendingTaskCount_one": {
+      "message": "{COUNT} قيد الانتظار"
+   },
+   "pendingTaskCount_other": {
+      "message": "{COUNT} قيد الانتظار"
+   },
+   "pendingTaskCount_two": {
+      "message": "{COUNT} قيد الانتظار"
+   },
+   "pendingTaskCount_zero": {
+      "message": "{COUNT} قيد الانتظار"
+   },
+   "permissionRequiredPleaseTryAgain": {
+      "message": "لإنشاء صفحة مشتركة يمكن الوصول إليها من أي حاسوب، يلزم الحصول على إذن للتنسيق مع خادم OneTab. يرجى المحاولة مرة أخرى."
+   },
+   "pinToTopOfFolder": {
+      "message": "تثبيت أعلى المجلد"
+   },
+   "pinToTopOfList": {
+      "message": "تثبيت أعلى القائمة"
+   },
+   "pinnedTabs": {
+      "message": "علامات تبويب مثبتة"
+   },
+   "placeholderAndOtherLocations_few": {
+      "message": "PLACEHOLDER، و{COUNT} آخرين"
+   },
+   "placeholderAndOtherLocations_many": {
+      "message": "PLACEHOLDER، و{COUNT} آخرين"
+   },
+   "placeholderAndOtherLocations_one": {
+      "message": "PLACEHOLDER، و{COUNT} آخر"
+   },
+   "placeholderAndOtherLocations_other": {
+      "message": "PLACEHOLDER، و{COUNT} آخرين"
+   },
+   "placeholderAndOtherLocations_two": {
+      "message": "PLACEHOLDER، و{COUNT} آخرين"
+   },
+   "placeholderAndOtherLocations_zero": {
+      "message": "PLACEHOLDER، و{COUNT} آخرين"
+   },
+   "placeholderExplanation": {
+      "message": "نظرًا لقواعد أمان متصفح الويب، لا يُسمح لـ OneTab باستعادة هذه الصفحة مباشرة. يرجى نسخ عنوان URL ولصقه في شريط عناوين المتصفح."
+   },
+   "plainTextLineFormat": {
+      "message": "إذا لصقت نصًا عاديًا، فتأكد من أن يتضمن كل عنوان URL البروتوكول (https://wikipedia.org بدلًا من wikipedia.org فقط). يجب أن يكون كل سطر بالتنسيق التالي:"
+   },
+   "pleaseWaitTripleDot": {
+      "message": "يرجى الانتظار…"
+   },
+   "popupSlashShortcutInfo": {
+      "message": "عند التواجد داخل النافذة المنبثقة لإضافة OneTab (التي تظهر عند النقر على أيقونة OneTab)، اضغط مفتاح / لفتح مُحدِّد الوجهة وتركيز المؤشر في مربع البحث."
+   },
+   "privacyAssurance": {
+      "message": "ضمان الخصوصية"
+   },
+   "privacyAssuranceDetail": {
+      "message": "لا تُنقَل قائمة علامات تبويبك ولا يُفصَح عنها لمطوري OneTab أو لأي طرف آخر مطلقًا. والاستثناء الوحيد هو إذا استخدمت عمدًا ميزة 'المشاركة كصفحة ويب' لتحميل قائمة علامات تبويبك إلى صفحة ويب لمشاركتها مع الآخرين."
+   },
+   "privacyFirst": {
+      "message": "الخصوصية أولاً"
+   },
+   "privacyFirstMessage": {
+      "message": "صُمّم OneTab لحماية بياناتك الخاصة. تُخزَّن علامات تبويبك على جهازك فقط، ولا تُشارَك مطلقًا مع مطوّري OneTab أو أي طرف آخر.\nإذا استخدمت ميزة النسخ الاحتياطي/المزامنة لدينا، فستُشفَّر بياناتك من الطرف إلى الطرف بتشفير قوي AES-256. وهذا يجعل من المستحيل على مطوّري OneTab الاطلاع على علامات التبويب التي قمت بنسخها احتياطيًا أو مزامنتها بين الأجهزة، لأن مفتاح التشفير لديك أنت فقط. \nالاستثناء الوحيد هو إذا قررت عمدًا مشاركة بعض علامات تبويبك مع أشخاص آخرين باستخدام ميزة \"المشاركة كصفحة ويب\".\nنؤمن بمبدأ الخصوصية أولًا."
+   },
+   "privateBrowsingPermissionRequired": {
+      "message": "يحتاج OneTab إلى إذن لإنشاء نوافذ خاصة."
+   },
+   "privateBrowsingWindows": {
+      "message": "نوافذ التصفح الخاص"
+   },
+   "quickList": {
+      "message": "القائمة السريعة"
+   },
+   "rating": {
+      "message": "التقييم"
+   },
+   "readingList": {
+      "message": "قائمة القراءة"
+   },
+   "readingListPermissionNecesssary": {
+      "message": "إذن قائمة القراءة ضروري للسماح لـ OneTab باستيراد العناصر من قائمة القراءة لديك. إذا لم تعمل هذه الميزة، فقد لا يدعم متصفحك قوائم القراءة."
+   },
+   "recent": {
+      "message": "الأحدث"
+   },
+   "recentDestinationsColon": {
+      "message": "الوجهات الأخيرة:"
+   },
+   "recentDuplicateRetainedHelp": {
+      "message": "إذا تكررت علامة التبويب أكثر من مرة، فسيُحتفَظ بأحدث مكرر فقط"
+   },
+   "recentlyAccessed": {
+      "message": "الأحدث وصولًا"
+   },
+   "recentlyCreated": {
+      "message": "الأحدث إنشاءً"
+   },
+   "recentlyModified": {
+      "message": "الأحدث تعديلًا"
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "message": "تقليل استخدام الذاكرة بنسبة 95%"
+   },
+   "removeDuplicateTabsHere_few": {
+      "message": "إزالة {COUNT} علامات تبويب مكررة هنا"
+   },
+   "removeDuplicateTabsHere_many": {
+      "message": "إزالة {COUNT} علامات تبويب مكررة هنا"
+   },
+   "removeDuplicateTabsHere_one": {
+      "message": "إزالة {COUNT} علامة تبويب مكررة هنا"
+   },
+   "removeDuplicateTabsHere_other": {
+      "message": "إزالة {COUNT} علامات تبويب مكررة هنا"
+   },
+   "removeDuplicateTabsHere_two": {
+      "message": "إزالة {COUNT} علامتَي تبويب مكررتين هنا"
+   },
+   "removeDuplicateTabsHere_zero": {
+      "message": "إزالة {COUNT} علامات تبويب مكررة هنا"
+   },
+   "removeDuplicates": {
+      "message": "إزالة المكررات"
+   },
+   "removeFromQuickList": {
+      "message": "إزالة من القائمة السريعة"
+   },
+   "removeTabsElsewhereAlsoHere_few": {
+      "message": "إزالة {COUNT} علامات تبويب في أماكن أخرى موجودة أيضًا هنا"
+   },
+   "removeTabsElsewhereAlsoHere_many": {
+      "message": "إزالة {COUNT} علامات تبويب في أماكن أخرى موجودة أيضًا هنا"
+   },
+   "removeTabsElsewhereAlsoHere_one": {
+      "message": "إزالة {COUNT} علامة تبويب في مكان آخر موجودة أيضًا هنا"
+   },
+   "removeTabsElsewhereAlsoHere_other": {
+      "message": "إزالة {COUNT} علامات تبويب في أماكن أخرى موجودة أيضًا هنا"
+   },
+   "removeTabsElsewhereAlsoHere_two": {
+      "message": "إزالة {COUNT} علامتَي تبويب في أماكن أخرى موجودتين أيضًا هنا"
+   },
+   "removeTabsElsewhereAlsoHere_zero": {
+      "message": "إزالة {COUNT} علامات تبويب في أماكن أخرى موجودة أيضًا هنا"
+   },
+   "removeTabsHereAlsoElsewhere_few": {
+      "message": "إزالة {COUNT} علامات تبويب هنا التي توجد أيضًا في أماكن أخرى"
+   },
+   "removeTabsHereAlsoElsewhere_many": {
+      "message": "إزالة {COUNT} علامات تبويب هنا التي توجد أيضًا في أماكن أخرى"
+   },
+   "removeTabsHereAlsoElsewhere_one": {
+      "message": "إزالة {COUNT} علامة تبويب هنا التي توجد أيضًا في أماكن أخرى"
+   },
+   "removeTabsHereAlsoElsewhere_other": {
+      "message": "إزالة {COUNT} علامات تبويب هنا التي توجد أيضًا في أماكن أخرى"
+   },
+   "removeTabsHereAlsoElsewhere_two": {
+      "message": "إزالة {COUNT} علامتَي تبويب هنا موجودتين أيضًا في أماكن أخرى"
+   },
+   "removeTabsHereAlsoElsewhere_zero": {
+      "message": "إزالة {COUNT} علامات تبويب هنا التي توجد أيضًا في أماكن أخرى"
+   },
+   "rename": {
+      "message": "إعادة تسمية"
+   },
+   "restore": {
+      "message": "استعادة"
+   },
+   "restrictSearchToFolderColon": {
+      "message": "حصر البحث في المجلد التالي:"
+   },
+   "results": {
+      "message": "النتائج"
+   },
+   "returnToOneTab": {
+      "message": "العودة إلى OneTab"
+   },
+   "reverse": {
+      "message": "عكس الترتيب"
+   },
+   "rightClickAndOpenOneTabMenu": {
+      "message": "انقر بزر الماوس الأيمن داخل صفحة الويب، ثم انتقل إلى قائمة OneTab"
+   },
+   "rightClickMenuDisabledNote": {
+      "message": "ملاحظة: عطّلت قائمة النقر بزر الماوس الأيمن الخاصة بـ OneTab. يرجى تمكينها من صفحة خيارات OneTab."
+   },
+   "rightClickSelectionOptionsTip": {
+      "message": "تلميح: بعد اختيار عنصر، انقر بزر الماوس الأيمن على أيقونة علامة الاختيار لإظهار المزيد من خيارات التحديد"
+   },
+   "rightClickTickTip": {
+      "message": "تلميح: انقر بزر الماوس الأيمن على أيقونة علامة الاختيار بجوار كل علامة تبويب لأدوات التحديد"
+   },
+   "safariApproveOneTabInSettings": {
+      "message": "يرجى الانتقال إلى الإعدادات، والموافقة على منح OneTab حق الوصول إلى جميع مواقع الويب."
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "message": "وفّر حتى 95% من الذاكرة وقلّل فوضى علامات التبويب في Google Chrome"
+   },
+   "searchHere": {
+      "message": "البحث هنا"
+   },
+   "searchOneTab": {
+      "message": "البحث في OneTab"
+   },
+   "secondExampleLink": {
+      "message": "رابط مثال ثانٍ"
+   },
+   "secondExampleLinkTitle": {
+      "message": "عنوان رابط مثال ثانٍ"
+   },
+   "secondExampleLinkTitleOptional": {
+      "message": "عنوان رابط مثال ثانٍ (اختياري)"
+   },
+   "seeOtherTabsInThisGroup_few": {
+      "message": "عرض {COUNT} علامات تبويب أخرى في هذه المجموعة"
+   },
+   "seeOtherTabsInThisGroup_many": {
+      "message": "عرض {COUNT} علامات تبويب أخرى في هذه المجموعة"
+   },
+   "seeOtherTabsInThisGroup_one": {
+      "message": "عرض {COUNT} علامة تبويب أخرى في هذه المجموعة"
+   },
+   "seeOtherTabsInThisGroup_other": {
+      "message": "عرض {COUNT} علامات تبويب أخرى في هذه المجموعة"
+   },
+   "seeOtherTabsInThisGroup_two": {
+      "message": "عرض {COUNT} علامتَي تبويب أخريين في هذه المجموعة"
+   },
+   "seeOtherTabsInThisGroup_zero": {
+      "message": "عرض {COUNT} علامات تبويب أخرى في هذه المجموعة"
+   },
+   "seePasteInstructions": {
+      "message": "اطّلع على تعليمات اللصق…"
+   },
+   "seeTabsInThisGroup_few": {
+      "message": "عرض {COUNT} علامات تبويب في هذه المجموعة"
+   },
+   "seeTabsInThisGroup_many": {
+      "message": "عرض {COUNT} علامات تبويب في هذه المجموعة"
+   },
+   "seeTabsInThisGroup_one": {
+      "message": "عرض {COUNT} علامة تبويب في هذه المجموعة"
+   },
+   "seeTabsInThisGroup_other": {
+      "message": "عرض {COUNT} علامات تبويب في هذه المجموعة"
+   },
+   "seeTabsInThisGroup_two": {
+      "message": "عرض {COUNT} علامتَي تبويب في هذه المجموعة"
+   },
+   "seeTabsInThisGroup_zero": {
+      "message": "عرض {COUNT} علامات تبويب في هذه المجموعة"
+   },
+   "selectAll": {
+      "message": "تحديد الكل"
+   },
+   "selectAllExceptThis": {
+      "message": "تحديد الكل ما عدا هذا"
+   },
+   "selectThisAndAbove": {
+      "message": "تحديد هذا وكل ما فوقه"
+   },
+   "selectThisAndBelow": {
+      "message": "تحديد هذا وكل ما تحته"
+   },
+   "selectedItemCount_few": {
+      "message": "{COUNT} عناصر"
+   },
+   "selectedItemCount_many": {
+      "message": "{COUNT} عناصر"
+   },
+   "selectedItemCount_one": {
+      "message": "{COUNT} عنصر"
+   },
+   "selectedItemCount_other": {
+      "message": "{COUNT} عناصر"
+   },
+   "selectedItemCount_two": {
+      "message": "{COUNT} عنصران"
+   },
+   "selectedItemCount_zero": {
+      "message": "{COUNT} عناصر"
+   },
+   "selection": {
+      "message": "التحديد"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "message": "إرسال كل علامات التبويب من كل النوافذ إلى OneTab"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "message": "إرسال كل علامات التبويب باستثناء علامة التبويب هذه إلى OneTab"
+   },
+   "sendAllTabsInGroupToOneTab": {
+      "message": "إرسال كل علامات التبويب في مجموعة علامات التبويب هذه إلى OneTab"
+   },
+   "sendAllTabsInWindowToOneTab": {
+      "message": "إرسال كل علامات التبويب في هذه النافذة إلى OneTab"
+   },
+   "sendCurrentTabToOneTab": {
+      "message": "إرسال علامة التبويب الحالية إلى OneTab"
+   },
+   "sendLeftTabsToOneTab": {
+      "message": "إرسال علامات التبويب الموجودة على اليسار إلى OneTab"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "message": "إرسال علامة التبويب هذه فقط إلى OneTab"
+   },
+   "sendRightTabsToOneTab": {
+      "message": "إرسال علامات التبويب الموجودة على اليمين إلى OneTab"
+   },
+   "sendSelectedTabsToOneTab": {
+      "message": "إرسال علامات التبويب المحددة إلى OneTab"
+   },
+   "sendThisWebLinkToOneTab": {
+      "message": "إرسال رابط الويب هذا إلى OneTab"
+   },
+   "serverUnreachable": {
+      "message": "الخادم غير قابل للوصول. يرجى التحقق من اتصال الإنترنت."
+   },
+   "share": {
+      "message": "مشاركة"
+   },
+   "shareAsAWebPage": {
+      "message": "مشاركة كصفحة ويب"
+   },
+   "shared": {
+      "message": "مشتركة"
+   },
+   "sharedExpiresColon": {
+      "message": "مُشارَكة كصفحة ويب. تنتهي:"
+   },
+   "sharedPageOptions": {
+      "message": "خيارات الصفحة المشتركة"
+   },
+   "sharedPageTabLimit_few": {
+      "message": "الصفحات المشتركة محدودة بـ {COUNT} علامات تبويب"
+   },
+   "sharedPageTabLimit_many": {
+      "message": "الصفحات المشتركة محدودة بـ {COUNT} علامات تبويب"
+   },
+   "sharedPageTabLimit_one": {
+      "message": "الصفحات المشتركة محدودة بـ {COUNT} علامة تبويب"
+   },
+   "sharedPageTabLimit_other": {
+      "message": "الصفحات المشتركة محدودة بـ {COUNT} علامات تبويب"
+   },
+   "sharedPageTabLimit_two": {
+      "message": "الصفحات المشتركة محدودة بـ {COUNT} علامتَي تبويب"
+   },
+   "sharedPageTabLimit_zero": {
+      "message": "الصفحات المشتركة محدودة بـ {COUNT} علامات تبويب"
+   },
+   "sharedPageWillAutomaticallyExpire": {
+      "message": "ستنتهي صلاحية الصفحة المشتركة تلقائيًا، لكن يمكنك تمديد تاريخ الانتهاء في أي وقت."
+   },
+   "shiftDragShortcutInfo": {
+      "message": "أمسك مفتاح Shift عند إفلات علامة تبويب لإنشاء نسخة منها بدلًا من نقلها. مهم: اضغط مفتاح Shift فقط بعد أن تبدأ السحب."
+   },
+   "showEverything": {
+      "message": "عرض الكل"
+   },
+   "showFoldersOnly": {
+      "message": "عرض المجلدات فقط"
+   },
+   "showNamedItemsOnly": {
+      "message": "عرض العناصر المسمّاة فقط"
+   },
+   "showNamedOnly": {
+      "message": "عرض العناصر المسمّاة فقط"
+   },
+   "showNextCount_few": {
+      "message": "التالي {COUNT}"
+   },
+   "showNextCount_many": {
+      "message": "التالي {COUNT}"
+   },
+   "showNextCount_one": {
+      "message": "التالي {COUNT}"
+   },
+   "showNextCount_other": {
+      "message": "التالي {COUNT}"
+   },
+   "showNextCount_two": {
+      "message": "التالي {COUNT}"
+   },
+   "showNextCount_zero": {
+      "message": "التالي {COUNT}"
+   },
+   "showPreviousCount_few": {
+      "message": "السابق {COUNT}"
+   },
+   "showPreviousCount_many": {
+      "message": "السابق {COUNT}"
+   },
+   "showPreviousCount_one": {
+      "message": "السابق {COUNT}"
+   },
+   "showPreviousCount_other": {
+      "message": "السابق {COUNT}"
+   },
+   "showPreviousCount_two": {
+      "message": "السابق {COUNT}"
+   },
+   "showPreviousCount_zero": {
+      "message": "السابق {COUNT}"
+   },
+   "soon": {
+      "message": "قريبًا"
+   },
+   "sort": {
+      "message": "الفرز"
+   },
+   "sortByColon": {
+      "message": "فرز حسب:"
+   },
+   "sortGroups": {
+      "message": "فرز المجموعات"
+   },
+   "sourceColon": {
+      "message": "المصدر:"
+   },
+   "starRatingTooltip": {
+      "message": "تعيين تقييم بالنجوم"
+   },
+   "storeSelectedTabsInONETAB_few": {
+      "message": "حفظ {COUNT} علامات تبويب محددة في ONETAB"
+   },
+   "storeSelectedTabsInONETAB_many": {
+      "message": "حفظ {COUNT} علامات تبويب محددة في ONETAB"
+   },
+   "storeSelectedTabsInONETAB_one": {
+      "message": "حفظ {COUNT} علامة تبويب محددة في ONETAB"
+   },
+   "storeSelectedTabsInONETAB_other": {
+      "message": "حفظ {COUNT} علامات تبويب محددة في ONETAB"
+   },
+   "storeSelectedTabsInONETAB_two": {
+      "message": "حفظ {COUNT} علامتَي تبويب محددتين في ONETAB"
+   },
+   "storeSelectedTabsInONETAB_zero": {
+      "message": "حفظ {COUNT} علامات تبويب محددة في ONETAB"
+   },
+   "storeTabInAdditionalLocation": {
+      "message": "حفظ علامة تبويبك في موقع إضافي"
+   },
+   "storeTabInONETAB": {
+      "message": "حفظ علامة التبويب في ONETAB"
+   },
+   "storeTabsInAdditionalLocation": {
+      "message": "حفظ علامات تبويبك في موقع إضافي"
+   },
+   "storeTabsInONETAB": {
+      "message": "حفظ علامات التبويب في ONETAB"
+   },
+   "subFoldersNotShared": {
+      "message": "لاحظ أن المجلدات الفرعية لا تُشارَك. تُشارَك فقط مجموعات علامات التبويب الموجودة مباشرةً داخل المجلد."
+   },
+   "tab": {
+      "message": "علامة تبويب"
+   },
+   "tabAlreadyStoredHere": {
+      "message": "علامة التبويب المفتوحة لديك محفوظة هنا بالفعل:"
+   },
+   "tabCaretTooltipTitleNotes": {
+      "message": "تحرير عنوان علامة التبويب والملاحظات"
+   },
+   "tabCaretTooltipTitleNotesUrl": {
+      "message": "تحرير عنوان علامة التبويب، وعنوان URL، والملاحظات"
+   },
+   "tabCount_few": {
+      "message": "{COUNT} علامات تبويب"
+   },
+   "tabCount_many": {
+      "message": "{COUNT} علامات تبويب"
+   },
+   "tabCount_one": {
+      "message": "{COUNT} علامة تبويب"
+   },
+   "tabCount_other": {
+      "message": "{COUNT} علامات تبويب"
+   },
+   "tabCount_two": {
+      "message": "{COUNT} علامتا تبويب"
+   },
+   "tabCount_zero": {
+      "message": "{COUNT} علامات تبويب"
+   },
+   "tabGroupColorColon": {
+      "message": "لون مجموعة علامات التبويب:"
+   },
+   "tabShortcutInfo": {
+      "message": "عند التواجد داخل صفحة OneTab، اضغط مفتاح Tab لنقل التركيز بين المجموعات في العمود الأوسط. يسهّل ذلك تخطّي المجموعات بسرعة، خاصةً إذا كانت كبيرة. إذا كانت مجموعة ما في موضع التركيز، فاضغط مفتاح Enter لفتحها. استخدم Shift+Tab لنقل التركيز إلى الخلف."
+   },
+   "tabTotalCount_few": {
+      "message": "الإجمالي: {COUNT} علامات تبويب"
+   },
+   "tabTotalCount_many": {
+      "message": "الإجمالي: {COUNT} علامات تبويب"
+   },
+   "tabTotalCount_one": {
+      "message": "الإجمالي: {COUNT} علامة تبويب"
+   },
+   "tabTotalCount_other": {
+      "message": "الإجمالي: {COUNT} علامات تبويب"
+   },
+   "tabTotalCount_two": {
+      "message": "الإجمالي: {COUNT} علامتا تبويب"
+   },
+   "tabTotalCount_zero": {
+      "message": "الإجمالي: {COUNT} علامات تبويب"
+   },
+   "tabs": {
+      "message": "علامات تبويب"
+   },
+   "tabsFromExcludedDomains": {
+      "message": "علامات تبويب من نطاقات مستثناة"
+   },
+   "tabsInTabGroups": {
+      "message": "علامات تبويب ضمن مجموعات علامات التبويب"
+   },
+   "taskTotalCount_few": {
+      "message": "الإجمالي: {COUNT}"
+   },
+   "taskTotalCount_many": {
+      "message": "الإجمالي: {COUNT}"
+   },
+   "taskTotalCount_one": {
+      "message": "الإجمالي: {COUNT}"
+   },
+   "taskTotalCount_other": {
+      "message": "الإجمالي: {COUNT}"
+   },
+   "taskTotalCount_two": {
+      "message": "الإجمالي: {COUNT}"
+   },
+   "taskTotalCount_zero": {
+      "message": "الإجمالي: {COUNT}"
+   },
+   "tasks": {
+      "message": "المهام"
+   },
+   "tasksDone": {
+      "message": "مهام (منجزة)"
+   },
+   "tasksPending": {
+      "message": "مهام (قيد التنفيذ)"
+   },
+   "tasksWillAppearHere": {
+      "message": "إذا عيّنت أيًا من علامات تبويبك أو مجموعاتك كمهام، فستظهر هنا."
+   },
+   "thenClickToolbarIcon": {
+      "message": "ثم انقر أيقونة OneTab في شريط الأدوات مرة أخرى لاستخدام OneTab."
+   },
+   "thisFolderIsEmpty": {
+      "message": "هذا المجلد فارغ"
+   },
+   "thisTab": {
+      "message": "علامة التبويب هذه"
+   },
+   "thisTabGroup": {
+      "message": "مجموعة علامات التبويب هذه"
+   },
+   "thisTabNotStored": {
+      "message": "علامة التبويب هذه غير محفوظة في OneTab"
+   },
+   "thisWindow": {
+      "message": "هذه النافذة"
+   },
+   "tickOrUntickToExclude": {
+      "message": "حدِّد أو ألغِ التحديد لاستثناء موقع الويب"
+   },
+   "title": {
+      "message": "العنوان"
+   },
+   "toAddOrRemoveExclusions": {
+      "message": "لإضافة موقع ويب إلى قائمة الاستبعاد أو إزالته منها:"
+   },
+   "toAllowOneTabInIncognito": {
+      "message": "للسماح بظهور أيقونة OneTab في نوافذ التصفح المتخفي: "
+   },
+   "toImportBrowserBookmarksUseMenuOption": {
+      "message": "لاستيراد الإشارات المرجعية من المتصفح، استخدم خيار القائمة 'استيراد الروابط هنا' في صفحة OneTab الخاصة بك"
+   },
+   "toMakeOpenButtonWorkApprovePermission": {
+      "message": "لتفعيل زر \"فتح\" في الصفحات المشتركة، يرجى الموافقة على طلب الإذن."
+   },
+   "toSaveChangesClickButton": {
+      "message": "لحفظ تغييراتك، انقر الزر"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "message": "علامات تبويب كثيرة؟ حوّل علامات تبويبك إلى قائمة وسرّع Firefox"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "message": "علامات تبويب كثيرة؟ حوّل علامات تبويبك إلى قائمة وسرّع Safari"
+   },
+   "total0Tabs": {
+      "message": "الإجمالي: 0 علامات تبويب"
+   },
+   "trash": {
+      "message": "المهملات"
+   },
+   "unMarkAsTask": {
+      "message": "إلغاء وضع علامة كمهمة"
+   },
+   "unPin": {
+      "message": "إلغاء التثبيت"
+   },
+   "unlock": {
+      "message": "إلغاء القفل"
+   },
+   "unmarkAsArchived": {
+      "message": "إلغاء الأرشفة"
+   },
+   "unshare": {
+      "message": "إلغاء المشاركة"
+   },
+   "untitled": {
+      "message": "بدون عنوان"
+   },
+   "update": {
+      "message": "تحديث"
+   },
+   "userLanguage": {
+      "message": "العربية"
+   },
+   "website": {
+      "message": "موقع ويب"
+   },
+   "yearCount_few": {
+      "message": "{COUNT} سنوات"
+   },
+   "yearCount_many": {
+      "message": "{COUNT} سنوات"
+   },
+   "yearCount_one": {
+      "message": "{COUNT} سنة"
+   },
+   "yearCount_other": {
+      "message": "{COUNT} سنوات"
+   },
+   "yearCount_two": {
+      "message": "{COUNT} سنتان"
+   },
+   "yearCount_zero": {
+      "message": "{COUNT} سنوات"
+   },
+   "yourTabAlreadyStoredHere": {
+      "message": "علامة التبويب الخاصة بك محفوظة هنا بالفعل:"
+   }
+}

@@ -1,0 +1,1715 @@
+{
+   "95PctMemoryReduction": {
+      "message": "節省 95% 記憶體"
+   },
+   "Folder": {
+      "message": "資料夾"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "message": "OneTab 也適用於 Firefox"
+   },
+   "aDashZ": {
+      "message": "A-Z"
+   },
+   "about": {
+      "message": "關於"
+   },
+   "addOneTabNow": {
+      "message": "立即安裝 OneTab"
+   },
+   "all": {
+      "message": "全部"
+   },
+   "allBookmarks": {
+      "message": "所有書籤"
+   },
+   "allOpenTabsAlreadyStoredHere": {
+      "message": "所有開啟的分頁已儲存在此："
+   },
+   "allowFileAccessInstructions": {
+      "message": "若要允許直接開啟檔案，請前往 設定 ➝ 擴充功能 ➝ OneTab ➝ 詳細資料 ➝ 允許存取檔案網址"
+   },
+   "alreadyExistingOpenTabsWillBeClosedAfterMerge": {
+      "message": "此群組中已存在的所有開啟分頁會在合併後關閉。"
+   },
+   "alternatePlainTextFormat": {
+      "message": "或者，純文字也可以採用以下格式："
+   },
+   "approve": {
+      "message": "核准"
+   },
+   "archived": {
+      "message": "已封存"
+   },
+   "autoTheme": {
+      "message": "自動（依作業系統設定）"
+   },
+   "backupAndSync": {
+      "message": "備份與同步"
+   },
+   "betaReleaseReportBugsHere": {
+      "message": "Beta 版 - 回報問題"
+   },
+   "bookmarkCount_few": {
+      "message": "{COUNT} 個書籤"
+   },
+   "bookmarkCount_many": {
+      "message": "{COUNT} 個書籤"
+   },
+   "bookmarkCount_one": {
+      "message": "{COUNT} 個書籤"
+   },
+   "bookmarkCount_other": {
+      "message": "{COUNT} 個書籤"
+   },
+   "bookmarkCount_two": {
+      "message": "{COUNT} 個書籤"
+   },
+   "bookmarkCount_zero": {
+      "message": "{COUNT} 個書籤"
+   },
+   "bookmarksPermissionNecesssary": {
+      "message": "需要書籤權限才能讓 OneTab 匯入您的瀏覽器書籤"
+   },
+   "bulkActions": {
+      "message": "批次操作"
+   },
+   "canDragTextNote": {
+      "message": "注意：您也可以直接從其他網頁或文件拖曳含有網頁連結的文字。您可以直接將文字拖曳到您的 OneTab 頁面，而不必使用此匯入框。"
+   },
+   "canPasteWebContentForExample": {
+      "message": "您可以貼上從網頁或文件複製的文字，連結會自動擷取。例如："
+   },
+   "cancel": {
+      "message": "取消"
+   },
+   "cannotConnectToServerDeletionRequestQueued": {
+      "message": "無法連線至 OneTab 伺服器。請檢查您的網際網路連線。您刪除分享頁面的要求已在本機排入佇列，待可再次連線時會自動傳送至 OneTab 伺服器。"
+   },
+   "cannotCreateTabGroupInTabGroup": {
+      "message": "您選擇的目的地是分頁群組。無法在既有的分頁群組內建立另一個分頁群組。請選擇其他目的地。"
+   },
+   "cannotMixTabsGroupsFoldersDuringDrag": {
+      "message": "拖曳時無法同時混用分頁、群組與資料夾。例如，資料夾不能拖曳到與分頁相同的位置。"
+   },
+   "caseSensitive": {
+      "message": "區分大小寫"
+   },
+   "changesMadeSinceSharedPageCreation": {
+      "message": "建立分享頁面後已有變更。請按「更新」按鈕以更新現有的分享頁面。"
+   },
+   "checkboxesDeterminePinnedAndGroupedTabMergeInclusion": {
+      "message": "此頁頂端的核取方塊決定合併時是否包含釘選分頁與分頁群組內的分頁。"
+   },
+   "chooseALocation": {
+      "message": "選擇位置"
+   },
+   "chooseALocationToImportTo": {
+      "message": "選擇匯入位置"
+   },
+   "chooseExportLocation": {
+      "message": "選擇匯出來源"
+   },
+   "chooseLightDarkTheme": {
+      "message": "選擇淺色/深色主題"
+   },
+   "chooseLocationToCopyTo": {
+      "message": "選擇複製目的地"
+   },
+   "chooseLocationToMoveTo": {
+      "message": "選擇移動目的地"
+   },
+   "chooseLocationToRestoreTo": {
+      "message": "選擇還原目的地"
+   },
+   "chooseToIncludeNotes": {
+      "message": "若您在分頁或群組中加入了備註，可選擇是否一併包含在分享的網頁中"
+   },
+   "chooseToIncludeRatings": {
+      "message": "若您替分頁或群組加上星級評分，可選擇是否一併包含在分享的網頁中"
+   },
+   "chromeIncognitoInstructions": {
+      "message": "在瀏覽器設定中，前往「設定」→「擴充功能」→「OneTab」→「詳細資料」，然後啟用「允許在無痕模式中使用」。"
+   },
+   "clickButtonToAllowTabAccess": {
+      "message": "點擊下方按鈕，允許 OneTab 存取您開啟的分頁。"
+   },
+   "clickHereToContinue": {
+      "message": "按此繼續。"
+   },
+   "clickOneTabIconToStoreTabsHere": {
+      "message": "點選瀏覽器工具列上的 OneTab 圖示，將開啟的分頁儲存到此處。"
+   },
+   "closeSelectedTabsAndStoreInONETAB_few": {
+      "message": "關閉 {COUNT} 個已選取的分頁並儲存到 ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_many": {
+      "message": "關閉 {COUNT} 個已選取的分頁並儲存到 ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_one": {
+      "message": "關閉 {COUNT} 個已選取的分頁並儲存到 ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_other": {
+      "message": "關閉 {COUNT} 個已選取的分頁並儲存到 ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_two": {
+      "message": "關閉 {COUNT} 個已選取的分頁並儲存到 ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_zero": {
+      "message": "關閉 {COUNT} 個已選取的分頁並儲存到 ONETAB"
+   },
+   "closeSelectedTabs_few": {
+      "message": "關閉 {COUNT} 個已選取的分頁"
+   },
+   "closeSelectedTabs_many": {
+      "message": "關閉 {COUNT} 個已選取的分頁"
+   },
+   "closeSelectedTabs_one": {
+      "message": "關閉 {COUNT} 個已選取的分頁"
+   },
+   "closeSelectedTabs_other": {
+      "message": "關閉 {COUNT} 個已選取的分頁"
+   },
+   "closeSelectedTabs_two": {
+      "message": "關閉 {COUNT} 個已選取的分頁"
+   },
+   "closeSelectedTabs_zero": {
+      "message": "關閉 {COUNT} 個已選取的分頁"
+   },
+   "closeTab": {
+      "message": "關閉分頁"
+   },
+   "closeTabAndStore": {
+      "message": "關閉分頁並儲存到 ONETAB"
+   },
+   "closeTabs": {
+      "message": "關閉分頁"
+   },
+   "closeTabsAfterMerge": {
+      "message": "合併後關閉分頁"
+   },
+   "closeTabsAlreadyStoredInOneTab_few": {
+      "message": "關閉 {COUNT} 個已儲存在 OneTab 的分頁"
+   },
+   "closeTabsAlreadyStoredInOneTab_many": {
+      "message": "關閉 {COUNT} 個已儲存在 OneTab 的分頁"
+   },
+   "closeTabsAlreadyStoredInOneTab_one": {
+      "message": "關閉 {COUNT} 個已儲存在 OneTab 的分頁"
+   },
+   "closeTabsAlreadyStoredInOneTab_other": {
+      "message": "關閉 {COUNT} 個已儲存在 OneTab 的分頁"
+   },
+   "closeTabsAlreadyStoredInOneTab_two": {
+      "message": "關閉 {COUNT} 個已儲存在 OneTab 的分頁"
+   },
+   "closeTabsAlreadyStoredInOneTab_zero": {
+      "message": "關閉 {COUNT} 個已儲存在 OneTab 的分頁"
+   },
+   "closeTabsAndStore": {
+      "message": "關閉分頁並儲存到 ONETAB"
+   },
+   "closeTheseDuplicates": {
+      "message": "關閉這些重複分頁"
+   },
+   "closeThisDuplicate": {
+      "message": "關閉此重複分頁"
+   },
+   "completeEditingShortcutInfo": {
+      "message": "在編輯備註欄位時，使用此快速鍵完成編輯。"
+   },
+   "configureShortcuts": {
+      "message": "設定快速鍵"
+   },
+   "conflictingShortcutsHint": {
+      "message": "若上述某些快速鍵無法使用或與其他應用程式衝突，您可以設定不同的快速鍵。"
+   },
+   "continue": {
+      "message": "繼續"
+   },
+   "convertTabsIntoAList": {
+      "message": "將分頁轉換成清單"
+   },
+   "copiedToClipboard": {
+      "message": "已複製到剪貼簿"
+   },
+   "copy": {
+      "message": "複製"
+   },
+   "copyLinksToClipboard": {
+      "message": "複製連結到剪貼簿"
+   },
+   "copySharedPageUrl": {
+      "message": "複製分享頁面網址"
+   },
+   "copyToClipboard": {
+      "message": "複製到剪貼簿"
+   },
+   "createANewGroupHere": {
+      "message": "在此建立新群組"
+   },
+   "createFolderAbove": {
+      "message": "在上方建立資料夾"
+   },
+   "createFolderAboveBelow": {
+      "message": "在上方／下方建立資料夾"
+   },
+   "createFolderAboveWithinBelow": {
+      "message": "在上方／內部／下方建立資料夾"
+   },
+   "createFolderBelow": {
+      "message": "在下方建立資料夾"
+   },
+   "createFolderWithin": {
+      "message": "在此建立子資料夾"
+   },
+   "createGroupAbove": {
+      "message": "在上方建立群組"
+   },
+   "createGroupAboveBelow": {
+      "message": "在上方／下方建立群組"
+   },
+   "createGroupAboveWithinBelow": {
+      "message": "在上方／內部／下方建立群組"
+   },
+   "createGroupBelow": {
+      "message": "在下方建立群組"
+   },
+   "createGroupInsideDestination": {
+      "message": "在目的地內建立新群組"
+   },
+   "createGroupInsideDestinationHelp": {
+      "message": "未勾選時，您的分頁會直接加入目的地群組。勾選時，會在目的地群組內為您的分頁建立新的瀏覽器分頁群組。只有在您要使用瀏覽器的「分頁群組」功能時才勾選此項。"
+   },
+   "createGroupWithin": {
+      "message": "在此建立群組"
+   },
+   "createNewGroupTip": {
+      "message": "若要建立新群組，請取消勾選「僅顯示資料夾」"
+   },
+   "createdOnOrAfterColon": {
+      "message": "建立於此日期或之後："
+   },
+   "createdOnOrBeforeColon": {
+      "message": "建立於此日期或之前："
+   },
+   "createdPreceedingDate": {
+      "message": "建立於"
+   },
+   "darkTheme": {
+      "message": "深色主題"
+   },
+   "dayCount_few": {
+      "message": "{COUNT} 天"
+   },
+   "dayCount_many": {
+      "message": "{COUNT} 天"
+   },
+   "dayCount_one": {
+      "message": "{COUNT} 天"
+   },
+   "dayCount_other": {
+      "message": "{COUNT} 天"
+   },
+   "dayCount_two": {
+      "message": "{COUNT} 天"
+   },
+   "dayCount_zero": {
+      "message": "{COUNT} 天"
+   },
+   "delete": {
+      "message": "刪除"
+   },
+   "deleteAllTrash": {
+      "message": "清空垃圾桶"
+   },
+   "deleteThisCopy": {
+      "message": "刪除此副本"
+   },
+   "deselectAll": {
+      "message": "取消全選"
+   },
+   "destinationColon": {
+      "message": "目的地："
+   },
+   "disabled": {
+      "message": "已停用"
+   },
+   "doneTaskCount_few": {
+      "message": "已完成 {COUNT}"
+   },
+   "doneTaskCount_many": {
+      "message": "已完成 {COUNT}"
+   },
+   "doneTaskCount_one": {
+      "message": "已完成 {COUNT}"
+   },
+   "doneTaskCount_other": {
+      "message": "已完成 {COUNT}"
+   },
+   "doneTaskCount_two": {
+      "message": "已完成 {COUNT}"
+   },
+   "doneTaskCount_zero": {
+      "message": "已完成 {COUNT}"
+   },
+   "dontCloseGroupedTabs": {
+      "message": "不要關閉任何分頁群組內的分頁"
+   },
+   "dontClosePinnedTabs": {
+      "message": "不要關閉任何釘選分頁"
+   },
+   "dontCloseTabsFromDomains": {
+      "message": "不要關閉任何來自 EXAMPLE.COM 的分頁"
+   },
+   "dragTabsHereForQuickList": {
+      "message": "將已儲存的分頁或群組拖曳到此處；它們會加入快速清單。"
+   },
+   "editTabGroupTitleAndNotes": {
+      "message": "編輯分頁群組的標題與備註"
+   },
+   "emojiShortcutInfo": {
+      "message": "在編輯備註欄位時，使用此快速鍵開啟表情符號選擇器。"
+   },
+   "emptyInBrackets": {
+      "message": "（空）"
+   },
+   "emptyOneTabInfoMsg": {
+      "message": "當您開了多個分頁時，點選瀏覽器工具列上的 OneTab 圖示，開啟的分頁就會顯示在此。"
+   },
+   "enabled": {
+      "message": "已啟用"
+   },
+   "encryptedSyncAndBackup": {
+      "message": "加密同步與備份"
+   },
+   "encryptedSyncAndBackupComingSoonMessage": {
+      "message": "即將推出：您將可在多個瀏覽器設定檔與電腦之間同步您的 OneTab 資料。\nOneTab 已全面重寫，因此在一台裝置所做的變更會立即出現在所有其他裝置上。\n使用此功能時，您的資料將以高強度的 AES-256 端對端加密。由於只有您擁有加密金鑰，OneTab 開發者無法查看您已備份或在裝置間同步的分頁。"
+   },
+   "everything": {
+      "message": "全部"
+   },
+   "exampleLink": {
+      "message": "範例連結"
+   },
+   "exampleLinkTitle": {
+      "message": "範例連結標題"
+   },
+   "exampleLinkTitleOptional": {
+      "message": "範例連結標題（選填）"
+   },
+   "exampleRichTextParagraph": {
+      "message": "含有 PLACEHOLDER 與 PLACEHOLDER 的範例段落文字"
+   },
+   "exampleWebsitePageTitle": {
+      "message": "範例網站頁面標題"
+   },
+   "excludeDomainFromOneTab": {
+      "message": "將 EXAMPLE.COM 排除在 OneTab 之外"
+   },
+   "excludeWebSiteFromOneTab": {
+      "message": "將此網站排除在 OneTab 之外"
+   },
+   "expiresColon": {
+      "message": "到期："
+   },
+   "export": {
+      "message": "匯出"
+   },
+   "exportImportUrls": {
+      "message": "匯出 / 匯入網址"
+   },
+   "exportThenImportNote": {
+      "message": "以下網址清單也可在這台或其他電腦上的 OneTab 中匯入"
+   },
+   "exportUrls": {
+      "message": "匯出網址"
+   },
+   "feedback": {
+      "message": "意見回饋"
+   },
+   "filter": {
+      "message": "篩選"
+   },
+   "firefoxIncognitoInstructions": {
+      "message": "在瀏覽器設定中，前往「設定」→「附加元件與佈景主題」→「擴充套件」→「OneTab」→「⋯」→「管理」，然後啟用「在隱私視窗中執行」。"
+   },
+   "firefoxShortcutConfigInstructions": {
+      "message": "在瀏覽器位址列輸入網址「about:addons?type=extension」。頁面出現後，點擊齒輪圖示，然後選擇「管理擴充套件快速鍵」"
+   },
+   "folderCount_few": {
+      "message": "{COUNT} 個資料夾"
+   },
+   "folderCount_many": {
+      "message": "{COUNT} 個資料夾"
+   },
+   "folderCount_one": {
+      "message": "{COUNT} 個資料夾"
+   },
+   "folderCount_other": {
+      "message": "{COUNT} 個資料夾"
+   },
+   "folderCount_two": {
+      "message": "{COUNT} 個資料夾"
+   },
+   "folderCount_zero": {
+      "message": "{COUNT} 個資料夾"
+   },
+   "folders": {
+      "message": "資料夾"
+   },
+   "foldersOnly": {
+      "message": "僅資料夾"
+   },
+   "gettingStarted": {
+      "message": "開始使用"
+   },
+   "goToParentFolder": {
+      "message": "前往上層資料夾"
+   },
+   "groupCount_few": {
+      "message": "{COUNT} 個群組"
+   },
+   "groupCount_many": {
+      "message": "{COUNT} 個群組"
+   },
+   "groupCount_one": {
+      "message": "{COUNT} 個群組"
+   },
+   "groupCount_other": {
+      "message": "{COUNT} 個群組"
+   },
+   "groupCount_two": {
+      "message": "{COUNT} 個群組"
+   },
+   "groupCount_zero": {
+      "message": "{COUNT} 個群組"
+   },
+   "groups": {
+      "message": "群組"
+   },
+   "hasNotes": {
+      "message": "有備註"
+   },
+   "hasRating": {
+      "message": "有評分"
+   },
+   "help": {
+      "message": "說明"
+   },
+   "hideArchivedItems": {
+      "message": "隱藏已封存項目"
+   },
+   "import": {
+      "message": "匯入"
+   },
+   "importAndExport": {
+      "message": "匯入與匯出"
+   },
+   "importBookmarks": {
+      "message": "匯入書籤"
+   },
+   "importFolderAndSubfolders": {
+      "message": "匯入資料夾與子資料夾"
+   },
+   "importLinksHere": {
+      "message": "在此匯入連結"
+   },
+   "importReadingList": {
+      "message": "匯入閱讀清單"
+   },
+   "importText": {
+      "message": "匯入文字"
+   },
+   "importUrls": {
+      "message": "匯入網址"
+   },
+   "importedBookmarks": {
+      "message": "已匯入的書籤"
+   },
+   "includeGroupedTabs": {
+      "message": "包含分頁群組內的分頁"
+   },
+   "includeNotes": {
+      "message": "包含備註"
+   },
+   "includePinnedTabs": {
+      "message": "包含釘選分頁"
+   },
+   "includeStarRatings": {
+      "message": "包含星級評分"
+   },
+   "includeTabsAlreadyStored": {
+      "message": "包含您已儲存的分頁"
+   },
+   "includeTabsFromDomains": {
+      "message": "包含來自 EXAMPLE.COM 的分頁"
+   },
+   "incogitoPermissionRequired": {
+      "message": "OneTab 需要建立無痕視窗的權限。"
+   },
+   "incognitoWindows": {
+      "message": "無痕視窗"
+   },
+   "invertSelection": {
+      "message": "反向選取"
+   },
+   "justNow": {
+      "message": "剛剛"
+   },
+   "keyboardShortcutsColon": {
+      "message": "鍵盤快速鍵："
+   },
+   "languageTitle": {
+      "message": "語言："
+   },
+   "lightTheme": {
+      "message": "淺色主題"
+   },
+   "localeId": {
+      "message": "zh_TW"
+   },
+   "locationColon": {
+      "message": "位置："
+   },
+   "lock": {
+      "message": "鎖定"
+   },
+   "lockMenuItemHelp": {
+      "message": "群組被鎖定時，您無法在該群組中刪除或重新排序項目。開啟鎖定的群組時，不會套用自動動作。請至「選項」頁面了解自動動作的說明。"
+   },
+   "lockedGroupUnlockHelp": {
+      "message": "若要解除鎖定，請使用下拉選單。群組被鎖定時，您無法刪除該群組或其分頁，且分頁無法重新排序。"
+   },
+   "makeThisATask": {
+      "message": "標記為任務"
+   },
+   "manifestDescription": {
+      "message": "最多節省 95% 記憶體並減少分頁雜亂"
+   },
+   "markAsArchived": {
+      "message": "標記為封存"
+   },
+   "markAsArchivedMenuItemHelp": {
+      "message": "請注意，已封存的任務與封存群組中的任務不會出現在任務欄"
+   },
+   "markAsDoneTask": {
+      "message": "標記為已完成任務"
+   },
+   "markAsPendingTask": {
+      "message": "標記為未完成任務"
+   },
+   "matchCount_few": {
+      "message": "{COUNT} 個相符項目"
+   },
+   "matchCount_many": {
+      "message": "{COUNT} 個相符項目"
+   },
+   "matchCount_one": {
+      "message": "{COUNT} 個相符項目"
+   },
+   "matchCount_other": {
+      "message": "{COUNT} 個相符項目"
+   },
+   "matchCount_two": {
+      "message": "{COUNT} 個相符項目"
+   },
+   "matchCount_zero": {
+      "message": "{COUNT} 個相符項目"
+   },
+   "matchWholeWordsOnly": {
+      "message": "僅符合完整字詞"
+   },
+   "mayNeedToRestartBrowser": {
+      "message": "您可能也需要更新並重新啟動瀏覽器。"
+   },
+   "mergeIntoParent": {
+      "message": "合併到上層"
+   },
+   "mergeOpenTabsHere_few": {
+      "message": "在此合併 {COUNT} 個開啟的分頁"
+   },
+   "mergeOpenTabsHere_many": {
+      "message": "在此合併 {COUNT} 個開啟的分頁"
+   },
+   "mergeOpenTabsHere_one": {
+      "message": "在此合併 {COUNT} 個開啟的分頁"
+   },
+   "mergeOpenTabsHere_other": {
+      "message": "在此合併 {COUNT} 個開啟的分頁"
+   },
+   "mergeOpenTabsHere_two": {
+      "message": "在此合併 {COUNT} 個開啟的分頁"
+   },
+   "mergeOpenTabsHere_zero": {
+      "message": "在此合併 {COUNT} 個開啟的分頁"
+   },
+   "mergeSelectedTabsHere_few": {
+      "message": "在此合併 {COUNT} 個已選取的分頁"
+   },
+   "mergeSelectedTabsHere_many": {
+      "message": "在此合併 {COUNT} 個已選取的分頁"
+   },
+   "mergeSelectedTabsHere_one": {
+      "message": "在此合併 {COUNT} 個已選取的分頁"
+   },
+   "mergeSelectedTabsHere_other": {
+      "message": "在此合併 {COUNT} 個已選取的分頁"
+   },
+   "mergeSelectedTabsHere_two": {
+      "message": "在此合併 {COUNT} 個已選取的分頁"
+   },
+   "mergeSelectedTabsHere_zero": {
+      "message": "在此合併 {COUNT} 個已選取的分頁"
+   },
+   "mergeWithInnerGroups": {
+      "message": "與內部群組合併"
+   },
+   "modifySharing": {
+      "message": "修改分享"
+   },
+   "moreEllipsis": {
+      "message": "更多…"
+   },
+   "moreSearchFilters": {
+      "message": "更多搜尋篩選條件"
+   },
+   "moreTripleDot": {
+      "message": "更多…"
+   },
+   "move": {
+      "message": "移動"
+   },
+   "moveToTrash": {
+      "message": "移至垃圾桶"
+   },
+   "namedOnly": {
+      "message": "僅已命名項目"
+   },
+   "navigationFilter": {
+      "message": "導覽篩選"
+   },
+   "newExclamation": {
+      "message": "新！"
+   },
+   "noDupsExistExceptForColon": {
+      "message": "沒有重複項目，除了下列項目："
+   },
+   "noDupsFoundHere": {
+      "message": "此處未找到重複項目"
+   },
+   "noMatches": {
+      "message": "沒有相符項目"
+   },
+   "noMatchesFound": {
+      "message": "找不到相符項目"
+   },
+   "noOpenTabsToStore": {
+      "message": "此視窗沒有可儲存的開啟分頁。"
+   },
+   "noReadingListEntries": {
+      "message": "找不到閱讀清單項目"
+   },
+   "noTabsInOneTabYet": {
+      "message": "您尚未在 OneTab 儲存任何分頁"
+   },
+   "noTabsMeetCriteriaUseCheckboxes": {
+      "message": "沒有開啟的分頁符合您的條件。請使用上方的核取方塊。"
+   },
+   "noTextHasBeenEntered": {
+      "message": "尚未輸入任何文字"
+   },
+   "nonArchived": {
+      "message": "未封存"
+   },
+   "notAssigned": {
+      "message": "未指派"
+   },
+   "notes": {
+      "message": "備註"
+   },
+   "notesAboutTheLinkOptional": {
+      "message": "連結備註（選填）"
+   },
+   "notesAboutTheSecondLinkOptional": {
+      "message": "第二個連結的備註（選填）"
+   },
+   "ok": {
+      "message": "確定"
+   },
+   "omniboxShortcutInfo": {
+      "message": "要在任何分頁從瀏覽器的位址列搜尋您的 OneTab 清單：前往瀏覽器的位址列，輸入 1，接著空白鍵，再輸入搜尋關鍵字。"
+   },
+   "oneTabDesignedToProtectPrivacy": {
+      "message": "OneTab 旨在保護您的隱私。我們不會得知您的分頁。"
+   },
+   "oneTabImportExportPageTitle": {
+      "message": "OneTab 匯入/匯出"
+   },
+   "oneTabNeedsPermissionToAccessYourTabs": {
+      "message": "OneTab 需要存取您的分頁的權限。"
+   },
+   "oneTabOptionsPageTitle": {
+      "message": "OneTab 選項"
+   },
+   "oneTabPermissionRequired": {
+      "message": "OneTab - 需要權限"
+   },
+   "oneTabRestartRequired": {
+      "message": "需要重新啟動 OneTab。"
+   },
+   "oneTabSlashShortcutInfo": {
+      "message": "在 OneTab 頁面中，按斜線鍵可將焦點移到搜尋框。"
+   },
+   "open": {
+      "message": "開啟"
+   },
+   "openActionPopup": {
+      "message": "開啟動作快顯視窗"
+   },
+   "openAsCollapsedTabGroup": {
+      "message": "以「收合」的分頁群組開啟"
+   },
+   "openAsCollapsedTabGroupMenuItemHelp": {
+      "message": "若將這些分頁以「收合」的分頁群組開啟，僅會顯示群組標籤，直到您點擊後才會展開顯示其中的分頁。"
+   },
+   "openAsTabGroup": {
+      "message": "以瀏覽器的分頁群組開啟"
+   },
+   "openAsTabGroupMenuItemHelp": {
+      "message": "您的瀏覽器允許在視窗內以彩色「分頁群組」將分頁分組。"
+   },
+   "openGroupsLimitNotice_few": {
+      "message": "為避免您的瀏覽器過載，只會開啟前 {COUNT} 個群組。"
+   },
+   "openGroupsLimitNotice_many": {
+      "message": "為避免您的瀏覽器過載，只會開啟前 {COUNT} 個群組。"
+   },
+   "openGroupsLimitNotice_one": {
+      "message": "為避免您的瀏覽器過載，只會開啟前 {COUNT} 個群組。"
+   },
+   "openGroupsLimitNotice_other": {
+      "message": "為避免您的瀏覽器過載，只會開啟前 {COUNT} 個群組。"
+   },
+   "openGroupsLimitNotice_two": {
+      "message": "為避免您的瀏覽器過載，只會開啟前 {COUNT} 個群組。"
+   },
+   "openGroupsLimitNotice_zero": {
+      "message": "為避免您的瀏覽器過載，只會開啟前 {COUNT} 個群組。"
+   },
+   "openInIncognitoWindow": {
+      "message": "在新的無痕視窗中開啟"
+   },
+   "openInNewWindow": {
+      "message": "在新視窗中開啟"
+   },
+   "openInThisWindow": {
+      "message": "在此視窗中開啟"
+   },
+   "openONETABLogo": {
+      "message": "開啟 ONETAB"
+   },
+   "openOneTab": {
+      "message": "開啟 OneTab"
+   },
+   "openOneTabAfter": {
+      "message": "儲存分頁後開啟 OneTab"
+   },
+   "openTabFromWebsite": {
+      "message": "開啟分頁並前往該網站"
+   },
+   "openTabLimit_few": {
+      "message": "為避免您的瀏覽器過載，一次最多可開啟 {COUNT} 個分頁。"
+   },
+   "openTabLimit_many": {
+      "message": "為避免您的瀏覽器過載，一次最多可開啟 {COUNT} 個分頁。"
+   },
+   "openTabLimit_one": {
+      "message": "為避免您的瀏覽器過載，一次最多可開啟 {COUNT} 個分頁。"
+   },
+   "openTabLimit_other": {
+      "message": "為避免您的瀏覽器過載，一次最多可開啟 {COUNT} 個分頁。"
+   },
+   "openTabLimit_two": {
+      "message": "為避免您的瀏覽器過載，一次最多可開啟 {COUNT} 個分頁。"
+   },
+   "openTabLimit_zero": {
+      "message": "為避免您的瀏覽器過載，一次最多可開啟 {COUNT} 個分頁。"
+   },
+   "openTabsAlreadyStoredHere_few": {
+      "message": "{COUNT} 個開啟的分頁已儲存在此："
+   },
+   "openTabsAlreadyStoredHere_many": {
+      "message": "{COUNT} 個開啟的分頁已儲存在此："
+   },
+   "openTabsAlreadyStoredHere_one": {
+      "message": "{COUNT} 個開啟的分頁已儲存在此："
+   },
+   "openTabsAlreadyStoredHere_other": {
+      "message": "{COUNT} 個開啟的分頁已儲存在此："
+   },
+   "openTabsAlreadyStoredHere_two": {
+      "message": "{COUNT} 個開啟的分頁已儲存在此："
+   },
+   "openTabsAlreadyStoredHere_zero": {
+      "message": "{COUNT} 個開啟的分頁已儲存在此："
+   },
+   "openTabsConfirm_few": {
+      "message": "您將開啟 {COUNT} 個分頁。您確定嗎？"
+   },
+   "openTabsConfirm_many": {
+      "message": "您將開啟 {COUNT} 個分頁。您確定嗎？"
+   },
+   "openTabsConfirm_one": {
+      "message": "您將開啟 {COUNT} 個分頁。您確定嗎？"
+   },
+   "openTabsConfirm_other": {
+      "message": "您將開啟 {COUNT} 個分頁。您確定嗎？"
+   },
+   "openTabsConfirm_two": {
+      "message": "您將開啟 {COUNT} 個分頁。您確定嗎？"
+   },
+   "openTabsConfirm_zero": {
+      "message": "您將開啟 {COUNT} 個分頁。您確定嗎？"
+   },
+   "openTabsNotStoredInOneTab_few": {
+      "message": "{COUNT} 個未儲存在 OneTab 的開啟分頁"
+   },
+   "openTabsNotStoredInOneTab_many": {
+      "message": "{COUNT} 個未儲存在 OneTab 的開啟分頁"
+   },
+   "openTabsNotStoredInOneTab_one": {
+      "message": "{COUNT} 個未儲存在 OneTab 的開啟分頁"
+   },
+   "openTabsNotStoredInOneTab_other": {
+      "message": "{COUNT} 個未儲存在 OneTab 的開啟分頁"
+   },
+   "openTabsNotStoredInOneTab_two": {
+      "message": "{COUNT} 個未儲存在 OneTab 的開啟分頁"
+   },
+   "openTabsNotStoredInOneTab_zero": {
+      "message": "{COUNT} 個未儲存在 OneTab 的開啟分頁"
+   },
+   "optionAutoActionOnGroupOpenArchiveDesc": {
+      "message": "若要避免將群組標記為封存，按住 Alt/Option 後再點擊以開啟群組"
+   },
+   "optionAutoActionOnGroupOpenArchiveTitle": {
+      "message": "開啟分頁並將群組標記為封存"
+   },
+   "optionAutoActionOnGroupOpenHeading": {
+      "message": "點擊以開啟一個群組的分頁時的自動動作："
+   },
+   "optionAutoActionOnGroupOpenNote": {
+      "message": "自動動作不會套用到已鎖定或標記為任務的群組。"
+   },
+   "optionAutoActionOnGroupOpenOpenDesc": {
+      "message": "若要將群組標記為封存，按住 Alt/Option 後再點擊以開啟群組"
+   },
+   "optionAutoActionOnGroupOpenOpenTitle": {
+      "message": "只開啟分頁"
+   },
+   "optionAutoActionOnGroupOpenTrashDesc": {
+      "message": "若要避免自動將群組移至垃圾桶，按住 Alt/Option 後再點擊以開啟群組"
+   },
+   "optionAutoActionOnGroupOpenTrashTitle": {
+      "message": "開啟分頁並將群組移至垃圾桶"
+   },
+   "optionAutoActionOnTabOpenArchiveDesc": {
+      "message": "若要避免自動將分頁標記為封存，按住 Alt/Option 後再點擊以開啟分頁"
+   },
+   "optionAutoActionOnTabOpenArchiveTitle": {
+      "message": "開啟分頁並標記為封存"
+   },
+   "optionAutoActionOnTabOpenHeading": {
+      "message": "點擊以開啟分頁時的自動動作："
+   },
+   "optionAutoActionOnTabOpenNote": {
+      "message": "自動動作不會套用到位於已鎖定或標記為任務之群組中的分頁。"
+   },
+   "optionAutoActionOnTabOpenOpenDesc": {
+      "message": "若要將分頁標記為封存，按住 Alt/Option 後再點擊以開啟分頁"
+   },
+   "optionAutoActionOnTabOpenOpenTitle": {
+      "message": "只開啟分頁"
+   },
+   "optionAutoActionOnTabOpenTrashDesc": {
+      "message": "若要避免自動將分頁移至垃圾桶，按住 Alt/Option 後再點擊以開啟分頁"
+   },
+   "optionAutoActionOnTabOpenTrashTitle": {
+      "message": "開啟分頁並移至垃圾桶"
+   },
+   "optionCopyToClipboardFormatHeading": {
+      "message": "複製連結到剪貼簿："
+   },
+   "optionCopyToClipboardFormatNote": {
+      "message": "此設定適用於您使用「複製到剪貼簿」動作時。您也可以直接將分頁與群組從 OneTab 拖曳到文件中。"
+   },
+   "optionCopyToClipboardFormatRichTextDesc": {
+      "message": "文字處理等應用程式可貼上豐富文字；若不支援，則改為貼上純文字。"
+   },
+   "optionCopyToClipboardFormatRichTextTitle": {
+      "message": "可用時採用豐富文字"
+   },
+   "optionCopyToClipboardFormatTitleUrlTitle": {
+      "message": "標題與網址"
+   },
+   "optionCopyToClipboardFormatUrlOnlyTitle": {
+      "message": "僅網址"
+   },
+   "optionCopyToClipboardFormatUrlTitleTitle": {
+      "message": "網址與標題"
+   },
+   "optionDefaultTabGroupOpenTypeCurrentWindow": {
+      "message": "在目前視窗中開啟瀏覽器的分頁群組"
+   },
+   "optionDefaultTabGroupOpenTypeHeading": {
+      "message": "點擊以開啟設定為以「分頁群組」開啟的一組分頁時："
+   },
+   "optionDefaultTabGroupOpenTypeNewWindow": {
+      "message": "在新視窗中開啟瀏覽器的分頁群組"
+   },
+   "optionDefaultTabGroupOpenTypeNote": {
+      "message": "如果您使用下拉式選單選擇特定選項（例如在無痕視窗中開啟分頁），該選項會記住並套用到該群組。"
+   },
+   "optionDefaultWindowGroupOpenTypeCurrentWindow": {
+      "message": "在目前視窗中開啟分頁"
+   },
+   "optionDefaultWindowGroupOpenTypeHeading": {
+      "message": "點擊以開啟一組分頁時："
+   },
+   "optionDefaultWindowGroupOpenTypeNewWindow": {
+      "message": "在新視窗中開啟分頁"
+   },
+   "optionDefaultWindowGroupOpenTypeNote": {
+      "message": "如果您使用下拉式選單選擇特定選項（例如在無痕視窗中開啟分頁），該選項會記住並套用到該群組。"
+   },
+   "optionDiscardNonActiveTabOnOpenHeading": {
+      "message": "在首次開啟分頁時立即節省記憶體（RAM）："
+   },
+   "optionDiscardNonActiveTabOnOpenNote": {
+      "message": "啟用此設定後，當您從 OneTab 清單首次開啟分頁時，會立即將分頁從記憶體中卸載。如果您經常一次開啟數十個分頁，此設定可避免在您實際存取前，所有分頁都同時載入到記憶體。若停用此設定，許多瀏覽器仍可能在您未使用分頁時，自動選擇將其從記憶體中卸載。"
+   },
+   "optionDisplayContextMenuHeading": {
+      "message": "在網頁中按右鍵以開啟 OneTab 內容選單："
+   },
+   "optionDisplayContextMenuNote": {
+      "message": "若停用該選單，您將無法使用「將此網站排除在 OneTab 之外」功能"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenFalseTitle": {
+      "message": "切換到已開啟 OneTab 的視窗"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenHeading": {
+      "message": "「開啟 OneTab」動作："
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenNote": {
+      "message": "可透過鍵盤快速鍵執行「開啟 OneTab」動作。也可在您點擊瀏覽器工具列上的 OneTab 圖示時顯示的快顯視窗中使用。"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenTrueTitle": {
+      "message": "將現有的 OneTab 分頁移到目前視窗"
+   },
+   "optionStartupLaunchDisplay": {
+      "message": "每次啟動瀏覽器時開啟 OneTab"
+   },
+   "optionStartupLaunchNone": {
+      "message": "不要自動開啟 OneTab"
+   },
+   "optionStartupLaunchNoneDesc3": {
+      "message": "若要手動開啟 OneTab，請點選瀏覽器工具列上的 OneTab 圖示，然後選擇「開啟 OneTab」。或者，您也可以在任何網頁上按右鍵，於 OneTab 選單中點擊「開啟 OneTab」。"
+   },
+   "optionStartupLaunchTitle": {
+      "message": "啟動："
+   },
+   "optionSwitchToOpenedTabFalseTitle": {
+      "message": "開啟分頁並停留在 OneTab"
+   },
+   "optionSwitchToOpenedTabHeading": {
+      "message": "從 OneTab 頁面開啟分頁時："
+   },
+   "optionSwitchToOpenedTabNote": {
+      "message": "按住 Shift 點擊時，分頁會在新視窗中開啟"
+   },
+   "optionSwitchToOpenedTabTrueTitle": {
+      "message": "開啟分頁並切換至該分頁（按住 Command ⌘/Ctrl 點擊則不切換）"
+   },
+   "optionUrlAbbr": {
+      "message": "簡略"
+   },
+   "optionUrlDisplayTitle": {
+      "message": "網址顯示："
+   },
+   "optionUrlDomain": {
+      "message": "僅網域"
+   },
+   "optionUrlFull": {
+      "message": "完整"
+   },
+   "optionUrlNone": {
+      "message": "無"
+   },
+   "options": {
+      "message": "選項"
+   },
+   "otherCopiesColon": {
+      "message": "其他副本："
+   },
+   "pasteRichOrPlainTextBelow": {
+      "message": "您可以在下方貼上含格式的文字或純文字。"
+   },
+   "pendingTaskCount_few": {
+      "message": "未完成 {COUNT}"
+   },
+   "pendingTaskCount_many": {
+      "message": "未完成 {COUNT}"
+   },
+   "pendingTaskCount_one": {
+      "message": "未完成 {COUNT}"
+   },
+   "pendingTaskCount_other": {
+      "message": "未完成 {COUNT}"
+   },
+   "pendingTaskCount_two": {
+      "message": "未完成 {COUNT}"
+   },
+   "pendingTaskCount_zero": {
+      "message": "未完成 {COUNT}"
+   },
+   "permissionRequiredPleaseTryAgain": {
+      "message": "若要建立可在任何電腦存取的分享頁面，需同意與 OneTab 網路伺服器通訊的權限。請再試一次。"
+   },
+   "pinToTopOfFolder": {
+      "message": "釘選至資料夾頂端"
+   },
+   "pinToTopOfList": {
+      "message": "釘選至清單頂端"
+   },
+   "pinnedTabs": {
+      "message": "釘選分頁"
+   },
+   "placeholderAndOtherLocations_few": {
+      "message": "PLACEHOLDER，以及其他 {COUNT} 個"
+   },
+   "placeholderAndOtherLocations_many": {
+      "message": "PLACEHOLDER，以及其他 {COUNT} 個"
+   },
+   "placeholderAndOtherLocations_one": {
+      "message": "PLACEHOLDER，以及其他 {COUNT} 個"
+   },
+   "placeholderAndOtherLocations_other": {
+      "message": "PLACEHOLDER，以及其他 {COUNT} 個位置"
+   },
+   "placeholderAndOtherLocations_two": {
+      "message": "PLACEHOLDER，以及其他 {COUNT} 個"
+   },
+   "placeholderAndOtherLocations_zero": {
+      "message": "PLACEHOLDER，以及其他 {COUNT} 個位置"
+   },
+   "placeholderExplanation": {
+      "message": "因瀏覽器安全性規定，OneTab 不得直接還原此頁面。請複製您的網址並貼到瀏覽器的位址列。"
+   },
+   "plainTextLineFormat": {
+      "message": "若貼上純文字，請確保每個網址皆包含通訊協定（例如 https://wikipedia.org，而非僅 wikipedia.org）。每一行應採用下列格式："
+   },
+   "pleaseWaitTripleDot": {
+      "message": "請稍候…"
+   },
+   "popupSlashShortcutInfo": {
+      "message": "在 OneTab 快顯視窗中（點擊 OneTab 圖示時會顯示），按斜線鍵可開啟目的地選擇器並將焦點移到搜尋框。"
+   },
+   "privacyAssurance": {
+      "message": "隱私權保障"
+   },
+   "privacyAssuranceDetail": {
+      "message": "您的分頁清單絕不會傳輸或透露給 OneTab 開發者或任何其他方。唯一的例外是您主動使用「分享成網頁」功能，將分頁清單上傳成網頁以分享給他人。"
+   },
+   "privacyFirst": {
+      "message": "隱私優先"
+   },
+   "privacyFirstMessage": {
+      "message": "OneTab 的設計以保護您的個人資料為宗旨。您的分頁僅儲存在您的電腦上，絕不會分享給 OneTab 開發者或任何其他第三方。\n若您使用備份/同步功能，您的資料將以高強度的 AES-256 端對端加密。由於只有您擁有加密金鑰，OneTab 開發者無法查看您已備份或在裝置間同步的分頁。\n唯一的例外是您有意使用「分享成網頁」功能，將部分分頁分享給他人時。\n我們堅持「隱私優先」。"
+   },
+   "privateBrowsingPermissionRequired": {
+      "message": "OneTab 需要建立隱私視窗的權限。"
+   },
+   "privateBrowsingWindows": {
+      "message": "隱私瀏覽視窗"
+   },
+   "quickList": {
+      "message": "快速清單"
+   },
+   "rating": {
+      "message": "評分"
+   },
+   "readingList": {
+      "message": "閱讀清單"
+   },
+   "readingListPermissionNecesssary": {
+      "message": "需要閱讀清單權限才能讓 OneTab 從您的閱讀清單匯入項目。若此功能無法運作，您的瀏覽器可能不支援閱讀清單。"
+   },
+   "recent": {
+      "message": "最近"
+   },
+   "recentDestinationsColon": {
+      "message": "最近的目的地："
+   },
+   "recentDuplicateRetainedHelp": {
+      "message": "同一分頁出現多次時，僅保留最新的重複項目"
+   },
+   "recentlyAccessed": {
+      "message": "最近存取"
+   },
+   "recentlyCreated": {
+      "message": "最近建立"
+   },
+   "recentlyModified": {
+      "message": "最近修改"
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "message": "將記憶體使用量降低 95%"
+   },
+   "removeDuplicateTabsHere_few": {
+      "message": "移除此處 {COUNT} 個重複的分頁"
+   },
+   "removeDuplicateTabsHere_many": {
+      "message": "移除此處 {COUNT} 個重複的分頁"
+   },
+   "removeDuplicateTabsHere_one": {
+      "message": "移除此處 {COUNT} 個重複的分頁"
+   },
+   "removeDuplicateTabsHere_other": {
+      "message": "移除此處 {COUNT} 個重複的分頁"
+   },
+   "removeDuplicateTabsHere_two": {
+      "message": "移除此處 {COUNT} 個重複的分頁"
+   },
+   "removeDuplicateTabsHere_zero": {
+      "message": "移除此處 {COUNT} 個重複的分頁"
+   },
+   "removeDuplicates": {
+      "message": "移除重複項目"
+   },
+   "removeFromQuickList": {
+      "message": "從快速清單移除"
+   },
+   "removeTabsElsewhereAlsoHere_few": {
+      "message": "移除其他位置中 {COUNT} 個亦存在於此處的分頁"
+   },
+   "removeTabsElsewhereAlsoHere_many": {
+      "message": "移除其他位置中 {COUNT} 個亦存在於此處的分頁"
+   },
+   "removeTabsElsewhereAlsoHere_one": {
+      "message": "移除其他位置中 {COUNT} 個亦存在於此處的分頁"
+   },
+   "removeTabsElsewhereAlsoHere_other": {
+      "message": "移除其他位置中 {COUNT} 個亦存在於此處的分頁"
+   },
+   "removeTabsElsewhereAlsoHere_two": {
+      "message": "移除其他位置中 {COUNT} 個亦存在於此處的分頁"
+   },
+   "removeTabsElsewhereAlsoHere_zero": {
+      "message": "移除其他位置中 {COUNT} 個亦存在於此處的分頁"
+   },
+   "removeTabsHereAlsoElsewhere_few": {
+      "message": "移除此處 {COUNT} 個亦存在於其他位置的分頁"
+   },
+   "removeTabsHereAlsoElsewhere_many": {
+      "message": "移除此處 {COUNT} 個亦存在於其他位置的分頁"
+   },
+   "removeTabsHereAlsoElsewhere_one": {
+      "message": "移除此處 {COUNT} 個亦存在於其他位置的分頁"
+   },
+   "removeTabsHereAlsoElsewhere_other": {
+      "message": "移除此處 {COUNT} 個亦存在於其他位置的分頁"
+   },
+   "removeTabsHereAlsoElsewhere_two": {
+      "message": "移除此處 {COUNT} 個亦存在於其他位置的分頁"
+   },
+   "removeTabsHereAlsoElsewhere_zero": {
+      "message": "移除此處 {COUNT} 個亦存在於其他位置的分頁"
+   },
+   "rename": {
+      "message": "重新命名"
+   },
+   "restore": {
+      "message": "還原"
+   },
+   "restrictSearchToFolderColon": {
+      "message": "將搜尋限定於下列資料夾："
+   },
+   "results": {
+      "message": "結果"
+   },
+   "returnToOneTab": {
+      "message": "返回 OneTab"
+   },
+   "reverse": {
+      "message": "反向"
+   },
+   "rightClickAndOpenOneTabMenu": {
+      "message": "在網頁上按右鍵，前往 OneTab 選單"
+   },
+   "rightClickMenuDisabledNote": {
+      "message": "注意：您已停用 OneTab 的按右鍵選單。請在 OneTab 選項頁面啟用。"
+   },
+   "rightClickSelectionOptionsTip": {
+      "message": "提示：勾選項目後，於勾選圖示上按右鍵可顯示更多選取選項"
+   },
+   "rightClickTickTip": {
+      "message": "提示：在每個分頁旁的勾選圖示按右鍵可使用選取工具"
+   },
+   "safariApproveOneTabInSettings": {
+      "message": "請到「設定」，授權 OneTab 存取所有網站。"
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "message": "最多節省 95% 記憶體，減少 Google Chrome 的分頁雜亂"
+   },
+   "searchHere": {
+      "message": "在此搜尋"
+   },
+   "searchOneTab": {
+      "message": "搜尋 OneTab"
+   },
+   "secondExampleLink": {
+      "message": "第二個範例連結"
+   },
+   "secondExampleLinkTitle": {
+      "message": "第二個範例連結標題"
+   },
+   "secondExampleLinkTitleOptional": {
+      "message": "第二個範例連結標題（選填）"
+   },
+   "seeOtherTabsInThisGroup_few": {
+      "message": "檢視此群組中的其他 {COUNT} 個分頁"
+   },
+   "seeOtherTabsInThisGroup_many": {
+      "message": "檢視此群組中的其他 {COUNT} 個分頁"
+   },
+   "seeOtherTabsInThisGroup_one": {
+      "message": "檢視此群組中的其他 {COUNT} 個分頁"
+   },
+   "seeOtherTabsInThisGroup_other": {
+      "message": "檢視此群組中的其他 {COUNT} 個分頁"
+   },
+   "seeOtherTabsInThisGroup_two": {
+      "message": "檢視此群組中的其他 {COUNT} 個分頁"
+   },
+   "seeOtherTabsInThisGroup_zero": {
+      "message": "檢視此群組中的其他 {COUNT} 個分頁"
+   },
+   "seePasteInstructions": {
+      "message": "查看貼上說明…"
+   },
+   "seeTabsInThisGroup_few": {
+      "message": "檢視此群組中的 {COUNT} 個分頁"
+   },
+   "seeTabsInThisGroup_many": {
+      "message": "檢視此群組中的 {COUNT} 個分頁"
+   },
+   "seeTabsInThisGroup_one": {
+      "message": "檢視此群組中的 {COUNT} 個分頁"
+   },
+   "seeTabsInThisGroup_other": {
+      "message": "檢視此群組中的 {COUNT} 個分頁"
+   },
+   "seeTabsInThisGroup_two": {
+      "message": "檢視此群組中的 {COUNT} 個分頁"
+   },
+   "seeTabsInThisGroup_zero": {
+      "message": "檢視此群組中的 {COUNT} 個分頁"
+   },
+   "selectAll": {
+      "message": "全選"
+   },
+   "selectAllExceptThis": {
+      "message": "選取除此項以外的全部"
+   },
+   "selectThisAndAbove": {
+      "message": "選取此項與上方所有項目"
+   },
+   "selectThisAndBelow": {
+      "message": "選取此項與下方所有項目"
+   },
+   "selectedItemCount_few": {
+      "message": "{COUNT} 個項目"
+   },
+   "selectedItemCount_many": {
+      "message": "{COUNT} 個項目"
+   },
+   "selectedItemCount_one": {
+      "message": "{COUNT} 個項目"
+   },
+   "selectedItemCount_other": {
+      "message": "{COUNT} 個項目"
+   },
+   "selectedItemCount_two": {
+      "message": "{COUNT} 個項目"
+   },
+   "selectedItemCount_zero": {
+      "message": "{COUNT} 個項目"
+   },
+   "selection": {
+      "message": "選取"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "message": "將所有視窗中的所有分頁傳送到 OneTab"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "message": "將此分頁以外的所有分頁傳送到 OneTab"
+   },
+   "sendAllTabsInGroupToOneTab": {
+      "message": "將此分頁群組中的所有分頁傳送到 OneTab"
+   },
+   "sendAllTabsInWindowToOneTab": {
+      "message": "將此視窗中的所有分頁傳送到 OneTab"
+   },
+   "sendCurrentTabToOneTab": {
+      "message": "將目前分頁傳送到 OneTab"
+   },
+   "sendLeftTabsToOneTab": {
+      "message": "將左側的分頁傳送到 OneTab"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "message": "僅將此分頁傳送到 OneTab"
+   },
+   "sendRightTabsToOneTab": {
+      "message": "將右側的分頁傳送到 OneTab"
+   },
+   "sendSelectedTabsToOneTab": {
+      "message": "將已選取的分頁傳送到 OneTab"
+   },
+   "sendThisWebLinkToOneTab": {
+      "message": "將此網頁連結傳送到 OneTab"
+   },
+   "serverUnreachable": {
+      "message": "無法連線至伺服器。請檢查您的網際網路連線。"
+   },
+   "share": {
+      "message": "分享"
+   },
+   "shareAsAWebPage": {
+      "message": "分享成網頁"
+   },
+   "shared": {
+      "message": "已分享"
+   },
+   "sharedExpiresColon": {
+      "message": "已分享成網頁。到期："
+   },
+   "sharedPageOptions": {
+      "message": "分享頁面選項"
+   },
+   "sharedPageTabLimit_few": {
+      "message": "分享頁面最多可包含 {COUNT} 個分頁"
+   },
+   "sharedPageTabLimit_many": {
+      "message": "分享頁面最多可包含 {COUNT} 個分頁"
+   },
+   "sharedPageTabLimit_one": {
+      "message": "分享頁面最多可包含 {COUNT} 個分頁"
+   },
+   "sharedPageTabLimit_other": {
+      "message": "分享頁面最多可包含 {COUNT} 個分頁"
+   },
+   "sharedPageTabLimit_two": {
+      "message": "分享頁面最多可包含 {COUNT} 個分頁"
+   },
+   "sharedPageTabLimit_zero": {
+      "message": "分享頁面最多可包含 {COUNT} 個分頁"
+   },
+   "sharedPageWillAutomaticallyExpire": {
+      "message": "分享頁面會自動到期，但您可隨時延長到期日。"
+   },
+   "shiftDragShortcutInfo": {
+      "message": "在放下分頁時按住 Shift 鍵，可複製而非移動。重要：請在開始拖曳之後再按下 Shift 鍵。"
+   },
+   "showEverything": {
+      "message": "顯示全部"
+   },
+   "showFoldersOnly": {
+      "message": "僅顯示資料夾"
+   },
+   "showNamedItemsOnly": {
+      "message": "僅顯示已命名項目"
+   },
+   "showNamedOnly": {
+      "message": "僅顯示已命名項目"
+   },
+   "showNextCount_few": {
+      "message": "顯示後 {COUNT} 項"
+   },
+   "showNextCount_many": {
+      "message": "顯示後 {COUNT} 項"
+   },
+   "showNextCount_one": {
+      "message": "顯示後 {COUNT} 項"
+   },
+   "showNextCount_other": {
+      "message": "顯示後 {COUNT} 項"
+   },
+   "showNextCount_two": {
+      "message": "顯示後 {COUNT} 項"
+   },
+   "showNextCount_zero": {
+      "message": "顯示後 {COUNT} 項"
+   },
+   "showPreviousCount_few": {
+      "message": "顯示前 {COUNT} 項"
+   },
+   "showPreviousCount_many": {
+      "message": "顯示前 {COUNT} 項"
+   },
+   "showPreviousCount_one": {
+      "message": "顯示前 {COUNT} 項"
+   },
+   "showPreviousCount_other": {
+      "message": "顯示前 {COUNT} 項"
+   },
+   "showPreviousCount_two": {
+      "message": "顯示前 {COUNT} 項"
+   },
+   "showPreviousCount_zero": {
+      "message": "顯示前 {COUNT} 項"
+   },
+   "soon": {
+      "message": "即將"
+   },
+   "sort": {
+      "message": "排序"
+   },
+   "sortByColon": {
+      "message": "排序依據："
+   },
+   "sortGroups": {
+      "message": "排序群組"
+   },
+   "sourceColon": {
+      "message": "來源："
+   },
+   "starRatingTooltip": {
+      "message": "設定星級評分"
+   },
+   "storeSelectedTabsInONETAB_few": {
+      "message": "將 {COUNT} 個已選取的分頁儲存到 ONETAB"
+   },
+   "storeSelectedTabsInONETAB_many": {
+      "message": "將 {COUNT} 個已選取的分頁儲存到 ONETAB"
+   },
+   "storeSelectedTabsInONETAB_one": {
+      "message": "將 {COUNT} 個已選取的分頁儲存到 ONETAB"
+   },
+   "storeSelectedTabsInONETAB_other": {
+      "message": "將 {COUNT} 個已選取的分頁儲存到 ONETAB"
+   },
+   "storeSelectedTabsInONETAB_two": {
+      "message": "將 {COUNT} 個已選取的分頁儲存到 ONETAB"
+   },
+   "storeSelectedTabsInONETAB_zero": {
+      "message": "將 {COUNT} 個已選取的分頁儲存到 ONETAB"
+   },
+   "storeTabInAdditionalLocation": {
+      "message": "另存此分頁到其他位置"
+   },
+   "storeTabInONETAB": {
+      "message": "將分頁儲存到 ONETAB"
+   },
+   "storeTabsInAdditionalLocation": {
+      "message": "另存這些分頁到其他位置"
+   },
+   "storeTabsInONETAB": {
+      "message": "將分頁儲存到 ONETAB"
+   },
+   "subFoldersNotShared": {
+      "message": "請注意，子資料夾不會被分享。只有資料夾內直接包含的群組會被分享。"
+   },
+   "tab": {
+      "message": "分頁"
+   },
+   "tabAlreadyStoredHere": {
+      "message": "您開啟的分頁已儲存在此："
+   },
+   "tabCaretTooltipTitleNotes": {
+      "message": "編輯分頁的標題與備註"
+   },
+   "tabCaretTooltipTitleNotesUrl": {
+      "message": "編輯分頁的標題、網址與備註"
+   },
+   "tabCount_few": {
+      "message": "{COUNT} 個分頁"
+   },
+   "tabCount_many": {
+      "message": "{COUNT} 個分頁"
+   },
+   "tabCount_one": {
+      "message": "{COUNT} 個分頁"
+   },
+   "tabCount_other": {
+      "message": "{COUNT} 個分頁"
+   },
+   "tabCount_two": {
+      "message": "{COUNT} 個分頁"
+   },
+   "tabCount_zero": {
+      "message": "{COUNT} 個分頁"
+   },
+   "tabGroupColorColon": {
+      "message": "分頁群組顏色："
+   },
+   "tabShortcutInfo": {
+      "message": "在 OneTab 頁面中，按 Tab 鍵可在中間欄的群組間移動焦點。這能讓您更快略過大型群組。焦點在某個群組時，按 Enter 鍵即可開啟。使用 Shift+Tab 可反向移動焦點。"
+   },
+   "tabTotalCount_few": {
+      "message": "總計：{COUNT} 個分頁"
+   },
+   "tabTotalCount_many": {
+      "message": "總計：{COUNT} 個分頁"
+   },
+   "tabTotalCount_one": {
+      "message": "總計：{COUNT} 個分頁"
+   },
+   "tabTotalCount_other": {
+      "message": "總計：{COUNT} 個分頁"
+   },
+   "tabTotalCount_two": {
+      "message": "總計：{COUNT} 個分頁"
+   },
+   "tabTotalCount_zero": {
+      "message": "總計：{COUNT} 個分頁"
+   },
+   "tabs": {
+      "message": "分頁"
+   },
+   "tabsFromExcludedDomains": {
+      "message": "來自已排除網域的分頁"
+   },
+   "tabsInTabGroups": {
+      "message": "分頁群組中的分頁"
+   },
+   "taskTotalCount_few": {
+      "message": "總計 {COUNT}"
+   },
+   "taskTotalCount_many": {
+      "message": "總計 {COUNT}"
+   },
+   "taskTotalCount_one": {
+      "message": "總計 {COUNT}"
+   },
+   "taskTotalCount_other": {
+      "message": "總計 {COUNT}"
+   },
+   "taskTotalCount_two": {
+      "message": "總計 {COUNT}"
+   },
+   "taskTotalCount_zero": {
+      "message": "總計 {COUNT}"
+   },
+   "tasks": {
+      "message": "任務"
+   },
+   "tasksDone": {
+      "message": "任務（已完成）"
+   },
+   "tasksPending": {
+      "message": "任務（未完成）"
+   },
+   "tasksWillAppearHere": {
+      "message": "若將任何分頁或群組標記為任務，會顯示在此。"
+   },
+   "thenClickToolbarIcon": {
+      "message": "然後再次點擊工具列上的 OneTab 圖示以使用 OneTab。"
+   },
+   "thisFolderIsEmpty": {
+      "message": "此資料夾為空"
+   },
+   "thisTab": {
+      "message": "此分頁"
+   },
+   "thisTabGroup": {
+      "message": "此分頁群組"
+   },
+   "thisTabNotStored": {
+      "message": "此分頁未儲存在 OneTab"
+   },
+   "thisWindow": {
+      "message": "此視窗"
+   },
+   "tickOrUntickToExclude": {
+      "message": "勾選或取消勾選以排除此網站"
+   },
+   "title": {
+      "message": "標題"
+   },
+   "toAddOrRemoveExclusions": {
+      "message": "若要將網站加入或移出排除清單："
+   },
+   "toAllowOneTabInIncognito": {
+      "message": "若要讓 OneTab 圖示在無痕視窗中顯示： "
+   },
+   "toImportBrowserBookmarksUseMenuOption": {
+      "message": "若要從瀏覽器書籤匯入，請在您的 OneTab 頁面使用「在此匯入連結」選單選項"
+   },
+   "toMakeOpenButtonWorkApprovePermission": {
+      "message": "若要讓分享頁面上的「開啟」按鈕可用，請核准權限要求。"
+   },
+   "toSaveChangesClickButton": {
+      "message": "若要儲存變更，請按一下按鈕"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "message": "分頁太多了嗎？將分頁轉換成清單，讓 Firefox 更快"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "message": "分頁太多了嗎？將分頁轉換成清單，讓 Safari 更快"
+   },
+   "total0Tabs": {
+      "message": "總計：0 個分頁"
+   },
+   "trash": {
+      "message": "垃圾桶"
+   },
+   "unMarkAsTask": {
+      "message": "取消任務標記"
+   },
+   "unPin": {
+      "message": "取消釘選"
+   },
+   "unlock": {
+      "message": "解除鎖定"
+   },
+   "unmarkAsArchived": {
+      "message": "取消封存標記"
+   },
+   "unshare": {
+      "message": "取消分享"
+   },
+   "untitled": {
+      "message": "未命名"
+   },
+   "update": {
+      "message": "更新"
+   },
+   "userLanguage": {
+      "message": "中文（繁體）"
+   },
+   "website": {
+      "message": "網站"
+   },
+   "yearCount_few": {
+      "message": "{COUNT} 年"
+   },
+   "yearCount_many": {
+      "message": "{COUNT} 年"
+   },
+   "yearCount_one": {
+      "message": "{COUNT} 年"
+   },
+   "yearCount_other": {
+      "message": "{COUNT} 年"
+   },
+   "yearCount_two": {
+      "message": "{COUNT} 年"
+   },
+   "yearCount_zero": {
+      "message": "{COUNT} 年"
+   },
+   "yourTabAlreadyStoredHere": {
+      "message": "您的分頁已儲存在此："
+   }
+}

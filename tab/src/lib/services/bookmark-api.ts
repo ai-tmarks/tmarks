@@ -7,6 +7,7 @@ import type {
 import { AppError } from '@/types';
 import { StorageService } from '@/lib/utils/storage';
 import { createTMarksClient, type TMarksBookmark, type TMarksTag } from '@/lib/api/tmarks';
+import { TMARKS_URLS } from '@/lib/constants/urls';
 
 export class BookmarkAPIClient {
   private client: ReturnType<typeof createTMarksClient> | null = null;
@@ -25,14 +26,21 @@ export class BookmarkAPIClient {
     // Create TMarks client with proper API key
     this.client = createTMarksClient({
       apiKey,
-      baseUrl: baseUrl || 'https://tmarks.669696.xyz/api'
+      baseUrl: baseUrl || TMARKS_URLS.DEFAULT_API_BASE
     });
   }
 
-  private async ensureClient(): Promise<void> {
+  private async ensureClient(): Promise<ReturnType<typeof createTMarksClient>> {
     if (!this.client) {
       await this.initialize();
     }
+    if (!this.client) {
+      throw new AppError(
+        'API_KEY_INVALID' as ErrorCode,
+        'Failed to initialize TMarks client'
+      );
+    }
+    return this.client;
   }
 
   
@@ -40,10 +48,10 @@ export class BookmarkAPIClient {
    * Get all tags from bookmark site
    */
   async getTags(): Promise<Tag[]> {
-    await this.ensureClient();
+    const client = await this.ensureClient();
 
     try {
-      const response = await this.client!.tags.getTags();
+      const response = await client.tags.getTags();
 
       // Convert TMarks API format to internal format
       return response.data.tags.map((tag: TMarksTag) => ({
@@ -75,10 +83,10 @@ export class BookmarkAPIClient {
     bookmarks: Bookmark[];
     hasMore: boolean;
   }> {
-    await this.ensureClient();
+    const client = await this.ensureClient();
 
     try {
-      const response = await this.client!.bookmarks.getBookmarks({
+      const response = await client.bookmarks.getBookmarks({
         page_size: limit,
         page_cursor: page > 1 ? `page_${page}` : undefined
       });
@@ -115,7 +123,7 @@ export class BookmarkAPIClient {
    * Add a new bookmark
    */
   async addBookmark(bookmark: BookmarkInput): Promise<{ id: string }> {
-    await this.ensureClient();
+    const client = await this.ensureClient();
 
     try {
       // Resolve tag names to tag IDs (create new tags if needed)
@@ -124,7 +132,7 @@ export class BookmarkAPIClient {
         console.log('[BookmarkAPI] 处理标签:', bookmark.tags);
 
         // Get existing tags from the API
-        const tagsResponse = await this.client!.tags.getTags();
+        const tagsResponse = await client.tags.getTags();
         const existingTags = tagsResponse.data.tags;
 
         console.log('[BookmarkAPI] 已有标签数量:', existingTags.length);
@@ -143,7 +151,7 @@ export class BookmarkAPIClient {
             // Tag doesn't exist, create it
             console.log(`[BookmarkAPI] 标签 "${tagName}" 不存在，正在创建...`);
             try {
-              const newTagResponse = await this.client!.tags.createTag({
+              const newTagResponse = await client.tags.createTag({
                 name: tagName
               });
               const newTagId = newTagResponse.data.tag.id;
@@ -156,7 +164,7 @@ export class BookmarkAPIClient {
               // If tag creation fails due to duplicate (race condition), try to find it again
               if (tagError.code === 'DUPLICATE_TAG') {
                 console.log(`[BookmarkAPI] 标签 "${tagName}" 已被并发创建，重新查找...`);
-                const retryTagsResponse = await this.client!.tags.getTags();
+                const retryTagsResponse = await client.tags.getTags();
                 const retryTag = retryTagsResponse.data.tags.find(
                   t => t.name.toLowerCase() === tagName.toLowerCase()
                 );
@@ -178,7 +186,7 @@ export class BookmarkAPIClient {
         console.log('[BookmarkAPI] 最终标签 IDs:', tagIds);
       }
 
-      const response = await this.client!.bookmarks.createBookmark({
+      const response = await client.bookmarks.createBookmark({
         title: bookmark.title,
         url: bookmark.url,
         description: bookmark.description,
@@ -210,8 +218,8 @@ export class BookmarkAPIClient {
    */
   async testConnection(): Promise<boolean> {
     try {
-      await this.ensureClient();
-      await this.client!.user.getMe(); // Test with a lightweight API call
+      const client = await this.ensureClient();
+      await client.user.getMe(); // Test with a lightweight API call
       return true;
     } catch (error) {
       console.error('API connection test failed:', error);

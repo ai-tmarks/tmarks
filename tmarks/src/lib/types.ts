@@ -269,6 +269,7 @@ export interface TabGroupItem {
   created_at: string
   is_pinned?: number
   is_todo?: number
+  is_archived?: number
 }
 
 export interface CreateTabGroupRequest {

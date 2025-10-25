@@ -1,0 +1,1715 @@
+{
+   "95PctMemoryReduction": {
+      "message": "Μείωση μνήμης κατά 95%"
+   },
+   "Folder": {
+      "message": "Φάκελος"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "message": "Το OneTab είναι διαθέσιμο και για τον Firefox"
+   },
+   "aDashZ": {
+      "message": "Α-Ω"
+   },
+   "about": {
+      "message": "Σχετικά"
+   },
+   "addOneTabNow": {
+      "message": "Προσθήκη OneTab τώρα"
+   },
+   "all": {
+      "message": "Όλα"
+   },
+   "allBookmarks": {
+      "message": "Όλοι οι σελιδοδείκτες"
+   },
+   "allOpenTabsAlreadyStoredHere": {
+      "message": "Όλες οι ανοιχτές καρτέλες έχουν ήδη αποθηκευτεί εδώ:"
+   },
+   "allowFileAccessInstructions": {
+      "message": "Για να επιτρέψετε το άνοιγμα αρχείων απευθείας, μεταβείτε στις Ρυθμίσεις ➝ Επεκτάσεις ➝ OneTab ➝ Λεπτομέρειες ➝ Να επιτρέπεται η πρόσβαση σε URL αρχείων"
+   },
+   "alreadyExistingOpenTabsWillBeClosedAfterMerge": {
+      "message": "Όλες οι ανοιχτές καρτέλες που υπάρχουν ήδη σε αυτήν την ομάδα θα κλείσουν μετά τη συγχώνευση."
+   },
+   "alternatePlainTextFormat": {
+      "message": "Εναλλακτικά, το απλό κείμενο μπορεί να είναι στη μορφή:"
+   },
+   "approve": {
+      "message": "Έγκριση"
+   },
+   "archived": {
+      "message": "Αρχειοθετημένα"
+   },
+   "autoTheme": {
+      "message": "Αυτόματο (χρήση ρύθμισης λειτουργικού συστήματος)"
+   },
+   "backupAndSync": {
+      "message": "Αντίγραφα ασφαλείας & συγχρονισμός"
+   },
+   "betaReleaseReportBugsHere": {
+      "message": "Beta — Αναφορά σφαλμάτων εδώ"
+   },
+   "bookmarkCount_few": {
+      "message": "{COUNT} σελιδοδείκτες"
+   },
+   "bookmarkCount_many": {
+      "message": "{COUNT} σελιδοδείκτες"
+   },
+   "bookmarkCount_one": {
+      "message": "{COUNT} σελιδοδείκτης"
+   },
+   "bookmarkCount_other": {
+      "message": "{COUNT} σελιδοδείκτες"
+   },
+   "bookmarkCount_two": {
+      "message": "{COUNT} σελιδοδείκτες"
+   },
+   "bookmarkCount_zero": {
+      "message": "{COUNT} σελιδοδείκτες"
+   },
+   "bookmarksPermissionNecesssary": {
+      "message": "Η άδεια για σελιδοδείκτες είναι απαραίτητη ώστε το OneTab να εισάγει τους σελιδοδείκτες του προγράμματος περιήγησής σας"
+   },
+   "bulkActions": {
+      "message": "Μαζικές ενέργειες"
+   },
+   "canDragTextNote": {
+      "message": "Σημείωση: Μπορείτε επίσης να σύρετε και να αποθέσετε κείμενο που περιέχει συνδέσμους απευθείας από άλλη ιστοσελίδα ή από έγγραφο. Μπορείτε να σύρετε το κείμενο απευθείας στη σελίδα σας OneTab, χωρίς να χρειαστεί να χρησιμοποιήσετε αυτό το πλαίσιο εισαγωγής."
+   },
+   "canPasteWebContentForExample": {
+      "message": "Μπορείτε να επικολλήσετε κείμενο αντιγραμμένο από ιστοσελίδα ή έγγραφο και οι σύνδεσμοι θα εξαχθούν αυτόματα. Για παράδειγμα:"
+   },
+   "cancel": {
+      "message": "Άκυρο"
+   },
+   "cannotConnectToServerDeletionRequestQueued": {
+      "message": "Δεν είναι δυνατή η σύνδεση με τον διακομιστή του OneTab. Ελέγξτε τη σύνδεσή σας στο διαδίκτυο. Το αίτημα διαγραφής της κοινόχρηστης σελίδας τοποθετήθηκε σε αναμονή τοπικά και θα σταλεί αυτόματα στον διακομιστή του OneTab μόλις γίνει ξανά προσβάσιμος."
+   },
+   "cannotCreateTabGroupInTabGroup": {
+      "message": "Ο επιλεγμένος προορισμός είναι ομάδα καρτελών. Δεν μπορείτε να δημιουργήσετε ομάδα καρτελών μέσα σε υπάρχουσα ομάδα καρτελών. Επιλέξτε διαφορετικό προορισμό."
+   },
+   "cannotMixTabsGroupsFoldersDuringDrag": {
+      "message": "Δεν είναι δυνατό να αναμειγνύονται καρτέλες, ομάδες και φάκελοι κατά τη μεταφορά. Αυτό συμβαίνει επειδή, για παράδειγμα, δεν μπορείτε να σύρετε έναν φάκελο στα ίδια σημεία που μπορείτε να σύρετε μια καρτέλα."
+   },
+   "caseSensitive": {
+      "message": "Διάκριση πεζών-κεφαλαίων"
+   },
+   "changesMadeSinceSharedPageCreation": {
+      "message": "Έχουν γίνει αλλαγές από τότε που δημιουργήσατε την κοινόχρηστη σελίδα. Κάντε κλικ στο κουμπί «Ενημέρωση» για να ενημερώσετε την υπάρχουσα κοινόχρηστη σελίδα."
+   },
+   "checkboxesDeterminePinnedAndGroupedTabMergeInclusion": {
+      "message": "Τα πλαίσια επιλογής στην κορυφή αυτής της σελίδας καθορίζουν αν θα συμπεριληφθούν στη συγχώνευση οι καρφιτσωμένες ή οι καρτέλες σε ομάδες καρτελών."
+   },
+   "chooseALocation": {
+      "message": "Επιλέξτε τοποθεσία"
+   },
+   "chooseALocationToImportTo": {
+      "message": "Επιλέξτε τοποθεσία για εισαγωγή"
+   },
+   "chooseExportLocation": {
+      "message": "Επιλέξτε τοποθεσία για εξαγωγή"
+   },
+   "chooseLightDarkTheme": {
+      "message": "Επιλέξτε θέμα φωτεινό/σκούρο"
+   },
+   "chooseLocationToCopyTo": {
+      "message": "Επιλέξτε τοποθεσία για αντιγραφή"
+   },
+   "chooseLocationToMoveTo": {
+      "message": "Επιλέξτε τοποθεσία για μετακίνηση"
+   },
+   "chooseLocationToRestoreTo": {
+      "message": "Επιλέξτε τοποθεσία για επαναφορά"
+   },
+   "chooseToIncludeNotes": {
+      "message": "Αν έχετε προσθέσει σημειώσεις σε καρτέλες ή ομάδες, επιλέξτε αν θα συμπεριληφθούν στην κοινόχρηστη ιστοσελίδα"
+   },
+   "chooseToIncludeRatings": {
+      "message": "Αν έχετε προσθέσει αξιολογήσεις με αστέρια σε καρτέλες ή ομάδες, επιλέξτε αν θα συμπεριληφθούν στην κοινόχρηστη ιστοσελίδα"
+   },
+   "chromeIncognitoInstructions": {
+      "message": "Στις ρυθμίσεις του προγράμματος περιήγησης, μεταβείτε σε 'Ρυθμίσεις' → 'Επεκτάσεις' → 'OneTab' → 'Λεπτομέρειες' και έπειτα ενεργοποιήστε 'Να επιτρέπεται σε ανώνυμη περιήγηση'."
+   },
+   "clickButtonToAllowTabAccess": {
+      "message": "Κάντε κλικ στο κουμπί παρακάτω για να επιτρέψετε στο OneTab πρόσβαση στις ανοιχτές καρτέλες σας."
+   },
+   "clickHereToContinue": {
+      "message": "Κάντε κλικ εδώ για να συνεχίσετε."
+   },
+   "clickOneTabIconToStoreTabsHere": {
+      "message": "Κάντε κλικ στο εικονίδιο του OneTab στη γραμμή εργαλείων του προγράμματος περιήγησης για να αποθηκεύσετε εδώ τις ανοιχτές καρτέλες σας."
+   },
+   "closeSelectedTabsAndStoreInONETAB_few": {
+      "message": "Κλείστε {COUNT} επιλεγμένες καρτέλες και αποθηκεύστε τις στο ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_many": {
+      "message": "Κλείστε {COUNT} επιλεγμένες καρτέλες και αποθηκεύστε τις στο ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_one": {
+      "message": "Κλείστε {COUNT} επιλεγμένη καρτέλα και αποθηκεύστε την στο ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_other": {
+      "message": "Κλείστε {COUNT} επιλεγμένες καρτέλες και αποθηκεύστε τις στο ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_two": {
+      "message": "Κλείστε {COUNT} επιλεγμένες καρτέλες και αποθηκεύστε τις στο ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_zero": {
+      "message": "Κλείστε {COUNT} επιλεγμένες καρτέλες και αποθηκεύστε τις στο ONETAB"
+   },
+   "closeSelectedTabs_few": {
+      "message": "Κλείστε {COUNT} επιλεγμένες καρτέλες"
+   },
+   "closeSelectedTabs_many": {
+      "message": "Κλείστε {COUNT} επιλεγμένες καρτέλες"
+   },
+   "closeSelectedTabs_one": {
+      "message": "Κλείστε {COUNT} επιλεγμένη καρτέλα"
+   },
+   "closeSelectedTabs_other": {
+      "message": "Κλείστε {COUNT} επιλεγμένες καρτέλες"
+   },
+   "closeSelectedTabs_two": {
+      "message": "Κλείστε {COUNT} επιλεγμένες καρτέλες"
+   },
+   "closeSelectedTabs_zero": {
+      "message": "Κλείστε {COUNT} επιλεγμένες καρτέλες"
+   },
+   "closeTab": {
+      "message": "Κλείσιμο καρτέλας"
+   },
+   "closeTabAndStore": {
+      "message": "Κλείσιμο καρτέλας και αποθήκευση στο ONETAB"
+   },
+   "closeTabs": {
+      "message": "Κλείσιμο καρτελών"
+   },
+   "closeTabsAfterMerge": {
+      "message": "Κλείσιμο καρτελών μετά τη συγχώνευση"
+   },
+   "closeTabsAlreadyStoredInOneTab_few": {
+      "message": "Κλείστε {COUNT} καρτέλες που έχουν ήδη αποθηκευτεί στο OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_many": {
+      "message": "Κλείστε {COUNT} καρτέλες που έχουν ήδη αποθηκευτεί στο OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_one": {
+      "message": "Κλείστε {COUNT} καρτέλα που έχει ήδη αποθηκευτεί στο OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_other": {
+      "message": "Κλείστε {COUNT} καρτέλες που έχουν ήδη αποθηκευτεί στο OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_two": {
+      "message": "Κλείστε {COUNT} καρτέλες που έχουν ήδη αποθηκευτεί στο OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_zero": {
+      "message": "Κλείστε {COUNT} καρτέλες που έχουν ήδη αποθηκευτεί στο OneTab"
+   },
+   "closeTabsAndStore": {
+      "message": "Κλείσιμο καρτελών και αποθήκευση στο ONETAB"
+   },
+   "closeTheseDuplicates": {
+      "message": "Κλείσιμο αυτών των διπλότυπων"
+   },
+   "closeThisDuplicate": {
+      "message": "Κλείσιμο αυτού του διπλότυπου"
+   },
+   "completeEditingShortcutInfo": {
+      "message": "Κατά την επεξεργασία πεδίου σημειώσεων, χρησιμοποιήστε αυτή τη συντόμευση για να ολοκληρώσετε την επεξεργασία."
+   },
+   "configureShortcuts": {
+      "message": "Ρύθμιση συντομεύσεων"
+   },
+   "conflictingShortcutsHint": {
+      "message": "Αν κάποια από τις παραπάνω συντομεύσεις δεν λειτουργεί ή συγκρούεται με άλλες εφαρμογές, μπορείτε να ρυθμίσετε διαφορετικό πλήκτρο συντόμευσης."
+   },
+   "continue": {
+      "message": "Συνέχεια"
+   },
+   "convertTabsIntoAList": {
+      "message": "Μετατροπή καρτελών σε λίστα"
+   },
+   "copiedToClipboard": {
+      "message": "Αντιγράφηκε στο πρόχειρο"
+   },
+   "copy": {
+      "message": "Αντιγραφή"
+   },
+   "copyLinksToClipboard": {
+      "message": "Αντιγραφή συνδέσμων στο πρόχειρο"
+   },
+   "copySharedPageUrl": {
+      "message": "Αντιγραφή URL κοινόχρηστης σελίδας"
+   },
+   "copyToClipboard": {
+      "message": "Αντιγραφή στο πρόχειρο"
+   },
+   "createANewGroupHere": {
+      "message": "Δημιουργία νέας ομάδας εδώ"
+   },
+   "createFolderAbove": {
+      "message": "Δημιουργία φακέλου πάνω"
+   },
+   "createFolderAboveBelow": {
+      "message": "Δημιουργία φακέλου πάνω / κάτω"
+   },
+   "createFolderAboveWithinBelow": {
+      "message": "Δημιουργία φακέλου πάνω / εντός / κάτω"
+   },
+   "createFolderBelow": {
+      "message": "Δημιουργία φακέλου κάτω"
+   },
+   "createFolderWithin": {
+      "message": "Δημιουργία φακέλου εντός"
+   },
+   "createGroupAbove": {
+      "message": "Δημιουργία ομάδας πάνω"
+   },
+   "createGroupAboveBelow": {
+      "message": "Δημιουργία ομάδας πάνω / κάτω"
+   },
+   "createGroupAboveWithinBelow": {
+      "message": "Δημιουργία ομάδας πάνω / εντός / κάτω"
+   },
+   "createGroupBelow": {
+      "message": "Δημιουργία ομάδας κάτω"
+   },
+   "createGroupInsideDestination": {
+      "message": "Δημιουργία νέας ομάδας μέσα στον προορισμό"
+   },
+   "createGroupInsideDestinationHelp": {
+      "message": "Αν είναι αποεπιλεγμένο, οι καρτέλες σας θα προστεθούν απευθείας στην ομάδα προορισμού. Αν είναι επιλεγμένο, θα δημιουργηθεί νέα ομάδα καρτελών του προγράμματος περιήγησης για τις καρτέλες σας μέσα στην ομάδα προορισμού. Επιλέξτε αυτό μόνο αν θέλετε να χρησιμοποιήσετε τη λειτουργία «ομάδες καρτελών» του προγράμματος περιήγησης."
+   },
+   "createGroupWithin": {
+      "message": "Δημιουργία ομάδας εντός"
+   },
+   "createNewGroupTip": {
+      "message": "Για να δημιουργήσετε νέα ομάδα, αποεπιλέξτε «Εμφάνιση μόνο φακέλων»"
+   },
+   "createdOnOrAfterColon": {
+      "message": "Δημιουργήθηκε στις ή μετά τις:"
+   },
+   "createdOnOrBeforeColon": {
+      "message": "Δημιουργήθηκε στις ή πριν από τις:"
+   },
+   "createdPreceedingDate": {
+      "message": "Δημιουργήθηκε"
+   },
+   "darkTheme": {
+      "message": "Σκούρο θέμα"
+   },
+   "dayCount_few": {
+      "message": "{COUNT} ημέρες"
+   },
+   "dayCount_many": {
+      "message": "{COUNT} ημέρες"
+   },
+   "dayCount_one": {
+      "message": "{COUNT} ημέρα"
+   },
+   "dayCount_other": {
+      "message": "{COUNT} ημέρες"
+   },
+   "dayCount_two": {
+      "message": "{COUNT} ημέρες"
+   },
+   "dayCount_zero": {
+      "message": "{COUNT} ημέρες"
+   },
+   "delete": {
+      "message": "Διαγραφή"
+   },
+   "deleteAllTrash": {
+      "message": "Διαγραφή όλων από τον κάδο"
+   },
+   "deleteThisCopy": {
+      "message": "Διαγραφή αυτού του αντιγράφου"
+   },
+   "deselectAll": {
+      "message": "Αποεπιλογή όλων"
+   },
+   "destinationColon": {
+      "message": "Προορισμός:"
+   },
+   "disabled": {
+      "message": "Απενεργοποιημένο"
+   },
+   "doneTaskCount_few": {
+      "message": "{COUNT} ολοκληρωμένα"
+   },
+   "doneTaskCount_many": {
+      "message": "{COUNT} ολοκληρωμένα"
+   },
+   "doneTaskCount_one": {
+      "message": "{COUNT} ολοκληρωμένο"
+   },
+   "doneTaskCount_other": {
+      "message": "{COUNT} ολοκληρωμένα"
+   },
+   "doneTaskCount_two": {
+      "message": "{COUNT} ολοκληρωμένα"
+   },
+   "doneTaskCount_zero": {
+      "message": "{COUNT} ολοκληρωμένα"
+   },
+   "dontCloseGroupedTabs": {
+      "message": "Να μην κλείνονται καρτέλες μέσα σε ομάδες καρτελών"
+   },
+   "dontClosePinnedTabs": {
+      "message": "Να μην κλείνονται καρφιτσωμένες καρτέλες"
+   },
+   "dontCloseTabsFromDomains": {
+      "message": "Να μην κλείνονται καρτέλες από το EXAMPLE.COM"
+   },
+   "dragTabsHereForQuickList": {
+      "message": "Σύρετε εδώ τις αποθηκευμένες καρτέλες ή ομάδες σας. Θα προστεθούν στη γρήγορη λίστα σας."
+   },
+   "editTabGroupTitleAndNotes": {
+      "message": "Επεξεργασία τίτλου και σημειώσεων της ομάδας καρτελών"
+   },
+   "emojiShortcutInfo": {
+      "message": "Κατά την επεξεργασία πεδίου σημειώσεων, χρησιμοποιήστε αυτή τη συντόμευση για να ανοίξετε τον επιλογέα emoji."
+   },
+   "emptyInBrackets": {
+      "message": "(κενό)"
+   },
+   "emptyOneTabInfoMsg": {
+      "message": "Όταν έχετε πολλές καρτέλες ανοιχτές, κάντε κλικ στο εικονίδιο OneTab στη γραμμή εργαλείων του προγράμματος περιήγησης και οι ανοιχτές καρτέλες σας θα εμφανιστούν εδώ."
+   },
+   "enabled": {
+      "message": "Ενεργοποιημένο"
+   },
+   "encryptedSyncAndBackup": {
+      "message": "Κρυπτογραφημένος συγχρονισμός και αντίγραφα ασφαλείας"
+   },
+   "encryptedSyncAndBackupComingSoonMessage": {
+      "message": "Σύντομα: Θα μπορείτε να συγχρονίζετε τα δεδομένα σας του OneTab μεταξύ πολλών προφίλ προγράμματος περιήγησης και υπολογιστών.\nΤο OneTab έχει ξαναγραφτεί πλήρως ώστε οι αλλαγές που γίνονται σε μία συσκευή να εμφανίζονται άμεσα σε όλες τις άλλες.\nΑν χρησιμοποιήσετε αυτήν τη λειτουργία, τα δεδομένα σας θα κρυπτογραφούνται από άκρο σε άκρο με ισχυρή κρυπτογράφηση AES-256. Έτσι είναι αδύνατο για τους δημιουργούς του OneTab να δουν τις καρτέλες που έχετε κάνει αντίγραφο ασφαλείας ή έχετε συγχρονίσει μεταξύ συσκευών, επειδή μόνο εσείς έχετε το κλειδί κρυπτογράφησης."
+   },
+   "everything": {
+      "message": "Όλα"
+   },
+   "exampleLink": {
+      "message": "Παράδειγμα συνδέσμου"
+   },
+   "exampleLinkTitle": {
+      "message": "Παράδειγμα τίτλου συνδέσμου"
+   },
+   "exampleLinkTitleOptional": {
+      "message": "Παράδειγμα τίτλου συνδέσμου (προαιρετικό)"
+   },
+   "exampleRichTextParagraph": {
+      "message": "Παράδειγμα παραγράφου κειμένου με PLACEHOLDER και PLACEHOLDER"
+   },
+   "exampleWebsitePageTitle": {
+      "message": "Παράδειγμα τίτλου σελίδας ιστότοπου"
+   },
+   "excludeDomainFromOneTab": {
+      "message": "Εξαίρεση του EXAMPLE.COM από το OneTab"
+   },
+   "excludeWebSiteFromOneTab": {
+      "message": "Εξαίρεση αυτού του ιστότοπου από το OneTab"
+   },
+   "expiresColon": {
+      "message": "Λήγει:"
+   },
+   "export": {
+      "message": "Εξαγωγή"
+   },
+   "exportImportUrls": {
+      "message": "Εξαγωγή / Εισαγωγή URL"
+   },
+   "exportThenImportNote": {
+      "message": "Η παρακάτω λίστα URL μπορεί επίσης να εισαχθεί ξανά στο OneTab σε αυτόν ή σε άλλον υπολογιστή"
+   },
+   "exportUrls": {
+      "message": "Εξαγωγή URL"
+   },
+   "feedback": {
+      "message": "Σχόλια"
+   },
+   "filter": {
+      "message": "Φίλτρο"
+   },
+   "firefoxIncognitoInstructions": {
+      "message": "Στις ρυθμίσεις του προγράμματος περιήγησης, μεταβείτε σε 'Ρυθμίσεις' → 'Πρόσθετα και θέματα' → 'Επεκτάσεις' → 'OneTab' → '…' → 'Διαχείριση' και έπειτα ενεργοποιήστε το 'Εκτέλεση σε Ιδιωτικά παράθυρα'."
+   },
+   "firefoxShortcutConfigInstructions": {
+      "message": "Πληκτρολογήστε το URL \"about:addons?type=extension\" στη γραμμή διευθύνσεων του προγράμματος περιήγησης. Όταν εμφανιστεί η σελίδα, κάντε κλικ στο εικονίδιο με το γρανάζι και επιλέξτε «Διαχείριση συντομεύσεων επεκτάσεων»"
+   },
+   "folderCount_few": {
+      "message": "{COUNT} φάκελοι"
+   },
+   "folderCount_many": {
+      "message": "{COUNT} φάκελοι"
+   },
+   "folderCount_one": {
+      "message": "{COUNT} φάκελος"
+   },
+   "folderCount_other": {
+      "message": "{COUNT} φάκελοι"
+   },
+   "folderCount_two": {
+      "message": "{COUNT} φάκελοι"
+   },
+   "folderCount_zero": {
+      "message": "{COUNT} φάκελοι"
+   },
+   "folders": {
+      "message": "Φάκελοι"
+   },
+   "foldersOnly": {
+      "message": "Μόνο φάκελοι"
+   },
+   "gettingStarted": {
+      "message": "Γρήγορη έναρξη"
+   },
+   "goToParentFolder": {
+      "message": "Μετάβαση στον γονικό φάκελο"
+   },
+   "groupCount_few": {
+      "message": "{COUNT} ομάδες"
+   },
+   "groupCount_many": {
+      "message": "{COUNT} ομάδες"
+   },
+   "groupCount_one": {
+      "message": "{COUNT} ομάδα"
+   },
+   "groupCount_other": {
+      "message": "{COUNT} ομάδες"
+   },
+   "groupCount_two": {
+      "message": "{COUNT} ομάδες"
+   },
+   "groupCount_zero": {
+      "message": "{COUNT} ομάδες"
+   },
+   "groups": {
+      "message": "Ομάδες"
+   },
+   "hasNotes": {
+      "message": "Με σημειώσεις"
+   },
+   "hasRating": {
+      "message": "Με αξιολόγηση"
+   },
+   "help": {
+      "message": "Βοήθεια"
+   },
+   "hideArchivedItems": {
+      "message": "Απόκρυψη αρχειοθετημένων στοιχείων"
+   },
+   "import": {
+      "message": "Εισαγωγή"
+   },
+   "importAndExport": {
+      "message": "Εισαγωγή & Εξαγωγή"
+   },
+   "importBookmarks": {
+      "message": "Εισαγωγή σελιδοδεικτών"
+   },
+   "importFolderAndSubfolders": {
+      "message": "Εισαγωγή φακέλου και υποφακέλων"
+   },
+   "importLinksHere": {
+      "message": "Εισαγωγή συνδέσμων εδώ"
+   },
+   "importReadingList": {
+      "message": "Εισαγωγή λίστας ανάγνωσης"
+   },
+   "importText": {
+      "message": "Εισαγωγή κειμένου"
+   },
+   "importUrls": {
+      "message": "Εισαγωγή URL"
+   },
+   "importedBookmarks": {
+      "message": "Εισαγόμενοι σελιδοδείκτες"
+   },
+   "includeGroupedTabs": {
+      "message": "Συμπερίληψη καρτελών σε ομάδες καρτελών"
+   },
+   "includeNotes": {
+      "message": "Συμπερίληψη σημειώσεων"
+   },
+   "includePinnedTabs": {
+      "message": "Συμπερίληψη καρφιτσωμένων καρτελών"
+   },
+   "includeStarRatings": {
+      "message": "Συμπερίληψη αξιολογήσεων με αστέρια"
+   },
+   "includeTabsAlreadyStored": {
+      "message": "Συμπερίληψη καρτελών που έχετε ήδη αποθηκεύσει"
+   },
+   "includeTabsFromDomains": {
+      "message": "Συμπερίληψη καρτελών από το EXAMPLE.COM"
+   },
+   "incogitoPermissionRequired": {
+      "message": "Το OneTab χρειάζεται άδεια για να δημιουργεί παράθυρα ανώνυμης περιήγησης."
+   },
+   "incognitoWindows": {
+      "message": "Παράθυρα ανώνυμης περιήγησης"
+   },
+   "invertSelection": {
+      "message": "Αντιστροφή επιλογής"
+   },
+   "justNow": {
+      "message": "μόλις τώρα"
+   },
+   "keyboardShortcutsColon": {
+      "message": "Συντομεύσεις πληκτρολογίου:"
+   },
+   "languageTitle": {
+      "message": "Γλώσσα:"
+   },
+   "lightTheme": {
+      "message": "Φωτεινό θέμα"
+   },
+   "localeId": {
+      "message": "el"
+   },
+   "locationColon": {
+      "message": "Τοποθεσία:"
+   },
+   "lock": {
+      "message": "Κλείδωμα"
+   },
+   "lockMenuItemHelp": {
+      "message": "Όταν μια ομάδα είναι κλειδωμένη, δεν μπορείτε να διαγράψετε ή να αλλάξετε τη σειρά στοιχείων μέσα στην ομάδα. Κατά το άνοιγμα κλειδωμένης ομάδας, δεν εφαρμόζονται αυτόματες ενέργειες. Δείτε τη σελίδα Επιλογές για πληροφορίες σχετικά με τις αυτόματες ενέργειες."
+   },
+   "lockedGroupUnlockHelp": {
+      "message": "Για ξεκλείδωμα, χρησιμοποιήστε το αναπτυσσόμενο μενού. Όταν μια ομάδα είναι κλειδωμένη, δεν μπορείτε να διαγράψετε την ομάδα ή τις καρτέλες της και οι καρτέλες δεν μπορούν να αναδιαταχθούν."
+   },
+   "makeThisATask": {
+      "message": "Μετατροπή σε εργασία"
+   },
+   "manifestDescription": {
+      "message": "Εξοικονομήστε έως 95% μνήμη και μειώστε την ακαταστασία καρτελών"
+   },
+   "markAsArchived": {
+      "message": "Σήμανση ως αρχειοθετημένο"
+   },
+   "markAsArchivedMenuItemHelp": {
+      "message": "Σημειώστε ότι οι αρχειοθετημένες εργασίες και οι εργασίες μέσα σε αρχειοθετημένες ομάδες δεν θα εμφανίζονται στη στήλη εργασιών"
+   },
+   "markAsDoneTask": {
+      "message": "Σήμανση ως ολοκληρωμένη εργασία"
+   },
+   "markAsPendingTask": {
+      "message": "Σήμανση ως εργασία σε εκκρεμότητα"
+   },
+   "matchCount_few": {
+      "message": "{COUNT} αντιστοιχίες"
+   },
+   "matchCount_many": {
+      "message": "{COUNT} αντιστοιχίες"
+   },
+   "matchCount_one": {
+      "message": "{COUNT} αντιστοιχία"
+   },
+   "matchCount_other": {
+      "message": "{COUNT} αντιστοιχίες"
+   },
+   "matchCount_two": {
+      "message": "{COUNT} αντιστοιχίες"
+   },
+   "matchCount_zero": {
+      "message": "{COUNT} αντιστοιχίες"
+   },
+   "matchWholeWordsOnly": {
+      "message": "Αντιστοίχιση μόνο ολόκληρων λέξεων"
+   },
+   "mayNeedToRestartBrowser": {
+      "message": "Ίσως χρειαστεί επίσης να ενημερώσετε και να επανεκκινήσετε το πρόγραμμα περιήγησής σας."
+   },
+   "mergeIntoParent": {
+      "message": "Συγχώνευση στο γονικό στοιχείο"
+   },
+   "mergeOpenTabsHere_few": {
+      "message": "Συγχωνεύστε {COUNT} ανοιχτές καρτέλες εδώ"
+   },
+   "mergeOpenTabsHere_many": {
+      "message": "Συγχωνεύστε {COUNT} ανοιχτές καρτέλες εδώ"
+   },
+   "mergeOpenTabsHere_one": {
+      "message": "Συγχωνεύστε {COUNT} ανοιχτή καρτέλα εδώ"
+   },
+   "mergeOpenTabsHere_other": {
+      "message": "Συγχωνεύστε {COUNT} ανοιχτές καρτέλες εδώ"
+   },
+   "mergeOpenTabsHere_two": {
+      "message": "Συγχωνεύστε {COUNT} ανοιχτές καρτέλες εδώ"
+   },
+   "mergeOpenTabsHere_zero": {
+      "message": "Συγχωνεύστε {COUNT} ανοιχτές καρτέλες εδώ"
+   },
+   "mergeSelectedTabsHere_few": {
+      "message": "Συγχωνεύστε {COUNT} επιλεγμένες καρτέλες εδώ"
+   },
+   "mergeSelectedTabsHere_many": {
+      "message": "Συγχωνεύστε {COUNT} επιλεγμένες καρτέλες εδώ"
+   },
+   "mergeSelectedTabsHere_one": {
+      "message": "Συγχωνεύστε {COUNT} επιλεγμένη καρτέλα εδώ"
+   },
+   "mergeSelectedTabsHere_other": {
+      "message": "Συγχωνεύστε {COUNT} επιλεγμένες καρτέλες εδώ"
+   },
+   "mergeSelectedTabsHere_two": {
+      "message": "Συγχωνεύστε {COUNT} επιλεγμένες καρτέλες εδώ"
+   },
+   "mergeSelectedTabsHere_zero": {
+      "message": "Συγχωνεύστε {COUNT} επιλεγμένες καρτέλες εδώ"
+   },
+   "mergeWithInnerGroups": {
+      "message": "Συγχώνευση με εσωτερικές ομάδες"
+   },
+   "modifySharing": {
+      "message": "Τροποποίηση κοινοποίησης"
+   },
+   "moreEllipsis": {
+      "message": "Περισσότερα…"
+   },
+   "moreSearchFilters": {
+      "message": "Περισσότερα φίλτρα αναζήτησης"
+   },
+   "moreTripleDot": {
+      "message": "Περισσότερα…"
+   },
+   "move": {
+      "message": "Μετακίνηση"
+   },
+   "moveToTrash": {
+      "message": "Μετακίνηση στον κάδο"
+   },
+   "namedOnly": {
+      "message": "Μόνο με όνομα"
+   },
+   "navigationFilter": {
+      "message": "Φίλτρο πλοήγησης"
+   },
+   "newExclamation": {
+      "message": "Νέο!"
+   },
+   "noDupsExistExceptForColon": {
+      "message": "Δεν υπάρχουν διπλότυπα, εκτός από:"
+   },
+   "noDupsFoundHere": {
+      "message": "Δεν βρέθηκαν διπλότυπα εδώ"
+   },
+   "noMatches": {
+      "message": "Καμία αντιστοίχιση"
+   },
+   "noMatchesFound": {
+      "message": "Δεν βρέθηκαν αντιστοιχίες"
+   },
+   "noOpenTabsToStore": {
+      "message": "Δεν υπάρχουν ανοιχτές καρτέλες σε αυτό το παράθυρο για αποθήκευση."
+   },
+   "noReadingListEntries": {
+      "message": "Δεν βρέθηκαν εγγραφές στη λίστα ανάγνωσης"
+   },
+   "noTabsInOneTabYet": {
+      "message": "Δεν έχετε ακόμα καρτέλες στο OneTab"
+   },
+   "noTabsMeetCriteriaUseCheckboxes": {
+      "message": "Καμία ανοιχτή καρτέλα δεν πληροί τα κριτήριά σας. Χρησιμοποιήστε τα πλαίσια επιλογής παραπάνω."
+   },
+   "noTextHasBeenEntered": {
+      "message": "Δεν εισήχθη κείμενο"
+   },
+   "nonArchived": {
+      "message": "Μη αρχειοθετημένα"
+   },
+   "notAssigned": {
+      "message": "Μη εκχωρημένο"
+   },
+   "notes": {
+      "message": "Σημειώσεις"
+   },
+   "notesAboutTheLinkOptional": {
+      "message": "Σημειώσεις για τον σύνδεσμο (προαιρετικό)"
+   },
+   "notesAboutTheSecondLinkOptional": {
+      "message": "Σημειώσεις για τον δεύτερο σύνδεσμο (προαιρετικό)"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "omniboxShortcutInfo": {
+      "message": "Για αναζήτηση στη λίστα OneTab από οποιαδήποτε καρτέλα: Μεταβείτε στη γραμμή διευθύνσεων του προγράμματος περιήγησης, πληκτρολογήστε 1, μετά διάστημα, έπειτα μια λέξη-κλειδί αναζήτησης."
+   },
+   "oneTabDesignedToProtectPrivacy": {
+      "message": "Το OneTab έχει σχεδιαστεί για να προστατεύει το απόρρητό σας. Οι καρτέλες σας δεν αποκαλύπτονται σε εμάς."
+   },
+   "oneTabImportExportPageTitle": {
+      "message": "Εισαγωγή/εξαγωγή OneTab"
+   },
+   "oneTabNeedsPermissionToAccessYourTabs": {
+      "message": "Το OneTab χρειάζεται άδεια πρόσβασης στις καρτέλες σας."
+   },
+   "oneTabOptionsPageTitle": {
+      "message": "Επιλογές OneTab"
+   },
+   "oneTabPermissionRequired": {
+      "message": "OneTab - Απαιτείται άδεια"
+   },
+   "oneTabRestartRequired": {
+      "message": "Απαιτείται επανεκκίνηση του OneTab."
+   },
+   "oneTabSlashShortcutInfo": {
+      "message": "Στη σελίδα του OneTab, πατήστε το πλήκτρο / για εστίαση στο πεδίο αναζήτησης."
+   },
+   "open": {
+      "message": "Άνοιγμα"
+   },
+   "openActionPopup": {
+      "message": "Άνοιγμα αναδυόμενου παραθύρου ενεργειών"
+   },
+   "openAsCollapsedTabGroup": {
+      "message": "Άνοιγμα ως «συμπτυγμένη» ομάδα καρτελών"
+   },
+   "openAsCollapsedTabGroupMenuItemHelp": {
+      "message": "Αν ανοίξετε αυτές τις καρτέλες ως συμπτυγμένη «ομάδα καρτελών», θα εμφανίζεται μόνο η ετικέτα της ομάδας μέχρι να κάνετε κλικ για να εμφανιστούν οι καρτέλες μέσα."
+   },
+   "openAsTabGroup": {
+      "message": "Άνοιγμα ως ομάδα καρτελών του προγράμματος περιήγησης"
+   },
+   "openAsTabGroupMenuItemHelp": {
+      "message": "Το πρόγραμμα περιήγησής σας επιτρέπει την ομαδοποίηση καρτελών σε έγχρωμες «ομάδες καρτελών» μέσα σε ένα παράθυρο."
+   },
+   "openGroupsLimitNotice_few": {
+      "message": "Για να μην υπερφορτωθεί το πρόγραμμα περιήγησής σας, θα ανοίξουν μόνο οι πρώτες {COUNT} ομάδες."
+   },
+   "openGroupsLimitNotice_many": {
+      "message": "Για να μην υπερφορτωθεί το πρόγραμμα περιήγησής σας, θα ανοίξουν μόνο οι πρώτες {COUNT} ομάδες."
+   },
+   "openGroupsLimitNotice_one": {
+      "message": "Για να μην υπερφορτωθεί το πρόγραμμα περιήγησής σας, θα ανοίξει μόνο η πρώτη {COUNT} ομάδα."
+   },
+   "openGroupsLimitNotice_other": {
+      "message": "Για να μην υπερφορτωθεί το πρόγραμμα περιήγησής σας, θα ανοίξουν μόνο οι πρώτες {COUNT} ομάδες."
+   },
+   "openGroupsLimitNotice_two": {
+      "message": "Για να μην υπερφορτωθεί το πρόγραμμα περιήγησής σας, θα ανοίξουν μόνο οι πρώτες {COUNT} ομάδες."
+   },
+   "openGroupsLimitNotice_zero": {
+      "message": "Για να μην υπερφορτωθεί το πρόγραμμα περιήγησής σας, θα ανοίξουν μόνο οι πρώτες {COUNT} ομάδες."
+   },
+   "openInIncognitoWindow": {
+      "message": "Άνοιγμα σε νέο παράθυρο ανώνυμης περιήγησης"
+   },
+   "openInNewWindow": {
+      "message": "Άνοιγμα σε νέο παράθυρο"
+   },
+   "openInThisWindow": {
+      "message": "Άνοιγμα σε αυτό το παράθυρο"
+   },
+   "openONETABLogo": {
+      "message": "Άνοιγμα ONETAB"
+   },
+   "openOneTab": {
+      "message": "Άνοιγμα OneTab"
+   },
+   "openOneTabAfter": {
+      "message": "Άνοιγμα του OneTab μετά την αποθήκευση καρτελών"
+   },
+   "openTabFromWebsite": {
+      "message": "Ανοίξτε μια καρτέλα και μεταβείτε στον ιστότοπο"
+   },
+   "openTabLimit_few": {
+      "message": "Για να μην υπερφορτωθεί το πρόγραμμα περιήγησής σας, μπορούν να ανοίξουν το πολύ {COUNT} καρτέλες ταυτόχρονα."
+   },
+   "openTabLimit_many": {
+      "message": "Για να μην υπερφορτωθεί το πρόγραμμα περιήγησής σας, μπορούν να ανοίξουν το πολύ {COUNT} καρτέλες ταυτόχρονα."
+   },
+   "openTabLimit_one": {
+      "message": "Για να μην υπερφορτωθεί το πρόγραμμα περιήγησής σας, μπορεί να ανοίξει το πολύ {COUNT} καρτέλα ταυτόχρονα."
+   },
+   "openTabLimit_other": {
+      "message": "Για να μην υπερφορτωθεί το πρόγραμμα περιήγησής σας, μπορούν να ανοίξουν το πολύ {COUNT} καρτέλες ταυτόχρονα."
+   },
+   "openTabLimit_two": {
+      "message": "Για να μην υπερφορτωθεί το πρόγραμμα περιήγησής σας, μπορούν να ανοίξουν το πολύ {COUNT} καρτέλες ταυτόχρονα."
+   },
+   "openTabLimit_zero": {
+      "message": "Για να μην υπερφορτωθεί το πρόγραμμα περιήγησής σας, μπορούν να ανοίξουν το πολύ {COUNT} καρτέλες ταυτόχρονα."
+   },
+   "openTabsAlreadyStoredHere_few": {
+      "message": "{COUNT} ανοιχτές καρτέλες έχουν ήδη αποθηκευτεί εδώ:"
+   },
+   "openTabsAlreadyStoredHere_many": {
+      "message": "{COUNT} ανοιχτές καρτέλες έχουν ήδη αποθηκευτεί εδώ:"
+   },
+   "openTabsAlreadyStoredHere_one": {
+      "message": "{COUNT} ανοιχτή καρτέλα έχει ήδη αποθηκευτεί εδώ:"
+   },
+   "openTabsAlreadyStoredHere_other": {
+      "message": "{COUNT} ανοιχτές καρτέλες έχουν ήδη αποθηκευτεί εδώ:"
+   },
+   "openTabsAlreadyStoredHere_two": {
+      "message": "{COUNT} ανοιχτές καρτέλες έχουν ήδη αποθηκευτεί εδώ:"
+   },
+   "openTabsAlreadyStoredHere_zero": {
+      "message": "{COUNT} ανοιχτές καρτέλες έχουν ήδη αποθηκευτεί εδώ:"
+   },
+   "openTabsConfirm_few": {
+      "message": "Πρόκειται να ανοίξετε {COUNT} καρτέλες. Είστε σίγουροι;"
+   },
+   "openTabsConfirm_many": {
+      "message": "Πρόκειται να ανοίξετε {COUNT} καρτέλες. Είστε σίγουροι;"
+   },
+   "openTabsConfirm_one": {
+      "message": "Πρόκειται να ανοίξετε {COUNT} καρτέλα. Είστε σίγουροι;"
+   },
+   "openTabsConfirm_other": {
+      "message": "Πρόκειται να ανοίξετε {COUNT} καρτέλες. Είστε σίγουροι;"
+   },
+   "openTabsConfirm_two": {
+      "message": "Πρόκειται να ανοίξετε {COUNT} καρτέλες. Είστε σίγουροι;"
+   },
+   "openTabsConfirm_zero": {
+      "message": "Πρόκειται να ανοίξετε {COUNT} καρτέλες. Είστε σίγουροι;"
+   },
+   "openTabsNotStoredInOneTab_few": {
+      "message": "{COUNT} ανοιχτές καρτέλες δεν έχουν αποθηκευτεί στο OneTab"
+   },
+   "openTabsNotStoredInOneTab_many": {
+      "message": "{COUNT} ανοιχτές καρτέλες δεν έχουν αποθηκευτεί στο OneTab"
+   },
+   "openTabsNotStoredInOneTab_one": {
+      "message": "{COUNT} ανοιχτή καρτέλα δεν έχει αποθηκευτεί στο OneTab"
+   },
+   "openTabsNotStoredInOneTab_other": {
+      "message": "{COUNT} ανοιχτές καρτέλες δεν έχουν αποθηκευτεί στο OneTab"
+   },
+   "openTabsNotStoredInOneTab_two": {
+      "message": "{COUNT} ανοιχτές καρτέλες δεν έχουν αποθηκευτεί στο OneTab"
+   },
+   "openTabsNotStoredInOneTab_zero": {
+      "message": "{COUNT} ανοιχτές καρτέλες δεν έχουν αποθηκευτεί στο OneTab"
+   },
+   "optionAutoActionOnGroupOpenArchiveDesc": {
+      "message": "Για να αποτρέψετε τη σήμανση της ομάδας ως αρχειοθετημένης, κρατήστε πατημένο το Alt/Option κατά το κλικ για άνοιγμα της ομάδας"
+   },
+   "optionAutoActionOnGroupOpenArchiveTitle": {
+      "message": "Άνοιγμα των καρτελών και σήμανση της ομάδας ως αρχειοθετημένης"
+   },
+   "optionAutoActionOnGroupOpenHeading": {
+      "message": "Αυτόματη ενέργεια όταν κάνετε κλικ για να ανοίξετε μια ομάδα καρτελών:"
+   },
+   "optionAutoActionOnGroupOpenNote": {
+      "message": "Οι αυτόματες ενέργειες δεν εφαρμόζονται σε ομάδες που έχουν κλειδωθεί ή που είναι εργασίες."
+   },
+   "optionAutoActionOnGroupOpenOpenDesc": {
+      "message": "Για να σημάνετε την ομάδα ως αρχειοθετημένη, κρατήστε πατημένο το Alt/Option κατά το κλικ για άνοιγμα της ομάδας"
+   },
+   "optionAutoActionOnGroupOpenOpenTitle": {
+      "message": "Άνοιγμα μόνο των καρτελών"
+   },
+   "optionAutoActionOnGroupOpenTrashDesc": {
+      "message": "Για να αποτρέψετε την αυτόματη μετακίνηση της ομάδας στον κάδο, κρατήστε πατημένο το Alt/Option κατά το κλικ για άνοιγμα της ομάδας"
+   },
+   "optionAutoActionOnGroupOpenTrashTitle": {
+      "message": "Άνοιγμα των καρτελών και μετακίνηση της ομάδας στον κάδο"
+   },
+   "optionAutoActionOnTabOpenArchiveDesc": {
+      "message": "Για να αποτρέψετε την αυτόματη σήμανση της καρτέλας ως αρχειοθετημένη, κρατήστε πατημένο το Alt/Option κατά το κλικ για άνοιγμα της καρτέλας"
+   },
+   "optionAutoActionOnTabOpenArchiveTitle": {
+      "message": "Άνοιγμα της καρτέλας και σήμανσή της ως αρχειοθετημένη"
+   },
+   "optionAutoActionOnTabOpenHeading": {
+      "message": "Αυτόματη ενέργεια κατά το άνοιγμα καρτέλας με κλικ:"
+   },
+   "optionAutoActionOnTabOpenNote": {
+      "message": "Οι αυτόματες ενέργειες δεν εφαρμόζονται σε καρτέλες σε ομάδες που έχουν κλειδωθεί ή που είναι εργασίες."
+   },
+   "optionAutoActionOnTabOpenOpenDesc": {
+      "message": "Για να σημάνετε την καρτέλα ως αρχειοθετημένη, κρατήστε πατημένο το Alt/Option κατά το κλικ για άνοιγμα της καρτέλας"
+   },
+   "optionAutoActionOnTabOpenOpenTitle": {
+      "message": "Άνοιγμα μόνο της καρτέλας"
+   },
+   "optionAutoActionOnTabOpenTrashDesc": {
+      "message": "Για να αποτρέψετε την αυτόματη μετακίνηση της καρτέλας στον κάδο, κρατήστε πατημένο το Alt/Option κατά το κλικ για άνοιγμα της καρτέλας"
+   },
+   "optionAutoActionOnTabOpenTrashTitle": {
+      "message": "Άνοιγμα της καρτέλας και μετακίνησή της στον κάδο"
+   },
+   "optionCopyToClipboardFormatHeading": {
+      "message": "Αντιγραφή συνδέσμων στο πρόχειρο:"
+   },
+   "optionCopyToClipboardFormatNote": {
+      "message": "Αυτή η ρύθμιση ισχύει όταν χρησιμοποιείτε την ενέργεια «Αντιγραφή στο πρόχειρο». Μπορείτε επίσης να σύρετε καρτέλες και ομάδες απευθείας από το OneTab σε ένα έγγραφο."
+   },
+   "optionCopyToClipboardFormatRichTextDesc": {
+      "message": "Εφαρμογές όπως οι επεξεργαστές κειμένου επιτρέπουν επικόλληση εμπλουτισμένου κειμένου. Αν δεν υποστηρίζεται, θα γίνει επικόλληση απλού κειμένου."
+   },
+   "optionCopyToClipboardFormatRichTextTitle": {
+      "message": "Μορφή εμπλουτισμένου κειμένου, όπου είναι διαθέσιμη"
+   },
+   "optionCopyToClipboardFormatTitleUrlTitle": {
+      "message": "Τίτλος και URL"
+   },
+   "optionCopyToClipboardFormatUrlOnlyTitle": {
+      "message": "Μόνο URL"
+   },
+   "optionCopyToClipboardFormatUrlTitleTitle": {
+      "message": "URL και τίτλος"
+   },
+   "optionDefaultTabGroupOpenTypeCurrentWindow": {
+      "message": "Άνοιγμα της ομάδας καρτελών του προγράμματος περιήγησης στο τρέχον παράθυρο"
+   },
+   "optionDefaultTabGroupOpenTypeHeading": {
+      "message": "Όταν ανοίγετε με κλικ μια ομάδα καρτελών που έχει ρυθμιστεί να ανοίγει ως «ομάδα καρτελών» του προγράμματος περιήγησης:"
+   },
+   "optionDefaultTabGroupOpenTypeNewWindow": {
+      "message": "Άνοιγμα της ομάδας καρτελών του προγράμματος περιήγησης σε νέο παράθυρο"
+   },
+   "optionDefaultTabGroupOpenTypeNote": {
+      "message": "Αν χρησιμοποιήσετε το αναπτυσσόμενο μενού για να επιλέξετε μια συγκεκριμένη επιλογή (π.χ. άνοιγμα καρτελών σε παράθυρο ανώνυμης περιήγησης), αυτή θα απομνημονευτεί για τη συγκεκριμένη ομάδα."
+   },
+   "optionDefaultWindowGroupOpenTypeCurrentWindow": {
+      "message": "Άνοιγμα των καρτελών στο τρέχον παράθυρο"
+   },
+   "optionDefaultWindowGroupOpenTypeHeading": {
+      "message": "Όταν κάνετε κλικ για να ανοίξετε μια ομάδα καρτελών:"
+   },
+   "optionDefaultWindowGroupOpenTypeNewWindow": {
+      "message": "Άνοιγμα των καρτελών σε νέο παράθυρο"
+   },
+   "optionDefaultWindowGroupOpenTypeNote": {
+      "message": "Αν χρησιμοποιήσετε το αναπτυσσόμενο μενού για να επιλέξετε μια συγκεκριμένη επιλογή (π.χ. άνοιγμα καρτελών σε παράθυρο ανώνυμης περιήγησης), αυτή θα απομνημονευτεί για τη συγκεκριμένη ομάδα."
+   },
+   "optionDiscardNonActiveTabOnOpenHeading": {
+      "message": "Εξοικονόμηση μνήμης (RAM) αμέσως κατά το πρώτο άνοιγμα καρτελών:"
+   },
+   "optionDiscardNonActiveTabOnOpenNote": {
+      "message": "Αν ενεργοποιήσετε αυτήν τη ρύθμιση, οι καρτέλες θα αποφορτώνονται αμέσως από τη μνήμη όταν τις ανοίγετε για πρώτη φορά από τη λίστα OneTab. Αυτό είναι χρήσιμο αν ανοίγετε συχνά δεκάδες καρτέλες ταυτόχρονα, καθώς αποτρέπει τη φόρτωσή τους στη μνήμη μέχρι να τις προσπελάσετε. Αν αυτή η ρύθμιση είναι απενεργοποιημένη, πολλά προγράμματα περιήγησης θα επιλέξουν και πάλι αυτόματα να αποφορτώνουν καρτέλες από τη μνήμη όταν δεν τις χρησιμοποιείτε."
+   },
+   "optionDisplayContextMenuHeading": {
+      "message": "Κάντε δεξί κλικ μέσα σε ιστοσελίδα για πρόσβαση στο μενού περιβάλλοντος του OneTab:"
+   },
+   "optionDisplayContextMenuNote": {
+      "message": "Αν απενεργοποιήσετε το μενού, δεν θα μπορείτε να χρησιμοποιήσετε τη λειτουργία «Εξαίρεση ιστότοπου από το OneTab»"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenFalseTitle": {
+      "message": "Εναλλαγή στο παράθυρο όπου η καρτέλα OneTab είναι ήδη ανοιχτή"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenHeading": {
+      "message": "Ενέργεια «Άνοιγμα OneTab»:"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenNote": {
+      "message": "Η ενέργεια «Άνοιγμα OneTab» είναι προσβάσιμη με συντόμευση πληκτρολογίου. Είναι επίσης διαθέσιμη στο αναδυόμενο παράθυρο που εμφανίζεται όταν κάνετε κλικ στο εικονίδιο OneTab στη γραμμή εργαλείων του προγράμματος περιήγησης."
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenTrueTitle": {
+      "message": "Μετακίνηση τυχόν υπάρχουσας καρτέλας OneTab στο τρέχον παράθυρο"
+   },
+   "optionStartupLaunchDisplay": {
+      "message": "Άνοιγμα του OneTab όταν ξεκινάτε το πρόγραμμα περιήγησης"
+   },
+   "optionStartupLaunchNone": {
+      "message": "Να μην ανοίγει αυτόματα το OneTab"
+   },
+   "optionStartupLaunchNoneDesc3": {
+      "message": "Για να ανοίξετε χειροκίνητα το OneTab, κάντε κλικ στο εικονίδιο του OneTab στη γραμμή εργαλείων του προγράμματος περιήγησης και επιλέξτε «Άνοιγμα OneTab». Εναλλακτικά, μπορείτε να κάνετε δεξί κλικ μέσα σε οποιαδήποτε ιστοσελίδα και να κάνετε κλικ στο «Άνοιγμα OneTab» μέσα στο μενού του OneTab."
+   },
+   "optionStartupLaunchTitle": {
+      "message": "Εκκίνηση:"
+   },
+   "optionSwitchToOpenedTabFalseTitle": {
+      "message": "Άνοιγμα της καρτέλας και παραμονή στο OneTab"
+   },
+   "optionSwitchToOpenedTabHeading": {
+      "message": "Κατά το άνοιγμα καρτελών από τη σελίδα του OneTab:"
+   },
+   "optionSwitchToOpenedTabNote": {
+      "message": "Αν κρατάτε Shift κατά το κλικ, η καρτέλα θα ανοίξει σε νέο παράθυρο"
+   },
+   "optionSwitchToOpenedTabTrueTitle": {
+      "message": "Άνοιγμα της καρτέλας και εναλλαγή σε αυτήν (εκτός αν κρατάτε πατημένο Command ⌘/Ctrl κατά το κλικ)"
+   },
+   "optionUrlAbbr": {
+      "message": "Συντομευμένο"
+   },
+   "optionUrlDisplayTitle": {
+      "message": "Εμφάνιση URL:"
+   },
+   "optionUrlDomain": {
+      "message": "Μόνο ο τομέας"
+   },
+   "optionUrlFull": {
+      "message": "Πλήρες"
+   },
+   "optionUrlNone": {
+      "message": "Κανένα"
+   },
+   "options": {
+      "message": "Επιλογές"
+   },
+   "otherCopiesColon": {
+      "message": "Άλλα αντίγραφα:"
+   },
+   "pasteRichOrPlainTextBelow": {
+      "message": "Μπορείτε να επικολλήσετε παρακάτω εμπλουτισμένο ή απλό κείμενο."
+   },
+   "pendingTaskCount_few": {
+      "message": "{COUNT} σε εκκρεμότητα"
+   },
+   "pendingTaskCount_many": {
+      "message": "{COUNT} σε εκκρεμότητα"
+   },
+   "pendingTaskCount_one": {
+      "message": "{COUNT} σε εκκρεμότητα"
+   },
+   "pendingTaskCount_other": {
+      "message": "{COUNT} σε εκκρεμότητα"
+   },
+   "pendingTaskCount_two": {
+      "message": "{COUNT} σε εκκρεμότητα"
+   },
+   "pendingTaskCount_zero": {
+      "message": "{COUNT} σε εκκρεμότητα"
+   },
+   "permissionRequiredPleaseTryAgain": {
+      "message": "Για να δημιουργηθεί μια κοινόχρηστη σελίδα που να είναι προσβάσιμη από οποιονδήποτε υπολογιστή, απαιτείται άδεια για συντονισμό με τον web διακομιστή του OneTab. Παρακαλούμε δοκιμάστε ξανά."
+   },
+   "pinToTopOfFolder": {
+      "message": "Καρφίτσωμα στην κορυφή του φακέλου"
+   },
+   "pinToTopOfList": {
+      "message": "Καρφίτσωμα στην κορυφή της λίστας"
+   },
+   "pinnedTabs": {
+      "message": "καρφιτσωμένες καρτέλες"
+   },
+   "placeholderAndOtherLocations_few": {
+      "message": "PLACEHOLDER, και {COUNT} ακόμη"
+   },
+   "placeholderAndOtherLocations_many": {
+      "message": "PLACEHOLDER, και {COUNT} ακόμη"
+   },
+   "placeholderAndOtherLocations_one": {
+      "message": "PLACEHOLDER, και {COUNT} ακόμη"
+   },
+   "placeholderAndOtherLocations_other": {
+      "message": "PLACEHOLDER, και {COUNT} ακόμη"
+   },
+   "placeholderAndOtherLocations_two": {
+      "message": "PLACEHOLDER, και {COUNT} ακόμη"
+   },
+   "placeholderAndOtherLocations_zero": {
+      "message": "PLACEHOLDER, και {COUNT} ακόμη"
+   },
+   "placeholderExplanation": {
+      "message": "Λόγω κανόνων ασφαλείας του προγράμματος περιήγησης, το OneTab δεν επιτρέπεται να επαναφέρει απευθείας αυτήν τη σελίδα. Παρακαλούμε αντιγράψτε το URL σας και επικολλήστε το στη γραμμή διευθύνσεων του προγράμματος περιήγησης."
+   },
+   "plainTextLineFormat": {
+      "message": "Αν επικολλήσετε απλό κείμενο, βεβαιωθείτε ότι κάθε URL έχει καθορισμένο πρωτόκολλο (https://wikipedia.org, αντί για απλώς wikipedia.org). Κάθε γραμμή πρέπει να είναι στη μορφή:"
+   },
+   "pleaseWaitTripleDot": {
+      "message": "Παρακαλώ περιμένετε…"
+   },
+   "popupSlashShortcutInfo": {
+      "message": "Στο αναδυόμενο παράθυρο ενεργειών του OneTab (που εμφανίζεται όταν κάνετε κλικ στο εικονίδιο OneTab), πατήστε το πλήκτρο / για να ανοίξετε τον επιλογέα προορισμού και να εστιάσετε στο πεδίο αναζήτησης."
+   },
+   "privacyAssurance": {
+      "message": "Διασφάλιση απορρήτου"
+   },
+   "privacyAssuranceDetail": {
+      "message": "Η λίστα των καρτελών σας δεν μεταδίδεται ούτε αποκαλύπτεται ποτέ στους δημιουργούς του OneTab ή σε οποιοδήποτε άλλο μέρος. Η μόνη εξαίρεση είναι αν χρησιμοποιήσετε σκόπιμα τη λειτουργία «κοινοποίηση ως ιστοσελίδα» για να ανεβάσετε τη λίστα καρτελών σας σε μια ιστοσελίδα ώστε να τη μοιραστείτε με άλλους."
+   },
+   "privacyFirst": {
+      "message": "Προτεραιότητα στο απόρρητο"
+   },
+   "privacyFirstMessage": {
+      "message": "Το OneTab έχει σχεδιαστεί για να προστατεύει τα προσωπικά σας δεδομένα. Οι καρτέλες σας αποθηκεύονται μόνο στον υπολογιστή σας και δεν κοινοποιούνται ποτέ στους δημιουργούς του OneTab ή σε οποιονδήποτε τρίτο.\nΑν χρησιμοποιήσετε τη λειτουργία αντιγράφων ασφαλείας/συγχρονισμού, τα δεδομένα σας θα κρυπτογραφούνται από άκρο σε άκρο με ισχυρή κρυπτογράφηση AES-256. Αυτό καθιστά αδύνατο για τους δημιουργούς του OneTab να δουν τις καρτέλες που έχετε κάνει αντίγραφο ασφαλείας ή έχετε συγχρονίσει μεταξύ συσκευών, επειδή μόνο εσείς έχετε το κλειδί κρυπτογράφησης. \nΗ μόνη εξαίρεση είναι αν επιλέξετε σκόπιμα να μοιραστείτε κάποιες από τις καρτέλες σας με άλλους μέσω της λειτουργίας «Κοινοποίηση ως ιστοσελίδα».\nΠιστεύουμε στο «Προτεραιότητα στο απόρρητο»."
+   },
+   "privateBrowsingPermissionRequired": {
+      "message": "Το OneTab χρειάζεται άδεια για να δημιουργεί παράθυρα ιδιωτικής περιήγησης."
+   },
+   "privateBrowsingWindows": {
+      "message": "Παράθυρα ιδιωτικής περιήγησης"
+   },
+   "quickList": {
+      "message": "Γρήγορη λίστα"
+   },
+   "rating": {
+      "message": "Αξιολόγηση"
+   },
+   "readingList": {
+      "message": "Λίστα ανάγνωσης"
+   },
+   "readingListPermissionNecesssary": {
+      "message": "Η άδεια για τη λίστα ανάγνωσης είναι απαραίτητη ώστε το OneTab να εισάγει στοιχεία από τη λίστα ανάγνωσής σας. Αν αυτή η λειτουργία δεν δουλεύει, το πρόγραμμα περιήγησής σας ίσως να μην υποστηρίζει λίστες ανάγνωσης."
+   },
+   "recent": {
+      "message": "Πρόσφατα"
+   },
+   "recentDestinationsColon": {
+      "message": "Πρόσφατοι προορισμοί:"
+   },
+   "recentDuplicateRetainedHelp": {
+      "message": "Αν μια καρτέλα εμφανίζεται περισσότερες από μία φορές, θα διατηρηθεί μόνο το πιο πρόσφατο διπλότυπο"
+   },
+   "recentlyAccessed": {
+      "message": "Πρόσφατα προσπελασμένα"
+   },
+   "recentlyCreated": {
+      "message": "Πρόσφατα δημιουργημένα"
+   },
+   "recentlyModified": {
+      "message": "Πρόσφατα τροποποιημένα"
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "message": "Μειώστε τη χρήση μνήμης κατά 95%"
+   },
+   "removeDuplicateTabsHere_few": {
+      "message": "Αφαιρέστε {COUNT} διπλότυπες καρτέλες εδώ"
+   },
+   "removeDuplicateTabsHere_many": {
+      "message": "Αφαιρέστε {COUNT} διπλότυπες καρτέλες εδώ"
+   },
+   "removeDuplicateTabsHere_one": {
+      "message": "Αφαιρέστε {COUNT} διπλότυπη καρτέλα εδώ"
+   },
+   "removeDuplicateTabsHere_other": {
+      "message": "Αφαιρέστε {COUNT} διπλότυπες καρτέλες εδώ"
+   },
+   "removeDuplicateTabsHere_two": {
+      "message": "Αφαιρέστε {COUNT} διπλότυπες καρτέλες εδώ"
+   },
+   "removeDuplicateTabsHere_zero": {
+      "message": "Αφαιρέστε {COUNT} διπλότυπες καρτέλες εδώ"
+   },
+   "removeDuplicates": {
+      "message": "Αφαίρεση διπλότυπων"
+   },
+   "removeFromQuickList": {
+      "message": "Κατάργηση από τη γρήγορη λίστα"
+   },
+   "removeTabsElsewhereAlsoHere_few": {
+      "message": "Αφαιρέστε {COUNT} καρτέλες αλλού που υπάρχουν και εδώ"
+   },
+   "removeTabsElsewhereAlsoHere_many": {
+      "message": "Αφαιρέστε {COUNT} καρτέλες αλλού που υπάρχουν και εδώ"
+   },
+   "removeTabsElsewhereAlsoHere_one": {
+      "message": "Αφαιρέστε {COUNT} καρτέλα αλλού που υπάρχει και εδώ"
+   },
+   "removeTabsElsewhereAlsoHere_other": {
+      "message": "Αφαιρέστε {COUNT} καρτέλες αλλού που υπάρχουν και εδώ"
+   },
+   "removeTabsElsewhereAlsoHere_two": {
+      "message": "Αφαιρέστε {COUNT} καρτέλες αλλού που υπάρχουν και εδώ"
+   },
+   "removeTabsElsewhereAlsoHere_zero": {
+      "message": "Αφαιρέστε {COUNT} καρτέλες αλλού που υπάρχουν και εδώ"
+   },
+   "removeTabsHereAlsoElsewhere_few": {
+      "message": "Αφαιρέστε {COUNT} καρτέλες εδώ που υπάρχουν και αλλού"
+   },
+   "removeTabsHereAlsoElsewhere_many": {
+      "message": "Αφαιρέστε {COUNT} καρτέλες εδώ που υπάρχουν και αλλού"
+   },
+   "removeTabsHereAlsoElsewhere_one": {
+      "message": "Αφαιρέστε {COUNT} καρτέλα εδώ που υπάρχει και αλλού"
+   },
+   "removeTabsHereAlsoElsewhere_other": {
+      "message": "Αφαιρέστε {COUNT} καρτέλες εδώ που υπάρχουν και αλλού"
+   },
+   "removeTabsHereAlsoElsewhere_two": {
+      "message": "Αφαιρέστε {COUNT} καρτέλες εδώ που υπάρχουν και αλλού"
+   },
+   "removeTabsHereAlsoElsewhere_zero": {
+      "message": "Αφαιρέστε {COUNT} καρτέλες εδώ που υπάρχουν και αλλού"
+   },
+   "rename": {
+      "message": "Μετονομασία"
+   },
+   "restore": {
+      "message": "Επαναφορά"
+   },
+   "restrictSearchToFolderColon": {
+      "message": "Περιορισμός αναζήτησης στον εξής φάκελο:"
+   },
+   "results": {
+      "message": "Αποτελέσματα"
+   },
+   "returnToOneTab": {
+      "message": "Επιστροφή στο OneTab"
+   },
+   "reverse": {
+      "message": "Αντιστροφή"
+   },
+   "rightClickAndOpenOneTabMenu": {
+      "message": "Κάντε δεξί κλικ μέσα στην ιστοσελίδα και μεταβείτε στο μενού OneTab"
+   },
+   "rightClickMenuDisabledNote": {
+      "message": "Σημείωση: Έχετε απενεργοποιήσει το μενού δεξιού κλικ του OneTab. Ενεργοποιήστε το στη σελίδα επιλογών του OneTab."
+   },
+   "rightClickSelectionOptionsTip": {
+      "message": "Συμβουλή: Αφού σημειώσετε ένα στοιχείο, κάντε δεξί κλικ στο εικονίδιο με το τικ για να δείτε περισσότερες επιλογές επιλογής"
+   },
+   "rightClickTickTip": {
+      "message": "Συμβουλή: Κάντε δεξί κλικ στο εικονίδιο με το τικ δίπλα σε κάθε καρτέλα για εργαλεία επιλογής"
+   },
+   "safariApproveOneTabInSettings": {
+      "message": "Μεταβείτε στις Ρυθμίσεις και εγκρίνετε το OneTab για πρόσβαση σε όλους τους ιστότοπους."
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "message": "Εξοικονομήστε έως 95% μνήμη και μειώστε την ακαταστασία καρτελών στο Google Chrome"
+   },
+   "searchHere": {
+      "message": "Αναζήτηση εδώ"
+   },
+   "searchOneTab": {
+      "message": "Αναζήτηση στο OneTab"
+   },
+   "secondExampleLink": {
+      "message": "Δεύτερο παράδειγμα συνδέσμου"
+   },
+   "secondExampleLinkTitle": {
+      "message": "Δεύτερο παράδειγμα τίτλου συνδέσμου"
+   },
+   "secondExampleLinkTitleOptional": {
+      "message": "Δεύτερο παράδειγμα τίτλου συνδέσμου (προαιρετικό)"
+   },
+   "seeOtherTabsInThisGroup_few": {
+      "message": "Δείτε {COUNT} άλλες καρτέλες σε αυτήν την ομάδα"
+   },
+   "seeOtherTabsInThisGroup_many": {
+      "message": "Δείτε {COUNT} άλλες καρτέλες σε αυτήν την ομάδα"
+   },
+   "seeOtherTabsInThisGroup_one": {
+      "message": "Δείτε {COUNT} άλλη καρτέλα σε αυτήν την ομάδα"
+   },
+   "seeOtherTabsInThisGroup_other": {
+      "message": "Δείτε {COUNT} άλλες καρτέλες σε αυτήν την ομάδα"
+   },
+   "seeOtherTabsInThisGroup_two": {
+      "message": "Δείτε {COUNT} άλλες καρτέλες σε αυτήν την ομάδα"
+   },
+   "seeOtherTabsInThisGroup_zero": {
+      "message": "Δείτε {COUNT} άλλες καρτέλες σε αυτήν την ομάδα"
+   },
+   "seePasteInstructions": {
+      "message": "Δείτε οδηγίες επικόλλησης…"
+   },
+   "seeTabsInThisGroup_few": {
+      "message": "Δείτε {COUNT} καρτέλες σε αυτήν την ομάδα"
+   },
+   "seeTabsInThisGroup_many": {
+      "message": "Δείτε {COUNT} καρτέλες σε αυτήν την ομάδα"
+   },
+   "seeTabsInThisGroup_one": {
+      "message": "Δείτε {COUNT} καρτέλα σε αυτήν την ομάδα"
+   },
+   "seeTabsInThisGroup_other": {
+      "message": "Δείτε {COUNT} καρτέλες σε αυτήν την ομάδα"
+   },
+   "seeTabsInThisGroup_two": {
+      "message": "Δείτε {COUNT} καρτέλες σε αυτήν την ομάδα"
+   },
+   "seeTabsInThisGroup_zero": {
+      "message": "Δείτε {COUNT} καρτέλες σε αυτήν την ομάδα"
+   },
+   "selectAll": {
+      "message": "Επιλογή όλων"
+   },
+   "selectAllExceptThis": {
+      "message": "Επιλογή όλων εκτός από αυτό"
+   },
+   "selectThisAndAbove": {
+      "message": "Επιλογή αυτού και όλων από πάνω"
+   },
+   "selectThisAndBelow": {
+      "message": "Επιλογή αυτού και όλων από κάτω"
+   },
+   "selectedItemCount_few": {
+      "message": "{COUNT} στοιχεία"
+   },
+   "selectedItemCount_many": {
+      "message": "{COUNT} στοιχεία"
+   },
+   "selectedItemCount_one": {
+      "message": "{COUNT} στοιχείο"
+   },
+   "selectedItemCount_other": {
+      "message": "{COUNT} στοιχεία"
+   },
+   "selectedItemCount_two": {
+      "message": "{COUNT} στοιχεία"
+   },
+   "selectedItemCount_zero": {
+      "message": "{COUNT} στοιχεία"
+   },
+   "selection": {
+      "message": "Επιλογή"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "message": "Αποστολή όλων των καρτελών από όλα τα παράθυρα στο OneTab"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "message": "Αποστολή όλων των καρτελών εκτός από αυτή στο OneTab"
+   },
+   "sendAllTabsInGroupToOneTab": {
+      "message": "Αποστολή όλων των καρτελών σε αυτήν την ομάδα καρτελών στο OneTab"
+   },
+   "sendAllTabsInWindowToOneTab": {
+      "message": "Αποστολή όλων των καρτελών σε αυτό το παράθυρο στο OneTab"
+   },
+   "sendCurrentTabToOneTab": {
+      "message": "Αποστολή τρέχουσας καρτέλας στο OneTab"
+   },
+   "sendLeftTabsToOneTab": {
+      "message": "Αποστολή καρτελών στα αριστερά στο OneTab"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "message": "Αποστολή μόνο αυτής της καρτέλας στο OneTab"
+   },
+   "sendRightTabsToOneTab": {
+      "message": "Αποστολή καρτελών στα δεξιά στο OneTab"
+   },
+   "sendSelectedTabsToOneTab": {
+      "message": "Αποστολή επιλεγμένων καρτελών στο OneTab"
+   },
+   "sendThisWebLinkToOneTab": {
+      "message": "Αποστολή αυτού του συνδέσμου στο OneTab"
+   },
+   "serverUnreachable": {
+      "message": "Ο διακομιστής δεν είναι προσβάσιμος. Ελέγξτε τη σύνδεσή σας στο διαδίκτυο."
+   },
+   "share": {
+      "message": "Κοινοποίηση"
+   },
+   "shareAsAWebPage": {
+      "message": "Κοινοποίηση ως ιστοσελίδα"
+   },
+   "shared": {
+      "message": "Κοινοποιημένα"
+   },
+   "sharedExpiresColon": {
+      "message": "Κοινοποιήθηκε ως ιστοσελίδα. Λήγει:"
+   },
+   "sharedPageOptions": {
+      "message": "Επιλογές κοινόχρηστης σελίδας"
+   },
+   "sharedPageTabLimit_few": {
+      "message": "Οι κοινόχρηστες σελίδες περιορίζονται σε {COUNT} καρτέλες"
+   },
+   "sharedPageTabLimit_many": {
+      "message": "Οι κοινόχρηστες σελίδες περιορίζονται σε {COUNT} καρτέλες"
+   },
+   "sharedPageTabLimit_one": {
+      "message": "Οι κοινόχρηστες σελίδες περιορίζονται σε {COUNT} καρτέλα"
+   },
+   "sharedPageTabLimit_other": {
+      "message": "Οι κοινόχρηστες σελίδες περιορίζονται σε {COUNT} καρτέλες"
+   },
+   "sharedPageTabLimit_two": {
+      "message": "Οι κοινόχρηστες σελίδες περιορίζονται σε {COUNT} καρτέλες"
+   },
+   "sharedPageTabLimit_zero": {
+      "message": "Οι κοινόχρηστες σελίδες περιορίζονται σε {COUNT} καρτέλες"
+   },
+   "sharedPageWillAutomaticallyExpire": {
+      "message": "Η κοινόχρηστη σελίδα θα λήξει αυτόματα, αλλά μπορείτε να παρατείνετε την ημερομηνία λήξης οποτεδήποτε."
+   },
+   "shiftDragShortcutInfo": {
+      "message": "Κρατήστε πατημένο το πλήκτρο Shift κατά την απόθεση μιας καρτέλας για να δημιουργήσετε αντίγραφό της αντί να τη μετακινήσετε. Σημαντικό: Πατήστε το Shift μόνο αφού έχετε ξεκινήσει τη μεταφορά."
+   },
+   "showEverything": {
+      "message": "Εμφάνιση όλων"
+   },
+   "showFoldersOnly": {
+      "message": "Εμφάνιση μόνο φακέλων"
+   },
+   "showNamedItemsOnly": {
+      "message": "Εμφάνιση μόνο στοιχείων με όνομα"
+   },
+   "showNamedOnly": {
+      "message": "Εμφάνιση μόνο στοιχείων με όνομα"
+   },
+   "showNextCount_few": {
+      "message": "Επόμενα {COUNT}"
+   },
+   "showNextCount_many": {
+      "message": "Επόμενα {COUNT}"
+   },
+   "showNextCount_one": {
+      "message": "Επόμενο {COUNT}"
+   },
+   "showNextCount_other": {
+      "message": "Επόμενα {COUNT}"
+   },
+   "showNextCount_two": {
+      "message": "Επόμενα {COUNT}"
+   },
+   "showNextCount_zero": {
+      "message": "Επόμενα {COUNT}"
+   },
+   "showPreviousCount_few": {
+      "message": "Προηγούμενα {COUNT}"
+   },
+   "showPreviousCount_many": {
+      "message": "Προηγούμενα {COUNT}"
+   },
+   "showPreviousCount_one": {
+      "message": "Προηγούμενο {COUNT}"
+   },
+   "showPreviousCount_other": {
+      "message": "Προηγούμενα {COUNT}"
+   },
+   "showPreviousCount_two": {
+      "message": "Προηγούμενα {COUNT}"
+   },
+   "showPreviousCount_zero": {
+      "message": "Προηγούμενα {COUNT}"
+   },
+   "soon": {
+      "message": "σύντομα"
+   },
+   "sort": {
+      "message": "Ταξινόμηση"
+   },
+   "sortByColon": {
+      "message": "Ταξινόμηση κατά:"
+   },
+   "sortGroups": {
+      "message": "Ταξινόμηση ομάδων"
+   },
+   "sourceColon": {
+      "message": "Πηγή:"
+   },
+   "starRatingTooltip": {
+      "message": "Ορίστε αξιολόγηση με αστέρια"
+   },
+   "storeSelectedTabsInONETAB_few": {
+      "message": "Αποθηκεύστε {COUNT} επιλεγμένες καρτέλες στο ONETAB"
+   },
+   "storeSelectedTabsInONETAB_many": {
+      "message": "Αποθηκεύστε {COUNT} επιλεγμένες καρτέλες στο ONETAB"
+   },
+   "storeSelectedTabsInONETAB_one": {
+      "message": "Αποθηκεύστε {COUNT} επιλεγμένη καρτέλα στο ONETAB"
+   },
+   "storeSelectedTabsInONETAB_other": {
+      "message": "Αποθηκεύστε {COUNT} επιλεγμένες καρτέλες στο ONETAB"
+   },
+   "storeSelectedTabsInONETAB_two": {
+      "message": "Αποθηκεύστε {COUNT} επιλεγμένες καρτέλες στο ONETAB"
+   },
+   "storeSelectedTabsInONETAB_zero": {
+      "message": "Αποθηκεύστε {COUNT} επιλεγμένες καρτέλες στο ONETAB"
+   },
+   "storeTabInAdditionalLocation": {
+      "message": "Αποθήκευση καρτέλας σε επιπλέον τοποθεσία"
+   },
+   "storeTabInONETAB": {
+      "message": "Αποθήκευση καρτέλας στο ONETAB"
+   },
+   "storeTabsInAdditionalLocation": {
+      "message": "Αποθήκευση καρτελών σε επιπλέον τοποθεσία"
+   },
+   "storeTabsInONETAB": {
+      "message": "Αποθήκευση καρτελών στο ONETAB"
+   },
+   "subFoldersNotShared": {
+      "message": "Σημειώστε ότι οι υποφάκελοι δεν κοινοποιούνται. Κοινοποιούνται μόνο οι ομάδες καρτελών που βρίσκονται απευθείας μέσα στον φάκελο."
+   },
+   "tab": {
+      "message": "καρτέλα"
+   },
+   "tabAlreadyStoredHere": {
+      "message": "Η ανοιχτή καρτέλα σας έχει ήδη αποθηκευτεί εδώ:"
+   },
+   "tabCaretTooltipTitleNotes": {
+      "message": "Επεξεργασία τίτλου και σημειώσεων της καρτέλας"
+   },
+   "tabCaretTooltipTitleNotesUrl": {
+      "message": "Επεξεργασία τίτλου, URL και σημειώσεων της καρτέλας"
+   },
+   "tabCount_few": {
+      "message": "{COUNT} καρτέλες"
+   },
+   "tabCount_many": {
+      "message": "{COUNT} καρτέλες"
+   },
+   "tabCount_one": {
+      "message": "{COUNT} καρτέλα"
+   },
+   "tabCount_other": {
+      "message": "{COUNT} καρτέλες"
+   },
+   "tabCount_two": {
+      "message": "{COUNT} καρτέλες"
+   },
+   "tabCount_zero": {
+      "message": "{COUNT} καρτέλες"
+   },
+   "tabGroupColorColon": {
+      "message": "Χρώμα ομάδας καρτελών:"
+   },
+   "tabShortcutInfo": {
+      "message": "Στη σελίδα του OneTab, πατήστε το πλήκτρο Tab για να μετακινήσετε την εστίαση μεταξύ των ομάδων στη μεσαία στήλη. Έτσι μπορείτε να παραλείπετε γρήγορα ομάδες, ειδικά αν είναι μεγάλες. Αν μια ομάδα έχει εστίαση, πατήστε Enter για να την ανοίξετε. Χρησιμοποιήστε Shift+Tab για να μετακινήσετε την εστίαση προς τα πίσω."
+   },
+   "tabTotalCount_few": {
+      "message": "Σύνολο: {COUNT} καρτέλες"
+   },
+   "tabTotalCount_many": {
+      "message": "Σύνολο: {COUNT} καρτέλες"
+   },
+   "tabTotalCount_one": {
+      "message": "Σύνολο: {COUNT} καρτέλα"
+   },
+   "tabTotalCount_other": {
+      "message": "Σύνολο: {COUNT} καρτέλες"
+   },
+   "tabTotalCount_two": {
+      "message": "Σύνολο: {COUNT} καρτέλες"
+   },
+   "tabTotalCount_zero": {
+      "message": "Σύνολο: {COUNT} καρτέλες"
+   },
+   "tabs": {
+      "message": "Καρτέλες"
+   },
+   "tabsFromExcludedDomains": {
+      "message": "καρτέλες από εξαιρούμενους τομείς"
+   },
+   "tabsInTabGroups": {
+      "message": "καρτέλες σε ομάδες καρτελών"
+   },
+   "taskTotalCount_few": {
+      "message": "{COUNT} σύνολο"
+   },
+   "taskTotalCount_many": {
+      "message": "{COUNT} σύνολο"
+   },
+   "taskTotalCount_one": {
+      "message": "{COUNT} σύνολο"
+   },
+   "taskTotalCount_other": {
+      "message": "{COUNT} σύνολο"
+   },
+   "taskTotalCount_two": {
+      "message": "{COUNT} σύνολο"
+   },
+   "taskTotalCount_zero": {
+      "message": "{COUNT} σύνολο"
+   },
+   "tasks": {
+      "message": "Εργασίες"
+   },
+   "tasksDone": {
+      "message": "Εργασίες (ολοκληρωμένες)"
+   },
+   "tasksPending": {
+      "message": "Εργασίες (σε εκκρεμότητα)"
+   },
+   "tasksWillAppearHere": {
+      "message": "Αν σημειώσετε καρτέλες ή ομάδες ως εργασίες, θα εμφανίζονται εδώ."
+   },
+   "thenClickToolbarIcon": {
+      "message": "Στη συνέχεια, κάντε ξανά κλικ στο εικονίδιο OneTab στη γραμμή εργαλείων για να χρησιμοποιήσετε το OneTab."
+   },
+   "thisFolderIsEmpty": {
+      "message": "Αυτός ο φάκελος είναι κενός"
+   },
+   "thisTab": {
+      "message": "Αυτή η καρτέλα"
+   },
+   "thisTabGroup": {
+      "message": "Αυτή η ομάδα καρτελών"
+   },
+   "thisTabNotStored": {
+      "message": "Αυτή η καρτέλα δεν είναι αποθηκευμένη στο OneTab"
+   },
+   "thisWindow": {
+      "message": "Αυτό το παράθυρο"
+   },
+   "tickOrUntickToExclude": {
+      "message": "Επιλέξτε ή αποεπιλέξτε για να εξαιρέσετε τον ιστότοπο"
+   },
+   "title": {
+      "message": "Τίτλος"
+   },
+   "toAddOrRemoveExclusions": {
+      "message": "Για να προσθέσετε ή να αφαιρέσετε έναν ιστότοπο από τη λίστα εξαιρέσεων:"
+   },
+   "toAllowOneTabInIncognito": {
+      "message": "Για να εμφανίζεται το εικονίδιο του OneTab σε παράθυρα ανώνυμης περιήγησης: "
+   },
+   "toImportBrowserBookmarksUseMenuOption": {
+      "message": "Για εισαγωγή από σελιδοδείκτες του προγράμματος περιήγησης, χρησιμοποιήστε την επιλογή μενού «Εισαγωγή συνδέσμων εδώ» στη σελίδα σας OneTab"
+   },
+   "toMakeOpenButtonWorkApprovePermission": {
+      "message": "Για να λειτουργεί το κουμπί «Άνοιγμα» στις κοινόχρηστες σελίδες, εγκρίνετε το αίτημα άδειας."
+   },
+   "toSaveChangesClickButton": {
+      "message": "Για να αποθηκεύσετε τις αλλαγές σας, κάντε κλικ στο κουμπί"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "message": "Πάρα πολλές καρτέλες; Μετατρέψτε τις καρτέλες σας σε λίστα και επιταχύνετε το Firefox"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "message": "Πάρα πολλές καρτέλες; Μετατρέψτε τις καρτέλες σας σε λίστα και επιταχύνετε το Safari"
+   },
+   "total0Tabs": {
+      "message": "Σύνολο: 0 καρτέλες"
+   },
+   "trash": {
+      "message": "Κάδος"
+   },
+   "unMarkAsTask": {
+      "message": "Άρση σήμανσης ως εργασία"
+   },
+   "unPin": {
+      "message": "Κατάργηση καρφιτσώματος"
+   },
+   "unlock": {
+      "message": "Ξεκλείδωμα"
+   },
+   "unmarkAsArchived": {
+      "message": "Άρση σήμανσης ως αρχειοθετημένο"
+   },
+   "unshare": {
+      "message": "Διακοπή κοινοποίησης"
+   },
+   "untitled": {
+      "message": "Χωρίς τίτλο"
+   },
+   "update": {
+      "message": "Ενημέρωση"
+   },
+   "userLanguage": {
+      "message": "Ελληνικά"
+   },
+   "website": {
+      "message": "Ιστότοπος"
+   },
+   "yearCount_few": {
+      "message": "{COUNT} έτη"
+   },
+   "yearCount_many": {
+      "message": "{COUNT} έτη"
+   },
+   "yearCount_one": {
+      "message": "{COUNT} έτος"
+   },
+   "yearCount_other": {
+      "message": "{COUNT} έτη"
+   },
+   "yearCount_two": {
+      "message": "{COUNT} έτη"
+   },
+   "yearCount_zero": {
+      "message": "{COUNT} έτη"
+   },
+   "yourTabAlreadyStoredHere": {
+      "message": "Η καρτέλα σας έχει ήδη αποθηκευτεί εδώ:"
+   }
+}

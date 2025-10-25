@@ -2,6 +2,7 @@ import { create } from 'zustand'
 import { createJSONStorage, persist } from 'zustand/middleware'
 import type { User } from '@/lib/types'
 import { authService } from '@/services/auth'
+import { logger } from '@/lib/logger'
 
 interface AuthState {
   user: User | null
@@ -69,7 +70,7 @@ export const useAuthStore = create<AuthState>()(
             // 如果是 401 错误（token 已过期），静默处理
             // 其他错误则记录日志
             if (error instanceof Error && !error.message.includes('Token expired')) {
-              console.error('Logout error:', error)
+              logger.error('Logout error:', error)
             }
           }
         }

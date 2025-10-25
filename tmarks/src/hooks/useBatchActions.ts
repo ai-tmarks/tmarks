@@ -1,6 +1,7 @@
 import { tabGroupsService } from '@/services/tab-groups'
 import type { TabGroup, TabGroupItem } from '@/lib/types'
 import { useToastStore } from '@/stores/toastStore'
+import { logger } from '@/lib/logger'
 
 interface UseBatchActionsProps {
   tabGroups: TabGroup[]
@@ -60,7 +61,7 @@ export function useBatchActions({
           setSelectedItems(new Set())
           success('批量删除成功')
         } catch (err) {
-          console.error('Failed to batch delete:', err)
+          logger.error('Failed to batch delete:', err)
           showError('批量删除失败，请重试')
         }
       },
@@ -89,7 +90,7 @@ export function useBatchActions({
       setSelectedItems(new Set())
       success('批量固定成功')
     } catch (err) {
-      console.error('Failed to batch pin:', err)
+      logger.error('Failed to batch pin:', err)
       showError('批量固定失败，请重试')
     }
   }
@@ -116,7 +117,7 @@ export function useBatchActions({
       setSelectedItems(new Set())
       success('批量标记待办成功')
     } catch (err) {
-      console.error('Failed to batch todo:', err)
+      logger.error('Failed to batch todo:', err)
       showError('批量标记待办失败，请重试')
     }
   }

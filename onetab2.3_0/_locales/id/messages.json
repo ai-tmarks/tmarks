@@ -1,0 +1,1715 @@
+{
+   "95PctMemoryReduction": {
+      "message": "Pengurangan memori 95%"
+   },
+   "Folder": {
+      "message": "Folder"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "message": "OneTab juga tersedia untuk Firefox"
+   },
+   "aDashZ": {
+      "message": "A-Z"
+   },
+   "about": {
+      "message": "Tentang"
+   },
+   "addOneTabNow": {
+      "message": "Tambahkan OneTab sekarang"
+   },
+   "all": {
+      "message": "Semua"
+   },
+   "allBookmarks": {
+      "message": "Semua bookmark"
+   },
+   "allOpenTabsAlreadyStoredHere": {
+      "message": "Semua tab terbuka sudah disimpan di sini:"
+   },
+   "allowFileAccessInstructions": {
+      "message": "Untuk mengizinkan file dibuka langsung, buka Setelan ➝ Ekstensi ➝ OneTab ➝ Detail ➝ Izinkan akses ke URL file"
+   },
+   "alreadyExistingOpenTabsWillBeClosedAfterMerge": {
+      "message": "Semua tab terbuka yang sudah ada di grup ini akan ditutup setelah penggabungan."
+   },
+   "alternatePlainTextFormat": {
+      "message": "Atau, teks biasa dapat dalam format:"
+   },
+   "approve": {
+      "message": "Setujui"
+   },
+   "archived": {
+      "message": "Diarsipkan"
+   },
+   "autoTheme": {
+      "message": "Otomatis (ikuti setelan sistem operasi)"
+   },
+   "backupAndSync": {
+      "message": "Cadangkan & sinkronkan"
+   },
+   "betaReleaseReportBugsHere": {
+      "message": "Rilis beta - Laporkan bug di sini"
+   },
+   "bookmarkCount_few": {
+      "message": "{COUNT} Bookmark"
+   },
+   "bookmarkCount_many": {
+      "message": "{COUNT} Bookmark"
+   },
+   "bookmarkCount_one": {
+      "message": "{COUNT} Bookmark"
+   },
+   "bookmarkCount_other": {
+      "message": "{COUNT} Bookmark"
+   },
+   "bookmarkCount_two": {
+      "message": "{COUNT} Bookmark"
+   },
+   "bookmarkCount_zero": {
+      "message": "{COUNT} Bookmark"
+   },
+   "bookmarksPermissionNecesssary": {
+      "message": "Izin bookmark diperlukan untuk mengizinkan OneTab mengimpor bookmark browser Anda"
+   },
+   "bulkActions": {
+      "message": "Tindakan massal"
+   },
+   "canDragTextNote": {
+      "message": "Catatan: Anda juga dapat menyeret dan melepaskan teks yang berisi tautan web langsung dari halaman web lain atau dari dokumen. Anda dapat menyeret teks langsung ke halaman OneTab Anda, tanpa perlu menggunakan kotak impor ini."
+   },
+   "canPasteWebContentForExample": {
+      "message": "Anda dapat menempelkan teks yang disalin dari halaman web atau dokumen, dan tautannya akan diekstrak otomatis. Contoh:"
+   },
+   "cancel": {
+      "message": "Batal"
+   },
+   "cannotConnectToServerDeletionRequestQueued": {
+      "message": "Tidak dapat terhubung ke server OneTab. Periksa koneksi internet Anda. Permintaan penghapusan halaman yang dibagikan telah diantrikan secara lokal dan akan dikirim otomatis ke server OneTab segera setelah dapat dijangkau kembali."
+   },
+   "cannotCreateTabGroupInTabGroup": {
+      "message": "Tujuan yang Anda pilih adalah sebuah grup tab. Anda tidak dapat membuat grup tab di dalam grup tab yang sudah ada. Pilih tujuan lain."
+   },
+   "cannotMixTabsGroupsFoldersDuringDrag": {
+      "message": "Tidak mungkin mencampur tab, grup, dan folder saat menyeret. Karena, misalnya, Anda tidak dapat menyeret folder ke lokasi yang sama dengan tempat Anda dapat menyeret tab."
+   },
+   "caseSensitive": {
+      "message": "Peka huruf besar/kecil"
+   },
+   "changesMadeSinceSharedPageCreation": {
+      "message": "Perubahan telah dilakukan sejak Anda membuat halaman yang dibagikan. Klik tombol 'Perbarui' untuk memperbarui halaman yang dibagikan yang ada."
+   },
+   "checkboxesDeterminePinnedAndGroupedTabMergeInclusion": {
+      "message": "Kotak centang di bagian atas halaman ini menentukan apakah tab disematkan atau tab dalam grup tab disertakan dalam penggabungan."
+   },
+   "chooseALocation": {
+      "message": "Pilih lokasi"
+   },
+   "chooseALocationToImportTo": {
+      "message": "Pilih lokasi tujuan impor"
+   },
+   "chooseExportLocation": {
+      "message": "Pilih lokasi sumber ekspor"
+   },
+   "chooseLightDarkTheme": {
+      "message": "Pilih tema terang/gelap"
+   },
+   "chooseLocationToCopyTo": {
+      "message": "Pilih lokasi tujuan salin"
+   },
+   "chooseLocationToMoveTo": {
+      "message": "Pilih lokasi tujuan"
+   },
+   "chooseLocationToRestoreTo": {
+      "message": "Pilih lokasi tujuan pemulihan"
+   },
+   "chooseToIncludeNotes": {
+      "message": "Jika Anda menambahkan catatan ke tab atau grup, pilih apakah akan menyertakannya di halaman web yang dibagikan"
+   },
+   "chooseToIncludeRatings": {
+      "message": "Jika Anda menambahkan rating bintang ke tab atau grup, pilih apakah akan menyertakannya di halaman web yang dibagikan"
+   },
+   "chromeIncognitoInstructions": {
+      "message": "Di setelan browser Anda, buka 'Setelan' → 'Ekstensi' → 'OneTab' → 'Detail', lalu aktifkan 'Izinkan di mode samaran'."
+   },
+   "clickButtonToAllowTabAccess": {
+      "message": "Klik tombol di bawah untuk mengizinkan OneTab mengakses tab yang terbuka."
+   },
+   "clickHereToContinue": {
+      "message": "Klik di sini untuk melanjutkan."
+   },
+   "clickOneTabIconToStoreTabsHere": {
+      "message": "Klik ikon OneTab di toolbar browser Anda untuk menyimpan tab yang terbuka di sini."
+   },
+   "closeSelectedTabsAndStoreInONETAB_few": {
+      "message": "Tutup {COUNT} tab terpilih dan simpan di ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_many": {
+      "message": "Tutup {COUNT} tab terpilih dan simpan di ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_one": {
+      "message": "Tutup {COUNT} tab terpilih dan simpan di ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_other": {
+      "message": "Tutup {COUNT} tab terpilih dan simpan di ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_two": {
+      "message": "Tutup {COUNT} tab terpilih dan simpan di ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_zero": {
+      "message": "Tutup {COUNT} tab terpilih dan simpan di ONETAB"
+   },
+   "closeSelectedTabs_few": {
+      "message": "Tutup {COUNT} tab terpilih"
+   },
+   "closeSelectedTabs_many": {
+      "message": "Tutup {COUNT} tab terpilih"
+   },
+   "closeSelectedTabs_one": {
+      "message": "Tutup {COUNT} tab terpilih"
+   },
+   "closeSelectedTabs_other": {
+      "message": "Tutup {COUNT} tab terpilih"
+   },
+   "closeSelectedTabs_two": {
+      "message": "Tutup {COUNT} tab terpilih"
+   },
+   "closeSelectedTabs_zero": {
+      "message": "Tutup {COUNT} tab terpilih"
+   },
+   "closeTab": {
+      "message": "Tutup tab"
+   },
+   "closeTabAndStore": {
+      "message": "Tutup tab dan simpan di ONETAB"
+   },
+   "closeTabs": {
+      "message": "Tutup tab"
+   },
+   "closeTabsAfterMerge": {
+      "message": "Tutup tab setelah digabung"
+   },
+   "closeTabsAlreadyStoredInOneTab_few": {
+      "message": "Tutup {COUNT} tab yang sudah disimpan di OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_many": {
+      "message": "Tutup {COUNT} tab yang sudah disimpan di OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_one": {
+      "message": "Tutup {COUNT} tab yang sudah disimpan di OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_other": {
+      "message": "Tutup {COUNT} tab yang sudah disimpan di OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_two": {
+      "message": "Tutup {COUNT} tab yang sudah disimpan di OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_zero": {
+      "message": "Tutup {COUNT} tab yang sudah disimpan di OneTab"
+   },
+   "closeTabsAndStore": {
+      "message": "Tutup tab dan simpan di ONETAB"
+   },
+   "closeTheseDuplicates": {
+      "message": "Tutup duplikat‑duplikat ini"
+   },
+   "closeThisDuplicate": {
+      "message": "Tutup duplikat ini"
+   },
+   "completeEditingShortcutInfo": {
+      "message": "Saat mengedit bidang catatan, gunakan pintasan ini untuk menyelesaikan pengeditan."
+   },
+   "configureShortcuts": {
+      "message": "Atur pintasan"
+   },
+   "conflictingShortcutsHint": {
+      "message": "Jika ada pintasan keyboard di atas yang tidak berfungsi atau bertentangan dengan aplikasi lain, Anda dapat mengonfigurasi tombol pintasan yang berbeda."
+   },
+   "continue": {
+      "message": "Lanjutkan"
+   },
+   "convertTabsIntoAList": {
+      "message": "Ubah tab menjadi daftar"
+   },
+   "copiedToClipboard": {
+      "message": "Disalin ke papan klip"
+   },
+   "copy": {
+      "message": "Salin"
+   },
+   "copyLinksToClipboard": {
+      "message": "Salin tautan ke papan klip"
+   },
+   "copySharedPageUrl": {
+      "message": "Salin URL halaman yang dibagikan"
+   },
+   "copyToClipboard": {
+      "message": "Salin ke papan klip"
+   },
+   "createANewGroupHere": {
+      "message": "Buat grup baru di sini"
+   },
+   "createFolderAbove": {
+      "message": "Buat folder di atas"
+   },
+   "createFolderAboveBelow": {
+      "message": "Buat folder di atas / di bawah"
+   },
+   "createFolderAboveWithinBelow": {
+      "message": "Buat folder di atas / di dalam / di bawah"
+   },
+   "createFolderBelow": {
+      "message": "Buat folder di bawah"
+   },
+   "createFolderWithin": {
+      "message": "Buat folder di dalam"
+   },
+   "createGroupAbove": {
+      "message": "Buat grup di atas"
+   },
+   "createGroupAboveBelow": {
+      "message": "Buat grup di atas / di bawah"
+   },
+   "createGroupAboveWithinBelow": {
+      "message": "Buat grup di atas / di dalam / di bawah"
+   },
+   "createGroupBelow": {
+      "message": "Buat grup di bawah"
+   },
+   "createGroupInsideDestination": {
+      "message": "Buat grup baru di dalam tujuan"
+   },
+   "createGroupInsideDestinationHelp": {
+      "message": "Jika tidak dicentang, tab Anda akan ditambahkan langsung ke grup tujuan. Jika dicentang, grup tab browser baru akan dibuat untuk tab Anda di dalam grup tujuan. Centang kotak ini hanya jika Anda ingin menggunakan fitur \"grup tab\" browser Anda."
+   },
+   "createGroupWithin": {
+      "message": "Buat grup di dalam"
+   },
+   "createNewGroupTip": {
+      "message": "Untuk membuat grup baru, hapus centang \"Tampilkan hanya folder\""
+   },
+   "createdOnOrAfterColon": {
+      "message": "Dibuat pada atau setelah:"
+   },
+   "createdOnOrBeforeColon": {
+      "message": "Dibuat pada atau sebelum:"
+   },
+   "createdPreceedingDate": {
+      "message": "Dibuat"
+   },
+   "darkTheme": {
+      "message": "Tema gelap"
+   },
+   "dayCount_few": {
+      "message": "{COUNT} hari"
+   },
+   "dayCount_many": {
+      "message": "{COUNT} hari"
+   },
+   "dayCount_one": {
+      "message": "{COUNT} hari"
+   },
+   "dayCount_other": {
+      "message": "{COUNT} hari"
+   },
+   "dayCount_two": {
+      "message": "{COUNT} hari"
+   },
+   "dayCount_zero": {
+      "message": "{COUNT} hari"
+   },
+   "delete": {
+      "message": "Hapus"
+   },
+   "deleteAllTrash": {
+      "message": "Hapus semua di Tempat Sampah"
+   },
+   "deleteThisCopy": {
+      "message": "Hapus salinan ini"
+   },
+   "deselectAll": {
+      "message": "Batalkan semua pilihan"
+   },
+   "destinationColon": {
+      "message": "Tujuan:"
+   },
+   "disabled": {
+      "message": "Dinonaktifkan"
+   },
+   "doneTaskCount_few": {
+      "message": "{COUNT} selesai"
+   },
+   "doneTaskCount_many": {
+      "message": "{COUNT} selesai"
+   },
+   "doneTaskCount_one": {
+      "message": "{COUNT} selesai"
+   },
+   "doneTaskCount_other": {
+      "message": "{COUNT} selesai"
+   },
+   "doneTaskCount_two": {
+      "message": "{COUNT} selesai"
+   },
+   "doneTaskCount_zero": {
+      "message": "{COUNT} selesai"
+   },
+   "dontCloseGroupedTabs": {
+      "message": "Jangan tutup tab apa pun di dalam grup tab"
+   },
+   "dontClosePinnedTabs": {
+      "message": "Jangan tutup tab disematkan mana pun"
+   },
+   "dontCloseTabsFromDomains": {
+      "message": "Jangan tutup tab apa pun dari EXAMPLE.COM"
+   },
+   "dragTabsHereForQuickList": {
+      "message": "Seret tab atau grup yang Anda simpan ke sini. Item akan ditambahkan ke daftar cepat Anda."
+   },
+   "editTabGroupTitleAndNotes": {
+      "message": "Edit judul dan catatan grup tab"
+   },
+   "emojiShortcutInfo": {
+      "message": "Saat mengedit bidang catatan, gunakan pintasan ini untuk membuka pemilih emoji."
+   },
+   "emptyInBrackets": {
+      "message": "(kosong)"
+   },
+   "emptyOneTabInfoMsg": {
+      "message": "Saat Anda memiliki banyak tab terbuka, klik ikon OneTab di toolbar browser Anda dan tab yang terbuka akan muncul di sini."
+   },
+   "enabled": {
+      "message": "Diaktifkan"
+   },
+   "encryptedSyncAndBackup": {
+      "message": "Sinkronisasi dan pencadangan terenkripsi"
+   },
+   "encryptedSyncAndBackupComingSoonMessage": {
+      "message": "Segera hadir: Anda akan dapat menyinkronkan data OneTab Anda di berbagai profil browser dan komputer.\nOneTab telah sepenuhnya ditulis ulang sehingga perubahan yang dibuat di satu perangkat akan langsung muncul di semua perangkat lainnya.\nJika Anda menggunakan fitur ini, data Anda akan dienkripsi end‑to‑end dengan enkripsi AES‑256 yang kuat. Ini membuat pengembang OneTab tidak mungkin melihat tab yang Anda cadangkan atau sinkronkan antar perangkat, karena hanya Anda yang memiliki kunci enkripsi."
+   },
+   "everything": {
+      "message": "Semua"
+   },
+   "exampleLink": {
+      "message": "Tautan Contoh"
+   },
+   "exampleLinkTitle": {
+      "message": "Judul Tautan Contoh"
+   },
+   "exampleLinkTitleOptional": {
+      "message": "Judul Tautan Contoh (opsional)"
+   },
+   "exampleRichTextParagraph": {
+      "message": "Contoh paragraf teks dengan PLACEHOLDER dan PLACEHOLDER"
+   },
+   "exampleWebsitePageTitle": {
+      "message": "Judul halaman situs web contoh"
+   },
+   "excludeDomainFromOneTab": {
+      "message": "Kecualikan EXAMPLE.COM dari OneTab"
+   },
+   "excludeWebSiteFromOneTab": {
+      "message": "Kecualikan situs web ini dari OneTab"
+   },
+   "expiresColon": {
+      "message": "Kedaluwarsa:"
+   },
+   "export": {
+      "message": "Ekspor"
+   },
+   "exportImportUrls": {
+      "message": "Ekspor / Impor URL"
+   },
+   "exportThenImportNote": {
+      "message": "Daftar URL berikut juga dapat diimpor kembali ke OneTab di komputer ini atau komputer lain"
+   },
+   "exportUrls": {
+      "message": "Ekspor URL"
+   },
+   "feedback": {
+      "message": "Masukan"
+   },
+   "filter": {
+      "message": "Filter"
+   },
+   "firefoxIncognitoInstructions": {
+      "message": "Di pengaturan browser Anda, buka 'Pengaturan' → 'Pengaya dan Tema' → 'Ekstensi' → 'OneTab' → '...' → 'Kelola', lalu aktifkan 'Jalankan di Jendela Pribadi'."
+   },
+   "firefoxShortcutConfigInstructions": {
+      "message": "Masukkan URL \"about:addons?type=extension\" ke bilah alamat browser Anda. Saat halaman muncul, klik ikon roda gigi, lalu pilih \"Kelola Pintasan Ekstensi\""
+   },
+   "folderCount_few": {
+      "message": "{COUNT} folder"
+   },
+   "folderCount_many": {
+      "message": "{COUNT} folder"
+   },
+   "folderCount_one": {
+      "message": "{COUNT} folder"
+   },
+   "folderCount_other": {
+      "message": "{COUNT} folder"
+   },
+   "folderCount_two": {
+      "message": "{COUNT} folder"
+   },
+   "folderCount_zero": {
+      "message": "{COUNT} folder"
+   },
+   "folders": {
+      "message": "Folder"
+   },
+   "foldersOnly": {
+      "message": "Hanya folder"
+   },
+   "gettingStarted": {
+      "message": "Mulai"
+   },
+   "goToParentFolder": {
+      "message": "Buka folder induk"
+   },
+   "groupCount_few": {
+      "message": "{COUNT} grup"
+   },
+   "groupCount_many": {
+      "message": "{COUNT} grup"
+   },
+   "groupCount_one": {
+      "message": "{COUNT} grup"
+   },
+   "groupCount_other": {
+      "message": "{COUNT} grup"
+   },
+   "groupCount_two": {
+      "message": "{COUNT} grup"
+   },
+   "groupCount_zero": {
+      "message": "{COUNT} grup"
+   },
+   "groups": {
+      "message": "Grup"
+   },
+   "hasNotes": {
+      "message": "Ada catatan"
+   },
+   "hasRating": {
+      "message": "Ada rating"
+   },
+   "help": {
+      "message": "Bantuan"
+   },
+   "hideArchivedItems": {
+      "message": "Sembunyikan item yang diarsipkan"
+   },
+   "import": {
+      "message": "Impor"
+   },
+   "importAndExport": {
+      "message": "Impor & Ekspor"
+   },
+   "importBookmarks": {
+      "message": "Impor bookmark"
+   },
+   "importFolderAndSubfolders": {
+      "message": "Impor folder dan sub-folder"
+   },
+   "importLinksHere": {
+      "message": "Impor tautan di sini"
+   },
+   "importReadingList": {
+      "message": "Impor daftar bacaan"
+   },
+   "importText": {
+      "message": "Impor teks"
+   },
+   "importUrls": {
+      "message": "Impor URL"
+   },
+   "importedBookmarks": {
+      "message": "Bookmark yang diimpor"
+   },
+   "includeGroupedTabs": {
+      "message": "Sertakan tab dalam grup tab"
+   },
+   "includeNotes": {
+      "message": "Sertakan catatan"
+   },
+   "includePinnedTabs": {
+      "message": "Sertakan tab disematkan"
+   },
+   "includeStarRatings": {
+      "message": "Sertakan rating bintang"
+   },
+   "includeTabsAlreadyStored": {
+      "message": "Sertakan tab yang sudah Anda simpan"
+   },
+   "includeTabsFromDomains": {
+      "message": "Sertakan tab dari EXAMPLE.COM"
+   },
+   "incogitoPermissionRequired": {
+      "message": "OneTab memerlukan izin untuk membuat jendela samaran."
+   },
+   "incognitoWindows": {
+      "message": "Jendela samaran"
+   },
+   "invertSelection": {
+      "message": "Balikkan pilihan"
+   },
+   "justNow": {
+      "message": "baru saja"
+   },
+   "keyboardShortcutsColon": {
+      "message": "Pintasan keyboard:"
+   },
+   "languageTitle": {
+      "message": "Bahasa:"
+   },
+   "lightTheme": {
+      "message": "Tema terang"
+   },
+   "localeId": {
+      "message": "id"
+   },
+   "locationColon": {
+      "message": "Lokasi:"
+   },
+   "lock": {
+      "message": "Kunci"
+   },
+   "lockMenuItemHelp": {
+      "message": "Saat grup dikunci, Anda tidak dapat menghapus atau mengubah urutan item di dalam grup. Saat membuka grup terkunci, tindakan otomatis tidak berlaku. Lihat halaman Opsi untuk informasi tentang tindakan otomatis."
+   },
+   "lockedGroupUnlockHelp": {
+      "message": "Untuk membuka kunci, gunakan menu dropdown. Saat grup dikunci, Anda tidak dapat menghapus grup atau tabnya, dan tab tidak dapat diurutkan ulang."
+   },
+   "makeThisATask": {
+      "message": "Jadikan ini tugas"
+   },
+   "manifestDescription": {
+      "message": "Hemat hingga 95% memori dan kurangi kekacauan tab"
+   },
+   "markAsArchived": {
+      "message": "Tandai sebagai diarsipkan"
+   },
+   "markAsArchivedMenuItemHelp": {
+      "message": "Perhatikan bahwa tugas yang diarsipkan dan tugas di dalam grup yang diarsipkan tidak akan muncul di kolom tugas"
+   },
+   "markAsDoneTask": {
+      "message": "Tandai sebagai tugas selesai"
+   },
+   "markAsPendingTask": {
+      "message": "Tandai sebagai tugas tertunda"
+   },
+   "matchCount_few": {
+      "message": "{COUNT} hasil"
+   },
+   "matchCount_many": {
+      "message": "{COUNT} hasil"
+   },
+   "matchCount_one": {
+      "message": "{COUNT} hasil"
+   },
+   "matchCount_other": {
+      "message": "{COUNT} hasil"
+   },
+   "matchCount_two": {
+      "message": "{COUNT} hasil"
+   },
+   "matchCount_zero": {
+      "message": "{COUNT} hasil"
+   },
+   "matchWholeWordsOnly": {
+      "message": "Cocokkan seluruh kata saja"
+   },
+   "mayNeedToRestartBrowser": {
+      "message": "Anda mungkin juga perlu memperbarui dan memulai ulang browser Anda."
+   },
+   "mergeIntoParent": {
+      "message": "Gabungkan ke induk"
+   },
+   "mergeOpenTabsHere_few": {
+      "message": "Gabungkan {COUNT} tab terbuka ke sini"
+   },
+   "mergeOpenTabsHere_many": {
+      "message": "Gabungkan {COUNT} tab terbuka ke sini"
+   },
+   "mergeOpenTabsHere_one": {
+      "message": "Gabungkan {COUNT} tab terbuka ke sini"
+   },
+   "mergeOpenTabsHere_other": {
+      "message": "Gabungkan {COUNT} tab terbuka ke sini"
+   },
+   "mergeOpenTabsHere_two": {
+      "message": "Gabungkan {COUNT} tab terbuka ke sini"
+   },
+   "mergeOpenTabsHere_zero": {
+      "message": "Gabungkan {COUNT} tab terbuka ke sini"
+   },
+   "mergeSelectedTabsHere_few": {
+      "message": "Gabungkan {COUNT} tab terpilih ke sini"
+   },
+   "mergeSelectedTabsHere_many": {
+      "message": "Gabungkan {COUNT} tab terpilih ke sini"
+   },
+   "mergeSelectedTabsHere_one": {
+      "message": "Gabungkan {COUNT} tab terpilih ke sini"
+   },
+   "mergeSelectedTabsHere_other": {
+      "message": "Gabungkan {COUNT} tab terpilih ke sini"
+   },
+   "mergeSelectedTabsHere_two": {
+      "message": "Gabungkan {COUNT} tab terpilih ke sini"
+   },
+   "mergeSelectedTabsHere_zero": {
+      "message": "Gabungkan {COUNT} tab terpilih ke sini"
+   },
+   "mergeWithInnerGroups": {
+      "message": "Gabungkan dengan grup di dalam"
+   },
+   "modifySharing": {
+      "message": "Ubah pengaturan berbagi"
+   },
+   "moreEllipsis": {
+      "message": "Lainnya…"
+   },
+   "moreSearchFilters": {
+      "message": "Filter pencarian lainnya"
+   },
+   "moreTripleDot": {
+      "message": "Lainnya…"
+   },
+   "move": {
+      "message": "Pindahkan"
+   },
+   "moveToTrash": {
+      "message": "Pindahkan ke Tempat Sampah"
+   },
+   "namedOnly": {
+      "message": "Hanya item bernama"
+   },
+   "navigationFilter": {
+      "message": "Filter navigasi"
+   },
+   "newExclamation": {
+      "message": "Baru!"
+   },
+   "noDupsExistExceptForColon": {
+      "message": "Tidak ada duplikat, kecuali:"
+   },
+   "noDupsFoundHere": {
+      "message": "Tidak ada duplikat di sini"
+   },
+   "noMatches": {
+      "message": "Tidak ada kecocokan"
+   },
+   "noMatchesFound": {
+      "message": "Tidak ada kecocokan"
+   },
+   "noOpenTabsToStore": {
+      "message": "Tidak ada tab terbuka di jendela ini untuk disimpan."
+   },
+   "noReadingListEntries": {
+      "message": "Tidak ada entri daftar bacaan"
+   },
+   "noTabsInOneTabYet": {
+      "message": "Anda belum memiliki tab apa pun di OneTab"
+   },
+   "noTabsMeetCriteriaUseCheckboxes": {
+      "message": "Tidak ada tab terbuka yang memenuhi kriteria Anda. Silakan gunakan kotak centang di atas."
+   },
+   "noTextHasBeenEntered": {
+      "message": "Tidak ada teks yang dimasukkan"
+   },
+   "nonArchived": {
+      "message": "Tidak diarsipkan"
+   },
+   "notAssigned": {
+      "message": "Tidak ditetapkan"
+   },
+   "notes": {
+      "message": "Catatan"
+   },
+   "notesAboutTheLinkOptional": {
+      "message": "Catatan tentang tautan (opsional)"
+   },
+   "notesAboutTheSecondLinkOptional": {
+      "message": "Catatan tentang tautan kedua (opsional)"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "omniboxShortcutInfo": {
+      "message": "Untuk mencari daftar OneTab Anda dari tab mana pun: Buka bilah alamat browser, ketik 1 lalu spasi, lalu kata kunci pencarian."
+   },
+   "oneTabDesignedToProtectPrivacy": {
+      "message": "OneTab dirancang untuk melindungi privasi Anda. Tab Anda tidak diungkapkan kepada kami."
+   },
+   "oneTabImportExportPageTitle": {
+      "message": "Impor/ekspor OneTab"
+   },
+   "oneTabNeedsPermissionToAccessYourTabs": {
+      "message": "OneTab memerlukan izin untuk mengakses tab Anda."
+   },
+   "oneTabOptionsPageTitle": {
+      "message": "Opsi OneTab"
+   },
+   "oneTabPermissionRequired": {
+      "message": "OneTab - Izin diperlukan"
+   },
+   "oneTabRestartRequired": {
+      "message": "OneTab perlu dimulai ulang."
+   },
+   "oneTabSlashShortcutInfo": {
+      "message": "Saat berada di halaman OneTab, tekan tombol garis miring untuk memfokuskan kotak pencarian."
+   },
+   "open": {
+      "message": "Buka"
+   },
+   "openActionPopup": {
+      "message": "Buka pop-up tindakan"
+   },
+   "openAsCollapsedTabGroup": {
+      "message": "Buka sebagai grup tab yang diciutkan"
+   },
+   "openAsCollapsedTabGroupMenuItemHelp": {
+      "message": "Jika Anda membuka tab ini sebagai \"grup tab\" yang diciutkan, hanya label grup yang akan ditampilkan hingga Anda mengekliknya untuk menampilkan tab di dalamnya."
+   },
+   "openAsTabGroup": {
+      "message": "Buka sebagai grup tab browser"
+   },
+   "openAsTabGroupMenuItemHelp": {
+      "message": "Browser Anda memungkinkan tab dikelompokkan dalam \"grup tab\" berwarna di dalam sebuah jendela."
+   },
+   "openGroupsLimitNotice_few": {
+      "message": "Untuk mencegah browser Anda kelebihan beban, hanya {COUNT} grup pertama yang akan dibuka."
+   },
+   "openGroupsLimitNotice_many": {
+      "message": "Untuk mencegah browser Anda kelebihan beban, hanya {COUNT} grup pertama yang akan dibuka."
+   },
+   "openGroupsLimitNotice_one": {
+      "message": "Untuk mencegah browser Anda kelebihan beban, hanya {COUNT} grup pertama yang akan dibuka."
+   },
+   "openGroupsLimitNotice_other": {
+      "message": "Untuk mencegah browser Anda kelebihan beban, hanya {COUNT} grup pertama yang akan dibuka."
+   },
+   "openGroupsLimitNotice_two": {
+      "message": "Untuk mencegah browser Anda kelebihan beban, hanya {COUNT} grup pertama yang akan dibuka."
+   },
+   "openGroupsLimitNotice_zero": {
+      "message": "Untuk mencegah browser Anda kelebihan beban, hanya {COUNT} grup pertama yang akan dibuka."
+   },
+   "openInIncognitoWindow": {
+      "message": "Buka di jendela samaran baru"
+   },
+   "openInNewWindow": {
+      "message": "Buka di jendela baru"
+   },
+   "openInThisWindow": {
+      "message": "Buka di jendela ini"
+   },
+   "openONETABLogo": {
+      "message": "Buka ONETAB"
+   },
+   "openOneTab": {
+      "message": "Buka OneTab"
+   },
+   "openOneTabAfter": {
+      "message": "Buka OneTab setelah menyimpan tab"
+   },
+   "openTabFromWebsite": {
+      "message": "Buka tab dan buka situs web tersebut"
+   },
+   "openTabLimit_few": {
+      "message": "Untuk mencegah browser Anda kelebihan beban, maksimal {COUNT} tab dapat dibuka sekaligus."
+   },
+   "openTabLimit_many": {
+      "message": "Untuk mencegah browser Anda kelebihan beban, maksimal {COUNT} tab dapat dibuka sekaligus."
+   },
+   "openTabLimit_one": {
+      "message": "Untuk mencegah browser Anda kelebihan beban, maksimal {COUNT} tab dapat dibuka sekaligus."
+   },
+   "openTabLimit_other": {
+      "message": "Untuk mencegah browser Anda kelebihan beban, maksimal {COUNT} tab dapat dibuka sekaligus."
+   },
+   "openTabLimit_two": {
+      "message": "Untuk mencegah browser Anda kelebihan beban, maksimal {COUNT} tab dapat dibuka sekaligus."
+   },
+   "openTabLimit_zero": {
+      "message": "Untuk mencegah browser Anda kelebihan beban, maksimal {COUNT} tab dapat dibuka sekaligus."
+   },
+   "openTabsAlreadyStoredHere_few": {
+      "message": "{COUNT} tab terbuka sudah disimpan di sini:"
+   },
+   "openTabsAlreadyStoredHere_many": {
+      "message": "{COUNT} tab terbuka sudah disimpan di sini:"
+   },
+   "openTabsAlreadyStoredHere_one": {
+      "message": "{COUNT} tab terbuka sudah disimpan di sini:"
+   },
+   "openTabsAlreadyStoredHere_other": {
+      "message": "{COUNT} tab terbuka sudah disimpan di sini:"
+   },
+   "openTabsAlreadyStoredHere_two": {
+      "message": "{COUNT} tab terbuka sudah disimpan di sini:"
+   },
+   "openTabsAlreadyStoredHere_zero": {
+      "message": "{COUNT} tab terbuka sudah disimpan di sini:"
+   },
+   "openTabsConfirm_few": {
+      "message": "Anda akan membuka {COUNT} tab. Apakah Anda yakin?"
+   },
+   "openTabsConfirm_many": {
+      "message": "Anda akan membuka {COUNT} tab. Apakah Anda yakin?"
+   },
+   "openTabsConfirm_one": {
+      "message": "Anda akan membuka {COUNT} tab. Apakah Anda yakin?"
+   },
+   "openTabsConfirm_other": {
+      "message": "Anda akan membuka {COUNT} tab. Apakah Anda yakin?"
+   },
+   "openTabsConfirm_two": {
+      "message": "Anda akan membuka {COUNT} tab. Apakah Anda yakin?"
+   },
+   "openTabsConfirm_zero": {
+      "message": "Anda akan membuka {COUNT} tab. Apakah Anda yakin?"
+   },
+   "openTabsNotStoredInOneTab_few": {
+      "message": "{COUNT} tab terbuka belum disimpan di OneTab"
+   },
+   "openTabsNotStoredInOneTab_many": {
+      "message": "{COUNT} tab terbuka belum disimpan di OneTab"
+   },
+   "openTabsNotStoredInOneTab_one": {
+      "message": "{COUNT} tab terbuka belum disimpan di OneTab"
+   },
+   "openTabsNotStoredInOneTab_other": {
+      "message": "{COUNT} tab terbuka belum disimpan di OneTab"
+   },
+   "openTabsNotStoredInOneTab_two": {
+      "message": "{COUNT} tab terbuka belum disimpan di OneTab"
+   },
+   "openTabsNotStoredInOneTab_zero": {
+      "message": "{COUNT} tab terbuka belum disimpan di OneTab"
+   },
+   "optionAutoActionOnGroupOpenArchiveDesc": {
+      "message": "Untuk mencegah penandaan grup sebagai diarsipkan, tahan tombol Alt/Option saat mengeklik untuk membuka grup"
+   },
+   "optionAutoActionOnGroupOpenArchiveTitle": {
+      "message": "Buka tab, lalu tandai grup sebagai diarsipkan"
+   },
+   "optionAutoActionOnGroupOpenHeading": {
+      "message": "Tindakan otomatis saat mengeklik untuk membuka grup:"
+   },
+   "optionAutoActionOnGroupOpenNote": {
+      "message": "Tindakan otomatis tidak akan diterapkan pada grup yang dikunci atau yang berstatus tugas."
+   },
+   "optionAutoActionOnGroupOpenOpenDesc": {
+      "message": "Untuk menandai grup sebagai diarsipkan, tahan tombol Alt/Option saat mengeklik untuk membuka grup"
+   },
+   "optionAutoActionOnGroupOpenOpenTitle": {
+      "message": "Hanya buka tab"
+   },
+   "optionAutoActionOnGroupOpenTrashDesc": {
+      "message": "Untuk mencegah pengiriman grup ke Tempat Sampah secara otomatis, tahan tombol Alt/Option saat mengeklik untuk membuka grup"
+   },
+   "optionAutoActionOnGroupOpenTrashTitle": {
+      "message": "Buka tab, lalu pindahkan grup ke Tempat Sampah"
+   },
+   "optionAutoActionOnTabOpenArchiveDesc": {
+      "message": "Untuk mencegah penandaan otomatis sebagai diarsipkan, tahan tombol Alt/Option saat mengeklik untuk membuka tab"
+   },
+   "optionAutoActionOnTabOpenArchiveTitle": {
+      "message": "Buka tab, lalu tandai sebagai diarsipkan"
+   },
+   "optionAutoActionOnTabOpenHeading": {
+      "message": "Tindakan otomatis saat mengeklik untuk membuka tab:"
+   },
+   "optionAutoActionOnTabOpenNote": {
+      "message": "Tindakan otomatis tidak akan diterapkan pada tab di grup yang dikunci atau yang berstatus tugas."
+   },
+   "optionAutoActionOnTabOpenOpenDesc": {
+      "message": "Untuk menandai tab sebagai diarsipkan, tahan tombol Alt/Option saat mengeklik untuk membuka tab"
+   },
+   "optionAutoActionOnTabOpenOpenTitle": {
+      "message": "Hanya buka tab"
+   },
+   "optionAutoActionOnTabOpenTrashDesc": {
+      "message": "Untuk mencegah pengiriman otomatis ke Tempat Sampah, tahan tombol Alt/Option saat mengeklik untuk membuka tab"
+   },
+   "optionAutoActionOnTabOpenTrashTitle": {
+      "message": "Buka tab, lalu pindahkan ke Tempat Sampah"
+   },
+   "optionCopyToClipboardFormatHeading": {
+      "message": "Menyalin tautan ke papan klip:"
+   },
+   "optionCopyToClipboardFormatNote": {
+      "message": "Setelan ini berlaku saat Anda menggunakan tindakan 'Salin ke papan klip'. Anda juga dapat menyeret tab dan grup langsung dari OneTab ke dokumen."
+   },
+   "optionCopyToClipboardFormatRichTextDesc": {
+      "message": "Aplikasi seperti pengolah kata memungkinkan Anda menempelkan teks kaya. Jika tidak didukung, teks biasa akan ditempelkan sebagai gantinya."
+   },
+   "optionCopyToClipboardFormatRichTextTitle": {
+      "message": "Teks kaya, jika tersedia"
+   },
+   "optionCopyToClipboardFormatTitleUrlTitle": {
+      "message": "Judul dan URL"
+   },
+   "optionCopyToClipboardFormatUrlOnlyTitle": {
+      "message": "Hanya URL"
+   },
+   "optionCopyToClipboardFormatUrlTitleTitle": {
+      "message": "URL dan judul"
+   },
+   "optionDefaultTabGroupOpenTypeCurrentWindow": {
+      "message": "Buka Grup Tab di jendela saat ini"
+   },
+   "optionDefaultTabGroupOpenTypeHeading": {
+      "message": "Saat mengeklik untuk membuka grup yang dikonfigurasi untuk dibuka sebagai \"Grup Tab\" di browser:"
+   },
+   "optionDefaultTabGroupOpenTypeNewWindow": {
+      "message": "Buka Grup Tab di jendela baru"
+   },
+   "optionDefaultTabGroupOpenTypeNote": {
+      "message": "Jika Anda menggunakan menu dropdown untuk memilih opsi tertentu (misalnya membuka tab di jendela samaran), opsi itu akan diingat untuk grup tersebut."
+   },
+   "optionDefaultWindowGroupOpenTypeCurrentWindow": {
+      "message": "Buka tab di jendela saat ini"
+   },
+   "optionDefaultWindowGroupOpenTypeHeading": {
+      "message": "Saat mengeklik untuk membuka grup:"
+   },
+   "optionDefaultWindowGroupOpenTypeNewWindow": {
+      "message": "Buka tab di jendela baru"
+   },
+   "optionDefaultWindowGroupOpenTypeNote": {
+      "message": "Jika Anda menggunakan menu dropdown untuk memilih opsi tertentu (misalnya membuka tab di jendela samaran), opsi itu akan diingat untuk grup tersebut."
+   },
+   "optionDiscardNonActiveTabOnOpenHeading": {
+      "message": "Hemat memori (RAM) segera saat tab pertama kali dibuka:"
+   },
+   "optionDiscardNonActiveTabOnOpenNote": {
+      "message": "Jika setelan ini diaktifkan, tab akan segera dikeluarkan dari memori saat pertama kali Anda membukanya dari daftar OneTab. Ini berguna jika Anda sering membuka banyak tab sekaligus, karena tab tidak akan dimuat ke memori sampai Anda mengaksesnya. Jika setelan ini dinonaktifkan, banyak browser tetap akan otomatis memilih untuk mengeluarkan tab dari memori jika Anda tidak sedang menggunakannya."
+   },
+   "optionDisplayContextMenuHeading": {
+      "message": "Klik kanan di dalam halaman web untuk mengakses menu konteks OneTab:"
+   },
+   "optionDisplayContextMenuNote": {
+      "message": "Jika Anda menonaktifkan menu, Anda tidak akan dapat mengakses fitur \"Kecualikan situs web dari OneTab\""
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenFalseTitle": {
+      "message": "Beralih ke jendela tempat tab OneTab sudah terbuka"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenHeading": {
+      "message": "Tindakan \"Buka OneTab\":"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenNote": {
+      "message": "Tindakan \"Buka OneTab\" dapat diakses lewat pintasan keyboard. Tindakan ini juga tersedia di pop-up yang muncul saat Anda mengeklik ikon OneTab di toolbar browser."
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenTrueTitle": {
+      "message": "Pindahkan tab OneTab yang sudah ada ke jendela saat ini"
+   },
+   "optionStartupLaunchDisplay": {
+      "message": "Buka OneTab setiap kali Anda memulai browser"
+   },
+   "optionStartupLaunchNone": {
+      "message": "Jangan buka OneTab secara otomatis"
+   },
+   "optionStartupLaunchNoneDesc3": {
+      "message": "Untuk membuka OneTab secara manual, klik ikon OneTab di toolbar browser Anda, dan pilih 'Buka OneTab'. Atau, Anda dapat klik kanan di dalam halaman web mana pun, lalu klik 'Buka OneTab' di menu OneTab."
+   },
+   "optionStartupLaunchTitle": {
+      "message": "Saat memulai:"
+   },
+   "optionSwitchToOpenedTabFalseTitle": {
+      "message": "Buka tab dan tetap di OneTab"
+   },
+   "optionSwitchToOpenedTabHeading": {
+      "message": "Saat membuka tab dari halaman OneTab:"
+   },
+   "optionSwitchToOpenedTabNote": {
+      "message": "Jika Anda menahan Shift saat mengeklik, tab akan dibuka di jendela baru"
+   },
+   "optionSwitchToOpenedTabTrueTitle": {
+      "message": "Buka tab, lalu beralih ke tab tersebut (kecuali Anda menahan Command ⌘/Ctrl saat mengeklik)"
+   },
+   "optionUrlAbbr": {
+      "message": "Disingkat"
+   },
+   "optionUrlDisplayTitle": {
+      "message": "Tampilan URL:"
+   },
+   "optionUrlDomain": {
+      "message": "Hanya domain"
+   },
+   "optionUrlFull": {
+      "message": "Lengkap"
+   },
+   "optionUrlNone": {
+      "message": "Tidak ada"
+   },
+   "options": {
+      "message": "Opsi"
+   },
+   "otherCopiesColon": {
+      "message": "Salinan lain:"
+   },
+   "pasteRichOrPlainTextBelow": {
+      "message": "Anda dapat menempelkan teks kaya atau teks biasa di bawah ini."
+   },
+   "pendingTaskCount_few": {
+      "message": "{COUNT} tertunda"
+   },
+   "pendingTaskCount_many": {
+      "message": "{COUNT} tertunda"
+   },
+   "pendingTaskCount_one": {
+      "message": "{COUNT} tertunda"
+   },
+   "pendingTaskCount_other": {
+      "message": "{COUNT} tertunda"
+   },
+   "pendingTaskCount_two": {
+      "message": "{COUNT} tertunda"
+   },
+   "pendingTaskCount_zero": {
+      "message": "{COUNT} tertunda"
+   },
+   "permissionRequiredPleaseTryAgain": {
+      "message": "Untuk membuat halaman yang dibagikan yang dapat diakses dari komputer mana pun, diperlukan izin untuk berkoordinasi dengan server web OneTab. Coba lagi."
+   },
+   "pinToTopOfFolder": {
+      "message": "Sematkan di bagian atas folder"
+   },
+   "pinToTopOfList": {
+      "message": "Sematkan di bagian atas daftar"
+   },
+   "pinnedTabs": {
+      "message": "tab disematkan"
+   },
+   "placeholderAndOtherLocations_few": {
+      "message": "PLACEHOLDER, dan {COUNT} lainnya"
+   },
+   "placeholderAndOtherLocations_many": {
+      "message": "PLACEHOLDER, dan {COUNT} lainnya"
+   },
+   "placeholderAndOtherLocations_one": {
+      "message": "PLACEHOLDER, dan {COUNT} lainnya"
+   },
+   "placeholderAndOtherLocations_other": {
+      "message": "PLACEHOLDER, dan {COUNT} lainnya"
+   },
+   "placeholderAndOtherLocations_two": {
+      "message": "PLACEHOLDER, dan {COUNT} lainnya"
+   },
+   "placeholderAndOtherLocations_zero": {
+      "message": "PLACEHOLDER, dan {COUNT} lainnya"
+   },
+   "placeholderExplanation": {
+      "message": "Karena aturan keamanan browser web, OneTab tidak diizinkan memulihkan halaman ini secara langsung. Silakan salin URL Anda dan tempel ke bilah alamat browser Anda."
+   },
+   "plainTextLineFormat": {
+      "message": "Jika Anda menempelkan teks biasa, pastikan setiap URL memiliki protokol (https://wikipedia.org, bukan hanya wikipedia.org). Setiap baris harus dalam format berikut:"
+   },
+   "pleaseWaitTripleDot": {
+      "message": "Harap tunggu…"
+   },
+   "popupSlashShortcutInfo": {
+      "message": "Saat berada di pop-up tindakan OneTab (yang muncul saat Anda mengeklik ikon OneTab), tekan tombol garis miring untuk membuka pemilih tujuan dan memfokuskan kotak pencarian."
+   },
+   "privacyAssurance": {
+      "message": "Jaminan privasi"
+   },
+   "privacyAssuranceDetail": {
+      "message": "Daftar tab Anda tidak pernah dikirimkan atau diungkapkan kepada pengembang OneTab maupun pihak lain mana pun. Satu-satunya pengecualian adalah jika Anda dengan sengaja menggunakan fitur 'bagikan sebagai halaman web' untuk mengunggah daftar tab Anda ke halaman web guna membagikannya kepada orang lain."
+   },
+   "privacyFirst": {
+      "message": "Privasi diutamakan"
+   },
+   "privacyFirstMessage": {
+      "message": "OneTab dirancang untuk melindungi data pribadi Anda. Tab Anda hanya disimpan di komputer Anda, dan tidak pernah dibagikan kepada pengembang OneTab maupun pihak lain mana pun.\nJika Anda menggunakan fitur pencadangan/sinkronisasi kami, data Anda akan dienkripsi end‑to‑end dengan enkripsi AES‑256 yang kuat. Ini membuat pengembang OneTab tidak mungkin melihat tab yang Anda cadangkan atau sinkronkan antar perangkat, karena hanya Anda yang memiliki kunci enkripsi. \nSatu‑satunya pengecualian adalah jika Anda dengan sengaja memutuskan untuk membagikan sebagian tab Anda kepada orang lain menggunakan fitur \"Bagikan sebagai halaman web\".\nKami percaya pada Privasi Utama."
+   },
+   "privateBrowsingPermissionRequired": {
+      "message": "OneTab memerlukan izin untuk membuat jendela pribadi."
+   },
+   "privateBrowsingWindows": {
+      "message": "Jendela Penjelajahan Pribadi"
+   },
+   "quickList": {
+      "message": "Daftar cepat"
+   },
+   "rating": {
+      "message": "Rating"
+   },
+   "readingList": {
+      "message": "Daftar bacaan"
+   },
+   "readingListPermissionNecesssary": {
+      "message": "Izin daftar bacaan diperlukan untuk mengizinkan OneTab mengimpor item dari daftar bacaan Anda. Jika fitur ini tidak berfungsi, browser Anda mungkin tidak mendukung daftar bacaan."
+   },
+   "recent": {
+      "message": "Terbaru"
+   },
+   "recentDestinationsColon": {
+      "message": "Tujuan terbaru:"
+   },
+   "recentDuplicateRetainedHelp": {
+      "message": "Jika sebuah tab muncul lebih dari sekali, hanya duplikat yang paling baru yang akan dipertahankan"
+   },
+   "recentlyAccessed": {
+      "message": "Terakhir diakses"
+   },
+   "recentlyCreated": {
+      "message": "Terakhir dibuat"
+   },
+   "recentlyModified": {
+      "message": "Terakhir diubah"
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "message": "Kurangi penggunaan memori sebesar 95%"
+   },
+   "removeDuplicateTabsHere_few": {
+      "message": "Hapus {COUNT} tab duplikat di sini"
+   },
+   "removeDuplicateTabsHere_many": {
+      "message": "Hapus {COUNT} tab duplikat di sini"
+   },
+   "removeDuplicateTabsHere_one": {
+      "message": "Hapus {COUNT} tab duplikat di sini"
+   },
+   "removeDuplicateTabsHere_other": {
+      "message": "Hapus {COUNT} tab duplikat di sini"
+   },
+   "removeDuplicateTabsHere_two": {
+      "message": "Hapus {COUNT} tab duplikat di sini"
+   },
+   "removeDuplicateTabsHere_zero": {
+      "message": "Hapus {COUNT} tab duplikat di sini"
+   },
+   "removeDuplicates": {
+      "message": "Hapus duplikat"
+   },
+   "removeFromQuickList": {
+      "message": "Hapus dari daftar cepat"
+   },
+   "removeTabsElsewhereAlsoHere_few": {
+      "message": "Hapus {COUNT} tab di tempat lain yang juga ada di sini"
+   },
+   "removeTabsElsewhereAlsoHere_many": {
+      "message": "Hapus {COUNT} tab di tempat lain yang juga ada di sini"
+   },
+   "removeTabsElsewhereAlsoHere_one": {
+      "message": "Hapus {COUNT} tab di tempat lain yang juga ada di sini"
+   },
+   "removeTabsElsewhereAlsoHere_other": {
+      "message": "Hapus {COUNT} tab di tempat lain yang juga ada di sini"
+   },
+   "removeTabsElsewhereAlsoHere_two": {
+      "message": "Hapus {COUNT} tab di tempat lain yang juga ada di sini"
+   },
+   "removeTabsElsewhereAlsoHere_zero": {
+      "message": "Hapus {COUNT} tab di tempat lain yang juga ada di sini"
+   },
+   "removeTabsHereAlsoElsewhere_few": {
+      "message": "Hapus {COUNT} tab di sini yang juga ada di tempat lain"
+   },
+   "removeTabsHereAlsoElsewhere_many": {
+      "message": "Hapus {COUNT} tab di sini yang juga ada di tempat lain"
+   },
+   "removeTabsHereAlsoElsewhere_one": {
+      "message": "Hapus {COUNT} tab di sini yang juga ada di tempat lain"
+   },
+   "removeTabsHereAlsoElsewhere_other": {
+      "message": "Hapus {COUNT} tab di sini yang juga ada di tempat lain"
+   },
+   "removeTabsHereAlsoElsewhere_two": {
+      "message": "Hapus {COUNT} tab di sini yang juga ada di tempat lain"
+   },
+   "removeTabsHereAlsoElsewhere_zero": {
+      "message": "Hapus {COUNT} tab di sini yang juga ada di tempat lain"
+   },
+   "rename": {
+      "message": "Ganti nama"
+   },
+   "restore": {
+      "message": "Pulihkan"
+   },
+   "restrictSearchToFolderColon": {
+      "message": "Batasi pencarian ke folder berikut:"
+   },
+   "results": {
+      "message": "Hasil"
+   },
+   "returnToOneTab": {
+      "message": "Kembali ke OneTab"
+   },
+   "reverse": {
+      "message": "Balikkan"
+   },
+   "rightClickAndOpenOneTabMenu": {
+      "message": "Klik kanan di dalam halaman web, lalu buka menu OneTab"
+   },
+   "rightClickMenuDisabledNote": {
+      "message": "Catatan: Anda telah menonaktifkan menu klik kanan OneTab. Harap aktifkan di halaman opsi OneTab."
+   },
+   "rightClickSelectionOptionsTip": {
+      "message": "Tips: Setelah Anda mencentang item, klik kanan ikon centang untuk melihat lebih banyak opsi pemilihan"
+   },
+   "rightClickTickTip": {
+      "message": "Tips: Klik kanan ikon centang di samping setiap tab untuk alat pemilihan"
+   },
+   "safariApproveOneTabInSettings": {
+      "message": "Silakan buka Pengaturan, dan setujui OneTab untuk mengakses semua situs web."
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "message": "Hemat hingga 95% memori dan kurangi kekacauan tab di Google Chrome"
+   },
+   "searchHere": {
+      "message": "Cari di sini"
+   },
+   "searchOneTab": {
+      "message": "Cari OneTab"
+   },
+   "secondExampleLink": {
+      "message": "Tautan Contoh Kedua"
+   },
+   "secondExampleLinkTitle": {
+      "message": "Judul Tautan Contoh Kedua"
+   },
+   "secondExampleLinkTitleOptional": {
+      "message": "Judul Tautan Contoh Kedua (opsional)"
+   },
+   "seeOtherTabsInThisGroup_few": {
+      "message": "Lihat {COUNT} tab lain di grup ini"
+   },
+   "seeOtherTabsInThisGroup_many": {
+      "message": "Lihat {COUNT} tab lain di grup ini"
+   },
+   "seeOtherTabsInThisGroup_one": {
+      "message": "Lihat {COUNT} tab lain di grup ini"
+   },
+   "seeOtherTabsInThisGroup_other": {
+      "message": "Lihat {COUNT} tab lain di grup ini"
+   },
+   "seeOtherTabsInThisGroup_two": {
+      "message": "Lihat {COUNT} tab lain di grup ini"
+   },
+   "seeOtherTabsInThisGroup_zero": {
+      "message": "Lihat {COUNT} tab lain di grup ini"
+   },
+   "seePasteInstructions": {
+      "message": "Lihat petunjuk tempel…"
+   },
+   "seeTabsInThisGroup_few": {
+      "message": "Lihat {COUNT} tab di grup ini"
+   },
+   "seeTabsInThisGroup_many": {
+      "message": "Lihat {COUNT} tab di grup ini"
+   },
+   "seeTabsInThisGroup_one": {
+      "message": "Lihat {COUNT} tab di grup ini"
+   },
+   "seeTabsInThisGroup_other": {
+      "message": "Lihat {COUNT} tab di grup ini"
+   },
+   "seeTabsInThisGroup_two": {
+      "message": "Lihat {COUNT} tab di grup ini"
+   },
+   "seeTabsInThisGroup_zero": {
+      "message": "Lihat {COUNT} tab di grup ini"
+   },
+   "selectAll": {
+      "message": "Pilih semua"
+   },
+   "selectAllExceptThis": {
+      "message": "Pilih semua kecuali ini"
+   },
+   "selectThisAndAbove": {
+      "message": "Pilih ini dan semua di atas"
+   },
+   "selectThisAndBelow": {
+      "message": "Pilih ini dan semua di bawah"
+   },
+   "selectedItemCount_few": {
+      "message": "{COUNT} item"
+   },
+   "selectedItemCount_many": {
+      "message": "{COUNT} item"
+   },
+   "selectedItemCount_one": {
+      "message": "{COUNT} item"
+   },
+   "selectedItemCount_other": {
+      "message": "{COUNT} item"
+   },
+   "selectedItemCount_two": {
+      "message": "{COUNT} item"
+   },
+   "selectedItemCount_zero": {
+      "message": "{COUNT} item"
+   },
+   "selection": {
+      "message": "Pilihan"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "message": "Kirim semua tab dari semua jendela ke OneTab"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "message": "Kirim semua tab kecuali tab ini ke OneTab"
+   },
+   "sendAllTabsInGroupToOneTab": {
+      "message": "Kirim semua tab di grup tab ini ke OneTab"
+   },
+   "sendAllTabsInWindowToOneTab": {
+      "message": "Kirim semua tab di jendela ini ke OneTab"
+   },
+   "sendCurrentTabToOneTab": {
+      "message": "Kirim tab saat ini ke OneTab"
+   },
+   "sendLeftTabsToOneTab": {
+      "message": "Kirim tab di sebelah kiri ke OneTab"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "message": "Kirim hanya tab ini ke OneTab"
+   },
+   "sendRightTabsToOneTab": {
+      "message": "Kirim tab di sebelah kanan ke OneTab"
+   },
+   "sendSelectedTabsToOneTab": {
+      "message": "Kirim tab terpilih ke OneTab"
+   },
+   "sendThisWebLinkToOneTab": {
+      "message": "Kirim tautan web ini ke OneTab"
+   },
+   "serverUnreachable": {
+      "message": "Server tidak dapat dijangkau. Periksa koneksi internet Anda."
+   },
+   "share": {
+      "message": "Bagikan"
+   },
+   "shareAsAWebPage": {
+      "message": "Bagikan sebagai halaman web"
+   },
+   "shared": {
+      "message": "Dibagikan"
+   },
+   "sharedExpiresColon": {
+      "message": "Dibagikan sebagai halaman web. Kedaluwarsa:"
+   },
+   "sharedPageOptions": {
+      "message": "Opsi halaman yang dibagikan"
+   },
+   "sharedPageTabLimit_few": {
+      "message": "Halaman yang dibagikan dibatasi hingga {COUNT} tab"
+   },
+   "sharedPageTabLimit_many": {
+      "message": "Halaman yang dibagikan dibatasi hingga {COUNT} tab"
+   },
+   "sharedPageTabLimit_one": {
+      "message": "Halaman yang dibagikan dibatasi hingga {COUNT} tab"
+   },
+   "sharedPageTabLimit_other": {
+      "message": "Halaman yang dibagikan dibatasi hingga {COUNT} tab"
+   },
+   "sharedPageTabLimit_two": {
+      "message": "Halaman yang dibagikan dibatasi hingga {COUNT} tab"
+   },
+   "sharedPageTabLimit_zero": {
+      "message": "Halaman yang dibagikan dibatasi hingga {COUNT} tab"
+   },
+   "sharedPageWillAutomaticallyExpire": {
+      "message": "Halaman yang dibagikan akan kedaluwarsa otomatis, tetapi Anda dapat memperpanjang tanggal kedaluwarsanya kapan saja."
+   },
+   "shiftDragShortcutInfo": {
+      "message": "Tahan tombol Shift saat melepas sebuah tab untuk membuat salinannya alih-alih memindahkannya. Penting: Tekan tombol Shift hanya setelah Anda mulai menyeret."
+   },
+   "showEverything": {
+      "message": "Tampilkan semua"
+   },
+   "showFoldersOnly": {
+      "message": "Tampilkan hanya folder"
+   },
+   "showNamedItemsOnly": {
+      "message": "Tampilkan hanya item bernama"
+   },
+   "showNamedOnly": {
+      "message": "Tampilkan hanya item bernama"
+   },
+   "showNextCount_few": {
+      "message": "Tampilkan {COUNT} berikutnya"
+   },
+   "showNextCount_many": {
+      "message": "Tampilkan {COUNT} berikutnya"
+   },
+   "showNextCount_one": {
+      "message": "Tampilkan {COUNT} berikutnya"
+   },
+   "showNextCount_other": {
+      "message": "Tampilkan {COUNT} berikutnya"
+   },
+   "showNextCount_two": {
+      "message": "Tampilkan {COUNT} berikutnya"
+   },
+   "showNextCount_zero": {
+      "message": "Tampilkan {COUNT} berikutnya"
+   },
+   "showPreviousCount_few": {
+      "message": "Tampilkan {COUNT} sebelumnya"
+   },
+   "showPreviousCount_many": {
+      "message": "Tampilkan {COUNT} sebelumnya"
+   },
+   "showPreviousCount_one": {
+      "message": "Tampilkan {COUNT} sebelumnya"
+   },
+   "showPreviousCount_other": {
+      "message": "Tampilkan {COUNT} sebelumnya"
+   },
+   "showPreviousCount_two": {
+      "message": "Tampilkan {COUNT} sebelumnya"
+   },
+   "showPreviousCount_zero": {
+      "message": "Tampilkan {COUNT} sebelumnya"
+   },
+   "soon": {
+      "message": "segera"
+   },
+   "sort": {
+      "message": "Urutkan"
+   },
+   "sortByColon": {
+      "message": "Urutkan menurut:"
+   },
+   "sortGroups": {
+      "message": "Urutkan grup"
+   },
+   "sourceColon": {
+      "message": "Sumber:"
+   },
+   "starRatingTooltip": {
+      "message": "Tetapkan rating bintang"
+   },
+   "storeSelectedTabsInONETAB_few": {
+      "message": "Simpan {COUNT} tab terpilih di ONETAB"
+   },
+   "storeSelectedTabsInONETAB_many": {
+      "message": "Simpan {COUNT} tab terpilih di ONETAB"
+   },
+   "storeSelectedTabsInONETAB_one": {
+      "message": "Simpan {COUNT} tab terpilih di ONETAB"
+   },
+   "storeSelectedTabsInONETAB_other": {
+      "message": "Simpan {COUNT} tab terpilih di ONETAB"
+   },
+   "storeSelectedTabsInONETAB_two": {
+      "message": "Simpan {COUNT} tab terpilih di ONETAB"
+   },
+   "storeSelectedTabsInONETAB_zero": {
+      "message": "Simpan {COUNT} tab terpilih di ONETAB"
+   },
+   "storeTabInAdditionalLocation": {
+      "message": "Simpan tab Anda di lokasi tambahan"
+   },
+   "storeTabInONETAB": {
+      "message": "Simpan tab di ONETAB"
+   },
+   "storeTabsInAdditionalLocation": {
+      "message": "Simpan tab Anda di lokasi tambahan"
+   },
+   "storeTabsInONETAB": {
+      "message": "Simpan tab di ONETAB"
+   },
+   "subFoldersNotShared": {
+      "message": "Perhatikan bahwa sub-folder tidak dibagikan. Hanya grup yang langsung berada di dalam folder yang dibagikan."
+   },
+   "tab": {
+      "message": "tab"
+   },
+   "tabAlreadyStoredHere": {
+      "message": "Tab terbuka Anda sudah disimpan di sini:"
+   },
+   "tabCaretTooltipTitleNotes": {
+      "message": "Edit judul dan catatan tab"
+   },
+   "tabCaretTooltipTitleNotesUrl": {
+      "message": "Edit judul, URL, dan catatan tab"
+   },
+   "tabCount_few": {
+      "message": "{COUNT} tab"
+   },
+   "tabCount_many": {
+      "message": "{COUNT} tab"
+   },
+   "tabCount_one": {
+      "message": "{COUNT} tab"
+   },
+   "tabCount_other": {
+      "message": "{COUNT} tab"
+   },
+   "tabCount_two": {
+      "message": "{COUNT} tab"
+   },
+   "tabCount_zero": {
+      "message": "{COUNT} tab"
+   },
+   "tabGroupColorColon": {
+      "message": "Warna grup tab:"
+   },
+   "tabShortcutInfo": {
+      "message": "Saat berada di halaman OneTab, tekan tombol Tab untuk memindahkan fokus antar grup di kolom tengah. Ini memudahkan Anda melewati grup dengan cepat, terutama jika ukurannya besar. Jika sebuah grup memiliki fokus, tekan tombol Enter untuk membukanya. Gunakan Shift+Tab untuk memindahkan fokus mundur."
+   },
+   "tabTotalCount_few": {
+      "message": "Total: {COUNT} tab"
+   },
+   "tabTotalCount_many": {
+      "message": "Total: {COUNT} tab"
+   },
+   "tabTotalCount_one": {
+      "message": "Total: {COUNT} tab"
+   },
+   "tabTotalCount_other": {
+      "message": "Total: {COUNT} tab"
+   },
+   "tabTotalCount_two": {
+      "message": "Total: {COUNT} tab"
+   },
+   "tabTotalCount_zero": {
+      "message": "Total: {COUNT} tab"
+   },
+   "tabs": {
+      "message": "Tab"
+   },
+   "tabsFromExcludedDomains": {
+      "message": "tab dari domain yang dikecualikan"
+   },
+   "tabsInTabGroups": {
+      "message": "tab dalam grup tab"
+   },
+   "taskTotalCount_few": {
+      "message": "{COUNT} total"
+   },
+   "taskTotalCount_many": {
+      "message": "{COUNT} total"
+   },
+   "taskTotalCount_one": {
+      "message": "{COUNT} total"
+   },
+   "taskTotalCount_other": {
+      "message": "{COUNT} total"
+   },
+   "taskTotalCount_two": {
+      "message": "{COUNT} total"
+   },
+   "taskTotalCount_zero": {
+      "message": "{COUNT} total"
+   },
+   "tasks": {
+      "message": "Tugas"
+   },
+   "tasksDone": {
+      "message": "Tugas (selesai)"
+   },
+   "tasksPending": {
+      "message": "Tugas (tertunda)"
+   },
+   "tasksWillAppearHere": {
+      "message": "Jika Anda menandai tab atau grup sebagai tugas, item tersebut akan muncul di sini."
+   },
+   "thenClickToolbarIcon": {
+      "message": "Lalu, klik lagi ikon OneTab di toolbar browser Anda untuk menggunakan OneTab."
+   },
+   "thisFolderIsEmpty": {
+      "message": "Folder ini kosong"
+   },
+   "thisTab": {
+      "message": "Tab ini"
+   },
+   "thisTabGroup": {
+      "message": "Grup tab ini"
+   },
+   "thisTabNotStored": {
+      "message": "Tab ini tidak disimpan di OneTab"
+   },
+   "thisWindow": {
+      "message": "Jendela ini"
+   },
+   "tickOrUntickToExclude": {
+      "message": "Centang atau hapus centang untuk mengecualikan situs web tersebut"
+   },
+   "title": {
+      "message": "Judul"
+   },
+   "toAddOrRemoveExclusions": {
+      "message": "Untuk menambah atau menghapus situs web dari daftar pengecualian:"
+   },
+   "toAllowOneTabInIncognito": {
+      "message": "Agar ikon OneTab muncul di jendela penyamaran: "
+   },
+   "toImportBrowserBookmarksUseMenuOption": {
+      "message": "Untuk mengimpor dari bookmark browser, gunakan opsi menu 'Impor tautan di sini' di halaman OneTab Anda"
+   },
+   "toMakeOpenButtonWorkApprovePermission": {
+      "message": "Agar tombol 'Buka' di halaman yang dibagikan berfungsi, setujui permintaan izin."
+   },
+   "toSaveChangesClickButton": {
+      "message": "Untuk menyimpan perubahan Anda, klik tombol"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "message": "Terlalu banyak tab? Ubah tab Anda menjadi daftar dan percepat Firefox"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "message": "Terlalu banyak tab? Ubah tab Anda menjadi daftar dan percepat Safari"
+   },
+   "total0Tabs": {
+      "message": "Total: 0 tab"
+   },
+   "trash": {
+      "message": "Tempat Sampah"
+   },
+   "unMarkAsTask": {
+      "message": "Hapus tanda sebagai tugas"
+   },
+   "unPin": {
+      "message": "Lepas sematan"
+   },
+   "unlock": {
+      "message": "Buka kunci"
+   },
+   "unmarkAsArchived": {
+      "message": "Hapus tanda diarsipkan"
+   },
+   "unshare": {
+      "message": "Batalkan berbagi"
+   },
+   "untitled": {
+      "message": "Tanpa judul"
+   },
+   "update": {
+      "message": "Perbarui"
+   },
+   "userLanguage": {
+      "message": "Bahasa Indonesia"
+   },
+   "website": {
+      "message": "Situs web"
+   },
+   "yearCount_few": {
+      "message": "{COUNT} tahun"
+   },
+   "yearCount_many": {
+      "message": "{COUNT} tahun"
+   },
+   "yearCount_one": {
+      "message": "{COUNT} tahun"
+   },
+   "yearCount_other": {
+      "message": "{COUNT} tahun"
+   },
+   "yearCount_two": {
+      "message": "{COUNT} tahun"
+   },
+   "yearCount_zero": {
+      "message": "{COUNT} tahun"
+   },
+   "yourTabAlreadyStoredHere": {
+      "message": "Tab Anda sudah disimpan di sini:"
+   }
+}

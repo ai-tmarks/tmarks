@@ -4,6 +4,7 @@ import { useDeleteTag, useUpdateTag } from '@/hooks/useTags'
 import { ConfirmDialog } from '@/components/common/ConfirmDialog'
 import { AlertDialog } from '@/components/common/AlertDialog'
 import { TagFormModal } from './TagFormModal'
+import { logger } from '@/lib/logger'
 
 interface TagManageModalProps {
   tags: Tag[]
@@ -50,7 +51,7 @@ export function TagManageModal({ tags, onClose }: TagManageModalProps) {
       setSuccessMessage('标签已成功更新')
       setShowSuccessAlert(true)
     } catch (error) {
-      console.error('Failed to update tag:', error)
+      logger.error('Failed to update tag:', error)
       setErrorMessage('更新失败，请重试')
       setShowErrorAlert(true)
     }
@@ -81,7 +82,7 @@ export function TagManageModal({ tags, onClose }: TagManageModalProps) {
       setSuccessMessage('标签已成功删除')
       setShowSuccessAlert(true)
     } catch (error) {
-      console.error('Failed to delete tag:', error)
+      logger.error('Failed to delete tag:', error)
       setErrorMessage('删除失败，请重试')
       setShowErrorAlert(true)
     } finally {

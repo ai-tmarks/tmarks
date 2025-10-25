@@ -4,6 +4,7 @@ import { bookmarkService } from '@/lib/services/bookmark-service';
 import { bookmarkAPI } from '@/lib/services/bookmark-api';
 import { StorageService } from '@/lib/utils/storage';
 import type { Message, MessageResponse } from '@/types';
+import { TIMEOUTS } from '@/lib/constants/urls';
 
 /**
  * Background service worker for Chrome Extension
@@ -141,7 +142,7 @@ async function handleMessage(
           const response = await Promise.race([
             chrome.tabs.sendMessage(tab.id, message),
             new Promise((_, reject) =>
-              setTimeout(() => reject(new Error('Message timeout')), 5000)
+              setTimeout(() => reject(new Error('Message timeout')), TIMEOUTS.CONTENT_SCRIPT_INJECTION)
             )
           ]);
           return response;

@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <title>OneTab - Permission required</title>
+
+
+    <link rel="icon" type="image/png" sizes="32x32" href="images/extension-icon32.png">
+
+  <style>
+
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url("fonts/OpenSans-Light-webfont.woff") format('woff');
+  }
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url("fonts/OpenSans-Regular-webfont.woff") format("woff");
+  }
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Open Sans Italic'), local('OpenSans-Italic'), url("fonts/OpenSans-Italic-webfont.woff") format("woff");
+  }
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url("fonts/OpenSans-Semibold-webfont.woff") format('woff');
+  }
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url("fonts/OpenSans-Bold-webfont.woff") format('woff');
+  }
+
+  </style>
+
+  <link href="onetab.css" rel="stylesheet" type="text/css" />
+
+  <style>
+    body {
+      background-color: #fbfcfd
+    }
+  </style>
+
+  <script src="ext-onetab-concatenated-sources-localisation.js"></script>
+
+</head>
+
+<body>
+
+<div style="height:90px; text-align: center;">
+  <picture style="display:inline-block; vertical-align:middle; height: 57px; width: 208px; padding-inline: 19px 0; padding-block: 19px 8px">
+    <source srcset="https://www.one-tab.com/web/images/top-left-logo-light.png"/>
+    <img src="https://www.one-tab.com/web/images/top-left-logo-light.png" style="width: 100%; height: 100%;">
+  </picture>
+  <div style="display:inline-block; margin-inline-start:30px; font-size:20px; font-weight: 300; vertical-align: middle; margin-top:16px; margin-inline-end:30px">Permission required</div>
+</div>
+
+
+<div style="text-align:center; margin-inline-start: auto; margin-inline-end: auto; min-width: 720px; ">
+  <div style="max-width: 500px; margin:auto; text-align: start">
+    <p data-m="oneTabNeedsPermissionToAccessYourTabs"/>
+    <p data-m="safariApproveOneTabInSettings"/>
+    <p><b><span data-m="privacyAssurance"/></b><br/><span data-m="privacyAssuranceDetail"></span></p>
+  </div>
+
+  <div style="padding-inline-start:36px; padding-top:10px; padding-bottom: 10px">
+    <img src="https://www.one-tab.com/web/images/help/safari-permissions.jpg" style="width:600px">
+  </div>
+</div>
+
+</body>
+
+</html>

@@ -112,14 +112,59 @@ export function TodoSidebar({ tabGroups, onUpdate }: TodoSidebarProps) {
     }
   }
 
-  const handleMove = (_itemId: string) => {
-    // TODO: Implement move to another group functionality
-    showError('移动功能即将推出')
+  const handleMove = async (itemId: string, currentGroupId: string) => {
+    // 获取所有可用的分组（排除当前分组）
+    const availableGroups = tabGroups.filter(g => g.id !== currentGroupId && !g.is_folder)
+    
+    if (availableGroups.length === 0) {
+      showError('没有可移动到的分组')
+      return
+    }
+
+    // 简单实现：移动到第一个可用分组
+    // TODO: 添加分组选择对话框
+    const targetGroup = availableGroups[0]
+    
+    if (!targetGroup) {
+      showError('没有可移动到的分组')
+      return
+    }
+    
+    if (!confirm(`确定要将此标签页移动到"${targetGroup.title}"吗？`)) {
+      return
+    }
+
+    setProcessingId(itemId)
+    try {
+      await tabGroupsService.moveTabGroupItem(itemId, targetGroup.id)
+      success(`已移动到"${targetGroup.title}"`)
+      onUpdate()
+    } catch (err) {
+      console.error('Failed to move item:', err)
+      showError('移动失败，请重试')
+    } finally {
+      setProcessingId(null)
+    }
   }
 
-  const handleArchive = (_itemId: string) => {
-    // TODO: Implement archive functionality
-    showError('归档功能即将推出')
+  const handleArchive = async (itemId: string) => {
+    if (!confirm('确定要归档这个标签页吗？归档后可以在归档视图中查看。')) {
+      return
+    }
+
+    setProcessingId(itemId)
+    try {
+      await tabGroupsService.updateTabGroupItem(itemId, {
+        is_archived: 1,
+      })
+      success('标签页已归档')
+      onUpdate()
+    } catch (err) {
+      console.error('Failed to archive item:', err)
+      showError('归档失败，请重试')
+    } finally {
+      setProcessingId(null)
+    }
   }
 
   return (
@@ -161,7 +206,7 @@ export function TodoSidebar({ tabGroups, onUpdate }: TodoSidebarProps) {
             </p>
           </div>
         ) : (
-          sortedTodos.map(({ item, groupTitle }) => {
+          sortedTodos.map(({ item, groupId, groupTitle }) => {
             const relativeTime = item.created_at
               ? formatDistanceToNow(new Date(item.created_at), { addSuffix: true, locale: zhCN })
               : ''
@@ -293,7 +338,7 @@ export function TodoSidebar({ tabGroups, onUpdate }: TodoSidebarProps) {
                       {
                         label: '移动到其他分组',
                         icon: <FolderInput className="w-4 h-4" />,
-                        onClick: () => handleMove(item.id),
+                        onClick: () => handleMove(item.id, groupId),
                       },
                       {
                         label: '标记为已归档',

@@ -27,6 +27,8 @@ interface TabGroupItemRow {
   favicon: string | null
   position: number
   created_at: string
+  is_pinned?: number
+  is_todo?: number
 }
 
 interface CreateTabGroupRequest {

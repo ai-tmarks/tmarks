@@ -147,7 +147,10 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
       if (!tagsByBookmark.has(tag.bookmark_id)) {
         tagsByBookmark.set(tag.bookmark_id, [])
       }
-      tagsByBookmark.get(tag.bookmark_id)!.push({ id: tag.id, name: tag.name, color: tag.color })
+      const tags = tagsByBookmark.get(tag.bookmark_id)
+      if (tags) {
+        tags.push({ id: tag.id, name: tag.name, color: tag.color })
+      }
     }
 
     const bookmarks = bookmarksToProcess.map((row) => ({

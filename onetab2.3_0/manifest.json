@@ -1,0 +1,50 @@
+{
+   "action": {
+      "default_icon": {
+         "19": "images/icon19.png",
+         "38": "images/icon38.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "ext-onetab-concatenated-sources-background.js"
+   },
+   "commands": {
+      "display-onetab": {
+         "description": "__MSG_openOneTab__",
+         "suggested_key": {
+            "default": "Alt+Shift+1"
+         }
+      },
+      "send-current-tab-to-onetab": {
+         "description": "__MSG_sendCurrentTabToOneTab__"
+      }
+   },
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'; img-src 'self' data: https://t2.gstatic.com;"
+   },
+   "default_locale": "en",
+   "description": "__MSG_manifestDescription__",
+   "icons": {
+      "128": "images/extension-icon128.png",
+      "16": "images/extension-icon16.png",
+      "32": "images/extension-icon32.png",
+      "48": "images/extension-icon48.png",
+      "64": "images/extension-icon64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDs2r/nSa4MRBoDT1pBx+Q9gI0JaTBaIrsD4uKT9oA4HUF2xboeOA1BDw3lmoJ4G8BL0tAbJTcEnxlkTsCY7C413MojaeDZy4pza3RJqkMAKiJisl8t8eiP+c0ox3l1syb1xmI7EEIouXIxlCX8LGoguB0AuWtunGLCjiLoM2vJLQIDAQAB",
+   "manifest_version": 3,
+   "name": "OneTab",
+   "omnibox": {
+      "keyword": "1"
+   },
+   "optional_host_permissions": [ "https://www.one-tab.com/*" ],
+   "optional_permissions": [ "readingList", "tabGroups", "bookmarks" ],
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "favicon", "unlimitedStorage", "storage", "tabs", "activeTab", "scripting", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.3"
+}

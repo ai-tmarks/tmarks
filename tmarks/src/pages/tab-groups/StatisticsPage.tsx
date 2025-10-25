@@ -3,6 +3,7 @@ import { BarChart3, TrendingUp, Layers, Share2, Archive, Globe, ArrowLeft } from
 import { Link } from 'react-router-dom'
 import { tabGroupsService } from '@/services/tab-groups'
 import type { StatisticsResponse } from '@/lib/types'
+import { logger } from '@/lib/logger'
 
 export function StatisticsPage() {
   const [statistics, setStatistics] = useState<StatisticsResponse | null>(null)
@@ -21,7 +22,7 @@ export function StatisticsPage() {
       const data = await tabGroupsService.getStatistics(days)
       setStatistics(data)
     } catch (err) {
-      console.error('Failed to load statistics:', err)
+      logger.error('Failed to load statistics:', err)
       setError('加载统计数据失败')
     } finally {
       setIsLoading(false)

@@ -7,6 +7,7 @@ import { formatDistanceToNow } from 'date-fns'
 import { zhCN } from 'date-fns/locale'
 import { useToastStore } from '@/stores/toastStore'
 import { ConfirmDialog } from '@/components/common/ConfirmDialog'
+import { logger } from '@/lib/logger'
 
 export function TrashPage() {
   const { success, error: showError } = useToastStore()
@@ -38,7 +39,7 @@ export function TrashPage() {
       const response = await tabGroupsService.getTrash()
       setTabGroups(response.tab_groups)
     } catch (err) {
-      console.error('Failed to load trash:', err)
+      logger.error('Failed to load trash:', err)
       setError('加载回收站失败')
     } finally {
       setIsLoading(false)
@@ -57,7 +58,7 @@ export function TrashPage() {
           setTabGroups((prev) => prev.filter((g) => g.id !== id))
           success('恢复成功')
         } catch (err) {
-          console.error('Failed to restore:', err)
+          logger.error('Failed to restore:', err)
           showError('恢复失败，请重试')
         }
       },
@@ -76,7 +77,7 @@ export function TrashPage() {
           setTabGroups((prev) => prev.filter((g) => g.id !== id))
           success('删除成功')
         } catch (err) {
-          console.error('Failed to delete:', err)
+          logger.error('Failed to delete:', err)
           showError('删除失败，请重试')
         }
       },

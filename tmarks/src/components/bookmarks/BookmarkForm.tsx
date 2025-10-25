@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { logger } from '@/lib/logger'
 import { useCreateBookmark, useUpdateBookmark, useDeleteBookmark } from '@/hooks/useBookmarks'
 import { useCreateTag, useTags } from '@/hooks/useTags'
 import { bookmarksService } from '@/services/bookmarks'
@@ -37,11 +38,19 @@ export function BookmarkForm({ bookmark, onClose, onSuccess }: BookmarkFormProps
   const { data: tagsData } = useTags()
   const tags = tagsData?.tags || []
 
-  // URL 变化时检查是否已存在
+  // URL 变化时检查是否已存在（优化版：增加预检查和延长防抖时间）
   useEffect(() => {
     const checkUrl = async () => {
       if (!url.trim() || isEditing) {
         setUrlWarning(null)
+        setCheckingUrl(false)
+        return
+      }
+
+      // 跳过太短的 URL（减少不必要的检查）
+      if (url.trim().length < 10) {
+        setUrlWarning(null)
+        setCheckingUrl(false)
         return
       }
 
@@ -49,6 +58,7 @@ export function BookmarkForm({ bookmark, onClose, onSuccess }: BookmarkFormProps
         new URL(url)
       } catch {
         setUrlWarning(null)
+        setCheckingUrl(false)
         return
       }
 
@@ -61,13 +71,14 @@ export function BookmarkForm({ bookmark, onClose, onSuccess }: BookmarkFormProps
           setUrlWarning(null)
         }
       } catch (error) {
-        console.error('Failed to check URL:', error)
+        logger.error('Failed to check URL:', error)
       } finally {
         setCheckingUrl(false)
       }
     }
 
-    const timeoutId = setTimeout(checkUrl, 500)
+    // 增加防抖时间到 800ms，减少 API 调用
+    const timeoutId = setTimeout(checkUrl, 800)
     return () => clearTimeout(timeoutId)
   }, [url, isEditing])
 

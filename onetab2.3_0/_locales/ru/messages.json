@@ -1,0 +1,1715 @@
+{
+   "95PctMemoryReduction": {
+      "message": "Сокращение использования памяти на 95%"
+   },
+   "Folder": {
+      "message": "Папка"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "message": "OneTab также доступен для Firefox"
+   },
+   "aDashZ": {
+      "message": "А–Я"
+   },
+   "about": {
+      "message": "О расширении"
+   },
+   "addOneTabNow": {
+      "message": "Добавить OneTab сейчас"
+   },
+   "all": {
+      "message": "Все"
+   },
+   "allBookmarks": {
+      "message": "Все закладки"
+   },
+   "allOpenTabsAlreadyStoredHere": {
+      "message": "Все открытые вкладки уже сохранены здесь:"
+   },
+   "allowFileAccessInstructions": {
+      "message": "Чтобы разрешить открывать файлы напрямую, перейдите в Настройки ➝ Расширения ➝ OneTab ➝ Подробнее ➝ Разрешить доступ к URL‑адресам файлов"
+   },
+   "alreadyExistingOpenTabsWillBeClosedAfterMerge": {
+      "message": "Все открытые вкладки, которые уже есть в этой группе, будут закрыты после объединения."
+   },
+   "alternatePlainTextFormat": {
+      "message": "Либо обычный текст может быть в формате:"
+   },
+   "approve": {
+      "message": "Одобрить"
+   },
+   "archived": {
+      "message": "В архиве"
+   },
+   "autoTheme": {
+      "message": "Автоматически (как в системе)"
+   },
+   "backupAndSync": {
+      "message": "Резервное копирование и синхронизация"
+   },
+   "betaReleaseReportBugsHere": {
+      "message": "Бета‑версия — сообщить об ошибках"
+   },
+   "bookmarkCount_few": {
+      "message": "{COUNT} закладки"
+   },
+   "bookmarkCount_many": {
+      "message": "{COUNT} закладок"
+   },
+   "bookmarkCount_one": {
+      "message": "{COUNT} закладка"
+   },
+   "bookmarkCount_other": {
+      "message": "{COUNT} закладок"
+   },
+   "bookmarkCount_two": {
+      "message": "{COUNT} закладки"
+   },
+   "bookmarkCount_zero": {
+      "message": "{COUNT} закладок"
+   },
+   "bookmarksPermissionNecesssary": {
+      "message": "Разрешение на доступ к закладкам необходимо, чтобы OneTab мог импортировать ваши закладки браузера"
+   },
+   "bulkActions": {
+      "message": "Массовые действия"
+   },
+   "canDragTextNote": {
+      "message": "Примечание: можно также перетащить текст, содержащий веб‑ссылки, прямо с другой веб‑страницы или из документа. Вы можете перетащить текст прямо на страницу OneTab, не используя это поле импорта."
+   },
+   "canPasteWebContentForExample": {
+      "message": "Можно вставить текст, скопированный с веб‑страницы или из документа — ссылки будут извлечены автоматически. Например:"
+   },
+   "cancel": {
+      "message": "Отмена"
+   },
+   "cannotConnectToServerDeletionRequestQueued": {
+      "message": "Не удаётся подключиться к серверу OneTab. Проверьте подключение к интернету. Ваш запрос на удаление опубликованной страницы поставлен в локальную очередь и будет автоматически отправлен на сервер OneTab, как только он снова станет доступен."
+   },
+   "cannotCreateTabGroupInTabGroup": {
+      "message": "Выбранное место — это группа вкладок. Нельзя создать группу вкладок внутри существующей группы вкладок. Пожалуйста, выберите другое место."
+   },
+   "cannotMixTabsGroupsFoldersDuringDrag": {
+      "message": "Нельзя смешивать вкладки, группы и папки при перетаскивании. Например, папку нельзя перетаскивать туда же, куда можно перетаскивать вкладку."
+   },
+   "caseSensitive": {
+      "message": "С учётом регистра"
+   },
+   "changesMadeSinceSharedPageCreation": {
+      "message": "После создания опубликованной страницы были внесены изменения. Нажмите «Обновить», чтобы обновить существующую опубликованную страницу."
+   },
+   "checkboxesDeterminePinnedAndGroupedTabMergeInclusion": {
+      "message": "Флажки вверху страницы определяют, включать ли закреплённые вкладки и вкладки в группах вкладок в объединение."
+   },
+   "chooseALocation": {
+      "message": "Выберите место"
+   },
+   "chooseALocationToImportTo": {
+      "message": "Выберите место для импорта"
+   },
+   "chooseExportLocation": {
+      "message": "Выберите источник экспорта"
+   },
+   "chooseLightDarkTheme": {
+      "message": "Выберите светлую/тёмную тему"
+   },
+   "chooseLocationToCopyTo": {
+      "message": "Выберите место для копирования"
+   },
+   "chooseLocationToMoveTo": {
+      "message": "Выберите место для перемещения"
+   },
+   "chooseLocationToRestoreTo": {
+      "message": "Выберите место для восстановления"
+   },
+   "chooseToIncludeNotes": {
+      "message": "Если вы добавили заметки к вкладкам или группам, выберите, включать ли их в опубликованную веб‑страницу"
+   },
+   "chooseToIncludeRatings": {
+      "message": "Если вы добавили к вкладкам или группам оценки, выберите, включать ли их в опубликованную веб‑страницу"
+   },
+   "chromeIncognitoInstructions": {
+      "message": "В настройках браузера перейдите в «Настройки» → «Расширения» → «OneTab» → «Подробнее», затем включите «Разрешить в режиме инкогнито»."
+   },
+   "clickButtonToAllowTabAccess": {
+      "message": "Нажмите кнопку ниже, чтобы разрешить OneTab доступ к вашим открытым вкладкам."
+   },
+   "clickHereToContinue": {
+      "message": "Нажмите здесь, чтобы продолжить."
+   },
+   "clickOneTabIconToStoreTabsHere": {
+      "message": "Нажмите значок OneTab на панели инструментов вашего браузера, чтобы сохранить здесь ваши открытые вкладки."
+   },
+   "closeSelectedTabsAndStoreInONETAB_few": {
+      "message": "Закрыть {COUNT} выбранные вкладки и сохранить в ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_many": {
+      "message": "Закрыть {COUNT} выбранных вкладок и сохранить в ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_one": {
+      "message": "Закрыть {COUNT} выбранную вкладку и сохранить в ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_other": {
+      "message": "Закрыть {COUNT} выбранных вкладок и сохранить в ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_two": {
+      "message": "Закрыть {COUNT} выбранные вкладки и сохранить в ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_zero": {
+      "message": "Закрыть {COUNT} выбранных вкладок и сохранить в ONETAB"
+   },
+   "closeSelectedTabs_few": {
+      "message": "Закрыть {COUNT} выбранные вкладки"
+   },
+   "closeSelectedTabs_many": {
+      "message": "Закрыть {COUNT} выбранных вкладок"
+   },
+   "closeSelectedTabs_one": {
+      "message": "Закрыть {COUNT} выбранную вкладку"
+   },
+   "closeSelectedTabs_other": {
+      "message": "Закрыть {COUNT} выбранных вкладок"
+   },
+   "closeSelectedTabs_two": {
+      "message": "Закрыть {COUNT} выбранные вкладки"
+   },
+   "closeSelectedTabs_zero": {
+      "message": "Закрыть {COUNT} выбранных вкладок"
+   },
+   "closeTab": {
+      "message": "Закрыть вкладку"
+   },
+   "closeTabAndStore": {
+      "message": "Закрыть вкладку и сохранить в ONETAB"
+   },
+   "closeTabs": {
+      "message": "Закрыть вкладки"
+   },
+   "closeTabsAfterMerge": {
+      "message": "Закрывать вкладки после объединения"
+   },
+   "closeTabsAlreadyStoredInOneTab_few": {
+      "message": "Закрыть {COUNT} вкладки, уже сохранённые в OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_many": {
+      "message": "Закрыть {COUNT} вкладок, уже сохранённых в OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_one": {
+      "message": "Закрыть {COUNT} вкладку, уже сохранённую в OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_other": {
+      "message": "Закрыть {COUNT} вкладок, уже сохранённых в OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_two": {
+      "message": "Закрыть {COUNT} вкладки, уже сохранённые в OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_zero": {
+      "message": "Закрыть {COUNT} вкладок, уже сохранённых в OneTab"
+   },
+   "closeTabsAndStore": {
+      "message": "Закрыть вкладки и сохранить в ONETAB"
+   },
+   "closeTheseDuplicates": {
+      "message": "Закрыть эти дубликаты"
+   },
+   "closeThisDuplicate": {
+      "message": "Закрыть этот дубликат"
+   },
+   "completeEditingShortcutInfo": {
+      "message": "При редактировании поля заметки используйте эту комбинацию, чтобы завершить редактирование."
+   },
+   "configureShortcuts": {
+      "message": "Настроить горячие клавиши"
+   },
+   "conflictingShortcutsHint": {
+      "message": "Если какие‑то горячие клавиши выше не работают или конфликтуют с другими приложениями, вы можете назначить другую комбинацию."
+   },
+   "continue": {
+      "message": "Продолжить"
+   },
+   "convertTabsIntoAList": {
+      "message": "Преобразовать вкладки в список"
+   },
+   "copiedToClipboard": {
+      "message": "Скопировано в буфер обмена"
+   },
+   "copy": {
+      "message": "Копировать"
+   },
+   "copyLinksToClipboard": {
+      "message": "Копировать ссылки в буфер обмена"
+   },
+   "copySharedPageUrl": {
+      "message": "Скопировать URL опубликованной страницы"
+   },
+   "copyToClipboard": {
+      "message": "Копировать в буфер обмена"
+   },
+   "createANewGroupHere": {
+      "message": "Создать здесь новую группу"
+   },
+   "createFolderAbove": {
+      "message": "Создать папку выше"
+   },
+   "createFolderAboveBelow": {
+      "message": "Создать папку выше / ниже"
+   },
+   "createFolderAboveWithinBelow": {
+      "message": "Создать папку выше / внутри / ниже"
+   },
+   "createFolderBelow": {
+      "message": "Создать папку ниже"
+   },
+   "createFolderWithin": {
+      "message": "Создать папку внутри"
+   },
+   "createGroupAbove": {
+      "message": "Создать группу выше"
+   },
+   "createGroupAboveBelow": {
+      "message": "Создать группу выше / ниже"
+   },
+   "createGroupAboveWithinBelow": {
+      "message": "Создать группу выше / внутри / ниже"
+   },
+   "createGroupBelow": {
+      "message": "Создать группу ниже"
+   },
+   "createGroupInsideDestination": {
+      "message": "Создать новую группу внутри места назначения"
+   },
+   "createGroupInsideDestinationHelp": {
+      "message": "Если флажок снят, вкладки будут добавлены прямо в группу назначения. Если установлен, для ваших вкладок внутри группы назначения будет создана новая группа вкладок браузера. Отмечайте этот флажок только если хотите использовать функцию браузера «группы вкладок»."
+   },
+   "createGroupWithin": {
+      "message": "Создать группу внутри"
+   },
+   "createNewGroupTip": {
+      "message": "Чтобы создать новую группу, снимите флажок «Показывать только папки»"
+   },
+   "createdOnOrAfterColon": {
+      "message": "Создано не ранее:"
+   },
+   "createdOnOrBeforeColon": {
+      "message": "Создано не позднее:"
+   },
+   "createdPreceedingDate": {
+      "message": "Создано"
+   },
+   "darkTheme": {
+      "message": "Тёмная тема"
+   },
+   "dayCount_few": {
+      "message": "{COUNT} дня"
+   },
+   "dayCount_many": {
+      "message": "{COUNT} дней"
+   },
+   "dayCount_one": {
+      "message": "{COUNT} день"
+   },
+   "dayCount_other": {
+      "message": "{COUNT} дней"
+   },
+   "dayCount_two": {
+      "message": "{COUNT} дня"
+   },
+   "dayCount_zero": {
+      "message": "{COUNT} дней"
+   },
+   "delete": {
+      "message": "Удалить"
+   },
+   "deleteAllTrash": {
+      "message": "Очистить корзину"
+   },
+   "deleteThisCopy": {
+      "message": "Удалить эту копию"
+   },
+   "deselectAll": {
+      "message": "Снять все отметки"
+   },
+   "destinationColon": {
+      "message": "Назначение:"
+   },
+   "disabled": {
+      "message": "Отключено"
+   },
+   "doneTaskCount_few": {
+      "message": "{COUNT} выполнено"
+   },
+   "doneTaskCount_many": {
+      "message": "{COUNT} выполнено"
+   },
+   "doneTaskCount_one": {
+      "message": "{COUNT} выполнено"
+   },
+   "doneTaskCount_other": {
+      "message": "{COUNT} выполнено"
+   },
+   "doneTaskCount_two": {
+      "message": "{COUNT} выполнено"
+   },
+   "doneTaskCount_zero": {
+      "message": "{COUNT} выполнено"
+   },
+   "dontCloseGroupedTabs": {
+      "message": "Не закрывать вкладки в группах вкладок"
+   },
+   "dontClosePinnedTabs": {
+      "message": "Не закрывать закреплённые вкладки"
+   },
+   "dontCloseTabsFromDomains": {
+      "message": "Не закрывать вкладки с EXAMPLE.COM"
+   },
+   "dragTabsHereForQuickList": {
+      "message": "Перетащите сюда сохранённые вкладки или группы — они добавятся в ваш быстрый список."
+   },
+   "editTabGroupTitleAndNotes": {
+      "message": "Изменить название и заметки группы вкладок"
+   },
+   "emojiShortcutInfo": {
+      "message": "При редактировании поля заметки используйте эту комбинацию, чтобы открыть выбор эмодзи."
+   },
+   "emptyInBrackets": {
+      "message": "(пусто)"
+   },
+   "emptyOneTabInfoMsg": {
+      "message": "Когда у вас открыто много вкладок, нажмите значок OneTab на панели инструментов браузера — ваши открытые вкладки появятся здесь."
+   },
+   "enabled": {
+      "message": "Включено"
+   },
+   "encryptedSyncAndBackup": {
+      "message": "Синхронизация и резервное копирование с шифрованием"
+   },
+   "encryptedSyncAndBackupComingSoonMessage": {
+      "message": "Скоро: вы сможете синхронизировать данные OneTab между несколькими профилями браузера и компьютерами.\nOneTab полностью переписан, чтобы изменения, сделанные на одном устройстве, мгновенно появлялись на всех остальных.\nЕсли вы воспользуетесь этой функцией, ваши данные будут шифроваться сквозным шифрованием AES‑256 с высокой стойкостью. Это делает невозможным для разработчиков OneTab увидеть вкладки, которые вы сохранили в резервной копии или синхронизировали между устройствами, потому что ключ шифрования есть только у вас."
+   },
+   "everything": {
+      "message": "Всё"
+   },
+   "exampleLink": {
+      "message": "Пример ссылки"
+   },
+   "exampleLinkTitle": {
+      "message": "Пример заголовка ссылки"
+   },
+   "exampleLinkTitleOptional": {
+      "message": "Пример заголовка ссылки (необязательно)"
+   },
+   "exampleRichTextParagraph": {
+      "message": "Пример абзаца текста с PLACEHOLDER и PLACEHOLDER"
+   },
+   "exampleWebsitePageTitle": {
+      "message": "Пример заголовка веб‑страницы"
+   },
+   "excludeDomainFromOneTab": {
+      "message": "Исключить EXAMPLE.COM из OneTab"
+   },
+   "excludeWebSiteFromOneTab": {
+      "message": "Исключить этот сайт из OneTab"
+   },
+   "expiresColon": {
+      "message": "Срок действия:"
+   },
+   "export": {
+      "message": "Экспорт"
+   },
+   "exportImportUrls": {
+      "message": "Экспорт / Импорт URL"
+   },
+   "exportThenImportNote": {
+      "message": "Этот список URL можно также импортировать обратно в OneTab на этом или другом компьютере"
+   },
+   "exportUrls": {
+      "message": "Экспорт URL"
+   },
+   "feedback": {
+      "message": "Отправить отзыв"
+   },
+   "filter": {
+      "message": "Фильтр"
+   },
+   "firefoxIncognitoInstructions": {
+      "message": "В настройках браузера перейдите в «Настройки» → «Дополнения и темы» → «Расширения» → «OneTab» → «…» → «Управлять», затем включите «Запускать в приватных окнах»."
+   },
+   "firefoxShortcutConfigInstructions": {
+      "message": "Введите URL \"about:addons?type=extension\" в адресную строку браузера. На открывшейся странице нажмите значок шестерёнки, затем выберите «Управление комбинациями клавиш расширений»"
+   },
+   "folderCount_few": {
+      "message": "{COUNT} папки"
+   },
+   "folderCount_many": {
+      "message": "{COUNT} папок"
+   },
+   "folderCount_one": {
+      "message": "{COUNT} папка"
+   },
+   "folderCount_other": {
+      "message": "{COUNT} папок"
+   },
+   "folderCount_two": {
+      "message": "{COUNT} папки"
+   },
+   "folderCount_zero": {
+      "message": "{COUNT} папок"
+   },
+   "folders": {
+      "message": "Папки"
+   },
+   "foldersOnly": {
+      "message": "Только папки"
+   },
+   "gettingStarted": {
+      "message": "Начало работы"
+   },
+   "goToParentFolder": {
+      "message": "Перейти к родительской папке"
+   },
+   "groupCount_few": {
+      "message": "{COUNT} группы"
+   },
+   "groupCount_many": {
+      "message": "{COUNT} групп"
+   },
+   "groupCount_one": {
+      "message": "{COUNT} группа"
+   },
+   "groupCount_other": {
+      "message": "{COUNT} групп"
+   },
+   "groupCount_two": {
+      "message": "{COUNT} группы"
+   },
+   "groupCount_zero": {
+      "message": "{COUNT} групп"
+   },
+   "groups": {
+      "message": "Группы"
+   },
+   "hasNotes": {
+      "message": "С заметками"
+   },
+   "hasRating": {
+      "message": "С оценкой"
+   },
+   "help": {
+      "message": "Справка"
+   },
+   "hideArchivedItems": {
+      "message": "Скрывать архивные элементы"
+   },
+   "import": {
+      "message": "Импорт"
+   },
+   "importAndExport": {
+      "message": "Импорт и экспорт"
+   },
+   "importBookmarks": {
+      "message": "Импорт закладок"
+   },
+   "importFolderAndSubfolders": {
+      "message": "Импортировать папку и вложенные папки"
+   },
+   "importLinksHere": {
+      "message": "Импортировать ссылки сюда"
+   },
+   "importReadingList": {
+      "message": "Импорт списка для чтения"
+   },
+   "importText": {
+      "message": "Импорт текста"
+   },
+   "importUrls": {
+      "message": "Импорт URL"
+   },
+   "importedBookmarks": {
+      "message": "Импортированные закладки"
+   },
+   "includeGroupedTabs": {
+      "message": "Включить вкладки в группах вкладок"
+   },
+   "includeNotes": {
+      "message": "Включить заметки"
+   },
+   "includePinnedTabs": {
+      "message": "Включить закреплённые вкладки"
+   },
+   "includeStarRatings": {
+      "message": "Включить оценки"
+   },
+   "includeTabsAlreadyStored": {
+      "message": "Включить вкладки, которые вы уже сохранили"
+   },
+   "includeTabsFromDomains": {
+      "message": "Включить вкладки с EXAMPLE.COM"
+   },
+   "incogitoPermissionRequired": {
+      "message": "OneTab требуется разрешение на создание окон в режиме инкогнито."
+   },
+   "incognitoWindows": {
+      "message": "Окна в режиме инкогнито"
+   },
+   "invertSelection": {
+      "message": "Инвертировать выделение"
+   },
+   "justNow": {
+      "message": "только что"
+   },
+   "keyboardShortcutsColon": {
+      "message": "Горячие клавиши:"
+   },
+   "languageTitle": {
+      "message": "Язык:"
+   },
+   "lightTheme": {
+      "message": "Светлая тема"
+   },
+   "localeId": {
+      "message": "ru"
+   },
+   "locationColon": {
+      "message": "Расположение:"
+   },
+   "lock": {
+      "message": "Заблокировать"
+   },
+   "lockMenuItemHelp": {
+      "message": "Когда группа заблокирована, нельзя удалять или менять порядок элементов внутри неё. При открытии заблокированной группы автоматические действия не применяются. Подробности об автоматических действиях смотрите на странице настроек."
+   },
+   "lockedGroupUnlockHelp": {
+      "message": "Чтобы снять блокировку, используйте выпадающее меню. Когда группа заблокирована, вы не можете удалять группу или её вкладки, а вкладки нельзя переупорядочивать."
+   },
+   "makeThisATask": {
+      "message": "Пометить как задачу"
+   },
+   "manifestDescription": {
+      "message": "Экономьте до 95% памяти и уменьшайте нагромождение вкладок"
+   },
+   "markAsArchived": {
+      "message": "Пометить как архивированное"
+   },
+   "markAsArchivedMenuItemHelp": {
+      "message": "Учтите, что архивные задачи и задачи в архивных группах не отображаются в колонке задач"
+   },
+   "markAsDoneTask": {
+      "message": "Пометить как выполненную задачу"
+   },
+   "markAsPendingTask": {
+      "message": "Пометить как задачу «в ожидании»"
+   },
+   "matchCount_few": {
+      "message": "{COUNT} совпадения"
+   },
+   "matchCount_many": {
+      "message": "{COUNT} совпадений"
+   },
+   "matchCount_one": {
+      "message": "{COUNT} совпадение"
+   },
+   "matchCount_other": {
+      "message": "{COUNT} совпадений"
+   },
+   "matchCount_two": {
+      "message": "{COUNT} совпадения"
+   },
+   "matchCount_zero": {
+      "message": "{COUNT} совпадений"
+   },
+   "matchWholeWordsOnly": {
+      "message": "Только целые слова"
+   },
+   "mayNeedToRestartBrowser": {
+      "message": "Возможно, потребуется обновить и перезапустить браузер."
+   },
+   "mergeIntoParent": {
+      "message": "Объединить с родительским элементом"
+   },
+   "mergeOpenTabsHere_few": {
+      "message": "Объединить здесь {COUNT} открытые вкладки"
+   },
+   "mergeOpenTabsHere_many": {
+      "message": "Объединить здесь {COUNT} открытых вкладок"
+   },
+   "mergeOpenTabsHere_one": {
+      "message": "Объединить здесь {COUNT} открытую вкладку"
+   },
+   "mergeOpenTabsHere_other": {
+      "message": "Объединить здесь {COUNT} открытых вкладок"
+   },
+   "mergeOpenTabsHere_two": {
+      "message": "Объединить здесь {COUNT} открытые вкладки"
+   },
+   "mergeOpenTabsHere_zero": {
+      "message": "Объединить здесь {COUNT} открытых вкладок"
+   },
+   "mergeSelectedTabsHere_few": {
+      "message": "Объединить здесь {COUNT} выбранные вкладки"
+   },
+   "mergeSelectedTabsHere_many": {
+      "message": "Объединить здесь {COUNT} выбранных вкладок"
+   },
+   "mergeSelectedTabsHere_one": {
+      "message": "Объединить здесь {COUNT} выбранную вкладку"
+   },
+   "mergeSelectedTabsHere_other": {
+      "message": "Объединить здесь {COUNT} выбранных вкладок"
+   },
+   "mergeSelectedTabsHere_two": {
+      "message": "Объединить здесь {COUNT} выбранные вкладки"
+   },
+   "mergeSelectedTabsHere_zero": {
+      "message": "Объединить здесь {COUNT} выбранных вкладок"
+   },
+   "mergeWithInnerGroups": {
+      "message": "Объединить с внутренними группами"
+   },
+   "modifySharing": {
+      "message": "Изменить публикацию"
+   },
+   "moreEllipsis": {
+      "message": "Ещё…"
+   },
+   "moreSearchFilters": {
+      "message": "Дополнительные фильтры поиска"
+   },
+   "moreTripleDot": {
+      "message": "Ещё…"
+   },
+   "move": {
+      "message": "Переместить"
+   },
+   "moveToTrash": {
+      "message": "Переместить в корзину"
+   },
+   "namedOnly": {
+      "message": "Только с названиями"
+   },
+   "navigationFilter": {
+      "message": "Фильтр навигации"
+   },
+   "newExclamation": {
+      "message": "Новое!"
+   },
+   "noDupsExistExceptForColon": {
+      "message": "Дубликатов нет, за исключением:"
+   },
+   "noDupsFoundHere": {
+      "message": "Дубликаты не найдены"
+   },
+   "noMatches": {
+      "message": "Совпадений не найдено"
+   },
+   "noMatchesFound": {
+      "message": "Совпадений не найдено"
+   },
+   "noOpenTabsToStore": {
+      "message": "В этом окне нет открытых вкладок для сохранения."
+   },
+   "noReadingListEntries": {
+      "message": "В списке для чтения ничего не найдено"
+   },
+   "noTabsInOneTabYet": {
+      "message": "В OneTab пока нет ваших вкладок"
+   },
+   "noTabsMeetCriteriaUseCheckboxes": {
+      "message": "Нет открытых вкладок, соответствующих критериям. Используйте флажки выше."
+   },
+   "noTextHasBeenEntered": {
+      "message": "Текст не введён"
+   },
+   "nonArchived": {
+      "message": "Не в архиве"
+   },
+   "notAssigned": {
+      "message": "Не назначено"
+   },
+   "notes": {
+      "message": "Заметки"
+   },
+   "notesAboutTheLinkOptional": {
+      "message": "Заметки о ссылке (необязательно)"
+   },
+   "notesAboutTheSecondLinkOptional": {
+      "message": "Заметки о второй ссылке (необязательно)"
+   },
+   "ok": {
+      "message": "ОК"
+   },
+   "omniboxShortcutInfo": {
+      "message": "Чтобы искать по списку OneTab с любой вкладки: в адресной строке браузера введите 1, затем пробел, затем ключевое слово поиска."
+   },
+   "oneTabDesignedToProtectPrivacy": {
+      "message": "OneTab разработан для защиты вашей конфиденциальности. Ваши вкладки нам не передаются."
+   },
+   "oneTabImportExportPageTitle": {
+      "message": "OneTab — импорт/экспорт"
+   },
+   "oneTabNeedsPermissionToAccessYourTabs": {
+      "message": "OneTab требуется разрешение на доступ к вашим вкладкам."
+   },
+   "oneTabOptionsPageTitle": {
+      "message": "OneTab — настройки"
+   },
+   "oneTabPermissionRequired": {
+      "message": "OneTab — требуется разрешение"
+   },
+   "oneTabRestartRequired": {
+      "message": "Требуется перезапуск OneTab."
+   },
+   "oneTabSlashShortcutInfo": {
+      "message": "На странице OneTab нажмите клавишу /, чтобы перейти к полю поиска."
+   },
+   "open": {
+      "message": "Открыть"
+   },
+   "openActionPopup": {
+      "message": "Открыть всплывающее окно"
+   },
+   "openAsCollapsedTabGroup": {
+      "message": "Открывать как «свёрнутую» группу вкладок"
+   },
+   "openAsCollapsedTabGroupMenuItemHelp": {
+      "message": "Если открыть эти вкладки как свёрнутую «группу вкладок», будет показана только метка группы, пока вы не нажмёте на неё, чтобы увидеть вкладки внутри."
+   },
+   "openAsTabGroup": {
+      "message": "Открывать как «группу вкладок»"
+   },
+   "openAsTabGroupMenuItemHelp": {
+      "message": "Ваш браузер позволяет группировать вкладки в цветные «группы вкладок» внутри окна."
+   },
+   "openGroupsLimitNotice_few": {
+      "message": "Чтобы предотвратить перегрузку браузера, откроются только первые {COUNT} группы."
+   },
+   "openGroupsLimitNotice_many": {
+      "message": "Чтобы предотвратить перегрузку браузера, откроются только первые {COUNT} групп."
+   },
+   "openGroupsLimitNotice_one": {
+      "message": "Чтобы предотвратить перегрузку браузера, откроется только первая группа ({COUNT})."
+   },
+   "openGroupsLimitNotice_other": {
+      "message": "Чтобы предотвратить перегрузку браузера, откроются только первые {COUNT} групп."
+   },
+   "openGroupsLimitNotice_two": {
+      "message": "Чтобы предотвратить перегрузку браузера, откроются только первые {COUNT} группы."
+   },
+   "openGroupsLimitNotice_zero": {
+      "message": "Чтобы предотвратить перегрузку браузера, откроются только первые {COUNT} групп."
+   },
+   "openInIncognitoWindow": {
+      "message": "Открыть в новом окне в режиме инкогнито"
+   },
+   "openInNewWindow": {
+      "message": "Открыть в новом окне"
+   },
+   "openInThisWindow": {
+      "message": "Открыть в этом окне"
+   },
+   "openONETABLogo": {
+      "message": "Открыть ONETAB"
+   },
+   "openOneTab": {
+      "message": "Открыть OneTab"
+   },
+   "openOneTabAfter": {
+      "message": "Открыть OneTab после сохранения вкладок"
+   },
+   "openTabFromWebsite": {
+      "message": "Откройте вкладку и перейдите на сайт"
+   },
+   "openTabLimit_few": {
+      "message": "Чтобы предотвратить перегрузку браузера, одновременно можно открыть не более {COUNT} вкладок."
+   },
+   "openTabLimit_many": {
+      "message": "Чтобы предотвратить перегрузку браузера, одновременно можно открыть не более {COUNT} вкладок."
+   },
+   "openTabLimit_one": {
+      "message": "Чтобы предотвратить перегрузку браузера, одновременно можно открыть не более {COUNT} вкладки."
+   },
+   "openTabLimit_other": {
+      "message": "Чтобы предотвратить перегрузку браузера, одновременно можно открыть не более {COUNT} вкладок."
+   },
+   "openTabLimit_two": {
+      "message": "Чтобы предотвратить перегрузку браузера, одновременно можно открыть не более {COUNT} вкладок."
+   },
+   "openTabLimit_zero": {
+      "message": "Чтобы предотвратить перегрузку браузера, одновременно можно открыть не более {COUNT} вкладок."
+   },
+   "openTabsAlreadyStoredHere_few": {
+      "message": "{COUNT} открытые вкладки уже сохранены здесь:"
+   },
+   "openTabsAlreadyStoredHere_many": {
+      "message": "{COUNT} открытых вкладок уже сохранено здесь:"
+   },
+   "openTabsAlreadyStoredHere_one": {
+      "message": "{COUNT} открытая вкладка уже сохранена здесь:"
+   },
+   "openTabsAlreadyStoredHere_other": {
+      "message": "{COUNT} открытых вкладок уже сохранено здесь:"
+   },
+   "openTabsAlreadyStoredHere_two": {
+      "message": "{COUNT} открытые вкладки уже сохранены здесь:"
+   },
+   "openTabsAlreadyStoredHere_zero": {
+      "message": "{COUNT} открытых вкладок уже сохранено здесь:"
+   },
+   "openTabsConfirm_few": {
+      "message": "Вы собираетесь открыть {COUNT} вкладки. Вы уверены?"
+   },
+   "openTabsConfirm_many": {
+      "message": "Вы собираетесь открыть {COUNT} вкладок. Вы уверены?"
+   },
+   "openTabsConfirm_one": {
+      "message": "Вы собираетесь открыть {COUNT} вкладку. Вы уверены?"
+   },
+   "openTabsConfirm_other": {
+      "message": "Вы собираетесь открыть {COUNT} вкладок. Вы уверены?"
+   },
+   "openTabsConfirm_two": {
+      "message": "Вы собираетесь открыть {COUNT} вкладки. Вы уверены?"
+   },
+   "openTabsConfirm_zero": {
+      "message": "Вы собираетесь открыть {COUNT} вкладок. Вы уверены?"
+   },
+   "openTabsNotStoredInOneTab_few": {
+      "message": "{COUNT} открытые вкладки не сохранены в OneTab"
+   },
+   "openTabsNotStoredInOneTab_many": {
+      "message": "{COUNT} открытых вкладок не сохранено в OneTab"
+   },
+   "openTabsNotStoredInOneTab_one": {
+      "message": "{COUNT} открытая вкладка не сохранена в OneTab"
+   },
+   "openTabsNotStoredInOneTab_other": {
+      "message": "{COUNT} открытых вкладок не сохранено в OneTab"
+   },
+   "openTabsNotStoredInOneTab_two": {
+      "message": "{COUNT} открытые вкладки не сохранены в OneTab"
+   },
+   "openTabsNotStoredInOneTab_zero": {
+      "message": "{COUNT} открытых вкладок не сохранено в OneTab"
+   },
+   "optionAutoActionOnGroupOpenArchiveDesc": {
+      "message": "Чтобы не помечать группу как архивированную, удерживайте Alt/Option при открытии группы"
+   },
+   "optionAutoActionOnGroupOpenArchiveTitle": {
+      "message": "Открыть вкладки и пометить группу как архивированную"
+   },
+   "optionAutoActionOnGroupOpenHeading": {
+      "message": "Автоматическое действие при открытии группы:"
+   },
+   "optionAutoActionOnGroupOpenNote": {
+      "message": "Автоматические действия не применяются к группам, которые заблокированы или являются задачами."
+   },
+   "optionAutoActionOnGroupOpenOpenDesc": {
+      "message": "Чтобы пометить группу как архивированную, удерживайте Alt/Option при открытии группы"
+   },
+   "optionAutoActionOnGroupOpenOpenTitle": {
+      "message": "Только открыть вкладки"
+   },
+   "optionAutoActionOnGroupOpenTrashDesc": {
+      "message": "Чтобы не отправлять группу в корзину автоматически, удерживайте Alt/Option при открытии группы"
+   },
+   "optionAutoActionOnGroupOpenTrashTitle": {
+      "message": "Открыть вкладки и переместить группу в корзину"
+   },
+   "optionAutoActionOnTabOpenArchiveDesc": {
+      "message": "Чтобы не помечать вкладку как архивированную автоматически, удерживайте Alt/Option при открытии вкладки кликом"
+   },
+   "optionAutoActionOnTabOpenArchiveTitle": {
+      "message": "Открыть вкладку и пометить её как архивированную"
+   },
+   "optionAutoActionOnTabOpenHeading": {
+      "message": "Автоматическое действие при открытии вкладки:"
+   },
+   "optionAutoActionOnTabOpenNote": {
+      "message": "Автоматические действия не применяются к вкладкам в группах, которые заблокированы или являются задачами."
+   },
+   "optionAutoActionOnTabOpenOpenDesc": {
+      "message": "Чтобы пометить вкладку как архивированную, удерживайте Alt/Option при открытии вкладки кликом"
+   },
+   "optionAutoActionOnTabOpenOpenTitle": {
+      "message": "Только открыть вкладку"
+   },
+   "optionAutoActionOnTabOpenTrashDesc": {
+      "message": "Чтобы не отправлять вкладку в корзину автоматически, удерживайте Alt/Option при открытии вкладки кликом"
+   },
+   "optionAutoActionOnTabOpenTrashTitle": {
+      "message": "Открыть вкладку и переместить её в корзину"
+   },
+   "optionCopyToClipboardFormatHeading": {
+      "message": "Копирование ссылок в буфер обмена:"
+   },
+   "optionCopyToClipboardFormatNote": {
+      "message": "Эта настройка применяется при действии «Копировать в буфер обмена». Также вы можете перетаскивать вкладки и группы напрямую из OneTab в документ."
+   },
+   "optionCopyToClipboardFormatRichTextDesc": {
+      "message": "Приложения, такие как текстовые редакторы, позволят вставлять форматированный текст. Если не поддерживается, будет вставлен обычный текст."
+   },
+   "optionCopyToClipboardFormatRichTextTitle": {
+      "message": "Форматированный текст (если доступно)"
+   },
+   "optionCopyToClipboardFormatTitleUrlTitle": {
+      "message": "Заголовок и URL"
+   },
+   "optionCopyToClipboardFormatUrlOnlyTitle": {
+      "message": "Только URL"
+   },
+   "optionCopyToClipboardFormatUrlTitleTitle": {
+      "message": "URL и заголовок"
+   },
+   "optionDefaultTabGroupOpenTypeCurrentWindow": {
+      "message": "Открыть группу вкладок в текущем окне"
+   },
+   "optionDefaultTabGroupOpenTypeHeading": {
+      "message": "При открытии группы, настроенной открываться как «группа вкладок»:"
+   },
+   "optionDefaultTabGroupOpenTypeNewWindow": {
+      "message": "Открыть группу вкладок в новом окне"
+   },
+   "optionDefaultTabGroupOpenTypeNote": {
+      "message": "Если в выпадающем списке выбрать конкретный вариант (например, открывать вкладки в окне в режиме инкогнито), этот вариант будет запомнен для этой группы."
+   },
+   "optionDefaultWindowGroupOpenTypeCurrentWindow": {
+      "message": "Открыть вкладки в текущем окне"
+   },
+   "optionDefaultWindowGroupOpenTypeHeading": {
+      "message": "При открытии группы:"
+   },
+   "optionDefaultWindowGroupOpenTypeNewWindow": {
+      "message": "Открыть вкладки в новом окне"
+   },
+   "optionDefaultWindowGroupOpenTypeNote": {
+      "message": "Если в выпадающем списке выбрать конкретный вариант (например, открывать вкладки в окне в режиме инкогнито), этот вариант будет запомнен для этой группы."
+   },
+   "optionDiscardNonActiveTabOnOpenHeading": {
+      "message": "Сразу экономить память (RAM) при первом открытии вкладок:"
+   },
+   "optionDiscardNonActiveTabOnOpenNote": {
+      "message": "Если эта настройка включена, при первом открытии вкладок из вашего списка OneTab они сразу будут выгружены из памяти. Это полезно, если вы часто открываете десятки вкладок одновременно: они не будут загружаться в память, пока вы к ним не обратитесь. Если настройка выключена, многие браузеры всё равно могут автоматически выгружать неиспользуемые вкладки из памяти."
+   },
+   "optionDisplayContextMenuHeading": {
+      "message": "Щёлкните правой кнопкой мыши на веб‑странице, чтобы открыть контекстное меню OneTab:"
+   },
+   "optionDisplayContextMenuNote": {
+      "message": "Если выключите меню, вы не сможете использовать функцию «Исключить сайт из OneTab»"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenFalseTitle": {
+      "message": "Переключиться в окно, где вкладка OneTab уже открыта"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenHeading": {
+      "message": "Действие «Открыть OneTab»:"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenNote": {
+      "message": "К действию «Открыть OneTab» можно обратиться с помощью горячей клавиши. Оно также доступно во всплывающем окне, которое появляется при нажатии значка OneTab на панели инструментов браузера."
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenTrueTitle": {
+      "message": "Переместить любую открытую вкладку OneTab в текущее окно"
+   },
+   "optionStartupLaunchDisplay": {
+      "message": "Открывать OneTab при запуске браузера"
+   },
+   "optionStartupLaunchNone": {
+      "message": "Не открывать OneTab автоматически"
+   },
+   "optionStartupLaunchNoneDesc3": {
+      "message": "Чтобы открыть OneTab вручную, нажмите значок OneTab на панели инструментов браузера и выберите «Открыть OneTab». Либо щёлкните правой кнопкой мыши на любой веб‑странице и нажмите «Открыть OneTab» в меню OneTab."
+   },
+   "optionStartupLaunchTitle": {
+      "message": "Запуск:"
+   },
+   "optionSwitchToOpenedTabFalseTitle": {
+      "message": "Открыть вкладку и остаться в OneTab"
+   },
+   "optionSwitchToOpenedTabHeading": {
+      "message": "При открытии вкладок со страницы OneTab:"
+   },
+   "optionSwitchToOpenedTabNote": {
+      "message": "Если при клике удерживать Shift, вкладка откроется в новом окне"
+   },
+   "optionSwitchToOpenedTabTrueTitle": {
+      "message": "Открыть вкладку и перейти к ней (если при клике не удерживать Command ⌘/Ctrl)"
+   },
+   "optionUrlAbbr": {
+      "message": "Сокращённо"
+   },
+   "optionUrlDisplayTitle": {
+      "message": "Отображение URL:"
+   },
+   "optionUrlDomain": {
+      "message": "Только домен"
+   },
+   "optionUrlFull": {
+      "message": "Полностью"
+   },
+   "optionUrlNone": {
+      "message": "Не показывать"
+   },
+   "options": {
+      "message": "Настройки"
+   },
+   "otherCopiesColon": {
+      "message": "Другие копии:"
+   },
+   "pasteRichOrPlainTextBelow": {
+      "message": "Ниже можно вставить форматированный или обычный текст."
+   },
+   "pendingTaskCount_few": {
+      "message": "{COUNT} в ожидании"
+   },
+   "pendingTaskCount_many": {
+      "message": "{COUNT} в ожидании"
+   },
+   "pendingTaskCount_one": {
+      "message": "{COUNT} в ожидании"
+   },
+   "pendingTaskCount_other": {
+      "message": "{COUNT} в ожидании"
+   },
+   "pendingTaskCount_two": {
+      "message": "{COUNT} в ожидании"
+   },
+   "pendingTaskCount_zero": {
+      "message": "{COUNT} в ожидании"
+   },
+   "permissionRequiredPleaseTryAgain": {
+      "message": "Чтобы создать опубликованную страницу с доступом с любого компьютера, требуется разрешение на взаимодействие с веб‑сервером OneTab. Повторите попытку."
+   },
+   "pinToTopOfFolder": {
+      "message": "Закрепить вверху папки"
+   },
+   "pinToTopOfList": {
+      "message": "Закрепить вверху списка"
+   },
+   "pinnedTabs": {
+      "message": "закреплённые вкладки"
+   },
+   "placeholderAndOtherLocations_few": {
+      "message": "PLACEHOLDER и ещё {COUNT}"
+   },
+   "placeholderAndOtherLocations_many": {
+      "message": "PLACEHOLDER и ещё {COUNT}"
+   },
+   "placeholderAndOtherLocations_one": {
+      "message": "PLACEHOLDER и ещё {COUNT}"
+   },
+   "placeholderAndOtherLocations_other": {
+      "message": "PLACEHOLDER и ещё {COUNT}"
+   },
+   "placeholderAndOtherLocations_two": {
+      "message": "PLACEHOLDER и ещё {COUNT}"
+   },
+   "placeholderAndOtherLocations_zero": {
+      "message": "PLACEHOLDER и ещё {COUNT}"
+   },
+   "placeholderExplanation": {
+      "message": "Из-за правил безопасности браузера OneTab не может напрямую восстановить эту страницу. Скопируйте URL и вставьте его в адресную строку браузера."
+   },
+   "plainTextLineFormat": {
+      "message": "Если вы вставляете обычный текст, убедитесь, что у каждого URL указан протокол (https://wikipedia.org, а не просто wikipedia.org). Каждая строка должна быть в следующем формате:"
+   },
+   "pleaseWaitTripleDot": {
+      "message": "Подождите…"
+   },
+   "popupSlashShortcutInfo": {
+      "message": "Во всплывающем окне OneTab (которое появляется при нажатии значка OneTab) нажмите клавишу /, чтобы открыть выбор назначения и перейти к полю поиска."
+   },
+   "privacyAssurance": {
+      "message": "Гарантия конфиденциальности"
+   },
+   "privacyAssuranceDetail": {
+      "message": "Ваш список вкладок никогда не передаётся и не раскрывается ни разработчикам OneTab, ни каким-либо другим сторонам. Единственное исключение — если вы намеренно используете функцию «Опубликовать как веб‑страницу», чтобы загрузить свой список вкладок на веб‑страницу для совместного доступа."
+   },
+   "privacyFirst": {
+      "message": "Конфиденциальность прежде всего"
+   },
+   "privacyFirstMessage": {
+      "message": "OneTab разработан для защиты ваших персональных данных. Ваши вкладки хранятся только на вашем компьютере и никогда не передаются разработчикам OneTab или кому‑либо ещё.\nЕсли вы используете функцию резервного копирования/синхронизации, ваши данные шифруются сквозным шифрованием AES‑256 с высокой стойкостью. Это делает невозможным для разработчиков OneTab увидеть вкладки, которые вы сохранили в резервной копии или синхронизировали между устройствами, потому что ключ шифрования есть только у вас.\nЕдинственное исключение — если вы намеренно решите поделиться частью вкладок с другими людьми с помощью функции «Опубликовать как веб‑страницу».\nМы придерживаемся принципа «Конфиденциальность прежде всего»."
+   },
+   "privateBrowsingPermissionRequired": {
+      "message": "OneTab требуется разрешение на создание приватных окон."
+   },
+   "privateBrowsingWindows": {
+      "message": "Окна приватного просмотра"
+   },
+   "quickList": {
+      "message": "Быстрый список"
+   },
+   "rating": {
+      "message": "Оценка"
+   },
+   "readingList": {
+      "message": "Список для чтения"
+   },
+   "readingListPermissionNecesssary": {
+      "message": "Разрешение на доступ к списку для чтения необходимо, чтобы OneTab мог импортировать элементы из вашего списка для чтения. Если функция не работает, возможно, ваш браузер не поддерживает списки для чтения."
+   },
+   "recent": {
+      "message": "Недавние"
+   },
+   "recentDestinationsColon": {
+      "message": "Недавние места:"
+   },
+   "recentDuplicateRetainedHelp": {
+      "message": "Если вкладка встречается более одного раза, будет сохранён только самый недавний дубликат"
+   },
+   "recentlyAccessed": {
+      "message": "Недавно открытые"
+   },
+   "recentlyCreated": {
+      "message": "Недавно созданные"
+   },
+   "recentlyModified": {
+      "message": "Недавно изменённые"
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "message": "Сократите использование памяти на 95%"
+   },
+   "removeDuplicateTabsHere_few": {
+      "message": "Удалить здесь {COUNT} дубликата вкладок"
+   },
+   "removeDuplicateTabsHere_many": {
+      "message": "Удалить здесь {COUNT} дубликатов вкладок"
+   },
+   "removeDuplicateTabsHere_one": {
+      "message": "Удалить здесь {COUNT} дубликат вкладки"
+   },
+   "removeDuplicateTabsHere_other": {
+      "message": "Удалить здесь {COUNT} дубликатов вкладок"
+   },
+   "removeDuplicateTabsHere_two": {
+      "message": "Удалить здесь {COUNT} дубликата вкладок"
+   },
+   "removeDuplicateTabsHere_zero": {
+      "message": "Удалить здесь {COUNT} дубликатов вкладок"
+   },
+   "removeDuplicates": {
+      "message": "Удалить дубликаты"
+   },
+   "removeFromQuickList": {
+      "message": "Удалить из быстрого списка"
+   },
+   "removeTabsElsewhereAlsoHere_few": {
+      "message": "Удалить в других местах {COUNT} вкладки, которые также есть здесь"
+   },
+   "removeTabsElsewhereAlsoHere_many": {
+      "message": "Удалить в других местах {COUNT} вкладок, которые также есть здесь"
+   },
+   "removeTabsElsewhereAlsoHere_one": {
+      "message": "Удалить в других местах {COUNT} вкладку, которая также есть здесь"
+   },
+   "removeTabsElsewhereAlsoHere_other": {
+      "message": "Удалить в других местах {COUNT} вкладок, которые также есть здесь"
+   },
+   "removeTabsElsewhereAlsoHere_two": {
+      "message": "Удалить в других местах {COUNT} вкладки, которые также есть здесь"
+   },
+   "removeTabsElsewhereAlsoHere_zero": {
+      "message": "Удалить в других местах {COUNT} вкладок, которые также есть здесь"
+   },
+   "removeTabsHereAlsoElsewhere_few": {
+      "message": "Удалить здесь {COUNT} вкладки, которые также есть в других местах"
+   },
+   "removeTabsHereAlsoElsewhere_many": {
+      "message": "Удалить здесь {COUNT} вкладок, которые также есть в других местах"
+   },
+   "removeTabsHereAlsoElsewhere_one": {
+      "message": "Удалить здесь {COUNT} вкладку, которая также есть в других местах"
+   },
+   "removeTabsHereAlsoElsewhere_other": {
+      "message": "Удалить здесь {COUNT} вкладок, которые также есть в других местах"
+   },
+   "removeTabsHereAlsoElsewhere_two": {
+      "message": "Удалить здесь {COUNT} вкладки, которые также есть в других местах"
+   },
+   "removeTabsHereAlsoElsewhere_zero": {
+      "message": "Удалить здесь {COUNT} вкладок, которые также есть в других местах"
+   },
+   "rename": {
+      "message": "Переименовать"
+   },
+   "restore": {
+      "message": "Восстановить"
+   },
+   "restrictSearchToFolderColon": {
+      "message": "Ограничить поиск следующей папкой:"
+   },
+   "results": {
+      "message": "Результаты"
+   },
+   "returnToOneTab": {
+      "message": "Вернуться в OneTab"
+   },
+   "reverse": {
+      "message": "Обратить порядок"
+   },
+   "rightClickAndOpenOneTabMenu": {
+      "message": "Щёлкните правой кнопкой мыши на веб‑странице и откройте меню OneTab"
+   },
+   "rightClickMenuDisabledNote": {
+      "message": "Примечание: вы отключили контекстное меню OneTab. Включите его на странице настроек OneTab."
+   },
+   "rightClickSelectionOptionsTip": {
+      "message": "Подсказка: после отметки элемента щёлкните правой кнопкой по значку галочки, чтобы открыть дополнительные варианты выделения"
+   },
+   "rightClickTickTip": {
+      "message": "Подсказка: щёлкните правой кнопкой по значку галочки рядом с каждой вкладкой, чтобы открыть инструменты выделения"
+   },
+   "safariApproveOneTabInSettings": {
+      "message": "Перейдите в «Настройки» и разрешите OneTab доступ ко всем веб‑сайтам."
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "message": "Экономьте до 95% памяти и уменьшайте нагромождение вкладок в Google Chrome"
+   },
+   "searchHere": {
+      "message": "Искать здесь"
+   },
+   "searchOneTab": {
+      "message": "Поиск в OneTab"
+   },
+   "secondExampleLink": {
+      "message": "Второй пример ссылки"
+   },
+   "secondExampleLinkTitle": {
+      "message": "Второй пример заголовка ссылки"
+   },
+   "secondExampleLinkTitleOptional": {
+      "message": "Второй пример заголовка ссылки (необязательно)"
+   },
+   "seeOtherTabsInThisGroup_few": {
+      "message": "Показать {COUNT} другие вкладки в этой группе"
+   },
+   "seeOtherTabsInThisGroup_many": {
+      "message": "Показать {COUNT} других вкладок в этой группе"
+   },
+   "seeOtherTabsInThisGroup_one": {
+      "message": "Показать {COUNT} другую вкладку в этой группе"
+   },
+   "seeOtherTabsInThisGroup_other": {
+      "message": "Показать {COUNT} других вкладок в этой группе"
+   },
+   "seeOtherTabsInThisGroup_two": {
+      "message": "Показать {COUNT} другие вкладки в этой группе"
+   },
+   "seeOtherTabsInThisGroup_zero": {
+      "message": "Показать {COUNT} других вкладок в этой группе"
+   },
+   "seePasteInstructions": {
+      "message": "Показать инструкции по вставке…"
+   },
+   "seeTabsInThisGroup_few": {
+      "message": "Показать {COUNT} вкладки в этой группе"
+   },
+   "seeTabsInThisGroup_many": {
+      "message": "Показать {COUNT} вкладок в этой группе"
+   },
+   "seeTabsInThisGroup_one": {
+      "message": "Показать {COUNT} вкладку в этой группе"
+   },
+   "seeTabsInThisGroup_other": {
+      "message": "Показать {COUNT} вкладок в этой группе"
+   },
+   "seeTabsInThisGroup_two": {
+      "message": "Показать {COUNT} вкладки в этой группе"
+   },
+   "seeTabsInThisGroup_zero": {
+      "message": "Показать {COUNT} вкладок в этой группе"
+   },
+   "selectAll": {
+      "message": "Выделить всё"
+   },
+   "selectAllExceptThis": {
+      "message": "Выделить всё, кроме этого"
+   },
+   "selectThisAndAbove": {
+      "message": "Выделить этот элемент и все выше"
+   },
+   "selectThisAndBelow": {
+      "message": "Выделить этот элемент и все ниже"
+   },
+   "selectedItemCount_few": {
+      "message": "{COUNT} элемента"
+   },
+   "selectedItemCount_many": {
+      "message": "{COUNT} элементов"
+   },
+   "selectedItemCount_one": {
+      "message": "{COUNT} элемент"
+   },
+   "selectedItemCount_other": {
+      "message": "{COUNT} элементов"
+   },
+   "selectedItemCount_two": {
+      "message": "{COUNT} элемента"
+   },
+   "selectedItemCount_zero": {
+      "message": "{COUNT} элементов"
+   },
+   "selection": {
+      "message": "Выбор"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "message": "Отправить все вкладки из всех окон в OneTab"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "message": "Отправить все вкладки, кроме этой, в OneTab"
+   },
+   "sendAllTabsInGroupToOneTab": {
+      "message": "Отправить все вкладки из этой группы вкладок в OneTab"
+   },
+   "sendAllTabsInWindowToOneTab": {
+      "message": "Отправить все вкладки из этого окна в OneTab"
+   },
+   "sendCurrentTabToOneTab": {
+      "message": "Отправить текущую вкладку в OneTab"
+   },
+   "sendLeftTabsToOneTab": {
+      "message": "Отправить вкладки слева в OneTab"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "message": "Отправить только эту вкладку в OneTab"
+   },
+   "sendRightTabsToOneTab": {
+      "message": "Отправить вкладки справа в OneTab"
+   },
+   "sendSelectedTabsToOneTab": {
+      "message": "Отправить выбранные вкладки в OneTab"
+   },
+   "sendThisWebLinkToOneTab": {
+      "message": "Отправить эту ссылку в OneTab"
+   },
+   "serverUnreachable": {
+      "message": "Сервер недоступен. Проверьте подключение к интернету."
+   },
+   "share": {
+      "message": "Опубликовать"
+   },
+   "shareAsAWebPage": {
+      "message": "Опубликовать как веб‑страницу"
+   },
+   "shared": {
+      "message": "Опубликованные"
+   },
+   "sharedExpiresColon": {
+      "message": "Опубликовано как веб‑страница. Срок действия:"
+   },
+   "sharedPageOptions": {
+      "message": "Параметры опубликованной страницы"
+   },
+   "sharedPageTabLimit_few": {
+      "message": "Общие страницы ограничены {COUNT} вкладками"
+   },
+   "sharedPageTabLimit_many": {
+      "message": "Общие страницы ограничены {COUNT} вкладками"
+   },
+   "sharedPageTabLimit_one": {
+      "message": "Общие страницы ограничены {COUNT} вкладкой"
+   },
+   "sharedPageTabLimit_other": {
+      "message": "Общие страницы ограничены {COUNT} вкладками"
+   },
+   "sharedPageTabLimit_two": {
+      "message": "Общие страницы ограничены {COUNT} вкладками"
+   },
+   "sharedPageTabLimit_zero": {
+      "message": "Общие страницы ограничены {COUNT} вкладками"
+   },
+   "sharedPageWillAutomaticallyExpire": {
+      "message": "Срок действия опубликованной страницы истечёт автоматически, но вы можете продлить его в любое время."
+   },
+   "shiftDragShortcutInfo": {
+      "message": "Удерживайте клавишу Shift при отпускании вкладки, чтобы создать её копию вместо перемещения. Важно: нажимайте Shift только после того, как начнёте перетаскивание."
+   },
+   "showEverything": {
+      "message": "Показывать всё"
+   },
+   "showFoldersOnly": {
+      "message": "Показывать только папки"
+   },
+   "showNamedItemsOnly": {
+      "message": "Показывать только элементы с названиями"
+   },
+   "showNamedOnly": {
+      "message": "Показывать только элементы с названиями"
+   },
+   "showNextCount_few": {
+      "message": "Показать следующие {COUNT}"
+   },
+   "showNextCount_many": {
+      "message": "Показать следующие {COUNT}"
+   },
+   "showNextCount_one": {
+      "message": "Показать следующий {COUNT} элемент"
+   },
+   "showNextCount_other": {
+      "message": "Показать следующие {COUNT}"
+   },
+   "showNextCount_two": {
+      "message": "Показать следующие {COUNT}"
+   },
+   "showNextCount_zero": {
+      "message": "Показать следующие {COUNT}"
+   },
+   "showPreviousCount_few": {
+      "message": "Показать предыдущие {COUNT}"
+   },
+   "showPreviousCount_many": {
+      "message": "Показать предыдущие {COUNT}"
+   },
+   "showPreviousCount_one": {
+      "message": "Показать предыдущий {COUNT} элемент"
+   },
+   "showPreviousCount_other": {
+      "message": "Показать предыдущие {COUNT}"
+   },
+   "showPreviousCount_two": {
+      "message": "Показать предыдущие {COUNT}"
+   },
+   "showPreviousCount_zero": {
+      "message": "Показать предыдущие {COUNT}"
+   },
+   "soon": {
+      "message": "скоро"
+   },
+   "sort": {
+      "message": "Сортировка"
+   },
+   "sortByColon": {
+      "message": "Сортировка по:"
+   },
+   "sortGroups": {
+      "message": "Сортировать группы"
+   },
+   "sourceColon": {
+      "message": "Источник:"
+   },
+   "starRatingTooltip": {
+      "message": "Поставить оценку"
+   },
+   "storeSelectedTabsInONETAB_few": {
+      "message": "Сохранить {COUNT} выбранные вкладки в ONETAB"
+   },
+   "storeSelectedTabsInONETAB_many": {
+      "message": "Сохранить {COUNT} выбранных вкладок в ONETAB"
+   },
+   "storeSelectedTabsInONETAB_one": {
+      "message": "Сохранить {COUNT} выбранную вкладку в ONETAB"
+   },
+   "storeSelectedTabsInONETAB_other": {
+      "message": "Сохранить {COUNT} выбранных вкладок в ONETAB"
+   },
+   "storeSelectedTabsInONETAB_two": {
+      "message": "Сохранить {COUNT} выбранные вкладки в ONETAB"
+   },
+   "storeSelectedTabsInONETAB_zero": {
+      "message": "Сохранить {COUNT} выбранных вкладок в ONETAB"
+   },
+   "storeTabInAdditionalLocation": {
+      "message": "Сохранить вкладку ещё в одном месте"
+   },
+   "storeTabInONETAB": {
+      "message": "Сохранить вкладку в ONETAB"
+   },
+   "storeTabsInAdditionalLocation": {
+      "message": "Сохранить вкладки ещё в одном месте"
+   },
+   "storeTabsInONETAB": {
+      "message": "Сохранить вкладки в ONETAB"
+   },
+   "subFoldersNotShared": {
+      "message": "Учтите, что вложенные папки не передаются в общий доступ. В общий доступ передаются только группы вкладок, непосредственно внутри папки."
+   },
+   "tab": {
+      "message": "вкладка"
+   },
+   "tabAlreadyStoredHere": {
+      "message": "Ваша открытая вкладка уже сохранена здесь:"
+   },
+   "tabCaretTooltipTitleNotes": {
+      "message": "Изменить заголовок и заметки вкладки"
+   },
+   "tabCaretTooltipTitleNotesUrl": {
+      "message": "Изменить заголовок, URL и заметки вкладки"
+   },
+   "tabCount_few": {
+      "message": "{COUNT} вкладки"
+   },
+   "tabCount_many": {
+      "message": "{COUNT} вкладок"
+   },
+   "tabCount_one": {
+      "message": "{COUNT} вкладка"
+   },
+   "tabCount_other": {
+      "message": "{COUNT} вкладок"
+   },
+   "tabCount_two": {
+      "message": "{COUNT} вкладки"
+   },
+   "tabCount_zero": {
+      "message": "{COUNT} вкладок"
+   },
+   "tabGroupColorColon": {
+      "message": "Цвет группы вкладок:"
+   },
+   "tabShortcutInfo": {
+      "message": "На странице OneTab нажимайте клавишу Tab, чтобы перемещать фокус между группами в центральной колонке. Так проще быстро перескакивать между группами, особенно если они большие. Если группа в фокусе, нажмите Enter, чтобы открыть её. Используйте Shift+Tab для перемещения фокуса назад."
+   },
+   "tabTotalCount_few": {
+      "message": "Всего: {COUNT} вкладки"
+   },
+   "tabTotalCount_many": {
+      "message": "Всего: {COUNT} вкладок"
+   },
+   "tabTotalCount_one": {
+      "message": "Всего: {COUNT} вкладка"
+   },
+   "tabTotalCount_other": {
+      "message": "Всего: {COUNT} вкладок"
+   },
+   "tabTotalCount_two": {
+      "message": "Всего: {COUNT} вкладки"
+   },
+   "tabTotalCount_zero": {
+      "message": "Всего: {COUNT} вкладок"
+   },
+   "tabs": {
+      "message": "Вкладки"
+   },
+   "tabsFromExcludedDomains": {
+      "message": "вкладки из исключённых доменов"
+   },
+   "tabsInTabGroups": {
+      "message": "вкладки в группах вкладок"
+   },
+   "taskTotalCount_few": {
+      "message": "{COUNT} всего"
+   },
+   "taskTotalCount_many": {
+      "message": "{COUNT} всего"
+   },
+   "taskTotalCount_one": {
+      "message": "{COUNT} всего"
+   },
+   "taskTotalCount_other": {
+      "message": "{COUNT} всего"
+   },
+   "taskTotalCount_two": {
+      "message": "{COUNT} всего"
+   },
+   "taskTotalCount_zero": {
+      "message": "{COUNT} всего"
+   },
+   "tasks": {
+      "message": "Задачи"
+   },
+   "tasksDone": {
+      "message": "Задачи (выполненные)"
+   },
+   "tasksPending": {
+      "message": "Задачи (в ожидании)"
+   },
+   "tasksWillAppearHere": {
+      "message": "Если пометите вкладки или группы как задачи, они появятся здесь."
+   },
+   "thenClickToolbarIcon": {
+      "message": "Затем снова нажмите значок OneTab на панели инструментов, чтобы использовать OneTab."
+   },
+   "thisFolderIsEmpty": {
+      "message": "Эта папка пуста"
+   },
+   "thisTab": {
+      "message": "Эта вкладка"
+   },
+   "thisTabGroup": {
+      "message": "Эта группа вкладок"
+   },
+   "thisTabNotStored": {
+      "message": "Эта вкладка не сохранена в OneTab"
+   },
+   "thisWindow": {
+      "message": "Это окно"
+   },
+   "tickOrUntickToExclude": {
+      "message": "Отметьте или снимите отметку, чтобы исключить сайт"
+   },
+   "title": {
+      "message": "Заголовок"
+   },
+   "toAddOrRemoveExclusions": {
+      "message": "Чтобы добавить или удалить сайт из списка исключений:"
+   },
+   "toAllowOneTabInIncognito": {
+      "message": "Чтобы значок OneTab отображался в окнах в режиме инкогнито: "
+   },
+   "toImportBrowserBookmarksUseMenuOption": {
+      "message": "Чтобы импортировать из закладок браузера, используйте пункт меню «Импортировать ссылки сюда» на странице OneTab"
+   },
+   "toMakeOpenButtonWorkApprovePermission": {
+      "message": "Чтобы кнопка «Открыть» на опубликованных страницах работала, одобрите запрос на разрешение."
+   },
+   "toSaveChangesClickButton": {
+      "message": "Чтобы сохранить изменения, нажмите кнопку"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "message": "Слишком много вкладок? Преобразуйте их в список и ускорьте Firefox"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "message": "Слишком много вкладок? Преобразуйте их в список и ускорьте Safari"
+   },
+   "total0Tabs": {
+      "message": "Всего: 0 вкладок"
+   },
+   "trash": {
+      "message": "Корзина"
+   },
+   "unMarkAsTask": {
+      "message": "Снять пометку «задача»"
+   },
+   "unPin": {
+      "message": "Открепить"
+   },
+   "unlock": {
+      "message": "Разблокировать"
+   },
+   "unmarkAsArchived": {
+      "message": "Снять пометку «архивировано»"
+   },
+   "unshare": {
+      "message": "Отменить публикацию"
+   },
+   "untitled": {
+      "message": "Без названия"
+   },
+   "update": {
+      "message": "Обновить"
+   },
+   "userLanguage": {
+      "message": "Русский"
+   },
+   "website": {
+      "message": "Сайт"
+   },
+   "yearCount_few": {
+      "message": "{COUNT} года"
+   },
+   "yearCount_many": {
+      "message": "{COUNT} лет"
+   },
+   "yearCount_one": {
+      "message": "{COUNT} год"
+   },
+   "yearCount_other": {
+      "message": "{COUNT} лет"
+   },
+   "yearCount_two": {
+      "message": "{COUNT} года"
+   },
+   "yearCount_zero": {
+      "message": "{COUNT} лет"
+   },
+   "yourTabAlreadyStoredHere": {
+      "message": "Ваша вкладка уже сохранена здесь:"
+   }
+}

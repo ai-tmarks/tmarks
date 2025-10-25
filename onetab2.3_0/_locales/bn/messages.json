@@ -1,0 +1,1715 @@
+{
+   "95PctMemoryReduction": {
+      "message": "মেমরি ব্যবহারে 95% হ্রাস"
+   },
+   "Folder": {
+      "message": "ফোল্ডার"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "message": "OneTab Firefox-এর জন্যও উপলব্ধ"
+   },
+   "aDashZ": {
+      "message": "A-Z"
+   },
+   "about": {
+      "message": "সম্পর্কে"
+   },
+   "addOneTabNow": {
+      "message": "এখনই OneTab ইনস্টল করুন"
+   },
+   "all": {
+      "message": "সব"
+   },
+   "allBookmarks": {
+      "message": "সব বুকমার্ক"
+   },
+   "allOpenTabsAlreadyStoredHere": {
+      "message": "সব খোলা ট্যাব আগে থেকেই এখানে সংরক্ষিত:"
+   },
+   "allowFileAccessInstructions": {
+      "message": "ফাইল সরাসরি খুলতে, সেটিংস ➝ এক্সটেনশন ➝ OneTab ➝ বিস্তারিত ➝ ফাইল URL-গুলিতে অ্যাক্সেসের অনুমতি দিন-এ যান"
+   },
+   "alreadyExistingOpenTabsWillBeClosedAfterMerge": {
+      "message": "এই গ্রুপে আগে থেকেই থাকা সব খোলা ট্যাব মার্জের পর বন্ধ হবে।"
+   },
+   "alternatePlainTextFormat": {
+      "message": "বিকল্পভাবে, সাধারণ টেক্সট এই ফরম্যাটেও হতে পারে:"
+   },
+   "approve": {
+      "message": "অনুমোদন করুন"
+   },
+   "archived": {
+      "message": "আর্কাইভড"
+   },
+   "autoTheme": {
+      "message": "স্বয়ংক্রিয় (অপারেটিং সিস্টেমের সেটিং ব্যবহার করুন)"
+   },
+   "backupAndSync": {
+      "message": "ব্যাকআপ ও সিঙ্ক"
+   },
+   "betaReleaseReportBugsHere": {
+      "message": "বেটা রিলিজ - এখানে বাগ রিপোর্ট করুন"
+   },
+   "bookmarkCount_few": {
+      "message": "{COUNT} বুকমার্ক"
+   },
+   "bookmarkCount_many": {
+      "message": "{COUNT} বুকমার্ক"
+   },
+   "bookmarkCount_one": {
+      "message": "{COUNT} বুকমার্ক"
+   },
+   "bookmarkCount_other": {
+      "message": "{COUNT} বুকমার্ক"
+   },
+   "bookmarkCount_two": {
+      "message": "{COUNT} বুকমার্ক"
+   },
+   "bookmarkCount_zero": {
+      "message": "{COUNT} বুকমার্ক"
+   },
+   "bookmarksPermissionNecesssary": {
+      "message": "OneTab-কে আপনার ব্রাউজারের বুকমার্ক আমদানি করতে 'বুকমার্ক' অনুমতি প্রয়োজন"
+   },
+   "bulkActions": {
+      "message": "বাল্ক অ্যাকশন"
+   },
+   "canDragTextNote": {
+      "message": "নোট: আপনি অন্য ওয়েব পেজ বা কোনো ডকুমেন্ট থেকেও ওয়েব লিংকসহ টেক্সট সরাসরি ড্র্যাগ-অ্যান্ড-ড্রপ করতে পারেন। এই ইম্পোর্ট বক্স ব্যবহার না করেই সরাসরি আপনার OneTab পেজে টেক্সট টেনে এনে ছেড়ে দিতে পারেন।"
+   },
+   "canPasteWebContentForExample": {
+      "message": "ওয়েব পেজ বা ডকুমেন্ট থেকে কপি করা টেক্সট পেস্ট করতে পারেন; লিংকগুলো স্বয়ংক্রিয়ভাবে বের করে নেওয়া হবে। উদাহরণস্বরূপ:"
+   },
+   "cancel": {
+      "message": "বাতিল"
+   },
+   "cannotConnectToServerDeletionRequestQueued": {
+      "message": "OneTab সার্ভারের সাথে সংযোগ করা যাচ্ছে না। আপনার ইন্টারনেট সংযোগ পরীক্ষা করুন। আপনার শেয়ার করা পেজ মুছে ফেলার অনুরোধটি লোকাল কিউতে রাখা হয়েছে এবং সার্ভার আবার অ্যাক্সেসযোগ্য হলেই স্বয়ংক্রিয়ভাবে OneTab সার্ভারে পাঠানো হবে।"
+   },
+   "cannotCreateTabGroupInTabGroup": {
+      "message": "আপনি যে গন্তব্যটি বেছেছেন সেটি একটি ট্যাব গ্রুপ। বিদ্যমান ট্যাব গ্রুপের ভিতরে আরেকটি ট্যাব গ্রুপ তৈরি করা যায় না। অনুগ্রহ করে ভিন্ন গন্তব্য বাছুন।"
+   },
+   "cannotMixTabsGroupsFoldersDuringDrag": {
+      "message": "ড্র্যাগ করার সময় ট্যাব, গ্রুপ ও ফোল্ডার একসাথে মেশানো যায় না। যেমন, যেখানেই ট্যাব টানা যায়, সেখানে ফোল্ডার টানা সম্ভব নয়।"
+   },
+   "caseSensitive": {
+      "message": "বড়/ছোট অক্ষর সংবেদনশীল"
+   },
+   "changesMadeSinceSharedPageCreation": {
+      "message": "আপনি শেয়ার করা পেজটি তৈরির পর পরিবর্তন করা হয়েছে। বিদ্যমান শেয়ার করা পেজটি আপডেট করতে 'আপডেট' বোতামে ক্লিক করুন।"
+   },
+   "checkboxesDeterminePinnedAndGroupedTabMergeInclusion": {
+      "message": "এই পেজের উপরের চেকবক্সগুলো নির্ধারণ করে পিন করা ট্যাব বা ট্যাব গ্রুপে থাকা ট্যাব মার্জে অন্তর্ভুক্ত হবে কি না।"
+   },
+   "chooseALocation": {
+      "message": "একটি অবস্থান বেছে নিন"
+   },
+   "chooseALocationToImportTo": {
+      "message": "যেখানে আমদানি করবেন সেটি বেছে নিন"
+   },
+   "chooseExportLocation": {
+      "message": "যেখান থেকে রপ্তানি করবেন সেটি বেছে নিন"
+   },
+   "chooseLightDarkTheme": {
+      "message": "লাইট/ডার্ক থিম নির্বাচন করুন"
+   },
+   "chooseLocationToCopyTo": {
+      "message": "যেখানে কপি করবেন সেটি বেছে নিন"
+   },
+   "chooseLocationToMoveTo": {
+      "message": "যেখানে সরাবেন সেটি বেছে নিন"
+   },
+   "chooseLocationToRestoreTo": {
+      "message": "যেখানে পুনরুদ্ধার করবেন সেটি বেছে নিন"
+   },
+   "chooseToIncludeNotes": {
+      "message": "আপনি যদি ট্যাব বা গ্রুপে নোট যোগ করে থাকেন, শেয়ার করা ওয়েব পেজে সেগুলো অন্তর্ভুক্ত করবেন কি না তা বেছে নিন"
+   },
+   "chooseToIncludeRatings": {
+      "message": "আপনি যদি ট্যাব বা গ্রুপে স্টার রেটিং দিয়ে থাকেন, শেয়ার করা ওয়েব পেজে সেগুলো অন্তর্ভুক্ত করবেন কি না তা বেছে নিন"
+   },
+   "chromeIncognitoInstructions": {
+      "message": "আপনার ব্রাউজার সেটিংসে 'Settings' → 'Extensions' → 'OneTab' → 'Details' এ যান, তারপর 'Allow in Incognito' সক্রিয় করুন।"
+   },
+   "clickButtonToAllowTabAccess": {
+      "message": "নিচের বোতামে ক্লিক করে OneTab-কে আপনার খোলা ট্যাবে অ্যাক্সেস দিন।"
+   },
+   "clickHereToContinue": {
+      "message": "চালিয়ে যেতে এখানে ক্লিক করুন।"
+   },
+   "clickOneTabIconToStoreTabsHere": {
+      "message": "আপনার ব্রাউজারের টুলবারে OneTab আইকনে ক্লিক করে খোলা ট্যাবগুলো এখানে সংরক্ষণ করুন।"
+   },
+   "closeSelectedTabsAndStoreInONETAB_few": {
+      "message": "নির্বাচিত {COUNT} ট্যাব বন্ধ করে ONETAB-এ সংরক্ষণ করুন"
+   },
+   "closeSelectedTabsAndStoreInONETAB_many": {
+      "message": "নির্বাচিত {COUNT} ট্যাব বন্ধ করে ONETAB-এ সংরক্ষণ করুন"
+   },
+   "closeSelectedTabsAndStoreInONETAB_one": {
+      "message": "নির্বাচিত {COUNT} ট্যাব বন্ধ করে ONETAB-এ সংরক্ষণ করুন"
+   },
+   "closeSelectedTabsAndStoreInONETAB_other": {
+      "message": "নির্বাচিত {COUNT} ট্যাব বন্ধ করে ONETAB-এ সংরক্ষণ করুন"
+   },
+   "closeSelectedTabsAndStoreInONETAB_two": {
+      "message": "নির্বাচিত {COUNT} ট্যাব বন্ধ করে ONETAB-এ সংরক্ষণ করুন"
+   },
+   "closeSelectedTabsAndStoreInONETAB_zero": {
+      "message": "নির্বাচিত {COUNT} ট্যাব বন্ধ করে ONETAB-এ সংরক্ষণ করুন"
+   },
+   "closeSelectedTabs_few": {
+      "message": "নির্বাচিত {COUNT} ট্যাব বন্ধ করুন"
+   },
+   "closeSelectedTabs_many": {
+      "message": "নির্বাচিত {COUNT} ট্যাব বন্ধ করুন"
+   },
+   "closeSelectedTabs_one": {
+      "message": "নির্বাচিত {COUNT} ট্যাব বন্ধ করুন"
+   },
+   "closeSelectedTabs_other": {
+      "message": "নির্বাচিত {COUNT} ট্যাব বন্ধ করুন"
+   },
+   "closeSelectedTabs_two": {
+      "message": "নির্বাচিত {COUNT} ট্যাব বন্ধ করুন"
+   },
+   "closeSelectedTabs_zero": {
+      "message": "নির্বাচিত {COUNT} ট্যাব বন্ধ করুন"
+   },
+   "closeTab": {
+      "message": "ট্যাব বন্ধ করুন"
+   },
+   "closeTabAndStore": {
+      "message": "ট্যাব বন্ধ করে ONETAB-এ সংরক্ষণ করুন"
+   },
+   "closeTabs": {
+      "message": "ট্যাবগুলো বন্ধ করুন"
+   },
+   "closeTabsAfterMerge": {
+      "message": "মার্জের পরে ট্যাবগুলো বন্ধ করুন"
+   },
+   "closeTabsAlreadyStoredInOneTab_few": {
+      "message": "OneTab-এ আগে থেকেই সংরক্ষিত {COUNT} ট্যাব বন্ধ করুন"
+   },
+   "closeTabsAlreadyStoredInOneTab_many": {
+      "message": "OneTab-এ আগে থেকেই সংরক্ষিত {COUNT} ট্যাব বন্ধ করুন"
+   },
+   "closeTabsAlreadyStoredInOneTab_one": {
+      "message": "OneTab-এ আগে থেকেই সংরক্ষিত {COUNT} ট্যাব বন্ধ করুন"
+   },
+   "closeTabsAlreadyStoredInOneTab_other": {
+      "message": "OneTab-এ আগে থেকেই সংরক্ষিত {COUNT} ট্যাব বন্ধ করুন"
+   },
+   "closeTabsAlreadyStoredInOneTab_two": {
+      "message": "OneTab-এ আগে থেকেই সংরক্ষিত {COUNT} ট্যাব বন্ধ করুন"
+   },
+   "closeTabsAlreadyStoredInOneTab_zero": {
+      "message": "OneTab-এ আগে থেকেই সংরক্ষিত {COUNT} ট্যাব বন্ধ করুন"
+   },
+   "closeTabsAndStore": {
+      "message": "ট্যাবগুলো বন্ধ করে ONETAB-এ সংরক্ষণ করুন"
+   },
+   "closeTheseDuplicates": {
+      "message": "এই সদৃশগুলো বন্ধ করুন"
+   },
+   "closeThisDuplicate": {
+      "message": "এই সদৃশটি বন্ধ করুন"
+   },
+   "completeEditingShortcutInfo": {
+      "message": "নোট ফিল্ড সম্পাদনার সময়, সম্পাদনা শেষ করতে এই শর্টকাট ব্যবহার করুন।"
+   },
+   "configureShortcuts": {
+      "message": "শর্টকাট কনফিগার করুন"
+   },
+   "conflictingShortcutsHint": {
+      "message": "উপরের কোনো শর্টকাট কাজ না করলে বা অন্য অ্যাপের সাথে সংঘর্ষ হলে, আপনি ভিন্ন একটি শর্টকাট কী কনফিগার করতে পারেন।"
+   },
+   "continue": {
+      "message": "চালিয়ে যান"
+   },
+   "convertTabsIntoAList": {
+      "message": "ট্যাবগুলোকে তালিকায় রূপান্তর করুন"
+   },
+   "copiedToClipboard": {
+      "message": "ক্লিপবোর্ডে কপি হয়েছে"
+   },
+   "copy": {
+      "message": "কপি"
+   },
+   "copyLinksToClipboard": {
+      "message": "লিংক ক্লিপবোর্ডে কপি করুন"
+   },
+   "copySharedPageUrl": {
+      "message": "শেয়ার করা পেজের URL কপি করুন"
+   },
+   "copyToClipboard": {
+      "message": "ক্লিপবোর্ডে কপি করুন"
+   },
+   "createANewGroupHere": {
+      "message": "এখানে একটি নতুন গ্রুপ তৈরি করুন"
+   },
+   "createFolderAbove": {
+      "message": "উপরে ফোল্ডার তৈরি করুন"
+   },
+   "createFolderAboveBelow": {
+      "message": "উপরে / নিচে ফোল্ডার তৈরি করুন"
+   },
+   "createFolderAboveWithinBelow": {
+      "message": "উপরে / ভেতরে / নিচে ফোল্ডার তৈরি করুন"
+   },
+   "createFolderBelow": {
+      "message": "নিচে ফোল্ডার তৈরি করুন"
+   },
+   "createFolderWithin": {
+      "message": "ভেতরে ফোল্ডার তৈরি করুন"
+   },
+   "createGroupAbove": {
+      "message": "উপরে গ্রুপ তৈরি করুন"
+   },
+   "createGroupAboveBelow": {
+      "message": "উপরে / নিচে গ্রুপ তৈরি করুন"
+   },
+   "createGroupAboveWithinBelow": {
+      "message": "উপরে / ভেতরে / নিচে গ্রুপ তৈরি করুন"
+   },
+   "createGroupBelow": {
+      "message": "নিচে গ্রুপ তৈরি করুন"
+   },
+   "createGroupInsideDestination": {
+      "message": "গন্তব্যের ভেতরে নতুন গ্রুপ তৈরি করুন"
+   },
+   "createGroupInsideDestinationHelp": {
+      "message": "টিক না দিলে, আপনার ট্যাব সরাসরি গন্তব্য গ্রুপে যোগ হবে। টিক দিলে, গন্তব্য গ্রুপের ভেতরে আপনার ট্যাবের জন্য একটি নতুন ব্রাউজারের ট্যাব গ্রুপ তৈরি হবে। কেবলমাত্র আপনার ব্রাউজারের 'ট্যাব গ্রুপ' ফিচার ব্যবহার করতে চাইলে এই বাক্সে টিক দিন।"
+   },
+   "createGroupWithin": {
+      "message": "ভেতরে গ্রুপ তৈরি করুন"
+   },
+   "createNewGroupTip": {
+      "message": "নতুন গ্রুপ তৈরি করতে, 'শুধু ফোল্ডার দেখান'—এর টিক সরান"
+   },
+   "createdOnOrAfterColon": {
+      "message": "এই তারিখে বা পরে তৈরি:"
+   },
+   "createdOnOrBeforeColon": {
+      "message": "এই তারিখে বা আগে তৈরি:"
+   },
+   "createdPreceedingDate": {
+      "message": "তৈরি হয়েছে"
+   },
+   "darkTheme": {
+      "message": "ডার্ক থিম"
+   },
+   "dayCount_few": {
+      "message": "{COUNT} দিন"
+   },
+   "dayCount_many": {
+      "message": "{COUNT} দিন"
+   },
+   "dayCount_one": {
+      "message": "{COUNT} দিন"
+   },
+   "dayCount_other": {
+      "message": "{COUNT} দিন"
+   },
+   "dayCount_two": {
+      "message": "{COUNT} দিন"
+   },
+   "dayCount_zero": {
+      "message": "{COUNT} দিন"
+   },
+   "delete": {
+      "message": "মুছে ফেলুন"
+   },
+   "deleteAllTrash": {
+      "message": "ট্র্যাশ খালি করুন"
+   },
+   "deleteThisCopy": {
+      "message": "এই কপিটি মুছে ফেলুন"
+   },
+   "deselectAll": {
+      "message": "সব নির্বাচন বাতিল করুন"
+   },
+   "destinationColon": {
+      "message": "গন্তব্য:"
+   },
+   "disabled": {
+      "message": "নিষ্ক্রিয়"
+   },
+   "doneTaskCount_few": {
+      "message": "সম্পন্ন {COUNT}"
+   },
+   "doneTaskCount_many": {
+      "message": "সম্পন্ন {COUNT}"
+   },
+   "doneTaskCount_one": {
+      "message": "সম্পন্ন {COUNT}"
+   },
+   "doneTaskCount_other": {
+      "message": "সম্পন্ন {COUNT}"
+   },
+   "doneTaskCount_two": {
+      "message": "সম্পন্ন {COUNT}"
+   },
+   "doneTaskCount_zero": {
+      "message": "সম্পন্ন {COUNT}"
+   },
+   "dontCloseGroupedTabs": {
+      "message": "ট্যাব গ্রুপের ভেতরের কোনো ট্যাব বন্ধ করবেন না"
+   },
+   "dontClosePinnedTabs": {
+      "message": "পিন করা কোনো ট্যাব বন্ধ করবেন না"
+   },
+   "dontCloseTabsFromDomains": {
+      "message": "EXAMPLE.COM থেকে কোনো ট্যাব বন্ধ করবেন না"
+   },
+   "dragTabsHereForQuickList": {
+      "message": "আপনার সংরক্ষিত ট্যাব বা গ্রুপ এখানে টেনে আনুন। এগুলো আপনার দ্রুত তালিকায় যোগ হবে।"
+   },
+   "editTabGroupTitleAndNotes": {
+      "message": "ট্যাব গ্রুপের শিরোনাম ও নোট সম্পাদনা করুন"
+   },
+   "emojiShortcutInfo": {
+      "message": "নোট ফিল্ড সম্পাদনার সময়, ইমোজি পিকার খুলতে এই শর্টকাট ব্যবহার করুন।"
+   },
+   "emptyInBrackets": {
+      "message": "(খালি)"
+   },
+   "emptyOneTabInfoMsg": {
+      "message": "আপনার একাধিক ট্যাব খোলা থাকলে, ব্রাউজারের টুলবারে OneTab আইকনে ক্লিক করুন; আপনার খোলা ট্যাবগুলো এখানে দেখা যাবে।"
+   },
+   "enabled": {
+      "message": "সক্রিয়"
+   },
+   "encryptedSyncAndBackup": {
+      "message": "এনক্রিপ্টেড সিঙ্ক ও ব্যাকআপ"
+   },
+   "encryptedSyncAndBackupComingSoonMessage": {
+      "message": "শীঘ্রই আসছে: আপনি একাধিক ব্রাউজার প্রোফাইল ও কম্পিউটারের মধ্যে আপনার OneTab ডেটা সিঙ্ক করতে পারবেন।\nOneTab-কে সম্পূর্ণ পুনর্লিখন করা হয়েছে, ফলে একটি ডিভাইসে করা পরিবর্তন সঙ্গে সঙ্গে অন্যান্য সব ডিভাইসে দেখা যাবে।\nআপনি এই ফিচার ব্যবহার করলে, আপনার ডেটা উচ্চ-মানের AES-256 দিয়ে প্রান্ত-থেকে-প্রান্ত এনক্রিপ্টেড থাকবে। এতে OneTab ডেভেলপারদের পক্ষে আপনার ব্যাকআপ করা বা ডিভাইসের মধ্যে সিঙ্ক করা ট্যাব দেখা অসম্ভব হয়ে যায়, কারণ এনক্রিপশন কী শুধুই আপনার কাছে থাকে।"
+   },
+   "everything": {
+      "message": "সবকিছু"
+   },
+   "exampleLink": {
+      "message": "উদাহরণ লিংক"
+   },
+   "exampleLinkTitle": {
+      "message": "উদাহরণ লিংকের শিরোনাম"
+   },
+   "exampleLinkTitleOptional": {
+      "message": "উদাহরণ লিংকের শিরোনাম (ঐচ্ছিক)"
+   },
+   "exampleRichTextParagraph": {
+      "message": "PLACEHOLDER এবং PLACEHOLDER-সহ উদাহরণ অনুচ্ছেদ"
+   },
+   "exampleWebsitePageTitle": {
+      "message": "উদাহরণ ওয়েবসাইটের পেজ শিরোনাম"
+   },
+   "excludeDomainFromOneTab": {
+      "message": "EXAMPLE.COM-কে OneTab থেকে বাদ দিন"
+   },
+   "excludeWebSiteFromOneTab": {
+      "message": "এই ওয়েবসাইটকে OneTab থেকে বাদ দিন"
+   },
+   "expiresColon": {
+      "message": "মেয়াদ শেষ:"
+   },
+   "export": {
+      "message": "রপ্তানি"
+   },
+   "exportImportUrls": {
+      "message": "URL রপ্তানি / আমদানি"
+   },
+   "exportThenImportNote": {
+      "message": "নিচের URL তালিকাটি এই কম্পিউটার বা অন্য কম্পিউটারে OneTab-এ আবারও আমদানি করা যেতে পারে"
+   },
+   "exportUrls": {
+      "message": "URL রপ্তানি"
+   },
+   "feedback": {
+      "message": "মতামত"
+   },
+   "filter": {
+      "message": "ফিল্টার"
+   },
+   "firefoxIncognitoInstructions": {
+      "message": "আপনার ব্রাউজার সেটিংসে 'Settings' → 'Extensions and Themes' → 'Extensions' → 'OneTab' → '...' → 'Manage' এ যান, তারপর 'Run in Private Windows' সক্রিয় করুন।"
+   },
+   "firefoxShortcutConfigInstructions": {
+      "message": "ব্রাউজারের ঠিকানার বারে \"about:addons?type=extension\" URLটি লিখুন। পেজটি এলে, গিয়ার আইকনে ক্লিক করুন, তারপর \"এক্সটেনশন শর্টকাট পরিচালনা করুন\" নির্বাচন করুন"
+   },
+   "folderCount_few": {
+      "message": "{COUNT} ফোল্ডার"
+   },
+   "folderCount_many": {
+      "message": "{COUNT} ফোল্ডার"
+   },
+   "folderCount_one": {
+      "message": "{COUNT} ফোল্ডার"
+   },
+   "folderCount_other": {
+      "message": "{COUNT} ফোল্ডার"
+   },
+   "folderCount_two": {
+      "message": "{COUNT} ফোল্ডার"
+   },
+   "folderCount_zero": {
+      "message": "{COUNT} ফোল্ডার"
+   },
+   "folders": {
+      "message": "ফোল্ডার"
+   },
+   "foldersOnly": {
+      "message": "শুধু ফোল্ডার"
+   },
+   "gettingStarted": {
+      "message": "শুরু করার নির্দেশিকা"
+   },
+   "goToParentFolder": {
+      "message": "প্যারেন্ট ফোল্ডারে যান"
+   },
+   "groupCount_few": {
+      "message": "{COUNT} গ্রুপ"
+   },
+   "groupCount_many": {
+      "message": "{COUNT} গ্রুপ"
+   },
+   "groupCount_one": {
+      "message": "{COUNT} গ্রুপ"
+   },
+   "groupCount_other": {
+      "message": "{COUNT} গ্রুপ"
+   },
+   "groupCount_two": {
+      "message": "{COUNT} গ্রুপ"
+   },
+   "groupCount_zero": {
+      "message": "{COUNT} গ্রুপ"
+   },
+   "groups": {
+      "message": "গ্রুপ"
+   },
+   "hasNotes": {
+      "message": "নোট আছে"
+   },
+   "hasRating": {
+      "message": "রেটিং আছে"
+   },
+   "help": {
+      "message": "সাহায্য"
+   },
+   "hideArchivedItems": {
+      "message": "আর্কাইভড আইটেম লুকান"
+   },
+   "import": {
+      "message": "আমদানি"
+   },
+   "importAndExport": {
+      "message": "আমদানি ও রপ্তানি"
+   },
+   "importBookmarks": {
+      "message": "বুকমার্ক আমদানি"
+   },
+   "importFolderAndSubfolders": {
+      "message": "ফোল্ডার ও সাব-ফোল্ডার আমদানি করুন"
+   },
+   "importLinksHere": {
+      "message": "এখানে লিংক আমদানি করুন"
+   },
+   "importReadingList": {
+      "message": "রিডিং লিস্ট আমদানি"
+   },
+   "importText": {
+      "message": "টেক্সট আমদানি"
+   },
+   "importUrls": {
+      "message": "URL আমদানি"
+   },
+   "importedBookmarks": {
+      "message": "আমদানি করা বুকমার্ক"
+   },
+   "includeGroupedTabs": {
+      "message": "ট্যাব গ্রুপে থাকা ট্যাব অন্তর্ভুক্ত করুন"
+   },
+   "includeNotes": {
+      "message": "নোট অন্তর্ভুক্ত করুন"
+   },
+   "includePinnedTabs": {
+      "message": "পিন করা ট্যাব অন্তর্ভুক্ত করুন"
+   },
+   "includeStarRatings": {
+      "message": "স্টার রেটিং অন্তর্ভুক্ত করুন"
+   },
+   "includeTabsAlreadyStored": {
+      "message": "আগে থেকেই সংরক্ষিত ট্যাব অন্তর্ভুক্ত করুন"
+   },
+   "includeTabsFromDomains": {
+      "message": "EXAMPLE.COM থেকে ট্যাব অন্তর্ভুক্ত করুন"
+   },
+   "incogitoPermissionRequired": {
+      "message": "ইনকগনিটো উইন্ডো তৈরি করতে OneTab-এর অনুমতি প্রয়োজন।"
+   },
+   "incognitoWindows": {
+      "message": "ইনকগনিটো উইন্ডো"
+   },
+   "invertSelection": {
+      "message": "নির্বাচন উল্টে দিন"
+   },
+   "justNow": {
+      "message": "এইমাত্র"
+   },
+   "keyboardShortcutsColon": {
+      "message": "কীবোর্ড শর্টকাট:"
+   },
+   "languageTitle": {
+      "message": "ভাষা:"
+   },
+   "lightTheme": {
+      "message": "লাইট থিম"
+   },
+   "localeId": {
+      "message": "bn"
+   },
+   "locationColon": {
+      "message": "অবস্থান:"
+   },
+   "lock": {
+      "message": "লক করুন"
+   },
+   "lockMenuItemHelp": {
+      "message": "কোনো গ্রুপ লক থাকলে, আপনি গ্রুপের ভেতরে আইটেম মুছতে বা পুনরায় সাজাতে পারবেন না। লক করা গ্রুপ খোলার সময় স্বয়ংক্রিয় অ্যাকশন প্রযোজ্য হয় না। স্বয়ংক্রিয় অ্যাকশন সম্পর্কে জানতে বিকল্প পেজ দেখুন।"
+   },
+   "lockedGroupUnlockHelp": {
+      "message": "আনলক করতে ড্রপডাউন মেনু ব্যবহার করুন। কোনো গ্রুপ লক থাকলে, আপনি গ্রুপ বা তার ট্যাব মুছতে পারবেন না, এবং ট্যাবের ক্রমও বদলাতে পারবেন না।"
+   },
+   "makeThisATask": {
+      "message": "এটিকে কাজ হিসেবে চিহ্নিত করুন"
+   },
+   "manifestDescription": {
+      "message": "সর্বোচ্চ 95% মেমরি বাঁচান এবং ট্যাবের বিশৃঙ্খলা কমান"
+   },
+   "markAsArchived": {
+      "message": "আর্কাইভড হিসেবে চিহ্নিত করুন"
+   },
+   "markAsArchivedMenuItemHelp": {
+      "message": "নোট করুন, আর্কাইভড কাজ এবং আর্কাইভড গ্রুপের ভিতরের কাজগুলো কাজের কলামে দেখা যাবে না"
+   },
+   "markAsDoneTask": {
+      "message": "সম্পন্ন কাজ হিসেবে চিহ্নিত করুন"
+   },
+   "markAsPendingTask": {
+      "message": "অপেক্ষমাণ কাজ হিসেবে চিহ্নিত করুন"
+   },
+   "matchCount_few": {
+      "message": "{COUNT} মিল"
+   },
+   "matchCount_many": {
+      "message": "{COUNT} মিল"
+   },
+   "matchCount_one": {
+      "message": "{COUNT} মিল"
+   },
+   "matchCount_other": {
+      "message": "{COUNT} মিল"
+   },
+   "matchCount_two": {
+      "message": "{COUNT} মিল"
+   },
+   "matchCount_zero": {
+      "message": "{COUNT} মিল"
+   },
+   "matchWholeWordsOnly": {
+      "message": "শুধু সম্পূর্ণ শব্দ মেলান"
+   },
+   "mayNeedToRestartBrowser": {
+      "message": "আপনাকে ব্রাউজার আপডেট করে পুনরায় চালু করতেও হতে পারে।"
+   },
+   "mergeIntoParent": {
+      "message": "প্যারেন্টে মার্জ করুন"
+   },
+   "mergeOpenTabsHere_few": {
+      "message": "এখানে {COUNT} খোলা ট্যাব একত্র করুন"
+   },
+   "mergeOpenTabsHere_many": {
+      "message": "এখানে {COUNT} খোলা ট্যাব একত্র করুন"
+   },
+   "mergeOpenTabsHere_one": {
+      "message": "এখানে {COUNT} খোলা ট্যাব একত্র করুন"
+   },
+   "mergeOpenTabsHere_other": {
+      "message": "এখানে {COUNT} খোলা ট্যাব একত্র করুন"
+   },
+   "mergeOpenTabsHere_two": {
+      "message": "এখানে {COUNT} খোলা ট্যাব একত্র করুন"
+   },
+   "mergeOpenTabsHere_zero": {
+      "message": "এখানে {COUNT} খোলা ট্যাব একত্র করুন"
+   },
+   "mergeSelectedTabsHere_few": {
+      "message": "এখানে নির্বাচিত {COUNT} ট্যাব একত্র করুন"
+   },
+   "mergeSelectedTabsHere_many": {
+      "message": "এখানে নির্বাচিত {COUNT} ট্যাব একত্র করুন"
+   },
+   "mergeSelectedTabsHere_one": {
+      "message": "এখানে নির্বাচিত {COUNT} ট্যাব একত্র করুন"
+   },
+   "mergeSelectedTabsHere_other": {
+      "message": "এখানে নির্বাচিত {COUNT} ট্যাব একত্র করুন"
+   },
+   "mergeSelectedTabsHere_two": {
+      "message": "এখানে নির্বাচিত {COUNT} ট্যাব একত্র করুন"
+   },
+   "mergeSelectedTabsHere_zero": {
+      "message": "এখানে নির্বাচিত {COUNT} ট্যাব একত্র করুন"
+   },
+   "mergeWithInnerGroups": {
+      "message": "ভিতরের গ্রুপগুলোর সাথে মার্জ করুন"
+   },
+   "modifySharing": {
+      "message": "শেয়ারিং পরিবর্তন করুন"
+   },
+   "moreEllipsis": {
+      "message": "আরও…"
+   },
+   "moreSearchFilters": {
+      "message": "আরও অনুসন্ধান ফিল্টার"
+   },
+   "moreTripleDot": {
+      "message": "আরও…"
+   },
+   "move": {
+      "message": "সরান"
+   },
+   "moveToTrash": {
+      "message": "ট্র্যাশে সরান"
+   },
+   "namedOnly": {
+      "message": "শুধু নামযুক্ত আইটেম"
+   },
+   "navigationFilter": {
+      "message": "নেভিগেশন ফিল্টার"
+   },
+   "newExclamation": {
+      "message": "নতুন!"
+   },
+   "noDupsExistExceptForColon": {
+      "message": "কোনো সদৃশ নেই, ব্যতিক্রম হলো:"
+   },
+   "noDupsFoundHere": {
+      "message": "এখানে কোনো সদৃশ পাওয়া যায়নি"
+   },
+   "noMatches": {
+      "message": "কোনো মিল পাওয়া যায়নি"
+   },
+   "noMatchesFound": {
+      "message": "কোনো মিল পাওয়া যায়নি"
+   },
+   "noOpenTabsToStore": {
+      "message": "এই উইন্ডোতে সংরক্ষণের মতো কোনো খোলা ট্যাব নেই।"
+   },
+   "noReadingListEntries": {
+      "message": "রিডিং লিস্টে কোনো এন্ট্রি পাওয়া যায়নি"
+   },
+   "noTabsInOneTabYet": {
+      "message": "আপনার এখনও OneTab-এ কোনো ট্যাব নেই"
+   },
+   "noTabsMeetCriteriaUseCheckboxes": {
+      "message": "আপনার মানদণ্ডে কোনো খোলা ট্যাব মেলেনি। অনুগ্রহ করে উপরের চেকবক্সগুলো ব্যবহার করুন।"
+   },
+   "noTextHasBeenEntered": {
+      "message": "কোনো লেখা দেওয়া হয়নি"
+   },
+   "nonArchived": {
+      "message": "আর্কাইভড নয়"
+   },
+   "notAssigned": {
+      "message": "বরাদ্দ করা নেই"
+   },
+   "notes": {
+      "message": "নোট"
+   },
+   "notesAboutTheLinkOptional": {
+      "message": "লিংক সম্পর্কে নোট (ঐচ্ছিক)"
+   },
+   "notesAboutTheSecondLinkOptional": {
+      "message": "দ্বিতীয় লিংক সম্পর্কে নোট (ঐচ্ছিক)"
+   },
+   "ok": {
+      "message": "ঠিক আছে"
+   },
+   "omniboxShortcutInfo": {
+      "message": "যে কোনো ট্যাব থেকে আপনার OneTab তালিকায় খুঁজতে: ব্রাউজারের ঠিকানার বারে 1 লিখে স্পেস দিন, তারপর একটি সার্চ কীওয়ার্ড লিখুন।"
+   },
+   "oneTabDesignedToProtectPrivacy": {
+      "message": "আপনার গোপনীয়তা সুরক্ষার জন্যই OneTab নকশা করা হয়েছে। আপনার ট্যাব আমাদের কাছে কখনোই প্রকাশিত হয় না।"
+   },
+   "oneTabImportExportPageTitle": {
+      "message": "OneTab আমদানি/রপ্তানি"
+   },
+   "oneTabNeedsPermissionToAccessYourTabs": {
+      "message": "OneTab আপনার ট্যাবগুলোতে অ্যাক্সেস করতে অনুমতি চায়।"
+   },
+   "oneTabOptionsPageTitle": {
+      "message": "OneTab বিকল্প"
+   },
+   "oneTabPermissionRequired": {
+      "message": "OneTab - অনুমতি প্রয়োজন"
+   },
+   "oneTabRestartRequired": {
+      "message": "OneTab পুনরায় চালু করা প্রয়োজন।"
+   },
+   "oneTabSlashShortcutInfo": {
+      "message": "OneTab পেজে থাকাকালে, সার্চ বক্সে ফোকাস দিতে স্ল্যাশ কী চাপুন।"
+   },
+   "open": {
+      "message": "খুলুন"
+   },
+   "openActionPopup": {
+      "message": "অ্যাকশন পপ-আপ খুলুন"
+   },
+   "openAsCollapsedTabGroup": {
+      "message": "সংকুচিত ট্যাব গ্রুপ হিসেবে খুলুন"
+   },
+   "openAsCollapsedTabGroupMenuItemHelp": {
+      "message": "আপনি যদি ট্যাবগুলোকে সংকুচিত \"ট্যাব গ্রুপ\" হিসেবে খুলেন, তবে আপনি ক্লিক না করা পর্যন্ত কেবল গ্রুপ লেবেলটি দেখানো হবে; ক্লিক করলে ভেতরের ট্যাবগুলো দেখা যাবে।"
+   },
+   "openAsTabGroup": {
+      "message": "ব্রাউজারের ট্যাব গ্রুপ হিসেবে খুলুন"
+   },
+   "openAsTabGroupMenuItemHelp": {
+      "message": "আপনার ব্রাউজারে একটি উইন্ডোর ভেতরে ট্যাবগুলোকে রঙিন 'ট্যাব গ্রুপ'-এ গ্রুপ করা যায়।"
+   },
+   "openGroupsLimitNotice_few": {
+      "message": "আপনার ব্রাউজারে অতিরিক্ত চাপ এড়াতে, কেবল প্রথম {COUNT} গ্রুপ খোলা হবে।"
+   },
+   "openGroupsLimitNotice_many": {
+      "message": "আপনার ব্রাউজারে অতিরিক্ত চাপ এড়াতে, কেবল প্রথম {COUNT} গ্রুপ খোলা হবে।"
+   },
+   "openGroupsLimitNotice_one": {
+      "message": "আপনার ব্রাউজারে অতিরিক্ত চাপ এড়াতে, কেবল প্রথম {COUNT} গ্রুপ খোলা হবে।"
+   },
+   "openGroupsLimitNotice_other": {
+      "message": "আপনার ব্রাউজারে অতিরিক্ত চাপ এড়াতে, কেবল প্রথম {COUNT} গ্রুপ খোলা হবে।"
+   },
+   "openGroupsLimitNotice_two": {
+      "message": "আপনার ব্রাউজারে অতিরিক্ত চাপ এড়াতে, কেবল প্রথম {COUNT} গ্রুপ খোলা হবে।"
+   },
+   "openGroupsLimitNotice_zero": {
+      "message": "আপনার ব্রাউজারে অতিরিক্ত চাপ এড়াতে, কেবল প্রথম {COUNT} গ্রুপ খোলা হবে।"
+   },
+   "openInIncognitoWindow": {
+      "message": "নতুন ইনকগনিটো উইন্ডোতে খুলুন"
+   },
+   "openInNewWindow": {
+      "message": "নতুন উইন্ডোতে খুলুন"
+   },
+   "openInThisWindow": {
+      "message": "এই উইন্ডোতে খুলুন"
+   },
+   "openONETABLogo": {
+      "message": "ONETAB খুলুন"
+   },
+   "openOneTab": {
+      "message": "OneTab খুলুন"
+   },
+   "openOneTabAfter": {
+      "message": "ট্যাব সংরক্ষণ করার পর OneTab খুলুন"
+   },
+   "openTabFromWebsite": {
+      "message": "একটি ট্যাব খুলে ওই ওয়েবসাইটে যান"
+   },
+   "openTabLimit_few": {
+      "message": "আপনার ব্রাউজারে অতিরিক্ত চাপ এড়াতে, একসাথে সর্বোচ্চ {COUNT} ট্যাব খোলা যাবে।"
+   },
+   "openTabLimit_many": {
+      "message": "আপনার ব্রাউজারে অতিরিক্ত চাপ এড়াতে, একসাথে সর্বোচ্চ {COUNT} ট্যাব খোলা যাবে।"
+   },
+   "openTabLimit_one": {
+      "message": "আপনার ব্রাউজারে অতিরিক্ত চাপ এড়াতে, একসাথে সর্বোচ্চ {COUNT} ট্যাব খোলা যাবে।"
+   },
+   "openTabLimit_other": {
+      "message": "আপনার ব্রাউজারে অতিরিক্ত চাপ এড়াতে, একসাথে সর্বোচ্চ {COUNT} ট্যাব খোলা যাবে।"
+   },
+   "openTabLimit_two": {
+      "message": "আপনার ব্রাউজারে অতিরিক্ত চাপ এড়াতে, একসাথে সর্বোচ্চ {COUNT} ট্যাব খোলা যাবে।"
+   },
+   "openTabLimit_zero": {
+      "message": "আপনার ব্রাউজারে অতিরিক্ত চাপ এড়াতে, একসাথে সর্বোচ্চ {COUNT} ট্যাব খোলা যাবে।"
+   },
+   "openTabsAlreadyStoredHere_few": {
+      "message": "{COUNT} খোলা ট্যাব আগে থেকেই এখানে সংরক্ষিত:"
+   },
+   "openTabsAlreadyStoredHere_many": {
+      "message": "{COUNT} খোলা ট্যাব আগে থেকেই এখানে সংরক্ষিত:"
+   },
+   "openTabsAlreadyStoredHere_one": {
+      "message": "{COUNT} খোলা ট্যাব আগে থেকেই এখানে সংরক্ষিত:"
+   },
+   "openTabsAlreadyStoredHere_other": {
+      "message": "{COUNT} খোলা ট্যাব আগে থেকেই এখানে সংরক্ষিত:"
+   },
+   "openTabsAlreadyStoredHere_two": {
+      "message": "{COUNT} খোলা ট্যাব আগে থেকেই এখানে সংরক্ষিত:"
+   },
+   "openTabsAlreadyStoredHere_zero": {
+      "message": "{COUNT} খোলা ট্যাব আগে থেকেই এখানে সংরক্ষিত:"
+   },
+   "openTabsConfirm_few": {
+      "message": "আপনি {COUNT} ট্যাব খুলতে যাচ্ছেন। আপনি কি নিশ্চিত?"
+   },
+   "openTabsConfirm_many": {
+      "message": "আপনি {COUNT} ট্যাব খুলতে যাচ্ছেন। আপনি কি নিশ্চিত?"
+   },
+   "openTabsConfirm_one": {
+      "message": "আপনি {COUNT} ট্যাব খুলতে যাচ্ছেন। আপনি কি নিশ্চিত?"
+   },
+   "openTabsConfirm_other": {
+      "message": "আপনি {COUNT} ট্যাব খুলতে যাচ্ছেন। আপনি কি নিশ্চিত?"
+   },
+   "openTabsConfirm_two": {
+      "message": "আপনি {COUNT} ট্যাব খুলতে যাচ্ছেন। আপনি কি নিশ্চিত?"
+   },
+   "openTabsConfirm_zero": {
+      "message": "আপনি {COUNT} ট্যাব খুলতে যাচ্ছেন। আপনি কি নিশ্চিত?"
+   },
+   "openTabsNotStoredInOneTab_few": {
+      "message": "{COUNT} খোলা ট্যাব OneTab-এ সংরক্ষিত নয়"
+   },
+   "openTabsNotStoredInOneTab_many": {
+      "message": "{COUNT} খোলা ট্যাব OneTab-এ সংরক্ষিত নয়"
+   },
+   "openTabsNotStoredInOneTab_one": {
+      "message": "{COUNT} খোলা ট্যাব OneTab-এ সংরক্ষিত নয়"
+   },
+   "openTabsNotStoredInOneTab_other": {
+      "message": "{COUNT} খোলা ট্যাব OneTab-এ সংরক্ষিত নয়"
+   },
+   "openTabsNotStoredInOneTab_two": {
+      "message": "{COUNT} খোলা ট্যাব OneTab-এ সংরক্ষিত নয়"
+   },
+   "openTabsNotStoredInOneTab_zero": {
+      "message": "{COUNT} খোলা ট্যাব OneTab-এ সংরক্ষিত নয়"
+   },
+   "optionAutoActionOnGroupOpenArchiveDesc": {
+      "message": "গ্রুপটি আর্কাইভড হিসেবে চিহ্নিত হওয়া রোধ করতে, গ্রুপ খুলতে ক্লিক করার সময় Alt/Option চেপে ধরুন"
+   },
+   "optionAutoActionOnGroupOpenArchiveTitle": {
+      "message": "ট্যাবগুলো খুলে গ্রুপটিকে আর্কাইভড হিসেবে চিহ্নিত করুন"
+   },
+   "optionAutoActionOnGroupOpenHeading": {
+      "message": "ট্যাবের একটি গ্রুপ খুলতে ক্লিক করলে স্বয়ংক্রিয় অ্যাকশন:"
+   },
+   "optionAutoActionOnGroupOpenNote": {
+      "message": "লক করা বা কাজ হিসেবে চিহ্নিত গ্রুপে স্বয়ংক্রিয় অ্যাকশন প্রযোজ্য হবে না।"
+   },
+   "optionAutoActionOnGroupOpenOpenDesc": {
+      "message": "গ্রুপটিকে আর্কাইভড হিসেবে চিহ্নিত করতে, গ্রুপ খুলতে ক্লিক করার সময় Alt/Option চেপে ধরুন"
+   },
+   "optionAutoActionOnGroupOpenOpenTitle": {
+      "message": "শুধু ট্যাবগুলো খুলুন"
+   },
+   "optionAutoActionOnGroupOpenTrashDesc": {
+      "message": "গ্রুপটি স্বয়ংক্রিয়ভাবে ট্র্যাশে যাওয়া রোধ করতে, গ্রুপ খুলতে ক্লিক করার সময় Alt/Option চেপে ধরুন"
+   },
+   "optionAutoActionOnGroupOpenTrashTitle": {
+      "message": "ট্যাবগুলো খুলে গ্রুপটিকে ট্র্যাশে সরান"
+   },
+   "optionAutoActionOnTabOpenArchiveDesc": {
+      "message": "স্বয়ংক্রিয়ভাবে আর্কাইভড হিসেবে চিহ্নিত হওয়া রোধ করতে, ট্যাব খুলতে ক্লিক করার সময় Alt/Option চেপে ধরুন"
+   },
+   "optionAutoActionOnTabOpenArchiveTitle": {
+      "message": "ট্যাবটি খুলে আর্কাইভড হিসেবে চিহ্নিত করুন"
+   },
+   "optionAutoActionOnTabOpenHeading": {
+      "message": "কোনো ট্যাব খুলতে ক্লিক করলে স্বয়ংক্রিয় অ্যাকশন:"
+   },
+   "optionAutoActionOnTabOpenNote": {
+      "message": "লক করা গ্রুপ বা কাজ হিসেবে চিহ্নিত গ্রুপের ট্যাবে স্বয়ংক্রিয় অ্যাকশন প্রযোজ্য হবে না।"
+   },
+   "optionAutoActionOnTabOpenOpenDesc": {
+      "message": "ট্যাবটিকে আর্কাইভড হিসেবে চিহ্নিত করতে, ট্যাব খুলতে ক্লিক করার সময় Alt/Option চেপে ধরুন"
+   },
+   "optionAutoActionOnTabOpenOpenTitle": {
+      "message": "শুধু ট্যাবটি খুলুন"
+   },
+   "optionAutoActionOnTabOpenTrashDesc": {
+      "message": "ট্যাবটি স্বয়ংক্রিয়ভাবে ট্র্যাশে যাওয়া রোধ করতে, ট্যাব খুলতে ক্লিক করার সময় Alt/Option চেপে ধরুন"
+   },
+   "optionAutoActionOnTabOpenTrashTitle": {
+      "message": "ট্যাবটি খুলে ট্র্যাশে সরান"
+   },
+   "optionCopyToClipboardFormatHeading": {
+      "message": "লিংক ক্লিপবোর্ডে কপি করা:"
+   },
+   "optionCopyToClipboardFormatNote": {
+      "message": "আপনি 'ক্লিপবোর্ডে কপি করুন' অ্যাকশন ব্যবহার করলে এই সেটিং প্রযোজ্য হবে। এছাড়াও, OneTab থেকে সরাসরি ট্যাব ও গ্রুপ টেনে কোনো ডকুমেন্টে ছেড়ে দিতে পারেন।"
+   },
+   "optionCopyToClipboardFormatRichTextDesc": {
+      "message": "ওয়ার্ড প্রসেসরের মতো অ্যাপ্লিকেশনগুলো আপনাকে রিচ টেক্সট পেস্ট করতে দেবে। সমর্থিত না হলে, পরিবর্তে সাধারণ টেক্সট পেস্ট হবে।"
+   },
+   "optionCopyToClipboardFormatRichTextTitle": {
+      "message": "যেখানে সম্ভব, রিচ টেক্সট"
+   },
+   "optionCopyToClipboardFormatTitleUrlTitle": {
+      "message": "শিরোনাম এবং URL"
+   },
+   "optionCopyToClipboardFormatUrlOnlyTitle": {
+      "message": "শুধু URL"
+   },
+   "optionCopyToClipboardFormatUrlTitleTitle": {
+      "message": "URL এবং শিরোনাম"
+   },
+   "optionDefaultTabGroupOpenTypeCurrentWindow": {
+      "message": "ব্রাউজারের ট্যাব গ্রুপ বর্তমান উইন্ডোতে খুলুন"
+   },
+   "optionDefaultTabGroupOpenTypeHeading": {
+      "message": "যে ট্যাবসমূহকে \"ব্রাউজারের ট্যাব গ্রুপ\" হিসেবে খোলার জন্য কনফিগার করা হয়েছে, সেগুলোর গ্রুপ খুলতে ক্লিক করার সময়:"
+   },
+   "optionDefaultTabGroupOpenTypeNewWindow": {
+      "message": "ব্রাউজারের ট্যাব গ্রুপ নতুন উইন্ডোতে খুলুন"
+   },
+   "optionDefaultTabGroupOpenTypeNote": {
+      "message": "ড্রপডাউন থেকে আপনি যদি কোনো নির্দিষ্ট অপশন (যেমন ইনকগনিটো উইন্ডোতে ট্যাব খোলা) বেছে নেন, সেই অপশনটি ওই গ্রুপের জন্য মনে রাখা হবে।"
+   },
+   "optionDefaultWindowGroupOpenTypeCurrentWindow": {
+      "message": "ট্যাবগুলো বর্তমান উইন্ডোতে খুলুন"
+   },
+   "optionDefaultWindowGroupOpenTypeHeading": {
+      "message": "ট্যাবের একটি গ্রুপ খুলতে ক্লিক করার সময়:"
+   },
+   "optionDefaultWindowGroupOpenTypeNewWindow": {
+      "message": "ট্যাবগুলো নতুন উইন্ডোতে খুলুন"
+   },
+   "optionDefaultWindowGroupOpenTypeNote": {
+      "message": "ড্রপডাউন থেকে আপনি যদি কোনো নির্দিষ্ট অপশন (যেমন ইনকগনিটো উইন্ডোতে ট্যাব খোলা) বেছে নেন, সেই অপশনটি ওই গ্রুপের জন্য মনে রাখা হবে।"
+   },
+   "optionDiscardNonActiveTabOnOpenHeading": {
+      "message": "ট্যাব প্রথম খোলার সময়ই সঙ্গে সঙ্গে মেমরি (RAM) বাঁচান:"
+   },
+   "optionDiscardNonActiveTabOnOpenNote": {
+      "message": "এই সেটিংটি সক্রিয় থাকলে, OneTab তালিকা থেকে ট্যাব প্রথমবার খুললেই সেগুলো সাথে সাথে মেমরি থেকে আনলোড হবে। আপনি একসাথে অনেকগুলো ট্যাব খুলে থাকলে এটি উপকারী, কারণ আপনি প্রবেশ না করা পর্যন্ত ট্যাবগুলো মেমরিতে লোড হবে না। এই সেটিংটি নিষ্ক্রিয় থাকলেও, আপনি ট্যাব ব্যবহার না করলে অনেক ওয়েব ব্রাউজার ট্যাবগুলোকে স্বয়ংক্রিয়ভাবে মেমরি থেকে আনলোড করার সিদ্ধান্ত নেয়।"
+   },
+   "optionDisplayContextMenuHeading": {
+      "message": "OneTab কনটেক্সট মেনুতে যেতে ওয়েব পেজে রাইট-ক্লিক করুন:"
+   },
+   "optionDisplayContextMenuNote": {
+      "message": "আপনি মেনুটি নিষ্ক্রিয় করলে, আপনি 'OneTab থেকে ওয়েবসাইট বাদ দিন' ফিচারটি ব্যবহার করতে পারবেন না"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenFalseTitle": {
+      "message": "যে উইন্ডোতে OneTab ট্যাবটি আগে থেকেই খোলা, সেখানে স্যুইচ করুন"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenHeading": {
+      "message": "\"OneTab খুলুন\" অ্যাকশন:"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenNote": {
+      "message": "কীবোর্ড শর্টকাট দিয়ে 'OneTab খুলুন' অ্যাকশনটি চালু করা যায়। ব্রাউজারের টুলবারে OneTab আইকনে ক্লিক করলে যে অ্যাকশন পপ-আপটি আসে, সেখান থেকেও এটি করা যায়।"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenTrueTitle": {
+      "message": "যে কোনো বিদ্যমান OneTab ট্যাব বর্তমান উইন্ডোতে সরান"
+   },
+   "optionStartupLaunchDisplay": {
+      "message": "আপনি যখনই ব্রাউজার চালু করবেন, OneTab খুলুন"
+   },
+   "optionStartupLaunchNone": {
+      "message": "স্বয়ংক্রিয়ভাবে OneTab খুলবেন না"
+   },
+   "optionStartupLaunchNoneDesc3": {
+      "message": "OneTab ম্যানুয়ালি খুলতে, আপনার ব্রাউজারের টুলবারে OneTab আইকনে ক্লিক করে 'OneTab খুলুন' নির্বাচন করুন। বিকল্পভাবে, যেকোনো ওয়েব পেজে রাইট-ক্লিক করে OneTab মেনুতে 'OneTab খুলুন' ক্লিক করতে পারেন।"
+   },
+   "optionStartupLaunchTitle": {
+      "message": "স্টার্টআপ:"
+   },
+   "optionSwitchToOpenedTabFalseTitle": {
+      "message": "ট্যাব খুলুন এবং OneTab-এ থাকুন"
+   },
+   "optionSwitchToOpenedTabHeading": {
+      "message": "OneTab পেজ থেকে ট্যাব খোলার সময়:"
+   },
+   "optionSwitchToOpenedTabNote": {
+      "message": "ক্লিক করার সময় Shift চাপলে, ট্যাবটি নতুন উইন্ডোতে খুলবে"
+   },
+   "optionSwitchToOpenedTabTrueTitle": {
+      "message": "ট্যাবটি খুলে তাতে স্যুইচ করুন (ক্লিক করার সময় Command ⌘/Ctrl চেপে না ধরলে)"
+   },
+   "optionUrlAbbr": {
+      "message": "সংক্ষিপ্ত"
+   },
+   "optionUrlDisplayTitle": {
+      "message": "URL প্রদর্শন:"
+   },
+   "optionUrlDomain": {
+      "message": "শুধু ডোমেইন"
+   },
+   "optionUrlFull": {
+      "message": "সম্পূর্ণ"
+   },
+   "optionUrlNone": {
+      "message": "কোনোটি নয়"
+   },
+   "options": {
+      "message": "বিকল্প"
+   },
+   "otherCopiesColon": {
+      "message": "অন্যান্য কপি:"
+   },
+   "pasteRichOrPlainTextBelow": {
+      "message": "নিচে আপনি রিচ টেক্সট বা সাধারণ টেক্সট পেস্ট করতে পারেন।"
+   },
+   "pendingTaskCount_few": {
+      "message": "অপেক্ষমাণ {COUNT}"
+   },
+   "pendingTaskCount_many": {
+      "message": "অপেক্ষমাণ {COUNT}"
+   },
+   "pendingTaskCount_one": {
+      "message": "অপেক্ষমাণ {COUNT}"
+   },
+   "pendingTaskCount_other": {
+      "message": "অপেক্ষমাণ {COUNT}"
+   },
+   "pendingTaskCount_two": {
+      "message": "অপেক্ষমাণ {COUNT}"
+   },
+   "pendingTaskCount_zero": {
+      "message": "অপেক্ষমাণ {COUNT}"
+   },
+   "permissionRequiredPleaseTryAgain": {
+      "message": "যেকোনো কম্পিউটার থেকে প্রবেশযোগ্য একটি শেয়ার করা পেজ তৈরি করতে OneTab ওয়েব সার্ভারের সাথে সমন্বয়ের অনুমতি প্রয়োজন। অনুগ্রহ করে আবার চেষ্টা করুন।"
+   },
+   "pinToTopOfFolder": {
+      "message": "ফোল্ডারের শীর্ষে পিন করুন"
+   },
+   "pinToTopOfList": {
+      "message": "তালিকার শীর্ষে পিন করুন"
+   },
+   "pinnedTabs": {
+      "message": "পিন করা ট্যাব"
+   },
+   "placeholderAndOtherLocations_few": {
+      "message": "PLACEHOLDER, এবং আরও {COUNT}"
+   },
+   "placeholderAndOtherLocations_many": {
+      "message": "PLACEHOLDER, এবং আরও {COUNT}"
+   },
+   "placeholderAndOtherLocations_one": {
+      "message": "PLACEHOLDER, এবং আরও {COUNT}"
+   },
+   "placeholderAndOtherLocations_other": {
+      "message": "PLACEHOLDER, এবং আরও {COUNT}"
+   },
+   "placeholderAndOtherLocations_two": {
+      "message": "PLACEHOLDER, এবং আরও {COUNT}"
+   },
+   "placeholderAndOtherLocations_zero": {
+      "message": "PLACEHOLDER, এবং আরও {COUNT}"
+   },
+   "placeholderExplanation": {
+      "message": "ওয়েব ব্রাউজারের সুরক্ষা নীতির কারণে, OneTab এই পেজটি সরাসরি পুনরুদ্ধার করতে পারে না। অনুগ্রহ করে আপনার URL কপি করে ব্রাউজারের অ্যাড্রেস বারে পেস্ট করুন।"
+   },
+   "plainTextLineFormat": {
+      "message": "আপনি যদি সাধারণ টেক্সট পেস্ট করেন, তবে প্রতিটি URL-এ প্রোটোকল উল্লেখ আছে কিনা নিশ্চিত করুন (শুধু wikipedia.org নয়, বরং https://wikipedia.org)। প্রতিটি লাইন নিচের ফরম্যাটে হবে:"
+   },
+   "pleaseWaitTripleDot": {
+      "message": "অনুগ্রহ করে অপেক্ষা করুন…"
+   },
+   "popupSlashShortcutInfo": {
+      "message": "OneTab অ্যাকশন পপ-আপে (যা OneTab আইকনে ক্লিক করলে দেখা যায়) থাকাকালে, স্ল্যাশ কী চাপলে গন্তব্য নির্বাচক খুলবে এবং সার্চ বক্সে ফোকাস যাবে।"
+   },
+   "privacyAssurance": {
+      "message": "গোপনীয়তার নিশ্চয়তা"
+   },
+   "privacyAssuranceDetail": {
+      "message": "আপনার ট্যাবের তালিকা কখনোই OneTab ডেভেলপারদের বা অন্য কোনো পক্ষের কাছে প্রেরিত বা প্রকাশ করা হয় না। একমাত্র ব্যতিক্রম হলো, আপনি যদি ইচ্ছাকৃতভাবে 'ওয়েব পেজ হিসেবে শেয়ার করুন' ফিচারটি ব্যবহার করে আপনার ট্যাবের তালিকাটি অন্যদের সাথে শেয়ার করার জন্য কোনো ওয়েব পেজে আপলোড করেন।"
+   },
+   "privacyFirst": {
+      "message": "গোপনীয়তা সর্বাগ্রে"
+   },
+   "privacyFirstMessage": {
+      "message": "আপনার ব্যক্তিগত ডেটা সুরক্ষার জন্যই OneTab নকশা করা হয়েছে। আপনার ট্যাব কেবল আপনার কম্পিউটারেই সংরক্ষিত থাকে, এবং কখনোই OneTab ডেভেলপার বা অন্য কারও সাথে শেয়ার করা হয় না।\nআপনি যদি আমাদের ব্যাকআপ/সিঙ্ক ফিচার ব্যবহার করেন, আপনার ডেটা উচ্চ-মানের AES-256 দিয়ে প্রান্ত-থেকে-প্রান্ত এনক্রিপ্টেড থাকবে। এতে OneTab ডেভেলপারদের পক্ষে আপনার ব্যাকআপ করা বা ডিভাইসের মধ্যে সিঙ্ক করা ট্যাব দেখা অসম্ভব হয়ে যায়, কারণ এনক্রিপশন কী শুধুই আপনার কাছে থাকে। \nএকমাত্র ব্যতিক্রম হলো, আপনি যদি ইচ্ছাকৃতভাবে আমাদের 'ওয়েব পেজ হিসেবে শেয়ার করুন' ফিচার ব্যবহার করে আপনার কিছু ট্যাব অন্যদের সাথে শেয়ার করেন।\nআমরা 'গোপনীয়তা সর্বাগ্রে' নীতিতে বিশ্বাস করি।"
+   },
+   "privateBrowsingPermissionRequired": {
+      "message": "ব্যক্তিগত উইন্ডো তৈরি করতে OneTab-এর অনুমতি প্রয়োজন।"
+   },
+   "privateBrowsingWindows": {
+      "message": "ব্যক্তিগত ব্রাউজিং উইন্ডো"
+   },
+   "quickList": {
+      "message": "দ্রুত তালিকা"
+   },
+   "rating": {
+      "message": "রেটিং"
+   },
+   "readingList": {
+      "message": "রিডিং লিস্ট"
+   },
+   "readingListPermissionNecesssary": {
+      "message": "আপনার রিডিং লিস্ট থেকে আইটেম আমদানির জন্য OneTab 'রিডিং লিস্ট' অনুমতি প্রয়োজন। এই ফিচারটি কাজ না করলে, সম্ভবত আপনার ব্রাউজার রিডিং লিস্ট সমর্থন করে না।"
+   },
+   "recent": {
+      "message": "সাম্প্রতিক"
+   },
+   "recentDestinationsColon": {
+      "message": "সাম্প্রতিক গন্তব্য:"
+   },
+   "recentDuplicateRetainedHelp": {
+      "message": "কোনো ট্যাব একাধিকবার থাকলে, কেবল সর্বশেষ সদৃশটি রাখা হবে"
+   },
+   "recentlyAccessed": {
+      "message": "সম্প্রতি অ্যাক্সেস করা"
+   },
+   "recentlyCreated": {
+      "message": "সম্প্রতি তৈরি"
+   },
+   "recentlyModified": {
+      "message": "সম্প্রতি পরিবর্তিত"
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "message": "মেমরি ব্যবহার 95% কমান"
+   },
+   "removeDuplicateTabsHere_few": {
+      "message": "এখানে থাকা {COUNT} ডুপ্লিকেট ট্যাব সরান"
+   },
+   "removeDuplicateTabsHere_many": {
+      "message": "এখানে থাকা {COUNT} ডুপ্লিকেট ট্যাব সরান"
+   },
+   "removeDuplicateTabsHere_one": {
+      "message": "এখানে থাকা {COUNT} ডুপ্লিকেট ট্যাব সরান"
+   },
+   "removeDuplicateTabsHere_other": {
+      "message": "এখানে থাকা {COUNT} ডুপ্লিকেট ট্যাব সরান"
+   },
+   "removeDuplicateTabsHere_two": {
+      "message": "এখানে থাকা {COUNT} ডুপ্লিকেট ট্যাব সরান"
+   },
+   "removeDuplicateTabsHere_zero": {
+      "message": "এখানে থাকা {COUNT} ডুপ্লিকেট ট্যাব সরান"
+   },
+   "removeDuplicates": {
+      "message": "সদৃশ সরান"
+   },
+   "removeFromQuickList": {
+      "message": "দ্রুত তালিকা থেকে সরান"
+   },
+   "removeTabsElsewhereAlsoHere_few": {
+      "message": "অন্যত্র থাকা এবং এখানে-ও থাকা {COUNT} ট্যাব সরান"
+   },
+   "removeTabsElsewhereAlsoHere_many": {
+      "message": "অন্যত্র থাকা এবং এখানেও থাকা {COUNT} ট্যাব সরান"
+   },
+   "removeTabsElsewhereAlsoHere_one": {
+      "message": "অন্যত্র থাকা এবং এখানে-ও থাকা {COUNT} ট্যাব সরান"
+   },
+   "removeTabsElsewhereAlsoHere_other": {
+      "message": "অন্যত্র থাকা এবং এখানে-ও থাকা {COUNT} ট্যাব সরান"
+   },
+   "removeTabsElsewhereAlsoHere_two": {
+      "message": "অন্যত্র থাকা এবং এখানে-ও থাকা {COUNT} ট্যাব সরান"
+   },
+   "removeTabsElsewhereAlsoHere_zero": {
+      "message": "অন্যত্র থাকা এবং এখানে-ও থাকা {COUNT} ট্যাব সরান"
+   },
+   "removeTabsHereAlsoElsewhere_few": {
+      "message": "এখানে থাকা এবং অন্যত্রও থাকা {COUNT} ট্যাব সরান"
+   },
+   "removeTabsHereAlsoElsewhere_many": {
+      "message": "এখানে থাকা এবং অন্যত্রও থাকা {COUNT} ট্যাব সরান"
+   },
+   "removeTabsHereAlsoElsewhere_one": {
+      "message": "এখানে থাকা এবং অন্যত্রও থাকা {COUNT} ট্যাব সরান"
+   },
+   "removeTabsHereAlsoElsewhere_other": {
+      "message": "এখানে থাকা এবং অন্যত্রও থাকা {COUNT} ট্যাব সরান"
+   },
+   "removeTabsHereAlsoElsewhere_two": {
+      "message": "এখানে থাকা এবং অন্যত্রও থাকা {COUNT} ট্যাব সরান"
+   },
+   "removeTabsHereAlsoElsewhere_zero": {
+      "message": "এখানে থাকা এবং অন্যত্রও থাকা {COUNT} ট্যাব সরান"
+   },
+   "rename": {
+      "message": "নাম বদলান"
+   },
+   "restore": {
+      "message": "পুনরুদ্ধার করুন"
+   },
+   "restrictSearchToFolderColon": {
+      "message": "অনুসন্ধানটি নিচের ফোল্ডারেই সীমাবদ্ধ করুন:"
+   },
+   "results": {
+      "message": "ফলাফল"
+   },
+   "returnToOneTab": {
+      "message": "OneTab-এ ফিরে যান"
+   },
+   "reverse": {
+      "message": "উল্টো ক্রম"
+   },
+   "rightClickAndOpenOneTabMenu": {
+      "message": "ওয়েব পেজে রাইট-ক্লিক করে OneTab মেনুতে যান"
+   },
+   "rightClickMenuDisabledNote": {
+      "message": "নোট: আপনি OneTab-এর রাইট-ক্লিক মেনু নিষ্ক্রিয় করেছেন। অনুগ্রহ করে OneTab-এর বিকল্প পেজে গিয়ে এটি সক্রিয় করুন।"
+   },
+   "rightClickSelectionOptionsTip": {
+      "message": "টিপ: কোনো আইটেমে টিক দেওয়ার পর, টিক আইকনে রাইট-ক্লিক করে আরও নির্বাচন বিকল্প দেখুন"
+   },
+   "rightClickTickTip": {
+      "message": "টিপ: প্রতিটি ট্যাবের পাশের টিক আইকনে রাইট-ক্লিক করে নির্বাচন টুল ব্যবহার করুন"
+   },
+   "safariApproveOneTabInSettings": {
+      "message": "দয়া করে সেটিংসে গিয়ে OneTab-কে সব ওয়েবসাইটে অ্যাক্সেসের অনুমতি দিন।"
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "message": "Google Chrome-এ সর্বোচ্চ 95% মেমরি বাঁচান এবং ট্যাবের বিশৃঙ্খলা কমান"
+   },
+   "searchHere": {
+      "message": "এখানে খুঁজুন"
+   },
+   "searchOneTab": {
+      "message": "OneTab-এ খুঁজুন"
+   },
+   "secondExampleLink": {
+      "message": "দ্বিতীয় উদাহরণ লিংক"
+   },
+   "secondExampleLinkTitle": {
+      "message": "দ্বিতীয় উদাহরণ লিংকের শিরোনাম"
+   },
+   "secondExampleLinkTitleOptional": {
+      "message": "দ্বিতীয় উদাহরণ লিংকের শিরোনাম (ঐচ্ছিক)"
+   },
+   "seeOtherTabsInThisGroup_few": {
+      "message": "এই গ্রুপে অন্যান্য {COUNT} ট্যাব দেখুন"
+   },
+   "seeOtherTabsInThisGroup_many": {
+      "message": "এই গ্রুপে অন্যান্য {COUNT} ট্যাব দেখুন"
+   },
+   "seeOtherTabsInThisGroup_one": {
+      "message": "এই গ্রুপে অন্য {COUNT} ট্যাব দেখুন"
+   },
+   "seeOtherTabsInThisGroup_other": {
+      "message": "এই গ্রুপে অন্যান্য {COUNT} ট্যাব দেখুন"
+   },
+   "seeOtherTabsInThisGroup_two": {
+      "message": "এই গ্রুপে অন্যান্য {COUNT} ট্যাব দেখুন"
+   },
+   "seeOtherTabsInThisGroup_zero": {
+      "message": "এই গ্রুপে অন্যান্য {COUNT} ট্যাব দেখুন"
+   },
+   "seePasteInstructions": {
+      "message": "পেস্টের নির্দেশনা দেখুন…"
+   },
+   "seeTabsInThisGroup_few": {
+      "message": "এই গ্রুপে {COUNT} ট্যাব দেখুন"
+   },
+   "seeTabsInThisGroup_many": {
+      "message": "এই গ্রুপে {COUNT} ট্যাব দেখুন"
+   },
+   "seeTabsInThisGroup_one": {
+      "message": "এই গ্রুপে {COUNT} ট্যাব দেখুন"
+   },
+   "seeTabsInThisGroup_other": {
+      "message": "এই গ্রুপে {COUNT} ট্যাব দেখুন"
+   },
+   "seeTabsInThisGroup_two": {
+      "message": "এই গ্রুপে {COUNT} ট্যাব দেখুন"
+   },
+   "seeTabsInThisGroup_zero": {
+      "message": "এই গ্রুপে {COUNT} ট্যাব দেখুন"
+   },
+   "selectAll": {
+      "message": "সব নির্বাচন করুন"
+   },
+   "selectAllExceptThis": {
+      "message": "এটি ছাড়া বাকি সব নির্বাচন করুন"
+   },
+   "selectThisAndAbove": {
+      "message": "এটি ও এর উপরের সব নির্বাচন করুন"
+   },
+   "selectThisAndBelow": {
+      "message": "এটি ও এর নিচের সব নির্বাচন করুন"
+   },
+   "selectedItemCount_few": {
+      "message": "{COUNT} আইটেম"
+   },
+   "selectedItemCount_many": {
+      "message": "{COUNT} আইটেম"
+   },
+   "selectedItemCount_one": {
+      "message": "{COUNT} আইটেম"
+   },
+   "selectedItemCount_other": {
+      "message": "{COUNT} আইটেম"
+   },
+   "selectedItemCount_two": {
+      "message": "{COUNT} আইটেম"
+   },
+   "selectedItemCount_zero": {
+      "message": "{COUNT} আইটেম"
+   },
+   "selection": {
+      "message": "নির্বাচন"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "message": "সব উইন্ডোর সব ট্যাব OneTab-এ পাঠান"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "message": "এই ট্যাব ছাড়া বাকি সব ট্যাব OneTab-এ পাঠান"
+   },
+   "sendAllTabsInGroupToOneTab": {
+      "message": "এই ট্যাব গ্রুপের সব ট্যাব OneTab-এ পাঠান"
+   },
+   "sendAllTabsInWindowToOneTab": {
+      "message": "এই উইন্ডোর সব ট্যাব OneTab-এ পাঠান"
+   },
+   "sendCurrentTabToOneTab": {
+      "message": "বর্তমান ট্যাবটি OneTab-এ পাঠান"
+   },
+   "sendLeftTabsToOneTab": {
+      "message": "বাম দিকের ট্যাবগুলো OneTab-এ পাঠান"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "message": "শুধু এই ট্যাবটি OneTab-এ পাঠান"
+   },
+   "sendRightTabsToOneTab": {
+      "message": "ডান দিকের ট্যাবগুলো OneTab-এ পাঠান"
+   },
+   "sendSelectedTabsToOneTab": {
+      "message": "নির্বাচিত ট্যাবগুলো OneTab-এ পাঠান"
+   },
+   "sendThisWebLinkToOneTab": {
+      "message": "এই ওয়েব লিংকটি OneTab-এ পাঠান"
+   },
+   "serverUnreachable": {
+      "message": "সার্ভারে পৌঁছানো যাচ্ছে না। আপনার ইন্টারনেট সংযোগ পরীক্ষা করুন।"
+   },
+   "share": {
+      "message": "শেয়ার করুন"
+   },
+   "shareAsAWebPage": {
+      "message": "ওয়েব পেজ হিসেবে শেয়ার করুন"
+   },
+   "shared": {
+      "message": "শেয়ার করা"
+   },
+   "sharedExpiresColon": {
+      "message": "ওয়েব পেজ হিসেবে শেয়ার করা। মেয়াদ শেষ:"
+   },
+   "sharedPageOptions": {
+      "message": "শেয়ার করা পেজ অপশন"
+   },
+   "sharedPageTabLimit_few": {
+      "message": "শেয়ার করা পেজ {COUNT} ট্যাব পর্যন্ত সীমাবদ্ধ"
+   },
+   "sharedPageTabLimit_many": {
+      "message": "শেয়ার করা পেজ {COUNT} ট্যাব পর্যন্ত সীমাবদ্ধ"
+   },
+   "sharedPageTabLimit_one": {
+      "message": "শেয়ার করা পেজ {COUNT} ট্যাব পর্যন্ত সীমাবদ্ধ"
+   },
+   "sharedPageTabLimit_other": {
+      "message": "শেয়ার করা পেজ {COUNT} ট্যাব পর্যন্ত সীমাবদ্ধ"
+   },
+   "sharedPageTabLimit_two": {
+      "message": "শেয়ার করা পেজ {COUNT} ট্যাব পর্যন্ত সীমাবদ্ধ"
+   },
+   "sharedPageTabLimit_zero": {
+      "message": "শেয়ার করা পেজ {COUNT} ট্যাব পর্যন্ত সীমাবদ্ধ"
+   },
+   "sharedPageWillAutomaticallyExpire": {
+      "message": "শেয়ার করা পেজটির মেয়াদ স্বয়ংক্রিয়ভাবে শেষ হবে, তবে আপনি যেকোনো সময় মেয়াদ বাড়াতে পারেন।"
+   },
+   "shiftDragShortcutInfo": {
+      "message": "একটি ট্যাব ছাড়ার সময় Shift কী চেপে ধরলে সেটি সরানোর বদলে একটি কপি তৈরি হবে। গুরুত্বপূর্ণ: ড্র্যাগ শুরু করার পরেই কেবল Shift কী চাপুন।"
+   },
+   "showEverything": {
+      "message": "সব দেখান"
+   },
+   "showFoldersOnly": {
+      "message": "শুধু ফোল্ডার দেখান"
+   },
+   "showNamedItemsOnly": {
+      "message": "শুধু নামযুক্ত আইটেম দেখান"
+   },
+   "showNamedOnly": {
+      "message": "শুধু নামযুক্ত আইটেম দেখান"
+   },
+   "showNextCount_few": {
+      "message": "পরের {COUNT}"
+   },
+   "showNextCount_many": {
+      "message": "পরের {COUNT}"
+   },
+   "showNextCount_one": {
+      "message": "পরের {COUNT}"
+   },
+   "showNextCount_other": {
+      "message": "পরের {COUNT}"
+   },
+   "showNextCount_two": {
+      "message": "পরের {COUNT}"
+   },
+   "showNextCount_zero": {
+      "message": "পরের {COUNT}"
+   },
+   "showPreviousCount_few": {
+      "message": "আগের {COUNT}"
+   },
+   "showPreviousCount_many": {
+      "message": "আগের {COUNT}"
+   },
+   "showPreviousCount_one": {
+      "message": "আগের {COUNT}"
+   },
+   "showPreviousCount_other": {
+      "message": "আগের {COUNT}"
+   },
+   "showPreviousCount_two": {
+      "message": "আগের {COUNT}"
+   },
+   "showPreviousCount_zero": {
+      "message": "আগের {COUNT}"
+   },
+   "soon": {
+      "message": "শীঘ্রই"
+   },
+   "sort": {
+      "message": "সাজানো"
+   },
+   "sortByColon": {
+      "message": "সাজানোর ভিত্তি:"
+   },
+   "sortGroups": {
+      "message": "গ্রুপ সাজান"
+   },
+   "sourceColon": {
+      "message": "উৎস:"
+   },
+   "starRatingTooltip": {
+      "message": "স্টার রেটিং সেট করুন"
+   },
+   "storeSelectedTabsInONETAB_few": {
+      "message": "নির্বাচিত {COUNT} ট্যাব ONETAB-এ সংরক্ষণ করুন"
+   },
+   "storeSelectedTabsInONETAB_many": {
+      "message": "নির্বাচিত {COUNT} ট্যাব ONETAB-এ সংরক্ষণ করুন"
+   },
+   "storeSelectedTabsInONETAB_one": {
+      "message": "নির্বাচিত {COUNT} ট্যাব ONETAB-এ সংরক্ষণ করুন"
+   },
+   "storeSelectedTabsInONETAB_other": {
+      "message": "নির্বাচিত {COUNT} ট্যাব ONETAB-এ সংরক্ষণ করুন"
+   },
+   "storeSelectedTabsInONETAB_two": {
+      "message": "নির্বাচিত {COUNT} ট্যাব ONETAB-এ সংরক্ষণ করুন"
+   },
+   "storeSelectedTabsInONETAB_zero": {
+      "message": "নির্বাচিত {COUNT} ট্যাব ONETAB-এ সংরক্ষণ করুন"
+   },
+   "storeTabInAdditionalLocation": {
+      "message": "আপনার ট্যাব আরেকটি স্থানে সংরক্ষণ করুন"
+   },
+   "storeTabInONETAB": {
+      "message": "ট্যাব ONETAB-এ সংরক্ষণ করুন"
+   },
+   "storeTabsInAdditionalLocation": {
+      "message": "আপনার ট্যাবগুলো আরেকটি স্থানে সংরক্ষণ করুন"
+   },
+   "storeTabsInONETAB": {
+      "message": "ট্যাবগুলো ONETAB-এ সংরক্ষণ করুন"
+   },
+   "subFoldersNotShared": {
+      "message": "দয়া করে নোট করুন, সাব-ফোল্ডার শেয়ার করা হয় না। শুধু ফোল্ডারের ভেতরে সরাসরি থাকা ট্যাবের গ্রুপগুলো শেয়ার করা হয়।"
+   },
+   "tab": {
+      "message": "ট্যাব"
+   },
+   "tabAlreadyStoredHere": {
+      "message": "আপনার খোলা ট্যাবটি আগে থেকেই এখানে সংরক্ষিত:"
+   },
+   "tabCaretTooltipTitleNotes": {
+      "message": "ট্যাবের শিরোনাম ও নোট সম্পাদনা করুন"
+   },
+   "tabCaretTooltipTitleNotesUrl": {
+      "message": "ট্যাবের শিরোনাম, URL ও নোট সম্পাদনা করুন"
+   },
+   "tabCount_few": {
+      "message": "{COUNT} ট্যাব"
+   },
+   "tabCount_many": {
+      "message": "{COUNT} ট্যাব"
+   },
+   "tabCount_one": {
+      "message": "{COUNT} ট্যাব"
+   },
+   "tabCount_other": {
+      "message": "{COUNT} ট্যাব"
+   },
+   "tabCount_two": {
+      "message": "{COUNT} ট্যাব"
+   },
+   "tabCount_zero": {
+      "message": "{COUNT} ট্যাব"
+   },
+   "tabGroupColorColon": {
+      "message": "ট্যাব গ্রুপের রং:"
+   },
+   "tabShortcutInfo": {
+      "message": "OneTab পেজে থাকলে, মাঝের কলামের গ্রুপগুলোর মধ্যে ফোকাস সরাতে Tab কী চাপুন। এতে বড় গ্রুপ থাকলেও দ্রুত গ্রুপ এড়িয়ে যাওয়া সহজ হয়। কোনো গ্রুপে ফোকাস থাকলে, সেটি খুলতে Enter কী চাপুন। পেছনের দিকে ফোকাস নিতে Shift+Tab ব্যবহার করুন।"
+   },
+   "tabTotalCount_few": {
+      "message": "মোট: {COUNT} ট্যাব"
+   },
+   "tabTotalCount_many": {
+      "message": "মোট: {COUNT} ট্যাব"
+   },
+   "tabTotalCount_one": {
+      "message": "মোট: {COUNT} ট্যাব"
+   },
+   "tabTotalCount_other": {
+      "message": "মোট: {COUNT} ট্যাব"
+   },
+   "tabTotalCount_two": {
+      "message": "মোট: {COUNT} ট্যাব"
+   },
+   "tabTotalCount_zero": {
+      "message": "মোট: {COUNT} ট্যাব"
+   },
+   "tabs": {
+      "message": "ট্যাব"
+   },
+   "tabsFromExcludedDomains": {
+      "message": "বাদ দেওয়া ডোমেইনের ট্যাব"
+   },
+   "tabsInTabGroups": {
+      "message": "ট্যাব গ্রুপে থাকা ট্যাব"
+   },
+   "taskTotalCount_few": {
+      "message": "মোট {COUNT}"
+   },
+   "taskTotalCount_many": {
+      "message": "মোট {COUNT}"
+   },
+   "taskTotalCount_one": {
+      "message": "মোট {COUNT}"
+   },
+   "taskTotalCount_other": {
+      "message": "মোট {COUNT}"
+   },
+   "taskTotalCount_two": {
+      "message": "মোট {COUNT}"
+   },
+   "taskTotalCount_zero": {
+      "message": "মোট {COUNT}"
+   },
+   "tasks": {
+      "message": "কাজ"
+   },
+   "tasksDone": {
+      "message": "কাজ (সম্পন্ন)"
+   },
+   "tasksPending": {
+      "message": "কাজ (অপেক্ষমাণ)"
+   },
+   "tasksWillAppearHere": {
+      "message": "আপনি যদি কোনো ট্যাব বা গ্রুপকে কাজ হিসেবে চিহ্নিত করেন, সেগুলো এখানে দেখা যাবে।"
+   },
+   "thenClickToolbarIcon": {
+      "message": "তারপর OneTab ব্যবহার করতে টুলবারে OneTab আইকনে আবার ক্লিক করুন।"
+   },
+   "thisFolderIsEmpty": {
+      "message": "এই ফোল্ডারটি খালি"
+   },
+   "thisTab": {
+      "message": "এই ট্যাব"
+   },
+   "thisTabGroup": {
+      "message": "এই ট্যাব গ্রুপ"
+   },
+   "thisTabNotStored": {
+      "message": "এই ট্যাবটি OneTab-এ সংরক্ষিত নয়"
+   },
+   "thisWindow": {
+      "message": "এই উইন্ডো"
+   },
+   "tickOrUntickToExclude": {
+      "message": "ওয়েবসাইটটি বাদ দিতে অপশনটি টিক/আনটিক করুন"
+   },
+   "title": {
+      "message": "শিরোনাম"
+   },
+   "toAddOrRemoveExclusions": {
+      "message": "বর্জন তালিকায় কোনো ওয়েবসাইট যোগ বা সরাতে:"
+   },
+   "toAllowOneTabInIncognito": {
+      "message": "ইনকগনিটো উইন্ডোতে OneTab আইকন প্রদর্শনের জন্য: "
+   },
+   "toImportBrowserBookmarksUseMenuOption": {
+      "message": "ব্রাউজারের বুকমার্ক থেকে আমদানি করতে, আপনার OneTab পেজে 'এখানে লিংক আমদানি করুন' মেনু অপশনটি ব্যবহার করুন"
+   },
+   "toMakeOpenButtonWorkApprovePermission": {
+      "message": "শেয়ার করা পেজে 'Open' বোতামটি কাজ করাতে, অনুগ্রহ করে অনুমতির অনুরোধটি অনুমোদন করুন।"
+   },
+   "toSaveChangesClickButton": {
+      "message": "পরিবর্তন সংরক্ষণ করতে বোতামে ক্লিক করুন"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "message": "ট্যাব বেশি? আপনার ট্যাবগুলোকে তালিকায় রূপান্তর করুন এবং Firefox দ্রুত করুন"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "message": "ট্যাব বেশি? আপনার ট্যাবগুলোকে তালিকায় রূপান্তর করুন এবং Safari দ্রুত করুন"
+   },
+   "total0Tabs": {
+      "message": "মোট: 0 ট্যাব"
+   },
+   "trash": {
+      "message": "ট্র্যাশ"
+   },
+   "unMarkAsTask": {
+      "message": "কাজের চিহ্ন সরান"
+   },
+   "unPin": {
+      "message": "পিন সরান"
+   },
+   "unlock": {
+      "message": "আনলক করুন"
+   },
+   "unmarkAsArchived": {
+      "message": "আর্কাইভড চিহ্ন সরান"
+   },
+   "unshare": {
+      "message": "শেয়ার বন্ধ করুন"
+   },
+   "untitled": {
+      "message": "শিরোনামহীন"
+   },
+   "update": {
+      "message": "আপডেট"
+   },
+   "userLanguage": {
+      "message": "বাংলা"
+   },
+   "website": {
+      "message": "ওয়েবসাইট"
+   },
+   "yearCount_few": {
+      "message": "{COUNT} বছর"
+   },
+   "yearCount_many": {
+      "message": "{COUNT} বছর"
+   },
+   "yearCount_one": {
+      "message": "{COUNT} বছর"
+   },
+   "yearCount_other": {
+      "message": "{COUNT} বছর"
+   },
+   "yearCount_two": {
+      "message": "{COUNT} বছর"
+   },
+   "yearCount_zero": {
+      "message": "{COUNT} বছর"
+   },
+   "yourTabAlreadyStoredHere": {
+      "message": "আপনার ট্যাবটি আগে থেকেই এখানে সংরক্ষিত:"
+   }
+}

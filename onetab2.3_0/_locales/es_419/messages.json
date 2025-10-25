@@ -1,0 +1,1715 @@
+{
+   "95PctMemoryReduction": {
+      "message": "Reducción de memoria del 95%"
+   },
+   "Folder": {
+      "message": "Carpeta"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "message": "OneTab también está disponible para Firefox"
+   },
+   "aDashZ": {
+      "message": "A-Z"
+   },
+   "about": {
+      "message": "Acerca de"
+   },
+   "addOneTabNow": {
+      "message": "Agregar OneTab ahora"
+   },
+   "all": {
+      "message": "Todo"
+   },
+   "allBookmarks": {
+      "message": "Todos los marcadores"
+   },
+   "allOpenTabsAlreadyStoredHere": {
+      "message": "Todas las pestañas abiertas ya están guardadas aquí:"
+   },
+   "allowFileAccessInstructions": {
+      "message": "Para permitir abrir archivos directamente, ve a Configuración ➝ Extensiones ➝ OneTab ➝ Detalles ➝ Permitir el acceso a las URL de archivos"
+   },
+   "alreadyExistingOpenTabsWillBeClosedAfterMerge": {
+      "message": "Todas las pestañas abiertas que ya existen en este grupo se cerrarán después de combinar."
+   },
+   "alternatePlainTextFormat": {
+      "message": "Alternativamente, el texto sin formato puede tener el formato:"
+   },
+   "approve": {
+      "message": "Aprobar"
+   },
+   "archived": {
+      "message": "Archivados"
+   },
+   "autoTheme": {
+      "message": "Automático (usar la configuración del sistema)"
+   },
+   "backupAndSync": {
+      "message": "Copia de seguridad y sincronización"
+   },
+   "betaReleaseReportBugsHere": {
+      "message": "Versión beta - Reporta errores aquí"
+   },
+   "bookmarkCount_few": {
+      "message": "{COUNT} marcadores"
+   },
+   "bookmarkCount_many": {
+      "message": "{COUNT} marcadores"
+   },
+   "bookmarkCount_one": {
+      "message": "{COUNT} marcador"
+   },
+   "bookmarkCount_other": {
+      "message": "{COUNT} marcadores"
+   },
+   "bookmarkCount_two": {
+      "message": "{COUNT} marcadores"
+   },
+   "bookmarkCount_zero": {
+      "message": "{COUNT} marcadores"
+   },
+   "bookmarksPermissionNecesssary": {
+      "message": "Se necesita el permiso de marcadores para que OneTab pueda importar los marcadores de tu navegador"
+   },
+   "bulkActions": {
+      "message": "Acciones masivas"
+   },
+   "canDragTextNote": {
+      "message": "Nota: También es posible arrastrar y soltar texto que contenga enlaces web directamente desde otra página web o desde un documento. Puedes arrastrar el texto directamente a tu página de OneTab, sin necesidad de usar este cuadro de importación."
+   },
+   "canPasteWebContentForExample": {
+      "message": "Puedes pegar texto copiado de una página web o un documento, y los enlaces se extraerán automáticamente. Por ejemplo:"
+   },
+   "cancel": {
+      "message": "Cancelar"
+   },
+   "cannotConnectToServerDeletionRequestQueued": {
+      "message": "No se puede conectar con el servidor de OneTab. Verifica tu conexión a internet. Tu solicitud de eliminación de la página compartida se ha puesto en cola localmente y se transmitirá automáticamente al servidor de OneTab en cuanto vuelva a estar disponible."
+   },
+   "cannotCreateTabGroupInTabGroup": {
+      "message": "El destino elegido es un grupo de pestañas. No puedes crear un grupo de pestañas dentro de un grupo de pestañas existente. Elige otro destino."
+   },
+   "cannotMixTabsGroupsFoldersDuringDrag": {
+      "message": "No es posible mezclar pestañas, grupos y carpetas al arrastrar. Esto se debe a que, por ejemplo, no puedes arrastrar una carpeta a los mismos lugares donde puedes arrastrar una pestaña."
+   },
+   "caseSensitive": {
+      "message": "Distinguir mayúsculas y minúsculas"
+   },
+   "changesMadeSinceSharedPageCreation": {
+      "message": "Se realizaron cambios desde que creaste la página compartida. Haz clic en el botón \"Actualizar\" para actualizar la página compartida existente."
+   },
+   "checkboxesDeterminePinnedAndGroupedTabMergeInclusion": {
+      "message": "Las casillas en la parte superior de esta página determinan si se incluyen las pestañas fijadas o las pestañas en grupos de pestañas en la combinación."
+   },
+   "chooseALocation": {
+      "message": "Elige una ubicación"
+   },
+   "chooseALocationToImportTo": {
+      "message": "Elige una ubicación a la que importar"
+   },
+   "chooseExportLocation": {
+      "message": "Elige una ubicación desde la que exportar"
+   },
+   "chooseLightDarkTheme": {
+      "message": "Elegir tema claro/oscuro"
+   },
+   "chooseLocationToCopyTo": {
+      "message": "Elige una ubicación a la que copiar"
+   },
+   "chooseLocationToMoveTo": {
+      "message": "Elige una ubicación a la que mover"
+   },
+   "chooseLocationToRestoreTo": {
+      "message": "Elige una ubicación a la que restaurar"
+   },
+   "chooseToIncludeNotes": {
+      "message": "Si agregaste notas a pestañas o grupos, elige si quieres incluirlas en la página web compartida"
+   },
+   "chooseToIncludeRatings": {
+      "message": "Si agregaste calificaciones con estrellas a pestañas o grupos, elige si quieres incluirlas en la página web compartida"
+   },
+   "chromeIncognitoInstructions": {
+      "message": "En la configuración del navegador, ve a 'Configuración' → 'Extensiones' → 'OneTab' → 'Detalles' y habilita 'Permitir en modo incógnito'."
+   },
+   "clickButtonToAllowTabAccess": {
+      "message": "Haz clic en el botón de abajo para permitir que OneTab acceda a tus pestañas abiertas."
+   },
+   "clickHereToContinue": {
+      "message": "Haz clic aquí para continuar."
+   },
+   "clickOneTabIconToStoreTabsHere": {
+      "message": "Haz clic en el ícono de OneTab en la barra de herramientas del navegador para guardar aquí tus pestañas abiertas."
+   },
+   "closeSelectedTabsAndStoreInONETAB_few": {
+      "message": "Cerrar {COUNT} pestañas seleccionadas y guardarlas en ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_many": {
+      "message": "Cerrar {COUNT} pestañas seleccionadas y guardarlas en ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_one": {
+      "message": "Cerrar {COUNT} pestaña seleccionada y guardarla en ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_other": {
+      "message": "Cerrar {COUNT} pestañas seleccionadas y guardarlas en ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_two": {
+      "message": "Cerrar {COUNT} pestañas seleccionadas y guardarlas en ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_zero": {
+      "message": "Cerrar {COUNT} pestañas seleccionadas y guardarlas en ONETAB"
+   },
+   "closeSelectedTabs_few": {
+      "message": "Cerrar {COUNT} pestañas seleccionadas"
+   },
+   "closeSelectedTabs_many": {
+      "message": "Cerrar {COUNT} pestañas seleccionadas"
+   },
+   "closeSelectedTabs_one": {
+      "message": "Cerrar {COUNT} pestaña seleccionada"
+   },
+   "closeSelectedTabs_other": {
+      "message": "Cerrar {COUNT} pestañas seleccionadas"
+   },
+   "closeSelectedTabs_two": {
+      "message": "Cerrar {COUNT} pestañas seleccionadas"
+   },
+   "closeSelectedTabs_zero": {
+      "message": "Cerrar {COUNT} pestañas seleccionadas"
+   },
+   "closeTab": {
+      "message": "Cerrar pestaña"
+   },
+   "closeTabAndStore": {
+      "message": "Cerrar pestaña y guardar en ONETAB"
+   },
+   "closeTabs": {
+      "message": "Cerrar pestañas"
+   },
+   "closeTabsAfterMerge": {
+      "message": "Cerrar pestañas después de combinar"
+   },
+   "closeTabsAlreadyStoredInOneTab_few": {
+      "message": "Cerrar {COUNT} pestañas ya guardadas en OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_many": {
+      "message": "Cerrar {COUNT} pestañas ya guardadas en OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_one": {
+      "message": "Cerrar {COUNT} pestaña ya guardada en OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_other": {
+      "message": "Cerrar {COUNT} pestañas ya guardadas en OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_two": {
+      "message": "Cerrar {COUNT} pestañas ya guardadas en OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_zero": {
+      "message": "Cerrar {COUNT} pestañas ya guardadas en OneTab"
+   },
+   "closeTabsAndStore": {
+      "message": "Cerrar pestañas y guardar en ONETAB"
+   },
+   "closeTheseDuplicates": {
+      "message": "Cerrar estos duplicados"
+   },
+   "closeThisDuplicate": {
+      "message": "Cerrar este duplicado"
+   },
+   "completeEditingShortcutInfo": {
+      "message": "Al editar un campo de notas, usa este atajo para terminar la edición."
+   },
+   "configureShortcuts": {
+      "message": "Configurar atajos"
+   },
+   "conflictingShortcutsHint": {
+      "message": "Si alguno de los atajos de teclado anteriores no funciona o entra en conflicto con otras aplicaciones, puedes configurar un atajo diferente."
+   },
+   "continue": {
+      "message": "Continuar"
+   },
+   "convertTabsIntoAList": {
+      "message": "Convertir pestañas en una lista"
+   },
+   "copiedToClipboard": {
+      "message": "Copiado al portapapeles"
+   },
+   "copy": {
+      "message": "Copiar"
+   },
+   "copyLinksToClipboard": {
+      "message": "Copiar enlaces al portapapeles"
+   },
+   "copySharedPageUrl": {
+      "message": "Copiar URL de la página compartida"
+   },
+   "copyToClipboard": {
+      "message": "Copiar al portapapeles"
+   },
+   "createANewGroupHere": {
+      "message": "Crear un grupo nuevo aquí"
+   },
+   "createFolderAbove": {
+      "message": "Crear carpeta arriba"
+   },
+   "createFolderAboveBelow": {
+      "message": "Crear carpeta arriba / abajo"
+   },
+   "createFolderAboveWithinBelow": {
+      "message": "Crear carpeta arriba / dentro / abajo"
+   },
+   "createFolderBelow": {
+      "message": "Crear carpeta abajo"
+   },
+   "createFolderWithin": {
+      "message": "Crear carpeta dentro"
+   },
+   "createGroupAbove": {
+      "message": "Crear grupo arriba"
+   },
+   "createGroupAboveBelow": {
+      "message": "Crear grupo arriba / abajo"
+   },
+   "createGroupAboveWithinBelow": {
+      "message": "Crear grupo arriba / dentro / abajo"
+   },
+   "createGroupBelow": {
+      "message": "Crear grupo abajo"
+   },
+   "createGroupInsideDestination": {
+      "message": "Crear un grupo nuevo dentro del destino"
+   },
+   "createGroupInsideDestinationHelp": {
+      "message": "Si está desmarcada, tus pestañas se agregarán directamente al grupo de destino. Si está marcada, se creará un nuevo grupo de pestañas del navegador para tus pestañas dentro del grupo de destino. Marca esta casilla solo si quieres usar la función de \"grupos de pestañas\" de tu navegador."
+   },
+   "createGroupWithin": {
+      "message": "Crear grupo dentro"
+   },
+   "createNewGroupTip": {
+      "message": "Para crear un grupo nuevo, desmarca \"Mostrar solo carpetas\""
+   },
+   "createdOnOrAfterColon": {
+      "message": "Creado el o después del:"
+   },
+   "createdOnOrBeforeColon": {
+      "message": "Creado el o antes del:"
+   },
+   "createdPreceedingDate": {
+      "message": "Creado"
+   },
+   "darkTheme": {
+      "message": "Tema oscuro"
+   },
+   "dayCount_few": {
+      "message": "{COUNT} días"
+   },
+   "dayCount_many": {
+      "message": "{COUNT} días"
+   },
+   "dayCount_one": {
+      "message": "{COUNT} día"
+   },
+   "dayCount_other": {
+      "message": "{COUNT} días"
+   },
+   "dayCount_two": {
+      "message": "{COUNT} días"
+   },
+   "dayCount_zero": {
+      "message": "{COUNT} días"
+   },
+   "delete": {
+      "message": "Eliminar"
+   },
+   "deleteAllTrash": {
+      "message": "Vaciar papelera"
+   },
+   "deleteThisCopy": {
+      "message": "Eliminar esta copia"
+   },
+   "deselectAll": {
+      "message": "Deseleccionar todo"
+   },
+   "destinationColon": {
+      "message": "Destino:"
+   },
+   "disabled": {
+      "message": "Desactivado"
+   },
+   "doneTaskCount_few": {
+      "message": "{COUNT} completadas"
+   },
+   "doneTaskCount_many": {
+      "message": "{COUNT} completadas"
+   },
+   "doneTaskCount_one": {
+      "message": "{COUNT} completada"
+   },
+   "doneTaskCount_other": {
+      "message": "{COUNT} completadas"
+   },
+   "doneTaskCount_two": {
+      "message": "{COUNT} completadas"
+   },
+   "doneTaskCount_zero": {
+      "message": "{COUNT} completadas"
+   },
+   "dontCloseGroupedTabs": {
+      "message": "No cerrar pestañas dentro de grupos de pestañas"
+   },
+   "dontClosePinnedTabs": {
+      "message": "No cerrar pestañas fijadas"
+   },
+   "dontCloseTabsFromDomains": {
+      "message": "No cerrar pestañas de EXAMPLE.COM"
+   },
+   "dragTabsHereForQuickList": {
+      "message": "Arrastra aquí tus pestañas o grupos guardados. Se agregarán a tu lista rápida."
+   },
+   "editTabGroupTitleAndNotes": {
+      "message": "Editar el título y las notas del grupo de pestañas"
+   },
+   "emojiShortcutInfo": {
+      "message": "Al editar un campo de notas, usa este atajo para abrir el selector de emojis."
+   },
+   "emptyInBrackets": {
+      "message": "(vacío)"
+   },
+   "emptyOneTabInfoMsg": {
+      "message": "Cuando tengas varias pestañas abiertas, haz clic en el ícono de OneTab en la barra de herramientas del navegador y tus pestañas abiertas aparecerán aquí."
+   },
+   "enabled": {
+      "message": "Activado"
+   },
+   "encryptedSyncAndBackup": {
+      "message": "Sincronización y copias de seguridad cifradas"
+   },
+   "encryptedSyncAndBackupComingSoonMessage": {
+      "message": "Próximamente: Podrás sincronizar tus datos de OneTab entre varios perfiles de navegador y computadoras.\nOneTab se reescribió por completo para que los cambios realizados en un dispositivo aparezcan al instante en todos los demás.\nSi usas esta función, tus datos estarán cifrados de extremo a extremo con cifrado AES-256 de alta seguridad. Esto hace que sea imposible que los desarrolladores de OneTab vean las pestañas que respaldaste o sincronizaste entre dispositivos, porque solo tú tienes la clave de cifrado."
+   },
+   "everything": {
+      "message": "Todo"
+   },
+   "exampleLink": {
+      "message": "Enlace de ejemplo"
+   },
+   "exampleLinkTitle": {
+      "message": "Título de enlace de ejemplo"
+   },
+   "exampleLinkTitleOptional": {
+      "message": "Título de enlace de ejemplo (opcional)"
+   },
+   "exampleRichTextParagraph": {
+      "message": "Párrafo de texto de ejemplo con PLACEHOLDER y PLACEHOLDER"
+   },
+   "exampleWebsitePageTitle": {
+      "message": "Título de página web de ejemplo"
+   },
+   "excludeDomainFromOneTab": {
+      "message": "Excluir EXAMPLE.COM de OneTab"
+   },
+   "excludeWebSiteFromOneTab": {
+      "message": "Excluir este sitio web de OneTab"
+   },
+   "expiresColon": {
+      "message": "Expira:"
+   },
+   "export": {
+      "message": "Exportar"
+   },
+   "exportImportUrls": {
+      "message": "Exportar / Importar URL"
+   },
+   "exportThenImportNote": {
+      "message": "La siguiente lista de URL también se puede importar nuevamente en OneTab en esta u otra computadora"
+   },
+   "exportUrls": {
+      "message": "Exportar URL"
+   },
+   "feedback": {
+      "message": "Enviar comentarios"
+   },
+   "filter": {
+      "message": "Filtro"
+   },
+   "firefoxIncognitoInstructions": {
+      "message": "En la configuración del navegador, ve a 'Configuración' → 'Complementos y temas' → 'Extensiones' → 'OneTab' → '...' → 'Administrar', y habilita 'Permitir en ventanas privadas'."
+   },
+   "firefoxShortcutConfigInstructions": {
+      "message": "Escribe la URL \"about:addons?type=extension\" en la barra de direcciones de tu navegador. Cuando aparezca la página, haz clic en el ícono de engranaje y elige \"Administrar atajos de extensiones\""
+   },
+   "folderCount_few": {
+      "message": "{COUNT} carpetas"
+   },
+   "folderCount_many": {
+      "message": "{COUNT} carpetas"
+   },
+   "folderCount_one": {
+      "message": "{COUNT} carpeta"
+   },
+   "folderCount_other": {
+      "message": "{COUNT} carpetas"
+   },
+   "folderCount_two": {
+      "message": "{COUNT} carpetas"
+   },
+   "folderCount_zero": {
+      "message": "{COUNT} carpetas"
+   },
+   "folders": {
+      "message": "Carpetas"
+   },
+   "foldersOnly": {
+      "message": "Solo carpetas"
+   },
+   "gettingStarted": {
+      "message": "Primeros pasos"
+   },
+   "goToParentFolder": {
+      "message": "Ir a la carpeta superior"
+   },
+   "groupCount_few": {
+      "message": "{COUNT} grupos"
+   },
+   "groupCount_many": {
+      "message": "{COUNT} grupos"
+   },
+   "groupCount_one": {
+      "message": "{COUNT} grupo"
+   },
+   "groupCount_other": {
+      "message": "{COUNT} grupos"
+   },
+   "groupCount_two": {
+      "message": "{COUNT} grupos"
+   },
+   "groupCount_zero": {
+      "message": "{COUNT} grupos"
+   },
+   "groups": {
+      "message": "Grupos"
+   },
+   "hasNotes": {
+      "message": "Con notas"
+   },
+   "hasRating": {
+      "message": "Con calificación"
+   },
+   "help": {
+      "message": "Ayuda"
+   },
+   "hideArchivedItems": {
+      "message": "Ocultar elementos archivados"
+   },
+   "import": {
+      "message": "Importar"
+   },
+   "importAndExport": {
+      "message": "Importar y exportar"
+   },
+   "importBookmarks": {
+      "message": "Importar marcadores"
+   },
+   "importFolderAndSubfolders": {
+      "message": "Importar carpeta y subcarpetas"
+   },
+   "importLinksHere": {
+      "message": "Importar enlaces aquí"
+   },
+   "importReadingList": {
+      "message": "Importar la lista de lectura"
+   },
+   "importText": {
+      "message": "Importar texto"
+   },
+   "importUrls": {
+      "message": "Importar URL"
+   },
+   "importedBookmarks": {
+      "message": "Marcadores importados"
+   },
+   "includeGroupedTabs": {
+      "message": "Incluir pestañas en grupos de pestañas"
+   },
+   "includeNotes": {
+      "message": "Incluir notas"
+   },
+   "includePinnedTabs": {
+      "message": "Incluir pestañas fijadas"
+   },
+   "includeStarRatings": {
+      "message": "Incluir calificaciones con estrellas"
+   },
+   "includeTabsAlreadyStored": {
+      "message": "Incluir pestañas que ya guardaste"
+   },
+   "includeTabsFromDomains": {
+      "message": "Incluir pestañas de EXAMPLE.COM"
+   },
+   "incogitoPermissionRequired": {
+      "message": "OneTab necesita permiso para crear ventanas de incógnito."
+   },
+   "incognitoWindows": {
+      "message": "Ventanas de incógnito"
+   },
+   "invertSelection": {
+      "message": "Invertir selección"
+   },
+   "justNow": {
+      "message": "justo ahora"
+   },
+   "keyboardShortcutsColon": {
+      "message": "Atajos de teclado:"
+   },
+   "languageTitle": {
+      "message": "Idioma:"
+   },
+   "lightTheme": {
+      "message": "Tema claro"
+   },
+   "localeId": {
+      "message": "es_419"
+   },
+   "locationColon": {
+      "message": "Ubicación:"
+   },
+   "lock": {
+      "message": "Bloquear"
+   },
+   "lockMenuItemHelp": {
+      "message": "Cuando un grupo está bloqueado, no puedes eliminar ni reordenar elementos dentro del grupo. Al abrir un grupo bloqueado, no se aplican las acciones automáticas. Consulta la página de Opciones para obtener información sobre las acciones automáticas."
+   },
+   "lockedGroupUnlockHelp": {
+      "message": "Para desbloquear, usa el menú desplegable. Cuando un grupo está bloqueado, no puedes eliminar el grupo ni sus pestañas, y no se puede cambiar el orden de las pestañas."
+   },
+   "makeThisATask": {
+      "message": "Convertir en tarea"
+   },
+   "manifestDescription": {
+      "message": "Ahorra hasta un 95% de memoria y reduce el desorden de pestañas"
+   },
+   "markAsArchived": {
+      "message": "Marcar como archivado"
+   },
+   "markAsArchivedMenuItemHelp": {
+      "message": "Ten en cuenta que las tareas archivadas y las tareas dentro de grupos archivados no aparecerán en la columna de tareas"
+   },
+   "markAsDoneTask": {
+      "message": "Marcar como tarea completada"
+   },
+   "markAsPendingTask": {
+      "message": "Marcar como tarea pendiente"
+   },
+   "matchCount_few": {
+      "message": "{COUNT} coincidencias"
+   },
+   "matchCount_many": {
+      "message": "{COUNT} coincidencias"
+   },
+   "matchCount_one": {
+      "message": "{COUNT} coincidencia"
+   },
+   "matchCount_other": {
+      "message": "{COUNT} coincidencias"
+   },
+   "matchCount_two": {
+      "message": "{COUNT} coincidencias"
+   },
+   "matchCount_zero": {
+      "message": "{COUNT} coincidencias"
+   },
+   "matchWholeWordsOnly": {
+      "message": "Coincidir solo con palabras completas"
+   },
+   "mayNeedToRestartBrowser": {
+      "message": "También es posible que debas actualizar y reiniciar tu navegador."
+   },
+   "mergeIntoParent": {
+      "message": "Combinar con el elemento superior"
+   },
+   "mergeOpenTabsHere_few": {
+      "message": "Combinar {COUNT} pestañas abiertas aquí"
+   },
+   "mergeOpenTabsHere_many": {
+      "message": "Combinar {COUNT} pestañas abiertas aquí"
+   },
+   "mergeOpenTabsHere_one": {
+      "message": "Combinar {COUNT} pestaña abierta aquí"
+   },
+   "mergeOpenTabsHere_other": {
+      "message": "Combinar {COUNT} pestañas abiertas aquí"
+   },
+   "mergeOpenTabsHere_two": {
+      "message": "Combinar {COUNT} pestañas abiertas aquí"
+   },
+   "mergeOpenTabsHere_zero": {
+      "message": "Combinar {COUNT} pestañas abiertas aquí"
+   },
+   "mergeSelectedTabsHere_few": {
+      "message": "Combinar {COUNT} pestañas seleccionadas aquí"
+   },
+   "mergeSelectedTabsHere_many": {
+      "message": "Combinar {COUNT} pestañas seleccionadas aquí"
+   },
+   "mergeSelectedTabsHere_one": {
+      "message": "Combinar {COUNT} pestaña seleccionada aquí"
+   },
+   "mergeSelectedTabsHere_other": {
+      "message": "Combinar {COUNT} pestañas seleccionadas aquí"
+   },
+   "mergeSelectedTabsHere_two": {
+      "message": "Combinar {COUNT} pestañas seleccionadas aquí"
+   },
+   "mergeSelectedTabsHere_zero": {
+      "message": "Combinar {COUNT} pestañas seleccionadas aquí"
+   },
+   "mergeWithInnerGroups": {
+      "message": "Combinar con los grupos internos"
+   },
+   "modifySharing": {
+      "message": "Modificar el uso compartido"
+   },
+   "moreEllipsis": {
+      "message": "Más…"
+   },
+   "moreSearchFilters": {
+      "message": "Más filtros de búsqueda"
+   },
+   "moreTripleDot": {
+      "message": "Más…"
+   },
+   "move": {
+      "message": "Mover"
+   },
+   "moveToTrash": {
+      "message": "Mover a la papelera"
+   },
+   "namedOnly": {
+      "message": "Solo elementos con nombre"
+   },
+   "navigationFilter": {
+      "message": "Filtro de navegación"
+   },
+   "newExclamation": {
+      "message": "¡Nuevo!"
+   },
+   "noDupsExistExceptForColon": {
+      "message": "No hay duplicados, excepto:"
+   },
+   "noDupsFoundHere": {
+      "message": "No se encontraron duplicados aquí"
+   },
+   "noMatches": {
+      "message": "No hay coincidencias"
+   },
+   "noMatchesFound": {
+      "message": "No se encontraron coincidencias"
+   },
+   "noOpenTabsToStore": {
+      "message": "No hay pestañas abiertas en esta ventana para guardar."
+   },
+   "noReadingListEntries": {
+      "message": "No se encontraron entradas en la lista de lectura"
+   },
+   "noTabsInOneTabYet": {
+      "message": "Aún no tienes pestañas en OneTab"
+   },
+   "noTabsMeetCriteriaUseCheckboxes": {
+      "message": "Ninguna pestaña abierta cumple tus criterios. Usa las casillas de arriba."
+   },
+   "noTextHasBeenEntered": {
+      "message": "No se ha ingresado texto"
+   },
+   "nonArchived": {
+      "message": "No archivados"
+   },
+   "notAssigned": {
+      "message": "Sin asignar"
+   },
+   "notes": {
+      "message": "Notas"
+   },
+   "notesAboutTheLinkOptional": {
+      "message": "Notas sobre el enlace (opcional)"
+   },
+   "notesAboutTheSecondLinkOptional": {
+      "message": "Notas sobre el segundo enlace (opcional)"
+   },
+   "ok": {
+      "message": "Aceptar"
+   },
+   "omniboxShortcutInfo": {
+      "message": "Para buscar tu lista de OneTab desde cualquier pestaña: ve a la barra de direcciones del navegador, escribe 1, luego un espacio y luego una palabra clave de búsqueda."
+   },
+   "oneTabDesignedToProtectPrivacy": {
+      "message": "OneTab está diseñado para proteger tu privacidad. Tus pestañas no se comparten con nosotros."
+   },
+   "oneTabImportExportPageTitle": {
+      "message": "Importación/exportación de OneTab"
+   },
+   "oneTabNeedsPermissionToAccessYourTabs": {
+      "message": "OneTab necesita permiso para acceder a tus pestañas."
+   },
+   "oneTabOptionsPageTitle": {
+      "message": "Opciones de OneTab"
+   },
+   "oneTabPermissionRequired": {
+      "message": "OneTab - Se requiere permiso"
+   },
+   "oneTabRestartRequired": {
+      "message": "Se requiere reiniciar OneTab."
+   },
+   "oneTabSlashShortcutInfo": {
+      "message": "En la página de OneTab, presiona la tecla de barra (/) para enfocar el cuadro de búsqueda."
+   },
+   "open": {
+      "message": "Abrir"
+   },
+   "openActionPopup": {
+      "message": "Abrir la ventana emergente de la extensión"
+   },
+   "openAsCollapsedTabGroup": {
+      "message": "Abrir como un grupo de pestañas \"contraído\""
+   },
+   "openAsCollapsedTabGroupMenuItemHelp": {
+      "message": "Si abres estas pestañas como un \"grupo de pestañas\" contraído, solo se mostrará la etiqueta del grupo hasta que hagas clic en ella para mostrar las pestañas dentro."
+   },
+   "openAsTabGroup": {
+      "message": "Abrir como un grupo de pestañas del navegador"
+   },
+   "openAsTabGroupMenuItemHelp": {
+      "message": "Tu navegador permite agrupar las pestañas en \"grupos de pestañas\" con color dentro de una ventana."
+   },
+   "openGroupsLimitNotice_few": {
+      "message": "Para evitar que el navegador se sobrecargue, solo se abrirán los primeros {COUNT} grupos."
+   },
+   "openGroupsLimitNotice_many": {
+      "message": "Para evitar que el navegador se sobrecargue, solo se abrirán los primeros {COUNT} grupos."
+   },
+   "openGroupsLimitNotice_one": {
+      "message": "Para evitar que el navegador se sobrecargue, solo se abrirá el primer grupo ({COUNT})."
+   },
+   "openGroupsLimitNotice_other": {
+      "message": "Para evitar que el navegador se sobrecargue, solo se abrirán los primeros {COUNT} grupos."
+   },
+   "openGroupsLimitNotice_two": {
+      "message": "Para evitar que el navegador se sobrecargue, solo se abrirán los primeros {COUNT} grupos."
+   },
+   "openGroupsLimitNotice_zero": {
+      "message": "Para evitar que el navegador se sobrecargue, solo se abrirán los primeros {COUNT} grupos."
+   },
+   "openInIncognitoWindow": {
+      "message": "Abrir en una nueva ventana de incógnito"
+   },
+   "openInNewWindow": {
+      "message": "Abrir en una ventana nueva"
+   },
+   "openInThisWindow": {
+      "message": "Abrir en esta ventana"
+   },
+   "openONETABLogo": {
+      "message": "Abrir ONETAB"
+   },
+   "openOneTab": {
+      "message": "Abrir OneTab"
+   },
+   "openOneTabAfter": {
+      "message": "Abrir OneTab después de guardar las pestañas"
+   },
+   "openTabFromWebsite": {
+      "message": "Abre una pestaña y ve al sitio web"
+   },
+   "openTabLimit_few": {
+      "message": "Para evitar que el navegador se sobrecargue, se puede abrir un máximo de {COUNT} pestañas a la vez."
+   },
+   "openTabLimit_many": {
+      "message": "Para evitar que el navegador se sobrecargue, se puede abrir un máximo de {COUNT} pestañas a la vez."
+   },
+   "openTabLimit_one": {
+      "message": "Para evitar que el navegador se sobrecargue, se puede abrir un máximo de {COUNT} pestaña a la vez."
+   },
+   "openTabLimit_other": {
+      "message": "Para evitar que el navegador se sobrecargue, se puede abrir un máximo de {COUNT} pestañas a la vez."
+   },
+   "openTabLimit_two": {
+      "message": "Para evitar que el navegador se sobrecargue, se puede abrir un máximo de {COUNT} pestañas a la vez."
+   },
+   "openTabLimit_zero": {
+      "message": "Para evitar que el navegador se sobrecargue, se puede abrir un máximo de {COUNT} pestañas a la vez."
+   },
+   "openTabsAlreadyStoredHere_few": {
+      "message": "{COUNT} pestañas abiertas ya guardadas aquí:"
+   },
+   "openTabsAlreadyStoredHere_many": {
+      "message": "{COUNT} pestañas abiertas ya guardadas aquí:"
+   },
+   "openTabsAlreadyStoredHere_one": {
+      "message": "{COUNT} pestaña abierta ya guardada aquí:"
+   },
+   "openTabsAlreadyStoredHere_other": {
+      "message": "{COUNT} pestañas abiertas ya guardadas aquí:"
+   },
+   "openTabsAlreadyStoredHere_two": {
+      "message": "{COUNT} pestañas abiertas ya guardadas aquí:"
+   },
+   "openTabsAlreadyStoredHere_zero": {
+      "message": "{COUNT} pestañas abiertas ya guardadas aquí:"
+   },
+   "openTabsConfirm_few": {
+      "message": "Estás a punto de abrir {COUNT} pestañas. ¿Deseas continuar?"
+   },
+   "openTabsConfirm_many": {
+      "message": "Estás a punto de abrir {COUNT} pestañas. ¿Deseas continuar?"
+   },
+   "openTabsConfirm_one": {
+      "message": "Estás a punto de abrir {COUNT} pestaña. ¿Deseas continuar?"
+   },
+   "openTabsConfirm_other": {
+      "message": "Está a punto de abrir {COUNT} pestañas. ¿Está seguro?"
+   },
+   "openTabsConfirm_two": {
+      "message": "Estás a punto de abrir {COUNT} pestañas. ¿Deseas continuar?"
+   },
+   "openTabsConfirm_zero": {
+      "message": "Estás a punto de abrir {COUNT} pestañas. ¿Deseas continuar?"
+   },
+   "openTabsNotStoredInOneTab_few": {
+      "message": "{COUNT} pestañas abiertas no guardadas en OneTab"
+   },
+   "openTabsNotStoredInOneTab_many": {
+      "message": "{COUNT} pestañas abiertas no guardadas en OneTab"
+   },
+   "openTabsNotStoredInOneTab_one": {
+      "message": "{COUNT} pestaña abierta no guardada en OneTab"
+   },
+   "openTabsNotStoredInOneTab_other": {
+      "message": "{COUNT} pestañas abiertas no guardadas en OneTab"
+   },
+   "openTabsNotStoredInOneTab_two": {
+      "message": "{COUNT} pestañas abiertas no guardadas en OneTab"
+   },
+   "openTabsNotStoredInOneTab_zero": {
+      "message": "{COUNT} pestañas abiertas no guardadas en OneTab"
+   },
+   "optionAutoActionOnGroupOpenArchiveDesc": {
+      "message": "Para evitar marcar el grupo como archivado, mantén presionada la tecla Alt/Opción al hacer clic para abrir el grupo"
+   },
+   "optionAutoActionOnGroupOpenArchiveTitle": {
+      "message": "Abrir las pestañas y marcar el grupo como archivado"
+   },
+   "optionAutoActionOnGroupOpenHeading": {
+      "message": "Acción automática al hacer clic para abrir un grupo de pestañas:"
+   },
+   "optionAutoActionOnGroupOpenNote": {
+      "message": "Las acciones automáticas no se aplicarán a grupos que estén bloqueados o que sean tareas."
+   },
+   "optionAutoActionOnGroupOpenOpenDesc": {
+      "message": "Para marcar el grupo como archivado, mantén presionada la tecla Alt/Opción al hacer clic para abrir el grupo"
+   },
+   "optionAutoActionOnGroupOpenOpenTitle": {
+      "message": "Solo abrir las pestañas"
+   },
+   "optionAutoActionOnGroupOpenTrashDesc": {
+      "message": "Para evitar enviar automáticamente el grupo a la papelera, mantén presionada la tecla Alt/Opción al hacer clic para abrir el grupo"
+   },
+   "optionAutoActionOnGroupOpenTrashTitle": {
+      "message": "Abrir las pestañas y mover el grupo a la papelera"
+   },
+   "optionAutoActionOnTabOpenArchiveDesc": {
+      "message": "Para evitar marcar automáticamente la pestaña como archivada, mantén presionada la tecla Alt/Opción al hacer clic para abrirla"
+   },
+   "optionAutoActionOnTabOpenArchiveTitle": {
+      "message": "Abrir la pestaña y marcarla como archivada"
+   },
+   "optionAutoActionOnTabOpenHeading": {
+      "message": "Acción automática al hacer clic para abrir una pestaña:"
+   },
+   "optionAutoActionOnTabOpenNote": {
+      "message": "Las acciones automáticas no se aplicarán a pestañas en grupos bloqueados o que sean tareas."
+   },
+   "optionAutoActionOnTabOpenOpenDesc": {
+      "message": "Para marcar la pestaña como archivada, mantén presionada la tecla Alt/Opción al hacer clic para abrirla"
+   },
+   "optionAutoActionOnTabOpenOpenTitle": {
+      "message": "Solo abrir la pestaña"
+   },
+   "optionAutoActionOnTabOpenTrashDesc": {
+      "message": "Para evitar enviar automáticamente la pestaña a la papelera, mantén presionada la tecla Alt/Opción al hacer clic para abrirla"
+   },
+   "optionAutoActionOnTabOpenTrashTitle": {
+      "message": "Abrir la pestaña y moverla a la papelera"
+   },
+   "optionCopyToClipboardFormatHeading": {
+      "message": "Al copiar enlaces al portapapeles:"
+   },
+   "optionCopyToClipboardFormatNote": {
+      "message": "Este ajuste se aplica cuando usas la acción \"Copiar al portapapeles\". También puedes arrastrar pestañas y grupos directamente desde OneTab a un documento."
+   },
+   "optionCopyToClipboardFormatRichTextDesc": {
+      "message": "Aplicaciones como los procesadores de texto te permitirán pegar texto enriquecido. Si no se admite, se pegará texto sin formato."
+   },
+   "optionCopyToClipboardFormatRichTextTitle": {
+      "message": "Texto enriquecido, cuando esté disponible"
+   },
+   "optionCopyToClipboardFormatTitleUrlTitle": {
+      "message": "Título y URL"
+   },
+   "optionCopyToClipboardFormatUrlOnlyTitle": {
+      "message": "Solo URL"
+   },
+   "optionCopyToClipboardFormatUrlTitleTitle": {
+      "message": "URL y título"
+   },
+   "optionDefaultTabGroupOpenTypeCurrentWindow": {
+      "message": "Abrir el grupo de pestañas del navegador en la ventana actual"
+   },
+   "optionDefaultTabGroupOpenTypeHeading": {
+      "message": "Al hacer clic para abrir un grupo de pestañas configurado para abrirse como un \"grupo de pestañas\" del navegador:"
+   },
+   "optionDefaultTabGroupOpenTypeNewWindow": {
+      "message": "Abrir el grupo de pestañas del navegador en una ventana nueva"
+   },
+   "optionDefaultTabGroupOpenTypeNote": {
+      "message": "Si usas el menú desplegable para elegir una opción en particular (por ejemplo, abrir pestañas en una ventana de incógnito), esa opción se recordará para ese grupo en particular."
+   },
+   "optionDefaultWindowGroupOpenTypeCurrentWindow": {
+      "message": "Abrir las pestañas en la ventana actual"
+   },
+   "optionDefaultWindowGroupOpenTypeHeading": {
+      "message": "Al hacer clic para abrir un grupo de pestañas:"
+   },
+   "optionDefaultWindowGroupOpenTypeNewWindow": {
+      "message": "Abrir las pestañas en una ventana nueva"
+   },
+   "optionDefaultWindowGroupOpenTypeNote": {
+      "message": "Si usas el menú desplegable para elegir una opción en particular (por ejemplo, abrir pestañas en una ventana de incógnito), esa opción se recordará para ese grupo en particular."
+   },
+   "optionDiscardNonActiveTabOnOpenHeading": {
+      "message": "Ahorrar memoria (RAM) inmediatamente cuando se abren las pestañas por primera vez:"
+   },
+   "optionDiscardNonActiveTabOnOpenNote": {
+      "message": "Si esta configuración está activada, quitará inmediatamente de la memoria las pestañas cuando las abras por primera vez desde tu lista de OneTab. Es útil si sueles abrir docenas de pestañas a la vez, porque evita que todas se carguen en memoria hasta que accedas a ellas. Si esta configuración está desactivada, muchos navegadores web igualmente elegirán automáticamente quitar pestañas de la memoria si no las estás usando."
+   },
+   "optionDisplayContextMenuHeading": {
+      "message": "Haz clic derecho dentro de una página web para acceder al menú contextual de OneTab:"
+   },
+   "optionDisplayContextMenuNote": {
+      "message": "Si deshabilitas el menú, no podrás acceder a la función \"Excluir sitio web de OneTab\""
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenFalseTitle": {
+      "message": "Cambiar a la ventana donde ya está abierta la pestaña de OneTab"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenHeading": {
+      "message": "Acción \"Abrir OneTab\":"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenNote": {
+      "message": "Se puede acceder a la acción \"Abrir OneTab\" mediante un atajo de teclado. También se puede acceder a ella desde la ventana emergente que aparece al hacer clic en el ícono de OneTab en la barra de herramientas del navegador."
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenTrueTitle": {
+      "message": "Mover cualquier pestaña de OneTab existente a la ventana actual"
+   },
+   "optionStartupLaunchDisplay": {
+      "message": "Abrir OneTab cada vez que inicies tu navegador"
+   },
+   "optionStartupLaunchNone": {
+      "message": "No abrir OneTab automáticamente"
+   },
+   "optionStartupLaunchNoneDesc3": {
+      "message": "Para abrir OneTab manualmente, haz clic en el ícono de OneTab en la barra de herramientas del navegador y elige \"Abrir OneTab\". Alternativamente, puedes hacer clic derecho dentro de cualquier página web y hacer clic en \"Abrir OneTab\" dentro del menú de OneTab."
+   },
+   "optionStartupLaunchTitle": {
+      "message": "Inicio:"
+   },
+   "optionSwitchToOpenedTabFalseTitle": {
+      "message": "Abrir la pestaña y permanecer en OneTab"
+   },
+   "optionSwitchToOpenedTabHeading": {
+      "message": "Al abrir pestañas desde la página de OneTab:"
+   },
+   "optionSwitchToOpenedTabNote": {
+      "message": "Si mantienes presionada Shift al hacer clic, la pestaña se abrirá en una ventana nueva"
+   },
+   "optionSwitchToOpenedTabTrueTitle": {
+      "message": "Abrir la pestaña y cambiar a ella (a menos que mantengas presionada Command ⌘/Ctrl al hacer clic)"
+   },
+   "optionUrlAbbr": {
+      "message": "Abreviada"
+   },
+   "optionUrlDisplayTitle": {
+      "message": "Visualización de URL:"
+   },
+   "optionUrlDomain": {
+      "message": "Solo el dominio"
+   },
+   "optionUrlFull": {
+      "message": "Completa"
+   },
+   "optionUrlNone": {
+      "message": "Ninguna"
+   },
+   "options": {
+      "message": "Opciones"
+   },
+   "otherCopiesColon": {
+      "message": "Otras copias:"
+   },
+   "pasteRichOrPlainTextBelow": {
+      "message": "Puedes pegar a continuación texto enriquecido o texto sin formato."
+   },
+   "pendingTaskCount_few": {
+      "message": "{COUNT} pendientes"
+   },
+   "pendingTaskCount_many": {
+      "message": "{COUNT} pendientes"
+   },
+   "pendingTaskCount_one": {
+      "message": "{COUNT} pendiente"
+   },
+   "pendingTaskCount_other": {
+      "message": "{COUNT} pendientes"
+   },
+   "pendingTaskCount_two": {
+      "message": "{COUNT} pendientes"
+   },
+   "pendingTaskCount_zero": {
+      "message": "{COUNT} pendientes"
+   },
+   "permissionRequiredPleaseTryAgain": {
+      "message": "Para crear una página compartida accesible desde cualquier computadora, se requiere permiso para coordinar con el servidor web de OneTab. Inténtalo de nuevo."
+   },
+   "pinToTopOfFolder": {
+      "message": "Fijar en la parte superior de la carpeta"
+   },
+   "pinToTopOfList": {
+      "message": "Fijar en la parte superior de la lista"
+   },
+   "pinnedTabs": {
+      "message": "pestañas fijadas"
+   },
+   "placeholderAndOtherLocations_few": {
+      "message": "PLACEHOLDER y {COUNT} más"
+   },
+   "placeholderAndOtherLocations_many": {
+      "message": "PLACEHOLDER y {COUNT} más"
+   },
+   "placeholderAndOtherLocations_one": {
+      "message": "PLACEHOLDER y {COUNT} más"
+   },
+   "placeholderAndOtherLocations_other": {
+      "message": "PLACEHOLDER y {COUNT} más"
+   },
+   "placeholderAndOtherLocations_two": {
+      "message": "PLACEHOLDER y {COUNT} más"
+   },
+   "placeholderAndOtherLocations_zero": {
+      "message": "PLACEHOLDER y {COUNT} más"
+   },
+   "placeholderExplanation": {
+      "message": "Debido a las reglas de seguridad del navegador, OneTab no puede restaurar esta página directamente. Copia tu URL y pégala en la barra de direcciones del navegador."
+   },
+   "plainTextLineFormat": {
+      "message": "Si pegas texto sin formato, asegúrate de que cada URL tenga un protocolo especificado (https://wikipedia.org, en lugar de solo wikipedia.org). Cada línea debe tener el siguiente formato:"
+   },
+   "pleaseWaitTripleDot": {
+      "message": "Espera…"
+   },
+   "popupSlashShortcutInfo": {
+      "message": "En la ventana emergente de OneTab (que aparece al hacer clic en el ícono de OneTab), presiona la tecla de barra (/) para abrir el selector de destino y enfocar el cuadro de búsqueda."
+   },
+   "privacyAssurance": {
+      "message": "Garantía de privacidad"
+   },
+   "privacyAssuranceDetail": {
+      "message": "Tu lista de pestañas nunca se transmite ni se divulga a los desarrolladores de OneTab ni a ningún tercero. La única excepción es si usas intencionalmente la función \"compartir como página web\" para subir tu lista de pestañas a una página web y compartirla con otros."
+   },
+   "privacyFirst": {
+      "message": "Privacidad primero"
+   },
+   "privacyFirstMessage": {
+      "message": "OneTab está diseñado para proteger tus datos privados. Tus pestañas se guardan solo en tu computadora y nunca se comparten con los desarrolladores de OneTab ni con terceros.\nSi usas nuestra función de copia de seguridad/sincronización, tus datos estarán cifrados de extremo a extremo con cifrado AES-256 de alta seguridad. Esto hace imposible que los desarrolladores de OneTab vean las pestañas que respaldaste o sincronizaste entre dispositivos, porque solo tú tienes la clave de cifrado.\nLa única excepción es si decides intencionalmente compartir algunas de tus pestañas con otras personas mediante nuestra función \"Compartir como página web\".\nCreemos que la privacidad es lo primero."
+   },
+   "privateBrowsingPermissionRequired": {
+      "message": "OneTab necesita permiso para crear ventanas privadas."
+   },
+   "privateBrowsingWindows": {
+      "message": "Ventanas de navegación privada"
+   },
+   "quickList": {
+      "message": "Lista rápida"
+   },
+   "rating": {
+      "message": "Calificación"
+   },
+   "readingList": {
+      "message": "Lista de lectura"
+   },
+   "readingListPermissionNecesssary": {
+      "message": "Se necesita el permiso de lista de lectura para permitir que OneTab importe elementos de tu lista de lectura. Si esta función no funciona, es posible que tu navegador no admita listas de lectura."
+   },
+   "recent": {
+      "message": "Recientes"
+   },
+   "recentDestinationsColon": {
+      "message": "Destinos recientes:"
+   },
+   "recentDuplicateRetainedHelp": {
+      "message": "Si una pestaña aparece más de una vez, solo se conservará el duplicado más reciente"
+   },
+   "recentlyAccessed": {
+      "message": "Accedidos recientemente"
+   },
+   "recentlyCreated": {
+      "message": "Creado recientemente"
+   },
+   "recentlyModified": {
+      "message": "Modificado recientemente"
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "message": "Reduce el uso de memoria en un 95%"
+   },
+   "removeDuplicateTabsHere_few": {
+      "message": "Eliminar {COUNT} pestañas duplicadas aquí"
+   },
+   "removeDuplicateTabsHere_many": {
+      "message": "Eliminar {COUNT} pestañas duplicadas aquí"
+   },
+   "removeDuplicateTabsHere_one": {
+      "message": "Eliminar {COUNT} pestaña duplicada aquí"
+   },
+   "removeDuplicateTabsHere_other": {
+      "message": "Eliminar {COUNT} pestañas duplicadas aquí"
+   },
+   "removeDuplicateTabsHere_two": {
+      "message": "Eliminar {COUNT} pestañas duplicadas aquí"
+   },
+   "removeDuplicateTabsHere_zero": {
+      "message": "Eliminar {COUNT} pestañas duplicadas aquí"
+   },
+   "removeDuplicates": {
+      "message": "Eliminar duplicados"
+   },
+   "removeFromQuickList": {
+      "message": "Quitar de la lista rápida"
+   },
+   "removeTabsElsewhereAlsoHere_few": {
+      "message": "Eliminar {COUNT} pestañas en otro lugar que también existen aquí"
+   },
+   "removeTabsElsewhereAlsoHere_many": {
+      "message": "Eliminar {COUNT} pestañas en otro lugar que también existen aquí"
+   },
+   "removeTabsElsewhereAlsoHere_one": {
+      "message": "Eliminar {COUNT} pestaña en otro lugar que también existe aquí"
+   },
+   "removeTabsElsewhereAlsoHere_other": {
+      "message": "Eliminar {COUNT} pestañas en otro lugar que también existen aquí"
+   },
+   "removeTabsElsewhereAlsoHere_two": {
+      "message": "Eliminar {COUNT} pestañas en otro lugar que también existen aquí"
+   },
+   "removeTabsElsewhereAlsoHere_zero": {
+      "message": "Eliminar {COUNT} pestañas en otro lugar que también existen aquí"
+   },
+   "removeTabsHereAlsoElsewhere_few": {
+      "message": "Eliminar {COUNT} pestañas aquí que también existen en otro lugar"
+   },
+   "removeTabsHereAlsoElsewhere_many": {
+      "message": "Eliminar {COUNT} pestañas aquí que también existen en otro lugar"
+   },
+   "removeTabsHereAlsoElsewhere_one": {
+      "message": "Eliminar {COUNT} pestaña aquí que también existe en otro lugar"
+   },
+   "removeTabsHereAlsoElsewhere_other": {
+      "message": "Eliminar {COUNT} pestañas aquí que también existen en otro lugar"
+   },
+   "removeTabsHereAlsoElsewhere_two": {
+      "message": "Eliminar {COUNT} pestañas aquí que también existen en otro lugar"
+   },
+   "removeTabsHereAlsoElsewhere_zero": {
+      "message": "Eliminar {COUNT} pestañas aquí que también existen en otro lugar"
+   },
+   "rename": {
+      "message": "Renombrar"
+   },
+   "restore": {
+      "message": "Restaurar"
+   },
+   "restrictSearchToFolderColon": {
+      "message": "Restringir la búsqueda a la siguiente carpeta:"
+   },
+   "results": {
+      "message": "Resultados"
+   },
+   "returnToOneTab": {
+      "message": "Volver a OneTab"
+   },
+   "reverse": {
+      "message": "Invertir"
+   },
+   "rightClickAndOpenOneTabMenu": {
+      "message": "Haz clic derecho en la página web y abre el menú de OneTab"
+   },
+   "rightClickMenuDisabledNote": {
+      "message": "Nota: Deshabilitaste el menú contextual de OneTab. Habilítalo en la página de opciones de OneTab."
+   },
+   "rightClickSelectionOptionsTip": {
+      "message": "Sugerencia: Después de marcar un elemento, haz clic derecho en el ícono de verificación para ver más opciones de selección"
+   },
+   "rightClickTickTip": {
+      "message": "Sugerencia: Haz clic derecho en el ícono de verificación junto a cada pestaña para ver las herramientas de selección"
+   },
+   "safariApproveOneTabInSettings": {
+      "message": "Ve a Configuración y autoriza a OneTab para acceder a todos los sitios web."
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "message": "Ahorra hasta un 95% de memoria y reduce el desorden de pestañas en Google Chrome"
+   },
+   "searchHere": {
+      "message": "Buscar aquí"
+   },
+   "searchOneTab": {
+      "message": "Buscar en OneTab"
+   },
+   "secondExampleLink": {
+      "message": "Segundo enlace de ejemplo"
+   },
+   "secondExampleLinkTitle": {
+      "message": "Segundo título de enlace de ejemplo"
+   },
+   "secondExampleLinkTitleOptional": {
+      "message": "Segundo título de enlace de ejemplo (opcional)"
+   },
+   "seeOtherTabsInThisGroup_few": {
+      "message": "Ver {COUNT} otras pestañas en este grupo"
+   },
+   "seeOtherTabsInThisGroup_many": {
+      "message": "Ver {COUNT} otras pestañas en este grupo"
+   },
+   "seeOtherTabsInThisGroup_one": {
+      "message": "Ver {COUNT} otra pestaña en este grupo"
+   },
+   "seeOtherTabsInThisGroup_other": {
+      "message": "Ver {COUNT} otras pestañas en este grupo"
+   },
+   "seeOtherTabsInThisGroup_two": {
+      "message": "Ver {COUNT} otras pestañas en este grupo"
+   },
+   "seeOtherTabsInThisGroup_zero": {
+      "message": "Ver {COUNT} otras pestañas en este grupo"
+   },
+   "seePasteInstructions": {
+      "message": "Ver instrucciones de pegado…"
+   },
+   "seeTabsInThisGroup_few": {
+      "message": "Ver {COUNT} pestañas en este grupo"
+   },
+   "seeTabsInThisGroup_many": {
+      "message": "Ver {COUNT} pestañas en este grupo"
+   },
+   "seeTabsInThisGroup_one": {
+      "message": "Ver {COUNT} pestaña en este grupo"
+   },
+   "seeTabsInThisGroup_other": {
+      "message": "Ver {COUNT} pestañas en este grupo"
+   },
+   "seeTabsInThisGroup_two": {
+      "message": "Ver {COUNT} pestañas en este grupo"
+   },
+   "seeTabsInThisGroup_zero": {
+      "message": "Ver {COUNT} pestañas en este grupo"
+   },
+   "selectAll": {
+      "message": "Seleccionar todo"
+   },
+   "selectAllExceptThis": {
+      "message": "Seleccionar todo excepto este"
+   },
+   "selectThisAndAbove": {
+      "message": "Seleccionar este y todos los de arriba"
+   },
+   "selectThisAndBelow": {
+      "message": "Seleccionar este y todos los de abajo"
+   },
+   "selectedItemCount_few": {
+      "message": "{COUNT} elementos"
+   },
+   "selectedItemCount_many": {
+      "message": "{COUNT} elementos"
+   },
+   "selectedItemCount_one": {
+      "message": "{COUNT} elemento"
+   },
+   "selectedItemCount_other": {
+      "message": "{COUNT} elementos"
+   },
+   "selectedItemCount_two": {
+      "message": "{COUNT} elementos"
+   },
+   "selectedItemCount_zero": {
+      "message": "{COUNT} elementos"
+   },
+   "selection": {
+      "message": "Selección"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "message": "Enviar todas las pestañas de todas las ventanas a OneTab"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "message": "Enviar todas las pestañas excepto esta a OneTab"
+   },
+   "sendAllTabsInGroupToOneTab": {
+      "message": "Enviar todas las pestañas de este grupo de pestañas a OneTab"
+   },
+   "sendAllTabsInWindowToOneTab": {
+      "message": "Enviar todas las pestañas de esta ventana a OneTab"
+   },
+   "sendCurrentTabToOneTab": {
+      "message": "Enviar la pestaña actual a OneTab"
+   },
+   "sendLeftTabsToOneTab": {
+      "message": "Enviar las pestañas de la izquierda a OneTab"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "message": "Enviar solo esta pestaña a OneTab"
+   },
+   "sendRightTabsToOneTab": {
+      "message": "Enviar las pestañas de la derecha a OneTab"
+   },
+   "sendSelectedTabsToOneTab": {
+      "message": "Enviar las pestañas seleccionadas a OneTab"
+   },
+   "sendThisWebLinkToOneTab": {
+      "message": "Enviar este enlace web a OneTab"
+   },
+   "serverUnreachable": {
+      "message": "El servidor no es accesible. Verifica tu conexión a internet."
+   },
+   "share": {
+      "message": "Compartir"
+   },
+   "shareAsAWebPage": {
+      "message": "Compartir como página web"
+   },
+   "shared": {
+      "message": "Compartidos"
+   },
+   "sharedExpiresColon": {
+      "message": "Compartido como página web. Expira:"
+   },
+   "sharedPageOptions": {
+      "message": "Opciones de página compartida"
+   },
+   "sharedPageTabLimit_few": {
+      "message": "Las páginas compartidas están limitadas a {COUNT} pestañas"
+   },
+   "sharedPageTabLimit_many": {
+      "message": "Las páginas compartidas están limitadas a {COUNT} pestañas"
+   },
+   "sharedPageTabLimit_one": {
+      "message": "Las páginas compartidas están limitadas a {COUNT} pestaña"
+   },
+   "sharedPageTabLimit_other": {
+      "message": "Las páginas compartidas están limitadas a {COUNT} pestañas"
+   },
+   "sharedPageTabLimit_two": {
+      "message": "Las páginas compartidas están limitadas a {COUNT} pestañas"
+   },
+   "sharedPageTabLimit_zero": {
+      "message": "Las páginas compartidas están limitadas a {COUNT} pestañas"
+   },
+   "sharedPageWillAutomaticallyExpire": {
+      "message": "La página compartida expirará automáticamente, pero puedes extender la fecha de vencimiento en cualquier momento."
+   },
+   "shiftDragShortcutInfo": {
+      "message": "Mantén presionada la tecla Shift al soltar una pestaña para crear una copia en lugar de moverla. Importante: Presiona la tecla Shift solo después de haber empezado a arrastrar."
+   },
+   "showEverything": {
+      "message": "Mostrar todo"
+   },
+   "showFoldersOnly": {
+      "message": "Mostrar solo carpetas"
+   },
+   "showNamedItemsOnly": {
+      "message": "Mostrar solo elementos con nombre"
+   },
+   "showNamedOnly": {
+      "message": "Mostrar solo elementos con nombre"
+   },
+   "showNextCount_few": {
+      "message": "Mostrar {COUNT} siguientes"
+   },
+   "showNextCount_many": {
+      "message": "Mostrar {COUNT} siguientes"
+   },
+   "showNextCount_one": {
+      "message": "Mostrar {COUNT} siguiente"
+   },
+   "showNextCount_other": {
+      "message": "Mostrar {COUNT} siguientes"
+   },
+   "showNextCount_two": {
+      "message": "Mostrar {COUNT} siguientes"
+   },
+   "showNextCount_zero": {
+      "message": "Mostrar {COUNT} siguientes"
+   },
+   "showPreviousCount_few": {
+      "message": "Mostrar {COUNT} anteriores"
+   },
+   "showPreviousCount_many": {
+      "message": "Mostrar {COUNT} anteriores"
+   },
+   "showPreviousCount_one": {
+      "message": "Mostrar {COUNT} anterior"
+   },
+   "showPreviousCount_other": {
+      "message": "Mostrar {COUNT} anteriores"
+   },
+   "showPreviousCount_two": {
+      "message": "Mostrar {COUNT} anteriores"
+   },
+   "showPreviousCount_zero": {
+      "message": "Mostrar {COUNT} anteriores"
+   },
+   "soon": {
+      "message": "pronto"
+   },
+   "sort": {
+      "message": "Ordenar"
+   },
+   "sortByColon": {
+      "message": "Ordenar por:"
+   },
+   "sortGroups": {
+      "message": "Ordenar grupos"
+   },
+   "sourceColon": {
+      "message": "Origen:"
+   },
+   "starRatingTooltip": {
+      "message": "Asignar una calificación con estrellas"
+   },
+   "storeSelectedTabsInONETAB_few": {
+      "message": "Guardar {COUNT} pestañas seleccionadas en ONETAB"
+   },
+   "storeSelectedTabsInONETAB_many": {
+      "message": "Guardar {COUNT} pestañas seleccionadas en ONETAB"
+   },
+   "storeSelectedTabsInONETAB_one": {
+      "message": "Guardar {COUNT} pestaña seleccionada en ONETAB"
+   },
+   "storeSelectedTabsInONETAB_other": {
+      "message": "Guardar {COUNT} pestañas seleccionadas en ONETAB"
+   },
+   "storeSelectedTabsInONETAB_two": {
+      "message": "Guardar {COUNT} pestañas seleccionadas en ONETAB"
+   },
+   "storeSelectedTabsInONETAB_zero": {
+      "message": "Guardar {COUNT} pestañas seleccionadas en ONETAB"
+   },
+   "storeTabInAdditionalLocation": {
+      "message": "Guardar tu pestaña en una ubicación adicional"
+   },
+   "storeTabInONETAB": {
+      "message": "Guardar pestaña en ONETAB"
+   },
+   "storeTabsInAdditionalLocation": {
+      "message": "Guardar tus pestañas en una ubicación adicional"
+   },
+   "storeTabsInONETAB": {
+      "message": "Guardar pestañas en ONETAB"
+   },
+   "subFoldersNotShared": {
+      "message": "Ten en cuenta que las subcarpetas no se comparten. Solo se comparten los grupos de pestañas directamente dentro de la carpeta."
+   },
+   "tab": {
+      "message": "pestaña"
+   },
+   "tabAlreadyStoredHere": {
+      "message": "Tu pestaña abierta ya está guardada aquí:"
+   },
+   "tabCaretTooltipTitleNotes": {
+      "message": "Editar el título y las notas de la pestaña"
+   },
+   "tabCaretTooltipTitleNotesUrl": {
+      "message": "Editar el título, la URL y las notas de la pestaña"
+   },
+   "tabCount_few": {
+      "message": "{COUNT} pestañas"
+   },
+   "tabCount_many": {
+      "message": "{COUNT} pestañas"
+   },
+   "tabCount_one": {
+      "message": "{COUNT} pestaña"
+   },
+   "tabCount_other": {
+      "message": "{COUNT} pestañas"
+   },
+   "tabCount_two": {
+      "message": "{COUNT} pestañas"
+   },
+   "tabCount_zero": {
+      "message": "{COUNT} pestañas"
+   },
+   "tabGroupColorColon": {
+      "message": "Color del grupo de pestañas:"
+   },
+   "tabShortcutInfo": {
+      "message": "En la página de OneTab, presiona la tecla Tab para mover el foco entre los grupos en la columna central. Esto facilita saltar rápidamente entre grupos, especialmente si son grandes. Si un grupo tiene el foco, presiona la tecla Enter para abrirlo. Usa Shift+Tab para mover el foco hacia atrás."
+   },
+   "tabTotalCount_few": {
+      "message": "Total: {COUNT} pestañas"
+   },
+   "tabTotalCount_many": {
+      "message": "Total: {COUNT} pestañas"
+   },
+   "tabTotalCount_one": {
+      "message": "Total: {COUNT} pestaña"
+   },
+   "tabTotalCount_other": {
+      "message": "Total: {COUNT} pestañas"
+   },
+   "tabTotalCount_two": {
+      "message": "Total: {COUNT} pestañas"
+   },
+   "tabTotalCount_zero": {
+      "message": "Total: {COUNT} pestañas"
+   },
+   "tabs": {
+      "message": "Pestañas"
+   },
+   "tabsFromExcludedDomains": {
+      "message": "pestañas de dominios excluidos"
+   },
+   "tabsInTabGroups": {
+      "message": "pestañas en grupos de pestañas"
+   },
+   "taskTotalCount_few": {
+      "message": "{COUNT} en total"
+   },
+   "taskTotalCount_many": {
+      "message": "{COUNT} en total"
+   },
+   "taskTotalCount_one": {
+      "message": "{COUNT} en total"
+   },
+   "taskTotalCount_other": {
+      "message": "{COUNT} en total"
+   },
+   "taskTotalCount_two": {
+      "message": "{COUNT} en total"
+   },
+   "taskTotalCount_zero": {
+      "message": "{COUNT} en total"
+   },
+   "tasks": {
+      "message": "Tareas"
+   },
+   "tasksDone": {
+      "message": "Tareas (completadas)"
+   },
+   "tasksPending": {
+      "message": "Tareas (pendientes)"
+   },
+   "tasksWillAppearHere": {
+      "message": "Si marcas tus pestañas o grupos como tareas, aparecerán aquí."
+   },
+   "thenClickToolbarIcon": {
+      "message": "Luego, haz clic de nuevo en el ícono de OneTab en la barra de herramientas para usar OneTab."
+   },
+   "thisFolderIsEmpty": {
+      "message": "Esta carpeta está vacía"
+   },
+   "thisTab": {
+      "message": "Esta pestaña"
+   },
+   "thisTabGroup": {
+      "message": "Este grupo de pestañas"
+   },
+   "thisTabNotStored": {
+      "message": "Esta pestaña no está guardada en OneTab"
+   },
+   "thisWindow": {
+      "message": "Esta ventana"
+   },
+   "tickOrUntickToExclude": {
+      "message": "Marca o desmarca para excluir el sitio web"
+   },
+   "title": {
+      "message": "Título"
+   },
+   "toAddOrRemoveExclusions": {
+      "message": "Para agregar o quitar un sitio web de la lista de exclusiones:"
+   },
+   "toAllowOneTabInIncognito": {
+      "message": "Para permitir que el ícono de OneTab aparezca en ventanas de incógnito: "
+   },
+   "toImportBrowserBookmarksUseMenuOption": {
+      "message": "Para importar desde los marcadores del navegador, usa la opción de menú \"Importar enlaces aquí\" en tu página de OneTab"
+   },
+   "toMakeOpenButtonWorkApprovePermission": {
+      "message": "Para que el botón \"Abrir\" en las páginas compartidas funcione, aprueba la solicitud de permiso."
+   },
+   "toSaveChangesClickButton": {
+      "message": "Para guardar los cambios, haz clic en el botón"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "message": "¿Demasiadas pestañas? Convierte tus pestañas en una lista y acelera Firefox"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "message": "¿Demasiadas pestañas? Convierte tus pestañas en una lista y acelera Safari"
+   },
+   "total0Tabs": {
+      "message": "Total: 0 pestañas"
+   },
+   "trash": {
+      "message": "Papelera"
+   },
+   "unMarkAsTask": {
+      "message": "Desmarcar como tarea"
+   },
+   "unPin": {
+      "message": "Desfijar"
+   },
+   "unlock": {
+      "message": "Desbloquear"
+   },
+   "unmarkAsArchived": {
+      "message": "Desmarcar como archivado"
+   },
+   "unshare": {
+      "message": "Dejar de compartir"
+   },
+   "untitled": {
+      "message": "Sin título"
+   },
+   "update": {
+      "message": "Actualizar"
+   },
+   "userLanguage": {
+      "message": "Español (Latinoamérica)"
+   },
+   "website": {
+      "message": "Sitio web"
+   },
+   "yearCount_few": {
+      "message": "{COUNT} años"
+   },
+   "yearCount_many": {
+      "message": "{COUNT} años"
+   },
+   "yearCount_one": {
+      "message": "{COUNT} año"
+   },
+   "yearCount_other": {
+      "message": "{COUNT} años"
+   },
+   "yearCount_two": {
+      "message": "{COUNT} años"
+   },
+   "yearCount_zero": {
+      "message": "{COUNT} años"
+   },
+   "yourTabAlreadyStoredHere": {
+      "message": "Tu pestaña ya está guardada aquí:"
+   }
+}

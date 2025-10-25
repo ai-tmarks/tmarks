@@ -20,12 +20,14 @@ interface TabGroupItemRow {
   created_at: string
   is_pinned?: number
   is_todo?: number
+  is_archived?: number
 }
 
 interface UpdateTabGroupItemRequest {
   title?: string
   is_pinned?: boolean
   is_todo?: boolean
+  is_archived?: boolean
   position?: number
 }
 
@@ -86,6 +88,11 @@ export const onRequestPatch: PagesFunction<Env, RouteParams, AuthContext>[] = [
       if (body.is_todo !== undefined) {
         updates.push('is_todo = ?')
         params.push(body.is_todo ? 1 : 0)
+      }
+
+      if (body.is_archived !== undefined) {
+        updates.push('is_archived = ?')
+        params.push(body.is_archived ? 1 : 0)
       }
 
       if (body.position !== undefined) {

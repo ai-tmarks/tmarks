@@ -1,5 +1,6 @@
 import type { ApiResponse } from './types'
 import { useAuthStore } from '@/stores/authStore'
+import { logger } from '@/lib/logger'
 
 const API_BASE_URL = import.meta.env.VITE_API_URL || '/api/v1'
 
@@ -79,7 +80,7 @@ class HttpClient {
         } catch (error) {
           this.clearAuthAndRedirect()
           if (error instanceof Error) {
-            console.error('Token refresh failed:', error)
+            logger.error('Token refresh failed:', error)
           }
           throw error
         } finally {

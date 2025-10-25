@@ -32,12 +32,18 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
     // 如果没有用户ID，尝试查找数据库中的第一个用户
     if (!userId) {
       try {
+        interface UserRow {
+          id: string
+          username: string
+          email: string | null
+        }
+        
         const { results: users } = await context.env.DB.prepare(
           'SELECT id, username, email FROM users ORDER BY created_at ASC LIMIT 1'
-        ).all()
+        ).all<UserRow>()
 
         if (users && users.length > 0) {
-          userId = (users[0] as any).id
+          userId = users[0].id
         } else {
           userId = 'default-user'
         }
@@ -381,11 +387,16 @@ async function associateBookmarkTags(
   tagNames: string[]
 ) {
   // 获取标签ID
+  interface TagRow {
+    id: string
+    name: string
+  }
+  
   const placeholders = tagNames.map(() => '?').join(',')
   const { results: tags } = await db.prepare(`
     SELECT id, name FROM tags 
     WHERE user_id = ? AND name IN (${placeholders}) AND deleted_at IS NULL
-  `).bind(userId, ...tagNames).all()
+  `).bind(userId, ...tagNames).all<TagRow>()
 
   // 创建关联
   for (const tag of tags || []) {
@@ -393,9 +404,9 @@ async function associateBookmarkTags(
       await db.prepare(`
         INSERT OR IGNORE INTO bookmark_tags (bookmark_id, tag_id, user_id, created_at)
         VALUES (?, ?, ?, datetime('now'))
-      `).bind(bookmarkId, (tag as any).id, userId).run()
+      `).bind(bookmarkId, tag.id, userId).run()
     } catch (error) {
-      console.error('Failed to associate tag:', (tag as any).name, error)
+      console.error('Failed to associate tag:', tag.name, error)
     }
   }
 }

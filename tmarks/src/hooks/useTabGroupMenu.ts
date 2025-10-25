@@ -31,23 +31,196 @@ interface UseTabGroupMenuProps {
 export function useTabGroupMenu({ onRefresh, onStartRename, onOpenMoveDialog }: UseTabGroupMenuProps): TabGroupMenuActions {
   // 打开所有标签页
   const openAllTabs = (group: TabGroup, mode: 'new' | 'current' | 'incognito') => {
-    if (!group.items || group.items.length === 0) return
+    if (!group.items || group.items.length === 0) {
+      alert('没有可打开的标签页')
+      return
+    }
 
-    group.items.forEach((item, index) => {
-      const url = item.url
-      if (mode === 'new') {
-        window.open(url, '_blank')
-      } else if (mode === 'current') {
-        if (index === 0) {
-          window.location.href = url
-        } else {
-          window.open(url, '_blank')
-        }
-      } else if (mode === 'incognito') {
-        // 浏览器扩展API才能打开隐身窗口，这里只能打开新窗口
-        window.open(url, '_blank')
+    const modeText = mode === 'new' ? '新窗口' : mode === 'current' ? '当前窗口' : '隐身窗口'
+    
+    // 确认打开多个标签页
+    if (group.items.length > 5) {
+      if (!confirm(`确定要在${modeText}中打开 ${group.items.length} 个标签页吗？`)) {
+        return
       }
-    })
+    }
+
+    // 对于"当前窗口"模式，使用传统方法
+    if (mode === 'current' && group.items && group.items.length > 0) {
+      const firstItem = group.items[0]
+      if (firstItem) {
+        window.location.href = firstItem.url
+      }
+      return
+    }
+
+    try {
+      const html = `<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>正在打开标签页...</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+    }
+    .container {
+      text-align: center;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 1rem;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+    }
+    h1 { margin: 0 0 1rem 0; font-size: 2rem; }
+    .progress {
+      margin: 2rem 0;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .status {
+      margin: 1rem 0;
+      padding: 1rem;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 0.5rem;
+      font-size: 0.9rem;
+    }
+    .links {
+      margin-top: 2rem;
+      text-align: left;
+      max-height: 300px;
+      overflow-y: auto;
+      padding: 1rem;
+      background: rgba(0, 0, 0, 0.2);
+      border-radius: 0.5rem;
+    }
+    .link-item {
+      padding: 0.5rem;
+      margin: 0.25rem 0;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 0.25rem;
+      font-size: 0.85rem;
+      word-break: break-all;
+    }
+    .link-item.opened {
+      background: rgba(76, 175, 80, 0.3);
+    }
+    .link-item.failed {
+      background: rgba(244, 67, 54, 0.3);
+    }
+    button {
+      margin-top: 1rem;
+      padding: 0.75rem 2rem;
+      font-size: 1rem;
+      background: white;
+      color: #667eea;
+      border: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      font-weight: bold;
+      transition: transform 0.2s;
+    }
+    button:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 正在打开标签页</h1>
+    <div class="progress">
+      <span id="current">0</span> / <span id="total">${group.items.length}</span>
+    </div>
+    <div class="status" id="status">准备打开...</div>
+    <div class="links" id="links"></div>
+    <button onclick="window.close()" style="display:none" id="closeBtn">关闭此窗口</button>
+  </div>
+  <script>
+    const urls = ${JSON.stringify(group.items.map((item) => ({ url: item.url, title: item.title })))};
+    let opened = 0;
+    let failed = 0;
+    
+    const linksContainer = document.getElementById('links');
+    const statusEl = document.getElementById('status');
+    const currentEl = document.getElementById('current');
+    const closeBtnEl = document.getElementById('closeBtn');
+    
+    urls.forEach((item, index) => {
+      const div = document.createElement('div');
+      div.className = 'link-item';
+      div.id = 'link-' + index;
+      div.textContent = (index + 1) + '. ' + item.title;
+      linksContainer.appendChild(div);
+    });
+    
+    async function openTabs() {
+      for (let i = 0; i < urls.length; i++) {
+        const item = urls[i];
+        const linkEl = document.getElementById('link-' + i);
+        
+        try {
+          statusEl.textContent = '正在打开: ' + item.title;
+          const newWindow = window.open(item.url, '_blank', 'noopener,noreferrer');
+          
+          if (newWindow) {
+            opened++;
+            linkEl.className = 'link-item opened';
+          } else {
+            failed++;
+            linkEl.className = 'link-item failed';
+          }
+        } catch (error) {
+          console.error('Failed to open:', item.url, error);
+          failed++;
+          linkEl.className = 'link-item failed';
+        }
+        
+        currentEl.textContent = (i + 1);
+        
+        if (i < urls.length - 1) {
+          await new Promise(resolve => setTimeout(resolve, 100));
+        }
+      }
+      
+      if (failed > 0) {
+        statusEl.textContent = '✅ 成功打开 ' + opened + ' 个，❌ 失败 ' + failed + ' 个';
+        statusEl.style.background = 'rgba(255, 152, 0, 0.3)';
+      } else {
+        statusEl.textContent = '✅ 全部打开成功！共 ' + opened + ' 个标签页';
+        statusEl.style.background = 'rgba(76, 175, 80, 0.3)';
+      }
+      
+      closeBtnEl.style.display = 'block';
+    }
+    
+    setTimeout(openTabs, 500);
+  </script>
+</body>
+</html>`
+
+      const blob = new Blob([html], { type: 'text/html' })
+      const url = URL.createObjectURL(blob)
+      const newWindow = window.open(url, '_blank', 'width=800,height=600')
+
+      if (newWindow) {
+        alert(`已在${modeText}中打开标签页管理器`)
+        setTimeout(() => URL.revokeObjectURL(url), 5000)
+      } else {
+        alert('无法打开新窗口，请检查浏览器弹窗设置')
+      }
+    } catch (error) {
+      console.error('Failed to open tabs:', error)
+      alert('打开标签页失败，请重试')
+    }
   }
 
   const onOpenInNewWindow = (group: TabGroup) => {
@@ -104,7 +277,7 @@ export function useTabGroupMenu({ onRefresh, onStartRename, onOpenMoveDialog }: 
     }
   }
 
-  const onImportLinks = async (_group: TabGroup) => {
+  const onImportLinks = async (group: TabGroup) => {
     const text = prompt('请粘贴要导入的链接（每行一个）：\n\n提示：可以粘贴多行链接，每行一个URL')
     if (!text) return
 
@@ -118,8 +291,27 @@ export function useTabGroupMenu({ onRefresh, onStartRename, onOpenMoveDialog }: 
     }
 
     try {
-      // 由于后端不支持批量添加，这里只能提示用户
-      alert(`检测到 ${urls.length} 个链接\n\n批量导入功能需要后端支持，目前请手动添加。\n\n未来版本将支持此功能。`)
+      // 将 URL 转换为标签页项格式
+      const items = urls.map(url => {
+        try {
+          const urlObj = new URL(url)
+          return {
+            title: urlObj.hostname,
+            url: url,
+            favicon: `${urlObj.origin}/favicon.ico`,
+          }
+        } catch {
+          return {
+            title: url,
+            url: url,
+          }
+        }
+      })
+
+      // 批量添加
+      await tabGroupsService.addItemsToGroup(group.id, items)
+      alert(`成功导入 ${urls.length} 个链接`)
+      await onRefresh?.()
     } catch (err) {
       console.error('Failed to import:', err)
       alert('导入失败')

@@ -1,0 +1,1715 @@
+{
+   "95PctMemoryReduction": {
+      "message": "メモリ使用量を95%削減"
+   },
+   "Folder": {
+      "message": "フォルダ"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "message": "OneTab は Firefox でも利用できます"
+   },
+   "aDashZ": {
+      "message": "A-Z"
+   },
+   "about": {
+      "message": "概要"
+   },
+   "addOneTabNow": {
+      "message": "今すぐ OneTab を追加"
+   },
+   "all": {
+      "message": "すべて"
+   },
+   "allBookmarks": {
+      "message": "すべてのブックマーク"
+   },
+   "allOpenTabsAlreadyStoredHere": {
+      "message": "開いているタブはすべてすでにここに保存されています:"
+   },
+   "allowFileAccessInstructions": {
+      "message": "ファイルを直接開けるようにするには、設定 ➝ 拡張機能 ➝ OneTab ➝ 詳細 ➝ ファイルの URL へのアクセスを許可 に進みます"
+   },
+   "alreadyExistingOpenTabsWillBeClosedAfterMerge": {
+      "message": "このグループに既に存在する開いているタブは、結合後にすべて閉じられます。"
+   },
+   "alternatePlainTextFormat": {
+      "message": "また、プレーンテキストは次の形式でも構いません:"
+   },
+   "approve": {
+      "message": "承認"
+   },
+   "archived": {
+      "message": "アーカイブ済み"
+   },
+   "autoTheme": {
+      "message": "自動（OS の設定を使用）"
+   },
+   "backupAndSync": {
+      "message": "バックアップと同期"
+   },
+   "betaReleaseReportBugsHere": {
+      "message": "ベータ版 - 不具合報告はこちら"
+   },
+   "bookmarkCount_few": {
+      "message": "{COUNT} 個のブックマーク"
+   },
+   "bookmarkCount_many": {
+      "message": "{COUNT} 個のブックマーク"
+   },
+   "bookmarkCount_one": {
+      "message": "{COUNT} 個のブックマーク"
+   },
+   "bookmarkCount_other": {
+      "message": "{COUNT} 個のブックマーク"
+   },
+   "bookmarkCount_two": {
+      "message": "{COUNT} 個のブックマーク"
+   },
+   "bookmarkCount_zero": {
+      "message": "{COUNT} 個のブックマーク"
+   },
+   "bookmarksPermissionNecesssary": {
+      "message": "OneTab がブラウザのブックマークをインポートするには、ブックマークの権限が必要です"
+   },
+   "bulkActions": {
+      "message": "一括操作"
+   },
+   "canDragTextNote": {
+      "message": "注: ウェブリンクを含むテキストは、別のウェブページや文書からドラッグ＆ドロップすることもできます。このインポート欄を使わずに、テキストを OneTab のページへ直接ドラッグできます。"
+   },
+   "canPasteWebContentForExample": {
+      "message": "ウェブページや文書からコピーしたテキストを貼り付けると、リンクは自動的に抽出されます。例:"
+   },
+   "cancel": {
+      "message": "キャンセル"
+   },
+   "cannotConnectToServerDeletionRequestQueued": {
+      "message": "OneTab サーバーに接続できません。インターネット接続を確認してください。共有ページの削除リクエストはローカルで保留され、接続が回復し次第、自動的に OneTab サーバーへ送信されます。"
+   },
+   "cannotCreateTabGroupInTabGroup": {
+      "message": "選択した宛先はタブ グループです。既存のタブ グループ内にタブ グループを作成することはできません。別の宛先を選択してください。"
+   },
+   "cannotMixTabsGroupsFoldersDuringDrag": {
+      "message": "ドラッグ中にタブ、グループ、フォルダを混在させることはできません。例えば、フォルダはタブと同じ場所にはドラッグできないためです。"
+   },
+   "caseSensitive": {
+      "message": "大文字と小文字を区別"
+   },
+   "changesMadeSinceSharedPageCreation": {
+      "message": "共有ページの作成後に変更が行われました。［更新］ボタンをクリックして既存の共有ページを更新してください。"
+   },
+   "checkboxesDeterminePinnedAndGroupedTabMergeInclusion": {
+      "message": "このページ上部のチェックボックスで、固定されたタブやタブ グループ内のタブを結合に含めるかどうかを指定します。"
+   },
+   "chooseALocation": {
+      "message": "場所を選択"
+   },
+   "chooseALocationToImportTo": {
+      "message": "インポート先を選択"
+   },
+   "chooseExportLocation": {
+      "message": "エクスポート元を選択"
+   },
+   "chooseLightDarkTheme": {
+      "message": "ライト/ダークテーマを選択"
+   },
+   "chooseLocationToCopyTo": {
+      "message": "コピー先を選択"
+   },
+   "chooseLocationToMoveTo": {
+      "message": "移動先を選択"
+   },
+   "chooseLocationToRestoreTo": {
+      "message": "復元先を選択"
+   },
+   "chooseToIncludeNotes": {
+      "message": "タブやグループにメモを追加している場合、共有するウェブページに含めるかどうかを選択してください"
+   },
+   "chooseToIncludeRatings": {
+      "message": "タブやグループに星評価を追加している場合、共有するウェブページに含めるかどうかを選択してください"
+   },
+   "chromeIncognitoInstructions": {
+      "message": "ブラウザの設定で「設定」→「拡張機能」→「OneTab」→「詳細」を開き、「シークレット モードでの実行を許可」を有効にします。"
+   },
+   "clickButtonToAllowTabAccess": {
+      "message": "下のボタンをクリックして、OneTab が開いているタブにアクセスできるようにしてください。"
+   },
+   "clickHereToContinue": {
+      "message": "続行"
+   },
+   "clickOneTabIconToStoreTabsHere": {
+      "message": "ブラウザのツールバーの OneTab アイコンをクリックして、開いているタブをここに保存します。"
+   },
+   "closeSelectedTabsAndStoreInONETAB_few": {
+      "message": "選択した {COUNT} 個のタブを閉じて ONETAB に保存"
+   },
+   "closeSelectedTabsAndStoreInONETAB_many": {
+      "message": "選択した {COUNT} 個のタブを閉じて ONETAB に保存"
+   },
+   "closeSelectedTabsAndStoreInONETAB_one": {
+      "message": "選択した {COUNT} 個のタブを閉じて ONETAB に保存"
+   },
+   "closeSelectedTabsAndStoreInONETAB_other": {
+      "message": "選択した {COUNT} 個のタブを閉じて ONETAB に保存"
+   },
+   "closeSelectedTabsAndStoreInONETAB_two": {
+      "message": "選択した {COUNT} 個のタブを閉じて ONETAB に保存"
+   },
+   "closeSelectedTabsAndStoreInONETAB_zero": {
+      "message": "選択した {COUNT} 個のタブを閉じて ONETAB に保存"
+   },
+   "closeSelectedTabs_few": {
+      "message": "選択した {COUNT} 個のタブを閉じる"
+   },
+   "closeSelectedTabs_many": {
+      "message": "選択した {COUNT} 個のタブを閉じる"
+   },
+   "closeSelectedTabs_one": {
+      "message": "選択した {COUNT} 個のタブを閉じる"
+   },
+   "closeSelectedTabs_other": {
+      "message": "選択した {COUNT} 個のタブを閉じる"
+   },
+   "closeSelectedTabs_two": {
+      "message": "選択した {COUNT} 個のタブを閉じる"
+   },
+   "closeSelectedTabs_zero": {
+      "message": "選択した {COUNT} 個のタブを閉じる"
+   },
+   "closeTab": {
+      "message": "タブを閉じる"
+   },
+   "closeTabAndStore": {
+      "message": "タブを閉じて ONETAB に保存"
+   },
+   "closeTabs": {
+      "message": "タブを閉じる"
+   },
+   "closeTabsAfterMerge": {
+      "message": "結合後にタブを閉じる"
+   },
+   "closeTabsAlreadyStoredInOneTab_few": {
+      "message": "OneTab に既に保存されている {COUNT} 個のタブを閉じる"
+   },
+   "closeTabsAlreadyStoredInOneTab_many": {
+      "message": "OneTab に既に保存されている {COUNT} 個のタブを閉じる"
+   },
+   "closeTabsAlreadyStoredInOneTab_one": {
+      "message": "OneTab に既に保存されている {COUNT} 個のタブを閉じる"
+   },
+   "closeTabsAlreadyStoredInOneTab_other": {
+      "message": "OneTab に既に保存されている {COUNT} 個のタブを閉じる"
+   },
+   "closeTabsAlreadyStoredInOneTab_two": {
+      "message": "OneTab に既に保存されている {COUNT} 個のタブを閉じる"
+   },
+   "closeTabsAlreadyStoredInOneTab_zero": {
+      "message": "OneTab に既に保存されている {COUNT} 個のタブを閉じる"
+   },
+   "closeTabsAndStore": {
+      "message": "タブを閉じて ONETAB に保存"
+   },
+   "closeTheseDuplicates": {
+      "message": "これらの重複を閉じる"
+   },
+   "closeThisDuplicate": {
+      "message": "この重複を閉じる"
+   },
+   "completeEditingShortcutInfo": {
+      "message": "メモ欄の編集中に、このショートカットで編集を完了します。"
+   },
+   "configureShortcuts": {
+      "message": "ショートカットを設定"
+   },
+   "conflictingShortcutsHint": {
+      "message": "上記の一部のショートカットが動作しない、または他のアプリと競合する場合は、別のショートカットキーに設定できます。"
+   },
+   "continue": {
+      "message": "続行"
+   },
+   "convertTabsIntoAList": {
+      "message": "タブをリストにまとめる"
+   },
+   "copiedToClipboard": {
+      "message": "クリップボードにコピーしました"
+   },
+   "copy": {
+      "message": "コピー"
+   },
+   "copyLinksToClipboard": {
+      "message": "リンクをクリップボードにコピー"
+   },
+   "copySharedPageUrl": {
+      "message": "共有ページの URL をコピー"
+   },
+   "copyToClipboard": {
+      "message": "クリップボードにコピー"
+   },
+   "createANewGroupHere": {
+      "message": "ここに新しいグループを作成"
+   },
+   "createFolderAbove": {
+      "message": "上にフォルダを作成"
+   },
+   "createFolderAboveBelow": {
+      "message": "上/下にフォルダを作成"
+   },
+   "createFolderAboveWithinBelow": {
+      "message": "上/内側/下にフォルダを作成"
+   },
+   "createFolderBelow": {
+      "message": "下にフォルダを作成"
+   },
+   "createFolderWithin": {
+      "message": "この中にフォルダを作成"
+   },
+   "createGroupAbove": {
+      "message": "上にグループを作成"
+   },
+   "createGroupAboveBelow": {
+      "message": "上/下にグループを作成"
+   },
+   "createGroupAboveWithinBelow": {
+      "message": "上/内側/下にグループを作成"
+   },
+   "createGroupBelow": {
+      "message": "下にグループを作成"
+   },
+   "createGroupInsideDestination": {
+      "message": "宛先内に新しいグループを作成"
+   },
+   "createGroupInsideDestinationHelp": {
+      "message": "チェックを外すと、タブは宛先のグループに直接追加されます。チェックを入れると、宛先グループ内にこれらのタブ用の新しいブラウザのタブ グループが作成されます。ブラウザの「タブ グループ」機能を使う場合にのみチェックしてください。"
+   },
+   "createGroupWithin": {
+      "message": "この中にグループを作成"
+   },
+   "createNewGroupTip": {
+      "message": "新しいグループを作成するには、「フォルダのみ表示」のチェックを外してください"
+   },
+   "createdOnOrAfterColon": {
+      "message": "作成日（以降）:"
+   },
+   "createdOnOrBeforeColon": {
+      "message": "作成日（以前）:"
+   },
+   "createdPreceedingDate": {
+      "message": "作成日"
+   },
+   "darkTheme": {
+      "message": "ダークテーマ"
+   },
+   "dayCount_few": {
+      "message": "{COUNT} 日"
+   },
+   "dayCount_many": {
+      "message": "{COUNT} 日"
+   },
+   "dayCount_one": {
+      "message": "{COUNT} 日"
+   },
+   "dayCount_other": {
+      "message": "{COUNT} 日"
+   },
+   "dayCount_two": {
+      "message": "{COUNT} 日"
+   },
+   "dayCount_zero": {
+      "message": "{COUNT} 日"
+   },
+   "delete": {
+      "message": "削除"
+   },
+   "deleteAllTrash": {
+      "message": "ゴミ箱を空にする"
+   },
+   "deleteThisCopy": {
+      "message": "このコピーを削除"
+   },
+   "deselectAll": {
+      "message": "すべて選択解除"
+   },
+   "destinationColon": {
+      "message": "宛先:"
+   },
+   "disabled": {
+      "message": "無効"
+   },
+   "doneTaskCount_few": {
+      "message": "完了 {COUNT}"
+   },
+   "doneTaskCount_many": {
+      "message": "完了 {COUNT}"
+   },
+   "doneTaskCount_one": {
+      "message": "完了 {COUNT}"
+   },
+   "doneTaskCount_other": {
+      "message": "完了 {COUNT}"
+   },
+   "doneTaskCount_two": {
+      "message": "完了 {COUNT}"
+   },
+   "doneTaskCount_zero": {
+      "message": "完了 {COUNT}"
+   },
+   "dontCloseGroupedTabs": {
+      "message": "タブ グループ内のタブは閉じない"
+   },
+   "dontClosePinnedTabs": {
+      "message": "固定されたタブは閉じない"
+   },
+   "dontCloseTabsFromDomains": {
+      "message": "EXAMPLE.COM のタブは閉じない"
+   },
+   "dragTabsHereForQuickList": {
+      "message": "保存したタブやグループをここにドラッグしてください。クイックリストに追加されます。"
+   },
+   "editTabGroupTitleAndNotes": {
+      "message": "タブ グループのタイトルとメモを編集"
+   },
+   "emojiShortcutInfo": {
+      "message": "メモ欄の編集中に、このショートカットで絵文字ピッカーを開きます。"
+   },
+   "emptyInBrackets": {
+      "message": "(空)"
+   },
+   "emptyOneTabInfoMsg": {
+      "message": "複数のタブを開いているときは、ブラウザのツールバーの OneTab アイコンをクリックすると、開いているタブがここに表示されます。"
+   },
+   "enabled": {
+      "message": "有効"
+   },
+   "encryptedSyncAndBackup": {
+      "message": "暗号化された同期とバックアップ"
+   },
+   "encryptedSyncAndBackupComingSoonMessage": {
+      "message": "近日提供予定: OneTab のデータを複数のブラウザ プロフィールやコンピュータ間で同期できるようになります。\nOneTab は全面的に再設計され、あるデバイスで行った変更が他のすべてのデバイスにも即座に反映されます。\nこの機能を使用する場合、データは強力な AES-256 によるエンドツーエンド暗号化で保護されます。暗号鍵を保持しているのはお客様だけのため、OneTab の開発者がバックアップやデバイス間で同期されたタブを見ることはできません。"
+   },
+   "everything": {
+      "message": "すべて"
+   },
+   "exampleLink": {
+      "message": "例のリンク"
+   },
+   "exampleLinkTitle": {
+      "message": "例のリンクタイトル"
+   },
+   "exampleLinkTitleOptional": {
+      "message": "例のリンクタイトル（任意）"
+   },
+   "exampleRichTextParagraph": {
+      "message": "PLACEHOLDER と PLACEHOLDER を含むテキスト段落の例"
+   },
+   "exampleWebsitePageTitle": {
+      "message": "例: ウェブサイトのページタイトル"
+   },
+   "excludeDomainFromOneTab": {
+      "message": "EXAMPLE.COM を OneTab の対象外にする"
+   },
+   "excludeWebSiteFromOneTab": {
+      "message": "このサイトを OneTab の対象外にする"
+   },
+   "expiresColon": {
+      "message": "有効期限:"
+   },
+   "export": {
+      "message": "エクスポート"
+   },
+   "exportImportUrls": {
+      "message": "URL のエクスポート / インポート"
+   },
+   "exportThenImportNote": {
+      "message": "次の URL 一覧は、このコンピュータや別のコンピュータの OneTab にもインポートできます"
+   },
+   "exportUrls": {
+      "message": "URL をエクスポート"
+   },
+   "feedback": {
+      "message": "フィードバック"
+   },
+   "filter": {
+      "message": "フィルター"
+   },
+   "firefoxIncognitoInstructions": {
+      "message": "ブラウザの設定で「設定」→「アドオンとテーマ」→「拡張機能」→「OneTab」→「…」→「管理」を開き、「プライベートウィンドウでの実行を許可」を有効にします。"
+   },
+   "firefoxShortcutConfigInstructions": {
+      "message": "ブラウザのアドレスバーに URL「about:addons?type=extension」を入力します。ページが表示されたら、歯車アイコンをクリックし、「拡張機能のショートカットを管理」を選択します"
+   },
+   "folderCount_few": {
+      "message": "{COUNT} 個のフォルダ"
+   },
+   "folderCount_many": {
+      "message": "{COUNT} 個のフォルダ"
+   },
+   "folderCount_one": {
+      "message": "{COUNT} 個のフォルダ"
+   },
+   "folderCount_other": {
+      "message": "{COUNT} 個のフォルダ"
+   },
+   "folderCount_two": {
+      "message": "{COUNT} 個のフォルダ"
+   },
+   "folderCount_zero": {
+      "message": "{COUNT} 個のフォルダ"
+   },
+   "folders": {
+      "message": "フォルダ"
+   },
+   "foldersOnly": {
+      "message": "フォルダのみ"
+   },
+   "gettingStarted": {
+      "message": "はじめに"
+   },
+   "goToParentFolder": {
+      "message": "親フォルダへ移動"
+   },
+   "groupCount_few": {
+      "message": "{COUNT} 個のグループ"
+   },
+   "groupCount_many": {
+      "message": "{COUNT} 個のグループ"
+   },
+   "groupCount_one": {
+      "message": "{COUNT} 個のグループ"
+   },
+   "groupCount_other": {
+      "message": "{COUNT} 個のグループ"
+   },
+   "groupCount_two": {
+      "message": "{COUNT} 個のグループ"
+   },
+   "groupCount_zero": {
+      "message": "{COUNT} 個のグループ"
+   },
+   "groups": {
+      "message": "グループ"
+   },
+   "hasNotes": {
+      "message": "メモあり"
+   },
+   "hasRating": {
+      "message": "評価あり"
+   },
+   "help": {
+      "message": "ヘルプ"
+   },
+   "hideArchivedItems": {
+      "message": "アーカイブ済みを非表示"
+   },
+   "import": {
+      "message": "インポート"
+   },
+   "importAndExport": {
+      "message": "インポートとエクスポート"
+   },
+   "importBookmarks": {
+      "message": "ブックマークをインポート"
+   },
+   "importFolderAndSubfolders": {
+      "message": "フォルダとサブフォルダをインポート"
+   },
+   "importLinksHere": {
+      "message": "ここにリンクをインポート"
+   },
+   "importReadingList": {
+      "message": "リーディング リストをインポート"
+   },
+   "importText": {
+      "message": "テキストをインポート"
+   },
+   "importUrls": {
+      "message": "URL をインポート"
+   },
+   "importedBookmarks": {
+      "message": "インポートしたブックマーク"
+   },
+   "includeGroupedTabs": {
+      "message": "タブグループ内のタブを含める"
+   },
+   "includeNotes": {
+      "message": "メモを含める"
+   },
+   "includePinnedTabs": {
+      "message": "固定されたタブを含める"
+   },
+   "includeStarRatings": {
+      "message": "星評価を含める"
+   },
+   "includeTabsAlreadyStored": {
+      "message": "すでに保存済みのタブを含める"
+   },
+   "includeTabsFromDomains": {
+      "message": "EXAMPLE.COM のタブを含める"
+   },
+   "incogitoPermissionRequired": {
+      "message": "OneTab がシークレット ウィンドウを作成するには許可が必要です。"
+   },
+   "incognitoWindows": {
+      "message": "シークレット ウィンドウ"
+   },
+   "invertSelection": {
+      "message": "選択を反転"
+   },
+   "justNow": {
+      "message": "たった今"
+   },
+   "keyboardShortcutsColon": {
+      "message": "キーボード ショートカット:"
+   },
+   "languageTitle": {
+      "message": "言語:"
+   },
+   "lightTheme": {
+      "message": "ライトテーマ"
+   },
+   "localeId": {
+      "message": "ja"
+   },
+   "locationColon": {
+      "message": "場所:"
+   },
+   "lock": {
+      "message": "ロック"
+   },
+   "lockMenuItemHelp": {
+      "message": "グループがロックされている間は、グループ内の項目を削除したり並べ替えたりできません。ロックされたグループを開くときは、自動アクションは適用されません。自動アクションについてはオプションページを参照してください。"
+   },
+   "lockedGroupUnlockHelp": {
+      "message": "ロックを解除するには、ドロップダウンメニューを使用してください。グループがロックされている間は、グループやそのタブを削除したり、タブの順序を変更したりできません。"
+   },
+   "makeThisATask": {
+      "message": "タスクにする"
+   },
+   "manifestDescription": {
+      "message": "メモリ使用量を最大95%節約し、タブの散らかりを解消"
+   },
+   "markAsArchived": {
+      "message": "アーカイブとしてマーク"
+   },
+   "markAsArchivedMenuItemHelp": {
+      "message": "注: アーカイブされたタスクや、アーカイブされたグループ内のタスクは、タスク列に表示されません"
+   },
+   "markAsDoneTask": {
+      "message": "完了タスクとしてマーク"
+   },
+   "markAsPendingTask": {
+      "message": "保留タスクとしてマーク"
+   },
+   "matchCount_few": {
+      "message": "{COUNT} 件の一致"
+   },
+   "matchCount_many": {
+      "message": "{COUNT} 件の一致"
+   },
+   "matchCount_one": {
+      "message": "{COUNT} 件の一致"
+   },
+   "matchCount_other": {
+      "message": "{COUNT} 件の一致"
+   },
+   "matchCount_two": {
+      "message": "{COUNT} 件の一致"
+   },
+   "matchCount_zero": {
+      "message": "{COUNT} 件の一致"
+   },
+   "matchWholeWordsOnly": {
+      "message": "単語全体のみ一致"
+   },
+   "mayNeedToRestartBrowser": {
+      "message": "ブラウザの更新と再起動が必要な場合があります。"
+   },
+   "mergeIntoParent": {
+      "message": "親に結合"
+   },
+   "mergeOpenTabsHere_few": {
+      "message": "開いている {COUNT} 個のタブをここに結合"
+   },
+   "mergeOpenTabsHere_many": {
+      "message": "開いている {COUNT} 個のタブをここに結合"
+   },
+   "mergeOpenTabsHere_one": {
+      "message": "開いている {COUNT} 個のタブをここに結合"
+   },
+   "mergeOpenTabsHere_other": {
+      "message": "開いている {COUNT} 個のタブをここに結合"
+   },
+   "mergeOpenTabsHere_two": {
+      "message": "開いている {COUNT} 個のタブをここに結合"
+   },
+   "mergeOpenTabsHere_zero": {
+      "message": "開いている {COUNT} 個のタブをここに結合"
+   },
+   "mergeSelectedTabsHere_few": {
+      "message": "選択した {COUNT} 個のタブをここに結合"
+   },
+   "mergeSelectedTabsHere_many": {
+      "message": "選択した {COUNT} 個のタブをここに結合"
+   },
+   "mergeSelectedTabsHere_one": {
+      "message": "選択した {COUNT} 個のタブをここに結合"
+   },
+   "mergeSelectedTabsHere_other": {
+      "message": "選択した {COUNT} 個のタブをここに結合"
+   },
+   "mergeSelectedTabsHere_two": {
+      "message": "選択した {COUNT} 個のタブをここに結合"
+   },
+   "mergeSelectedTabsHere_zero": {
+      "message": "選択した {COUNT} 個のタブをここに結合"
+   },
+   "mergeWithInnerGroups": {
+      "message": "内側のグループと結合"
+   },
+   "modifySharing": {
+      "message": "共有設定を変更"
+   },
+   "moreEllipsis": {
+      "message": "その他…"
+   },
+   "moreSearchFilters": {
+      "message": "その他の検索フィルター"
+   },
+   "moreTripleDot": {
+      "message": "その他…"
+   },
+   "move": {
+      "message": "移動"
+   },
+   "moveToTrash": {
+      "message": "ゴミ箱に移動"
+   },
+   "namedOnly": {
+      "message": "名前ありのみ"
+   },
+   "navigationFilter": {
+      "message": "ナビゲーションフィルター"
+   },
+   "newExclamation": {
+      "message": "新機能!"
+   },
+   "noDupsExistExceptForColon": {
+      "message": "重複はありません（次を除く）:"
+   },
+   "noDupsFoundHere": {
+      "message": "ここには重複はありません"
+   },
+   "noMatches": {
+      "message": "一致なし"
+   },
+   "noMatchesFound": {
+      "message": "一致するものはありません"
+   },
+   "noOpenTabsToStore": {
+      "message": "このウィンドウには保存する開いているタブがありません。"
+   },
+   "noReadingListEntries": {
+      "message": "リーディング リストに項目が見つかりません"
+   },
+   "noTabsInOneTabYet": {
+      "message": "OneTab にはまだタブがありません"
+   },
+   "noTabsMeetCriteriaUseCheckboxes": {
+      "message": "条件に合致する開いているタブはありません。上のチェックボックスをご利用ください。"
+   },
+   "noTextHasBeenEntered": {
+      "message": "テキストが入力されていません"
+   },
+   "nonArchived": {
+      "message": "未アーカイブ"
+   },
+   "notAssigned": {
+      "message": "未割り当て"
+   },
+   "notes": {
+      "message": "メモ"
+   },
+   "notesAboutTheLinkOptional": {
+      "message": "リンクに関するメモ（任意）"
+   },
+   "notesAboutTheSecondLinkOptional": {
+      "message": "2つ目のリンクに関するメモ（任意）"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "omniboxShortcutInfo": {
+      "message": "どのタブからでも OneTab のリストを検索するには: ブラウザのアドレスバーで 1 を入力し、スペースを押してから検索キーワードを入力します。"
+   },
+   "oneTabDesignedToProtectPrivacy": {
+      "message": "OneTab はお客様のプライバシーを守るよう設計されています。タブが当方に開示されることはありません。"
+   },
+   "oneTabImportExportPageTitle": {
+      "message": "OneTab インポート/エクスポート"
+   },
+   "oneTabNeedsPermissionToAccessYourTabs": {
+      "message": "OneTab がタブにアクセスする許可が必要です。"
+   },
+   "oneTabOptionsPageTitle": {
+      "message": "OneTab オプション"
+   },
+   "oneTabPermissionRequired": {
+      "message": "OneTab - 許可が必要です"
+   },
+   "oneTabRestartRequired": {
+      "message": "OneTab の再起動が必要です。"
+   },
+   "oneTabSlashShortcutInfo": {
+      "message": "OneTab ページ内では、スラッシュキーを押すと検索ボックスにフォーカスします。"
+   },
+   "open": {
+      "message": "開く"
+   },
+   "openActionPopup": {
+      "message": "拡張機能のポップアップを開く"
+   },
+   "openAsCollapsedTabGroup": {
+      "message": "「折りたたみ」状態のタブ グループとして開く"
+   },
+   "openAsCollapsedTabGroupMenuItemHelp": {
+      "message": "これらのタブを「折りたたみ」状態のタブ グループとして開くと、クリックして中のタブを表示するまで、グループのラベルだけが表示されます。"
+   },
+   "openAsTabGroup": {
+      "message": "ブラウザのタブ グループとして開く"
+   },
+   "openAsTabGroupMenuItemHelp": {
+      "message": "お使いのブラウザでは、ウィンドウ内のタブを色付きの「タブ グループ」にまとめて表示できます。"
+   },
+   "openGroupsLimitNotice_few": {
+      "message": "ブラウザの過負荷を防ぐため、先頭の {COUNT} 個のグループのみを開きます。"
+   },
+   "openGroupsLimitNotice_many": {
+      "message": "ブラウザの過負荷を防ぐため、先頭の {COUNT} 個のグループのみを開きます。"
+   },
+   "openGroupsLimitNotice_one": {
+      "message": "ブラウザの過負荷を防ぐため、先頭の {COUNT} 個のグループのみを開きます。"
+   },
+   "openGroupsLimitNotice_other": {
+      "message": "ブラウザの過負荷を防ぐため、先頭の {COUNT} 個のグループのみを開きます。"
+   },
+   "openGroupsLimitNotice_two": {
+      "message": "ブラウザの過負荷を防ぐため、先頭の {COUNT} 個のグループのみを開きます。"
+   },
+   "openGroupsLimitNotice_zero": {
+      "message": "ブラウザの過負荷を防ぐため、先頭の {COUNT} 個のグループのみを開きます。"
+   },
+   "openInIncognitoWindow": {
+      "message": "新しいシークレット ウィンドウで開く"
+   },
+   "openInNewWindow": {
+      "message": "新しいウィンドウで開く"
+   },
+   "openInThisWindow": {
+      "message": "このウィンドウで開く"
+   },
+   "openONETABLogo": {
+      "message": "ONETAB を開く"
+   },
+   "openOneTab": {
+      "message": "OneTab を開く"
+   },
+   "openOneTabAfter": {
+      "message": "タブを保存した後に OneTab を開く"
+   },
+   "openTabFromWebsite": {
+      "message": "タブを開いて、そのウェブサイトに移動します"
+   },
+   "openTabLimit_few": {
+      "message": "ブラウザの過負荷を防ぐため、同時に開けるタブは最大 {COUNT} 個です。"
+   },
+   "openTabLimit_many": {
+      "message": "ブラウザの過負荷を防ぐため、同時に開けるタブは最大 {COUNT} 個です。"
+   },
+   "openTabLimit_one": {
+      "message": "ブラウザの過負荷を防ぐため、同時に開けるタブは最大 {COUNT} 個です。"
+   },
+   "openTabLimit_other": {
+      "message": "ブラウザの過負荷を防ぐため、同時に開けるタブは最大 {COUNT} 個です。"
+   },
+   "openTabLimit_two": {
+      "message": "ブラウザの過負荷を防ぐため、同時に開けるタブは最大 {COUNT} 個です。"
+   },
+   "openTabLimit_zero": {
+      "message": "ブラウザの過負荷を防ぐため、同時に開けるタブは最大 {COUNT} 個です。"
+   },
+   "openTabsAlreadyStoredHere_few": {
+      "message": "既にここに保存済みの開いているタブ {COUNT} 個:"
+   },
+   "openTabsAlreadyStoredHere_many": {
+      "message": "既にここに保存済みの開いているタブ {COUNT} 個:"
+   },
+   "openTabsAlreadyStoredHere_one": {
+      "message": "既にここに保存済みの開いているタブ {COUNT} 個:"
+   },
+   "openTabsAlreadyStoredHere_other": {
+      "message": "既にここに保存済みの開いているタブ {COUNT} 個:"
+   },
+   "openTabsAlreadyStoredHere_two": {
+      "message": "既にここに保存済みの開いているタブ {COUNT} 個:"
+   },
+   "openTabsAlreadyStoredHere_zero": {
+      "message": "既にここに保存済みの開いているタブ {COUNT} 個:"
+   },
+   "openTabsConfirm_few": {
+      "message": "タブを {COUNT} 個開こうとしています。よろしいですか？"
+   },
+   "openTabsConfirm_many": {
+      "message": "タブを {COUNT} 個開こうとしています。よろしいですか？"
+   },
+   "openTabsConfirm_one": {
+      "message": "タブを {COUNT} 個開こうとしています。よろしいですか？"
+   },
+   "openTabsConfirm_other": {
+      "message": "タブを {COUNT} 個開こうとしています。よろしいですか？"
+   },
+   "openTabsConfirm_two": {
+      "message": "タブを {COUNT} 個開こうとしています。よろしいですか？"
+   },
+   "openTabsConfirm_zero": {
+      "message": "タブを {COUNT} 個開こうとしています。よろしいですか？"
+   },
+   "openTabsNotStoredInOneTab_few": {
+      "message": "{COUNT} 個の開いているタブは OneTab に保存されていません"
+   },
+   "openTabsNotStoredInOneTab_many": {
+      "message": "{COUNT} 個の開いているタブは OneTab に保存されていません"
+   },
+   "openTabsNotStoredInOneTab_one": {
+      "message": "{COUNT} 個の開いているタブは OneTab に保存されていません"
+   },
+   "openTabsNotStoredInOneTab_other": {
+      "message": "{COUNT} 個の開いているタブは OneTab に保存されていません"
+   },
+   "openTabsNotStoredInOneTab_two": {
+      "message": "{COUNT} 個の開いているタブは OneTab に保存されていません"
+   },
+   "openTabsNotStoredInOneTab_zero": {
+      "message": "{COUNT} 個の開いているタブは OneTab に保存されていません"
+   },
+   "optionAutoActionOnGroupOpenArchiveDesc": {
+      "message": "自動でアーカイブにしない場合は、グループを開くときに Alt/Option キーを押しながらクリックしてください"
+   },
+   "optionAutoActionOnGroupOpenArchiveTitle": {
+      "message": "タブを開き、グループをアーカイブとしてマーク"
+   },
+   "optionAutoActionOnGroupOpenHeading": {
+      "message": "タブのグループをクリックして開くときの自動アクション:"
+   },
+   "optionAutoActionOnGroupOpenNote": {
+      "message": "自動アクションは、ロック済みのグループやタスクのグループには適用されません。"
+   },
+   "optionAutoActionOnGroupOpenOpenDesc": {
+      "message": "グループを開くときに Alt/Option キーを押しながらクリックすると、アーカイブとしてマークします"
+   },
+   "optionAutoActionOnGroupOpenOpenTitle": {
+      "message": "タブを開くだけ"
+   },
+   "optionAutoActionOnGroupOpenTrashDesc": {
+      "message": "自動でゴミ箱に送らない場合は、グループを開くときに Alt/Option キーを押しながらクリックしてください"
+   },
+   "optionAutoActionOnGroupOpenTrashTitle": {
+      "message": "タブを開き、グループをゴミ箱に移動"
+   },
+   "optionAutoActionOnTabOpenArchiveDesc": {
+      "message": "自動でアーカイブにしない場合は、タブを開くときに Alt/Option キーを押しながらクリックしてください"
+   },
+   "optionAutoActionOnTabOpenArchiveTitle": {
+      "message": "タブを開き、アーカイブとしてマーク"
+   },
+   "optionAutoActionOnTabOpenHeading": {
+      "message": "タブをクリックして開くときの自動アクション:"
+   },
+   "optionAutoActionOnTabOpenNote": {
+      "message": "自動アクションは、ロックされたグループやタスクのグループ内のタブには適用されません。"
+   },
+   "optionAutoActionOnTabOpenOpenDesc": {
+      "message": "タブを開くときに Alt/Option キーを押しながらクリックすると、アーカイブとしてマークします"
+   },
+   "optionAutoActionOnTabOpenOpenTitle": {
+      "message": "タブを開くだけ"
+   },
+   "optionAutoActionOnTabOpenTrashDesc": {
+      "message": "自動でゴミ箱に送らない場合は、タブを開くときに Alt/Option キーを押しながらクリックしてください"
+   },
+   "optionAutoActionOnTabOpenTrashTitle": {
+      "message": "タブを開き、ゴミ箱に移動"
+   },
+   "optionCopyToClipboardFormatHeading": {
+      "message": "リンクをクリップボードにコピーするとき:"
+   },
+   "optionCopyToClipboardFormatNote": {
+      "message": "この設定は「クリップボードにコピー」アクションに適用されます。OneTab から文書へタブやグループを直接ドラッグすることもできます。"
+   },
+   "optionCopyToClipboardFormatRichTextDesc": {
+      "message": "ワープロなどのアプリでは、リッチテキストとして貼り付けられます。未対応の場合は、代わりにプレーンテキストとして貼り付けられます。"
+   },
+   "optionCopyToClipboardFormatRichTextTitle": {
+      "message": "可能な場合はリッチテキスト"
+   },
+   "optionCopyToClipboardFormatTitleUrlTitle": {
+      "message": "タイトルと URL"
+   },
+   "optionCopyToClipboardFormatUrlOnlyTitle": {
+      "message": "URL のみ"
+   },
+   "optionCopyToClipboardFormatUrlTitleTitle": {
+      "message": "URL とタイトル"
+   },
+   "optionDefaultTabGroupOpenTypeCurrentWindow": {
+      "message": "タブ グループを現在のウィンドウで開く"
+   },
+   "optionDefaultTabGroupOpenTypeHeading": {
+      "message": "「タブ グループ」として開くように設定されたタブのグループをクリックして開くとき:"
+   },
+   "optionDefaultTabGroupOpenTypeNewWindow": {
+      "message": "タブ グループを新しいウィンドウで開く"
+   },
+   "optionDefaultTabGroupOpenTypeNote": {
+      "message": "ドロップダウンで特定のオプション（例: シークレット ウィンドウで開く）を選ぶと、その設定はそのグループに記憶されます。"
+   },
+   "optionDefaultWindowGroupOpenTypeCurrentWindow": {
+      "message": "タブを現在のウィンドウで開く"
+   },
+   "optionDefaultWindowGroupOpenTypeHeading": {
+      "message": "タブのグループを開くとき:"
+   },
+   "optionDefaultWindowGroupOpenTypeNewWindow": {
+      "message": "タブを新しいウィンドウで開く"
+   },
+   "optionDefaultWindowGroupOpenTypeNote": {
+      "message": "ドロップダウンで特定のオプション（例: シークレット ウィンドウで開く）を選ぶと、その設定はそのグループに記憶されます。"
+   },
+   "optionDiscardNonActiveTabOnOpenHeading": {
+      "message": "タブを開いた直後にメモリ（RAM）を節約:"
+   },
+   "optionDiscardNonActiveTabOnOpenNote": {
+      "message": "この設定を有効にすると、OneTab のリストからタブを初めて開いた直後に、タブをメモリから解放します。同時に多数のタブを開くことが多い場合に便利で、実際にアクセスするまでメモリに読み込まれるのを防げます。この設定を無効にしていても、多くのブラウザは未使用のタブを自動的にメモリから解放する場合があります。"
+   },
+   "optionDisplayContextMenuHeading": {
+      "message": "ウェブページ上で右クリックして OneTab のコンテキストメニューにアクセス:"
+   },
+   "optionDisplayContextMenuNote": {
+      "message": "このメニューを無効にすると、「このサイトを OneTab の対象外にする」機能は利用できません"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenFalseTitle": {
+      "message": "OneTab のタブがすでに開いているウィンドウに切り替える"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenHeading": {
+      "message": "「OneTab を開く」アクション:"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenNote": {
+      "message": "「OneTab を開く」アクションにはキーボード ショートカットでアクセスできます。ブラウザのツールバーの OneTab アイコンをクリックすると表示される拡張機能のポップアップからも利用できます。"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenTrueTitle": {
+      "message": "既存の OneTab のタブを現在のウィンドウへ移動する"
+   },
+   "optionStartupLaunchDisplay": {
+      "message": "ブラウザ起動時に OneTab を開く"
+   },
+   "optionStartupLaunchNone": {
+      "message": "OneTab を自動的に開かない"
+   },
+   "optionStartupLaunchNoneDesc3": {
+      "message": "OneTab を手動で開くには、ブラウザのツールバーの OneTab アイコンをクリックし、「OneTab を開く」を選択します。別の方法として、任意のウェブページ上で右クリックし、OneTab メニューの「OneTab を開く」をクリックします。"
+   },
+   "optionStartupLaunchTitle": {
+      "message": "起動時:"
+   },
+   "optionSwitchToOpenedTabFalseTitle": {
+      "message": "タブを開いて OneTab に留まる"
+   },
+   "optionSwitchToOpenedTabHeading": {
+      "message": "OneTab ページからタブを開くとき:"
+   },
+   "optionSwitchToOpenedTabNote": {
+      "message": "クリック時に Shift を押すと、新しいウィンドウでタブを開きます"
+   },
+   "optionSwitchToOpenedTabTrueTitle": {
+      "message": "タブを開いてそのタブに切り替える（クリック時に Command ⌘/Ctrl を押している場合を除く）"
+   },
+   "optionUrlAbbr": {
+      "message": "省略"
+   },
+   "optionUrlDisplayTitle": {
+      "message": "URL 表示:"
+   },
+   "optionUrlDomain": {
+      "message": "ドメインのみ"
+   },
+   "optionUrlFull": {
+      "message": "すべて"
+   },
+   "optionUrlNone": {
+      "message": "なし"
+   },
+   "options": {
+      "message": "オプション"
+   },
+   "otherCopiesColon": {
+      "message": "他のコピー:"
+   },
+   "pasteRichOrPlainTextBelow": {
+      "message": "下にリッチテキストまたはプレーンテキストを貼り付けられます。"
+   },
+   "pendingTaskCount_few": {
+      "message": "保留 {COUNT}"
+   },
+   "pendingTaskCount_many": {
+      "message": "保留 {COUNT}"
+   },
+   "pendingTaskCount_one": {
+      "message": "保留 {COUNT}"
+   },
+   "pendingTaskCount_other": {
+      "message": "保留 {COUNT}"
+   },
+   "pendingTaskCount_two": {
+      "message": "保留 {COUNT}"
+   },
+   "pendingTaskCount_zero": {
+      "message": "保留 {COUNT}"
+   },
+   "permissionRequiredPleaseTryAgain": {
+      "message": "どのコンピュータからもアクセスできる共有ページを作成するには、OneTab のウェブサーバーと連携する許可が必要です。もう一度お試しください。"
+   },
+   "pinToTopOfFolder": {
+      "message": "フォルダの先頭に固定"
+   },
+   "pinToTopOfList": {
+      "message": "リストの先頭に固定"
+   },
+   "pinnedTabs": {
+      "message": "固定されたタブ"
+   },
+   "placeholderAndOtherLocations_few": {
+      "message": "PLACEHOLDER、ほか{COUNT}件"
+   },
+   "placeholderAndOtherLocations_many": {
+      "message": "PLACEHOLDER、ほか{COUNT}件"
+   },
+   "placeholderAndOtherLocations_one": {
+      "message": "PLACEHOLDER、ほか{COUNT}件"
+   },
+   "placeholderAndOtherLocations_other": {
+      "message": "PLACEHOLDER、ほか{COUNT}件"
+   },
+   "placeholderAndOtherLocations_two": {
+      "message": "PLACEHOLDER、ほか{COUNT}件"
+   },
+   "placeholderAndOtherLocations_zero": {
+      "message": "PLACEHOLDER、ほか{COUNT}件"
+   },
+   "placeholderExplanation": {
+      "message": "ブラウザのセキュリティ規則により、このページを OneTab から直接復元することはできません。URL をコピーしてブラウザのアドレスバーに貼り付けてください。"
+   },
+   "plainTextLineFormat": {
+      "message": "プレーンテキストを貼り付ける場合は、各 URL にプロトコル（wikipedia.org ではなく https://wikipedia.org）を含めてください。各行は次の形式にしてください:"
+   },
+   "pleaseWaitTripleDot": {
+      "message": "お待ちください…"
+   },
+   "popupSlashShortcutInfo": {
+      "message": "OneTab の拡張機能のポップアップ（OneTab アイコンをクリックすると表示）内では、スラッシュキーで宛先選択を開き、検索ボックスにフォーカスします。"
+   },
+   "privacyAssurance": {
+      "message": "プライバシー保護"
+   },
+   "privacyAssuranceDetail": {
+      "message": "タブの一覧が OneTab の開発者や第三者に送信・開示されることはありません。唯一の例外は、意図的に「ウェブページとして共有」機能を使用して、タブの一覧をウェブページにアップロードし、他者と共有する場合です。"
+   },
+   "privacyFirst": {
+      "message": "プライバシー優先"
+   },
+   "privacyFirstMessage": {
+      "message": "OneTab はお客様のプライベートデータを保護するよう設計されています。タブはお使いのコンピュータにのみ保存され、OneTab の開発者やその他の第三者と共有されることはありません。\nバックアップ/同期機能を使用する場合、データは強力な AES-256 によるエンドツーエンド暗号化で保護されます。暗号鍵を保持しているのはお客様だけのため、OneTab の開発者がバックアップやデバイス間で同期されたタブを見ることはできません。\n唯一の例外は、「ウェブページとして共有」機能を意図的に使用して、タブの一部を他者と共有する場合です。\n私たちはプライバシー優先を信条としています。"
+   },
+   "privateBrowsingPermissionRequired": {
+      "message": "OneTab がプライベートウィンドウを作成するには許可が必要です。"
+   },
+   "privateBrowsingWindows": {
+      "message": "プライベートウィンドウ"
+   },
+   "quickList": {
+      "message": "クイックリスト"
+   },
+   "rating": {
+      "message": "評価"
+   },
+   "readingList": {
+      "message": "リーディング リスト"
+   },
+   "readingListPermissionNecesssary": {
+      "message": "リーディング リストから項目を OneTab にインポートするには、リーディング リストの権限が必要です。この機能が動作しない場合は、ブラウザがリーディング リストをサポートしていない可能性があります。"
+   },
+   "recent": {
+      "message": "最近"
+   },
+   "recentDestinationsColon": {
+      "message": "最近の宛先:"
+   },
+   "recentDuplicateRetainedHelp": {
+      "message": "同じタブが複数ある場合は、最新の重複のみを保持します"
+   },
+   "recentlyAccessed": {
+      "message": "最近アクセス"
+   },
+   "recentlyCreated": {
+      "message": "最近作成"
+   },
+   "recentlyModified": {
+      "message": "最近更新"
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "message": "メモリ使用量を95%削減"
+   },
+   "removeDuplicateTabsHere_few": {
+      "message": "ここにある重複したタブ {COUNT} 個を削除"
+   },
+   "removeDuplicateTabsHere_many": {
+      "message": "ここにある重複したタブ {COUNT} 個を削除"
+   },
+   "removeDuplicateTabsHere_one": {
+      "message": "ここにある重複したタブ {COUNT} 個を削除"
+   },
+   "removeDuplicateTabsHere_other": {
+      "message": "ここにある重複したタブ {COUNT} 個を削除"
+   },
+   "removeDuplicateTabsHere_two": {
+      "message": "ここにある重複したタブ {COUNT} 個を削除"
+   },
+   "removeDuplicateTabsHere_zero": {
+      "message": "ここにある重複したタブ {COUNT} 個を削除"
+   },
+   "removeDuplicates": {
+      "message": "重複を削除"
+   },
+   "removeFromQuickList": {
+      "message": "クイックリストから削除"
+   },
+   "removeTabsElsewhereAlsoHere_few": {
+      "message": "他の場所から、ここにもあるタブ {COUNT} 個を削除"
+   },
+   "removeTabsElsewhereAlsoHere_many": {
+      "message": "他の場所から、ここにもあるタブ {COUNT} 個を削除"
+   },
+   "removeTabsElsewhereAlsoHere_one": {
+      "message": "他の場所から、ここにもあるタブ {COUNT} 個を削除"
+   },
+   "removeTabsElsewhereAlsoHere_other": {
+      "message": "他の場所から、ここにもあるタブ {COUNT} 個を削除"
+   },
+   "removeTabsElsewhereAlsoHere_two": {
+      "message": "他の場所から、ここにもあるタブ {COUNT} 個を削除"
+   },
+   "removeTabsElsewhereAlsoHere_zero": {
+      "message": "他の場所から、ここにもあるタブ {COUNT} 個を削除"
+   },
+   "removeTabsHereAlsoElsewhere_few": {
+      "message": "他の場所にもあるタブ {COUNT} 個をここから削除"
+   },
+   "removeTabsHereAlsoElsewhere_many": {
+      "message": "他の場所にもあるタブ {COUNT} 個をここから削除"
+   },
+   "removeTabsHereAlsoElsewhere_one": {
+      "message": "他の場所にもあるタブ {COUNT} 個をここから削除"
+   },
+   "removeTabsHereAlsoElsewhere_other": {
+      "message": "他の場所にもあるタブ {COUNT} 個をここから削除"
+   },
+   "removeTabsHereAlsoElsewhere_two": {
+      "message": "他の場所にもあるタブ {COUNT} 個をここから削除"
+   },
+   "removeTabsHereAlsoElsewhere_zero": {
+      "message": "他の場所にもあるタブ {COUNT} 個をここから削除"
+   },
+   "rename": {
+      "message": "名前を変更"
+   },
+   "restore": {
+      "message": "復元"
+   },
+   "restrictSearchToFolderColon": {
+      "message": "検索対象を次のフォルダに限定:"
+   },
+   "results": {
+      "message": "結果"
+   },
+   "returnToOneTab": {
+      "message": "OneTab に戻る"
+   },
+   "reverse": {
+      "message": "逆順"
+   },
+   "rightClickAndOpenOneTabMenu": {
+      "message": "ウェブページ上で右クリックし、OneTab メニューを開きます"
+   },
+   "rightClickMenuDisabledNote": {
+      "message": "注: OneTab の右クリックメニューを無効にしています。OneTab のオプションページで有効にしてください。"
+   },
+   "rightClickSelectionOptionsTip": {
+      "message": "ヒント: チェック後にチェックアイコンを右クリックすると、さらに選択オプションが表示されます"
+   },
+   "rightClickTickTip": {
+      "message": "ヒント: 各タブのチェックアイコンを右クリックすると、選択ツールが表示されます"
+   },
+   "safariApproveOneTabInSettings": {
+      "message": "設定を開き、OneTab にすべての Web サイトへのアクセスを許可してください。"
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "message": "メモリ使用量を最大95%節約し、Google Chrome のタブの散らかりを解消"
+   },
+   "searchHere": {
+      "message": "ここを検索"
+   },
+   "searchOneTab": {
+      "message": "OneTab を検索"
+   },
+   "secondExampleLink": {
+      "message": "2つ目の例のリンク"
+   },
+   "secondExampleLinkTitle": {
+      "message": "2つ目の例のリンクタイトル"
+   },
+   "secondExampleLinkTitleOptional": {
+      "message": "2つ目の例のリンクタイトル（任意）"
+   },
+   "seeOtherTabsInThisGroup_few": {
+      "message": "このグループの他のタブ {COUNT} 個を表示"
+   },
+   "seeOtherTabsInThisGroup_many": {
+      "message": "このグループの他のタブ {COUNT} 個を表示"
+   },
+   "seeOtherTabsInThisGroup_one": {
+      "message": "このグループの他のタブ {COUNT} 個を表示"
+   },
+   "seeOtherTabsInThisGroup_other": {
+      "message": "このグループの他のタブ {COUNT} 個を表示"
+   },
+   "seeOtherTabsInThisGroup_two": {
+      "message": "このグループの他のタブ {COUNT} 個を表示"
+   },
+   "seeOtherTabsInThisGroup_zero": {
+      "message": "このグループの他のタブ {COUNT} 個を表示"
+   },
+   "seePasteInstructions": {
+      "message": "貼り付け手順を見る…"
+   },
+   "seeTabsInThisGroup_few": {
+      "message": "このグループのタブ {COUNT} 個を表示"
+   },
+   "seeTabsInThisGroup_many": {
+      "message": "このグループのタブ {COUNT} 個を表示"
+   },
+   "seeTabsInThisGroup_one": {
+      "message": "このグループのタブ {COUNT} 個を表示"
+   },
+   "seeTabsInThisGroup_other": {
+      "message": "このグループのタブ {COUNT} 個を表示"
+   },
+   "seeTabsInThisGroup_two": {
+      "message": "このグループのタブ {COUNT} 個を表示"
+   },
+   "seeTabsInThisGroup_zero": {
+      "message": "このグループのタブ {COUNT} 個を表示"
+   },
+   "selectAll": {
+      "message": "すべて選択"
+   },
+   "selectAllExceptThis": {
+      "message": "この項目以外をすべて選択"
+   },
+   "selectThisAndAbove": {
+      "message": "この項目と上のすべてを選択"
+   },
+   "selectThisAndBelow": {
+      "message": "この項目と下のすべてを選択"
+   },
+   "selectedItemCount_few": {
+      "message": "{COUNT} 件"
+   },
+   "selectedItemCount_many": {
+      "message": "{COUNT} 件"
+   },
+   "selectedItemCount_one": {
+      "message": "{COUNT} 件"
+   },
+   "selectedItemCount_other": {
+      "message": "{COUNT} 件"
+   },
+   "selectedItemCount_two": {
+      "message": "{COUNT} 件"
+   },
+   "selectedItemCount_zero": {
+      "message": "{COUNT} 件"
+   },
+   "selection": {
+      "message": "選択"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "message": "すべてのウィンドウのすべてのタブを OneTab に保存"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "message": "このタブ以外のすべてのタブを OneTab に保存"
+   },
+   "sendAllTabsInGroupToOneTab": {
+      "message": "このタブ グループのすべてのタブを OneTab に保存"
+   },
+   "sendAllTabsInWindowToOneTab": {
+      "message": "このウィンドウのすべてのタブを OneTab に保存"
+   },
+   "sendCurrentTabToOneTab": {
+      "message": "現在のタブを OneTab に保存"
+   },
+   "sendLeftTabsToOneTab": {
+      "message": "左側のタブを OneTab に保存"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "message": "このタブのみを OneTab に保存"
+   },
+   "sendRightTabsToOneTab": {
+      "message": "右側のタブを OneTab に保存"
+   },
+   "sendSelectedTabsToOneTab": {
+      "message": "選択したタブを OneTab に保存"
+   },
+   "sendThisWebLinkToOneTab": {
+      "message": "このリンクを OneTab に保存"
+   },
+   "serverUnreachable": {
+      "message": "サーバーに到達できません。インターネット接続を確認してください。"
+   },
+   "share": {
+      "message": "共有"
+   },
+   "shareAsAWebPage": {
+      "message": "ウェブページとして共有"
+   },
+   "shared": {
+      "message": "共有"
+   },
+   "sharedExpiresColon": {
+      "message": "ウェブページとして共有中。有効期限:"
+   },
+   "sharedPageOptions": {
+      "message": "共有ページのオプション"
+   },
+   "sharedPageTabLimit_few": {
+      "message": "共有ページではタブは最大 {COUNT} 個までです"
+   },
+   "sharedPageTabLimit_many": {
+      "message": "共有ページではタブは最大 {COUNT} 個までです"
+   },
+   "sharedPageTabLimit_one": {
+      "message": "共有ページではタブは最大 {COUNT} 個までです"
+   },
+   "sharedPageTabLimit_other": {
+      "message": "共有ページではタブは最大 {COUNT} 個までです"
+   },
+   "sharedPageTabLimit_two": {
+      "message": "共有ページではタブは最大 {COUNT} 個までです"
+   },
+   "sharedPageTabLimit_zero": {
+      "message": "共有ページではタブは最大 {COUNT} 個までです"
+   },
+   "sharedPageWillAutomaticallyExpire": {
+      "message": "共有ページは自動的に期限切れになりますが、いつでも有効期限を延長できます。"
+   },
+   "shiftDragShortcutInfo": {
+      "message": "タブをドロップするときに Shift キーを押し続けると、移動ではなくコピーを作成します。重要: Shift キーはドラッグを開始してから押してください。"
+   },
+   "showEverything": {
+      "message": "すべて表示"
+   },
+   "showFoldersOnly": {
+      "message": "フォルダのみ表示"
+   },
+   "showNamedItemsOnly": {
+      "message": "名前のある項目のみ表示"
+   },
+   "showNamedOnly": {
+      "message": "名前のある項目のみ表示"
+   },
+   "showNextCount_few": {
+      "message": "次の {COUNT} 件を表示"
+   },
+   "showNextCount_many": {
+      "message": "次の {COUNT} 件を表示"
+   },
+   "showNextCount_one": {
+      "message": "次の {COUNT} 件を表示"
+   },
+   "showNextCount_other": {
+      "message": "次の {COUNT} 件を表示"
+   },
+   "showNextCount_two": {
+      "message": "次の {COUNT} 件を表示"
+   },
+   "showNextCount_zero": {
+      "message": "次の {COUNT} 件を表示"
+   },
+   "showPreviousCount_few": {
+      "message": "前の {COUNT} 件を表示"
+   },
+   "showPreviousCount_many": {
+      "message": "前の {COUNT} 件を表示"
+   },
+   "showPreviousCount_one": {
+      "message": "前の {COUNT} 件を表示"
+   },
+   "showPreviousCount_other": {
+      "message": "前の {COUNT} 件を表示"
+   },
+   "showPreviousCount_two": {
+      "message": "前の {COUNT} 件を表示"
+   },
+   "showPreviousCount_zero": {
+      "message": "前の {COUNT} 件を表示"
+   },
+   "soon": {
+      "message": "まもなく"
+   },
+   "sort": {
+      "message": "並べ替え"
+   },
+   "sortByColon": {
+      "message": "並べ替え基準:"
+   },
+   "sortGroups": {
+      "message": "グループを並べ替え"
+   },
+   "sourceColon": {
+      "message": "エクスポート元:"
+   },
+   "starRatingTooltip": {
+      "message": "星評価を設定"
+   },
+   "storeSelectedTabsInONETAB_few": {
+      "message": "選択した {COUNT} 個のタブを ONETAB に保存"
+   },
+   "storeSelectedTabsInONETAB_many": {
+      "message": "選択した {COUNT} 個のタブを ONETAB に保存"
+   },
+   "storeSelectedTabsInONETAB_one": {
+      "message": "選択した {COUNT} 個のタブを ONETAB に保存"
+   },
+   "storeSelectedTabsInONETAB_other": {
+      "message": "選択した {COUNT} 個のタブを ONETAB に保存"
+   },
+   "storeSelectedTabsInONETAB_two": {
+      "message": "選択した {COUNT} 個のタブを ONETAB に保存"
+   },
+   "storeSelectedTabsInONETAB_zero": {
+      "message": "選択した {COUNT} 個のタブを ONETAB に保存"
+   },
+   "storeTabInAdditionalLocation": {
+      "message": "タブを追加の場所に保存"
+   },
+   "storeTabInONETAB": {
+      "message": "タブを ONETAB に保存"
+   },
+   "storeTabsInAdditionalLocation": {
+      "message": "タブを追加の場所に保存"
+   },
+   "storeTabsInONETAB": {
+      "message": "タブを ONETAB に保存"
+   },
+   "subFoldersNotShared": {
+      "message": "サブフォルダは共有されません。共有されるのは、そのフォルダ直下のタブのグループのみです。"
+   },
+   "tab": {
+      "message": "タブ"
+   },
+   "tabAlreadyStoredHere": {
+      "message": "開いているタブはすでにここに保存されています:"
+   },
+   "tabCaretTooltipTitleNotes": {
+      "message": "タブのタイトルとメモを編集"
+   },
+   "tabCaretTooltipTitleNotesUrl": {
+      "message": "タブのタイトル、URL、メモを編集"
+   },
+   "tabCount_few": {
+      "message": "{COUNT} 個のタブ"
+   },
+   "tabCount_many": {
+      "message": "{COUNT} 個のタブ"
+   },
+   "tabCount_one": {
+      "message": "{COUNT} 個のタブ"
+   },
+   "tabCount_other": {
+      "message": "{COUNT} 個のタブ"
+   },
+   "tabCount_two": {
+      "message": "{COUNT} 個のタブ"
+   },
+   "tabCount_zero": {
+      "message": "{COUNT} 個のタブ"
+   },
+   "tabGroupColorColon": {
+      "message": "タブ グループの色:"
+   },
+   "tabShortcutInfo": {
+      "message": "OneTab ページ内では、Tab キーで中央のカラム内のグループ間を移動できます。特に大きなグループがあっても、すばやく飛ばせます。グループにフォーカスがあるときは、Enter キーで開きます。Shift+Tab で逆方向に移動します。"
+   },
+   "tabTotalCount_few": {
+      "message": "合計: {COUNT} 個のタブ"
+   },
+   "tabTotalCount_many": {
+      "message": "合計: {COUNT} 個のタブ"
+   },
+   "tabTotalCount_one": {
+      "message": "合計: {COUNT} 個のタブ"
+   },
+   "tabTotalCount_other": {
+      "message": "合計: {COUNT} 個のタブ"
+   },
+   "tabTotalCount_two": {
+      "message": "合計: {COUNT} 個のタブ"
+   },
+   "tabTotalCount_zero": {
+      "message": "合計: {COUNT} 個のタブ"
+   },
+   "tabs": {
+      "message": "タブ"
+   },
+   "tabsFromExcludedDomains": {
+      "message": "除外ドメインのタブ"
+   },
+   "tabsInTabGroups": {
+      "message": "タブ グループ内のタブ"
+   },
+   "taskTotalCount_few": {
+      "message": "合計 {COUNT}"
+   },
+   "taskTotalCount_many": {
+      "message": "合計 {COUNT}"
+   },
+   "taskTotalCount_one": {
+      "message": "合計 {COUNT}"
+   },
+   "taskTotalCount_other": {
+      "message": "合計 {COUNT}"
+   },
+   "taskTotalCount_two": {
+      "message": "合計 {COUNT}"
+   },
+   "taskTotalCount_zero": {
+      "message": "合計 {COUNT}"
+   },
+   "tasks": {
+      "message": "タスク"
+   },
+   "tasksDone": {
+      "message": "タスク（完了）"
+   },
+   "tasksPending": {
+      "message": "タスク（保留）"
+   },
+   "tasksWillAppearHere": {
+      "message": "タブやグループをタスクに指定すると、ここに表示されます。"
+   },
+   "thenClickToolbarIcon": {
+      "message": "その後、ツールバーの OneTab アイコンをもう一度クリックして OneTab を使用してください。"
+   },
+   "thisFolderIsEmpty": {
+      "message": "このフォルダは空です"
+   },
+   "thisTab": {
+      "message": "このタブ"
+   },
+   "thisTabGroup": {
+      "message": "このタブ グループ"
+   },
+   "thisTabNotStored": {
+      "message": "このタブは OneTab に保存されていません"
+   },
+   "thisWindow": {
+      "message": "このウィンドウ"
+   },
+   "tickOrUntickToExclude": {
+      "message": "チェックのオン/オフで、そのウェブサイトを除外に設定します"
+   },
+   "title": {
+      "message": "タイトル"
+   },
+   "toAddOrRemoveExclusions": {
+      "message": "除外リストにウェブサイトを追加または除外リストから削除するには:"
+   },
+   "toAllowOneTabInIncognito": {
+      "message": "シークレット ウィンドウで OneTab アイコンを表示するには: "
+   },
+   "toImportBrowserBookmarksUseMenuOption": {
+      "message": "ブラウザのブックマークからインポートするには、OneTab ページの「ここにリンクをインポート」メニューを使用してください"
+   },
+   "toMakeOpenButtonWorkApprovePermission": {
+      "message": "共有ページの「開く」ボタンを機能させるには、権限リクエストを承認してください。"
+   },
+   "toSaveChangesClickButton": {
+      "message": "変更を保存するには、ボタンをクリックしてください"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "message": "タブが多すぎますか？ タブをリストにまとめて Firefox を高速化"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "message": "タブが多すぎますか？ タブをリストにまとめて Safari を高速化"
+   },
+   "total0Tabs": {
+      "message": "合計: 0 個のタブ"
+   },
+   "trash": {
+      "message": "ゴミ箱"
+   },
+   "unMarkAsTask": {
+      "message": "タスク指定を解除"
+   },
+   "unPin": {
+      "message": "固定を解除"
+   },
+   "unlock": {
+      "message": "ロックを解除"
+   },
+   "unmarkAsArchived": {
+      "message": "アーカイブを解除"
+   },
+   "unshare": {
+      "message": "共有を停止"
+   },
+   "untitled": {
+      "message": "名称未設定"
+   },
+   "update": {
+      "message": "更新"
+   },
+   "userLanguage": {
+      "message": "日本語"
+   },
+   "website": {
+      "message": "ウェブサイト"
+   },
+   "yearCount_few": {
+      "message": "{COUNT} 年"
+   },
+   "yearCount_many": {
+      "message": "{COUNT} 年"
+   },
+   "yearCount_one": {
+      "message": "{COUNT} 年"
+   },
+   "yearCount_other": {
+      "message": "{COUNT} 年"
+   },
+   "yearCount_two": {
+      "message": "{COUNT} 年"
+   },
+   "yearCount_zero": {
+      "message": "{COUNT} 年"
+   },
+   "yourTabAlreadyStoredHere": {
+      "message": "タブはすでにここに保存されています:"
+   }
+}

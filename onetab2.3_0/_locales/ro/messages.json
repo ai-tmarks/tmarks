@@ -1,0 +1,1715 @@
+{
+   "95PctMemoryReduction": {
+      "message": "Reducere a memoriei cu 95%"
+   },
+   "Folder": {
+      "message": "Folder"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "message": "OneTab este disponibil și pentru Firefox"
+   },
+   "aDashZ": {
+      "message": "A-Z"
+   },
+   "about": {
+      "message": "Despre"
+   },
+   "addOneTabNow": {
+      "message": "Adaugă OneTab acum"
+   },
+   "all": {
+      "message": "Toate"
+   },
+   "allBookmarks": {
+      "message": "Toate semnele de carte"
+   },
+   "allOpenTabsAlreadyStoredHere": {
+      "message": "Toate filele deschise sunt deja salvate aici:"
+   },
+   "allowFileAccessInstructions": {
+      "message": "Pentru a permite deschiderea directă a fișierelor, accesați Setări ➝ Extensii ➝ OneTab ➝ Detalii ➝ Permite accesul la adrese URL ale fișierelor"
+   },
+   "alreadyExistingOpenTabsWillBeClosedAfterMerge": {
+      "message": "Toate filele deschise care există deja în acest grup vor fi închise după combinare."
+   },
+   "alternatePlainTextFormat": {
+      "message": "Alternativ, textul simplu poate avea formatul:"
+   },
+   "approve": {
+      "message": "Aprobă"
+   },
+   "archived": {
+      "message": "Arhivate"
+   },
+   "autoTheme": {
+      "message": "Automat (folosește setarea sistemului de operare)"
+   },
+   "backupAndSync": {
+      "message": "Backup și sincronizare"
+   },
+   "betaReleaseReportBugsHere": {
+      "message": "Beta – Raportați problemele aici"
+   },
+   "bookmarkCount_few": {
+      "message": "{COUNT} semne de carte"
+   },
+   "bookmarkCount_many": {
+      "message": "{COUNT} semne de carte"
+   },
+   "bookmarkCount_one": {
+      "message": "{COUNT} semn de carte"
+   },
+   "bookmarkCount_other": {
+      "message": "{COUNT} semne de carte"
+   },
+   "bookmarkCount_two": {
+      "message": "{COUNT} semne de carte"
+   },
+   "bookmarkCount_zero": {
+      "message": "{COUNT} semne de carte"
+   },
+   "bookmarksPermissionNecesssary": {
+      "message": "Permisiunea pentru semnele de carte este necesară pentru ca OneTab să importe semnele de carte ale browserului"
+   },
+   "bulkActions": {
+      "message": "Acțiuni în masă"
+   },
+   "canDragTextNote": {
+      "message": "Notă: Puteți, de asemenea, să trageți și să plasați text care conține linkuri web direct dintr-o altă pagină web sau dintr-un document. Puteți trage textul direct în pagina OneTab, fără a folosi această casetă de import."
+   },
+   "canPasteWebContentForExample": {
+      "message": "Puteți lipi text copiat dintr-o pagină web sau dintr-un document, iar linkurile vor fi extrase automat. De exemplu:"
+   },
+   "cancel": {
+      "message": "Anulează"
+   },
+   "cannotConnectToServerDeletionRequestQueued": {
+      "message": "Nu se poate conecta la serverul OneTab. Verificați conexiunea la internet. Cererea de ștergere a paginii partajate a fost pusă în coadă local și va fi transmisă automat către serverul OneTab de îndată ce acesta devine din nou accesibil."
+   },
+   "cannotCreateTabGroupInTabGroup": {
+      "message": "Destinația aleasă este un grup de file. Nu puteți crea un grup de file în interiorul unui grup de file existent. Alegeți o altă destinație."
+   },
+   "cannotMixTabsGroupsFoldersDuringDrag": {
+      "message": "Nu este posibil să amestecați file, grupuri și foldere când le trageți. Aceasta deoarece, de exemplu, nu puteți trage un folder în aceleași locuri în care puteți trage o filă."
+   },
+   "caseSensitive": {
+      "message": "Sensibil la majuscule"
+   },
+   "changesMadeSinceSharedPageCreation": {
+      "message": "Au fost făcute modificări de când ați creat pagina partajată. Faceți clic pe butonul 'Actualizează' pentru a actualiza pagina partajată existentă."
+   },
+   "checkboxesDeterminePinnedAndGroupedTabMergeInclusion": {
+      "message": "Bifele din partea de sus a acestei pagini stabilesc dacă filele fixate sau cele din grupuri de file sunt incluse în combinare."
+   },
+   "chooseALocation": {
+      "message": "Alege o locație"
+   },
+   "chooseALocationToImportTo": {
+      "message": "Alege o locație în care să imporți"
+   },
+   "chooseExportLocation": {
+      "message": "Alege o locație din care să exporți"
+   },
+   "chooseLightDarkTheme": {
+      "message": "Alege tema deschisă/închisă"
+   },
+   "chooseLocationToCopyTo": {
+      "message": "Alege o locație în care să copiezi"
+   },
+   "chooseLocationToMoveTo": {
+      "message": "Alege o locație în care să muți"
+   },
+   "chooseLocationToRestoreTo": {
+      "message": "Alege o locație în care să restaurezi"
+   },
+   "chooseToIncludeNotes": {
+      "message": "Dacă ați adăugat notițe la file sau grupuri, alegeți dacă să le includeți în pagina partajată"
+   },
+   "chooseToIncludeRatings": {
+      "message": "Dacă ați adăugat evaluări cu stele la file sau grupuri, alegeți dacă să le includeți în pagina partajată"
+   },
+   "chromeIncognitoInstructions": {
+      "message": "În setările browserului, accesați „Setări” → „Extensii” → „OneTab” → „Detalii”, apoi activați „Permite în modul incognito”."
+   },
+   "clickButtonToAllowTabAccess": {
+      "message": "Faceți clic pe butonul de mai jos pentru a permite lui OneTab să acceseze filele dvs. deschise."
+   },
+   "clickHereToContinue": {
+      "message": "Faceți clic aici pentru a continua."
+   },
+   "clickOneTabIconToStoreTabsHere": {
+      "message": "Faceți clic pe pictograma OneTab din bara de instrumente a browserului pentru a stoca filele deschise aici."
+   },
+   "closeSelectedTabsAndStoreInONETAB_few": {
+      "message": "Închide {COUNT} file selectate și salvează în ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_many": {
+      "message": "Închide {COUNT} file selectate și salvează în ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_one": {
+      "message": "Închide {COUNT} filă selectată și salvează în ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_other": {
+      "message": "Închide {COUNT} file selectate și salvează în ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_two": {
+      "message": "Închide {COUNT} file selectate și salvează în ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_zero": {
+      "message": "Închide {COUNT} file selectate și salvează în ONETAB"
+   },
+   "closeSelectedTabs_few": {
+      "message": "Închide {COUNT} file selectate"
+   },
+   "closeSelectedTabs_many": {
+      "message": "Închide {COUNT} file selectate"
+   },
+   "closeSelectedTabs_one": {
+      "message": "Închide {COUNT} filă selectată"
+   },
+   "closeSelectedTabs_other": {
+      "message": "Închide {COUNT} file selectate"
+   },
+   "closeSelectedTabs_two": {
+      "message": "Închide {COUNT} file selectate"
+   },
+   "closeSelectedTabs_zero": {
+      "message": "Închide {COUNT} file selectate"
+   },
+   "closeTab": {
+      "message": "Închide fila"
+   },
+   "closeTabAndStore": {
+      "message": "Închide fila și salvează în ONETAB"
+   },
+   "closeTabs": {
+      "message": "Închide filele"
+   },
+   "closeTabsAfterMerge": {
+      "message": "Închide filele după combinare"
+   },
+   "closeTabsAlreadyStoredInOneTab_few": {
+      "message": "Închide {COUNT} file deja salvate în OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_many": {
+      "message": "Închide {COUNT} file deja salvate în OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_one": {
+      "message": "Închide {COUNT} filă deja salvată în OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_other": {
+      "message": "Închide {COUNT} file deja salvate în OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_two": {
+      "message": "Închide {COUNT} file deja salvate în OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_zero": {
+      "message": "Închide {COUNT} file deja salvate în OneTab"
+   },
+   "closeTabsAndStore": {
+      "message": "Închide filele și salvează în ONETAB"
+   },
+   "closeTheseDuplicates": {
+      "message": "Închide aceste duplicate"
+   },
+   "closeThisDuplicate": {
+      "message": "Închide acest duplicat"
+   },
+   "completeEditingShortcutInfo": {
+      "message": "Când editați un câmp de notițe, folosiți această comandă rapidă pentru a încheia editarea."
+   },
+   "configureShortcuts": {
+      "message": "Configurează comenzile rapide"
+   },
+   "conflictingShortcutsHint": {
+      "message": "Dacă unele dintre comenzile rapide de mai sus nu funcționează sau intră în conflict cu alte aplicații, puteți configura o altă combinație."
+   },
+   "continue": {
+      "message": "Continuă"
+   },
+   "convertTabsIntoAList": {
+      "message": "Transformă filele într-o listă"
+   },
+   "copiedToClipboard": {
+      "message": "Copiat în clipboard"
+   },
+   "copy": {
+      "message": "Copiază"
+   },
+   "copyLinksToClipboard": {
+      "message": "Copiază linkurile în clipboard"
+   },
+   "copySharedPageUrl": {
+      "message": "Copiază URL-ul paginii partajate"
+   },
+   "copyToClipboard": {
+      "message": "Copiază în clipboard"
+   },
+   "createANewGroupHere": {
+      "message": "Creează aici un grup nou"
+   },
+   "createFolderAbove": {
+      "message": "Creează folder deasupra"
+   },
+   "createFolderAboveBelow": {
+      "message": "Creează folder deasupra / dedesubt"
+   },
+   "createFolderAboveWithinBelow": {
+      "message": "Creează folder deasupra / în interior / dedesubt"
+   },
+   "createFolderBelow": {
+      "message": "Creează folder dedesubt"
+   },
+   "createFolderWithin": {
+      "message": "Creează folder în interior"
+   },
+   "createGroupAbove": {
+      "message": "Creează grup deasupra"
+   },
+   "createGroupAboveBelow": {
+      "message": "Creează grup deasupra / dedesubt"
+   },
+   "createGroupAboveWithinBelow": {
+      "message": "Creează grup deasupra / în interior / dedesubt"
+   },
+   "createGroupBelow": {
+      "message": "Creează grup dedesubt"
+   },
+   "createGroupInsideDestination": {
+      "message": "Creează un grup nou în destinație"
+   },
+   "createGroupInsideDestinationHelp": {
+      "message": "Dacă nu este bifată, filele dvs. vor fi adăugate direct în grupul de destinație. Dacă este bifată, se va crea un nou grup de file al browserului pentru filele dvs. în cadrul grupului de destinație. Bifați această opțiune doar dacă doriți să folosiți funcția „grupuri de file” a browserului."
+   },
+   "createGroupWithin": {
+      "message": "Creează grup în interior"
+   },
+   "createNewGroupTip": {
+      "message": "Pentru a crea un grup nou, debifați „Afișează doar folderele”"
+   },
+   "createdOnOrAfterColon": {
+      "message": "Creat la sau după:"
+   },
+   "createdOnOrBeforeColon": {
+      "message": "Creat la sau înainte de:"
+   },
+   "createdPreceedingDate": {
+      "message": "Creat"
+   },
+   "darkTheme": {
+      "message": "Temă închisă"
+   },
+   "dayCount_few": {
+      "message": "{COUNT} zile"
+   },
+   "dayCount_many": {
+      "message": "{COUNT} zile"
+   },
+   "dayCount_one": {
+      "message": "{COUNT} zi"
+   },
+   "dayCount_other": {
+      "message": "{COUNT} zile"
+   },
+   "dayCount_two": {
+      "message": "{COUNT} zile"
+   },
+   "dayCount_zero": {
+      "message": "{COUNT} zile"
+   },
+   "delete": {
+      "message": "Șterge"
+   },
+   "deleteAllTrash": {
+      "message": "Golește coșul"
+   },
+   "deleteThisCopy": {
+      "message": "Șterge această copie"
+   },
+   "deselectAll": {
+      "message": "Deselectează tot"
+   },
+   "destinationColon": {
+      "message": "Destinație:"
+   },
+   "disabled": {
+      "message": "Dezactivat"
+   },
+   "doneTaskCount_few": {
+      "message": "{COUNT} finalizate"
+   },
+   "doneTaskCount_many": {
+      "message": "{COUNT} finalizate"
+   },
+   "doneTaskCount_one": {
+      "message": "{COUNT} finalizată"
+   },
+   "doneTaskCount_other": {
+      "message": "{COUNT} finalizate"
+   },
+   "doneTaskCount_two": {
+      "message": "{COUNT} finalizate"
+   },
+   "doneTaskCount_zero": {
+      "message": "{COUNT} finalizate"
+   },
+   "dontCloseGroupedTabs": {
+      "message": "Nu închide nicio filă din grupuri de file"
+   },
+   "dontClosePinnedTabs": {
+      "message": "Nu închide nicio filă fixată"
+   },
+   "dontCloseTabsFromDomains": {
+      "message": "Nu închide nicio filă de pe EXAMPLE.COM"
+   },
+   "dragTabsHereForQuickList": {
+      "message": "Trageți aici filele sau grupurile salvate. Vor fi adăugate la lista rapidă."
+   },
+   "editTabGroupTitleAndNotes": {
+      "message": "Editează titlul și notițele grupului de file"
+   },
+   "emojiShortcutInfo": {
+      "message": "Când editați un câmp de notițe, folosiți această comandă rapidă pentru a deschide selectorul de emoji."
+   },
+   "emptyInBrackets": {
+      "message": "(gol)"
+   },
+   "emptyOneTabInfoMsg": {
+      "message": "Când ai mai multe file deschise, fă clic pe pictograma OneTab din bara de instrumente a browserului, iar filele deschise vor apărea aici."
+   },
+   "enabled": {
+      "message": "Activat"
+   },
+   "encryptedSyncAndBackup": {
+      "message": "Sincronizare și backup criptate"
+   },
+   "encryptedSyncAndBackupComingSoonMessage": {
+      "message": "În curând: Veți putea sincroniza datele OneTab între mai multe profiluri de browser și computere.\nOneTab a fost rescris complet astfel încât modificările efectuate pe un dispozitiv să apară instant pe toate celelalte dispozitive.\nDacă folosiți această funcție, datele dvs. vor fi criptate end-to-end cu criptare AES-256 de înaltă rezistență. Astfel, dezvoltatorii OneTab nu pot vedea filele pe care le-ați salvat sau sincronizat între dispozitive, deoarece doar dvs. aveți cheia de criptare."
+   },
+   "everything": {
+      "message": "Tot"
+   },
+   "exampleLink": {
+      "message": "Link exemplu"
+   },
+   "exampleLinkTitle": {
+      "message": "Titlu link exemplu"
+   },
+   "exampleLinkTitleOptional": {
+      "message": "Titlu link exemplu (opțional)"
+   },
+   "exampleRichTextParagraph": {
+      "message": "Exemplu de paragraf de text cu PLACEHOLDER și PLACEHOLDER"
+   },
+   "exampleWebsitePageTitle": {
+      "message": "Titlul paginii unui site exemplu"
+   },
+   "excludeDomainFromOneTab": {
+      "message": "Exclude EXAMPLE.COM din OneTab"
+   },
+   "excludeWebSiteFromOneTab": {
+      "message": "Exclude acest site web din OneTab"
+   },
+   "expiresColon": {
+      "message": "Expiră:"
+   },
+   "export": {
+      "message": "Exportă"
+   },
+   "exportImportUrls": {
+      "message": "Exportă / Importă URL-uri"
+   },
+   "exportThenImportNote": {
+      "message": "Lista următoare de URL-uri poate fi importată înapoi în OneTab pe acest computer sau pe altul"
+   },
+   "exportUrls": {
+      "message": "Exportă URL-uri"
+   },
+   "feedback": {
+      "message": "Feedback"
+   },
+   "filter": {
+      "message": "Filtru"
+   },
+   "firefoxIncognitoInstructions": {
+      "message": "În setările browserului, accesați „Setări” → „Suplimente și teme” → „Extensii” → „OneTab” → „...” → „Gestionare”, apoi activați „Rulează în ferestre private”."
+   },
+   "firefoxShortcutConfigInstructions": {
+      "message": "Introduceți URL-ul \"about:addons?type=extension\" în bara de adrese a browserului. Când apare pagina, faceți clic pe pictograma roată dințată, apoi alegeți „Gestionează scurtăturile extensiilor”"
+   },
+   "folderCount_few": {
+      "message": "{COUNT} foldere"
+   },
+   "folderCount_many": {
+      "message": "{COUNT} foldere"
+   },
+   "folderCount_one": {
+      "message": "{COUNT} folder"
+   },
+   "folderCount_other": {
+      "message": "{COUNT} foldere"
+   },
+   "folderCount_two": {
+      "message": "{COUNT} foldere"
+   },
+   "folderCount_zero": {
+      "message": "{COUNT} foldere"
+   },
+   "folders": {
+      "message": "Foldere"
+   },
+   "foldersOnly": {
+      "message": "Doar foldere"
+   },
+   "gettingStarted": {
+      "message": "Noțiuni de bază"
+   },
+   "goToParentFolder": {
+      "message": "Mergi la folderul părinte"
+   },
+   "groupCount_few": {
+      "message": "{COUNT} grupuri"
+   },
+   "groupCount_many": {
+      "message": "{COUNT} grupuri"
+   },
+   "groupCount_one": {
+      "message": "{COUNT} grup"
+   },
+   "groupCount_other": {
+      "message": "{COUNT} grupuri"
+   },
+   "groupCount_two": {
+      "message": "{COUNT} grupuri"
+   },
+   "groupCount_zero": {
+      "message": "{COUNT} grupuri"
+   },
+   "groups": {
+      "message": "Grupuri"
+   },
+   "hasNotes": {
+      "message": "Are notițe"
+   },
+   "hasRating": {
+      "message": "Are evaluare"
+   },
+   "help": {
+      "message": "Ajutor"
+   },
+   "hideArchivedItems": {
+      "message": "Ascunde elementele arhivate"
+   },
+   "import": {
+      "message": "Importă"
+   },
+   "importAndExport": {
+      "message": "Importă și exportă"
+   },
+   "importBookmarks": {
+      "message": "Importă semne de carte"
+   },
+   "importFolderAndSubfolders": {
+      "message": "Importă folderul și subfolderele"
+   },
+   "importLinksHere": {
+      "message": "Importă linkuri aici"
+   },
+   "importReadingList": {
+      "message": "Importă lista de lectură"
+   },
+   "importText": {
+      "message": "Importă text"
+   },
+   "importUrls": {
+      "message": "Importă URL-uri"
+   },
+   "importedBookmarks": {
+      "message": "Semne de carte importate"
+   },
+   "includeGroupedTabs": {
+      "message": "Include filele din grupuri de file"
+   },
+   "includeNotes": {
+      "message": "Include notițele"
+   },
+   "includePinnedTabs": {
+      "message": "Include filele fixate"
+   },
+   "includeStarRatings": {
+      "message": "Include evaluările cu stele"
+   },
+   "includeTabsAlreadyStored": {
+      "message": "Include filele pe care le-ați salvat deja"
+   },
+   "includeTabsFromDomains": {
+      "message": "Include filele de pe EXAMPLE.COM"
+   },
+   "incogitoPermissionRequired": {
+      "message": "OneTab are nevoie de permisiunea de a crea ferestre incognito."
+   },
+   "incognitoWindows": {
+      "message": "Ferestre incognito"
+   },
+   "invertSelection": {
+      "message": "Inversează selecția"
+   },
+   "justNow": {
+      "message": "chiar acum"
+   },
+   "keyboardShortcutsColon": {
+      "message": "Comenzi rapide de la tastatură:"
+   },
+   "languageTitle": {
+      "message": "Limbă:"
+   },
+   "lightTheme": {
+      "message": "Temă deschisă"
+   },
+   "localeId": {
+      "message": "ro"
+   },
+   "locationColon": {
+      "message": "Locație:"
+   },
+   "lock": {
+      "message": "Blochează"
+   },
+   "lockMenuItemHelp": {
+      "message": "Când un grup este blocat, nu puteți șterge sau reordona elementele din grup. La deschiderea unui grup blocat, acțiunile automate nu se aplică. Consultați pagina Opțiuni pentru informații despre acțiunile automate."
+   },
+   "lockedGroupUnlockHelp": {
+      "message": "Pentru deblocare, folosiți meniul derulant. Când un grup este blocat, nu puteți șterge grupul sau filele sale și filele nu pot fi reordonate."
+   },
+   "makeThisATask": {
+      "message": "Transformă într-o sarcină"
+   },
+   "manifestDescription": {
+      "message": "Economisește până la 95% din memorie și redu aglomerația de file"
+   },
+   "markAsArchived": {
+      "message": "Marchează drept arhivat"
+   },
+   "markAsArchivedMenuItemHelp": {
+      "message": "Rețineți că sarcinile arhivate și sarcinile din grupurile arhivate nu vor apărea în coloana de sarcini"
+   },
+   "markAsDoneTask": {
+      "message": "Marchează drept sarcină finalizată"
+   },
+   "markAsPendingTask": {
+      "message": "Marchează drept sarcină în așteptare"
+   },
+   "matchCount_few": {
+      "message": "{COUNT} potriviri"
+   },
+   "matchCount_many": {
+      "message": "{COUNT} potriviri"
+   },
+   "matchCount_one": {
+      "message": "{COUNT} potrivire"
+   },
+   "matchCount_other": {
+      "message": "{COUNT} potriviri"
+   },
+   "matchCount_two": {
+      "message": "{COUNT} potriviri"
+   },
+   "matchCount_zero": {
+      "message": "{COUNT} potriviri"
+   },
+   "matchWholeWordsOnly": {
+      "message": "Potrivește doar cuvinte întregi"
+   },
+   "mayNeedToRestartBrowser": {
+      "message": "Este posibil să fie nevoie să vă actualizați și să reporniți browserul."
+   },
+   "mergeIntoParent": {
+      "message": "Combină în elementul părinte"
+   },
+   "mergeOpenTabsHere_few": {
+      "message": "Combină {COUNT} file deschise aici"
+   },
+   "mergeOpenTabsHere_many": {
+      "message": "Combină {COUNT} file deschise aici"
+   },
+   "mergeOpenTabsHere_one": {
+      "message": "Combină {COUNT} filă deschisă aici"
+   },
+   "mergeOpenTabsHere_other": {
+      "message": "Combină {COUNT} file deschise aici"
+   },
+   "mergeOpenTabsHere_two": {
+      "message": "Combină {COUNT} file deschise aici"
+   },
+   "mergeOpenTabsHere_zero": {
+      "message": "Combină {COUNT} file deschise aici"
+   },
+   "mergeSelectedTabsHere_few": {
+      "message": "Combină {COUNT} file selectate aici"
+   },
+   "mergeSelectedTabsHere_many": {
+      "message": "Combină {COUNT} file selectate aici"
+   },
+   "mergeSelectedTabsHere_one": {
+      "message": "Combină {COUNT} filă selectată aici"
+   },
+   "mergeSelectedTabsHere_other": {
+      "message": "Combină {COUNT} file selectate aici"
+   },
+   "mergeSelectedTabsHere_two": {
+      "message": "Combină {COUNT} file selectate aici"
+   },
+   "mergeSelectedTabsHere_zero": {
+      "message": "Combină {COUNT} file selectate aici"
+   },
+   "mergeWithInnerGroups": {
+      "message": "Combină cu grupurile interne"
+   },
+   "modifySharing": {
+      "message": "Modifică partajarea"
+   },
+   "moreEllipsis": {
+      "message": "Mai multe…"
+   },
+   "moreSearchFilters": {
+      "message": "Mai multe filtre de căutare"
+   },
+   "moreTripleDot": {
+      "message": "Mai multe…"
+   },
+   "move": {
+      "message": "Mută"
+   },
+   "moveToTrash": {
+      "message": "Mută în coș"
+   },
+   "namedOnly": {
+      "message": "Doar elemente denumite"
+   },
+   "navigationFilter": {
+      "message": "Filtru de navigare"
+   },
+   "newExclamation": {
+      "message": "Nou!"
+   },
+   "noDupsExistExceptForColon": {
+      "message": "Nu există duplicate, cu excepția:"
+   },
+   "noDupsFoundHere": {
+      "message": "Nu s-au găsit duplicate aici"
+   },
+   "noMatches": {
+      "message": "Nicio potrivire"
+   },
+   "noMatchesFound": {
+      "message": "Nu s-au găsit potriviri"
+   },
+   "noOpenTabsToStore": {
+      "message": "Nu există file deschise în această fereastră pe care să le salvați."
+   },
+   "noReadingListEntries": {
+      "message": "Nu s-au găsit intrări în lista de lectură"
+   },
+   "noTabsInOneTabYet": {
+      "message": "Încă nu aveți nicio filă în OneTab"
+   },
+   "noTabsMeetCriteriaUseCheckboxes": {
+      "message": "Nicio filă deschisă nu corespunde criteriilor. Folosiți căsuțele de bifare de mai sus."
+   },
+   "noTextHasBeenEntered": {
+      "message": "Nu a fost introdus niciun text"
+   },
+   "nonArchived": {
+      "message": "Nearhivate"
+   },
+   "notAssigned": {
+      "message": "Neatribuit"
+   },
+   "notes": {
+      "message": "Notițe"
+   },
+   "notesAboutTheLinkOptional": {
+      "message": "Notițe despre link (opțional)"
+   },
+   "notesAboutTheSecondLinkOptional": {
+      "message": "Notițe despre al doilea link (opțional)"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "omniboxShortcutInfo": {
+      "message": "Pentru a căuta lista OneTab din orice filă: mergeți la bara de adrese a browserului, tastați 1, apoi spațiu, apoi un cuvânt cheie de căutare."
+   },
+   "oneTabDesignedToProtectPrivacy": {
+      "message": "OneTab a fost conceput pentru a vă proteja confidențialitatea. Filele dvs. nu ne sunt dezvăluite."
+   },
+   "oneTabImportExportPageTitle": {
+      "message": "OneTab - import/export"
+   },
+   "oneTabNeedsPermissionToAccessYourTabs": {
+      "message": "OneTab are nevoie de permisiunea de a accesa filele dvs."
+   },
+   "oneTabOptionsPageTitle": {
+      "message": "Opțiuni OneTab"
+   },
+   "oneTabPermissionRequired": {
+      "message": "OneTab - Este necesară permisiunea"
+   },
+   "oneTabRestartRequired": {
+      "message": "Este necesară repornirea OneTab."
+   },
+   "oneTabSlashShortcutInfo": {
+      "message": "Când vă aflați pe pagina OneTab, apăsați tasta / pentru a focaliza caseta de căutare."
+   },
+   "open": {
+      "message": "Deschide"
+   },
+   "openActionPopup": {
+      "message": "Deschide fereastra pop-up a acțiunii"
+   },
+   "openAsCollapsedTabGroup": {
+      "message": "Deschide ca grup de file „restrâns”"
+   },
+   "openAsCollapsedTabGroupMenuItemHelp": {
+      "message": "Dacă deschideți aceste file ca un grup de file „restrâns”, va fi afișată doar eticheta grupului până când faceți clic pe ea pentru a afișa filele din interior."
+   },
+   "openAsTabGroup": {
+      "message": "Deschide ca grup de file al browserului"
+   },
+   "openAsTabGroupMenuItemHelp": {
+      "message": "Browserul permite gruparea filelor în „grupuri de file” colorate într-o fereastră."
+   },
+   "openGroupsLimitNotice_few": {
+      "message": "Pentru a preveni suprasolicitarea browserului, se vor deschide doar primele {COUNT} grupuri."
+   },
+   "openGroupsLimitNotice_many": {
+      "message": "Pentru a preveni suprasolicitarea browserului, se vor deschide doar primele {COUNT} grupuri."
+   },
+   "openGroupsLimitNotice_one": {
+      "message": "Pentru a preveni suprasolicitarea browserului, se va deschide doar primul grup ({COUNT})."
+   },
+   "openGroupsLimitNotice_other": {
+      "message": "Pentru a preveni suprasolicitarea browserului, se vor deschide doar primele {COUNT} grupuri."
+   },
+   "openGroupsLimitNotice_two": {
+      "message": "Pentru a preveni suprasolicitarea browserului, se vor deschide doar primele {COUNT} grupuri."
+   },
+   "openGroupsLimitNotice_zero": {
+      "message": "Pentru a preveni suprasolicitarea browserului, se vor deschide doar primele {COUNT} grupuri."
+   },
+   "openInIncognitoWindow": {
+      "message": "Deschide într-o fereastră incognito nouă"
+   },
+   "openInNewWindow": {
+      "message": "Deschide într-o fereastră nouă"
+   },
+   "openInThisWindow": {
+      "message": "Deschide în această fereastră"
+   },
+   "openONETABLogo": {
+      "message": "Deschide ONETAB"
+   },
+   "openOneTab": {
+      "message": "Deschide OneTab"
+   },
+   "openOneTabAfter": {
+      "message": "Deschide OneTab după salvarea filelor"
+   },
+   "openTabFromWebsite": {
+      "message": "Deschide o filă și accesează site-ul web"
+   },
+   "openTabLimit_few": {
+      "message": "Pentru a preveni suprasolicitarea browserului, se pot deschide simultan maximum {COUNT} file."
+   },
+   "openTabLimit_many": {
+      "message": "Pentru a preveni suprasolicitarea browserului, se pot deschide simultan maximum {COUNT} file."
+   },
+   "openTabLimit_one": {
+      "message": "Pentru a preveni suprasolicitarea browserului, se poate deschide simultan maximum {COUNT} filă."
+   },
+   "openTabLimit_other": {
+      "message": "Pentru a preveni suprasolicitarea browserului, se pot deschide simultan maximum {COUNT} file."
+   },
+   "openTabLimit_two": {
+      "message": "Pentru a preveni suprasolicitarea browserului, se pot deschide simultan maximum {COUNT} file."
+   },
+   "openTabLimit_zero": {
+      "message": "Pentru a preveni suprasolicitarea browserului, se pot deschide simultan maximum {COUNT} file."
+   },
+   "openTabsAlreadyStoredHere_few": {
+      "message": "{COUNT} file deschise deja salvate aici:"
+   },
+   "openTabsAlreadyStoredHere_many": {
+      "message": "{COUNT} file deschise deja salvate aici:"
+   },
+   "openTabsAlreadyStoredHere_one": {
+      "message": "{COUNT} filă deschisă deja salvată aici:"
+   },
+   "openTabsAlreadyStoredHere_other": {
+      "message": "{COUNT} file deschise deja salvate aici:"
+   },
+   "openTabsAlreadyStoredHere_two": {
+      "message": "{COUNT} file deschise deja salvate aici:"
+   },
+   "openTabsAlreadyStoredHere_zero": {
+      "message": "{COUNT} file deschise deja salvate aici:"
+   },
+   "openTabsConfirm_few": {
+      "message": "Sunteți pe cale să deschideți {COUNT} file. Sigur doriți?"
+   },
+   "openTabsConfirm_many": {
+      "message": "Sunteți pe cale să deschideți {COUNT} file. Sigur doriți?"
+   },
+   "openTabsConfirm_one": {
+      "message": "Sunteți pe cale să deschideți {COUNT} filă. Sigur doriți?"
+   },
+   "openTabsConfirm_other": {
+      "message": "Sunteți pe cale să deschideți {COUNT} file. Sigur doriți?"
+   },
+   "openTabsConfirm_two": {
+      "message": "Sunteți pe cale să deschideți {COUNT} file. Sigur doriți?"
+   },
+   "openTabsConfirm_zero": {
+      "message": "Sunteți pe cale să deschideți {COUNT} file. Sigur doriți?"
+   },
+   "openTabsNotStoredInOneTab_few": {
+      "message": "{COUNT} file deschise nesalvate în OneTab"
+   },
+   "openTabsNotStoredInOneTab_many": {
+      "message": "{COUNT} file deschise nesalvate în OneTab"
+   },
+   "openTabsNotStoredInOneTab_one": {
+      "message": "{COUNT} filă deschisă nesalvată în OneTab"
+   },
+   "openTabsNotStoredInOneTab_other": {
+      "message": "{COUNT} file deschise nesalvate în OneTab"
+   },
+   "openTabsNotStoredInOneTab_two": {
+      "message": "{COUNT} file deschise nesalvate în OneTab"
+   },
+   "openTabsNotStoredInOneTab_zero": {
+      "message": "{COUNT} file deschise nesalvate în OneTab"
+   },
+   "optionAutoActionOnGroupOpenArchiveDesc": {
+      "message": "Pentru a împiedica marcarea grupului ca arhivat, țineți apăsată tasta Alt/Option când faceți clic pentru a deschide grupul"
+   },
+   "optionAutoActionOnGroupOpenArchiveTitle": {
+      "message": "Deschide filele și marchează grupul ca arhivat"
+   },
+   "optionAutoActionOnGroupOpenHeading": {
+      "message": "Acțiune automată la deschiderea unui grup de file:"
+   },
+   "optionAutoActionOnGroupOpenNote": {
+      "message": "Acțiunile automate nu vor fi aplicate grupurilor care au fost blocate sau care sunt sarcini."
+   },
+   "optionAutoActionOnGroupOpenOpenDesc": {
+      "message": "Pentru a marca grupul ca arhivat, țineți apăsată tasta Alt/Option când faceți clic pentru a deschide grupul"
+   },
+   "optionAutoActionOnGroupOpenOpenTitle": {
+      "message": "Deschide doar filele"
+   },
+   "optionAutoActionOnGroupOpenTrashDesc": {
+      "message": "Pentru a împiedica trimiterea automată a grupului în coș, țineți apăsată tasta Alt/Option când faceți clic pentru a deschide grupul"
+   },
+   "optionAutoActionOnGroupOpenTrashTitle": {
+      "message": "Deschide filele și mută grupul în coș"
+   },
+   "optionAutoActionOnTabOpenArchiveDesc": {
+      "message": "Pentru a împiedica marcarea automată a filei ca arhivată, țineți apăsată tasta Alt/Option când faceți clic pentru a deschide fila"
+   },
+   "optionAutoActionOnTabOpenArchiveTitle": {
+      "message": "Deschide fila și marcheaz-o ca arhivată"
+   },
+   "optionAutoActionOnTabOpenHeading": {
+      "message": "Acțiune automată la deschiderea unei file:"
+   },
+   "optionAutoActionOnTabOpenNote": {
+      "message": "Acțiunile automate nu vor fi aplicate filelor din grupuri care au fost blocate sau care sunt sarcini."
+   },
+   "optionAutoActionOnTabOpenOpenDesc": {
+      "message": "Pentru a marca fila ca arhivată, țineți apăsată tasta Alt/Option când faceți clic pentru a deschide fila"
+   },
+   "optionAutoActionOnTabOpenOpenTitle": {
+      "message": "Deschide doar fila"
+   },
+   "optionAutoActionOnTabOpenTrashDesc": {
+      "message": "Pentru a împiedica trimiterea automată a filei în coș, țineți apăsată tasta Alt/Option când faceți clic pentru a deschide fila"
+   },
+   "optionAutoActionOnTabOpenTrashTitle": {
+      "message": "Deschide fila și mut-o în coș"
+   },
+   "optionCopyToClipboardFormatHeading": {
+      "message": "Copierea linkurilor în clipboard:"
+   },
+   "optionCopyToClipboardFormatNote": {
+      "message": "Această setare se aplică atunci când folosiți acțiunea „Copiază în clipboard”. Puteți, de asemenea, să trageți file și grupuri direct din OneTab într-un document."
+   },
+   "optionCopyToClipboardFormatRichTextDesc": {
+      "message": "Aplicații precum procesoarele de text vă permit să lipiți text îmbogățit. Dacă nu este acceptat, se va lipi text simplu."
+   },
+   "optionCopyToClipboardFormatRichTextTitle": {
+      "message": "Text îmbogățit, unde este disponibil"
+   },
+   "optionCopyToClipboardFormatTitleUrlTitle": {
+      "message": "Titlu și URL"
+   },
+   "optionCopyToClipboardFormatUrlOnlyTitle": {
+      "message": "Doar URL-ul"
+   },
+   "optionCopyToClipboardFormatUrlTitleTitle": {
+      "message": "URL și titlu"
+   },
+   "optionDefaultTabGroupOpenTypeCurrentWindow": {
+      "message": "Deschide grupul de file al browserului în fereastra curentă"
+   },
+   "optionDefaultTabGroupOpenTypeHeading": {
+      "message": "Când faceți clic pentru a deschide un grup de file configurat să se deschidă ca „grup de file al browserului”:"
+   },
+   "optionDefaultTabGroupOpenTypeNewWindow": {
+      "message": "Deschide grupul de file al browserului într-o fereastră nouă"
+   },
+   "optionDefaultTabGroupOpenTypeNote": {
+      "message": "Dacă folosiți lista derulantă pentru a alege o opțiune (cum ar fi deschiderea filelor într-o fereastră incognito), acea opțiune va fi reținută pentru acel grup."
+   },
+   "optionDefaultWindowGroupOpenTypeCurrentWindow": {
+      "message": "Deschide filele în fereastra curentă"
+   },
+   "optionDefaultWindowGroupOpenTypeHeading": {
+      "message": "Când faceți clic pentru a deschide un grup de file:"
+   },
+   "optionDefaultWindowGroupOpenTypeNewWindow": {
+      "message": "Deschide filele într-o fereastră nouă"
+   },
+   "optionDefaultWindowGroupOpenTypeNote": {
+      "message": "Dacă folosiți lista derulantă pentru a alege o opțiune (cum ar fi deschiderea filelor într-o fereastră incognito), acea opțiune va fi reținută pentru acel grup."
+   },
+   "optionDiscardNonActiveTabOnOpenHeading": {
+      "message": "Economisește memorie (RAM) imediat când filele sunt deschise prima dată:"
+   },
+   "optionDiscardNonActiveTabOnOpenNote": {
+      "message": "Dacă această setare este activată, la prima deschidere din lista OneTab filele vor fi eliberate imediat din memorie. Este util dacă deschideți des zeci de file simultan, deoarece previne încărcarea lor în memorie până le accesați. Dacă această setare este dezactivată, multe browsere vor alege totuși să elibereze filele din memorie dacă nu le folosiți în acel moment."
+   },
+   "optionDisplayContextMenuHeading": {
+      "message": "Faceți clic dreapta într-o pagină web pentru a accesa meniul contextual OneTab:"
+   },
+   "optionDisplayContextMenuNote": {
+      "message": "Dacă dezactivați meniul, nu veți putea accesa funcția „Exclude acest site web din OneTab”"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenFalseTitle": {
+      "message": "Comută la fereastra în care fila OneTab este deja deschisă"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenHeading": {
+      "message": "Acțiunea „Deschide OneTab”:"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenNote": {
+      "message": "Acțiunea „Deschide OneTab” poate fi accesată printr-o comandă rapidă de la tastatură. Poate fi accesată și din pop-upul care apare când faceți clic pe pictograma OneTab din bara de instrumente a browserului."
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenTrueTitle": {
+      "message": "Mută orice filă OneTab existentă în fereastra curentă"
+   },
+   "optionStartupLaunchDisplay": {
+      "message": "Deschide OneTab de fiecare dată când porniți browserul"
+   },
+   "optionStartupLaunchNone": {
+      "message": "Nu deschide OneTab automat"
+   },
+   "optionStartupLaunchNoneDesc3": {
+      "message": "Pentru a deschide manual OneTab, faceți clic pe pictograma OneTab din bara de instrumente a browserului și alegeți „Deschide OneTab”. Alternativ, puteți face clic dreapta în orice pagină web și faceți clic pe „Deschide OneTab” în meniul OneTab."
+   },
+   "optionStartupLaunchTitle": {
+      "message": "La pornire:"
+   },
+   "optionSwitchToOpenedTabFalseTitle": {
+      "message": "Deschideți fila și rămâneți în OneTab"
+   },
+   "optionSwitchToOpenedTabHeading": {
+      "message": "La deschiderea filelor din pagina OneTab:"
+   },
+   "optionSwitchToOpenedTabNote": {
+      "message": "Dacă țineți apăsată tasta Shift când faceți clic, fila se va deschide într-o fereastră nouă"
+   },
+   "optionSwitchToOpenedTabTrueTitle": {
+      "message": "Deschideți fila și comutați la ea (cu excepția cazului în care țineți apăsată tasta Command ⌘/Ctrl când faceți clic)"
+   },
+   "optionUrlAbbr": {
+      "message": "Prescurtat"
+   },
+   "optionUrlDisplayTitle": {
+      "message": "Afișare URL:"
+   },
+   "optionUrlDomain": {
+      "message": "Doar domeniul"
+   },
+   "optionUrlFull": {
+      "message": "Complet"
+   },
+   "optionUrlNone": {
+      "message": "Niciuna"
+   },
+   "options": {
+      "message": "Opțiuni"
+   },
+   "otherCopiesColon": {
+      "message": "Alte copii:"
+   },
+   "pasteRichOrPlainTextBelow": {
+      "message": "Puteți lipi mai jos text îmbogățit sau text simplu."
+   },
+   "pendingTaskCount_few": {
+      "message": "{COUNT} în așteptare"
+   },
+   "pendingTaskCount_many": {
+      "message": "{COUNT} în așteptare"
+   },
+   "pendingTaskCount_one": {
+      "message": "{COUNT} în așteptare"
+   },
+   "pendingTaskCount_other": {
+      "message": "{COUNT} în așteptare"
+   },
+   "pendingTaskCount_two": {
+      "message": "{COUNT} în așteptare"
+   },
+   "pendingTaskCount_zero": {
+      "message": "{COUNT} în așteptare"
+   },
+   "permissionRequiredPleaseTryAgain": {
+      "message": "Pentru a crea o pagină partajată care poate fi accesată de pe orice computer, este necesară permisiunea de a comunica cu serverul web OneTab. Încercați din nou."
+   },
+   "pinToTopOfFolder": {
+      "message": "Fixează în partea de sus a folderului"
+   },
+   "pinToTopOfList": {
+      "message": "Fixează în partea de sus a listei"
+   },
+   "pinnedTabs": {
+      "message": "file fixate"
+   },
+   "placeholderAndOtherLocations_few": {
+      "message": "PLACEHOLDER și încă {COUNT}"
+   },
+   "placeholderAndOtherLocations_many": {
+      "message": "PLACEHOLDER și încă {COUNT}"
+   },
+   "placeholderAndOtherLocations_one": {
+      "message": "PLACEHOLDER și încă {COUNT}"
+   },
+   "placeholderAndOtherLocations_other": {
+      "message": "PLACEHOLDER și încă {COUNT}"
+   },
+   "placeholderAndOtherLocations_two": {
+      "message": "PLACEHOLDER și încă {COUNT}"
+   },
+   "placeholderAndOtherLocations_zero": {
+      "message": "PLACEHOLDER și încă {COUNT}"
+   },
+   "placeholderExplanation": {
+      "message": "Din cauza regulilor de securitate ale browserului web, OneTab nu are voie să restaureze direct această pagină. Copiați URL-ul și lipiți-l în bara de adrese a browserului."
+   },
+   "plainTextLineFormat": {
+      "message": "Dacă lipiți text simplu, asigurați-vă că fiecare URL are specificat un protocol (https://wikipedia.org, în loc de doar wikipedia.org). Fiecare linie trebuie să aibă formatul următor:"
+   },
+   "pleaseWaitTripleDot": {
+      "message": "Așteptați…"
+   },
+   "popupSlashShortcutInfo": {
+      "message": "Când vă aflați în pop-upul acțiunii OneTab (care apare când faceți clic pe pictograma OneTab), apăsați tasta / pentru a deschide selectorul de destinație și a focaliza caseta de căutare."
+   },
+   "privacyAssurance": {
+      "message": "Garanție de confidențialitate"
+   },
+   "privacyAssuranceDetail": {
+      "message": "Lista dvs. de file nu este niciodată transmisă sau dezvăluită dezvoltatorilor OneTab ori altor părți. Singura excepție este dacă folosiți intenționat funcția „Partajează ca pagină web” pentru a încărca lista de file într-o pagină web, ca să o partajați cu alții."
+   },
+   "privacyFirst": {
+      "message": "Confidențialitatea pe primul loc"
+   },
+   "privacyFirstMessage": {
+      "message": "OneTab a fost conceput pentru a vă proteja datele private. Filele dvs. sunt stocate doar pe computerul dvs. și nu sunt niciodată partajate cu dezvoltatorii OneTab sau cu alte părți.\nDacă folosiți funcția noastră de backup/sincronizare, datele dvs. vor fi criptate end-to-end cu criptare AES-256 de înaltă rezistență. Astfel, dezvoltatorii OneTab nu pot vedea filele pe care le-ați salvat sau sincronizat între dispozitive, deoarece doar dvs. aveți cheia de criptare.\nSingura excepție este dacă decideți în mod intenționat să partajați unele dintre filele dvs. cu alte persoane folosind funcția noastră „Partajează ca pagină web”.\nCredem în principiul Privacy First."
+   },
+   "privateBrowsingPermissionRequired": {
+      "message": "OneTab are nevoie de permisiunea de a crea ferestre private."
+   },
+   "privateBrowsingWindows": {
+      "message": "Ferestre de navigare privată"
+   },
+   "quickList": {
+      "message": "Listă rapidă"
+   },
+   "rating": {
+      "message": "Evaluare"
+   },
+   "readingList": {
+      "message": "Lista de lectură"
+   },
+   "readingListPermissionNecesssary": {
+      "message": "Permisiunea pentru lista de lectură este necesară pentru ca OneTab să importe elemente din lista de lectură. Dacă această funcție nu funcționează, este posibil ca browserul dvs. să nu accepte liste de lectură."
+   },
+   "recent": {
+      "message": "Recente"
+   },
+   "recentDestinationsColon": {
+      "message": "Destinații recente:"
+   },
+   "recentDuplicateRetainedHelp": {
+      "message": "Dacă o filă apare de mai multe ori, doar duplicatul cel mai recent va fi păstrat"
+   },
+   "recentlyAccessed": {
+      "message": "Accesate recent"
+   },
+   "recentlyCreated": {
+      "message": "Create recent"
+   },
+   "recentlyModified": {
+      "message": "Modificate recent"
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "message": "Reduce consumul de memorie cu 95%"
+   },
+   "removeDuplicateTabsHere_few": {
+      "message": "Elimină {COUNT} file duplicate din acest loc"
+   },
+   "removeDuplicateTabsHere_many": {
+      "message": "Elimină {COUNT} file duplicate din acest loc"
+   },
+   "removeDuplicateTabsHere_one": {
+      "message": "Elimină {COUNT} filă duplicată din acest loc"
+   },
+   "removeDuplicateTabsHere_other": {
+      "message": "Elimină {COUNT} file duplicate din acest loc"
+   },
+   "removeDuplicateTabsHere_two": {
+      "message": "Elimină {COUNT} file duplicate din acest loc"
+   },
+   "removeDuplicateTabsHere_zero": {
+      "message": "Elimină {COUNT} file duplicate din acest loc"
+   },
+   "removeDuplicates": {
+      "message": "Elimină duplicatele"
+   },
+   "removeFromQuickList": {
+      "message": "Elimină din lista rapidă"
+   },
+   "removeTabsElsewhereAlsoHere_few": {
+      "message": "Elimină {COUNT} file din altă parte care există și aici"
+   },
+   "removeTabsElsewhereAlsoHere_many": {
+      "message": "Elimină {COUNT} file din altă parte care există și aici"
+   },
+   "removeTabsElsewhereAlsoHere_one": {
+      "message": "Elimină {COUNT} filă din altă parte care există și aici"
+   },
+   "removeTabsElsewhereAlsoHere_other": {
+      "message": "Elimină {COUNT} file din altă parte care există și aici"
+   },
+   "removeTabsElsewhereAlsoHere_two": {
+      "message": "Elimină {COUNT} file din altă parte care există și aici"
+   },
+   "removeTabsElsewhereAlsoHere_zero": {
+      "message": "Elimină {COUNT} file din altă parte care există și aici"
+   },
+   "removeTabsHereAlsoElsewhere_few": {
+      "message": "Elimină {COUNT} file de aici care există și în altă parte"
+   },
+   "removeTabsHereAlsoElsewhere_many": {
+      "message": "Elimină {COUNT} file de aici care există și în altă parte"
+   },
+   "removeTabsHereAlsoElsewhere_one": {
+      "message": "Elimină {COUNT} filă de aici care există și în altă parte"
+   },
+   "removeTabsHereAlsoElsewhere_other": {
+      "message": "Elimină {COUNT} file de aici care există și în altă parte"
+   },
+   "removeTabsHereAlsoElsewhere_two": {
+      "message": "Elimină {COUNT} file de aici care există și în altă parte"
+   },
+   "removeTabsHereAlsoElsewhere_zero": {
+      "message": "Elimină {COUNT} file de aici care există și în altă parte"
+   },
+   "rename": {
+      "message": "Redenumește"
+   },
+   "restore": {
+      "message": "Restaurează"
+   },
+   "restrictSearchToFolderColon": {
+      "message": "Restrânge căutarea la următorul folder:"
+   },
+   "results": {
+      "message": "Rezultate"
+   },
+   "returnToOneTab": {
+      "message": "Revino la OneTab"
+   },
+   "reverse": {
+      "message": "Inversează"
+   },
+   "rightClickAndOpenOneTabMenu": {
+      "message": "Faceți clic dreapta în pagina web și accesați meniul OneTab"
+   },
+   "rightClickMenuDisabledNote": {
+      "message": "Notă: Ați dezactivat meniul contextual OneTab. Activați-l în pagina de opțiuni OneTab."
+   },
+   "rightClickSelectionOptionsTip": {
+      "message": "Sfat: După ce bifați un element, faceți clic dreapta pe pictograma bifei pentru a vedea mai multe opțiuni de selecție"
+   },
+   "rightClickTickTip": {
+      "message": "Sfat: Faceți clic dreapta pe pictograma bifei de lângă fiecare filă pentru instrumente de selecție"
+   },
+   "safariApproveOneTabInSettings": {
+      "message": "Accesați Configurări și permiteți OneTab să acceseze toate site-urile web."
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "message": "Economisește până la 95% din memorie și redu aglomerația de file în Google Chrome"
+   },
+   "searchHere": {
+      "message": "Caută aici"
+   },
+   "searchOneTab": {
+      "message": "Caută în OneTab"
+   },
+   "secondExampleLink": {
+      "message": "Al doilea link exemplu"
+   },
+   "secondExampleLinkTitle": {
+      "message": "Al doilea titlu de link exemplu"
+   },
+   "secondExampleLinkTitleOptional": {
+      "message": "Al doilea titlu de link exemplu (opțional)"
+   },
+   "seeOtherTabsInThisGroup_few": {
+      "message": "Vezi {COUNT} alte file în acest grup"
+   },
+   "seeOtherTabsInThisGroup_many": {
+      "message": "Vezi {COUNT} alte file în acest grup"
+   },
+   "seeOtherTabsInThisGroup_one": {
+      "message": "Vezi {COUNT} altă filă în acest grup"
+   },
+   "seeOtherTabsInThisGroup_other": {
+      "message": "Vezi {COUNT} alte file în acest grup"
+   },
+   "seeOtherTabsInThisGroup_two": {
+      "message": "Vezi {COUNT} alte file în acest grup"
+   },
+   "seeOtherTabsInThisGroup_zero": {
+      "message": "Vezi {COUNT} alte file în acest grup"
+   },
+   "seePasteInstructions": {
+      "message": "Vezi instrucțiunile de lipire…"
+   },
+   "seeTabsInThisGroup_few": {
+      "message": "Vezi {COUNT} file în acest grup"
+   },
+   "seeTabsInThisGroup_many": {
+      "message": "Vezi {COUNT} file în acest grup"
+   },
+   "seeTabsInThisGroup_one": {
+      "message": "Vezi {COUNT} filă în acest grup"
+   },
+   "seeTabsInThisGroup_other": {
+      "message": "Vezi {COUNT} file în acest grup"
+   },
+   "seeTabsInThisGroup_two": {
+      "message": "Vezi {COUNT} file în acest grup"
+   },
+   "seeTabsInThisGroup_zero": {
+      "message": "Vezi {COUNT} file în acest grup"
+   },
+   "selectAll": {
+      "message": "Selectează tot"
+   },
+   "selectAllExceptThis": {
+      "message": "Selectează tot, cu excepția acestui element"
+   },
+   "selectThisAndAbove": {
+      "message": "Selectează acest element și pe toate cele de deasupra"
+   },
+   "selectThisAndBelow": {
+      "message": "Selectează acest element și pe toate cele de dedesubt"
+   },
+   "selectedItemCount_few": {
+      "message": "{COUNT} elemente"
+   },
+   "selectedItemCount_many": {
+      "message": "{COUNT} elemente"
+   },
+   "selectedItemCount_one": {
+      "message": "{COUNT} element"
+   },
+   "selectedItemCount_other": {
+      "message": "{COUNT} elemente"
+   },
+   "selectedItemCount_two": {
+      "message": "{COUNT} elemente"
+   },
+   "selectedItemCount_zero": {
+      "message": "{COUNT} elemente"
+   },
+   "selection": {
+      "message": "Selecție"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "message": "Trimite toate filele din toate ferestrele în OneTab"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "message": "Trimite toate filele, cu excepția acestei file, în OneTab"
+   },
+   "sendAllTabsInGroupToOneTab": {
+      "message": "Trimite toate filele din acest grup de file în OneTab"
+   },
+   "sendAllTabsInWindowToOneTab": {
+      "message": "Trimite toate filele din această fereastră în OneTab"
+   },
+   "sendCurrentTabToOneTab": {
+      "message": "Trimite fila curentă în OneTab"
+   },
+   "sendLeftTabsToOneTab": {
+      "message": "Trimite filele din stânga în OneTab"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "message": "Trimite doar această filă în OneTab"
+   },
+   "sendRightTabsToOneTab": {
+      "message": "Trimite filele din dreapta în OneTab"
+   },
+   "sendSelectedTabsToOneTab": {
+      "message": "Trimite filele selectate în OneTab"
+   },
+   "sendThisWebLinkToOneTab": {
+      "message": "Trimite acest link web în OneTab"
+   },
+   "serverUnreachable": {
+      "message": "Serverul este inaccesibil. Verificați conexiunea la internet."
+   },
+   "share": {
+      "message": "Partajează"
+   },
+   "shareAsAWebPage": {
+      "message": "Partajează ca pagină web"
+   },
+   "shared": {
+      "message": "Partajate"
+   },
+   "sharedExpiresColon": {
+      "message": "Partajat ca pagină web. Expiră:"
+   },
+   "sharedPageOptions": {
+      "message": "Opțiuni pentru pagina partajată"
+   },
+   "sharedPageTabLimit_few": {
+      "message": "Paginile partajate sunt limitate la {COUNT} file"
+   },
+   "sharedPageTabLimit_many": {
+      "message": "Paginile partajate sunt limitate la {COUNT} file"
+   },
+   "sharedPageTabLimit_one": {
+      "message": "Paginile partajate sunt limitate la {COUNT} filă"
+   },
+   "sharedPageTabLimit_other": {
+      "message": "Paginile partajate sunt limitate la {COUNT} file"
+   },
+   "sharedPageTabLimit_two": {
+      "message": "Paginile partajate sunt limitate la {COUNT} file"
+   },
+   "sharedPageTabLimit_zero": {
+      "message": "Paginile partajate sunt limitate la {COUNT} file"
+   },
+   "sharedPageWillAutomaticallyExpire": {
+      "message": "Pagina partajată va expira automat, dar puteți extinde oricând data expirării."
+   },
+   "shiftDragShortcutInfo": {
+      "message": "Țineți apăsată tasta Shift când plasați o filă pentru a crea o copie în loc să o mutați. Important: Apăsați tasta Shift doar după ce ați început să trageți."
+   },
+   "showEverything": {
+      "message": "Afișează tot"
+   },
+   "showFoldersOnly": {
+      "message": "Afișează doar folderele"
+   },
+   "showNamedItemsOnly": {
+      "message": "Afișează doar elementele denumite"
+   },
+   "showNamedOnly": {
+      "message": "Afișează doar elementele denumite"
+   },
+   "showNextCount_few": {
+      "message": "Afișează următoarele {COUNT}"
+   },
+   "showNextCount_many": {
+      "message": "Afișează următoarele {COUNT}"
+   },
+   "showNextCount_one": {
+      "message": "Afișează {COUNT} element următor"
+   },
+   "showNextCount_other": {
+      "message": "Afișează următoarele {COUNT}"
+   },
+   "showNextCount_two": {
+      "message": "Afișează următoarele {COUNT}"
+   },
+   "showNextCount_zero": {
+      "message": "Afișează următoarele {COUNT}"
+   },
+   "showPreviousCount_few": {
+      "message": "Afișează precedentele {COUNT}"
+   },
+   "showPreviousCount_many": {
+      "message": "Afișează precedentele {COUNT}"
+   },
+   "showPreviousCount_one": {
+      "message": "Afișează {COUNT} element anterior"
+   },
+   "showPreviousCount_other": {
+      "message": "Afișează precedentele {COUNT}"
+   },
+   "showPreviousCount_two": {
+      "message": "Afișează precedentele {COUNT}"
+   },
+   "showPreviousCount_zero": {
+      "message": "Afișează precedentele {COUNT}"
+   },
+   "soon": {
+      "message": "în curând"
+   },
+   "sort": {
+      "message": "Sortare"
+   },
+   "sortByColon": {
+      "message": "Sortează după:"
+   },
+   "sortGroups": {
+      "message": "Sortează grupurile"
+   },
+   "sourceColon": {
+      "message": "Sursă:"
+   },
+   "starRatingTooltip": {
+      "message": "Setează o evaluare cu stele"
+   },
+   "storeSelectedTabsInONETAB_few": {
+      "message": "Salvează {COUNT} file selectate în ONETAB"
+   },
+   "storeSelectedTabsInONETAB_many": {
+      "message": "Salvează {COUNT} file selectate în ONETAB"
+   },
+   "storeSelectedTabsInONETAB_one": {
+      "message": "Salvează {COUNT} filă selectată în ONETAB"
+   },
+   "storeSelectedTabsInONETAB_other": {
+      "message": "Salvează {COUNT} file selectate în ONETAB"
+   },
+   "storeSelectedTabsInONETAB_two": {
+      "message": "Salvează {COUNT} file selectate în ONETAB"
+   },
+   "storeSelectedTabsInONETAB_zero": {
+      "message": "Salvează {COUNT} file selectate în ONETAB"
+   },
+   "storeTabInAdditionalLocation": {
+      "message": "Salvează fila într-o locație suplimentară"
+   },
+   "storeTabInONETAB": {
+      "message": "Salvează fila în ONETAB"
+   },
+   "storeTabsInAdditionalLocation": {
+      "message": "Salvează filele într-o locație suplimentară"
+   },
+   "storeTabsInONETAB": {
+      "message": "Salvează filele în ONETAB"
+   },
+   "subFoldersNotShared": {
+      "message": "Rețineți că subfolderele nu sunt partajate. Sunt partajate doar grupurile de file aflate direct în folder."
+   },
+   "tab": {
+      "message": "filă"
+   },
+   "tabAlreadyStoredHere": {
+      "message": "Fila deschisă este deja salvată aici:"
+   },
+   "tabCaretTooltipTitleNotes": {
+      "message": "Editează titlul și notițele filei"
+   },
+   "tabCaretTooltipTitleNotesUrl": {
+      "message": "Editează titlul, URL-ul și notițele filei"
+   },
+   "tabCount_few": {
+      "message": "{COUNT} file"
+   },
+   "tabCount_many": {
+      "message": "{COUNT} file"
+   },
+   "tabCount_one": {
+      "message": "{COUNT} filă"
+   },
+   "tabCount_other": {
+      "message": "{COUNT} file"
+   },
+   "tabCount_two": {
+      "message": "{COUNT} file"
+   },
+   "tabCount_zero": {
+      "message": "{COUNT} file"
+   },
+   "tabGroupColorColon": {
+      "message": "Culoarea grupului de file:"
+   },
+   "tabShortcutInfo": {
+      "message": "Când vă aflați pe pagina OneTab, apăsați tasta Tab pentru a muta focalizarea între grupurile din coloana centrală. Acest lucru vă permite să săriți rapid peste grupuri, mai ales dacă sunt mari. Dacă un grup are focalizarea, apăsați tasta Enter pentru a-l deschide. Folosiți Shift+Tab pentru a muta focalizarea înapoi."
+   },
+   "tabTotalCount_few": {
+      "message": "Total: {COUNT} file"
+   },
+   "tabTotalCount_many": {
+      "message": "Total: {COUNT} file"
+   },
+   "tabTotalCount_one": {
+      "message": "Total: {COUNT} filă"
+   },
+   "tabTotalCount_other": {
+      "message": "Total: {COUNT} file"
+   },
+   "tabTotalCount_two": {
+      "message": "Total: {COUNT} file"
+   },
+   "tabTotalCount_zero": {
+      "message": "Total: {COUNT} file"
+   },
+   "tabs": {
+      "message": "File"
+   },
+   "tabsFromExcludedDomains": {
+      "message": "file din domenii excluse"
+   },
+   "tabsInTabGroups": {
+      "message": "file în grupuri de file"
+   },
+   "taskTotalCount_few": {
+      "message": "{COUNT} în total"
+   },
+   "taskTotalCount_many": {
+      "message": "{COUNT} în total"
+   },
+   "taskTotalCount_one": {
+      "message": "{COUNT} în total"
+   },
+   "taskTotalCount_other": {
+      "message": "{COUNT} în total"
+   },
+   "taskTotalCount_two": {
+      "message": "{COUNT} în total"
+   },
+   "taskTotalCount_zero": {
+      "message": "{COUNT} în total"
+   },
+   "tasks": {
+      "message": "Sarcini"
+   },
+   "tasksDone": {
+      "message": "Sarcini (finalizate)"
+   },
+   "tasksPending": {
+      "message": "Sarcini (în așteptare)"
+   },
+   "tasksWillAppearHere": {
+      "message": "Dacă marcați file sau grupuri ca sarcini, acestea vor apărea aici."
+   },
+   "thenClickToolbarIcon": {
+      "message": "Apoi, faceți clic din nou pe pictograma OneTab din bara de instrumente pentru a folosi OneTab."
+   },
+   "thisFolderIsEmpty": {
+      "message": "Acest folder este gol"
+   },
+   "thisTab": {
+      "message": "Această filă"
+   },
+   "thisTabGroup": {
+      "message": "Acest grup de file"
+   },
+   "thisTabNotStored": {
+      "message": "Această filă nu este salvată în OneTab"
+   },
+   "thisWindow": {
+      "message": "Această fereastră"
+   },
+   "tickOrUntickToExclude": {
+      "message": "Bifați sau debifați pentru a exclude site-ul"
+   },
+   "title": {
+      "message": "Titlu"
+   },
+   "toAddOrRemoveExclusions": {
+      "message": "Pentru a adăuga sau elimina un site web din lista de excluderi:"
+   },
+   "toAllowOneTabInIncognito": {
+      "message": "Pentru ca pictograma OneTab să apară în ferestrele incognito: "
+   },
+   "toImportBrowserBookmarksUseMenuOption": {
+      "message": "Pentru a importa din semnele de carte ale browserului, folosiți opțiunea de meniu „Importă linkuri aici” din pagina OneTab"
+   },
+   "toMakeOpenButtonWorkApprovePermission": {
+      "message": "Pentru ca butonul „Deschide” de pe paginile partajate să funcționeze, aprobați cererea de permisiune."
+   },
+   "toSaveChangesClickButton": {
+      "message": "Pentru a salva modificările, faceți clic pe buton"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "message": "Prea multe file? Transformă filele într-o listă și accelerează Firefox"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "message": "Prea multe file? Transformă filele într-o listă și accelerează Safari"
+   },
+   "total0Tabs": {
+      "message": "Total: 0 file"
+   },
+   "trash": {
+      "message": "Coș"
+   },
+   "unMarkAsTask": {
+      "message": "Anulează marcarea ca sarcină"
+   },
+   "unPin": {
+      "message": "Anulează fixarea"
+   },
+   "unlock": {
+      "message": "Deblochează"
+   },
+   "unmarkAsArchived": {
+      "message": "Anulează marcarea ca arhivat"
+   },
+   "unshare": {
+      "message": "Anulează partajarea"
+   },
+   "untitled": {
+      "message": "Fără titlu"
+   },
+   "update": {
+      "message": "Actualizează"
+   },
+   "userLanguage": {
+      "message": "Română"
+   },
+   "website": {
+      "message": "Site web"
+   },
+   "yearCount_few": {
+      "message": "{COUNT} ani"
+   },
+   "yearCount_many": {
+      "message": "{COUNT} ani"
+   },
+   "yearCount_one": {
+      "message": "{COUNT} an"
+   },
+   "yearCount_other": {
+      "message": "{COUNT} ani"
+   },
+   "yearCount_two": {
+      "message": "{COUNT} ani"
+   },
+   "yearCount_zero": {
+      "message": "{COUNT} ani"
+   },
+   "yourTabAlreadyStoredHere": {
+      "message": "Fila dvs. este deja salvată aici:"
+   }
+}

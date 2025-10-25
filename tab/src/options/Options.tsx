@@ -282,16 +282,22 @@ export function Options() {
     }
 
     let cancelled = false;
-    setIsFetchingModels(true);
-    setModelFetchError(null);
+    
+    const fetchModels = async () => {
+      setIsFetchingModels(true);
+      setModelFetchError(null);
 
-    fetchAvailableModels(formData.aiProvider, trimmedKey, formData.apiUrl)
-      .then(models => {
+      try {
+        const models = await fetchAvailableModels(formData.aiProvider, trimmedKey, formData.apiUrl);
+        
         if (cancelled) return;
+        
         setAvailableModels(models);
         setIsFetchingModels(false);
         setModelFetchError(null);
         lastModelFetchSignature.current = signature;
+        
+        // 只在没有选中模型时自动选择第一个
         setFormData(prev => {
           if (prev.aiModel) {
             return prev;
@@ -301,14 +307,17 @@ export function Options() {
             aiModel: models[0] || ''
           };
         });
-      })
-      .catch(error => {
+      } catch (error) {
         if (cancelled) return;
+        
         setAvailableModels([]);
         setModelFetchError(error instanceof Error ? error.message : String(error));
         setIsFetchingModels(false);
         lastModelFetchSignature.current = signature;
-      });
+      }
+    };
+
+    fetchModels();
 
     return () => {
       cancelled = true;

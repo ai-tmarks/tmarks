@@ -7,7 +7,8 @@ import {
   Share2,
   Database,
   LogOut,
-  Layers
+  Layers,
+  Shield
 } from 'lucide-react'
 import { useThemeStore } from '@/stores/themeStore'
 import { useAuthStore } from '@/stores/authStore'
@@ -148,6 +149,17 @@ export function AppShell() {
                     >
                       <Database className="w-4 h-4" />
                       <span>数据管理</span>
+                    </button>
+                    <button
+                      onClick={() => {
+                        navigate('/permissions')
+                        setIsUserMenuOpen(false)
+                      }}
+                      className="w-full px-4 py-3 flex items-center gap-2 hover:bg-muted/50 transition-colors duration-200"
+                      style={{color: 'var(--foreground)'}}
+                    >
+                      <Shield className="w-4 h-4" />
+                      <span>浏览器权限</span>
                     </button>
                     <button
                       onClick={handleLogout}

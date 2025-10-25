@@ -1,9 +1,10 @@
 import type { AIProvider } from '@/types';
+import { AI_SERVICE_URLS } from '@/lib/constants/urls';
 
 const PROVIDER_DEFAULT_BASE_URL: Partial<Record<AIProvider, string>> = {
-  openai: 'https://api.openai.com/v1',
-  deepseek: 'https://api.deepseek.com/v1',
-  siliconflow: 'https://api.siliconflow.cn/v1'
+  openai: AI_SERVICE_URLS.OPENAI,
+  deepseek: AI_SERVICE_URLS.DEEPSEEK,
+  siliconflow: AI_SERVICE_URLS.SILICONFLOW
 };
 
 const OPENAI_COMPATIBLE_PROVIDERS = new Set<AIProvider>(['openai', 'deepseek', 'siliconflow', 'custom']);

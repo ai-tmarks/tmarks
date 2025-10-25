@@ -1,7 +1,7 @@
 import { db } from '@/lib/db';
 import { StorageService } from '@/lib/utils/storage';
 import { getAIProvider } from '@/lib/providers';
-import type { PageInfo, RecommendationResult, AIRequest, TagSuggestion } from '@/types';
+import type { PageInfo, RecommendationResult, AIRequest, TagSuggestion, AIResponse, AIProvider } from '@/types';
 
 export class TagRecommender {
   private contextCache: AIRequest['context'] | null = null;
@@ -48,7 +48,7 @@ export class TagRecommender {
       const aiResponse = await this.callAIWithRetry(
         aiRequest,
         apiKey,
-        config.aiConfig.provider,
+        config.aiConfig.provider as AIProvider,
         config.aiConfig.model,
         apiUrl,
         customPrompt,
@@ -118,20 +118,20 @@ export class TagRecommender {
   private async callAIWithRetry(
     request: AIRequest,
     apiKey: string,
-    providerName: string,
+    providerName: AIProvider,
     model: string | undefined,
     apiUrl: string | undefined,
     customPrompt: string | undefined,
     maxRetries: number,
     timeout?: number
-  ) {
-    const provider = getAIProvider(providerName as any);
-    let lastError: Error;
+  ): Promise<AIResponse> {
+    const provider = getAIProvider(providerName);
+    let lastError: Error | undefined;
 
     for (let i = 0; i < maxRetries; i++) {
       try {
         if (typeof timeout === 'number' && timeout > 0) {
-          const timeoutPromise = new Promise((_, reject) => {
+          const timeoutPromise = new Promise<never>((_, reject) => {
             setTimeout(() => reject(new Error('AI request timeout')), timeout);
           });
 
@@ -140,11 +140,11 @@ export class TagRecommender {
             timeoutPromise
           ]);
 
-          return result as any;
+          return result;
         }
 
         const result = await provider.generateTags(request, apiKey, model, apiUrl, customPrompt);
-        return result as any;
+        return result;
       } catch (error) {
         lastError = error as Error;
         console.error(`[TagRecommender] AI call attempt ${i + 1} failed:`, error);
@@ -157,7 +157,7 @@ export class TagRecommender {
       }
     }
 
-    throw lastError!;
+    throw lastError || new Error('AI request failed after retries');
   }
 
   /**

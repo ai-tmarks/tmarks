@@ -6,6 +6,7 @@
 import { useState, useEffect } from 'react';
 // @ts-ignore
 import { Lunar } from 'lunar-javascript';
+import { TMARKS_URLS } from '@/lib/constants/urls';
 
 interface ModeSelectorProps {
   onSelectBookmark: () => void;
@@ -21,7 +22,9 @@ export function ModeSelector({ onSelectBookmark, onSelectTabCollection, onOpenOp
       setCurrentTime(new Date());
     }, 1000);
 
-    return () => clearInterval(timer);
+    return () => {
+      clearInterval(timer);
+    };
   }, []);
 
   const formatDate = (date: Date) => {
@@ -186,7 +189,7 @@ export function ModeSelector({ onSelectBookmark, onSelectTabCollection, onOpenOp
             {/* 我的书签 */}
             <button
               onClick={() => {
-                chrome.tabs.create({ url: 'https://tmarks.669696.xyz/' });
+                chrome.tabs.create({ url: TMARKS_URLS.WEB_APP });
               }}
               className="flex-1 flex items-center justify-center py-2.5 rounded-lg border border-gray-200 bg-white hover:bg-gray-50 transition-colors shadow-sm"
             >
@@ -196,7 +199,7 @@ export function ModeSelector({ onSelectBookmark, onSelectTabCollection, onOpenOp
             {/* 我的收纳 */}
             <button
               onClick={() => {
-                chrome.tabs.create({ url: 'https://tmarks.669696.xyz/tab' });
+                chrome.tabs.create({ url: TMARKS_URLS.TAB_GROUPS });
               }}
               className="flex-1 flex items-center justify-center py-2.5 rounded-lg border border-gray-200 bg-white hover:bg-gray-50 transition-colors shadow-sm"
             >

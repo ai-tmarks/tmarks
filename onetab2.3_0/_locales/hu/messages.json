@@ -1,0 +1,1715 @@
+{
+   "95PctMemoryReduction": {
+      "message": "95%-kal kevesebb memóriahasználat"
+   },
+   "Folder": {
+      "message": "Mappa"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "message": "A OneTab elérhető Firefoxhoz is"
+   },
+   "aDashZ": {
+      "message": "A-Z"
+   },
+   "about": {
+      "message": "Névjegy"
+   },
+   "addOneTabNow": {
+      "message": "OneTab hozzáadása most"
+   },
+   "all": {
+      "message": "Összes"
+   },
+   "allBookmarks": {
+      "message": "Összes könyvjelző"
+   },
+   "allOpenTabsAlreadyStoredHere": {
+      "message": "Minden nyitott lap már itt van tárolva:"
+   },
+   "allowFileAccessInstructions": {
+      "message": "A fájlok közvetlen megnyitásának engedélyezéséhez: Beállítások ➝ Bővítmények ➝ OneTab ➝ Részletek ➝ Hozzáférés engedélyezése a fájl URL-jeihez"
+   },
+   "alreadyExistingOpenTabsWillBeClosedAfterMerge": {
+      "message": "Az ebben a csoportban már meglévő nyitott lapok az összevonás után bezáródnak."
+   },
+   "alternatePlainTextFormat": {
+      "message": "Alternatívaként az egyszerű szöveg az alábbi formátumú lehet:"
+   },
+   "approve": {
+      "message": "Jóváhagyás"
+   },
+   "archived": {
+      "message": "Archivált"
+   },
+   "autoTheme": {
+      "message": "Automatikus (a rendszerbeállítást használja)"
+   },
+   "backupAndSync": {
+      "message": "Biztonsági mentés és szinkronizálás"
+   },
+   "betaReleaseReportBugsHere": {
+      "message": "Béta verzió – Hibajelentés itt"
+   },
+   "bookmarkCount_few": {
+      "message": "{COUNT} könyvjelző"
+   },
+   "bookmarkCount_many": {
+      "message": "{COUNT} könyvjelző"
+   },
+   "bookmarkCount_one": {
+      "message": "{COUNT} könyvjelző"
+   },
+   "bookmarkCount_other": {
+      "message": "{COUNT} könyvjelző"
+   },
+   "bookmarkCount_two": {
+      "message": "{COUNT} könyvjelző"
+   },
+   "bookmarkCount_zero": {
+      "message": "{COUNT} könyvjelző"
+   },
+   "bookmarksPermissionNecesssary": {
+      "message": "A könyvjelzők engedélye szükséges ahhoz, hogy a OneTab importálhassa a böngésző könyvjelzőit"
+   },
+   "bulkActions": {
+      "message": "Tömeges műveletek"
+   },
+   "canDragTextNote": {
+      "message": "Megjegyzés: Szöveget, amely webes hivatkozásokat tartalmaz, közvetlenül egy másik weboldalról vagy dokumentumból is áthúzhatja. A szöveget közvetlenül a OneTab oldalára is húzhatja, anélkül hogy ezt az importmezőt használná."
+   },
+   "canPasteWebContentForExample": {
+      "message": "Beilleszthet weboldalról vagy dokumentumból másolt szöveget; a hivatkozásokat automatikusan kinyerjük. Például:"
+   },
+   "cancel": {
+      "message": "Mégse"
+   },
+   "cannotConnectToServerDeletionRequestQueued": {
+      "message": "Nem sikerült csatlakozni a OneTab kiszolgálóhoz. Ellenőrizze az internetkapcsolatát. A megosztott oldal törlési kérelmét helyben sorba állítottuk, és automatikusan továbbítjuk a OneTab kiszolgálóra, amint ismét elérhető."
+   },
+   "cannotCreateTabGroupInTabGroup": {
+      "message": "A választott cél helye egy lapcsoport. Nem hozhat létre új lapcsoportot egy meglévő lapcsoporton belül. Válasszon másik célhelyet."
+   },
+   "cannotMixTabsGroupsFoldersDuringDrag": {
+      "message": "Húzáskor nem lehet lapokat, csoportokat és mappákat keverni. Ez azért van, mert például egy mappát nem lehet ugyanoda húzni, ahová egy lapot."
+   },
+   "caseSensitive": {
+      "message": "Kis- és nagybetűk megkülönböztetése"
+   },
+   "changesMadeSinceSharedPageCreation": {
+      "message": "Változások történtek a megosztott oldal létrehozása óta. Kattintson a 'Frissítés' gombra a meglévő megosztott oldal frissítéséhez."
+   },
+   "checkboxesDeterminePinnedAndGroupedTabMergeInclusion": {
+      "message": "Az oldal tetején lévő jelölőnégyzetek határozzák meg, hogy a rögzített, illetve a lapcsoportokban lévő lapok bekerüljenek-e az összevonásba."
+   },
+   "chooseALocation": {
+      "message": "Válasszon célhelyet"
+   },
+   "chooseALocationToImportTo": {
+      "message": "Válasszon célhelyet az importáláshoz"
+   },
+   "chooseExportLocation": {
+      "message": "Válasszon exportálási forrást"
+   },
+   "chooseLightDarkTheme": {
+      "message": "Világos/sötét téma választása"
+   },
+   "chooseLocationToCopyTo": {
+      "message": "Válasszon célhelyet a másoláshoz"
+   },
+   "chooseLocationToMoveTo": {
+      "message": "Válasszon célhelyet az áthelyezéshez"
+   },
+   "chooseLocationToRestoreTo": {
+      "message": "Válasszon célhelyet a visszaállításhoz"
+   },
+   "chooseToIncludeNotes": {
+      "message": "Ha megjegyzéseket adott a lapokhoz vagy csoportokhoz, válassza ki, hogy bekerüljenek-e a megosztott weboldalra"
+   },
+   "chooseToIncludeRatings": {
+      "message": "Ha csillagos értékeléseket adott a lapokhoz vagy csoportokhoz, válassza ki, hogy bekerüljenek-e a megosztott weboldalra"
+   },
+   "chromeIncognitoInstructions": {
+      "message": "A böngésző beállításaiban nyissa meg a „Beállítások” → „Bővítmények” → „OneTab” → „Részletek” menüt, majd engedélyezze az „Engedélyezés inkognitó módban” lehetőséget."
+   },
+   "clickButtonToAllowTabAccess": {
+      "message": "Kattintson az alábbi gombra, hogy a OneTab hozzáférhessen a megnyitott lapjaihoz."
+   },
+   "clickHereToContinue": {
+      "message": "Kattintson ide a folytatáshoz."
+   },
+   "clickOneTabIconToStoreTabsHere": {
+      "message": "Kattintson a böngésző eszköztárán a OneTab ikonra, hogy itt tárolja a megnyitott lapokat."
+   },
+   "closeSelectedTabsAndStoreInONETAB_few": {
+      "message": "{COUNT} kijelölt lap bezárása és tárolása az ONETAB alkalmazásban"
+   },
+   "closeSelectedTabsAndStoreInONETAB_many": {
+      "message": "{COUNT} kijelölt lap bezárása és tárolása az ONETAB alkalmazásban"
+   },
+   "closeSelectedTabsAndStoreInONETAB_one": {
+      "message": "{COUNT} kijelölt lap bezárása és tárolása az ONETAB alkalmazásban"
+   },
+   "closeSelectedTabsAndStoreInONETAB_other": {
+      "message": "{COUNT} kijelölt lap bezárása és tárolása az ONETAB alkalmazásban"
+   },
+   "closeSelectedTabsAndStoreInONETAB_two": {
+      "message": "{COUNT} kijelölt lap bezárása és tárolása az ONETAB alkalmazásban"
+   },
+   "closeSelectedTabsAndStoreInONETAB_zero": {
+      "message": "{COUNT} kijelölt lap bezárása és tárolása az ONETAB alkalmazásban"
+   },
+   "closeSelectedTabs_few": {
+      "message": "{COUNT} kijelölt lap bezárása"
+   },
+   "closeSelectedTabs_many": {
+      "message": "{COUNT} kijelölt lap bezárása"
+   },
+   "closeSelectedTabs_one": {
+      "message": "{COUNT} kijelölt lap bezárása"
+   },
+   "closeSelectedTabs_other": {
+      "message": "{COUNT} kijelölt lap bezárása"
+   },
+   "closeSelectedTabs_two": {
+      "message": "{COUNT} kijelölt lap bezárása"
+   },
+   "closeSelectedTabs_zero": {
+      "message": "{COUNT} kijelölt lap bezárása"
+   },
+   "closeTab": {
+      "message": "Lap bezárása"
+   },
+   "closeTabAndStore": {
+      "message": "Lap bezárása és tárolása az ONETAB alkalmazásban"
+   },
+   "closeTabs": {
+      "message": "Lapok bezárása"
+   },
+   "closeTabsAfterMerge": {
+      "message": "Lapok bezárása az összevonás után"
+   },
+   "closeTabsAlreadyStoredInOneTab_few": {
+      "message": "A OneTab alkalmazásban már tárolt {COUNT} lap bezárása"
+   },
+   "closeTabsAlreadyStoredInOneTab_many": {
+      "message": "A OneTab alkalmazásban már tárolt {COUNT} lap bezárása"
+   },
+   "closeTabsAlreadyStoredInOneTab_one": {
+      "message": "A OneTab alkalmazásban már tárolt {COUNT} lap bezárása"
+   },
+   "closeTabsAlreadyStoredInOneTab_other": {
+      "message": "A OneTab alkalmazásban már tárolt {COUNT} lap bezárása"
+   },
+   "closeTabsAlreadyStoredInOneTab_two": {
+      "message": "A OneTab alkalmazásban már tárolt {COUNT} lap bezárása"
+   },
+   "closeTabsAlreadyStoredInOneTab_zero": {
+      "message": "A OneTab alkalmazásban már tárolt {COUNT} lap bezárása"
+   },
+   "closeTabsAndStore": {
+      "message": "Lapok bezárása és tárolása az ONETAB alkalmazásban"
+   },
+   "closeTheseDuplicates": {
+      "message": "E duplikátumok bezárása"
+   },
+   "closeThisDuplicate": {
+      "message": "E duplikátum bezárása"
+   },
+   "completeEditingShortcutInfo": {
+      "message": "Jegyzetmező szerkesztésekor ezzel a gyorsbillentyűvel fejezheti be a szerkesztést."
+   },
+   "configureShortcuts": {
+      "message": "Gyorsbillentyűk beállítása"
+   },
+   "conflictingShortcutsHint": {
+      "message": "Ha a fenti billentyűparancsok bármelyike nem működik, vagy ütközik más alkalmazásokkal, állítson be másik gyorsbillentyűt."
+   },
+   "continue": {
+      "message": "Folytatás"
+   },
+   "convertTabsIntoAList": {
+      "message": "Lapok listává alakítása"
+   },
+   "copiedToClipboard": {
+      "message": "Vágólapra másolva"
+   },
+   "copy": {
+      "message": "Másolás"
+   },
+   "copyLinksToClipboard": {
+      "message": "Hivatkozások másolása a vágólapra"
+   },
+   "copySharedPageUrl": {
+      "message": "Megosztott oldal URL-jének másolása"
+   },
+   "copyToClipboard": {
+      "message": "Másolás a vágólapra"
+   },
+   "createANewGroupHere": {
+      "message": "Új csoport létrehozása itt"
+   },
+   "createFolderAbove": {
+      "message": "Mappa létrehozása felül"
+   },
+   "createFolderAboveBelow": {
+      "message": "Mappa létrehozása felül / alul"
+   },
+   "createFolderAboveWithinBelow": {
+      "message": "Mappa létrehozása felül / belül / alul"
+   },
+   "createFolderBelow": {
+      "message": "Mappa létrehozása alul"
+   },
+   "createFolderWithin": {
+      "message": "Mappa létrehozása ezen belül"
+   },
+   "createGroupAbove": {
+      "message": "Csoport létrehozása felül"
+   },
+   "createGroupAboveBelow": {
+      "message": "Csoport létrehozása felül / alul"
+   },
+   "createGroupAboveWithinBelow": {
+      "message": "Csoport létrehozása felül / belül / alul"
+   },
+   "createGroupBelow": {
+      "message": "Csoport létrehozása alul"
+   },
+   "createGroupInsideDestination": {
+      "message": "Új csoport létrehozása a célhelyen belül"
+   },
+   "createGroupInsideDestinationHelp": {
+      "message": "Ha nincs bejelölve, a lapjai közvetlenül a célcsoportba kerülnek. Ha be van jelölve, a célcsoporton belül új böngésző lapcsoport jön létre a lapjaihoz. Csak akkor jelölje be, ha a böngésző „lapcsoportok” funkcióját szeretné használni."
+   },
+   "createGroupWithin": {
+      "message": "Csoport létrehozása ezen belül"
+   },
+   "createNewGroupTip": {
+      "message": "Új csoport létrehozásához vegye ki a jelölést a „Csak mappák” opcióból"
+   },
+   "createdOnOrAfterColon": {
+      "message": "Létrehozva ekkor vagy utána:"
+   },
+   "createdOnOrBeforeColon": {
+      "message": "Létrehozva ekkor vagy előtte:"
+   },
+   "createdPreceedingDate": {
+      "message": "Létrehozva"
+   },
+   "darkTheme": {
+      "message": "Sötét téma"
+   },
+   "dayCount_few": {
+      "message": "{COUNT} nap"
+   },
+   "dayCount_many": {
+      "message": "{COUNT} nap"
+   },
+   "dayCount_one": {
+      "message": "{COUNT} nap"
+   },
+   "dayCount_other": {
+      "message": "{COUNT} nap"
+   },
+   "dayCount_two": {
+      "message": "{COUNT} nap"
+   },
+   "dayCount_zero": {
+      "message": "{COUNT} nap"
+   },
+   "delete": {
+      "message": "Törlés"
+   },
+   "deleteAllTrash": {
+      "message": "Kuka ürítése"
+   },
+   "deleteThisCopy": {
+      "message": "E példány törlése"
+   },
+   "deselectAll": {
+      "message": "Összes kijelölés megszüntetése"
+   },
+   "destinationColon": {
+      "message": "Cél:"
+   },
+   "disabled": {
+      "message": "Letiltva"
+   },
+   "doneTaskCount_few": {
+      "message": "{COUNT} kész"
+   },
+   "doneTaskCount_many": {
+      "message": "{COUNT} befejezve"
+   },
+   "doneTaskCount_one": {
+      "message": "{COUNT} kész feladat"
+   },
+   "doneTaskCount_other": {
+      "message": "{COUNT} kész feladat"
+   },
+   "doneTaskCount_two": {
+      "message": "{COUNT} kész feladat"
+   },
+   "doneTaskCount_zero": {
+      "message": "{COUNT} kész feladat"
+   },
+   "dontCloseGroupedTabs": {
+      "message": "Ne zárja be a lapcsoportokban lévő lapokat"
+   },
+   "dontClosePinnedTabs": {
+      "message": "Ne zárja be a rögzített lapokat"
+   },
+   "dontCloseTabsFromDomains": {
+      "message": "Ne zárja be az EXAMPLE.COM lapjait"
+   },
+   "dragTabsHereForQuickList": {
+      "message": "Húzza ide a tárolt lapokat vagy csoportokat. Felkerülnek a gyorslistára."
+   },
+   "editTabGroupTitleAndNotes": {
+      "message": "A lapcsoport címének és megjegyzéseinek szerkesztése"
+   },
+   "emojiShortcutInfo": {
+      "message": "Jegyzetmező szerkesztésekor ezzel a gyorsbillentyűvel nyithatja meg az emoji-választót."
+   },
+   "emptyInBrackets": {
+      "message": "(üres)"
+   },
+   "emptyOneTabInfoMsg": {
+      "message": "Ha több lap van megnyitva, kattintson a böngésző eszköztárán a OneTab ikonra, és a megnyitott lapok itt fognak megjelenni."
+   },
+   "enabled": {
+      "message": "Engedélyezve"
+   },
+   "encryptedSyncAndBackup": {
+      "message": "Titkosított szinkronizálás és biztonsági mentés"
+   },
+   "encryptedSyncAndBackupComingSoonMessage": {
+      "message": "Hamarosan: szinkronizálhatja OneTab adatait több böngészőprofil és számítógép között.\nA OneTab teljesen meg lett újítva, így az egyik eszközön végzett módosítások azonnal megjelennek az összes többi eszközön.\nHa használja ezt a funkciót, az adatai végpontok közötti, erős AES‑256 titkosítással lesznek védve. Így a OneTab fejlesztői sem láthatják azokat a lapokat, amelyeket lementett vagy eszközök között szinkronizált, mert a titkosítási kulcs csak az Ön birtokában van."
+   },
+   "everything": {
+      "message": "Minden"
+   },
+   "exampleLink": {
+      "message": "Példa hivatkozás"
+   },
+   "exampleLinkTitle": {
+      "message": "Példa hivatkozás címe"
+   },
+   "exampleLinkTitleOptional": {
+      "message": "Példa hivatkozás címe (opcionális)"
+   },
+   "exampleRichTextParagraph": {
+      "message": "Példa bekezdés PLACEHOLDER és PLACEHOLDER elemmel"
+   },
+   "exampleWebsitePageTitle": {
+      "message": "Példa weboldal címe"
+   },
+   "excludeDomainFromOneTab": {
+      "message": "EXAMPLE.COM kizárása a OneTab-ból"
+   },
+   "excludeWebSiteFromOneTab": {
+      "message": "E webhely kizárása a OneTab-ból"
+   },
+   "expiresColon": {
+      "message": "Lejárat:"
+   },
+   "export": {
+      "message": "Exportálás"
+   },
+   "exportImportUrls": {
+      "message": "URL-ek exportálása/importálása"
+   },
+   "exportThenImportNote": {
+      "message": "Az alábbi URL-lista vissza is importálható a OneTab-ba ezen vagy egy másik számítógépen"
+   },
+   "exportUrls": {
+      "message": "URL-ek exportálása"
+   },
+   "feedback": {
+      "message": "Visszajelzés"
+   },
+   "filter": {
+      "message": "Szűrő"
+   },
+   "firefoxIncognitoInstructions": {
+      "message": "A böngésző beállításaiban nyissa meg a „Beállítások” → „Kiegészítők és témák” → „Kiegészítők” → „OneTab” → „…” → „Kezelés” menüt, majd engedélyezze a „Futtatás privát ablakokban” beállítást."
+   },
+   "firefoxShortcutConfigInstructions": {
+      "message": "Írja be az „about:addons?type=extension” URL-t a böngésző címsorába. Amikor megjelenik az oldal, kattintson a fogaskerék ikonra, majd válassza a „Kiegészítők gyorsbillentyűinek kezelése” lehetőséget"
+   },
+   "folderCount_few": {
+      "message": "{COUNT} mappa"
+   },
+   "folderCount_many": {
+      "message": "{COUNT} mappa"
+   },
+   "folderCount_one": {
+      "message": "{COUNT} mappa"
+   },
+   "folderCount_other": {
+      "message": "{COUNT} mappa"
+   },
+   "folderCount_two": {
+      "message": "{COUNT} mappa"
+   },
+   "folderCount_zero": {
+      "message": "{COUNT} mappa"
+   },
+   "folders": {
+      "message": "Mappák"
+   },
+   "foldersOnly": {
+      "message": "Csak mappák"
+   },
+   "gettingStarted": {
+      "message": "Első lépések"
+   },
+   "goToParentFolder": {
+      "message": "Ugrás a szülőmappába"
+   },
+   "groupCount_few": {
+      "message": "{COUNT} csoport"
+   },
+   "groupCount_many": {
+      "message": "{COUNT} csoport"
+   },
+   "groupCount_one": {
+      "message": "{COUNT} csoport"
+   },
+   "groupCount_other": {
+      "message": "{COUNT} csoport"
+   },
+   "groupCount_two": {
+      "message": "{COUNT} csoport"
+   },
+   "groupCount_zero": {
+      "message": "{COUNT} csoport"
+   },
+   "groups": {
+      "message": "Csoportok"
+   },
+   "hasNotes": {
+      "message": "Megjegyzéssel"
+   },
+   "hasRating": {
+      "message": "Értékeléssel"
+   },
+   "help": {
+      "message": "Súgó"
+   },
+   "hideArchivedItems": {
+      "message": "Archivált elemek elrejtése"
+   },
+   "import": {
+      "message": "Importálás"
+   },
+   "importAndExport": {
+      "message": "Importálás és exportálás"
+   },
+   "importBookmarks": {
+      "message": "Könyvjelzők importálása"
+   },
+   "importFolderAndSubfolders": {
+      "message": "Mappa és almappák importálása"
+   },
+   "importLinksHere": {
+      "message": "Linkek importálása ide"
+   },
+   "importReadingList": {
+      "message": "Olvasólista importálása"
+   },
+   "importText": {
+      "message": "Szöveg importálása"
+   },
+   "importUrls": {
+      "message": "URL-ek importálása"
+   },
+   "importedBookmarks": {
+      "message": "Importált könyvjelzők"
+   },
+   "includeGroupedTabs": {
+      "message": "Lapcsoportokban lévő lapok belefoglalása"
+   },
+   "includeNotes": {
+      "message": "Megjegyzések mellékelése"
+   },
+   "includePinnedTabs": {
+      "message": "Rögzített lapok belefoglalása"
+   },
+   "includeStarRatings": {
+      "message": "Csillagos értékelések mellékelése"
+   },
+   "includeTabsAlreadyStored": {
+      "message": "A már eltárolt lapok belefoglalása"
+   },
+   "includeTabsFromDomains": {
+      "message": "Az EXAMPLE.COM webhelyről származó lapok belefoglalása"
+   },
+   "incogitoPermissionRequired": {
+      "message": "A OneTabnak engedélyre van szüksége inkognitó ablakok létrehozásához."
+   },
+   "incognitoWindows": {
+      "message": "Inkognitóablakok"
+   },
+   "invertSelection": {
+      "message": "Kijelölés megfordítása"
+   },
+   "justNow": {
+      "message": "épp most"
+   },
+   "keyboardShortcutsColon": {
+      "message": "Billentyűparancsok:"
+   },
+   "languageTitle": {
+      "message": "Nyelv:"
+   },
+   "lightTheme": {
+      "message": "Világos téma"
+   },
+   "localeId": {
+      "message": "hu"
+   },
+   "locationColon": {
+      "message": "Hely:"
+   },
+   "lock": {
+      "message": "Zárolás"
+   },
+   "lockMenuItemHelp": {
+      "message": "Ha egy csoport zárolt, nem törölhet vagy rendezhet át elemeket a csoporton belül. Zárolt csoport megnyitásakor az automatikus műveletek nem érvényesek. További információ az automatikus műveletekről a Beállítások oldalon."
+   },
+   "lockedGroupUnlockHelp": {
+      "message": "Feloldáshoz használja a legördülő menüt. Ha egy csoport zárolt, nem törölheti a csoportot vagy a benne lévő lapokat, és a lapok sorrendje sem módosítható."
+   },
+   "makeThisATask": {
+      "message": "Feladatként jelölés"
+   },
+   "manifestDescription": {
+      "message": "Akár 95% memóriát takarít meg, és csökkenti a lapok zsúfoltságát"
+   },
+   "markAsArchived": {
+      "message": "Archiváltként megjelölés"
+   },
+   "markAsArchivedMenuItemHelp": {
+      "message": "Megjegyzés: az archivált feladatok és az archivált csoportokban lévő feladatok nem jelennek meg a feladatok oszlopban"
+   },
+   "markAsDoneTask": {
+      "message": "Kész feladatként jelölés"
+   },
+   "markAsPendingTask": {
+      "message": "Függő feladatként jelölés"
+   },
+   "matchCount_few": {
+      "message": "{COUNT} találat"
+   },
+   "matchCount_many": {
+      "message": "{COUNT} találat"
+   },
+   "matchCount_one": {
+      "message": "{COUNT} találat"
+   },
+   "matchCount_other": {
+      "message": "{COUNT} találat"
+   },
+   "matchCount_two": {
+      "message": "{COUNT} találat"
+   },
+   "matchCount_zero": {
+      "message": "{COUNT} találat"
+   },
+   "matchWholeWordsOnly": {
+      "message": "Csak teljes szavak egyezzenek"
+   },
+   "mayNeedToRestartBrowser": {
+      "message": "Lehet, hogy frissítenie és újra kell indítania a böngészőt is."
+   },
+   "mergeIntoParent": {
+      "message": "Egyesítés a szülővel"
+   },
+   "mergeOpenTabsHere_few": {
+      "message": "{COUNT} nyitott lap összevonása ide"
+   },
+   "mergeOpenTabsHere_many": {
+      "message": "{COUNT} nyitott lap összevonása ide"
+   },
+   "mergeOpenTabsHere_one": {
+      "message": "{COUNT} nyitott lap összevonása ide"
+   },
+   "mergeOpenTabsHere_other": {
+      "message": "{COUNT} nyitott lap összevonása ide"
+   },
+   "mergeOpenTabsHere_two": {
+      "message": "{COUNT} nyitott lap összevonása ide"
+   },
+   "mergeOpenTabsHere_zero": {
+      "message": "{COUNT} nyitott lap összevonása ide"
+   },
+   "mergeSelectedTabsHere_few": {
+      "message": "{COUNT} kijelölt lap összevonása ide"
+   },
+   "mergeSelectedTabsHere_many": {
+      "message": "{COUNT} kijelölt lap összevonása ide"
+   },
+   "mergeSelectedTabsHere_one": {
+      "message": "{COUNT} kijelölt lap összevonása ide"
+   },
+   "mergeSelectedTabsHere_other": {
+      "message": "{COUNT} kijelölt lap összevonása ide"
+   },
+   "mergeSelectedTabsHere_two": {
+      "message": "{COUNT} kijelölt lap összevonása ide"
+   },
+   "mergeSelectedTabsHere_zero": {
+      "message": "{COUNT} kijelölt lap összevonása ide"
+   },
+   "mergeWithInnerGroups": {
+      "message": "Egyesítés a belső csoportokkal"
+   },
+   "modifySharing": {
+      "message": "Megosztás módosítása"
+   },
+   "moreEllipsis": {
+      "message": "Továbbiak…"
+   },
+   "moreSearchFilters": {
+      "message": "További keresési szűrők"
+   },
+   "moreTripleDot": {
+      "message": "Továbbiak…"
+   },
+   "move": {
+      "message": "Áthelyezés"
+   },
+   "moveToTrash": {
+      "message": "Áthelyezés a kukába"
+   },
+   "namedOnly": {
+      "message": "Csak elnevezettek"
+   },
+   "navigationFilter": {
+      "message": "Navigációs szűrő"
+   },
+   "newExclamation": {
+      "message": "Új!"
+   },
+   "noDupsExistExceptForColon": {
+      "message": "Nincsenek duplikátumok, kivéve:"
+   },
+   "noDupsFoundHere": {
+      "message": "Itt nem találhatók duplikátumok"
+   },
+   "noMatches": {
+      "message": "Nincs találat"
+   },
+   "noMatchesFound": {
+      "message": "Nincs találat"
+   },
+   "noOpenTabsToStore": {
+      "message": "Ebben az ablakban nincsenek tárolható nyitott lapok."
+   },
+   "noReadingListEntries": {
+      "message": "Nem találhatók elemek az olvasólistán"
+   },
+   "noTabsInOneTabYet": {
+      "message": "Még nincsenek lapok a OneTab-ban"
+   },
+   "noTabsMeetCriteriaUseCheckboxes": {
+      "message": "Egyetlen nyitott lap sem felel meg a feltételeknek. Használja a fenti jelölőnégyzeteket."
+   },
+   "noTextHasBeenEntered": {
+      "message": "Nem adott meg szöveget"
+   },
+   "nonArchived": {
+      "message": "Nem archivált"
+   },
+   "notAssigned": {
+      "message": "Nincs hozzárendelve"
+   },
+   "notes": {
+      "message": "Megjegyzések"
+   },
+   "notesAboutTheLinkOptional": {
+      "message": "Megjegyzések a hivatkozáshoz (opcionális)"
+   },
+   "notesAboutTheSecondLinkOptional": {
+      "message": "Megjegyzések a második hivatkozáshoz (opcionális)"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "omniboxShortcutInfo": {
+      "message": "A OneTab listában bármely lapról való kereséshez: lépjen a böngésző címsorába, írja be az 1-et, majd egy szóközt, majd a keresőkifejezést."
+   },
+   "oneTabDesignedToProtectPrivacy": {
+      "message": "A OneTab az adatvédelemre lett tervezve. A lapjai nem kerülnek a tudomásunkra."
+   },
+   "oneTabImportExportPageTitle": {
+      "message": "OneTab importálás/exportálás"
+   },
+   "oneTabNeedsPermissionToAccessYourTabs": {
+      "message": "A OneTabnak engedélyre van szüksége a lapok eléréséhez."
+   },
+   "oneTabOptionsPageTitle": {
+      "message": "OneTab beállítások"
+   },
+   "oneTabPermissionRequired": {
+      "message": "OneTab – Engedély szükséges"
+   },
+   "oneTabRestartRequired": {
+      "message": "A OneTab újraindítása szükséges."
+   },
+   "oneTabSlashShortcutInfo": {
+      "message": "A OneTab oldalon nyomja meg a perjel (/) billentyűt a keresőmező fókuszálásához."
+   },
+   "open": {
+      "message": "Megnyitás"
+   },
+   "openActionPopup": {
+      "message": "Műveleti felugró ablak megnyitása"
+   },
+   "openAsCollapsedTabGroup": {
+      "message": "Megnyitás „összecsukott” lapcsoportként"
+   },
+   "openAsCollapsedTabGroupMenuItemHelp": {
+      "message": "Ha ezeket a lapokat összecsukott „lapcsoportként” nyitja meg, csak a csoportcímke látszik, amíg rá nem kattint a lapok megjelenítéséhez."
+   },
+   "openAsTabGroup": {
+      "message": "Megnyitás böngésző lapcsoportként"
+   },
+   "openAsTabGroupMenuItemHelp": {
+      "message": "A böngésző lehetővé teszi, hogy az ablakon belül a lapokat színezett „lapcsoportokba” rendezze."
+   },
+   "openGroupsLimitNotice_few": {
+      "message": "A böngésző túlterhelésének megelőzése érdekében csak az első {COUNT} csoport nyílik meg."
+   },
+   "openGroupsLimitNotice_many": {
+      "message": "A böngésző túlterhelésének megelőzése érdekében csak az első {COUNT} csoport nyílik meg."
+   },
+   "openGroupsLimitNotice_one": {
+      "message": "A böngésző túlterhelésének megelőzése érdekében csak az első {COUNT} csoport nyílik meg."
+   },
+   "openGroupsLimitNotice_other": {
+      "message": "A böngésző túlterhelésének megelőzése érdekében csak az első {COUNT} csoport nyílik meg."
+   },
+   "openGroupsLimitNotice_two": {
+      "message": "A böngésző túlterhelésének megelőzése érdekében csak az első {COUNT} csoport nyílik meg."
+   },
+   "openGroupsLimitNotice_zero": {
+      "message": "A böngésző túlterhelésének megelőzése érdekében csak az első {COUNT} csoport nyílik meg."
+   },
+   "openInIncognitoWindow": {
+      "message": "Megnyitás új inkognitó ablakban"
+   },
+   "openInNewWindow": {
+      "message": "Megnyitás új ablakban"
+   },
+   "openInThisWindow": {
+      "message": "Megnyitás ebben az ablakban"
+   },
+   "openONETABLogo": {
+      "message": "ONETAB megnyitása"
+   },
+   "openOneTab": {
+      "message": "OneTab megnyitása"
+   },
+   "openOneTabAfter": {
+      "message": "A OneTab megnyitása a lapok tárolása után"
+   },
+   "openTabFromWebsite": {
+      "message": "Nyisson meg egy lapot, és lépjen a webhelyre"
+   },
+   "openTabLimit_few": {
+      "message": "A böngésző túlterhelésének megelőzése érdekében egyszerre legfeljebb {COUNT} lap nyitható meg."
+   },
+   "openTabLimit_many": {
+      "message": "A böngésző túlterhelésének megelőzése érdekében egyszerre legfeljebb {COUNT} lap nyitható meg."
+   },
+   "openTabLimit_one": {
+      "message": "A böngésző túlterhelésének megelőzése érdekében egyszerre legfeljebb {COUNT} lap nyitható meg."
+   },
+   "openTabLimit_other": {
+      "message": "A böngésző túlterhelésének megelőzése érdekében egyszerre legfeljebb {COUNT} lap nyitható meg."
+   },
+   "openTabLimit_two": {
+      "message": "A böngésző túlterhelésének megelőzése érdekében egyszerre legfeljebb {COUNT} lap nyitható meg."
+   },
+   "openTabLimit_zero": {
+      "message": "A böngésző túlterhelésének megelőzése érdekében egyszerre legfeljebb {COUNT} lap nyitható meg."
+   },
+   "openTabsAlreadyStoredHere_few": {
+      "message": "Már itt tárolt {COUNT} nyitott lap:"
+   },
+   "openTabsAlreadyStoredHere_many": {
+      "message": "Már itt tárolt {COUNT} nyitott lap:"
+   },
+   "openTabsAlreadyStoredHere_one": {
+      "message": "Már itt tárolt {COUNT} nyitott lap:"
+   },
+   "openTabsAlreadyStoredHere_other": {
+      "message": "Már itt tárolt {COUNT} nyitott lap:"
+   },
+   "openTabsAlreadyStoredHere_two": {
+      "message": "Már itt tárolt {COUNT} nyitott lap:"
+   },
+   "openTabsAlreadyStoredHere_zero": {
+      "message": "Már itt tárolt {COUNT} nyitott lap:"
+   },
+   "openTabsConfirm_few": {
+      "message": "{COUNT} lap megnyitására készül. Biztosan folytatja?"
+   },
+   "openTabsConfirm_many": {
+      "message": "{COUNT} lap megnyitására készül. Biztosan folytatja?"
+   },
+   "openTabsConfirm_one": {
+      "message": "{COUNT} lap megnyitására készül. Biztosan folytatja?"
+   },
+   "openTabsConfirm_other": {
+      "message": "{COUNT} lap megnyitására készül. Biztosan folytatja?"
+   },
+   "openTabsConfirm_two": {
+      "message": "{COUNT} lap megnyitására készül. Biztosan folytatja?"
+   },
+   "openTabsConfirm_zero": {
+      "message": "{COUNT} lap megnyitására készül. Biztosan folytatja?"
+   },
+   "openTabsNotStoredInOneTab_few": {
+      "message": "{COUNT} nyitott lap nincs tárolva a OneTab alkalmazásban"
+   },
+   "openTabsNotStoredInOneTab_many": {
+      "message": "{COUNT} nyitott lap nincs tárolva a OneTab alkalmazásban"
+   },
+   "openTabsNotStoredInOneTab_one": {
+      "message": "{COUNT} nyitott lap nincs tárolva a OneTab alkalmazásban"
+   },
+   "openTabsNotStoredInOneTab_other": {
+      "message": "{COUNT} nyitott lap nincs tárolva a OneTab alkalmazásban"
+   },
+   "openTabsNotStoredInOneTab_two": {
+      "message": "{COUNT} nyitott lap nincs tárolva a OneTab alkalmazásban"
+   },
+   "openTabsNotStoredInOneTab_zero": {
+      "message": "{COUNT} nyitott lap nincs tárolva a OneTab alkalmazásban"
+   },
+   "optionAutoActionOnGroupOpenArchiveDesc": {
+      "message": "A csoport archiválásának megakadályozásához tartsa lenyomva az Alt/Option billentyűt a csoport megnyitására kattintáskor"
+   },
+   "optionAutoActionOnGroupOpenArchiveTitle": {
+      "message": "Nyissa meg a lapokat, és jelölje a csoportot archiváltnak"
+   },
+   "optionAutoActionOnGroupOpenHeading": {
+      "message": "Automatikus művelet csoport megnyitásakor:"
+   },
+   "optionAutoActionOnGroupOpenNote": {
+      "message": "Az automatikus műveletek nem vonatkoznak a zárolt vagy feladatként jelölt csoportokra."
+   },
+   "optionAutoActionOnGroupOpenOpenDesc": {
+      "message": "A csoport archiváltnak jelöléséhez tartsa lenyomva az Alt/Option billentyűt a csoport megnyitására kattintáskor"
+   },
+   "optionAutoActionOnGroupOpenOpenTitle": {
+      "message": "Csak nyissa meg a lapokat"
+   },
+   "optionAutoActionOnGroupOpenTrashDesc": {
+      "message": "Az automatikus kukába helyezés megakadályozásához tartsa lenyomva az Alt/Option billentyűt a csoport megnyitására kattintáskor"
+   },
+   "optionAutoActionOnGroupOpenTrashTitle": {
+      "message": "Nyissa meg a lapokat, és helyezze a csoportot a kukába"
+   },
+   "optionAutoActionOnTabOpenArchiveDesc": {
+      "message": "Az automatikus archiválás megakadályozásához tartsa lenyomva az Alt/Option billentyűt a lap megnyitására kattintáskor"
+   },
+   "optionAutoActionOnTabOpenArchiveTitle": {
+      "message": "Nyissa meg a lapot, és jelölje archiváltnak"
+   },
+   "optionAutoActionOnTabOpenHeading": {
+      "message": "Automatikus művelet egy lap megnyitásakor:"
+   },
+   "optionAutoActionOnTabOpenNote": {
+      "message": "Az automatikus műveletek nem vonatkoznak a zárolt vagy feladatként jelölt csoportokban lévő lapokra."
+   },
+   "optionAutoActionOnTabOpenOpenDesc": {
+      "message": "A lap archiváltnak jelöléséhez tartsa lenyomva az Alt/Option billentyűt a lap megnyitására kattintáskor"
+   },
+   "optionAutoActionOnTabOpenOpenTitle": {
+      "message": "Csak nyissa meg a lapot"
+   },
+   "optionAutoActionOnTabOpenTrashDesc": {
+      "message": "Az automatikus kukába helyezés megakadályozásához tartsa lenyomva az Alt/Option billentyűt a lap megnyitására kattintáskor"
+   },
+   "optionAutoActionOnTabOpenTrashTitle": {
+      "message": "Nyissa meg a lapot, és helyezze a kukába"
+   },
+   "optionCopyToClipboardFormatHeading": {
+      "message": "Hivatkozások másolása a vágólapra:"
+   },
+   "optionCopyToClipboardFormatNote": {
+      "message": "Ez a beállítás a „Másolás a vágólapra” műveletnél érvényes. A lapokat és csoportokat közvetlenül a OneTab-ból is áthúzhatja egy dokumentumba."
+   },
+   "optionCopyToClipboardFormatRichTextDesc": {
+      "message": "Az olyan alkalmazások, mint a szövegszerkesztők, támogatják a formázott szöveg beillesztését. Ha nem támogatott, egyszerű szöveg kerül beillesztésre."
+   },
+   "optionCopyToClipboardFormatRichTextTitle": {
+      "message": "Formázott szöveg, ahol elérhető"
+   },
+   "optionCopyToClipboardFormatTitleUrlTitle": {
+      "message": "Cím és URL"
+   },
+   "optionCopyToClipboardFormatUrlOnlyTitle": {
+      "message": "Csak URL"
+   },
+   "optionCopyToClipboardFormatUrlTitleTitle": {
+      "message": "URL és cím"
+   },
+   "optionDefaultTabGroupOpenTypeCurrentWindow": {
+      "message": "A böngésző lapcsoport megnyitása az aktuális ablakban"
+   },
+   "optionDefaultTabGroupOpenTypeHeading": {
+      "message": "Amikor egy csoport „böngésző lapcsoportként” van beállítva megnyílni:"
+   },
+   "optionDefaultTabGroupOpenTypeNewWindow": {
+      "message": "A böngésző lapcsoport megnyitása új ablakban"
+   },
+   "optionDefaultTabGroupOpenTypeNote": {
+      "message": "Ha a legördülőben egy adott lehetőséget választ (például inkognitó ablakban történő megnyitást), azt a beállítást megjegyezzük az adott csoportra."
+   },
+   "optionDefaultWindowGroupOpenTypeCurrentWindow": {
+      "message": "A lapok megnyitása az aktuális ablakban"
+   },
+   "optionDefaultWindowGroupOpenTypeHeading": {
+      "message": "Csoport megnyitásakor:"
+   },
+   "optionDefaultWindowGroupOpenTypeNewWindow": {
+      "message": "A lapok megnyitása új ablakban"
+   },
+   "optionDefaultWindowGroupOpenTypeNote": {
+      "message": "Ha a legördülőben egy adott lehetőséget választ (például inkognitó ablakban történő megnyitást), azt a beállítást megjegyezzük az adott csoportra."
+   },
+   "optionDiscardNonActiveTabOnOpenHeading": {
+      "message": "Memória (RAM) azonnali megtakarítása a lapok első megnyitásakor:"
+   },
+   "optionDiscardNonActiveTabOnOpenNote": {
+      "message": "Ha ez a beállítás engedélyezve van, a OneTab listából először megnyitott lapok azonnal kiürülnek a memóriából. Ez hasznos, ha gyakran nyit meg egyszerre sok lapot, mert megakadályozza, hogy mind betöltődjön a memóriába, amíg ténylegesen meg nem nyitja őket. Ha ez a beállítás le van tiltva, sok böngésző akkor is automatikusan kiüríti a nem használt lapokat a memóriából."
+   },
+   "optionDisplayContextMenuHeading": {
+      "message": "Kattintson a jobb gombbal egy weboldalon a OneTab helyi menüjének megnyitásához:"
+   },
+   "optionDisplayContextMenuNote": {
+      "message": "Ha letiltja a menüt, nem fogja tudni elérni a „Webhely kizárása a OneTab-ból” funkciót"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenFalseTitle": {
+      "message": "Váltás arra az ablakra, ahol a OneTab lap már nyitva van"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenHeading": {
+      "message": "„OneTab megnyitása” művelet:"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenNote": {
+      "message": "A „OneTab megnyitása” művelet billentyűparanccsal is elérhető. A böngésző eszköztárán a OneTab ikonra kattintva megjelenő felugró ablakban is elérhető."
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenTrueTitle": {
+      "message": "Bármely meglévő OneTab lap áthelyezése az aktuális ablakba"
+   },
+   "optionStartupLaunchDisplay": {
+      "message": "A OneTab megnyitása a böngésző indításakor"
+   },
+   "optionStartupLaunchNone": {
+      "message": "Ne nyissa meg automatikusan a OneTab-ot"
+   },
+   "optionStartupLaunchNoneDesc3": {
+      "message": "A OneTab kézi megnyitásához kattintson a böngésző eszköztárán a OneTab ikonra, és válassza a „OneTab megnyitása” lehetőséget. Alternatívaként kattintson a jobb gombbal bármely weboldalon, és a OneTab menüben kattintson a „OneTab megnyitása” elemre."
+   },
+   "optionStartupLaunchTitle": {
+      "message": "Indítás:"
+   },
+   "optionSwitchToOpenedTabFalseTitle": {
+      "message": "Nyissa meg a lapot, és maradjon a OneTab-ban"
+   },
+   "optionSwitchToOpenedTabHeading": {
+      "message": "Lapok megnyitásakor a OneTab oldalról:"
+   },
+   "optionSwitchToOpenedTabNote": {
+      "message": "Ha kattintáskor lenyomva tartja a Shiftet, a lap új ablakban nyílik meg"
+   },
+   "optionSwitchToOpenedTabTrueTitle": {
+      "message": "Nyissa meg a lapot, és váltson arra (kivéve, ha kattintáskor lenyomva tartja a Command ⌘/Ctrl billentyűt)"
+   },
+   "optionUrlAbbr": {
+      "message": "Rövidített"
+   },
+   "optionUrlDisplayTitle": {
+      "message": "URL megjelenítése:"
+   },
+   "optionUrlDomain": {
+      "message": "Csak domain"
+   },
+   "optionUrlFull": {
+      "message": "Teljes"
+   },
+   "optionUrlNone": {
+      "message": "Nincs"
+   },
+   "options": {
+      "message": "Beállítások"
+   },
+   "otherCopiesColon": {
+      "message": "Egyéb példányok:"
+   },
+   "pasteRichOrPlainTextBelow": {
+      "message": "Beilleszthet formázott vagy egyszerű szöveget is."
+   },
+   "pendingTaskCount_few": {
+      "message": "{COUNT} függőben"
+   },
+   "pendingTaskCount_many": {
+      "message": "{COUNT} függőben"
+   },
+   "pendingTaskCount_one": {
+      "message": "{COUNT} függő feladat"
+   },
+   "pendingTaskCount_other": {
+      "message": "{COUNT} függőben"
+   },
+   "pendingTaskCount_two": {
+      "message": "{COUNT} függőben"
+   },
+   "pendingTaskCount_zero": {
+      "message": "{COUNT} függőben"
+   },
+   "permissionRequiredPleaseTryAgain": {
+      "message": "Ahhoz, hogy bármely számítógépről elérhető megosztott oldalt hozzon létre, engedély szükséges a OneTab kiszolgálóval való együttműködéshez. Próbálja meg újra."
+   },
+   "pinToTopOfFolder": {
+      "message": "Rögzítés a mappa tetejére"
+   },
+   "pinToTopOfList": {
+      "message": "Rögzítés a lista tetejére"
+   },
+   "pinnedTabs": {
+      "message": "rögzített lapok"
+   },
+   "placeholderAndOtherLocations_few": {
+      "message": "PLACEHOLDER és további {COUNT} másik"
+   },
+   "placeholderAndOtherLocations_many": {
+      "message": "PLACEHOLDER és további {COUNT} másik"
+   },
+   "placeholderAndOtherLocations_one": {
+      "message": "PLACEHOLDER és további {COUNT} másik"
+   },
+   "placeholderAndOtherLocations_other": {
+      "message": "PLACEHOLDER és további {COUNT} másik"
+   },
+   "placeholderAndOtherLocations_two": {
+      "message": "PLACEHOLDER és további {COUNT} másik"
+   },
+   "placeholderAndOtherLocations_zero": {
+      "message": "PLACEHOLDER és további {COUNT} másik"
+   },
+   "placeholderExplanation": {
+      "message": "A böngésző biztonsági szabályai miatt a OneTab nem állíthatja vissza közvetlenül ezt az oldalt. Kérjük, másolja ki az URL-t, és illessze be a böngésző címsorába."
+   },
+   "plainTextLineFormat": {
+      "message": "Ha egyszerű szöveget illeszt be, ügyeljen arra, hogy minden URL tartalmazzon protokollt (https://wikipedia.org a puszta wikipedia.org helyett). Minden sor a következő formátumú legyen:"
+   },
+   "pleaseWaitTripleDot": {
+      "message": "Kérjük, várjon…"
+   },
+   "popupSlashShortcutInfo": {
+      "message": "A OneTab felugró ablakában (amely a OneTab ikonra kattintva jelenik meg) nyomja meg a perjel billentyűt a célhelyválasztó megnyitásához és a keresőmező fókuszálásához."
+   },
+   "privacyAssurance": {
+      "message": "Adatvédelmi garancia"
+   },
+   "privacyAssuranceDetail": {
+      "message": "A lapok listáját sem a OneTab fejlesztőinek, sem más félnek soha nem továbbítjuk és nem hozzuk nyilvánosságra. Egyetlen kivétel, ha szándékosan használja a „Megosztás weboldalként” funkciót, amellyel a lapok listáját weboldalként feltölti, hogy megoszthassa másokkal."
+   },
+   "privacyFirst": {
+      "message": "Első az adatvédelem"
+   },
+   "privacyFirstMessage": {
+      "message": "A OneTab az Ön személyes adatainak védelmére készült. A lapjai csak a számítógépén tárolódnak, és soha nem kerülnek megosztásra sem a OneTab fejlesztőivel, sem más féllel.\nHa használja a biztonsági mentés/szinkronizálás funkciónkat, az adatai végpontok közötti, erős AES‑256 titkosítással lesznek védve. Így a OneTab fejlesztői sem láthatják azokat a lapokat, amelyeket lementett vagy eszközök között szinkronizált, mert a titkosítási kulcs csak az Ön birtokában van.\nAz egyetlen kivétel az, ha szándékosan úgy dönt, hogy néhány lapját megosztja másokkal a „Megosztás weboldalként” funkció használatával.\nHiszünk az „Adatvédelem az első” elvében."
+   },
+   "privateBrowsingPermissionRequired": {
+      "message": "Engedély szükséges a OneTab számára privát ablakok létrehozásához."
+   },
+   "privateBrowsingWindows": {
+      "message": "Privát ablakok"
+   },
+   "quickList": {
+      "message": "Gyorslista"
+   },
+   "rating": {
+      "message": "Értékelés"
+   },
+   "readingList": {
+      "message": "Olvasólista"
+   },
+   "readingListPermissionNecesssary": {
+      "message": "Az olvasólista engedélye szükséges ahhoz, hogy a OneTab importálhasson az olvasólistájáról. Ha ez a funkció nem működik, előfordulhat, hogy a böngésző nem támogatja az olvasólistákat."
+   },
+   "recent": {
+      "message": "Legutóbbi"
+   },
+   "recentDestinationsColon": {
+      "message": "Legutóbbi célhelyek:"
+   },
+   "recentDuplicateRetainedHelp": {
+      "message": "Ha egy lap többször is előfordul, csak a legutóbbi példány marad meg"
+   },
+   "recentlyAccessed": {
+      "message": "Legutóbb megnyitott"
+   },
+   "recentlyCreated": {
+      "message": "Legutóbb létrehozott"
+   },
+   "recentlyModified": {
+      "message": "Legutóbb módosított"
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "message": "Csökkentse a memóriahasználatot 95%-kal"
+   },
+   "removeDuplicateTabsHere_few": {
+      "message": "Itt található {COUNT} duplikált lap eltávolítása"
+   },
+   "removeDuplicateTabsHere_many": {
+      "message": "Itt található {COUNT} duplikált lap eltávolítása"
+   },
+   "removeDuplicateTabsHere_one": {
+      "message": "Itt található {COUNT} duplikált lap eltávolítása"
+   },
+   "removeDuplicateTabsHere_other": {
+      "message": "Itt található {COUNT} duplikált lap eltávolítása"
+   },
+   "removeDuplicateTabsHere_two": {
+      "message": "Itt található {COUNT} duplikált lap eltávolítása"
+   },
+   "removeDuplicateTabsHere_zero": {
+      "message": "Itt található {COUNT} duplikált lap eltávolítása"
+   },
+   "removeDuplicates": {
+      "message": "Duplikátumok eltávolítása"
+   },
+   "removeFromQuickList": {
+      "message": "Eltávolítás a gyorslistáról"
+   },
+   "removeTabsElsewhereAlsoHere_few": {
+      "message": "Máshol található, itt is szereplő {COUNT} lap eltávolítása"
+   },
+   "removeTabsElsewhereAlsoHere_many": {
+      "message": "Máshol található, itt is szereplő {COUNT} lap eltávolítása"
+   },
+   "removeTabsElsewhereAlsoHere_one": {
+      "message": "Máshol található, itt is szereplő {COUNT} lap eltávolítása"
+   },
+   "removeTabsElsewhereAlsoHere_other": {
+      "message": "Máshol található, itt is szereplő {COUNT} lap eltávolítása"
+   },
+   "removeTabsElsewhereAlsoHere_two": {
+      "message": "Máshol található, itt is szereplő {COUNT} lap eltávolítása"
+   },
+   "removeTabsElsewhereAlsoHere_zero": {
+      "message": "Máshol található, itt is szereplő {COUNT} lap eltávolítása"
+   },
+   "removeTabsHereAlsoElsewhere_few": {
+      "message": "Itt található, máshol is szereplő {COUNT} lap eltávolítása"
+   },
+   "removeTabsHereAlsoElsewhere_many": {
+      "message": "Itt található, máshol is szereplő {COUNT} lap eltávolítása"
+   },
+   "removeTabsHereAlsoElsewhere_one": {
+      "message": "Itt található, máshol is szereplő {COUNT} lap eltávolítása"
+   },
+   "removeTabsHereAlsoElsewhere_other": {
+      "message": "Itt található, máshol is szereplő {COUNT} lap eltávolítása"
+   },
+   "removeTabsHereAlsoElsewhere_two": {
+      "message": "Itt található, máshol is szereplő {COUNT} lap eltávolítása"
+   },
+   "removeTabsHereAlsoElsewhere_zero": {
+      "message": "Itt található, máshol is szereplő {COUNT} lap eltávolítása"
+   },
+   "rename": {
+      "message": "Átnevezés"
+   },
+   "restore": {
+      "message": "Visszaállítás"
+   },
+   "restrictSearchToFolderColon": {
+      "message": "Keresés korlátozása a következő mappára:"
+   },
+   "results": {
+      "message": "Találatok"
+   },
+   "returnToOneTab": {
+      "message": "Vissza a OneTab oldalra"
+   },
+   "reverse": {
+      "message": "Fordított"
+   },
+   "rightClickAndOpenOneTabMenu": {
+      "message": "Kattintson a jobb gombbal a weboldalon, és nyissa meg a OneTab menüt"
+   },
+   "rightClickMenuDisabledNote": {
+      "message": "Megjegyzés: Letiltotta a OneTab helyi menüjét. Engedélyezze a OneTab beállítások oldalán."
+   },
+   "rightClickSelectionOptionsTip": {
+      "message": "Tipp: Miután bejelölt egy elemet, kattintson jobb gombbal a pipa ikonra további kijelölési lehetőségekért"
+   },
+   "rightClickTickTip": {
+      "message": "Tipp: Kattintson jobb gombbal az egyes lapok melletti pipa ikonra a kijelölési eszközök eléréséhez"
+   },
+   "safariApproveOneTabInSettings": {
+      "message": "Nyissa meg a Beállításokat, és engedélyezze, hogy a OneTab hozzáférjen minden webhelyhez."
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "message": "Akár 95% memóriát takarít meg, és csökkenti a lapok zsúfoltságát a Google Chrome-ban"
+   },
+   "searchHere": {
+      "message": "Keresés itt"
+   },
+   "searchOneTab": {
+      "message": "Keresés a OneTab alkalmazásban"
+   },
+   "secondExampleLink": {
+      "message": "Második példa hivatkozás"
+   },
+   "secondExampleLinkTitle": {
+      "message": "Második példa hivatkozás címe"
+   },
+   "secondExampleLinkTitleOptional": {
+      "message": "Második példa hivatkozás címe (opcionális)"
+   },
+   "seeOtherTabsInThisGroup_few": {
+      "message": "Ebben a csoportban lévő további {COUNT} lap megjelenítése"
+   },
+   "seeOtherTabsInThisGroup_many": {
+      "message": "Ebben a csoportban lévő további {COUNT} lap megjelenítése"
+   },
+   "seeOtherTabsInThisGroup_one": {
+      "message": "Ebben a csoportban lévő további {COUNT} lap megjelenítése"
+   },
+   "seeOtherTabsInThisGroup_other": {
+      "message": "Ebben a csoportban lévő további {COUNT} lap megjelenítése"
+   },
+   "seeOtherTabsInThisGroup_two": {
+      "message": "Ebben a csoportban lévő további {COUNT} lap megjelenítése"
+   },
+   "seeOtherTabsInThisGroup_zero": {
+      "message": "Ebben a csoportban lévő további {COUNT} lap megjelenítése"
+   },
+   "seePasteInstructions": {
+      "message": "Beillesztési útmutató…"
+   },
+   "seeTabsInThisGroup_few": {
+      "message": "Ebben a csoportban lévő {COUNT} lap megjelenítése"
+   },
+   "seeTabsInThisGroup_many": {
+      "message": "Ebben a csoportban lévő {COUNT} lap megjelenítése"
+   },
+   "seeTabsInThisGroup_one": {
+      "message": "Ebben a csoportban lévő {COUNT} lap megjelenítése"
+   },
+   "seeTabsInThisGroup_other": {
+      "message": "Ebben a csoportban lévő {COUNT} lap megjelenítése"
+   },
+   "seeTabsInThisGroup_two": {
+      "message": "Ebben a csoportban lévő {COUNT} lap megjelenítése"
+   },
+   "seeTabsInThisGroup_zero": {
+      "message": "Ebben a csoportban lévő {COUNT} lap megjelenítése"
+   },
+   "selectAll": {
+      "message": "Összes kijelölése"
+   },
+   "selectAllExceptThis": {
+      "message": "Összes kijelölése, kivéve ezt"
+   },
+   "selectThisAndAbove": {
+      "message": "A jelenlegi és az összes fölötte lévő kijelölése"
+   },
+   "selectThisAndBelow": {
+      "message": "A jelenlegi és az összes alatta lévő kijelölése"
+   },
+   "selectedItemCount_few": {
+      "message": "{COUNT} kijelölt elem"
+   },
+   "selectedItemCount_many": {
+      "message": "{COUNT} kijelölt elem"
+   },
+   "selectedItemCount_one": {
+      "message": "{COUNT} kijelölt elem"
+   },
+   "selectedItemCount_other": {
+      "message": "{COUNT} kijelölt elem"
+   },
+   "selectedItemCount_two": {
+      "message": "{COUNT} kijelölt elem"
+   },
+   "selectedItemCount_zero": {
+      "message": "{COUNT} kijelölt elem"
+   },
+   "selection": {
+      "message": "Kijelölés"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "message": "Minden lap elküldése az összes ablakból a OneTab-ba"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "message": "Az összes lap elküldése a OneTab-ba, kivéve ezt a lapot"
+   },
+   "sendAllTabsInGroupToOneTab": {
+      "message": "Az ebben a lapcsoportban lévő összes lap elküldése a OneTab alkalmazásba"
+   },
+   "sendAllTabsInWindowToOneTab": {
+      "message": "Az ebben az ablakban lévő összes lap elküldése a OneTab alkalmazásba"
+   },
+   "sendCurrentTabToOneTab": {
+      "message": "Az aktuális lap elküldése a OneTab-ba"
+   },
+   "sendLeftTabsToOneTab": {
+      "message": "A bal oldali lapok elküldése a OneTab-ba"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "message": "Csak ezt a lapot küldje a OneTab-ba"
+   },
+   "sendRightTabsToOneTab": {
+      "message": "A jobb oldali lapok elküldése a OneTab-ba"
+   },
+   "sendSelectedTabsToOneTab": {
+      "message": "Kijelölt lapok elküldése a OneTab alkalmazásba"
+   },
+   "sendThisWebLinkToOneTab": {
+      "message": "Ezt a hivatkozást küldje a OneTab-ba"
+   },
+   "serverUnreachable": {
+      "message": "A kiszolgáló nem érhető el. Ellenőrizze az internetkapcsolatát."
+   },
+   "share": {
+      "message": "Megosztás"
+   },
+   "shareAsAWebPage": {
+      "message": "Megosztás weboldalként"
+   },
+   "shared": {
+      "message": "Megosztott"
+   },
+   "sharedExpiresColon": {
+      "message": "Megosztva weboldalként. Lejárat:"
+   },
+   "sharedPageOptions": {
+      "message": "Megosztott oldal beállításai"
+   },
+   "sharedPageTabLimit_few": {
+      "message": "A megosztott oldalak legfeljebb {COUNT} lapot tartalmazhatnak"
+   },
+   "sharedPageTabLimit_many": {
+      "message": "A megosztott oldalak legfeljebb {COUNT} lapot tartalmazhatnak"
+   },
+   "sharedPageTabLimit_one": {
+      "message": "A megosztott oldalak legfeljebb {COUNT} lapot tartalmazhatnak"
+   },
+   "sharedPageTabLimit_other": {
+      "message": "A megosztott oldalak legfeljebb {COUNT} lapot tartalmazhatnak"
+   },
+   "sharedPageTabLimit_two": {
+      "message": "A megosztott oldalak legfeljebb {COUNT} lapot tartalmazhatnak"
+   },
+   "sharedPageTabLimit_zero": {
+      "message": "A megosztott oldalak legfeljebb {COUNT} lapot tartalmazhatnak"
+   },
+   "sharedPageWillAutomaticallyExpire": {
+      "message": "A megosztott oldal automatikusan lejár, de a lejárati dátumot bármikor meghosszabbíthatja."
+   },
+   "shiftDragShortcutInfo": {
+      "message": "Tartsa lenyomva a Shift billentyűt a lap elengedésekor, így áthelyezés helyett másolat készül. Fontos: A Shift billentyűt csak a húzás megkezdése után nyomja le."
+   },
+   "showEverything": {
+      "message": "Mindent mutat"
+   },
+   "showFoldersOnly": {
+      "message": "Csak mappák"
+   },
+   "showNamedItemsOnly": {
+      "message": "Csak elnevezett elemek"
+   },
+   "showNamedOnly": {
+      "message": "Csak elnevezett elemek"
+   },
+   "showNextCount_few": {
+      "message": "Következő {COUNT}"
+   },
+   "showNextCount_many": {
+      "message": "Következő {COUNT}"
+   },
+   "showNextCount_one": {
+      "message": "Következő {COUNT}"
+   },
+   "showNextCount_other": {
+      "message": "Következő {COUNT}"
+   },
+   "showNextCount_two": {
+      "message": "Következő {COUNT}"
+   },
+   "showNextCount_zero": {
+      "message": "Következő {COUNT}"
+   },
+   "showPreviousCount_few": {
+      "message": "Előző {COUNT}"
+   },
+   "showPreviousCount_many": {
+      "message": "Előző {COUNT}"
+   },
+   "showPreviousCount_one": {
+      "message": "Előző {COUNT}"
+   },
+   "showPreviousCount_other": {
+      "message": "Előző {COUNT}"
+   },
+   "showPreviousCount_two": {
+      "message": "Előző {COUNT}"
+   },
+   "showPreviousCount_zero": {
+      "message": "Előző {COUNT}"
+   },
+   "soon": {
+      "message": "hamarosan"
+   },
+   "sort": {
+      "message": "Rendezés"
+   },
+   "sortByColon": {
+      "message": "Rendezés:"
+   },
+   "sortGroups": {
+      "message": "Csoportok rendezése"
+   },
+   "sourceColon": {
+      "message": "Forrás:"
+   },
+   "starRatingTooltip": {
+      "message": "Csillagos értékelés beállítása"
+   },
+   "storeSelectedTabsInONETAB_few": {
+      "message": "{COUNT} kijelölt lap tárolása az ONETAB alkalmazásban"
+   },
+   "storeSelectedTabsInONETAB_many": {
+      "message": "{COUNT} kijelölt lap tárolása az ONETAB alkalmazásban"
+   },
+   "storeSelectedTabsInONETAB_one": {
+      "message": "{COUNT} kijelölt lap tárolása az ONETAB alkalmazásban"
+   },
+   "storeSelectedTabsInONETAB_other": {
+      "message": "{COUNT} kijelölt lap tárolása az ONETAB alkalmazásban"
+   },
+   "storeSelectedTabsInONETAB_two": {
+      "message": "{COUNT} kijelölt lap tárolása az ONETAB alkalmazásban"
+   },
+   "storeSelectedTabsInONETAB_zero": {
+      "message": "{COUNT} kijelölt lap tárolása az ONETAB alkalmazásban"
+   },
+   "storeTabInAdditionalLocation": {
+      "message": "Lap tárolása további helyen"
+   },
+   "storeTabInONETAB": {
+      "message": "Lap tárolása az ONETAB alkalmazásban"
+   },
+   "storeTabsInAdditionalLocation": {
+      "message": "Lapok tárolása további helyen"
+   },
+   "storeTabsInONETAB": {
+      "message": "Lapok tárolása az ONETAB alkalmazásban"
+   },
+   "subFoldersNotShared": {
+      "message": "Fontos: az almappák nem kerülnek megosztásra. Csak a mappában közvetlenül található csoportok kerülnek megosztásra."
+   },
+   "tab": {
+      "message": "lap"
+   },
+   "tabAlreadyStoredHere": {
+      "message": "A megnyitott lapja már itt van tárolva:"
+   },
+   "tabCaretTooltipTitleNotes": {
+      "message": "A lap címének és megjegyzéseinek szerkesztése"
+   },
+   "tabCaretTooltipTitleNotesUrl": {
+      "message": "A lap címének, URL-jének és megjegyzéseinek szerkesztése"
+   },
+   "tabCount_few": {
+      "message": "{COUNT} lap"
+   },
+   "tabCount_many": {
+      "message": "{COUNT} lap"
+   },
+   "tabCount_one": {
+      "message": "{COUNT} lap"
+   },
+   "tabCount_other": {
+      "message": "{COUNT} lap"
+   },
+   "tabCount_two": {
+      "message": "{COUNT} lap"
+   },
+   "tabCount_zero": {
+      "message": "{COUNT} lap"
+   },
+   "tabGroupColorColon": {
+      "message": "Lapcsoport színe:"
+   },
+   "tabShortcutInfo": {
+      "message": "A OneTab oldalon a Tab billentyűvel mozgathatja a fókuszt a középső oszlop csoportjai között. Így gyorsan átugorhat a csoportok között, különösen, ha nagyok. Ha egy csoport van fókuszban, az Enter billentyűvel nyissa meg. A Shift+Tabbal visszafelé léphet."
+   },
+   "tabTotalCount_few": {
+      "message": "Összesen: {COUNT} lap"
+   },
+   "tabTotalCount_many": {
+      "message": "Összesen: {COUNT} lap"
+   },
+   "tabTotalCount_one": {
+      "message": "Összesen: {COUNT} lap"
+   },
+   "tabTotalCount_other": {
+      "message": "Összesen: {COUNT} lap"
+   },
+   "tabTotalCount_two": {
+      "message": "Összesen: {COUNT} lap"
+   },
+   "tabTotalCount_zero": {
+      "message": "Összesen: {COUNT} lap"
+   },
+   "tabs": {
+      "message": "Lapok"
+   },
+   "tabsFromExcludedDomains": {
+      "message": "kizárt domainekről származó lapok"
+   },
+   "tabsInTabGroups": {
+      "message": "lapok lapcsoportokban"
+   },
+   "taskTotalCount_few": {
+      "message": "Összesen {COUNT}"
+   },
+   "taskTotalCount_many": {
+      "message": "Összesen {COUNT}"
+   },
+   "taskTotalCount_one": {
+      "message": "Összesen {COUNT}"
+   },
+   "taskTotalCount_other": {
+      "message": "Összesen {COUNT}"
+   },
+   "taskTotalCount_two": {
+      "message": "Összesen {COUNT}"
+   },
+   "taskTotalCount_zero": {
+      "message": "Összesen {COUNT}"
+   },
+   "tasks": {
+      "message": "Feladatok"
+   },
+   "tasksDone": {
+      "message": "Feladatok (kész)"
+   },
+   "tasksPending": {
+      "message": "Feladatok (függőben)"
+   },
+   "tasksWillAppearHere": {
+      "message": "Ha bármely lapot vagy csoportot feladatként jelöl meg, itt fognak megjelenni."
+   },
+   "thenClickToolbarIcon": {
+      "message": "Ezután kattintson ismét a böngésző eszköztárán a OneTab ikonra a OneTab használatához."
+   },
+   "thisFolderIsEmpty": {
+      "message": "Ez a mappa üres"
+   },
+   "thisTab": {
+      "message": "Ez a lap"
+   },
+   "thisTabGroup": {
+      "message": "Ez a lapcsoport"
+   },
+   "thisTabNotStored": {
+      "message": "Ez a lap nincs tárolva a OneTab alkalmazásban"
+   },
+   "thisWindow": {
+      "message": "Ez az ablak"
+   },
+   "tickOrUntickToExclude": {
+      "message": "Jelölje be vagy törölje a jelölést a webhely kizárásához"
+   },
+   "title": {
+      "message": "Cím"
+   },
+   "toAddOrRemoveExclusions": {
+      "message": "Webhely hozzáadása a kizárási listához vagy eltávolítása onnan:"
+   },
+   "toAllowOneTabInIncognito": {
+      "message": "Hogy a OneTab ikonja megjelenjen inkognitó ablakokban: "
+   },
+   "toImportBrowserBookmarksUseMenuOption": {
+      "message": "A böngésző könyvjelzőiből való importáláshoz használja a „Linkek importálása ide” menüpontot a OneTab oldalán"
+   },
+   "toMakeOpenButtonWorkApprovePermission": {
+      "message": "A megosztott oldalakon lévő „Megnyitás” gomb működéséhez kérjük, hagyja jóvá az engedélykérést."
+   },
+   "toSaveChangesClickButton": {
+      "message": "A módosítások mentéséhez kattintson a gombra"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "message": "Túl sok lap? Alakítsa a lapokat listává, és gyorsítsa fel a Firefoxot"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "message": "Túl sok lap? Alakítsa a lapokat listává, és gyorsítsa fel a Safarit"
+   },
+   "total0Tabs": {
+      "message": "Összesen: 0 lap"
+   },
+   "trash": {
+      "message": "Kuka"
+   },
+   "unMarkAsTask": {
+      "message": "Feladatként jelölés megszüntetése"
+   },
+   "unPin": {
+      "message": "Rögzítés feloldása"
+   },
+   "unlock": {
+      "message": "Feloldás"
+   },
+   "unmarkAsArchived": {
+      "message": "Archiváltként megjelölés megszüntetése"
+   },
+   "unshare": {
+      "message": "Megosztás megszüntetése"
+   },
+   "untitled": {
+      "message": "Névtelen"
+   },
+   "update": {
+      "message": "Frissítés"
+   },
+   "userLanguage": {
+      "message": "Magyar"
+   },
+   "website": {
+      "message": "Webhely"
+   },
+   "yearCount_few": {
+      "message": "{COUNT} év"
+   },
+   "yearCount_many": {
+      "message": "{COUNT} év"
+   },
+   "yearCount_one": {
+      "message": "{COUNT} év"
+   },
+   "yearCount_other": {
+      "message": "{COUNT} év"
+   },
+   "yearCount_two": {
+      "message": "{COUNT} év"
+   },
+   "yearCount_zero": {
+      "message": "{COUNT} év"
+   },
+   "yourTabAlreadyStoredHere": {
+      "message": "A lapja már itt van tárolva:"
+   }
+}

@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { DEFAULT_PROMPT_TEMPLATE } from '@/lib/constants/prompts';
 import type { AIProvider, AIConnectionInfo } from '@/types';
+import { AI_SERVICE_URLS, AI_SERVICE_DOCS } from '@/lib/constants/urls';
 
 interface AIConfigSectionProps {
   formData: {
@@ -214,11 +215,11 @@ export function AIConfigSection({
                 onChange={(e) => setFormData({ ...formData, apiUrl: e.target.value })}
                 placeholder={
                   formData.aiProvider === 'openai'
-                    ? 'https://api.openai.com/v1'
+                    ? AI_SERVICE_URLS.OPENAI
                     : formData.aiProvider === 'deepseek'
-                      ? 'https://api.deepseek.com'
+                      ? AI_SERVICE_URLS.DEEPSEEK
                       : formData.aiProvider === 'siliconflow'
-                        ? 'https://api.siliconflow.cn/v1'
+                        ? AI_SERVICE_URLS.SILICONFLOW
                         : '请输入自定义 API 地址'
                 }
                 className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -258,7 +259,7 @@ export function AIConfigSection({
                 <>
                   获取 API Key：
                   <a
-                    href="https://platform.openai.com/api-keys"
+                    href={AI_SERVICE_DOCS.OPENAI}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-500 hover:underline"
@@ -271,7 +272,7 @@ export function AIConfigSection({
                 <>
                   获取 API Key：
                   <a
-                    href="https://console.anthropic.com/"
+                    href={AI_SERVICE_DOCS.CLAUDE}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-500 hover:underline"
@@ -284,7 +285,7 @@ export function AIConfigSection({
                 <>
                   获取 API Key：
                   <a
-                    href="https://platform.deepseek.com/api_keys"
+                    href={AI_SERVICE_DOCS.DEEPSEEK}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-500 hover:underline"
@@ -297,7 +298,7 @@ export function AIConfigSection({
                 <>
                   获取 API Key：
                   <a
-                    href="https://open.bigmodel.cn/usercenter/apikeys"
+                    href={AI_SERVICE_DOCS.ZHIPU}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-500 hover:underline"
@@ -310,7 +311,7 @@ export function AIConfigSection({
                 <>
                   获取 API Key：
                   <a
-                    href="https://www.modelscope.cn/my/myaccesstoken"
+                    href={AI_SERVICE_DOCS.MODELSCOPE}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-500 hover:underline"
@@ -323,7 +324,7 @@ export function AIConfigSection({
                 <>
                   获取 API Key：
                   <a
-                    href="https://cloud.siliconflow.cn/account/ak"
+                    href={AI_SERVICE_DOCS.SILICONFLOW}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-500 hover:underline"
@@ -336,7 +337,7 @@ export function AIConfigSection({
                 <>
                   获取 API Key：
                   <a
-                    href="https://console.xfyun.cn/services/iat"
+                    href={AI_SERVICE_DOCS.IFLOW}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-500 hover:underline"

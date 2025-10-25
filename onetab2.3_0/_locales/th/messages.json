@@ -1,0 +1,1715 @@
+{
+   "95PctMemoryReduction": {
+      "message": "ลดการใช้หน่วยความจำ 95%"
+   },
+   "Folder": {
+      "message": "โฟลเดอร์"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "message": "OneTab มีให้ใช้กับ Firefox ด้วย"
+   },
+   "aDashZ": {
+      "message": "A-Z"
+   },
+   "about": {
+      "message": "เกี่ยวกับ"
+   },
+   "addOneTabNow": {
+      "message": "ติดตั้ง OneTab ตอนนี้"
+   },
+   "all": {
+      "message": "ทั้งหมด"
+   },
+   "allBookmarks": {
+      "message": "บุ๊กมาร์กทั้งหมด"
+   },
+   "allOpenTabsAlreadyStoredHere": {
+      "message": "แท็บที่เปิดอยู่ทั้งหมดถูกบันทึกไว้ที่นี่แล้ว:"
+   },
+   "allowFileAccessInstructions": {
+      "message": "เพื่อให้เปิดไฟล์ได้โดยตรง ไปที่ การตั้งค่า ➝ ส่วนขยาย ➝ OneTab ➝ รายละเอียด ➝ อนุญาตให้เข้าถึง URL ของไฟล์"
+   },
+   "alreadyExistingOpenTabsWillBeClosedAfterMerge": {
+      "message": "แท็บที่เปิดอยู่ทั้งหมดซึ่งมีอยู่ในกลุ่มนี้จะถูกปิดหลังจากรวม"
+   },
+   "alternatePlainTextFormat": {
+      "message": "หรืออีกแบบ ข้อความธรรมดาอาจอยู่ในรูปแบบ:"
+   },
+   "approve": {
+      "message": "อนุมัติ"
+   },
+   "archived": {
+      "message": "เก็บถาวร"
+   },
+   "autoTheme": {
+      "message": "อัตโนมัติ (ใช้การตั้งค่าของระบบปฏิบัติการ)"
+   },
+   "backupAndSync": {
+      "message": "สำรองและซิงค์"
+   },
+   "betaReleaseReportBugsHere": {
+      "message": "รุ่นเบต้า - รายงานบั๊กที่นี่"
+   },
+   "bookmarkCount_few": {
+      "message": "{COUNT} บุ๊กมาร์ก"
+   },
+   "bookmarkCount_many": {
+      "message": "{COUNT} บุ๊กมาร์ก"
+   },
+   "bookmarkCount_one": {
+      "message": "{COUNT} บุ๊กมาร์ก"
+   },
+   "bookmarkCount_other": {
+      "message": "{COUNT} บุ๊กมาร์ก"
+   },
+   "bookmarkCount_two": {
+      "message": "{COUNT} บุ๊กมาร์ก"
+   },
+   "bookmarkCount_zero": {
+      "message": "{COUNT} บุ๊กมาร์ก"
+   },
+   "bookmarksPermissionNecesssary": {
+      "message": "จำเป็นต้องมีสิทธิ์บุ๊กมาร์กเพื่อให้ OneTab สามารถนำเข้าบุ๊กมาร์กของเบราว์เซอร์คุณได้"
+   },
+   "bulkActions": {
+      "message": "การดำเนินการแบบกลุ่ม"
+   },
+   "canDragTextNote": {
+      "message": "หมายเหตุ: คุณยังสามารถลากและวางข้อความที่มีลิงก์จากหน้าเว็บอื่นหรือจากเอกสารได้โดยตรง คุณสามารถลากข้อความไปยังหน้า OneTab ของคุณได้โดยตรง โดยไม่ต้องใช้กล่องนำเข้านี้"
+   },
+   "canPasteWebContentForExample": {
+      "message": "คุณสามารถวางข้อความที่คัดลอกจากหน้าเว็บหรือเอกสาร และจะมีการดึงลิงก์ออกมาโดยอัตโนมัติ ตัวอย่างเช่น:"
+   },
+   "cancel": {
+      "message": "ยกเลิก"
+   },
+   "cannotConnectToServerDeletionRequestQueued": {
+      "message": "ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์ OneTab ได้ โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณ คำขอการลบหน้าที่แชร์ของคุณถูกจัดคิวไว้ในเครื่องและจะถูกส่งไปยังเซิร์ฟเวอร์ OneTab โดยอัตโนมัติทันทีที่สามารถติดต่อได้อีกครั้ง."
+   },
+   "cannotCreateTabGroupInTabGroup": {
+      "message": "ปลายทางที่คุณเลือกเป็นกลุ่มแท็บ คุณไม่สามารถสร้างกลุ่มแท็บภายในกลุ่มแท็บที่มีอยู่ได้ โปรดเลือกปลายทางอื่น"
+   },
+   "cannotMixTabsGroupsFoldersDuringDrag": {
+      "message": "ไม่สามารถผสมแท็บ กลุ่ม และโฟลเดอร์ระหว่างการลากได้ เนื่องจากตัวอย่างเช่น คุณไม่สามารถลากโฟลเดอร์ไปยังตำแหน่งเดียวกับที่ลากแท็บได้"
+   },
+   "caseSensitive": {
+      "message": "ตรงตามตัวพิมพ์ใหญ่-เล็ก"
+   },
+   "changesMadeSinceSharedPageCreation": {
+      "message": "มีการเปลี่ยนแปลงตั้งแต่คุณสร้างหน้าที่แชร์ คลิกปุ่ม 'อัปเดต' เพื่ออัปเดตหน้าที่แชร์ที่มีอยู่."
+   },
+   "checkboxesDeterminePinnedAndGroupedTabMergeInclusion": {
+      "message": "ช่องทำเครื่องหมายด้านบนของหน้านี้จะกำหนดว่าจะรวมแท็บที่ปักหมุดหรือแท็บในกลุ่มแท็บในการรวมด้วยหรือไม่"
+   },
+   "chooseALocation": {
+      "message": "เลือกตำแหน่ง"
+   },
+   "chooseALocationToImportTo": {
+      "message": "เลือกตำแหน่งปลายทางสำหรับนำเข้า"
+   },
+   "chooseExportLocation": {
+      "message": "เลือกตำแหน่งต้นทางสำหรับส่งออก"
+   },
+   "chooseLightDarkTheme": {
+      "message": "เลือกธีมสว่าง/มืด"
+   },
+   "chooseLocationToCopyTo": {
+      "message": "เลือกตำแหน่งปลายทางสำหรับคัดลอก"
+   },
+   "chooseLocationToMoveTo": {
+      "message": "เลือกตำแหน่งปลายทางสำหรับย้าย"
+   },
+   "chooseLocationToRestoreTo": {
+      "message": "เลือกตำแหน่งปลายทางสำหรับกู้คืน"
+   },
+   "chooseToIncludeNotes": {
+      "message": "หากคุณได้เพิ่มบันทึกไว้กับแท็บหรือกลุ่ม ให้เลือกว่าจะรวมไว้ในหน้าเว็บที่แชร์หรือไม่"
+   },
+   "chooseToIncludeRatings": {
+      "message": "หากคุณได้ให้คะแนนแบบดาวกับแท็บหรือกลุ่ม ให้เลือกว่าจะรวมไว้ในหน้าเว็บที่แชร์หรือไม่"
+   },
+   "chromeIncognitoInstructions": {
+      "message": "ในการตั้งค่าเบราว์เซอร์ของคุณ ไปที่ 'การตั้งค่า' → 'ส่วนขยาย' → 'OneTab' → 'รายละเอียด' แล้วเปิดใช้งาน 'อนุญาตในโหมดไม่ระบุตัวตน'."
+   },
+   "clickButtonToAllowTabAccess": {
+      "message": "คลิกปุ่มด้านล่างเพื่ออนุญาตให้ OneTab เข้าถึงแท็บที่เปิดอยู่ของคุณ"
+   },
+   "clickHereToContinue": {
+      "message": "คลิกที่นี่เพื่อดำเนินการต่อ"
+   },
+   "clickOneTabIconToStoreTabsHere": {
+      "message": "คลิกไอคอน OneTab บนแถบเครื่องมือของเบราว์เซอร์เพื่อบันทึกแท็บที่เปิดอยู่ของคุณไว้ที่นี่."
+   },
+   "closeSelectedTabsAndStoreInONETAB_few": {
+      "message": "ปิดแท็บที่เลือก {COUNT} แท็บและบันทึกใน ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_many": {
+      "message": "ปิดแท็บที่เลือก {COUNT} แท็บและบันทึกใน ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_one": {
+      "message": "ปิดแท็บที่เลือก {COUNT} แท็บและบันทึกใน ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_other": {
+      "message": "ปิดแท็บที่เลือก {COUNT} แท็บและบันทึกใน ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_two": {
+      "message": "ปิดแท็บที่เลือก {COUNT} แท็บและบันทึกใน ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_zero": {
+      "message": "ปิดแท็บที่เลือก {COUNT} แท็บและบันทึกใน ONETAB"
+   },
+   "closeSelectedTabs_few": {
+      "message": "ปิดแท็บที่เลือก {COUNT} แท็บ"
+   },
+   "closeSelectedTabs_many": {
+      "message": "ปิดแท็บที่เลือก {COUNT} แท็บ"
+   },
+   "closeSelectedTabs_one": {
+      "message": "ปิดแท็บที่เลือก {COUNT} แท็บ"
+   },
+   "closeSelectedTabs_other": {
+      "message": "ปิดแท็บที่เลือก {COUNT} แท็บ"
+   },
+   "closeSelectedTabs_two": {
+      "message": "ปิดแท็บที่เลือก {COUNT} แท็บ"
+   },
+   "closeSelectedTabs_zero": {
+      "message": "ปิดแท็บที่เลือก {COUNT} แท็บ"
+   },
+   "closeTab": {
+      "message": "ปิดแท็บ"
+   },
+   "closeTabAndStore": {
+      "message": "ปิดแท็บและบันทึกใน ONETAB"
+   },
+   "closeTabs": {
+      "message": "ปิดแท็บ"
+   },
+   "closeTabsAfterMerge": {
+      "message": "ปิดแท็บหลังจากรวม"
+   },
+   "closeTabsAlreadyStoredInOneTab_few": {
+      "message": "ปิด {COUNT} แท็บที่บันทึกไว้ใน OneTab แล้ว"
+   },
+   "closeTabsAlreadyStoredInOneTab_many": {
+      "message": "ปิด {COUNT} แท็บที่บันทึกไว้ใน OneTab แล้ว"
+   },
+   "closeTabsAlreadyStoredInOneTab_one": {
+      "message": "ปิด {COUNT} แท็บที่บันทึกไว้ใน OneTab แล้ว"
+   },
+   "closeTabsAlreadyStoredInOneTab_other": {
+      "message": "ปิด {COUNT} แท็บที่บันทึกไว้ใน OneTab แล้ว"
+   },
+   "closeTabsAlreadyStoredInOneTab_two": {
+      "message": "ปิด {COUNT} แท็บที่บันทึกไว้ใน OneTab แล้ว"
+   },
+   "closeTabsAlreadyStoredInOneTab_zero": {
+      "message": "ปิด {COUNT} แท็บที่บันทึกไว้ใน OneTab แล้ว"
+   },
+   "closeTabsAndStore": {
+      "message": "ปิดแท็บและบันทึกใน ONETAB"
+   },
+   "closeTheseDuplicates": {
+      "message": "ปิดแท็บที่ซ้ำเหล่านี้"
+   },
+   "closeThisDuplicate": {
+      "message": "ปิดแท็บที่ซ้ำนี้"
+   },
+   "completeEditingShortcutInfo": {
+      "message": "เมื่อแก้ไขช่องบันทึก ให้ใช้แป้นพิมพ์ลัดนี้เพื่อเสร็จสิ้นการแก้ไข."
+   },
+   "configureShortcuts": {
+      "message": "กำหนดแป้นพิมพ์ลัด"
+   },
+   "conflictingShortcutsHint": {
+      "message": "หากแป้นพิมพ์ลัดข้างต้นใช้งานไม่ได้หรือขัดแย้งกับแอปอื่น คุณสามารถกำหนดแป้นพิมพ์ลัดอื่นได้"
+   },
+   "continue": {
+      "message": "ดำเนินการต่อ"
+   },
+   "convertTabsIntoAList": {
+      "message": "แปลงแท็บเป็นรายการ"
+   },
+   "copiedToClipboard": {
+      "message": "คัดลอกไปยังคลิปบอร์ดแล้ว"
+   },
+   "copy": {
+      "message": "คัดลอก"
+   },
+   "copyLinksToClipboard": {
+      "message": "คัดลอกลิงก์ไปยังคลิปบอร์ด"
+   },
+   "copySharedPageUrl": {
+      "message": "คัดลอก URL ของหน้าที่แชร์"
+   },
+   "copyToClipboard": {
+      "message": "คัดลอกไปยังคลิปบอร์ด"
+   },
+   "createANewGroupHere": {
+      "message": "สร้างกลุ่มใหม่ที่นี่"
+   },
+   "createFolderAbove": {
+      "message": "สร้างโฟลเดอร์ด้านบน"
+   },
+   "createFolderAboveBelow": {
+      "message": "สร้างโฟลเดอร์ด้านบน / ด้านล่าง"
+   },
+   "createFolderAboveWithinBelow": {
+      "message": "สร้างโฟลเดอร์ด้านบน / ภายใน / ด้านล่าง"
+   },
+   "createFolderBelow": {
+      "message": "สร้างโฟลเดอร์ด้านล่าง"
+   },
+   "createFolderWithin": {
+      "message": "สร้างโฟลเดอร์ภายใน"
+   },
+   "createGroupAbove": {
+      "message": "สร้างกลุ่มด้านบน"
+   },
+   "createGroupAboveBelow": {
+      "message": "สร้างกลุ่มด้านบน / ด้านล่าง"
+   },
+   "createGroupAboveWithinBelow": {
+      "message": "สร้างกลุ่มด้านบน / ภายใน / ด้านล่าง"
+   },
+   "createGroupBelow": {
+      "message": "สร้างกลุ่มด้านล่าง"
+   },
+   "createGroupInsideDestination": {
+      "message": "สร้างกลุ่มใหม่ภายในปลายทาง"
+   },
+   "createGroupInsideDestinationHelp": {
+      "message": "หากไม่ติ๊ก แท็บของคุณจะถูกเพิ่มลงในกลุ่มปลายทางโดยตรง หากติ๊ก ระบบจะสร้างกลุ่มแท็บของเบราว์เซอร์ใหม่สำหรับแท็บของคุณภายในกลุ่มปลายทาง ให้ติ๊กกล่องนี้เฉพาะเมื่อคุณต้องการใช้ฟีเจอร์ \"กลุ่มแท็บ\" ของเบราว์เซอร์"
+   },
+   "createGroupWithin": {
+      "message": "สร้างกลุ่มภายใน"
+   },
+   "createNewGroupTip": {
+      "message": "หากต้องการสร้างกลุ่มใหม่ ให้ยกเลิกการติ๊ก \"แสดงเฉพาะโฟลเดอร์\""
+   },
+   "createdOnOrAfterColon": {
+      "message": "สร้างในหรือหลังวันที่:"
+   },
+   "createdOnOrBeforeColon": {
+      "message": "สร้างในหรือก่อนวันที่:"
+   },
+   "createdPreceedingDate": {
+      "message": "สร้างเมื่อ"
+   },
+   "darkTheme": {
+      "message": "ธีมมืด"
+   },
+   "dayCount_few": {
+      "message": "{COUNT} วัน"
+   },
+   "dayCount_many": {
+      "message": "{COUNT} วัน"
+   },
+   "dayCount_one": {
+      "message": "{COUNT} วัน"
+   },
+   "dayCount_other": {
+      "message": "{COUNT} วัน"
+   },
+   "dayCount_two": {
+      "message": "{COUNT} วัน"
+   },
+   "dayCount_zero": {
+      "message": "{COUNT} วัน"
+   },
+   "delete": {
+      "message": "ลบ"
+   },
+   "deleteAllTrash": {
+      "message": "ลบรายการในถังขยะทั้งหมด"
+   },
+   "deleteThisCopy": {
+      "message": "ลบสำเนานี้"
+   },
+   "deselectAll": {
+      "message": "ยกเลิกการเลือกทั้งหมด"
+   },
+   "destinationColon": {
+      "message": "ปลายทาง:"
+   },
+   "disabled": {
+      "message": "ปิดใช้งาน"
+   },
+   "doneTaskCount_few": {
+      "message": "{COUNT} เสร็จสิ้น"
+   },
+   "doneTaskCount_many": {
+      "message": "{COUNT} เสร็จสิ้น"
+   },
+   "doneTaskCount_one": {
+      "message": "{COUNT} เสร็จสิ้น"
+   },
+   "doneTaskCount_other": {
+      "message": "{COUNT} เสร็จสิ้น"
+   },
+   "doneTaskCount_two": {
+      "message": "{COUNT} เสร็จสิ้น"
+   },
+   "doneTaskCount_zero": {
+      "message": "{COUNT} เสร็จสิ้น"
+   },
+   "dontCloseGroupedTabs": {
+      "message": "อย่าปิดแท็บใด ๆ ภายในกลุ่มแท็บ"
+   },
+   "dontClosePinnedTabs": {
+      "message": "อย่าปิดแท็บที่ปักหมุดใด ๆ"
+   },
+   "dontCloseTabsFromDomains": {
+      "message": "อย่าปิดแท็บใด ๆ จาก EXAMPLE.COM"
+   },
+   "dragTabsHereForQuickList": {
+      "message": "ลากแท็บหรือกลุ่มที่บันทึกไว้ของคุณมาที่นี่ รายการเหล่านั้นจะถูกเพิ่มไปยังรายการด่วนของคุณ"
+   },
+   "editTabGroupTitleAndNotes": {
+      "message": "แก้ไขชื่อและบันทึกของกลุ่มแท็บ"
+   },
+   "emojiShortcutInfo": {
+      "message": "เมื่อแก้ไขช่องบันทึก ให้ใช้แป้นพิมพ์ลัดนี้เพื่อเปิดตัวเลือกอีโมจิ."
+   },
+   "emptyInBrackets": {
+      "message": "(ว่าง)"
+   },
+   "emptyOneTabInfoMsg": {
+      "message": "เมื่อคุณเปิดหลายแท็บ ให้คลิกไอคอน OneTab บนแถบเครื่องมือของเบราว์เซอร์ แล้วแท็บที่เปิดอยู่ของคุณจะแสดงที่นี่"
+   },
+   "enabled": {
+      "message": "เปิดใช้งาน"
+   },
+   "encryptedSyncAndBackup": {
+      "message": "ซิงค์และสำรองข้อมูลแบบเข้ารหัส"
+   },
+   "encryptedSyncAndBackupComingSoonMessage": {
+      "message": "เร็ว ๆ นี้: คุณจะสามารถซิงค์ข้อมูล OneTab ของคุณข้ามโปรไฟล์เบราว์เซอร์และคอมพิวเตอร์หลายเครื่องได้\nOneTab ถูกเขียนขึ้นใหม่ทั้งระบบ เพื่อให้การเปลี่ยนแปลงที่ทำบนอุปกรณ์หนึ่งปรากฏบนอุปกรณ์อื่นทั้งหมดทันที\nหากคุณใช้ฟีเจอร์นี้ ข้อมูลของคุณจะถูกเข้ารหัสแบบปลายทางถึงปลายทางด้วยการเข้ารหัส AES-256 ที่มีความแข็งแรงสูง ซึ่งทำให้ผู้พัฒนา OneTab ไม่สามารถเห็นแท็บที่คุณสำรองหรือซิงค์ระหว่างอุปกรณ์ได้ เพราะมีเพียงคุณเท่านั้นที่ถือคีย์การเข้ารหัส"
+   },
+   "everything": {
+      "message": "ทั้งหมด"
+   },
+   "exampleLink": {
+      "message": "ลิงก์ตัวอย่าง"
+   },
+   "exampleLinkTitle": {
+      "message": "ชื่อเรื่องลิงก์ตัวอย่าง"
+   },
+   "exampleLinkTitleOptional": {
+      "message": "ชื่อเรื่องลิงก์ตัวอย่าง (ไม่บังคับ)"
+   },
+   "exampleRichTextParagraph": {
+      "message": "ย่อหน้าตัวอย่างของข้อความที่มี PLACEHOLDER และ PLACEHOLDER"
+   },
+   "exampleWebsitePageTitle": {
+      "message": "ชื่อหน้าเว็บไซต์ตัวอย่าง"
+   },
+   "excludeDomainFromOneTab": {
+      "message": "ยกเว้น EXAMPLE.COM จาก OneTab"
+   },
+   "excludeWebSiteFromOneTab": {
+      "message": "ยกเว้นเว็บไซต์นี้จาก OneTab"
+   },
+   "expiresColon": {
+      "message": "หมดอายุ:"
+   },
+   "export": {
+      "message": "ส่งออก"
+   },
+   "exportImportUrls": {
+      "message": "ส่งออก / นำเข้า URL"
+   },
+   "exportThenImportNote": {
+      "message": "คุณยังสามารถนำเข้ารายการ URL ต่อไปนี้กลับไปยัง OneTab ได้ ทั้งในคอมพิวเตอร์เครื่องนี้หรือเครื่องอื่น"
+   },
+   "exportUrls": {
+      "message": "ส่งออก URL"
+   },
+   "feedback": {
+      "message": "ข้อเสนอแนะ"
+   },
+   "filter": {
+      "message": "ตัวกรอง"
+   },
+   "firefoxIncognitoInstructions": {
+      "message": "ในการตั้งค่าเบราว์เซอร์ของคุณ ไปที่ 'การตั้งค่า' → 'ส่วนเสริมและชุดตกแต่ง' → 'ส่วนเสริม' → 'OneTab' → '…' → 'จัดการ' แล้วเปิดใช้งาน 'ทำงานในหน้าต่างส่วนตัว'."
+   },
+   "firefoxShortcutConfigInstructions": {
+      "message": "พิมพ์ URL \"about:addons?type=extension\" ลงในแถบที่อยู่ของเบราว์เซอร์ เมื่อหน้าเปิดขึ้น ให้คลิกไอคอนรูปเฟือง แล้วเลือก \"จัดการแป้นพิมพ์ลัดของส่วนเสริม\""
+   },
+   "folderCount_few": {
+      "message": "{COUNT} โฟลเดอร์"
+   },
+   "folderCount_many": {
+      "message": "{COUNT} โฟลเดอร์"
+   },
+   "folderCount_one": {
+      "message": "{COUNT} โฟลเดอร์"
+   },
+   "folderCount_other": {
+      "message": "{COUNT} โฟลเดอร์"
+   },
+   "folderCount_two": {
+      "message": "{COUNT} โฟลเดอร์"
+   },
+   "folderCount_zero": {
+      "message": "{COUNT} โฟลเดอร์"
+   },
+   "folders": {
+      "message": "โฟลเดอร์"
+   },
+   "foldersOnly": {
+      "message": "เฉพาะโฟลเดอร์"
+   },
+   "gettingStarted": {
+      "message": "เริ่มต้นใช้งาน"
+   },
+   "goToParentFolder": {
+      "message": "ไปยังโฟลเดอร์แม่"
+   },
+   "groupCount_few": {
+      "message": "{COUNT} กลุ่ม"
+   },
+   "groupCount_many": {
+      "message": "{COUNT} กลุ่ม"
+   },
+   "groupCount_one": {
+      "message": "{COUNT} กลุ่ม"
+   },
+   "groupCount_other": {
+      "message": "{COUNT} กลุ่ม"
+   },
+   "groupCount_two": {
+      "message": "{COUNT} กลุ่ม"
+   },
+   "groupCount_zero": {
+      "message": "{COUNT} กลุ่ม"
+   },
+   "groups": {
+      "message": "กลุ่ม"
+   },
+   "hasNotes": {
+      "message": "มีบันทึก"
+   },
+   "hasRating": {
+      "message": "มีการให้คะแนน"
+   },
+   "help": {
+      "message": "วิธีใช้"
+   },
+   "hideArchivedItems": {
+      "message": "ซ่อนรายการที่เก็บถาวร"
+   },
+   "import": {
+      "message": "นำเข้า"
+   },
+   "importAndExport": {
+      "message": "นำเข้าและส่งออก"
+   },
+   "importBookmarks": {
+      "message": "นำเข้าบุ๊กมาร์ก"
+   },
+   "importFolderAndSubfolders": {
+      "message": "นำเข้าโฟลเดอร์และโฟลเดอร์ย่อย"
+   },
+   "importLinksHere": {
+      "message": "นำเข้าลิงก์ที่นี่"
+   },
+   "importReadingList": {
+      "message": "นำเข้ารายการอ่าน"
+   },
+   "importText": {
+      "message": "นำเข้าข้อความ"
+   },
+   "importUrls": {
+      "message": "นำเข้า URL"
+   },
+   "importedBookmarks": {
+      "message": "บุ๊กมาร์กที่นำเข้า"
+   },
+   "includeGroupedTabs": {
+      "message": "รวมแท็บในกลุ่มแท็บ"
+   },
+   "includeNotes": {
+      "message": "รวมบันทึก"
+   },
+   "includePinnedTabs": {
+      "message": "รวมแท็บที่ปักหมุด"
+   },
+   "includeStarRatings": {
+      "message": "รวมการให้คะแนนแบบดาว"
+   },
+   "includeTabsAlreadyStored": {
+      "message": "รวมแท็บที่คุณบันทึกไว้แล้ว"
+   },
+   "includeTabsFromDomains": {
+      "message": "รวมแท็บจาก EXAMPLE.COM"
+   },
+   "incogitoPermissionRequired": {
+      "message": "OneTab ต้องได้รับสิทธิ์ในการสร้างหน้าต่างไม่ระบุตัวตน."
+   },
+   "incognitoWindows": {
+      "message": "หน้าต่างไม่ระบุตัวตน"
+   },
+   "invertSelection": {
+      "message": "สลับการเลือก"
+   },
+   "justNow": {
+      "message": "เมื่อสักครู่"
+   },
+   "keyboardShortcutsColon": {
+      "message": "แป้นพิมพ์ลัด:"
+   },
+   "languageTitle": {
+      "message": "ภาษา:"
+   },
+   "lightTheme": {
+      "message": "ธีมสว่าง"
+   },
+   "localeId": {
+      "message": "th"
+   },
+   "locationColon": {
+      "message": "ตำแหน่ง:"
+   },
+   "lock": {
+      "message": "ล็อก"
+   },
+   "lockMenuItemHelp": {
+      "message": "เมื่อกลุ่มถูกล็อก คุณจะไม่สามารถลบหรือจัดเรียงรายการภายในกลุ่มได้ เมื่อเปิดกลุ่มที่ถูกล็อก การทำงานอัตโนมัติจะไม่ถูกใช้ ดูหน้าตัวเลือกสำหรับข้อมูลเกี่ยวกับการทำงานอัตโนมัติ"
+   },
+   "lockedGroupUnlockHelp": {
+      "message": "หากต้องการปลดล็อก ให้ใช้เมนูดรอปดาวน์ เมื่อกลุ่มถูกล็อก คุณจะไม่สามารถลบกลุ่มหรือแท็บภายในกลุ่มได้ และไม่สามารถจัดเรียงลำดับแท็บใหม่ได้"
+   },
+   "makeThisATask": {
+      "message": "ทำให้เป็นงาน"
+   },
+   "manifestDescription": {
+      "message": "ประหยัดหน่วยความจำได้สูงสุด 95% และลดความรกของแท็บ"
+   },
+   "markAsArchived": {
+      "message": "ทำเครื่องหมายว่าเก็บถาวร"
+   },
+   "markAsArchivedMenuItemHelp": {
+      "message": "โปรดทราบว่างานที่เก็บถาวรและงานในกลุ่มที่เก็บถาวรจะไม่ปรากฏในคอลัมน์งาน"
+   },
+   "markAsDoneTask": {
+      "message": "ทำเครื่องหมายว่าเป็นงานที่เสร็จสิ้น"
+   },
+   "markAsPendingTask": {
+      "message": "ทำเครื่องหมายว่าเป็นงานที่รอดำเนินการ"
+   },
+   "matchCount_few": {
+      "message": "{COUNT} รายการที่ตรงกัน"
+   },
+   "matchCount_many": {
+      "message": "{COUNT} รายการที่ตรงกัน"
+   },
+   "matchCount_one": {
+      "message": "{COUNT} รายการที่ตรงกัน"
+   },
+   "matchCount_other": {
+      "message": "{COUNT} รายการที่ตรงกัน"
+   },
+   "matchCount_two": {
+      "message": "{COUNT} รายการที่ตรงกัน"
+   },
+   "matchCount_zero": {
+      "message": "{COUNT} รายการที่ตรงกัน"
+   },
+   "matchWholeWordsOnly": {
+      "message": "ตรงทั้งคำเท่านั้น"
+   },
+   "mayNeedToRestartBrowser": {
+      "message": "คุณอาจต้องอัปเดตและรีสตาร์ตเบราว์เซอร์ด้วย."
+   },
+   "mergeIntoParent": {
+      "message": "รวมเข้ากับรายการแม่"
+   },
+   "mergeOpenTabsHere_few": {
+      "message": "รวมแท็บที่เปิดอยู่ {COUNT} แท็บที่นี่"
+   },
+   "mergeOpenTabsHere_many": {
+      "message": "รวมแท็บที่เปิดอยู่ {COUNT} แท็บที่นี่"
+   },
+   "mergeOpenTabsHere_one": {
+      "message": "รวมแท็บที่เปิดอยู่ {COUNT} แท็บที่นี่"
+   },
+   "mergeOpenTabsHere_other": {
+      "message": "รวมแท็บที่เปิดอยู่ {COUNT} แท็บที่นี่"
+   },
+   "mergeOpenTabsHere_two": {
+      "message": "รวมแท็บที่เปิดอยู่ {COUNT} แท็บที่นี่"
+   },
+   "mergeOpenTabsHere_zero": {
+      "message": "รวมแท็บที่เปิดอยู่ {COUNT} แท็บที่นี่"
+   },
+   "mergeSelectedTabsHere_few": {
+      "message": "รวมแท็บที่เลือก {COUNT} แท็บที่นี่"
+   },
+   "mergeSelectedTabsHere_many": {
+      "message": "รวมแท็บที่เลือก {COUNT} แท็บที่นี่"
+   },
+   "mergeSelectedTabsHere_one": {
+      "message": "รวมแท็บที่เลือก {COUNT} แท็บที่นี่"
+   },
+   "mergeSelectedTabsHere_other": {
+      "message": "รวมแท็บที่เลือก {COUNT} แท็บที่นี่"
+   },
+   "mergeSelectedTabsHere_two": {
+      "message": "รวมแท็บที่เลือก {COUNT} แท็บที่นี่"
+   },
+   "mergeSelectedTabsHere_zero": {
+      "message": "รวมแท็บที่เลือก {COUNT} แท็บที่นี่"
+   },
+   "mergeWithInnerGroups": {
+      "message": "รวมกับกลุ่มย่อยภายใน"
+   },
+   "modifySharing": {
+      "message": "แก้ไขการแชร์"
+   },
+   "moreEllipsis": {
+      "message": "เพิ่มเติม…"
+   },
+   "moreSearchFilters": {
+      "message": "ตัวกรองการค้นหาเพิ่มเติม"
+   },
+   "moreTripleDot": {
+      "message": "เพิ่มเติม…"
+   },
+   "move": {
+      "message": "ย้าย"
+   },
+   "moveToTrash": {
+      "message": "ย้ายไปถังขยะ"
+   },
+   "namedOnly": {
+      "message": "เฉพาะที่มีชื่อ"
+   },
+   "navigationFilter": {
+      "message": "ตัวกรองการนำทาง"
+   },
+   "newExclamation": {
+      "message": "ใหม่!"
+   },
+   "noDupsExistExceptForColon": {
+      "message": "ไม่มีรายการซ้ำ ยกเว้น:"
+   },
+   "noDupsFoundHere": {
+      "message": "ไม่พบรายการซ้ำที่นี่"
+   },
+   "noMatches": {
+      "message": "ไม่พบที่ตรงกัน"
+   },
+   "noMatchesFound": {
+      "message": "ไม่พบที่ตรงกัน"
+   },
+   "noOpenTabsToStore": {
+      "message": "ไม่มีแท็บที่เปิดอยู่ในหน้าต่างนี้ให้บันทึก"
+   },
+   "noReadingListEntries": {
+      "message": "ไม่พบรายการในรายการอ่าน"
+   },
+   "noTabsInOneTabYet": {
+      "message": "คุณยังไม่มีแท็บใน OneTab"
+   },
+   "noTabsMeetCriteriaUseCheckboxes": {
+      "message": "ไม่มีแท็บที่เปิดอยู่ตรงตามเกณฑ์ของคุณ โปรดใช้ช่องทำเครื่องหมายด้านบน"
+   },
+   "noTextHasBeenEntered": {
+      "message": "ยังไม่ได้ป้อนข้อความ"
+   },
+   "nonArchived": {
+      "message": "ไม่ได้เก็บถาวร"
+   },
+   "notAssigned": {
+      "message": "ยังไม่ได้กำหนด"
+   },
+   "notes": {
+      "message": "บันทึก"
+   },
+   "notesAboutTheLinkOptional": {
+      "message": "บันทึกเกี่ยวกับลิงก์ (ไม่บังคับ)"
+   },
+   "notesAboutTheSecondLinkOptional": {
+      "message": "บันทึกเกี่ยวกับลิงก์ตัวอย่างที่ 2 (ไม่บังคับ)"
+   },
+   "ok": {
+      "message": "ตกลง"
+   },
+   "omniboxShortcutInfo": {
+      "message": "เมื่อต้องการค้นหารายการ OneTab ของคุณจากแท็บใดก็ได้: ไปที่แถบที่อยู่ของเบราว์เซอร์ พิมพ์ 1 แล้วเว้นวรรค จากนั้นพิมพ์คีย์เวิร์ดที่ต้องการค้นหา"
+   },
+   "oneTabDesignedToProtectPrivacy": {
+      "message": "OneTab ถูกออกแบบมาเพื่อปกป้องความเป็นส่วนตัวของคุณ แท็บของคุณจะไม่ถูกเปิดเผยต่อเรา"
+   },
+   "oneTabImportExportPageTitle": {
+      "message": "OneTab นำเข้า/ส่งออก"
+   },
+   "oneTabNeedsPermissionToAccessYourTabs": {
+      "message": "OneTab ต้องได้รับสิทธิ์ในการเข้าถึงแท็บของคุณ."
+   },
+   "oneTabOptionsPageTitle": {
+      "message": "ตัวเลือกของ OneTab"
+   },
+   "oneTabPermissionRequired": {
+      "message": "OneTab - ต้องขอสิทธิ์"
+   },
+   "oneTabRestartRequired": {
+      "message": "จำเป็นต้องรีสตาร์ต OneTab."
+   },
+   "oneTabSlashShortcutInfo": {
+      "message": "เมื่ออยู่ในหน้า OneTab ให้กดปุ่ม / เพื่อโฟกัสไปที่ช่องค้นหา."
+   },
+   "open": {
+      "message": "เปิด"
+   },
+   "openActionPopup": {
+      "message": "เปิดป๊อปอัปของส่วนขยาย"
+   },
+   "openAsCollapsedTabGroup": {
+      "message": "เปิดเป็นกลุ่มแท็บแบบ 'ยุบ'"
+   },
+   "openAsCollapsedTabGroupMenuItemHelp": {
+      "message": "หากคุณเปิดแท็บเหล่านี้เป็น \"กลุ่มแท็บ\" แบบยุบ จะแสดงเฉพาะป้ายชื่อกลุ่มจนกว่าคุณจะคลิกเพื่อแสดงแท็บภายใน"
+   },
+   "openAsTabGroup": {
+      "message": "เปิดเป็นกลุ่มแท็บของเบราว์เซอร์"
+   },
+   "openAsTabGroupMenuItemHelp": {
+      "message": "เบราว์เซอร์ของคุณอนุญาตให้จัดกลุ่มแท็บเป็น \"กลุ่มแท็บ\" ที่มีสีภายในหน้าต่าง"
+   },
+   "openGroupsLimitNotice_few": {
+      "message": "เพื่อป้องกันไม่ให้เบราว์เซอร์ของคุณทำงานหนักเกินไป จะเปิดเฉพาะ {COUNT} กลุ่มแรกเท่านั้น."
+   },
+   "openGroupsLimitNotice_many": {
+      "message": "เพื่อป้องกันไม่ให้เบราว์เซอร์ของคุณทำงานหนักเกินไป จะเปิดเฉพาะ {COUNT} กลุ่มแรกเท่านั้น."
+   },
+   "openGroupsLimitNotice_one": {
+      "message": "เพื่อป้องกันไม่ให้เบราว์เซอร์ของคุณทำงานหนักเกินไป จะเปิดเฉพาะ {COUNT} กลุ่มแรกเท่านั้น."
+   },
+   "openGroupsLimitNotice_other": {
+      "message": "เพื่อป้องกันไม่ให้เบราว์เซอร์ของคุณทำงานหนักเกินไป จะเปิดเฉพาะ {COUNT} กลุ่มแรกเท่านั้น."
+   },
+   "openGroupsLimitNotice_two": {
+      "message": "เพื่อป้องกันไม่ให้เบราว์เซอร์ของคุณทำงานหนักเกินไป จะเปิดเฉพาะ {COUNT} กลุ่มแรกเท่านั้น."
+   },
+   "openGroupsLimitNotice_zero": {
+      "message": "เพื่อป้องกันไม่ให้เบราว์เซอร์ของคุณทำงานหนักเกินไป จะเปิดเฉพาะ {COUNT} กลุ่มแรกเท่านั้น."
+   },
+   "openInIncognitoWindow": {
+      "message": "เปิดในหน้าต่างไม่ระบุตัวตนใหม่"
+   },
+   "openInNewWindow": {
+      "message": "เปิดในหน้าต่างใหม่"
+   },
+   "openInThisWindow": {
+      "message": "เปิดในหน้าต่างนี้"
+   },
+   "openONETABLogo": {
+      "message": "เปิด ONETAB"
+   },
+   "openOneTab": {
+      "message": "เปิด OneTab"
+   },
+   "openOneTabAfter": {
+      "message": "เปิด OneTab หลังจากบันทึกแท็บ"
+   },
+   "openTabFromWebsite": {
+      "message": "เปิดแท็บแล้วไปที่เว็บไซต์"
+   },
+   "openTabLimit_few": {
+      "message": "เพื่อป้องกันไม่ให้เบราว์เซอร์ของคุณทำงานหนักเกินไป จะเปิดพร้อมกันได้สูงสุด {COUNT} แท็บ."
+   },
+   "openTabLimit_many": {
+      "message": "เพื่อป้องกันไม่ให้เบราว์เซอร์ของคุณทำงานหนักเกินไป จะเปิดพร้อมกันได้สูงสุด {COUNT} แท็บ."
+   },
+   "openTabLimit_one": {
+      "message": "เพื่อป้องกันไม่ให้เบราว์เซอร์ของคุณทำงานหนักเกินไป จะเปิดพร้อมกันได้สูงสุด {COUNT} แท็บ."
+   },
+   "openTabLimit_other": {
+      "message": "เพื่อป้องกันไม่ให้เบราว์เซอร์ของคุณทำงานหนักเกินไป จะเปิดพร้อมกันได้สูงสุด {COUNT} แท็บ."
+   },
+   "openTabLimit_two": {
+      "message": "เพื่อป้องกันไม่ให้เบราว์เซอร์ของคุณทำงานหนักเกินไป จะเปิดพร้อมกันได้สูงสุด {COUNT} แท็บ."
+   },
+   "openTabLimit_zero": {
+      "message": "เพื่อป้องกันไม่ให้เบราว์เซอร์ของคุณทำงานหนักเกินไป จะเปิดพร้อมกันได้สูงสุด {COUNT} แท็บ."
+   },
+   "openTabsAlreadyStoredHere_few": {
+      "message": "{COUNT} แท็บที่เปิดอยู่บันทึกไว้ที่นี่แล้ว:"
+   },
+   "openTabsAlreadyStoredHere_many": {
+      "message": "{COUNT} แท็บที่เปิดอยู่บันทึกไว้ที่นี่แล้ว:"
+   },
+   "openTabsAlreadyStoredHere_one": {
+      "message": "{COUNT} แท็บที่เปิดอยู่บันทึกไว้ที่นี่แล้ว:"
+   },
+   "openTabsAlreadyStoredHere_other": {
+      "message": "{COUNT} แท็บที่เปิดอยู่บันทึกไว้ที่นี่แล้ว:"
+   },
+   "openTabsAlreadyStoredHere_two": {
+      "message": "{COUNT} แท็บที่เปิดอยู่บันทึกไว้ที่นี่แล้ว:"
+   },
+   "openTabsAlreadyStoredHere_zero": {
+      "message": "{COUNT} แท็บที่เปิดอยู่บันทึกไว้ที่นี่แล้ว:"
+   },
+   "openTabsConfirm_few": {
+      "message": "คุณกำลังจะเปิด {COUNT} แท็บ แน่ใจหรือไม่?"
+   },
+   "openTabsConfirm_many": {
+      "message": "คุณกำลังจะเปิด {COUNT} แท็บ แน่ใจหรือไม่?"
+   },
+   "openTabsConfirm_one": {
+      "message": "คุณกำลังจะเปิด {COUNT} แท็บ แน่ใจหรือไม่?"
+   },
+   "openTabsConfirm_other": {
+      "message": "คุณกำลังจะเปิด {COUNT} แท็บ แน่ใจหรือไม่?"
+   },
+   "openTabsConfirm_two": {
+      "message": "คุณกำลังจะเปิด {COUNT} แท็บ แน่ใจหรือไม่?"
+   },
+   "openTabsConfirm_zero": {
+      "message": "คุณกำลังจะเปิด {COUNT} แท็บ แน่ใจหรือไม่?"
+   },
+   "openTabsNotStoredInOneTab_few": {
+      "message": "{COUNT} แท็บที่เปิดอยู่ยังไม่ได้บันทึกใน OneTab"
+   },
+   "openTabsNotStoredInOneTab_many": {
+      "message": "{COUNT} แท็บที่เปิดอยู่ยังไม่ได้บันทึกใน OneTab"
+   },
+   "openTabsNotStoredInOneTab_one": {
+      "message": "{COUNT} แท็บที่เปิดอยู่ยังไม่ได้บันทึกใน OneTab"
+   },
+   "openTabsNotStoredInOneTab_other": {
+      "message": "{COUNT} แท็บที่เปิดอยู่ยังไม่ได้บันทึกใน OneTab"
+   },
+   "openTabsNotStoredInOneTab_two": {
+      "message": "{COUNT} แท็บที่เปิดอยู่ยังไม่ได้บันทึกใน OneTab"
+   },
+   "openTabsNotStoredInOneTab_zero": {
+      "message": "{COUNT} แท็บที่เปิดอยู่ยังไม่ได้บันทึกใน OneTab"
+   },
+   "optionAutoActionOnGroupOpenArchiveDesc": {
+      "message": "หากต้องการป้องกันไม่ให้ทำเครื่องหมายกลุ่มว่าเก็บถาวร ให้กดแป้น Alt/Option ค้างไว้ขณะคลิกเพื่อเปิดกลุ่ม"
+   },
+   "optionAutoActionOnGroupOpenArchiveTitle": {
+      "message": "เปิดแท็บ และทำเครื่องหมายกลุ่มว่าเก็บถาวร"
+   },
+   "optionAutoActionOnGroupOpenHeading": {
+      "message": "การทำงานอัตโนมัติเมื่อคลิกเพื่อเปิดกลุ่มแท็บ:"
+   },
+   "optionAutoActionOnGroupOpenNote": {
+      "message": "การทำงานอัตโนมัติจะไม่ถูกใช้กับกลุ่มที่ถูกล็อกไว้หรือเป็นงาน."
+   },
+   "optionAutoActionOnGroupOpenOpenDesc": {
+      "message": "หากต้องการทำเครื่องหมายกลุ่มว่าเก็บถาวร ให้กดแป้น Alt/Option ค้างไว้ขณะคลิกเพื่อเปิดกลุ่ม"
+   },
+   "optionAutoActionOnGroupOpenOpenTitle": {
+      "message": "เปิดแท็บเท่านั้น"
+   },
+   "optionAutoActionOnGroupOpenTrashDesc": {
+      "message": "หากต้องการป้องกันไม่ให้ส่งกลุ่มไปถังขยะอัตโนมัติ ให้กดแป้น Alt/Option ค้างไว้ขณะคลิกเพื่อเปิดกลุ่ม"
+   },
+   "optionAutoActionOnGroupOpenTrashTitle": {
+      "message": "เปิดแท็บ และย้ายกลุ่มไปถังขยะ"
+   },
+   "optionAutoActionOnTabOpenArchiveDesc": {
+      "message": "หากต้องการป้องกันไม่ให้ทำเครื่องหมายแท็บว่าเก็บถาวรอัตโนมัติ ให้กดแป้น Alt/Option ค้างไว้ขณะคลิกเพื่อเปิดแท็บ"
+   },
+   "optionAutoActionOnTabOpenArchiveTitle": {
+      "message": "เปิดแท็บ และทำเครื่องหมายว่าเก็บถาวร"
+   },
+   "optionAutoActionOnTabOpenHeading": {
+      "message": "การทำงานอัตโนมัติเมื่อคลิกเพื่อเปิดแท็บ:"
+   },
+   "optionAutoActionOnTabOpenNote": {
+      "message": "การทำงานอัตโนมัติจะไม่ถูกใช้กับแท็บในกลุ่มที่ถูกล็อกไว้หรือเป็นงาน."
+   },
+   "optionAutoActionOnTabOpenOpenDesc": {
+      "message": "หากต้องการทำเครื่องหมายแท็บว่าเก็บถาวร ให้กดแป้น Alt/Option ค้างไว้ขณะคลิกเพื่อเปิดแท็บ"
+   },
+   "optionAutoActionOnTabOpenOpenTitle": {
+      "message": "เปิดแท็บเท่านั้น"
+   },
+   "optionAutoActionOnTabOpenTrashDesc": {
+      "message": "หากต้องการป้องกันไม่ให้ส่งแท็บไปถังขยะอัตโนมัติ ให้กดแป้น Alt/Option ค้างไว้ขณะคลิกเพื่อเปิดแท็บ"
+   },
+   "optionAutoActionOnTabOpenTrashTitle": {
+      "message": "เปิดแท็บ และย้ายไปถังขยะ"
+   },
+   "optionCopyToClipboardFormatHeading": {
+      "message": "การคัดลอกลิงก์ไปยังคลิปบอร์ด:"
+   },
+   "optionCopyToClipboardFormatNote": {
+      "message": "การตั้งค่านี้ใช้เมื่อคุณใช้การกระทำ 'คัดลอกไปยังคลิปบอร์ด' คุณยังสามารถลากแท็บและกลุ่มโดยตรงจาก OneTab ไปยังเอกสารได้"
+   },
+   "optionCopyToClipboardFormatRichTextDesc": {
+      "message": "แอปพลิเคชันเช่นโปรแกรมประมวลผลคำจะอนุญาตให้คุณวาง Rich text หากไม่รองรับ จะวางเป็นข้อความธรรมดาแทน."
+   },
+   "optionCopyToClipboardFormatRichTextTitle": {
+      "message": "Rich text (เมื่อรองรับ)"
+   },
+   "optionCopyToClipboardFormatTitleUrlTitle": {
+      "message": "ชื่อและ URL"
+   },
+   "optionCopyToClipboardFormatUrlOnlyTitle": {
+      "message": "เฉพาะ URL"
+   },
+   "optionCopyToClipboardFormatUrlTitleTitle": {
+      "message": "URL และชื่อ"
+   },
+   "optionDefaultTabGroupOpenTypeCurrentWindow": {
+      "message": "เปิดกลุ่มแท็บของเบราว์เซอร์ในหน้าต่างปัจจุบัน"
+   },
+   "optionDefaultTabGroupOpenTypeHeading": {
+      "message": "เมื่อคลิกเพื่อเปิดกลุ่มแท็บที่ตั้งค่าให้เปิดเป็น \"กลุ่มแท็บของเบราว์เซอร์\":"
+   },
+   "optionDefaultTabGroupOpenTypeNewWindow": {
+      "message": "เปิดกลุ่มแท็บของเบราว์เซอร์ในหน้าต่างใหม่"
+   },
+   "optionDefaultTabGroupOpenTypeNote": {
+      "message": "หากคุณใช้ดรอปดาวน์เพื่อเลือกตัวเลือกใดตัวเลือกหนึ่ง (เช่น เปิดแท็บในหน้าต่างไม่ระบุตัวตน) ระบบจะจำตัวเลือกนั้นไว้สำหรับกลุ่มนั้น ๆ"
+   },
+   "optionDefaultWindowGroupOpenTypeCurrentWindow": {
+      "message": "เปิดแท็บในหน้าต่างปัจจุบัน"
+   },
+   "optionDefaultWindowGroupOpenTypeHeading": {
+      "message": "เมื่อคลิกเพื่อเปิดกลุ่มแท็บ:"
+   },
+   "optionDefaultWindowGroupOpenTypeNewWindow": {
+      "message": "เปิดแท็บในหน้าต่างใหม่"
+   },
+   "optionDefaultWindowGroupOpenTypeNote": {
+      "message": "หากคุณใช้ดรอปดาวน์เพื่อเลือกตัวเลือกใดตัวเลือกหนึ่ง (เช่น เปิดแท็บในหน้าต่างไม่ระบุตัวตน) ระบบจะจำตัวเลือกนั้นไว้สำหรับกลุ่มนั้น ๆ"
+   },
+   "optionDiscardNonActiveTabOnOpenHeading": {
+      "message": "ประหยัดหน่วยความจำ (RAM) ทันทีเมื่อเปิดแท็บครั้งแรก:"
+   },
+   "optionDiscardNonActiveTabOnOpenNote": {
+      "message": "หากเปิดใช้การตั้งค่านี้ ระบบจะยกเลิกการโหลดแท็บออกจากหน่วยความจำทันทีเมื่อคุณเปิดแท็บจากรายการ OneTab เป็นครั้งแรก การตั้งค่านี้มีประโยชน์เมื่อคุณมักเปิดแท็บจำนวนมากพร้อมกัน เพราะจะช่วยป้องกันไม่ให้แท็บทั้งหมดถูกโหลดเข้า RAM จนกว่าคุณจะเข้าถึงแท็บนั้น หากปิดการตั้งค่านี้ เบราว์เซอร์หลายตัวก็ยังอาจเลือกยกเลิกการโหลดแท็บที่คุณไม่ได้ใช้งานออกจากหน่วยความจำโดยอัตโนมัติ"
+   },
+   "optionDisplayContextMenuHeading": {
+      "message": "คลิกขวาภายในหน้าเว็บเพื่อเข้าถึงเมนูคลิกขวาของ OneTab:"
+   },
+   "optionDisplayContextMenuNote": {
+      "message": "หากคุณปิดใช้งานเมนู คุณจะไม่สามารถใช้ฟีเจอร์ \"ยกเว้นเว็บไซต์จาก OneTab\" ได้"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenFalseTitle": {
+      "message": "สลับไปยังหน้าต่างที่มีแท็บ OneTab เปิดอยู่แล้ว"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenHeading": {
+      "message": "การดำเนินการ \"เปิด OneTab\":"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenNote": {
+      "message": "คุณสามารถเข้าถึงการดำเนินการ \"เปิด OneTab\" ได้ผ่านแป้นพิมพ์ลัด และยังเข้าถึงได้ในป๊อปอัปที่แสดงเมื่อคุณคลิกไอคอน OneTab บนแถบเครื่องมือของเบราว์เซอร์"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenTrueTitle": {
+      "message": "ย้ายแท็บ OneTab ที่มีอยู่ไปยังหน้าต่างปัจจุบัน"
+   },
+   "optionStartupLaunchDisplay": {
+      "message": "เปิด OneTab ทุกครั้งที่คุณเริ่มเบราว์เซอร์"
+   },
+   "optionStartupLaunchNone": {
+      "message": "ไม่ต้องเปิด OneTab อัตโนมัติ"
+   },
+   "optionStartupLaunchNoneDesc3": {
+      "message": "เมื่อต้องการเปิด OneTab ด้วยตนเอง ให้คลิกไอคอน OneTab บนแถบเครื่องมือของเบราว์เซอร์ แล้วเลือก 'เปิด OneTab' อีกวิธีหนึ่ง คุณสามารถคลิกขวาในหน้าเว็บใดก็ได้ แล้วคลิก 'เปิด OneTab' ในเมนู OneTab."
+   },
+   "optionStartupLaunchTitle": {
+      "message": "เริ่มต้น:"
+   },
+   "optionSwitchToOpenedTabFalseTitle": {
+      "message": "เปิดแท็บและอยู่ใน OneTab ต่อ"
+   },
+   "optionSwitchToOpenedTabHeading": {
+      "message": "เมื่อเปิดแท็บจากหน้า OneTab:"
+   },
+   "optionSwitchToOpenedTabNote": {
+      "message": "หากคุณกด Shift ขณะคลิก แท็บจะเปิดในหน้าต่างใหม่"
+   },
+   "optionSwitchToOpenedTabTrueTitle": {
+      "message": "เปิดแท็บ แล้วสลับไปที่แท็บนั้น (ยกเว้นคุณกด Command ⌘/Ctrl ขณะคลิก)"
+   },
+   "optionUrlAbbr": {
+      "message": "ย่อ"
+   },
+   "optionUrlDisplayTitle": {
+      "message": "การแสดง URL:"
+   },
+   "optionUrlDomain": {
+      "message": "เฉพาะโดเมน"
+   },
+   "optionUrlFull": {
+      "message": "เต็ม"
+   },
+   "optionUrlNone": {
+      "message": "ไม่มี"
+   },
+   "options": {
+      "message": "ตัวเลือก"
+   },
+   "otherCopiesColon": {
+      "message": "สำเนาอื่น:"
+   },
+   "pasteRichOrPlainTextBelow": {
+      "message": "คุณสามารถวางข้อความที่มีการจัดรูปแบบหรือข้อความธรรมดาได้ด้านล่าง."
+   },
+   "pendingTaskCount_few": {
+      "message": "{COUNT} รอดำเนินการ"
+   },
+   "pendingTaskCount_many": {
+      "message": "{COUNT} รอดำเนินการ"
+   },
+   "pendingTaskCount_one": {
+      "message": "{COUNT} รอดำเนินการ"
+   },
+   "pendingTaskCount_other": {
+      "message": "{COUNT} รอดำเนินการ"
+   },
+   "pendingTaskCount_two": {
+      "message": "{COUNT} รอดำเนินการ"
+   },
+   "pendingTaskCount_zero": {
+      "message": "{COUNT} รอดำเนินการ"
+   },
+   "permissionRequiredPleaseTryAgain": {
+      "message": "หากต้องการสร้างหน้าที่แชร์ซึ่งเข้าถึงได้จากคอมพิวเตอร์เครื่องใด จะต้องขอสิทธิ์เพื่อประสานงานกับเว็บเซิร์ฟเวอร์ของ OneTab โปรดลองอีกครั้ง."
+   },
+   "pinToTopOfFolder": {
+      "message": "ปักหมุดไว้ด้านบนของโฟลเดอร์"
+   },
+   "pinToTopOfList": {
+      "message": "ปักหมุดไว้ด้านบนของรายการ"
+   },
+   "pinnedTabs": {
+      "message": "แท็บที่ปักหมุด"
+   },
+   "placeholderAndOtherLocations_few": {
+      "message": "PLACEHOLDER และอื่น ๆ อีก {COUNT}"
+   },
+   "placeholderAndOtherLocations_many": {
+      "message": "PLACEHOLDER และอื่น ๆ อีก {COUNT}"
+   },
+   "placeholderAndOtherLocations_one": {
+      "message": "PLACEHOLDER และอื่น ๆ อีก {COUNT}"
+   },
+   "placeholderAndOtherLocations_other": {
+      "message": "PLACEHOLDER และอื่น ๆ อีก {COUNT}"
+   },
+   "placeholderAndOtherLocations_two": {
+      "message": "PLACEHOLDER และอื่น ๆ อีก {COUNT}"
+   },
+   "placeholderAndOtherLocations_zero": {
+      "message": "PLACEHOLDER และอื่น ๆ อีก {COUNT}"
+   },
+   "placeholderExplanation": {
+      "message": "เนื่องจากกฎความปลอดภัยของเว็บเบราว์เซอร์ OneTab ไม่ได้รับอนุญาตให้กู้คืนหน้านี้โดยตรง โปรดคัดลอก URL ของคุณแล้ววางในแถบที่อยู่ของเบราว์เซอร์"
+   },
+   "plainTextLineFormat": {
+      "message": "หากคุณวางเป็นข้อความธรรมดา โปรดตรวจสอบว่าแต่ละ URL มีการระบุโปรโตคอลไว้ (https://wikipedia.org แทนที่จะเป็น wikipedia.org เฉย ๆ) โดยแต่ละบรรทัดควรอยู่ในรูปแบบต่อไปนี้:"
+   },
+   "pleaseWaitTripleDot": {
+      "message": "โปรดรอ…"
+   },
+   "popupSlashShortcutInfo": {
+      "message": "เมื่ออยู่ในป๊อปอัปของ OneTab (ซึ่งจะแสดงเมื่อคุณคลิกไอคอน OneTab) ให้กดปุ่ม / เพื่อเปิดตัวเลือกปลายทางและโฟกัสช่องค้นหา."
+   },
+   "privacyAssurance": {
+      "message": "รับรองความเป็นส่วนตัว"
+   },
+   "privacyAssuranceDetail": {
+      "message": "รายการแท็บของคุณจะไม่ถูกส่งหรือเปิดเผยให้กับผู้พัฒนา OneTab หรือบุคคลอื่นใด ข้อยกเว้นเพียงอย่างเดียวคือเมื่อคุณใช้ฟีเจอร์ 'แชร์เป็นหน้าเว็บ' โดยตั้งใจ เพื่ออัปโหลดรายการแท็บของคุณเป็นหน้าเว็บเพื่อแชร์กับผู้อื่น"
+   },
+   "privacyFirst": {
+      "message": "ความเป็นส่วนตัวมาก่อน"
+   },
+   "privacyFirstMessage": {
+      "message": "OneTab ได้รับการออกแบบเพื่อปกป้องข้อมูลส่วนบุคคลของคุณ แท็บของคุณจะถูกเก็บไว้บนคอมพิวเตอร์ของคุณเท่านั้น และจะไม่ถูกแชร์กับผู้พัฒนา OneTab หรือบุคคลอื่นใด\nหากคุณใช้ฟีเจอร์สำรอง/ซิงค์ ข้อมูลของคุณจะถูกเข้ารหัสแบบปลายทางถึงปลายทางด้วยการเข้ารหัส AES-256 ที่มีความแข็งแรงสูง ซึ่งทำให้ผู้พัฒนา OneTab ไม่สามารถเห็นแท็บที่คุณสำรองหรือซิงค์ระหว่างอุปกรณ์ได้ เพราะมีเพียงคุณเท่านั้นที่ถือคีย์การเข้ารหัส\nข้อยกเว้นเพียงอย่างเดียวคือเมื่อคุณตั้งใจที่จะแชร์แท็บบางส่วนกับผู้อื่นด้วยฟีเจอร์ \"แชร์เป็นหน้าเว็บ\"\nเรายึดหลักความเป็นส่วนตัวมาก่อน"
+   },
+   "privateBrowsingPermissionRequired": {
+      "message": "OneTab ต้องได้รับสิทธิ์ในการสร้างหน้าต่างส่วนตัว."
+   },
+   "privateBrowsingWindows": {
+      "message": "หน้าต่างการเรียกดูแบบส่วนตัว"
+   },
+   "quickList": {
+      "message": "รายการด่วน"
+   },
+   "rating": {
+      "message": "การให้คะแนน"
+   },
+   "readingList": {
+      "message": "รายการอ่าน"
+   },
+   "readingListPermissionNecesssary": {
+      "message": "จำเป็นต้องมีสิทธิ์รายการอ่านเพื่อให้ OneTab สามารถนำเข้ารายการจากรายการอ่านของคุณได้ หากฟีเจอร์นี้ใช้งานไม่ได้ อาจเป็นเพราะเบราว์เซอร์ของคุณไม่รองรับรายการอ่าน"
+   },
+   "recent": {
+      "message": "ล่าสุด"
+   },
+   "recentDestinationsColon": {
+      "message": "ปลายทางล่าสุด:"
+   },
+   "recentDuplicateRetainedHelp": {
+      "message": "หากแท็บเดียวกันปรากฏมากกว่าหนึ่งครั้ง จะเก็บไว้เฉพาะรายการซ้ำที่ล่าสุดเท่านั้น"
+   },
+   "recentlyAccessed": {
+      "message": "เข้าถึงล่าสุด"
+   },
+   "recentlyCreated": {
+      "message": "สร้างล่าสุด"
+   },
+   "recentlyModified": {
+      "message": "แก้ไขล่าสุด"
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "message": "ลดการใช้หน่วยความจำลง 95%"
+   },
+   "removeDuplicateTabsHere_few": {
+      "message": "ลบแท็บซ้ำ {COUNT} แท็บภายในที่นี่"
+   },
+   "removeDuplicateTabsHere_many": {
+      "message": "ลบแท็บซ้ำ {COUNT} แท็บภายในที่นี่"
+   },
+   "removeDuplicateTabsHere_one": {
+      "message": "ลบแท็บซ้ำ {COUNT} แท็บภายในที่นี่"
+   },
+   "removeDuplicateTabsHere_other": {
+      "message": "ลบแท็บซ้ำ {COUNT} แท็บภายในที่นี่"
+   },
+   "removeDuplicateTabsHere_two": {
+      "message": "ลบแท็บซ้ำ {COUNT} แท็บภายในที่นี่"
+   },
+   "removeDuplicateTabsHere_zero": {
+      "message": "ลบแท็บซ้ำ {COUNT} แท็บภายในที่นี่"
+   },
+   "removeDuplicates": {
+      "message": "ลบรายการที่ซ้ำกัน"
+   },
+   "removeFromQuickList": {
+      "message": "นำออกจากรายการด่วน"
+   },
+   "removeTabsElsewhereAlsoHere_few": {
+      "message": "ลบแท็บที่อื่น {COUNT} แท็บที่มีอยู่ที่นี่ด้วย"
+   },
+   "removeTabsElsewhereAlsoHere_many": {
+      "message": "ลบแท็บที่อื่น {COUNT} แท็บที่มีอยู่ที่นี่ด้วย"
+   },
+   "removeTabsElsewhereAlsoHere_one": {
+      "message": "ลบแท็บที่อื่น {COUNT} แท็บที่มีอยู่ที่นี่ด้วย"
+   },
+   "removeTabsElsewhereAlsoHere_other": {
+      "message": "ลบแท็บที่อื่น {COUNT} แท็บที่มีอยู่ที่นี่ด้วย"
+   },
+   "removeTabsElsewhereAlsoHere_two": {
+      "message": "ลบแท็บที่อื่น {COUNT} แท็บที่มีอยู่ที่นี่ด้วย"
+   },
+   "removeTabsElsewhereAlsoHere_zero": {
+      "message": "ลบแท็บที่อื่น {COUNT} แท็บที่มีอยู่ที่นี่ด้วย"
+   },
+   "removeTabsHereAlsoElsewhere_few": {
+      "message": "ลบแท็บที่นี่ {COUNT} แท็บที่มีอยู่ที่อื่นด้วย"
+   },
+   "removeTabsHereAlsoElsewhere_many": {
+      "message": "ลบแท็บที่นี่ {COUNT} แท็บที่มีอยู่ที่อื่นด้วย"
+   },
+   "removeTabsHereAlsoElsewhere_one": {
+      "message": "ลบแท็บที่นี่ {COUNT} แท็บที่มีอยู่ที่อื่นด้วย"
+   },
+   "removeTabsHereAlsoElsewhere_other": {
+      "message": "ลบแท็บที่นี่ {COUNT} แท็บที่มีอยู่ที่อื่นด้วย"
+   },
+   "removeTabsHereAlsoElsewhere_two": {
+      "message": "ลบแท็บที่นี่ {COUNT} แท็บที่มีอยู่ที่อื่นด้วย"
+   },
+   "removeTabsHereAlsoElsewhere_zero": {
+      "message": "ลบแท็บที่นี่ {COUNT} แท็บที่มีอยู่ที่อื่นด้วย"
+   },
+   "rename": {
+      "message": "เปลี่ยนชื่อ"
+   },
+   "restore": {
+      "message": "กู้คืน"
+   },
+   "restrictSearchToFolderColon": {
+      "message": "จำกัดการค้นหาไว้ที่โฟลเดอร์ต่อไปนี้:"
+   },
+   "results": {
+      "message": "ผลลัพธ์"
+   },
+   "returnToOneTab": {
+      "message": "กลับไปที่ OneTab"
+   },
+   "reverse": {
+      "message": "กลับลำดับ"
+   },
+   "rightClickAndOpenOneTabMenu": {
+      "message": "คลิกขวาในหน้าเว็บ แล้วไปที่เมนู OneTab"
+   },
+   "rightClickMenuDisabledNote": {
+      "message": "หมายเหตุ: คุณได้ปิดใช้งานเมนูคลิกขวาของ OneTab โปรดเปิดใช้งานในหน้าตัวเลือกของ OneTab"
+   },
+   "rightClickSelectionOptionsTip": {
+      "message": "เคล็ดลับ: หลังจากที่คุณทำเครื่องหมายรายการแล้ว ให้คลิกขวาที่ไอคอนเครื่องหมายถูกเพื่อดูตัวเลือกการเลือกเพิ่มเติม"
+   },
+   "rightClickTickTip": {
+      "message": "เคล็ดลับ: คลิกขวาที่ไอคอนเครื่องหมายถูกถัดจากแต่ละแท็บเพื่อใช้เครื่องมือการเลือก"
+   },
+   "safariApproveOneTabInSettings": {
+      "message": "โปรดไปที่การตั้งค่า แล้วอนุมัติ OneTab ให้เข้าถึงทุกเว็บไซต์."
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "message": "ประหยัดหน่วยความจำได้สูงสุด 95% และลดความรกของแท็บใน Google Chrome"
+   },
+   "searchHere": {
+      "message": "ค้นหาที่นี่"
+   },
+   "searchOneTab": {
+      "message": "ค้นหาใน OneTab"
+   },
+   "secondExampleLink": {
+      "message": "ลิงก์ตัวอย่างที่ 2"
+   },
+   "secondExampleLinkTitle": {
+      "message": "ชื่อเรื่องลิงก์ตัวอย่างที่ 2"
+   },
+   "secondExampleLinkTitleOptional": {
+      "message": "ชื่อเรื่องลิงก์ตัวอย่างที่ 2 (ไม่บังคับ)"
+   },
+   "seeOtherTabsInThisGroup_few": {
+      "message": "ดูแท็บอื่น {COUNT} แท็บในกลุ่มนี้"
+   },
+   "seeOtherTabsInThisGroup_many": {
+      "message": "ดูแท็บอื่น {COUNT} แท็บในกลุ่มนี้"
+   },
+   "seeOtherTabsInThisGroup_one": {
+      "message": "ดูแท็บอื่น {COUNT} แท็บในกลุ่มนี้"
+   },
+   "seeOtherTabsInThisGroup_other": {
+      "message": "ดู {COUNT} แท็บอื่นในกลุ่มนี้"
+   },
+   "seeOtherTabsInThisGroup_two": {
+      "message": "ดู {COUNT} แท็บอื่นในกลุ่มแท็บนี้"
+   },
+   "seeOtherTabsInThisGroup_zero": {
+      "message": "ดูแท็บอื่น {COUNT} แท็บในกลุ่มนี้"
+   },
+   "seePasteInstructions": {
+      "message": "ดูคำแนะนำการวาง…"
+   },
+   "seeTabsInThisGroup_few": {
+      "message": "ดู {COUNT} แท็บในกลุ่มนี้"
+   },
+   "seeTabsInThisGroup_many": {
+      "message": "ดู {COUNT} แท็บในกลุ่มนี้"
+   },
+   "seeTabsInThisGroup_one": {
+      "message": "ดู {COUNT} แท็บในกลุ่มนี้"
+   },
+   "seeTabsInThisGroup_other": {
+      "message": "ดู {COUNT} แท็บในกลุ่มนี้"
+   },
+   "seeTabsInThisGroup_two": {
+      "message": "ดู {COUNT} แท็บในกลุ่มนี้"
+   },
+   "seeTabsInThisGroup_zero": {
+      "message": "ดู {COUNT} แท็บในกลุ่มนี้"
+   },
+   "selectAll": {
+      "message": "เลือกทั้งหมด"
+   },
+   "selectAllExceptThis": {
+      "message": "เลือกทั้งหมด ยกเว้นรายการนี้"
+   },
+   "selectThisAndAbove": {
+      "message": "เลือกรายการนี้และทั้งหมดด้านบน"
+   },
+   "selectThisAndBelow": {
+      "message": "เลือกรายการนี้และทั้งหมดด้านล่าง"
+   },
+   "selectedItemCount_few": {
+      "message": "{COUNT} รายการที่เลือก"
+   },
+   "selectedItemCount_many": {
+      "message": "{COUNT} รายการที่เลือก"
+   },
+   "selectedItemCount_one": {
+      "message": "{COUNT} รายการที่เลือก"
+   },
+   "selectedItemCount_other": {
+      "message": "{COUNT} รายการที่เลือก"
+   },
+   "selectedItemCount_two": {
+      "message": "{COUNT} รายการที่เลือก"
+   },
+   "selectedItemCount_zero": {
+      "message": "{COUNT} รายการที่เลือก"
+   },
+   "selection": {
+      "message": "การเลือก"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "message": "ส่งแท็บทั้งหมดจากทุกหน้าต่างไปยัง OneTab"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "message": "ส่งแท็บทั้งหมด ยกเว้นแท็บนี้ ไปยัง OneTab"
+   },
+   "sendAllTabsInGroupToOneTab": {
+      "message": "ส่งแท็บทั้งหมดในกลุ่มแท็บนี้ไปยัง OneTab"
+   },
+   "sendAllTabsInWindowToOneTab": {
+      "message": "ส่งแท็บทั้งหมดในหน้าต่างนี้ไปยัง OneTab"
+   },
+   "sendCurrentTabToOneTab": {
+      "message": "ส่งแท็บปัจจุบันไปยัง OneTab"
+   },
+   "sendLeftTabsToOneTab": {
+      "message": "ส่งแท็บด้านซ้ายไปยัง OneTab"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "message": "ส่งเฉพาะแท็บนี้ไปยัง OneTab"
+   },
+   "sendRightTabsToOneTab": {
+      "message": "ส่งแท็บด้านขวาไปยัง OneTab"
+   },
+   "sendSelectedTabsToOneTab": {
+      "message": "ส่งแท็บที่เลือกไปยัง OneTab"
+   },
+   "sendThisWebLinkToOneTab": {
+      "message": "ส่งลิงก์เว็บนี้ไปยัง OneTab"
+   },
+   "serverUnreachable": {
+      "message": "ไม่สามารถติดต่อเซิร์ฟเวอร์ได้ โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณ."
+   },
+   "share": {
+      "message": "แชร์"
+   },
+   "shareAsAWebPage": {
+      "message": "แชร์เป็นหน้าเว็บ"
+   },
+   "shared": {
+      "message": "มีการแชร์"
+   },
+   "sharedExpiresColon": {
+      "message": "แชร์เป็นหน้าเว็บ หมดอายุ:"
+   },
+   "sharedPageOptions": {
+      "message": "ตัวเลือกของหน้าที่แชร์"
+   },
+   "sharedPageTabLimit_few": {
+      "message": "หน้าที่แชร์จำกัดที่ {COUNT} แท็บ"
+   },
+   "sharedPageTabLimit_many": {
+      "message": "หน้าที่แชร์จำกัดที่ {COUNT} แท็บ"
+   },
+   "sharedPageTabLimit_one": {
+      "message": "หน้าที่แชร์จำกัดที่ {COUNT} แท็บ"
+   },
+   "sharedPageTabLimit_other": {
+      "message": "หน้าที่แชร์จำกัดที่ {COUNT} แท็บ"
+   },
+   "sharedPageTabLimit_two": {
+      "message": "หน้าที่แชร์จำกัดที่ {COUNT} แท็บ"
+   },
+   "sharedPageTabLimit_zero": {
+      "message": "หน้าที่แชร์จำกัดที่ {COUNT} แท็บ"
+   },
+   "sharedPageWillAutomaticallyExpire": {
+      "message": "หน้าที่แชร์จะหมดอายุโดยอัตโนมัติ แต่คุณสามารถขยายวันหมดอายุได้ทุกเมื่อ."
+   },
+   "shiftDragShortcutInfo": {
+      "message": "กดแป้น Shift ค้างไว้ขณะปล่อยแท็บเพื่อสร้างสำเนาแทนการย้าย ข้อสำคัญ: กดแป้น Shift หลังจากเริ่มลากแล้วเท่านั้น."
+   },
+   "showEverything": {
+      "message": "แสดงทั้งหมด"
+   },
+   "showFoldersOnly": {
+      "message": "แสดงเฉพาะโฟลเดอร์"
+   },
+   "showNamedItemsOnly": {
+      "message": "แสดงเฉพาะรายการที่มีชื่อ"
+   },
+   "showNamedOnly": {
+      "message": "แสดงเฉพาะรายการที่มีชื่อ"
+   },
+   "showNextCount_few": {
+      "message": "ถัดไป {COUNT}"
+   },
+   "showNextCount_many": {
+      "message": "ถัดไป {COUNT}"
+   },
+   "showNextCount_one": {
+      "message": "ถัดไป {COUNT}"
+   },
+   "showNextCount_other": {
+      "message": "ถัดไป {COUNT}"
+   },
+   "showNextCount_two": {
+      "message": "ถัดไป {COUNT}"
+   },
+   "showNextCount_zero": {
+      "message": "ถัดไป {COUNT}"
+   },
+   "showPreviousCount_few": {
+      "message": "ก่อนหน้า {COUNT}"
+   },
+   "showPreviousCount_many": {
+      "message": "ก่อนหน้า {COUNT}"
+   },
+   "showPreviousCount_one": {
+      "message": "ก่อนหน้า {COUNT}"
+   },
+   "showPreviousCount_other": {
+      "message": "ก่อนหน้า {COUNT}"
+   },
+   "showPreviousCount_two": {
+      "message": "ก่อนหน้า {COUNT}"
+   },
+   "showPreviousCount_zero": {
+      "message": "ก่อนหน้า {COUNT}"
+   },
+   "soon": {
+      "message": "เร็ว ๆ นี้"
+   },
+   "sort": {
+      "message": "จัดเรียง"
+   },
+   "sortByColon": {
+      "message": "จัดเรียงตาม:"
+   },
+   "sortGroups": {
+      "message": "จัดเรียงกลุ่ม"
+   },
+   "sourceColon": {
+      "message": "ต้นทาง:"
+   },
+   "starRatingTooltip": {
+      "message": "กำหนดการให้คะแนนแบบดาว"
+   },
+   "storeSelectedTabsInONETAB_few": {
+      "message": "บันทึกแท็บที่เลือก {COUNT} แท็บใน ONETAB"
+   },
+   "storeSelectedTabsInONETAB_many": {
+      "message": "บันทึกแท็บที่เลือก {COUNT} แท็บใน ONETAB"
+   },
+   "storeSelectedTabsInONETAB_one": {
+      "message": "บันทึกแท็บที่เลือก {COUNT} แท็บใน ONETAB"
+   },
+   "storeSelectedTabsInONETAB_other": {
+      "message": "บันทึกแท็บที่เลือก {COUNT} แท็บใน ONETAB"
+   },
+   "storeSelectedTabsInONETAB_two": {
+      "message": "บันทึกแท็บที่เลือก {COUNT} แท็บใน ONETAB"
+   },
+   "storeSelectedTabsInONETAB_zero": {
+      "message": "บันทึกแท็บที่เลือก {COUNT} แท็บใน ONETAB"
+   },
+   "storeTabInAdditionalLocation": {
+      "message": "บันทึกแท็บของคุณในตำแหน่งเพิ่มเติม"
+   },
+   "storeTabInONETAB": {
+      "message": "บันทึกแท็บใน ONETAB"
+   },
+   "storeTabsInAdditionalLocation": {
+      "message": "บันทึกแท็บของคุณในตำแหน่งเพิ่มเติม"
+   },
+   "storeTabsInONETAB": {
+      "message": "บันทึกแท็บใน ONETAB"
+   },
+   "subFoldersNotShared": {
+      "message": "โปรดทราบว่าโฟลเดอร์ย่อยจะไม่ถูกแชร์ จะแชร์เฉพาะกลุ่มแท็บที่อยู่ภายในโฟลเดอร์โดยตรงเท่านั้น."
+   },
+   "tab": {
+      "message": "แท็บ"
+   },
+   "tabAlreadyStoredHere": {
+      "message": "แท็บที่เปิดอยู่ของคุณถูกบันทึกไว้ที่นี่แล้ว:"
+   },
+   "tabCaretTooltipTitleNotes": {
+      "message": "แก้ไขชื่อแท็บและบันทึก"
+   },
+   "tabCaretTooltipTitleNotesUrl": {
+      "message": "แก้ไขชื่อแท็บ URL และบันทึก"
+   },
+   "tabCount_few": {
+      "message": "{COUNT} แท็บ"
+   },
+   "tabCount_many": {
+      "message": "{COUNT} แท็บ"
+   },
+   "tabCount_one": {
+      "message": "{COUNT} แท็บ"
+   },
+   "tabCount_other": {
+      "message": "{COUNT} แท็บ"
+   },
+   "tabCount_two": {
+      "message": "{COUNT} แท็บ"
+   },
+   "tabCount_zero": {
+      "message": "{COUNT} แท็บ"
+   },
+   "tabGroupColorColon": {
+      "message": "สีของกลุ่มแท็บ:"
+   },
+   "tabShortcutInfo": {
+      "message": "เมื่ออยู่ในหน้า OneTab ให้กดแป้น Tab เพื่อย้ายโฟกัสระหว่างกลุ่มในคอลัมน์กลาง ช่วยให้ข้ามกลุ่มได้อย่างรวดเร็ว โดยเฉพาะเมื่อกลุ่มมีขนาดใหญ่ หากกลุ่มใดมีโฟกัส ให้กดแป้น Enter เพื่อเปิด ใช้ Shift+Tab เพื่อย้ายโฟกัสย้อนกลับ."
+   },
+   "tabTotalCount_few": {
+      "message": "รวม: {COUNT} แท็บ"
+   },
+   "tabTotalCount_many": {
+      "message": "รวม: {COUNT} แท็บ"
+   },
+   "tabTotalCount_one": {
+      "message": "รวม: {COUNT} แท็บ"
+   },
+   "tabTotalCount_other": {
+      "message": "รวม: {COUNT} แท็บ"
+   },
+   "tabTotalCount_two": {
+      "message": "รวม: {COUNT} แท็บ"
+   },
+   "tabTotalCount_zero": {
+      "message": "รวม: {COUNT} แท็บ"
+   },
+   "tabs": {
+      "message": "แท็บ"
+   },
+   "tabsFromExcludedDomains": {
+      "message": "แท็บจากโดเมนที่ถูกยกเว้น"
+   },
+   "tabsInTabGroups": {
+      "message": "แท็บในกลุ่มแท็บ"
+   },
+   "taskTotalCount_few": {
+      "message": "{COUNT} ทั้งหมด"
+   },
+   "taskTotalCount_many": {
+      "message": "{COUNT} ทั้งหมด"
+   },
+   "taskTotalCount_one": {
+      "message": "{COUNT} ทั้งหมด"
+   },
+   "taskTotalCount_other": {
+      "message": "{COUNT} ทั้งหมด"
+   },
+   "taskTotalCount_two": {
+      "message": "{COUNT} ทั้งหมด"
+   },
+   "taskTotalCount_zero": {
+      "message": "{COUNT} ทั้งหมด"
+   },
+   "tasks": {
+      "message": "งาน"
+   },
+   "tasksDone": {
+      "message": "งาน (เสร็จสิ้น)"
+   },
+   "tasksPending": {
+      "message": "งาน (รอดำเนินการ)"
+   },
+   "tasksWillAppearHere": {
+      "message": "หากคุณทำเครื่องหมายแท็บหรือกลุ่มใด ๆ ว่าเป็นงาน รายการเหล่านั้นจะแสดงที่นี่"
+   },
+   "thenClickToolbarIcon": {
+      "message": "จากนั้น คลิกไอคอน OneTab บนแถบเครื่องมืออีกครั้งเพื่อใช้ OneTab"
+   },
+   "thisFolderIsEmpty": {
+      "message": "โฟลเดอร์นี้ว่างเปล่า"
+   },
+   "thisTab": {
+      "message": "แท็บนี้"
+   },
+   "thisTabGroup": {
+      "message": "กลุ่มแท็บนี้"
+   },
+   "thisTabNotStored": {
+      "message": "แท็บนี้ยังไม่ได้บันทึกใน OneTab"
+   },
+   "thisWindow": {
+      "message": "หน้าต่างนี้"
+   },
+   "tickOrUntickToExclude": {
+      "message": "ติ๊กหรือยกเลิกการติ๊กเพื่อยกเว้นเว็บไซต์"
+   },
+   "title": {
+      "message": "ชื่อ"
+   },
+   "toAddOrRemoveExclusions": {
+      "message": "หากต้องการเพิ่มหรือลบเว็บไซต์ออกจากรายการยกเว้น:"
+   },
+   "toAllowOneTabInIncognito": {
+      "message": "หากต้องการให้ไอคอน OneTab ปรากฏในหน้าต่างไม่ระบุตัวตน: "
+   },
+   "toImportBrowserBookmarksUseMenuOption": {
+      "message": "เมื่อต้องการนำเข้าจากบุ๊กมาร์กของเบราว์เซอร์ ให้ใช้ตัวเลือกเมนู 'นำเข้าลิงก์ที่นี่' บนหน้า OneTab ของคุณ"
+   },
+   "toMakeOpenButtonWorkApprovePermission": {
+      "message": "เพื่อให้ปุ่ม \"เปิด\" บนหน้าที่แชร์ทำงาน โปรดอนุมัติคำขอสิทธิ์"
+   },
+   "toSaveChangesClickButton": {
+      "message": "หากต้องการบันทึกการเปลี่ยนแปลง ให้คลิกปุ่ม"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "message": "แท็บเยอะเกินไป? แปลงแท็บของคุณเป็นรายการและทำให้ Firefox เร็วขึ้น"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "message": "แท็บเยอะเกินไป? แปลงแท็บของคุณเป็นรายการและทำให้ Safari เร็วขึ้น"
+   },
+   "total0Tabs": {
+      "message": "รวม: 0 แท็บ"
+   },
+   "trash": {
+      "message": "ถังขยะ"
+   },
+   "unMarkAsTask": {
+      "message": "ยกเลิกการทำเครื่องหมายว่าเป็นงาน"
+   },
+   "unPin": {
+      "message": "ยกเลิกการปักหมุด"
+   },
+   "unlock": {
+      "message": "ปลดล็อก"
+   },
+   "unmarkAsArchived": {
+      "message": "ยกเลิกการทำเครื่องหมายว่าเก็บถาวร"
+   },
+   "unshare": {
+      "message": "ยกเลิกการแชร์"
+   },
+   "untitled": {
+      "message": "ไม่มีชื่อ"
+   },
+   "update": {
+      "message": "อัปเดต"
+   },
+   "userLanguage": {
+      "message": "ไทย"
+   },
+   "website": {
+      "message": "เว็บไซต์"
+   },
+   "yearCount_few": {
+      "message": "{COUNT} ปี"
+   },
+   "yearCount_many": {
+      "message": "{COUNT} ปี"
+   },
+   "yearCount_one": {
+      "message": "{COUNT} ปี"
+   },
+   "yearCount_other": {
+      "message": "{COUNT} ปี"
+   },
+   "yearCount_two": {
+      "message": "{COUNT} ปี"
+   },
+   "yearCount_zero": {
+      "message": "{COUNT} ปี"
+   },
+   "yourTabAlreadyStoredHere": {
+      "message": "แท็บของคุณถูกบันทึกไว้ที่นี่แล้ว:"
+   }
+}

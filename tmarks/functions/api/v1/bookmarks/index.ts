@@ -152,11 +152,14 @@ export const onRequestGet: PagesFunction<Env, RouteParams, AuthContext>[] = [
         if (!tagsByBookmarkId.has(tag.bookmark_id)) {
           tagsByBookmarkId.set(tag.bookmark_id, [])
         }
-        tagsByBookmarkId.get(tag.bookmark_id)!.push({
-          id: tag.id,
-          name: tag.name,
-          color: tag.color,
-        })
+        const tags = tagsByBookmarkId.get(tag.bookmark_id)
+        if (tags) {
+          tags.push({
+            id: tag.id,
+            name: tag.name,
+            color: tag.color,
+          })
+        }
       }
 
       // 组装书签和标签数据

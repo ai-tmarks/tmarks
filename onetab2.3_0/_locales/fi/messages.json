@@ -1,0 +1,1715 @@
+{
+   "95PctMemoryReduction": {
+      "message": "95 % vähemmän muistinkäyttöä"
+   },
+   "Folder": {
+      "message": "Kansio"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "message": "OneTab on saatavilla myös Firefoxille"
+   },
+   "aDashZ": {
+      "message": "A–Ö"
+   },
+   "about": {
+      "message": "Tietoja"
+   },
+   "addOneTabNow": {
+      "message": "Lisää OneTab nyt"
+   },
+   "all": {
+      "message": "Kaikki"
+   },
+   "allBookmarks": {
+      "message": "Kaikki kirjanmerkit"
+   },
+   "allOpenTabsAlreadyStoredHere": {
+      "message": "Kaikki avoimet välilehdet on jo tallennettu tänne:"
+   },
+   "allowFileAccessInstructions": {
+      "message": "Jotta tiedostot voidaan avata suoraan, siirry Asetukset ➝ Laajennukset ➝ OneTab ➝ Tiedot ➝ Salli pääsy tiedostojen URL-osoitteisiin"
+   },
+   "alreadyExistingOpenTabsWillBeClosedAfterMerge": {
+      "message": "Kaikki avoimet välilehdet, jotka ovat jo tässä ryhmässä, suljetaan yhdistämisen jälkeen."
+   },
+   "alternatePlainTextFormat": {
+      "message": "Vaihtoehtoisesti pelkkä teksti voi olla muodossa:"
+   },
+   "approve": {
+      "message": "Hyväksy"
+   },
+   "archived": {
+      "message": "Arkistoidut"
+   },
+   "autoTheme": {
+      "message": "Automaattinen (käytä käyttöjärjestelmän asetusta)"
+   },
+   "backupAndSync": {
+      "message": "Varmuuskopiointi ja synkronointi"
+   },
+   "betaReleaseReportBugsHere": {
+      "message": "Beta-julkaisu – Ilmoita virheistä täällä"
+   },
+   "bookmarkCount_few": {
+      "message": "{COUNT} kirjanmerkkiä"
+   },
+   "bookmarkCount_many": {
+      "message": "{COUNT} kirjanmerkkiä"
+   },
+   "bookmarkCount_one": {
+      "message": "{COUNT} kirjanmerkki"
+   },
+   "bookmarkCount_other": {
+      "message": "{COUNT} kirjanmerkkiä"
+   },
+   "bookmarkCount_two": {
+      "message": "{COUNT} kirjanmerkkiä"
+   },
+   "bookmarkCount_zero": {
+      "message": "{COUNT} kirjanmerkkiä"
+   },
+   "bookmarksPermissionNecesssary": {
+      "message": "Kirjanmerkkilupa tarvitaan, jotta OneTab voi tuoda selaimesi kirjanmerkit"
+   },
+   "bulkActions": {
+      "message": "Joukkotoiminnot"
+   },
+   "canDragTextNote": {
+      "message": "Huomautus: Voit myös vetää ja pudottaa verkkolinkkejä sisältävää tekstiä suoraan toiselta verkkosivulta tai asiakirjasta. Voit vetää tekstin suoraan OneTab-sivullesi ilman, että käytät tätä tuontikenttää."
+   },
+   "canPasteWebContentForExample": {
+      "message": "Voit liittää verkkosivulta tai asiakirjasta kopioitua tekstiä, ja linkit poimitaan automaattisesti. Esimerkiksi:"
+   },
+   "cancel": {
+      "message": "Peruuta"
+   },
+   "cannotConnectToServerDeletionRequestQueued": {
+      "message": "Yhteys OneTab-palvelimeen ei onnistu. Tarkista internet-yhteytesi. Jaetun sivun poistopyyntösi on jonossa paikallisesti ja lähetetään automaattisesti OneTab-palvelimelle heti, kun se on taas tavoitettavissa."
+   },
+   "cannotCreateTabGroupInTabGroup": {
+      "message": "Valitsemasi kohde on välilehtiryhmä. Et voi luoda välilehtiryhmää olemassa olevan välilehtiryhmän sisään. Valitse toinen kohde."
+   },
+   "cannotMixTabsGroupsFoldersDuringDrag": {
+      "message": "Välilehtiä, ryhmiä ja kansioita ei voi sekoittaa vedettäessä. Tämä johtuu siitä, että esimerkiksi kansiota ei voi vetää samoihin paikkoihin kuin välilehteä."
+   },
+   "caseSensitive": {
+      "message": "Kirjainkoko huomioidaan"
+   },
+   "changesMadeSinceSharedPageCreation": {
+      "message": "Jaetun sivun luonnin jälkeen on tehty muutoksia. Päivitä olemassa oleva jaettu sivu napsauttamalla 'Päivitä'."
+   },
+   "checkboxesDeterminePinnedAndGroupedTabMergeInclusion": {
+      "message": "Tämän sivun yläreunan valintaruudut määrittävät, sisällytetäänkö kiinnitetyt tai välilehtiryhmissä olevat välilehdet yhdistämiseen."
+   },
+   "chooseALocation": {
+      "message": "Valitse sijainti"
+   },
+   "chooseALocationToImportTo": {
+      "message": "Valitse sijainti, johon tuot"
+   },
+   "chooseExportLocation": {
+      "message": "Valitse sijainti, josta viedään"
+   },
+   "chooseLightDarkTheme": {
+      "message": "Valitse vaalea/tumma teema"
+   },
+   "chooseLocationToCopyTo": {
+      "message": "Valitse sijainti, johon kopioidaan"
+   },
+   "chooseLocationToMoveTo": {
+      "message": "Valitse sijainti, johon siirretään"
+   },
+   "chooseLocationToRestoreTo": {
+      "message": "Valitse sijainti, johon palautetaan"
+   },
+   "chooseToIncludeNotes": {
+      "message": "Jos olet lisännyt muistiinpanoja välilehtiin tai ryhmiin, valitse, sisällytetäänkö ne jaettuun sivuun"
+   },
+   "chooseToIncludeRatings": {
+      "message": "Jos olet lisännyt tähtiarvioita välilehtiin tai ryhmiin, valitse, sisällytetäänkö ne jaettuun sivuun"
+   },
+   "chromeIncognitoInstructions": {
+      "message": "Selaimesi asetuksissa siirry kohtaan 'Asetukset' → 'Laajennukset' → 'OneTab' → 'Tiedot' ja ota sitten käyttöön 'Salli incognito-tilassa'."
+   },
+   "clickButtonToAllowTabAccess": {
+      "message": "Salli OneTab-sovelluksen pääsy avoimiin välilehtiisi napsauttamalla alla olevaa painiketta."
+   },
+   "clickHereToContinue": {
+      "message": "Napsauta tästä jatkaaksesi."
+   },
+   "clickOneTabIconToStoreTabsHere": {
+      "message": "Tallenna avoimet välilehdet tänne napsauttamalla selaimesi työkalupalkin OneTab-kuvaketta."
+   },
+   "closeSelectedTabsAndStoreInONETAB_few": {
+      "message": "Sulje {COUNT} valittua välilehteä ja tallenna sovellukseen ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_many": {
+      "message": "Sulje {COUNT} valittua välilehteä ja tallenna sovellukseen ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_one": {
+      "message": "Sulje {COUNT} valittu välilehti ja tallenna sovellukseen ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_other": {
+      "message": "Sulje {COUNT} valittua välilehteä ja tallenna sovellukseen ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_two": {
+      "message": "Sulje {COUNT} valittua välilehteä ja tallenna sovellukseen ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_zero": {
+      "message": "Sulje {COUNT} valittua välilehteä ja tallenna sovellukseen ONETAB"
+   },
+   "closeSelectedTabs_few": {
+      "message": "Sulje {COUNT} valittua välilehteä"
+   },
+   "closeSelectedTabs_many": {
+      "message": "Sulje {COUNT} valittua välilehteä"
+   },
+   "closeSelectedTabs_one": {
+      "message": "Sulje {COUNT} valittu välilehti"
+   },
+   "closeSelectedTabs_other": {
+      "message": "Sulje {COUNT} valittua välilehteä"
+   },
+   "closeSelectedTabs_two": {
+      "message": "Sulje {COUNT} valittua välilehteä"
+   },
+   "closeSelectedTabs_zero": {
+      "message": "Sulje {COUNT} valittua välilehteä"
+   },
+   "closeTab": {
+      "message": "Sulje välilehti"
+   },
+   "closeTabAndStore": {
+      "message": "Sulje välilehti ja tallenna sovellukseen ONETAB"
+   },
+   "closeTabs": {
+      "message": "Sulje välilehdet"
+   },
+   "closeTabsAfterMerge": {
+      "message": "Sulje välilehdet yhdistämisen jälkeen"
+   },
+   "closeTabsAlreadyStoredInOneTab_few": {
+      "message": "Sulje {COUNT} välilehteä, jotka on jo tallennettu sovellukseen OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_many": {
+      "message": "Sulje {COUNT} välilehteä, jotka on jo tallennettu sovellukseen OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_one": {
+      "message": "Sulje {COUNT} välilehti, joka on jo tallennettu sovellukseen OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_other": {
+      "message": "Sulje {COUNT} välilehteä, jotka on jo tallennettu sovellukseen OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_two": {
+      "message": "Sulje {COUNT} välilehteä, jotka on jo tallennettu sovellukseen OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_zero": {
+      "message": "Sulje {COUNT} välilehteä, jotka on jo tallennettu sovellukseen OneTab"
+   },
+   "closeTabsAndStore": {
+      "message": "Sulje välilehdet ja tallenna sovellukseen ONETAB"
+   },
+   "closeTheseDuplicates": {
+      "message": "Sulje nämä päällekkäiset välilehdet"
+   },
+   "closeThisDuplicate": {
+      "message": "Sulje tämä päällekkäinen välilehti"
+   },
+   "completeEditingShortcutInfo": {
+      "message": "Kun muokkaat muistiinpanokenttää, käytä tätä pikanäppäintä viimeistelläksesi muokkauksen."
+   },
+   "configureShortcuts": {
+      "message": "Määritä pikanäppäimet"
+   },
+   "conflictingShortcutsHint": {
+      "message": "Jos jokin yllä olevista pikanäppäimistä ei toimi tai on ristiriidassa muiden sovellusten kanssa, voit määrittää toisen pikanäppäimen."
+   },
+   "continue": {
+      "message": "Jatka"
+   },
+   "convertTabsIntoAList": {
+      "message": "Muunna välilehdet luetteloksi"
+   },
+   "copiedToClipboard": {
+      "message": "Kopioitu leikepöydälle"
+   },
+   "copy": {
+      "message": "Kopioi"
+   },
+   "copyLinksToClipboard": {
+      "message": "Kopioi linkit leikepöydälle"
+   },
+   "copySharedPageUrl": {
+      "message": "Kopioi jaetun sivun URL"
+   },
+   "copyToClipboard": {
+      "message": "Kopioi leikepöydälle"
+   },
+   "createANewGroupHere": {
+      "message": "Luo uusi ryhmä tähän"
+   },
+   "createFolderAbove": {
+      "message": "Luo kansio yläpuolelle"
+   },
+   "createFolderAboveBelow": {
+      "message": "Luo kansio yläpuolelle / alapuolelle"
+   },
+   "createFolderAboveWithinBelow": {
+      "message": "Luo kansio yläpuolelle / sisälle / alapuolelle"
+   },
+   "createFolderBelow": {
+      "message": "Luo kansio alapuolelle"
+   },
+   "createFolderWithin": {
+      "message": "Luo kansio tähän kohteeseen"
+   },
+   "createGroupAbove": {
+      "message": "Luo ryhmä yläpuolelle"
+   },
+   "createGroupAboveBelow": {
+      "message": "Luo ryhmä yläpuolelle / alapuolelle"
+   },
+   "createGroupAboveWithinBelow": {
+      "message": "Luo ryhmä yläpuolelle / sisälle / alapuolelle"
+   },
+   "createGroupBelow": {
+      "message": "Luo ryhmä alapuolelle"
+   },
+   "createGroupInsideDestination": {
+      "message": "Luo uusi ryhmä kohteen sisälle"
+   },
+   "createGroupInsideDestinationHelp": {
+      "message": "Jos ei valittuna, välilehdet lisätään suoraan kohderyhmään. Jos valittuna, kohderyhmän sisään luodaan välilehdillesi uusi selaimen välilehtiryhmä. Valitse tämä vain, jos haluat käyttää selaimesi \"välilehtiryhmät\"-ominaisuutta."
+   },
+   "createGroupWithin": {
+      "message": "Luo ryhmä tähän ryhmään"
+   },
+   "createNewGroupTip": {
+      "message": "Luo uusi ryhmä poistamalla valinta kohdasta \"Vain kansiot\""
+   },
+   "createdOnOrAfterColon": {
+      "message": "Luotu aikaisintaan:"
+   },
+   "createdOnOrBeforeColon": {
+      "message": "Luotu viimeistään:"
+   },
+   "createdPreceedingDate": {
+      "message": "Luotu"
+   },
+   "darkTheme": {
+      "message": "Tumma teema"
+   },
+   "dayCount_few": {
+      "message": "{COUNT} päivää"
+   },
+   "dayCount_many": {
+      "message": "{COUNT} päivää"
+   },
+   "dayCount_one": {
+      "message": "{COUNT} päivä"
+   },
+   "dayCount_other": {
+      "message": "{COUNT} päivää"
+   },
+   "dayCount_two": {
+      "message": "{COUNT} päivää"
+   },
+   "dayCount_zero": {
+      "message": "{COUNT} päivää"
+   },
+   "delete": {
+      "message": "Poista"
+   },
+   "deleteAllTrash": {
+      "message": "Tyhjennä roskakori"
+   },
+   "deleteThisCopy": {
+      "message": "Poista tämä kopio"
+   },
+   "deselectAll": {
+      "message": "Poista kaikki valinnat"
+   },
+   "destinationColon": {
+      "message": "Kohde:"
+   },
+   "disabled": {
+      "message": "Pois käytöstä"
+   },
+   "doneTaskCount_few": {
+      "message": "{COUNT} valmista"
+   },
+   "doneTaskCount_many": {
+      "message": "{COUNT} valmista"
+   },
+   "doneTaskCount_one": {
+      "message": "{COUNT} valmis"
+   },
+   "doneTaskCount_other": {
+      "message": "{COUNT} valmista"
+   },
+   "doneTaskCount_two": {
+      "message": "{COUNT} valmista"
+   },
+   "doneTaskCount_zero": {
+      "message": "{COUNT} valmista"
+   },
+   "dontCloseGroupedTabs": {
+      "message": "Älä sulje välilehtiryhmissä olevia välilehtiä"
+   },
+   "dontClosePinnedTabs": {
+      "message": "Älä sulje kiinnitettyjä välilehtiä"
+   },
+   "dontCloseTabsFromDomains": {
+      "message": "Älä sulje välilehtiä sivustolta EXAMPLE.COM"
+   },
+   "dragTabsHereForQuickList": {
+      "message": "Vedä tänne tallennettuja välilehtiäsi tai ryhmiäsi. Ne lisätään pikalistaan."
+   },
+   "editTabGroupTitleAndNotes": {
+      "message": "Muokkaa välilehtiryhmän otsikkoa ja muistiinpanoja"
+   },
+   "emojiShortcutInfo": {
+      "message": "Kun muokkaat muistiinpanokenttää, käytä tätä pikanäppäintä avataksesi emoji-valitsimen."
+   },
+   "emptyInBrackets": {
+      "message": "(tyhjä)"
+   },
+   "emptyOneTabInfoMsg": {
+      "message": "Kun sinulla on useita välilehtiä auki, napsauta selaimen työkalupalkissa olevaa OneTab-kuvaketta, niin avoimet välilehtesi näkyvät täällä."
+   },
+   "enabled": {
+      "message": "Käytössä"
+   },
+   "encryptedSyncAndBackup": {
+      "message": "Salattu synkronointi ja varmuuskopiointi"
+   },
+   "encryptedSyncAndBackupComingSoonMessage": {
+      "message": "Tulossa pian: Voit synkronoida OneTab-tietosi useiden selainprofiilien ja tietokoneiden välillä.\nOneTab on kirjoitettu kokonaan uudelleen niin, että yhdellä laitteella tehdyt muutokset näkyvät heti kaikilla muilla laitteilla.\nJos käytät tätä ominaisuutta, tietosi suojataan päästä päähän vahvalla AES-256-salauksella. Tämä tekee OneTab-kehittäjille mahdottomaksi nähdä välilehtiä, jotka olet varmuuskopioinut tai synkronoinut laitteiden välillä, koska vain sinulla on salausavain."
+   },
+   "everything": {
+      "message": "Kaikki"
+   },
+   "exampleLink": {
+      "message": "Esimerkkilinkki"
+   },
+   "exampleLinkTitle": {
+      "message": "Esimerkkilinkin otsikko"
+   },
+   "exampleLinkTitleOptional": {
+      "message": "Esimerkkilinkin otsikko (valinnainen)"
+   },
+   "exampleRichTextParagraph": {
+      "message": "Esimerkkikappale, jossa on PLACEHOLDER ja PLACEHOLDER"
+   },
+   "exampleWebsitePageTitle": {
+      "message": "Esimerkkisivun otsikko"
+   },
+   "excludeDomainFromOneTab": {
+      "message": "Jätä EXAMPLE.COM pois OneTab-sovelluksesta"
+   },
+   "excludeWebSiteFromOneTab": {
+      "message": "Jätä tämä sivusto pois OneTab-sovelluksesta"
+   },
+   "expiresColon": {
+      "message": "Vanhenee:"
+   },
+   "export": {
+      "message": "Vie"
+   },
+   "exportImportUrls": {
+      "message": "Vie / tuo URL-osoitteita"
+   },
+   "exportThenImportNote": {
+      "message": "Seuraavan URL-osoiteluettelon voi myös tuoda takaisin OneTab-sovellukseen tällä tai toisella tietokoneella"
+   },
+   "exportUrls": {
+      "message": "Vie URL-osoitteita"
+   },
+   "feedback": {
+      "message": "Palaute"
+   },
+   "filter": {
+      "message": "Suodatin"
+   },
+   "firefoxIncognitoInstructions": {
+      "message": "Selaimesi asetuksissa siirry kohtaan 'Asetukset' → 'Lisäosat ja teemat' → 'Laajennukset' → 'OneTab' → '…' → 'Hallinnoi' ja ota sitten käyttöön 'Salli yksityisissä ikkunoissa'."
+   },
+   "firefoxShortcutConfigInstructions": {
+      "message": "Kirjoita selaimesi osoiteriville URL-osoite \"about:addons?type=extension\". Kun sivu avautuu, napsauta hammasrataskuvaketta ja valitse sitten \"Hallitse laajennusten pikanäppäimiä\""
+   },
+   "folderCount_few": {
+      "message": "{COUNT} kansiota"
+   },
+   "folderCount_many": {
+      "message": "{COUNT} kansiota"
+   },
+   "folderCount_one": {
+      "message": "{COUNT} kansio"
+   },
+   "folderCount_other": {
+      "message": "{COUNT} kansiota"
+   },
+   "folderCount_two": {
+      "message": "{COUNT} kansiota"
+   },
+   "folderCount_zero": {
+      "message": "{COUNT} kansiota"
+   },
+   "folders": {
+      "message": "Kansiot"
+   },
+   "foldersOnly": {
+      "message": "Vain kansiot"
+   },
+   "gettingStarted": {
+      "message": "Käytön aloitus"
+   },
+   "goToParentFolder": {
+      "message": "Siirry yläkansioon"
+   },
+   "groupCount_few": {
+      "message": "{COUNT} ryhmää"
+   },
+   "groupCount_many": {
+      "message": "{COUNT} ryhmää"
+   },
+   "groupCount_one": {
+      "message": "{COUNT} ryhmä"
+   },
+   "groupCount_other": {
+      "message": "{COUNT} ryhmää"
+   },
+   "groupCount_two": {
+      "message": "{COUNT} ryhmää"
+   },
+   "groupCount_zero": {
+      "message": "{COUNT} ryhmää"
+   },
+   "groups": {
+      "message": "Ryhmät"
+   },
+   "hasNotes": {
+      "message": "Sisältää muistiinpanoja"
+   },
+   "hasRating": {
+      "message": "Sisältää tähtiarvioinnin"
+   },
+   "help": {
+      "message": "Ohje"
+   },
+   "hideArchivedItems": {
+      "message": "Piilota arkistoidut kohteet"
+   },
+   "import": {
+      "message": "Tuo"
+   },
+   "importAndExport": {
+      "message": "Tuo ja vie"
+   },
+   "importBookmarks": {
+      "message": "Tuo kirjanmerkkejä"
+   },
+   "importFolderAndSubfolders": {
+      "message": "Tuo kansio ja alikansiot"
+   },
+   "importLinksHere": {
+      "message": "Tuo linkit tänne"
+   },
+   "importReadingList": {
+      "message": "Tuo lukulista"
+   },
+   "importText": {
+      "message": "Tuo tekstiä"
+   },
+   "importUrls": {
+      "message": "Tuo URL-osoitteita"
+   },
+   "importedBookmarks": {
+      "message": "Tuodut kirjanmerkit"
+   },
+   "includeGroupedTabs": {
+      "message": "Sisällytä välilehtiryhmissä olevat välilehdet"
+   },
+   "includeNotes": {
+      "message": "Sisällytä muistiinpanot"
+   },
+   "includePinnedTabs": {
+      "message": "Sisällytä kiinnitetyt välilehdet"
+   },
+   "includeStarRatings": {
+      "message": "Sisällytä tähtiarvioinnit"
+   },
+   "includeTabsAlreadyStored": {
+      "message": "Sisällytä jo tallentamasi välilehdet"
+   },
+   "includeTabsFromDomains": {
+      "message": "Sisällytä välilehdet sivustolta EXAMPLE.COM"
+   },
+   "incogitoPermissionRequired": {
+      "message": "OneTab tarvitsee luvan luoda incognito-ikkunoita."
+   },
+   "incognitoWindows": {
+      "message": "Incognito-ikkunat"
+   },
+   "invertSelection": {
+      "message": "Käännä valinta"
+   },
+   "justNow": {
+      "message": "juuri äsken"
+   },
+   "keyboardShortcutsColon": {
+      "message": "Pikanäppäimet:"
+   },
+   "languageTitle": {
+      "message": "Kieli:"
+   },
+   "lightTheme": {
+      "message": "Vaalea teema"
+   },
+   "localeId": {
+      "message": "fi"
+   },
+   "locationColon": {
+      "message": "Sijainti:"
+   },
+   "lock": {
+      "message": "Lukitse"
+   },
+   "lockMenuItemHelp": {
+      "message": "Kun ryhmä on lukittu, et voi poistaa tai järjestää kohteita ryhmän sisällä. Lukittua ryhmää avattaessa automaattiset toiminnot eivät ole käytössä. Katso lisätietoja automaattisista toiminnoista Asetukset-sivulta."
+   },
+   "lockedGroupUnlockHelp": {
+      "message": "Avaa lukitus pudotusvalikosta. Kun ryhmä on lukittu, et voi poistaa ryhmää tai sen välilehtiä, eikä välilehtiä voi järjestää uudelleen."
+   },
+   "makeThisATask": {
+      "message": "Merkitse tehtäväksi"
+   },
+   "manifestDescription": {
+      "message": "Säästä jopa 95 % muistia ja vähennä välilehtikaaosta"
+   },
+   "markAsArchived": {
+      "message": "Merkitse arkistoiduksi"
+   },
+   "markAsArchivedMenuItemHelp": {
+      "message": "Huomaa, että arkistoidut tehtävät ja arkistoitujen ryhmien tehtävät eivät näy tehtäväsarakkeessa"
+   },
+   "markAsDoneTask": {
+      "message": "Merkitse valmiiksi"
+   },
+   "markAsPendingTask": {
+      "message": "Merkitse keskeneräiseksi tehtäväksi"
+   },
+   "matchCount_few": {
+      "message": "{COUNT} osumaa"
+   },
+   "matchCount_many": {
+      "message": "{COUNT} osumaa"
+   },
+   "matchCount_one": {
+      "message": "{COUNT} osuma"
+   },
+   "matchCount_other": {
+      "message": "{COUNT} osumaa"
+   },
+   "matchCount_two": {
+      "message": "{COUNT} osumaa"
+   },
+   "matchCount_zero": {
+      "message": "{COUNT} osumaa"
+   },
+   "matchWholeWordsOnly": {
+      "message": "Vain kokonaiset sanat"
+   },
+   "mayNeedToRestartBrowser": {
+      "message": "Saatat myös joutua päivittämään ja käynnistämään selaimesi uudelleen."
+   },
+   "mergeIntoParent": {
+      "message": "Yhdistä vanhempaan"
+   },
+   "mergeOpenTabsHere_few": {
+      "message": "Yhdistä {COUNT} avointa välilehteä tänne"
+   },
+   "mergeOpenTabsHere_many": {
+      "message": "Yhdistä {COUNT} avointa välilehteä tänne"
+   },
+   "mergeOpenTabsHere_one": {
+      "message": "Yhdistä {COUNT} avoin välilehti tänne"
+   },
+   "mergeOpenTabsHere_other": {
+      "message": "Yhdistä {COUNT} avointa välilehteä tänne"
+   },
+   "mergeOpenTabsHere_two": {
+      "message": "Yhdistä {COUNT} avointa välilehteä tänne"
+   },
+   "mergeOpenTabsHere_zero": {
+      "message": "Yhdistä {COUNT} avointa välilehteä tänne"
+   },
+   "mergeSelectedTabsHere_few": {
+      "message": "Yhdistä {COUNT} valittua välilehteä tänne"
+   },
+   "mergeSelectedTabsHere_many": {
+      "message": "Yhdistä {COUNT} valittua välilehteä tänne"
+   },
+   "mergeSelectedTabsHere_one": {
+      "message": "Yhdistä {COUNT} valittu välilehti tänne"
+   },
+   "mergeSelectedTabsHere_other": {
+      "message": "Yhdistä {COUNT} valittua välilehteä tänne"
+   },
+   "mergeSelectedTabsHere_two": {
+      "message": "Yhdistä {COUNT} valittua välilehteä tänne"
+   },
+   "mergeSelectedTabsHere_zero": {
+      "message": "Yhdistä {COUNT} valittua välilehteä tänne"
+   },
+   "mergeWithInnerGroups": {
+      "message": "Yhdistä sisäryhmät tähän ryhmään"
+   },
+   "modifySharing": {
+      "message": "Muokkaa jakamista"
+   },
+   "moreEllipsis": {
+      "message": "Lisää…"
+   },
+   "moreSearchFilters": {
+      "message": "Lisää hakusuodattimia"
+   },
+   "moreTripleDot": {
+      "message": "Lisää…"
+   },
+   "move": {
+      "message": "Siirrä"
+   },
+   "moveToTrash": {
+      "message": "Siirrä roskakoriin"
+   },
+   "namedOnly": {
+      "message": "Vain nimetyt"
+   },
+   "navigationFilter": {
+      "message": "Navigointisuodatin"
+   },
+   "newExclamation": {
+      "message": "Uusi!"
+   },
+   "noDupsExistExceptForColon": {
+      "message": "Ei päällekkäisyyksiä, paitsi:"
+   },
+   "noDupsFoundHere": {
+      "message": "Päällekkäisyyksiä ei löytynyt"
+   },
+   "noMatches": {
+      "message": "Ei osumia"
+   },
+   "noMatchesFound": {
+      "message": "Ei osumia"
+   },
+   "noOpenTabsToStore": {
+      "message": "Tässä ikkunassa ei ole tallennettavia avoimia välilehtiä."
+   },
+   "noReadingListEntries": {
+      "message": "Lukulistalta ei löytynyt kohteita"
+   },
+   "noTabsInOneTabYet": {
+      "message": "Sinulla ei ole vielä välilehtiä sovelluksessa OneTab"
+   },
+   "noTabsMeetCriteriaUseCheckboxes": {
+      "message": "Yksikään avoin välilehti ei täytä ehtoja. Käytä yllä olevia valintaruutuja."
+   },
+   "noTextHasBeenEntered": {
+      "message": "Tekstiä ei ole syötetty"
+   },
+   "nonArchived": {
+      "message": "Arkistoimattomat"
+   },
+   "notAssigned": {
+      "message": "Ei määritetty"
+   },
+   "notes": {
+      "message": "Muistiinpanot"
+   },
+   "notesAboutTheLinkOptional": {
+      "message": "Huomautukset linkistä (valinnainen)"
+   },
+   "notesAboutTheSecondLinkOptional": {
+      "message": "Huomautukset toisesta linkistä (valinnainen)"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "omniboxShortcutInfo": {
+      "message": "Hae OneTab-luetteloasi miltä tahansa välilehdeltä: Siirry selaimesi osoiteriville, kirjoita 1, sitten välilyönti ja sitten hakusana."
+   },
+   "oneTabDesignedToProtectPrivacy": {
+      "message": "OneTab on suunniteltu suojaamaan yksityisyyttäsi. Välilehtiäsi ei luovuteta meille."
+   },
+   "oneTabImportExportPageTitle": {
+      "message": "OneTab-tuonti/vienti"
+   },
+   "oneTabNeedsPermissionToAccessYourTabs": {
+      "message": "OneTab tarvitsee luvan käyttää välilehtiäsi."
+   },
+   "oneTabOptionsPageTitle": {
+      "message": "OneTab-asetukset"
+   },
+   "oneTabPermissionRequired": {
+      "message": "OneTab – Lupa vaaditaan"
+   },
+   "oneTabRestartRequired": {
+      "message": "OneTab on käynnistettävä uudelleen."
+   },
+   "oneTabSlashShortcutInfo": {
+      "message": "OneTab-sivulla paina kauttaviivaa siirtääksesi kohdistuksen hakukenttään."
+   },
+   "open": {
+      "message": "Avaa"
+   },
+   "openActionPopup": {
+      "message": "Avaa laajennuksen ponnahdusikkuna"
+   },
+   "openAsCollapsedTabGroup": {
+      "message": "Avaa \"pienennettynä\" välilehtiryhmänä"
+   },
+   "openAsCollapsedTabGroupMenuItemHelp": {
+      "message": "Jos avaat nämä välilehdet pienennettynä \"välilehtiryhmänä\", vain ryhmän nimi näytetään, kunnes napsautat sitä paljastaaksesi välilehdet."
+   },
+   "openAsTabGroup": {
+      "message": "Avaa selaimen välilehtiryhmänä"
+   },
+   "openAsTabGroupMenuItemHelp": {
+      "message": "Selaimesi sallii välilehtien ryhmittelyn värikoodatuiksi \"välilehtiryhmiksi\" ikkunassa."
+   },
+   "openGroupsLimitNotice_few": {
+      "message": "Jottei selain kuormitu liikaa, vain ensimmäiset {COUNT} ryhmää avataan."
+   },
+   "openGroupsLimitNotice_many": {
+      "message": "Jottei selain kuormitu liikaa, vain ensimmäiset {COUNT} ryhmää avataan."
+   },
+   "openGroupsLimitNotice_one": {
+      "message": "Jottei selain kuormitu liikaa, vain {COUNT}. ryhmä avataan."
+   },
+   "openGroupsLimitNotice_other": {
+      "message": "Jottei selain kuormitu liikaa, vain ensimmäiset {COUNT} ryhmää avataan."
+   },
+   "openGroupsLimitNotice_two": {
+      "message": "Jottei selain kuormitu liikaa, vain ensimmäiset {COUNT} ryhmää avataan."
+   },
+   "openGroupsLimitNotice_zero": {
+      "message": "Jottei selain kuormitu liikaa, vain ensimmäiset {COUNT} ryhmää avataan."
+   },
+   "openInIncognitoWindow": {
+      "message": "Avaa uuteen incognito-ikkunaan"
+   },
+   "openInNewWindow": {
+      "message": "Avaa uuteen ikkunaan"
+   },
+   "openInThisWindow": {
+      "message": "Avaa tähän ikkunaan"
+   },
+   "openONETABLogo": {
+      "message": "Avaa ONETAB"
+   },
+   "openOneTab": {
+      "message": "Avaa OneTab"
+   },
+   "openOneTabAfter": {
+      "message": "Avaa OneTab välilehtien tallentamisen jälkeen"
+   },
+   "openTabFromWebsite": {
+      "message": "Avaa välilehti ja siirry kyseiselle sivustolle"
+   },
+   "openTabLimit_few": {
+      "message": "Jottei selain kuormitu liikaa, kerralla voidaan avata enintään {COUNT} välilehteä."
+   },
+   "openTabLimit_many": {
+      "message": "Jottei selain kuormitu liikaa, kerralla voidaan avata enintään {COUNT} välilehteä."
+   },
+   "openTabLimit_one": {
+      "message": "Jottei selain kuormitu liikaa, kerralla voidaan avata enintään {COUNT} välilehti."
+   },
+   "openTabLimit_other": {
+      "message": "Jottei selain kuormitu liikaa, kerralla voidaan avata enintään {COUNT} välilehteä."
+   },
+   "openTabLimit_two": {
+      "message": "Jottei selain kuormitu liikaa, kerralla voidaan avata enintään {COUNT} välilehteä."
+   },
+   "openTabLimit_zero": {
+      "message": "Jottei selain kuormitu liikaa, kerralla voidaan avata enintään {COUNT} välilehteä."
+   },
+   "openTabsAlreadyStoredHere_few": {
+      "message": "{COUNT} avointa välilehteä on jo tallennettu tänne:"
+   },
+   "openTabsAlreadyStoredHere_many": {
+      "message": "{COUNT} avointa välilehteä on jo tallennettu tänne:"
+   },
+   "openTabsAlreadyStoredHere_one": {
+      "message": "{COUNT} avoin välilehti on jo tallennettu tänne:"
+   },
+   "openTabsAlreadyStoredHere_other": {
+      "message": "{COUNT} avointa välilehteä on jo tallennettu tänne:"
+   },
+   "openTabsAlreadyStoredHere_two": {
+      "message": "{COUNT} avointa välilehteä on jo tallennettu tänne:"
+   },
+   "openTabsAlreadyStoredHere_zero": {
+      "message": "{COUNT} avointa välilehteä on jo tallennettu tänne:"
+   },
+   "openTabsConfirm_few": {
+      "message": "Olet avaamassa {COUNT} välilehteä. Oletko varma?"
+   },
+   "openTabsConfirm_many": {
+      "message": "Olet avaamassa {COUNT} välilehteä. Oletko varma?"
+   },
+   "openTabsConfirm_one": {
+      "message": "Olet avaamassa {COUNT} välilehteä. Oletko varma?"
+   },
+   "openTabsConfirm_other": {
+      "message": "Olet avaamassa {COUNT} välilehteä. Oletko varma?"
+   },
+   "openTabsConfirm_two": {
+      "message": "Olet avaamassa {COUNT} välilehteä. Oletko varma?"
+   },
+   "openTabsConfirm_zero": {
+      "message": "Olet avaamassa {COUNT} välilehteä. Oletko varma?"
+   },
+   "openTabsNotStoredInOneTab_few": {
+      "message": "{COUNT} avointa välilehteä ei ole tallennettu sovellukseen OneTab"
+   },
+   "openTabsNotStoredInOneTab_many": {
+      "message": "{COUNT} avointa välilehteä ei ole tallennettu sovellukseen OneTab"
+   },
+   "openTabsNotStoredInOneTab_one": {
+      "message": "{COUNT} avoin välilehti ei ole tallennettu sovellukseen OneTab"
+   },
+   "openTabsNotStoredInOneTab_other": {
+      "message": "{COUNT} avointa välilehteä ei ole tallennettu sovellukseen OneTab"
+   },
+   "openTabsNotStoredInOneTab_two": {
+      "message": "{COUNT} avointa välilehteä ei ole tallennettu sovellukseen OneTab"
+   },
+   "openTabsNotStoredInOneTab_zero": {
+      "message": "{COUNT} avointa välilehteä ei ole tallennettu sovellukseen OneTab"
+   },
+   "optionAutoActionOnGroupOpenArchiveDesc": {
+      "message": "Estääksesi ryhmän merkitsemisen arkistoiduksi, pidä Alt/Option painettuna, kun avaat ryhmän napsauttamalla"
+   },
+   "optionAutoActionOnGroupOpenArchiveTitle": {
+      "message": "Avaa välilehdet ja merkitse ryhmä arkistoiduksi"
+   },
+   "optionAutoActionOnGroupOpenHeading": {
+      "message": "Automaattinen toiminto, kun avaat ryhmän napsauttamalla:"
+   },
+   "optionAutoActionOnGroupOpenNote": {
+      "message": "Automaattisia toimintoja ei sovelleta lukittuihin tai tehtäviksi merkittyihin ryhmiin."
+   },
+   "optionAutoActionOnGroupOpenOpenDesc": {
+      "message": "Jos haluat merkitä ryhmän arkistoiduksi, pidä Alt/Option painettuna, kun avaat ryhmän napsauttamalla"
+   },
+   "optionAutoActionOnGroupOpenOpenTitle": {
+      "message": "Avaa vain välilehdet"
+   },
+   "optionAutoActionOnGroupOpenTrashDesc": {
+      "message": "Estääksesi ryhmän automaattisen siirtämisen roskakoriin, pidä Alt/Option painettuna, kun avaat ryhmän napsauttamalla"
+   },
+   "optionAutoActionOnGroupOpenTrashTitle": {
+      "message": "Avaa välilehdet ja siirrä ryhmä roskakoriin"
+   },
+   "optionAutoActionOnTabOpenArchiveDesc": {
+      "message": "Estääksesi välilehden automaattisen merkitsemisen arkistoiduksi, pidä Alt/Option painettuna, kun avaat välilehden napsauttamalla"
+   },
+   "optionAutoActionOnTabOpenArchiveTitle": {
+      "message": "Avaa välilehti ja merkitse se arkistoiduksi"
+   },
+   "optionAutoActionOnTabOpenHeading": {
+      "message": "Automaattinen toiminto, kun avaat välilehden napsauttamalla:"
+   },
+   "optionAutoActionOnTabOpenNote": {
+      "message": "Automaattisia toimintoja ei sovelleta sellaisiin välilehtiin, jotka ovat lukituissa tai tehtäviksi merkityissä ryhmissä."
+   },
+   "optionAutoActionOnTabOpenOpenDesc": {
+      "message": "Jos haluat merkitä välilehden arkistoiduksi, pidä Alt/Option painettuna, kun avaat välilehden napsauttamalla"
+   },
+   "optionAutoActionOnTabOpenOpenTitle": {
+      "message": "Avaa vain välilehti"
+   },
+   "optionAutoActionOnTabOpenTrashDesc": {
+      "message": "Estääksesi välilehden automaattisen siirtämisen roskakoriin, pidä Alt/Option painettuna, kun avaat välilehden napsauttamalla"
+   },
+   "optionAutoActionOnTabOpenTrashTitle": {
+      "message": "Avaa välilehti ja siirrä se roskakoriin"
+   },
+   "optionCopyToClipboardFormatHeading": {
+      "message": "Linkkien kopiointi leikepöydälle:"
+   },
+   "optionCopyToClipboardFormatNote": {
+      "message": "Asetus koskee toimintoa 'Kopioi leikepöydälle'. Voit myös vetää välilehtiä ja ryhmiä suoraan OneTab-sovelluksesta asiakirjaan."
+   },
+   "optionCopyToClipboardFormatRichTextDesc": {
+      "message": "Esimerkiksi tekstinkäsittelyohjelmat sallivat muotoillun tekstin liittämisen. Jos sitä ei tueta, liitetään tavallinen teksti."
+   },
+   "optionCopyToClipboardFormatRichTextTitle": {
+      "message": "Muotoiltu teksti, kun saatavilla"
+   },
+   "optionCopyToClipboardFormatTitleUrlTitle": {
+      "message": "Otsikko ja URL"
+   },
+   "optionCopyToClipboardFormatUrlOnlyTitle": {
+      "message": "Vain URL"
+   },
+   "optionCopyToClipboardFormatUrlTitleTitle": {
+      "message": "URL ja otsikko"
+   },
+   "optionDefaultTabGroupOpenTypeCurrentWindow": {
+      "message": "Avaa selaimen välilehtiryhmä nykyiseen ikkunaan"
+   },
+   "optionDefaultTabGroupOpenTypeHeading": {
+      "message": "Kun avaat ryhmän, joka on määritetty avautumaan \"selaimen välilehtiryhmänä\":"
+   },
+   "optionDefaultTabGroupOpenTypeNewWindow": {
+      "message": "Avaa selaimen välilehtiryhmä uuteen ikkunaan"
+   },
+   "optionDefaultTabGroupOpenTypeNote": {
+      "message": "Jos valitset pudotusvalikosta tietyn vaihtoehdon (kuten välilehtien avaamisen incognito-ikkunaan), valinta muistetaan kyseiselle ryhmälle."
+   },
+   "optionDefaultWindowGroupOpenTypeCurrentWindow": {
+      "message": "Avaa välilehdet nykyiseen ikkunaan"
+   },
+   "optionDefaultWindowGroupOpenTypeHeading": {
+      "message": "Kun avaat ryhmän napsauttamalla:"
+   },
+   "optionDefaultWindowGroupOpenTypeNewWindow": {
+      "message": "Avaa välilehdet uuteen ikkunaan"
+   },
+   "optionDefaultWindowGroupOpenTypeNote": {
+      "message": "Jos valitset pudotusvalikosta tietyn vaihtoehdon (kuten välilehtien avaamisen incognito-ikkunaan), valinta muistetaan kyseiselle ryhmälle."
+   },
+   "optionDiscardNonActiveTabOnOpenHeading": {
+      "message": "Säästä muistia (RAM) heti, kun välilehdet avataan:"
+   },
+   "optionDiscardNonActiveTabOnOpenNote": {
+      "message": "Jos tämä asetus on käytössä, OneTab-luettelosta avatessasi välilehdet puretaan heti muistista. Tästä on hyötyä, jos avaat usein kymmeniä välilehtiä kerralla, sillä ne eivät kuormita muistia ennen kuin käyt niissä. Jos tämä asetus ei ole käytössä, monet selaimet voivat silti automaattisesti purkaa käyttämättömiä välilehtiä muistista."
+   },
+   "optionDisplayContextMenuHeading": {
+      "message": "Napsauta verkkosivulla hiiren oikeaa painiketta avataksesi OneTab-kontekstivalikon:"
+   },
+   "optionDisplayContextMenuNote": {
+      "message": "Jos poistat valikon käytöstä, et voi käyttää toimintoa \"Jätä sivusto pois sovelluksesta OneTab\""
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenFalseTitle": {
+      "message": "Vaihda ikkunaan, jossa OneTab-välilehti on jo auki"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenHeading": {
+      "message": "Toiminto \"Avaa OneTab\":"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenNote": {
+      "message": "Toimintoon \"Avaa OneTab\" pääsee pikanäppäimellä. Sen voi avata myös ponnahdusikkunasta, joka avautuu, kun napsautat selaimen työkalupalkin OneTab-kuvaketta."
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenTrueTitle": {
+      "message": "Siirrä mahdollinen OneTab‑välilehti nykyiseen ikkunaan"
+   },
+   "optionStartupLaunchDisplay": {
+      "message": "Avaa OneTab aina, kun käynnistät selaimesi"
+   },
+   "optionStartupLaunchNone": {
+      "message": "Älä avaa OneTab-sovellusta automaattisesti"
+   },
+   "optionStartupLaunchNoneDesc3": {
+      "message": "Avaa OneTab manuaalisesti napsauttamalla selaimesi työkalupalkissa OneTab-kuvaketta ja valitsemalla 'Avaa OneTab'. Vaihtoehtoisesti voit napsauttaa hiiren oikealla missä tahansa verkkosivulla ja valita OneTab-valikosta 'Avaa OneTab'."
+   },
+   "optionStartupLaunchTitle": {
+      "message": "Käynnistys:"
+   },
+   "optionSwitchToOpenedTabFalseTitle": {
+      "message": "Avaa välilehti ja pysy OneTab-sivulla"
+   },
+   "optionSwitchToOpenedTabHeading": {
+      "message": "Kun avaat välilehtiä OneTab-sivulta:"
+   },
+   "optionSwitchToOpenedTabNote": {
+      "message": "Jos pidät Shift-näppäintä painettuna napsauttaessasi, välilehti avataan uuteen ikkunaan"
+   },
+   "optionSwitchToOpenedTabTrueTitle": {
+      "message": "Avaa välilehti ja vaihda siihen (ellei pidä Command ⌘/Ctrl-näppäintä painettuna napsauttaessa)"
+   },
+   "optionUrlAbbr": {
+      "message": "Lyhennetty"
+   },
+   "optionUrlDisplayTitle": {
+      "message": "URL:n näyttö:"
+   },
+   "optionUrlDomain": {
+      "message": "Vain verkkotunnus"
+   },
+   "optionUrlFull": {
+      "message": "Täydellinen"
+   },
+   "optionUrlNone": {
+      "message": "Ei mitään"
+   },
+   "options": {
+      "message": "Asetukset"
+   },
+   "otherCopiesColon": {
+      "message": "Muut kopiot:"
+   },
+   "pasteRichOrPlainTextBelow": {
+      "message": "Voit liittää alle muotoiltua tai pelkkää tekstiä."
+   },
+   "pendingTaskCount_few": {
+      "message": "{COUNT} keskeneräistä"
+   },
+   "pendingTaskCount_many": {
+      "message": "{COUNT} keskeneräistä"
+   },
+   "pendingTaskCount_one": {
+      "message": "{COUNT} keskeneräinen"
+   },
+   "pendingTaskCount_other": {
+      "message": "{COUNT} keskeneräistä"
+   },
+   "pendingTaskCount_two": {
+      "message": "{COUNT} keskeneräistä"
+   },
+   "pendingTaskCount_zero": {
+      "message": "{COUNT} keskeneräistä"
+   },
+   "permissionRequiredPleaseTryAgain": {
+      "message": "Jotta voit luoda jaetun sivun, jota voi käyttää miltä tahansa tietokoneelta, tarvitaan lupa yhteyden koordinointiin OneTab-verkkopalvelimen kanssa. Yritä uudelleen."
+   },
+   "pinToTopOfFolder": {
+      "message": "Kiinnitä kansion alkuun"
+   },
+   "pinToTopOfList": {
+      "message": "Kiinnitä listan alkuun"
+   },
+   "pinnedTabs": {
+      "message": "kiinnitetyt välilehdet"
+   },
+   "placeholderAndOtherLocations_few": {
+      "message": "PLACEHOLDER ja {COUNT} muuta"
+   },
+   "placeholderAndOtherLocations_many": {
+      "message": "PLACEHOLDER ja {COUNT} muuta"
+   },
+   "placeholderAndOtherLocations_one": {
+      "message": "PLACEHOLDER ja {COUNT} muu"
+   },
+   "placeholderAndOtherLocations_other": {
+      "message": "PLACEHOLDER ja {COUNT} muuta"
+   },
+   "placeholderAndOtherLocations_two": {
+      "message": "PLACEHOLDER ja {COUNT} muuta"
+   },
+   "placeholderAndOtherLocations_zero": {
+      "message": "PLACEHOLDER ja {COUNT} muuta"
+   },
+   "placeholderExplanation": {
+      "message": "Selaimen tietoturvasääntöjen vuoksi OneTab ei voi palauttaa tätä sivua suoraan. Kopioi URL-osoite ja liitä se selaimesi osoiteriville."
+   },
+   "plainTextLineFormat": {
+      "message": "Jos liität pelkkää tekstiä, varmista, että jokaisessa URL-osoitteessa on määritetty protokolla (https://wikipedia.org eikä pelkkä wikipedia.org). Jokaisen rivin tulee olla seuraavassa muodossa:"
+   },
+   "pleaseWaitTripleDot": {
+      "message": "Odota hetki…"
+   },
+   "popupSlashShortcutInfo": {
+      "message": "Kun olet OneTab-laajennuksen ponnahdusikkunassa (joka avautuu, kun napsautat OneTab-kuvaketta), paina kauttaviivaa avataksesi kohdevalitsimen ja siirtääksesi kohdistuksen hakukenttään."
+   },
+   "privacyAssurance": {
+      "message": "Tietosuojalupaus"
+   },
+   "privacyAssuranceDetail": {
+      "message": "Välilehtiluetteloasi ei koskaan välitetä tai luovuteta OneTab-kehittäjille eikä kenellekään muulle. Ainoa poikkeus on, jos käytät tarkoituksella ominaisuutta 'jaa verkkosivuna' ladataksesi välilehtiluettelosi verkkosivuksi ja jakaaksesi sen muille."
+   },
+   "privacyFirst": {
+      "message": "Tietosuoja ensin"
+   },
+   "privacyFirstMessage": {
+      "message": "OneTab on suunniteltu suojaamaan yksityisiä tietojasi. Välilehtesi tallennetaan vain tietokoneellesi, eikä niitä koskaan jaeta OneTab-kehittäjille tai kenellekään muulle.\nJos käytät varmuuskopiointi-/synkronointiominaisuuttamme, tietosi suojataan päästä päähän vahvalla AES-256-salauksella. Tämä tekee OneTab-kehittäjille mahdottomaksi nähdä välilehtiä, jotka olet varmuuskopioinut tai synkronoinut laitteiden välillä, koska vain sinulla on salausavain.\nAinoa poikkeus on, jos päätät tarkoituksella jakaa osan välilehdistäsi muille käyttämällä \"Jaa verkkosivuna\" -toimintoamme.\nUskomme periaatteeseen Tietosuoja ensin."
+   },
+   "privateBrowsingPermissionRequired": {
+      "message": "OneTab tarvitsee luvan luoda yksityisiä ikkunoita."
+   },
+   "privateBrowsingWindows": {
+      "message": "Yksityiset ikkunat"
+   },
+   "quickList": {
+      "message": "Pikalista"
+   },
+   "rating": {
+      "message": "Arviointi"
+   },
+   "readingList": {
+      "message": "Lukulista"
+   },
+   "readingListPermissionNecesssary": {
+      "message": "Lukulistan käyttöoikeus tarvitaan, jotta OneTab voi tuoda kohteita lukulistaltasi. Jos tämä ominaisuus ei toimi, selaimesi ei ehkä tue lukulistoja."
+   },
+   "recent": {
+      "message": "Uusimmat"
+   },
+   "recentDestinationsColon": {
+      "message": "Viimeisimmät kohteet:"
+   },
+   "recentDuplicateRetainedHelp": {
+      "message": "Jos sama välilehti esiintyy useammin kuin kerran, vain uusin kopio säilytetään"
+   },
+   "recentlyAccessed": {
+      "message": "Äskettäin käytetty"
+   },
+   "recentlyCreated": {
+      "message": "Äskettäin luotu"
+   },
+   "recentlyModified": {
+      "message": "Äskettäin muokattu"
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "message": "Vähennä muistinkäyttöä 95 %"
+   },
+   "removeDuplicateTabsHere_few": {
+      "message": "Poista {COUNT} päällekkäistä välilehteä täältä"
+   },
+   "removeDuplicateTabsHere_many": {
+      "message": "Poista {COUNT} päällekkäistä välilehteä täältä"
+   },
+   "removeDuplicateTabsHere_one": {
+      "message": "Poista {COUNT} päällekkäinen välilehti täältä"
+   },
+   "removeDuplicateTabsHere_other": {
+      "message": "Poista {COUNT} päällekkäistä välilehteä täältä"
+   },
+   "removeDuplicateTabsHere_two": {
+      "message": "Poista {COUNT} päällekkäistä välilehteä täältä"
+   },
+   "removeDuplicateTabsHere_zero": {
+      "message": "Poista {COUNT} päällekkäistä välilehteä täältä"
+   },
+   "removeDuplicates": {
+      "message": "Poista päällekkäisyydet"
+   },
+   "removeFromQuickList": {
+      "message": "Poista pikalistalta"
+   },
+   "removeTabsElsewhereAlsoHere_few": {
+      "message": "Poista {COUNT} välilehteä muualta, jotka ovat myös täällä"
+   },
+   "removeTabsElsewhereAlsoHere_many": {
+      "message": "Poista {COUNT} välilehteä muualta, jotka ovat myös täällä"
+   },
+   "removeTabsElsewhereAlsoHere_one": {
+      "message": "Poista {COUNT} välilehti muualta, joka on myös täällä"
+   },
+   "removeTabsElsewhereAlsoHere_other": {
+      "message": "Poista {COUNT} välilehteä muualta, jotka ovat myös täällä"
+   },
+   "removeTabsElsewhereAlsoHere_two": {
+      "message": "Poista {COUNT} välilehteä muualta, jotka ovat myös täällä"
+   },
+   "removeTabsElsewhereAlsoHere_zero": {
+      "message": "Poista {COUNT} välilehteä muualta, jotka ovat myös täällä"
+   },
+   "removeTabsHereAlsoElsewhere_few": {
+      "message": "Poista {COUNT} välilehteä täältä, jotka ovat myös muualla"
+   },
+   "removeTabsHereAlsoElsewhere_many": {
+      "message": "Poista {COUNT} välilehteä täältä, jotka ovat myös muualla"
+   },
+   "removeTabsHereAlsoElsewhere_one": {
+      "message": "Poista {COUNT} välilehti täältä, joka on myös muualla"
+   },
+   "removeTabsHereAlsoElsewhere_other": {
+      "message": "Poista {COUNT} välilehteä täältä, jotka ovat myös muualla"
+   },
+   "removeTabsHereAlsoElsewhere_two": {
+      "message": "Poista {COUNT} välilehteä täältä, jotka ovat myös muualla"
+   },
+   "removeTabsHereAlsoElsewhere_zero": {
+      "message": "Poista {COUNT} välilehteä täältä, jotka ovat myös muualla"
+   },
+   "rename": {
+      "message": "Nimeä uudelleen"
+   },
+   "restore": {
+      "message": "Palauta"
+   },
+   "restrictSearchToFolderColon": {
+      "message": "Rajoita haku seuraavaan kansioon:"
+   },
+   "results": {
+      "message": "Tulokset"
+   },
+   "returnToOneTab": {
+      "message": "Palaa OneTab-sovellukseen"
+   },
+   "reverse": {
+      "message": "Käännä järjestys"
+   },
+   "rightClickAndOpenOneTabMenu": {
+      "message": "Napsauta verkkosivulla hiiren oikealla ja avaa OneTab-valikko"
+   },
+   "rightClickMenuDisabledNote": {
+      "message": "Huomautus: Olet poistanut OneTab-kontekstivalikon käytöstä. Ota se käyttöön OneTab-asetussivulla."
+   },
+   "rightClickSelectionOptionsTip": {
+      "message": "Vinkki: Kun olet valinnut kohteen, napsauta valintamerkkiä hiiren oikealla painikkeella nähdäksesi lisää valintavaihtoehtoja"
+   },
+   "rightClickTickTip": {
+      "message": "Vinkki: Napsauta kunkin välilehden valintamerkkiä hiiren oikealla nähdäksesi valintatyökalut"
+   },
+   "safariApproveOneTabInSettings": {
+      "message": "Siirry Asetuksiin ja hyväksy, että OneTab voi käyttää kaikkia sivustoja."
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "message": "Säästä jopa 95 % muistia ja vähennä välilehtikaaosta Google Chromessa"
+   },
+   "searchHere": {
+      "message": "Hae tästä"
+   },
+   "searchOneTab": {
+      "message": "Hae OneTab-sovelluksesta"
+   },
+   "secondExampleLink": {
+      "message": "Toinen esimerkkilinkki"
+   },
+   "secondExampleLinkTitle": {
+      "message": "Toisen esimerkkilinkin otsikko"
+   },
+   "secondExampleLinkTitleOptional": {
+      "message": "Toisen esimerkkilinkin otsikko (valinnainen)"
+   },
+   "seeOtherTabsInThisGroup_few": {
+      "message": "Näytä {COUNT} muuta välilehteä tässä ryhmässä"
+   },
+   "seeOtherTabsInThisGroup_many": {
+      "message": "Näytä {COUNT} muuta välilehteä tässä ryhmässä"
+   },
+   "seeOtherTabsInThisGroup_one": {
+      "message": "Näytä {COUNT} muu välilehti tässä ryhmässä"
+   },
+   "seeOtherTabsInThisGroup_other": {
+      "message": "Näytä {COUNT} muuta välilehteä tässä ryhmässä"
+   },
+   "seeOtherTabsInThisGroup_two": {
+      "message": "Näytä {COUNT} muuta välilehteä tässä ryhmässä"
+   },
+   "seeOtherTabsInThisGroup_zero": {
+      "message": "Näytä {COUNT} muuta välilehteä tässä ryhmässä"
+   },
+   "seePasteInstructions": {
+      "message": "Katso liittämisohjeet…"
+   },
+   "seeTabsInThisGroup_few": {
+      "message": "Näytä {COUNT} välilehteä tässä ryhmässä"
+   },
+   "seeTabsInThisGroup_many": {
+      "message": "Näytä {COUNT} välilehteä tässä ryhmässä"
+   },
+   "seeTabsInThisGroup_one": {
+      "message": "Näytä {COUNT} välilehti tässä ryhmässä"
+   },
+   "seeTabsInThisGroup_other": {
+      "message": "Näytä {COUNT} välilehteä tässä ryhmässä"
+   },
+   "seeTabsInThisGroup_two": {
+      "message": "Näytä {COUNT} välilehteä tässä ryhmässä"
+   },
+   "seeTabsInThisGroup_zero": {
+      "message": "Näytä {COUNT} välilehteä tässä ryhmässä"
+   },
+   "selectAll": {
+      "message": "Valitse kaikki"
+   },
+   "selectAllExceptThis": {
+      "message": "Valitse kaikki paitsi tämä"
+   },
+   "selectThisAndAbove": {
+      "message": "Valitse tämä ja kaikki yllä olevat"
+   },
+   "selectThisAndBelow": {
+      "message": "Valitse tämä ja kaikki alla olevat"
+   },
+   "selectedItemCount_few": {
+      "message": "{COUNT} kohdetta"
+   },
+   "selectedItemCount_many": {
+      "message": "{COUNT} kohdetta"
+   },
+   "selectedItemCount_one": {
+      "message": "{COUNT} kohde"
+   },
+   "selectedItemCount_other": {
+      "message": "{COUNT} kohdetta"
+   },
+   "selectedItemCount_two": {
+      "message": "{COUNT} kohdetta"
+   },
+   "selectedItemCount_zero": {
+      "message": "{COUNT} kohdetta"
+   },
+   "selection": {
+      "message": "Valinnat"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "message": "Lähetä kaikkien ikkunoiden kaikki välilehdet OneTab-sovellukseen"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "message": "Lähetä kaikki muut välilehdet paitsi tämä välilehti OneTab-sovellukseen"
+   },
+   "sendAllTabsInGroupToOneTab": {
+      "message": "Lähetä tämän välilehtiryhmän kaikki välilehdet sovellukseen OneTab"
+   },
+   "sendAllTabsInWindowToOneTab": {
+      "message": "Lähetä tämän ikkunan kaikki välilehdet sovellukseen OneTab"
+   },
+   "sendCurrentTabToOneTab": {
+      "message": "Lähetä nykyinen välilehti OneTab-sovellukseen"
+   },
+   "sendLeftTabsToOneTab": {
+      "message": "Lähetä vasemmalla olevat välilehdet OneTab-sovellukseen"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "message": "Lähetä vain tämä välilehti OneTab-sovellukseen"
+   },
+   "sendRightTabsToOneTab": {
+      "message": "Lähetä oikealla olevat välilehdet OneTab-sovellukseen"
+   },
+   "sendSelectedTabsToOneTab": {
+      "message": "Lähetä valitut välilehdet OneTab-sovellukseen"
+   },
+   "sendThisWebLinkToOneTab": {
+      "message": "Lähetä tämä linkki OneTab-sovellukseen"
+   },
+   "serverUnreachable": {
+      "message": "Palvelimeen ei saada yhteyttä. Tarkista internet-yhteytesi."
+   },
+   "share": {
+      "message": "Jaa"
+   },
+   "shareAsAWebPage": {
+      "message": "Jaa verkkosivuna"
+   },
+   "shared": {
+      "message": "Jaetut"
+   },
+   "sharedExpiresColon": {
+      "message": "Jaettu verkkosivuna. Vanhenee:"
+   },
+   "sharedPageOptions": {
+      "message": "Jaetun sivun asetukset"
+   },
+   "sharedPageTabLimit_few": {
+      "message": "Jaetuilla sivuilla on enintään {COUNT} välilehteä"
+   },
+   "sharedPageTabLimit_many": {
+      "message": "Jaetuilla sivuilla on enintään {COUNT} välilehteä"
+   },
+   "sharedPageTabLimit_one": {
+      "message": "Jaetuilla sivuilla on enintään {COUNT} välilehti"
+   },
+   "sharedPageTabLimit_other": {
+      "message": "Jaetuilla sivuilla on enintään {COUNT} välilehteä"
+   },
+   "sharedPageTabLimit_two": {
+      "message": "Jaetuilla sivuilla on enintään {COUNT} välilehteä"
+   },
+   "sharedPageTabLimit_zero": {
+      "message": "Jaetuilla sivuilla on enintään {COUNT} välilehteä"
+   },
+   "sharedPageWillAutomaticallyExpire": {
+      "message": "Jaettu sivu vanhenee automaattisesti, mutta voit pidentää voimassaoloaikaa milloin tahansa."
+   },
+   "shiftDragShortcutInfo": {
+      "message": "Pidä Vaihto-näppäintä painettuna pudottaessasi välilehden, niin siitä luodaan kopio siirtämisen sijaan. Tärkeää: Paina Vaihto-näppäintä vasta, kun olet aloittanut vetämisen."
+   },
+   "showEverything": {
+      "message": "Näytä kaikki"
+   },
+   "showFoldersOnly": {
+      "message": "Näytä vain kansiot"
+   },
+   "showNamedItemsOnly": {
+      "message": "Näytä vain nimettyjä kohteita"
+   },
+   "showNamedOnly": {
+      "message": "Näytä vain nimetyt"
+   },
+   "showNextCount_few": {
+      "message": "Näytä seuraavat {COUNT}"
+   },
+   "showNextCount_many": {
+      "message": "Näytä seuraavat {COUNT}"
+   },
+   "showNextCount_one": {
+      "message": "Näytä seuraava {COUNT}"
+   },
+   "showNextCount_other": {
+      "message": "Näytä seuraavat {COUNT}"
+   },
+   "showNextCount_two": {
+      "message": "Näytä seuraavat {COUNT}"
+   },
+   "showNextCount_zero": {
+      "message": "Näytä seuraavat {COUNT}"
+   },
+   "showPreviousCount_few": {
+      "message": "Näytä edelliset {COUNT}"
+   },
+   "showPreviousCount_many": {
+      "message": "Näytä edelliset {COUNT}"
+   },
+   "showPreviousCount_one": {
+      "message": "Näytä edellinen {COUNT}"
+   },
+   "showPreviousCount_other": {
+      "message": "Näytä edelliset {COUNT}"
+   },
+   "showPreviousCount_two": {
+      "message": "Näytä edelliset {COUNT}"
+   },
+   "showPreviousCount_zero": {
+      "message": "Näytä edelliset {COUNT}"
+   },
+   "soon": {
+      "message": "pian"
+   },
+   "sort": {
+      "message": "Lajittelu"
+   },
+   "sortByColon": {
+      "message": "Lajittele:"
+   },
+   "sortGroups": {
+      "message": "Lajittele ryhmät"
+   },
+   "sourceColon": {
+      "message": "Lähde:"
+   },
+   "starRatingTooltip": {
+      "message": "Aseta tähtiarviointi"
+   },
+   "storeSelectedTabsInONETAB_few": {
+      "message": "Tallenna {COUNT} valittua välilehteä sovellukseen ONETAB"
+   },
+   "storeSelectedTabsInONETAB_many": {
+      "message": "Tallenna {COUNT} valittua välilehteä sovellukseen ONETAB"
+   },
+   "storeSelectedTabsInONETAB_one": {
+      "message": "Tallenna {COUNT} valittu välilehti sovellukseen ONETAB"
+   },
+   "storeSelectedTabsInONETAB_other": {
+      "message": "Tallenna {COUNT} valittua välilehteä sovellukseen ONETAB"
+   },
+   "storeSelectedTabsInONETAB_two": {
+      "message": "Tallenna {COUNT} valittua välilehteä sovellukseen ONETAB"
+   },
+   "storeSelectedTabsInONETAB_zero": {
+      "message": "Tallenna {COUNT} valittua välilehteä sovellukseen ONETAB"
+   },
+   "storeTabInAdditionalLocation": {
+      "message": "Tallenna välilehtesi lisäsijaintiin"
+   },
+   "storeTabInONETAB": {
+      "message": "Tallenna välilehti sovellukseen ONETAB"
+   },
+   "storeTabsInAdditionalLocation": {
+      "message": "Tallenna välilehtesi lisäsijaintiin"
+   },
+   "storeTabsInONETAB": {
+      "message": "Tallenna välilehdet sovellukseen ONETAB"
+   },
+   "subFoldersNotShared": {
+      "message": "Huomaa, että alikansioita ei jaeta. Jaetaan vain kansiossa suoraan olevat ryhmät."
+   },
+   "tab": {
+      "message": "välilehti"
+   },
+   "tabAlreadyStoredHere": {
+      "message": "Avoin välilehtesi on jo tallennettu tänne:"
+   },
+   "tabCaretTooltipTitleNotes": {
+      "message": "Muokkaa välilehden otsikkoa ja muistiinpanoja"
+   },
+   "tabCaretTooltipTitleNotesUrl": {
+      "message": "Muokkaa välilehden otsikkoa, URL-osoitetta ja muistiinpanoja"
+   },
+   "tabCount_few": {
+      "message": "{COUNT} välilehteä"
+   },
+   "tabCount_many": {
+      "message": "{COUNT} välilehteä"
+   },
+   "tabCount_one": {
+      "message": "{COUNT} välilehti"
+   },
+   "tabCount_other": {
+      "message": "{COUNT} välilehteä"
+   },
+   "tabCount_two": {
+      "message": "{COUNT} välilehteä"
+   },
+   "tabCount_zero": {
+      "message": "{COUNT} välilehteä"
+   },
+   "tabGroupColorColon": {
+      "message": "Välilehtiryhmän väri:"
+   },
+   "tabShortcutInfo": {
+      "message": "OneTab-sivulla paina sarkain-näppäintä siirtääksesi kohdistuksen keskisarakkeen ryhmästä toiseen. Tämä helpottaa ryhmien ohittamista nopeasti, etenkin jos ne ovat suuria. Kun ryhmä on kohdistuksessa, avaa se Enterillä. Siirry taaksepäin yhdistelmällä Vaihto+Sarkain."
+   },
+   "tabTotalCount_few": {
+      "message": "Yhteensä: {COUNT} välilehteä"
+   },
+   "tabTotalCount_many": {
+      "message": "Yhteensä: {COUNT} välilehteä"
+   },
+   "tabTotalCount_one": {
+      "message": "Yhteensä: {COUNT} välilehti"
+   },
+   "tabTotalCount_other": {
+      "message": "Yhteensä: {COUNT} välilehteä"
+   },
+   "tabTotalCount_two": {
+      "message": "Yhteensä: {COUNT} välilehteä"
+   },
+   "tabTotalCount_zero": {
+      "message": "Yhteensä: {COUNT} välilehteä"
+   },
+   "tabs": {
+      "message": "Välilehdet"
+   },
+   "tabsFromExcludedDomains": {
+      "message": "välilehdet poissuljetuilta verkkotunnuksilta"
+   },
+   "tabsInTabGroups": {
+      "message": "välilehdet välilehtiryhmissä"
+   },
+   "taskTotalCount_few": {
+      "message": "{COUNT} yhteensä"
+   },
+   "taskTotalCount_many": {
+      "message": "{COUNT} yhteensä"
+   },
+   "taskTotalCount_one": {
+      "message": "{COUNT} yhteensä"
+   },
+   "taskTotalCount_other": {
+      "message": "{COUNT} yhteensä"
+   },
+   "taskTotalCount_two": {
+      "message": "{COUNT} yhteensä"
+   },
+   "taskTotalCount_zero": {
+      "message": "{COUNT} yhteensä"
+   },
+   "tasks": {
+      "message": "Tehtävät"
+   },
+   "tasksDone": {
+      "message": "Tehtävät (valmiit)"
+   },
+   "tasksPending": {
+      "message": "Tehtävät (keskeneräiset)"
+   },
+   "tasksWillAppearHere": {
+      "message": "Kun merkitset välilehtiä tai ryhmiä tehtäviksi, ne näkyvät täällä."
+   },
+   "thenClickToolbarIcon": {
+      "message": "Napsauta sitten OneTab-kuvaketta työkalupalkissa uudelleen käyttääksesi OneTab-sovellusta."
+   },
+   "thisFolderIsEmpty": {
+      "message": "Tämä kansio on tyhjä"
+   },
+   "thisTab": {
+      "message": "Tämä välilehti"
+   },
+   "thisTabGroup": {
+      "message": "Tämä välilehtiryhmä"
+   },
+   "thisTabNotStored": {
+      "message": "Tätä välilehteä ei ole tallennettu sovellukseen OneTab"
+   },
+   "thisWindow": {
+      "message": "Tämä ikkuna"
+   },
+   "tickOrUntickToExclude": {
+      "message": "Valitse tai poista valinta poissulkeaksesi sivuston"
+   },
+   "title": {
+      "message": "Otsikko"
+   },
+   "toAddOrRemoveExclusions": {
+      "message": "Lisätäksesi tai poistaaksesi sivuston poissulkulistalta:"
+   },
+   "toAllowOneTabInIncognito": {
+      "message": "Jotta OneTab-kuvake näkyy Incognito-ikkunoissa: "
+   },
+   "toImportBrowserBookmarksUseMenuOption": {
+      "message": "Tuo selaimen kirjanmerkeistä käyttämällä OneTab-sivullasi valikon 'Tuo linkit tänne' -vaihtoehtoa"
+   },
+   "toMakeOpenButtonWorkApprovePermission": {
+      "message": "Jotta jaettujen sivujen \"Avaa\"-painike toimisi, hyväksy käyttöoikeuspyyntö."
+   },
+   "toSaveChangesClickButton": {
+      "message": "Tallenna muutokset napsauttamalla painiketta"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "message": "Liikaa välilehtiä? Muunna välilehdet luetteloksi ja nopeuta Firefoxia"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "message": "Liikaa välilehtiä? Muunna välilehdet luetteloksi ja nopeuta Safaria"
+   },
+   "total0Tabs": {
+      "message": "Yhteensä: 0 välilehteä"
+   },
+   "trash": {
+      "message": "Roskakori"
+   },
+   "unMarkAsTask": {
+      "message": "Poista tehtävämerkintä"
+   },
+   "unPin": {
+      "message": "Poista kiinnitys"
+   },
+   "unlock": {
+      "message": "Poista lukitus"
+   },
+   "unmarkAsArchived": {
+      "message": "Poista arkistointimerkintä"
+   },
+   "unshare": {
+      "message": "Poista jakaminen"
+   },
+   "untitled": {
+      "message": "Nimetön"
+   },
+   "update": {
+      "message": "Päivitä"
+   },
+   "userLanguage": {
+      "message": "Suomi"
+   },
+   "website": {
+      "message": "Verkkosivusto"
+   },
+   "yearCount_few": {
+      "message": "{COUNT} vuotta"
+   },
+   "yearCount_many": {
+      "message": "{COUNT} vuotta"
+   },
+   "yearCount_one": {
+      "message": "{COUNT} vuosi"
+   },
+   "yearCount_other": {
+      "message": "{COUNT} vuotta"
+   },
+   "yearCount_two": {
+      "message": "{COUNT} vuotta"
+   },
+   "yearCount_zero": {
+      "message": "{COUNT} vuotta"
+   },
+   "yourTabAlreadyStoredHere": {
+      "message": "Välilehtesi on jo tallennettu tänne:"
+   }
+}

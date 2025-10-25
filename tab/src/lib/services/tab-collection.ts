@@ -7,6 +7,7 @@ import { db } from '@/lib/db';
 import { createTMarksClient } from '@/lib/api/tmarks';
 import type { TabGroupInput, TabGroupResult } from '@/types';
 import type { BookmarkSiteConfig } from '@/types';
+import { EXTERNAL_SERVICES } from '@/lib/constants/urls';
 
 /**
  * Get all tabs in the current window
@@ -34,10 +35,15 @@ export async function closeTabs(tabIds: number[]): Promise<void> {
  * Generate favicon URL using Google Favicon API
  */
 function getFaviconUrl(url: string): string {
+  if (!url || typeof url !== 'string') {
+    return '';
+  }
+  
   try {
     const urlObj = new URL(url);
-    return `https://www.google.com/s2/favicons?domain=${urlObj.hostname}&sz=32`;
-  } catch {
+    return `${EXTERNAL_SERVICES.GOOGLE_FAVICON}?domain=${urlObj.hostname}&sz=32`;
+  } catch (error) {
+    console.warn(`Invalid URL for favicon: ${url}`, error);
     return '';
   }
 }

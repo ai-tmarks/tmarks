@@ -1,0 +1,1715 @@
+{
+   "95PctMemoryReduction": {
+      "message": "메모리 95% 절감"
+   },
+   "Folder": {
+      "message": "폴더"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "message": "OneTab은 Firefox에서도 사용할 수 있습니다"
+   },
+   "aDashZ": {
+      "message": "A-Z"
+   },
+   "about": {
+      "message": "정보"
+   },
+   "addOneTabNow": {
+      "message": "지금 OneTab 추가"
+   },
+   "all": {
+      "message": "모두"
+   },
+   "allBookmarks": {
+      "message": "모든 북마크"
+   },
+   "allOpenTabsAlreadyStoredHere": {
+      "message": "열려 있는 모든 탭이 이미 여기에 저장되어 있습니다:"
+   },
+   "allowFileAccessInstructions": {
+      "message": "파일을 직접 열 수 있도록 설정하려면 설정 ➝ 확장 프로그램 ➝ OneTab ➝ 세부정보 ➝ 파일 URL에 대한 액세스 허용"
+   },
+   "alreadyExistingOpenTabsWillBeClosedAfterMerge": {
+      "message": "병합 후, 이 그룹에 이미 있는 열린 탭은 모두 닫힙니다."
+   },
+   "alternatePlainTextFormat": {
+      "message": "또는, 일반 텍스트는 다음 형식일 수 있습니다:"
+   },
+   "approve": {
+      "message": "승인"
+   },
+   "archived": {
+      "message": "보관됨"
+   },
+   "autoTheme": {
+      "message": "자동(운영체제 설정 따름)"
+   },
+   "backupAndSync": {
+      "message": "백업 및 동기화"
+   },
+   "betaReleaseReportBugsHere": {
+      "message": "베타 버전 - 버그 신고"
+   },
+   "bookmarkCount_few": {
+      "message": "북마크 {COUNT}개"
+   },
+   "bookmarkCount_many": {
+      "message": "북마크 {COUNT}개"
+   },
+   "bookmarkCount_one": {
+      "message": "북마크 {COUNT}개"
+   },
+   "bookmarkCount_other": {
+      "message": "북마크 {COUNT}개"
+   },
+   "bookmarkCount_two": {
+      "message": "북마크 {COUNT}개"
+   },
+   "bookmarkCount_zero": {
+      "message": "북마크 {COUNT}개"
+   },
+   "bookmarksPermissionNecesssary": {
+      "message": "브라우저 북마크를 OneTab으로 가져오려면 북마크 권한이 필요합니다"
+   },
+   "bulkActions": {
+      "message": "일괄 작업"
+   },
+   "canDragTextNote": {
+      "message": "참고: 다른 웹페이지나 문서에서 웹 링크가 포함된 텍스트를 직접 끌어다 놓을 수도 있습니다. 이 가져오기 상자를 쓰지 않고도 텍스트를 OneTab 페이지로 바로 끌어다 놓을 수 있습니다."
+   },
+   "canPasteWebContentForExample": {
+      "message": "웹페이지나 문서에서 복사한 텍스트를 붙여넣으면 링크가 자동으로 추출됩니다. 예:"
+   },
+   "cancel": {
+      "message": "취소"
+   },
+   "cannotConnectToServerDeletionRequestQueued": {
+      "message": "OneTab 서버에 연결할 수 없습니다. 인터넷 연결을 확인해 주세요. 공유 페이지 삭제 요청은 로컬에 대기열로 저장되며, 다시 연결되면 자동으로 OneTab 서버로 전송됩니다."
+   },
+   "cannotCreateTabGroupInTabGroup": {
+      "message": "선택한 대상은 탭 그룹입니다. 기존 탭 그룹 안에 탭 그룹을 만들 수 없습니다. 다른 대상을 선택하세요."
+   },
+   "cannotMixTabsGroupsFoldersDuringDrag": {
+      "message": "드래그할 때 탭, 그룹, 폴더를 섞어서 선택할 수 없습니다. 예를 들어, 폴더는 탭을 드래그할 수 있는 위치와 동일한 곳으로 드래그할 수 없습니다."
+   },
+   "caseSensitive": {
+      "message": "대소문자 구분"
+   },
+   "changesMadeSinceSharedPageCreation": {
+      "message": "공유 페이지 생성 이후 변경사항이 있습니다. 기존 공유 페이지를 업데이트하려면 '업데이트' 버튼을 클릭하세요."
+   },
+   "checkboxesDeterminePinnedAndGroupedTabMergeInclusion": {
+      "message": "이 페이지 상단의 체크박스로 고정 탭 또는 탭 그룹의 탭을 병합에 포함할지 결정합니다."
+   },
+   "chooseALocation": {
+      "message": "위치 선택"
+   },
+   "chooseALocationToImportTo": {
+      "message": "가져올 위치 선택"
+   },
+   "chooseExportLocation": {
+      "message": "내보낼 위치 선택"
+   },
+   "chooseLightDarkTheme": {
+      "message": "라이트/다크 테마 선택"
+   },
+   "chooseLocationToCopyTo": {
+      "message": "복사할 위치 선택"
+   },
+   "chooseLocationToMoveTo": {
+      "message": "이동할 위치 선택"
+   },
+   "chooseLocationToRestoreTo": {
+      "message": "복원할 위치 선택"
+   },
+   "chooseToIncludeNotes": {
+      "message": "탭이나 그룹에 메모를 추가했다면, 공유 웹 페이지에 포함할지 선택하세요."
+   },
+   "chooseToIncludeRatings": {
+      "message": "탭이나 그룹에 별점을 추가했다면, 공유 웹 페이지에 포함할지 선택하세요."
+   },
+   "chromeIncognitoInstructions": {
+      "message": "브라우저 설정에서 '설정' → '확장 프로그램' → 'OneTab' → '세부정보'로 이동한 다음, '시크릿 모드에서 허용'을 사용 설정하세요."
+   },
+   "clickButtonToAllowTabAccess": {
+      "message": "아래 버튼을 클릭하여 OneTab이 열려 있는 탭에 액세스하도록 허용하세요."
+   },
+   "clickHereToContinue": {
+      "message": "계속하려면 여기를 클릭하세요."
+   },
+   "clickOneTabIconToStoreTabsHere": {
+      "message": "브라우저 도구모음의 OneTab 아이콘을 클릭해 열린 탭을 여기에 저장하세요."
+   },
+   "closeSelectedTabsAndStoreInONETAB_few": {
+      "message": "선택한 탭 {COUNT}개 닫고 ONETAB에 저장"
+   },
+   "closeSelectedTabsAndStoreInONETAB_many": {
+      "message": "선택한 탭 {COUNT}개 닫고 ONETAB에 저장"
+   },
+   "closeSelectedTabsAndStoreInONETAB_one": {
+      "message": "선택한 탭 {COUNT}개 닫고 ONETAB에 저장"
+   },
+   "closeSelectedTabsAndStoreInONETAB_other": {
+      "message": "선택한 탭 {COUNT}개 닫고 ONETAB에 저장"
+   },
+   "closeSelectedTabsAndStoreInONETAB_two": {
+      "message": "선택한 탭 {COUNT}개 닫고 ONETAB에 저장"
+   },
+   "closeSelectedTabsAndStoreInONETAB_zero": {
+      "message": "선택한 탭 {COUNT}개 닫고 ONETAB에 저장"
+   },
+   "closeSelectedTabs_few": {
+      "message": "선택한 탭 {COUNT}개 닫기"
+   },
+   "closeSelectedTabs_many": {
+      "message": "선택한 탭 {COUNT}개 닫기"
+   },
+   "closeSelectedTabs_one": {
+      "message": "선택한 탭 {COUNT}개 닫기"
+   },
+   "closeSelectedTabs_other": {
+      "message": "선택한 탭 {COUNT}개 닫기"
+   },
+   "closeSelectedTabs_two": {
+      "message": "선택한 탭 {COUNT}개 닫기"
+   },
+   "closeSelectedTabs_zero": {
+      "message": "선택한 탭 {COUNT}개 닫기"
+   },
+   "closeTab": {
+      "message": "탭 닫기"
+   },
+   "closeTabAndStore": {
+      "message": "탭을 닫고 ONETAB에 저장"
+   },
+   "closeTabs": {
+      "message": "탭 닫기"
+   },
+   "closeTabsAfterMerge": {
+      "message": "병합 후 탭 닫기"
+   },
+   "closeTabsAlreadyStoredInOneTab_few": {
+      "message": "OneTab에 이미 저장된 탭 {COUNT}개 닫기"
+   },
+   "closeTabsAlreadyStoredInOneTab_many": {
+      "message": "OneTab에 이미 저장된 탭 {COUNT}개 닫기"
+   },
+   "closeTabsAlreadyStoredInOneTab_one": {
+      "message": "OneTab에 이미 저장된 탭 {COUNT}개 닫기"
+   },
+   "closeTabsAlreadyStoredInOneTab_other": {
+      "message": "OneTab에 이미 저장된 탭 {COUNT}개 닫기"
+   },
+   "closeTabsAlreadyStoredInOneTab_two": {
+      "message": "OneTab에 이미 저장된 탭 {COUNT}개 닫기"
+   },
+   "closeTabsAlreadyStoredInOneTab_zero": {
+      "message": "OneTab에 이미 저장된 탭 {COUNT}개 닫기"
+   },
+   "closeTabsAndStore": {
+      "message": "탭을 닫고 ONETAB에 저장"
+   },
+   "closeTheseDuplicates": {
+      "message": "이 중복 탭 모두 닫기"
+   },
+   "closeThisDuplicate": {
+      "message": "이 중복 탭 닫기"
+   },
+   "completeEditingShortcutInfo": {
+      "message": "메모 필드를 편집할 때, 이 단축키로 편집을 완료합니다."
+   },
+   "configureShortcuts": {
+      "message": "단축키 설정"
+   },
+   "conflictingShortcutsHint": {
+      "message": "위 단축키가 작동하지 않거나 다른 앱과 충돌하는 경우, 다른 단축키로 설정할 수 있습니다."
+   },
+   "continue": {
+      "message": "계속"
+   },
+   "convertTabsIntoAList": {
+      "message": "탭을 목록으로 변환"
+   },
+   "copiedToClipboard": {
+      "message": "클립보드에 복사됨"
+   },
+   "copy": {
+      "message": "복사"
+   },
+   "copyLinksToClipboard": {
+      "message": "링크를 클립보드에 복사"
+   },
+   "copySharedPageUrl": {
+      "message": "공유 페이지 URL 복사"
+   },
+   "copyToClipboard": {
+      "message": "클립보드에 복사"
+   },
+   "createANewGroupHere": {
+      "message": "여기에 새 그룹 만들기"
+   },
+   "createFolderAbove": {
+      "message": "위에 폴더 만들기"
+   },
+   "createFolderAboveBelow": {
+      "message": "위 / 아래에 폴더 만들기"
+   },
+   "createFolderAboveWithinBelow": {
+      "message": "위 / 내부 / 아래에 폴더 만들기"
+   },
+   "createFolderBelow": {
+      "message": "아래에 폴더 만들기"
+   },
+   "createFolderWithin": {
+      "message": "내부에 폴더 만들기"
+   },
+   "createGroupAbove": {
+      "message": "위에 그룹 만들기"
+   },
+   "createGroupAboveBelow": {
+      "message": "위 / 아래에 그룹 만들기"
+   },
+   "createGroupAboveWithinBelow": {
+      "message": "위 / 내부 / 아래에 그룹 만들기"
+   },
+   "createGroupBelow": {
+      "message": "아래에 그룹 만들기"
+   },
+   "createGroupInsideDestination": {
+      "message": "대상 내부에 새 그룹 만들기"
+   },
+   "createGroupInsideDestinationHelp": {
+      "message": "체크를 해제하면 탭이 대상 그룹에 바로 추가됩니다. 체크하면 탭을 위한 새 브라우저 탭 그룹이 대상 그룹 내부에 생성됩니다. 브라우저의 '탭 그룹' 기능을 사용하려는 경우에만 체크하세요."
+   },
+   "createGroupWithin": {
+      "message": "내부에 그룹 만들기"
+   },
+   "createNewGroupTip": {
+      "message": "새 그룹을 만들려면 '폴더만 표시' 체크를 해제하세요"
+   },
+   "createdOnOrAfterColon": {
+      "message": "이 날짜 또는 이후에 생성:"
+   },
+   "createdOnOrBeforeColon": {
+      "message": "이 날짜 또는 이전에 생성:"
+   },
+   "createdPreceedingDate": {
+      "message": "생성됨"
+   },
+   "darkTheme": {
+      "message": "다크 테마"
+   },
+   "dayCount_few": {
+      "message": "{COUNT}일"
+   },
+   "dayCount_many": {
+      "message": "{COUNT}일"
+   },
+   "dayCount_one": {
+      "message": "{COUNT}일"
+   },
+   "dayCount_other": {
+      "message": "{COUNT}일"
+   },
+   "dayCount_two": {
+      "message": "{COUNT}일"
+   },
+   "dayCount_zero": {
+      "message": "{COUNT}일"
+   },
+   "delete": {
+      "message": "삭제"
+   },
+   "deleteAllTrash": {
+      "message": "휴지통 비우기"
+   },
+   "deleteThisCopy": {
+      "message": "이 사본 삭제"
+   },
+   "deselectAll": {
+      "message": "모두 선택 해제"
+   },
+   "destinationColon": {
+      "message": "대상:"
+   },
+   "disabled": {
+      "message": "비활성화됨"
+   },
+   "doneTaskCount_few": {
+      "message": "완료 {COUNT}개"
+   },
+   "doneTaskCount_many": {
+      "message": "완료 {COUNT}개"
+   },
+   "doneTaskCount_one": {
+      "message": "완료 {COUNT}개"
+   },
+   "doneTaskCount_other": {
+      "message": "완료 {COUNT}개"
+   },
+   "doneTaskCount_two": {
+      "message": "완료 {COUNT}개"
+   },
+   "doneTaskCount_zero": {
+      "message": "완료 {COUNT}개"
+   },
+   "dontCloseGroupedTabs": {
+      "message": "탭 그룹의 탭은 닫지 않기"
+   },
+   "dontClosePinnedTabs": {
+      "message": "고정된 탭은 닫지 않기"
+   },
+   "dontCloseTabsFromDomains": {
+      "message": "EXAMPLE.COM의 탭은 닫지 않기"
+   },
+   "dragTabsHereForQuickList": {
+      "message": "저장된 탭이나 그룹을 여기로 끌어다 놓으세요. 빠른 목록에 추가됩니다."
+   },
+   "editTabGroupTitleAndNotes": {
+      "message": "탭 그룹의 제목과 메모 편집"
+   },
+   "emojiShortcutInfo": {
+      "message": "메모 필드를 편집할 때, 이 단축키로 이모지 선택기를 엽니다."
+   },
+   "emptyInBrackets": {
+      "message": "(비어 있음)"
+   },
+   "emptyOneTabInfoMsg": {
+      "message": "여러 탭을 열어두었다면 브라우저 도구모음의 OneTab 아이콘을 클릭하세요. 열려 있는 탭이 여기에 표시됩니다."
+   },
+   "enabled": {
+      "message": "활성화됨"
+   },
+   "encryptedSyncAndBackup": {
+      "message": "암호화된 동기화 및 백업"
+   },
+   "encryptedSyncAndBackupComingSoonMessage": {
+      "message": "곧 제공 예정: 여러 브라우저 프로필과 컴퓨터 간에 OneTab 데이터를 동기화할 수 있습니다.\nOneTab은 한 기기에서 변경하면 다른 모든 기기에 즉시 반영되도록 전면 개편되었습니다.\n이 기능을 사용하는 경우, 데이터는 고강도 AES-256으로 종단 간 암호화됩니다. 암호화 키는 사용자만 보유하므로, OneTab 개발자도 기기 간에 백업/동기화된 탭을 볼 수 없습니다."
+   },
+   "everything": {
+      "message": "모두"
+   },
+   "exampleLink": {
+      "message": "예시 링크"
+   },
+   "exampleLinkTitle": {
+      "message": "예시 링크 제목"
+   },
+   "exampleLinkTitleOptional": {
+      "message": "예시 링크 제목(선택 사항)"
+   },
+   "exampleRichTextParagraph": {
+      "message": "PLACEHOLDER 및 PLACEHOLDER가 포함된 예시 문단 텍스트"
+   },
+   "exampleWebsitePageTitle": {
+      "message": "예시 웹사이트 페이지 제목"
+   },
+   "excludeDomainFromOneTab": {
+      "message": "OneTab에서 EXAMPLE.COM 제외"
+   },
+   "excludeWebSiteFromOneTab": {
+      "message": "이 웹사이트를 OneTab에서 제외"
+   },
+   "expiresColon": {
+      "message": "만료:"
+   },
+   "export": {
+      "message": "내보내기"
+   },
+   "exportImportUrls": {
+      "message": "URL 내보내기/가져오기"
+   },
+   "exportThenImportNote": {
+      "message": "다음 URL 목록은 이 컴퓨터 또는 다른 컴퓨터의 OneTab으로 다시 가져올 수도 있습니다"
+   },
+   "exportUrls": {
+      "message": "URL 내보내기"
+   },
+   "feedback": {
+      "message": "피드백"
+   },
+   "filter": {
+      "message": "필터"
+   },
+   "firefoxIncognitoInstructions": {
+      "message": "브라우저 설정에서 '설정' → '부가 기능 및 테마' → '확장 기능' → 'OneTab' → '…' → '관리'로 이동한 다음, '사생활 보호 창에서 실행'을 사용 설정하세요."
+   },
+   "firefoxShortcutConfigInstructions": {
+      "message": "브라우저 주소창에 URL \"about:addons?type=extension\"을 입력하세요. 페이지가 표시되면 톱니바퀴 아이콘을 클릭한 다음 \"확장 기능 단축키 관리\"를 선택하세요"
+   },
+   "folderCount_few": {
+      "message": "폴더 {COUNT}개"
+   },
+   "folderCount_many": {
+      "message": "폴더 {COUNT}개"
+   },
+   "folderCount_one": {
+      "message": "폴더 {COUNT}개"
+   },
+   "folderCount_other": {
+      "message": "폴더 {COUNT}개"
+   },
+   "folderCount_two": {
+      "message": "폴더 {COUNT}개"
+   },
+   "folderCount_zero": {
+      "message": "폴더 {COUNT}개"
+   },
+   "folders": {
+      "message": "폴더"
+   },
+   "foldersOnly": {
+      "message": "폴더만"
+   },
+   "gettingStarted": {
+      "message": "시작하기"
+   },
+   "goToParentFolder": {
+      "message": "상위 폴더로 이동"
+   },
+   "groupCount_few": {
+      "message": "그룹 {COUNT}개"
+   },
+   "groupCount_many": {
+      "message": "그룹 {COUNT}개"
+   },
+   "groupCount_one": {
+      "message": "그룹 {COUNT}개"
+   },
+   "groupCount_other": {
+      "message": "그룹 {COUNT}개"
+   },
+   "groupCount_two": {
+      "message": "그룹 {COUNT}개"
+   },
+   "groupCount_zero": {
+      "message": "그룹 {COUNT}개"
+   },
+   "groups": {
+      "message": "그룹"
+   },
+   "hasNotes": {
+      "message": "메모 있음"
+   },
+   "hasRating": {
+      "message": "평점 있음"
+   },
+   "help": {
+      "message": "도움말"
+   },
+   "hideArchivedItems": {
+      "message": "보관됨 항목 숨기기"
+   },
+   "import": {
+      "message": "가져오기"
+   },
+   "importAndExport": {
+      "message": "가져오기 & 내보내기"
+   },
+   "importBookmarks": {
+      "message": "북마크 가져오기"
+   },
+   "importFolderAndSubfolders": {
+      "message": "폴더 및 하위 폴더 가져오기"
+   },
+   "importLinksHere": {
+      "message": "여기에 링크 가져오기"
+   },
+   "importReadingList": {
+      "message": "읽기 목록 가져오기"
+   },
+   "importText": {
+      "message": "텍스트 가져오기"
+   },
+   "importUrls": {
+      "message": "URL 가져오기"
+   },
+   "importedBookmarks": {
+      "message": "가져온 북마크"
+   },
+   "includeGroupedTabs": {
+      "message": "탭 그룹의 탭 포함"
+   },
+   "includeNotes": {
+      "message": "메모 포함"
+   },
+   "includePinnedTabs": {
+      "message": "고정된 탭 포함"
+   },
+   "includeStarRatings": {
+      "message": "별점 포함"
+   },
+   "includeTabsAlreadyStored": {
+      "message": "이미 저장한 탭 포함"
+   },
+   "includeTabsFromDomains": {
+      "message": "EXAMPLE.COM의 탭 포함"
+   },
+   "incogitoPermissionRequired": {
+      "message": "OneTab이 시크릿 창을 만들 수 있도록 권한이 필요합니다."
+   },
+   "incognitoWindows": {
+      "message": "시크릿 창"
+   },
+   "invertSelection": {
+      "message": "선택 반전"
+   },
+   "justNow": {
+      "message": "방금"
+   },
+   "keyboardShortcutsColon": {
+      "message": "키보드 단축키:"
+   },
+   "languageTitle": {
+      "message": "언어:"
+   },
+   "lightTheme": {
+      "message": "라이트 테마"
+   },
+   "localeId": {
+      "message": "ko"
+   },
+   "locationColon": {
+      "message": "위치:"
+   },
+   "lock": {
+      "message": "잠금"
+   },
+   "lockMenuItemHelp": {
+      "message": "그룹이 잠겨 있으면 그룹 내 항목을 삭제하거나 순서를 변경할 수 없습니다. 잠긴 그룹을 열 때는 자동 동작이 적용되지 않습니다. 자동 동작에 대한 정보는 옵션 페이지를 참고하세요."
+   },
+   "lockedGroupUnlockHelp": {
+      "message": "잠금 해제하려면 드롭다운 메뉴를 사용하세요. 그룹이 잠겨 있으면 그룹이나 그 탭을 삭제할 수 없고, 탭의 순서를 바꿀 수 없습니다."
+   },
+   "makeThisATask": {
+      "message": "작업으로 표시"
+   },
+   "manifestDescription": {
+      "message": "메모리를 최대 95% 절약하고 탭을 정리하세요"
+   },
+   "markAsArchived": {
+      "message": "보관됨으로 표시"
+   },
+   "markAsArchivedMenuItemHelp": {
+      "message": "참고: 보관된 작업 및 보관된 그룹의 작업은 작업 열에 표시되지 않습니다"
+   },
+   "markAsDoneTask": {
+      "message": "완료된 작업으로 표시"
+   },
+   "markAsPendingTask": {
+      "message": "대기 작업으로 표시"
+   },
+   "matchCount_few": {
+      "message": "일치 항목 {COUNT}개"
+   },
+   "matchCount_many": {
+      "message": "일치 항목 {COUNT}개"
+   },
+   "matchCount_one": {
+      "message": "일치 항목 {COUNT}개"
+   },
+   "matchCount_other": {
+      "message": "일치 항목 {COUNT}개"
+   },
+   "matchCount_two": {
+      "message": "일치 항목 {COUNT}개"
+   },
+   "matchCount_zero": {
+      "message": "일치 항목 {COUNT}개"
+   },
+   "matchWholeWordsOnly": {
+      "message": "단어 전체 일치만"
+   },
+   "mayNeedToRestartBrowser": {
+      "message": "브라우저를 업데이트하고 다시 시작해야 할 수도 있습니다."
+   },
+   "mergeIntoParent": {
+      "message": "상위로 병합"
+   },
+   "mergeOpenTabsHere_few": {
+      "message": "열려 있는 탭 {COUNT}개 여기에 병합"
+   },
+   "mergeOpenTabsHere_many": {
+      "message": "열려 있는 탭 {COUNT}개 여기에 병합"
+   },
+   "mergeOpenTabsHere_one": {
+      "message": "열려 있는 탭 {COUNT}개 여기에 병합"
+   },
+   "mergeOpenTabsHere_other": {
+      "message": "열려 있는 탭 {COUNT}개 여기에 병합"
+   },
+   "mergeOpenTabsHere_two": {
+      "message": "열려 있는 탭 {COUNT}개 여기에 병합"
+   },
+   "mergeOpenTabsHere_zero": {
+      "message": "열려 있는 탭 {COUNT}개 여기에 병합"
+   },
+   "mergeSelectedTabsHere_few": {
+      "message": "선택한 탭 {COUNT}개 여기에 병합"
+   },
+   "mergeSelectedTabsHere_many": {
+      "message": "선택한 탭 {COUNT}개 여기에 병합"
+   },
+   "mergeSelectedTabsHere_one": {
+      "message": "선택한 탭 {COUNT}개 여기에 병합"
+   },
+   "mergeSelectedTabsHere_other": {
+      "message": "선택한 탭 {COUNT}개 여기에 병합"
+   },
+   "mergeSelectedTabsHere_two": {
+      "message": "선택한 탭 {COUNT}개 여기에 병합"
+   },
+   "mergeSelectedTabsHere_zero": {
+      "message": "선택한 탭 {COUNT}개 여기에 병합"
+   },
+   "mergeWithInnerGroups": {
+      "message": "내부 그룹과 병합"
+   },
+   "modifySharing": {
+      "message": "공유 수정"
+   },
+   "moreEllipsis": {
+      "message": "더보기…"
+   },
+   "moreSearchFilters": {
+      "message": "추가 검색 필터"
+   },
+   "moreTripleDot": {
+      "message": "더보기…"
+   },
+   "move": {
+      "message": "이동"
+   },
+   "moveToTrash": {
+      "message": "휴지통으로 이동"
+   },
+   "namedOnly": {
+      "message": "이름 있는 항목만"
+   },
+   "navigationFilter": {
+      "message": "탐색 필터"
+   },
+   "newExclamation": {
+      "message": "신규!"
+   },
+   "noDupsExistExceptForColon": {
+      "message": "다음 항목을 제외하고 중복이 없습니다:"
+   },
+   "noDupsFoundHere": {
+      "message": "여기에는 중복이 없습니다"
+   },
+   "noMatches": {
+      "message": "일치 항목 없음"
+   },
+   "noMatchesFound": {
+      "message": "일치 항목이 없습니다"
+   },
+   "noOpenTabsToStore": {
+      "message": "이 창에는 저장할 열려 있는 탭이 없습니다."
+   },
+   "noReadingListEntries": {
+      "message": "읽기 목록 항목이 없습니다"
+   },
+   "noTabsInOneTabYet": {
+      "message": "아직 OneTab에 저장된 탭이 없습니다"
+   },
+   "noTabsMeetCriteriaUseCheckboxes": {
+      "message": "조건에 맞는 열린 탭이 없습니다. 위의 체크박스를 사용해 보세요."
+   },
+   "noTextHasBeenEntered": {
+      "message": "입력된 텍스트가 없습니다"
+   },
+   "nonArchived": {
+      "message": "보관되지 않음"
+   },
+   "notAssigned": {
+      "message": "지정되지 않음"
+   },
+   "notes": {
+      "message": "메모"
+   },
+   "notesAboutTheLinkOptional": {
+      "message": "링크에 대한 메모(선택 사항)"
+   },
+   "notesAboutTheSecondLinkOptional": {
+      "message": "두 번째 링크에 대한 메모(선택 사항)"
+   },
+   "ok": {
+      "message": "확인"
+   },
+   "omniboxShortcutInfo": {
+      "message": "어떤 탭에서든 OneTab 목록을 검색하려면: 브라우저 주소창에 1을 입력하고 스페이스를 누른 뒤 검색어를 입력하세요."
+   },
+   "oneTabDesignedToProtectPrivacy": {
+      "message": "OneTab은 개인정보를 보호하도록 설계되었습니다. 사용자의 탭은 당사에 공개되지 않습니다."
+   },
+   "oneTabImportExportPageTitle": {
+      "message": "OneTab 가져오기/내보내기"
+   },
+   "oneTabNeedsPermissionToAccessYourTabs": {
+      "message": "OneTab이 탭에 액세스할 수 있도록 권한이 필요합니다."
+   },
+   "oneTabOptionsPageTitle": {
+      "message": "OneTab 옵션"
+   },
+   "oneTabPermissionRequired": {
+      "message": "OneTab - 권한 필요"
+   },
+   "oneTabRestartRequired": {
+      "message": "OneTab을 다시 시작해야 합니다."
+   },
+   "oneTabSlashShortcutInfo": {
+      "message": "OneTab 페이지에서 슬래시(/) 키를 누르면 검색 상자로 포커스가 이동합니다."
+   },
+   "open": {
+      "message": "열기"
+   },
+   "openActionPopup": {
+      "message": "작업 팝업 열기"
+   },
+   "openAsCollapsedTabGroup": {
+      "message": "‘접힌’ 탭 그룹으로 열기"
+   },
+   "openAsCollapsedTabGroupMenuItemHelp": {
+      "message": "이 탭들을 '접힌' 탭 그룹으로 열면, 클릭하여 내부 탭을 표시하기 전까지 그룹 라벨만 표시됩니다."
+   },
+   "openAsTabGroup": {
+      "message": "브라우저 탭 그룹으로 열기"
+   },
+   "openAsTabGroupMenuItemHelp": {
+      "message": "브라우저에서는 창 안에서 탭을 색상별 '탭 그룹'으로 묶어 표시할 수 있습니다."
+   },
+   "openGroupsLimitNotice_few": {
+      "message": "브라우저 과부하를 방지하기 위해 처음 {COUNT}개 그룹만 열립니다."
+   },
+   "openGroupsLimitNotice_many": {
+      "message": "브라우저 과부하를 방지하기 위해 처음 {COUNT}개 그룹만 열립니다."
+   },
+   "openGroupsLimitNotice_one": {
+      "message": "브라우저 과부하를 방지하기 위해 처음 {COUNT}개 그룹만 열립니다."
+   },
+   "openGroupsLimitNotice_other": {
+      "message": "브라우저 과부하를 방지하기 위해 처음 {COUNT}개 그룹만 열립니다."
+   },
+   "openGroupsLimitNotice_two": {
+      "message": "브라우저 과부하를 방지하기 위해 처음 {COUNT}개 그룹만 열립니다."
+   },
+   "openGroupsLimitNotice_zero": {
+      "message": "브라우저 과부하를 방지하기 위해 처음 {COUNT}개 그룹만 열립니다."
+   },
+   "openInIncognitoWindow": {
+      "message": "새 시크릿 창에서 열기"
+   },
+   "openInNewWindow": {
+      "message": "새 창에서 열기"
+   },
+   "openInThisWindow": {
+      "message": "현재 창에서 열기"
+   },
+   "openONETABLogo": {
+      "message": "ONETAB 열기"
+   },
+   "openOneTab": {
+      "message": "OneTab 열기"
+   },
+   "openOneTabAfter": {
+      "message": "탭 저장 후 OneTab 열기"
+   },
+   "openTabFromWebsite": {
+      "message": "탭을 열고 해당 웹사이트로 이동"
+   },
+   "openTabLimit_few": {
+      "message": "브라우저 과부하를 방지하기 위해 한 번에 최대 탭 {COUNT}개만 열 수 있습니다."
+   },
+   "openTabLimit_many": {
+      "message": "브라우저 과부하를 방지하기 위해 한 번에 최대 탭 {COUNT}개만 열 수 있습니다."
+   },
+   "openTabLimit_one": {
+      "message": "브라우저 과부하를 방지하기 위해 한 번에 최대 탭 {COUNT}개만 열 수 있습니다."
+   },
+   "openTabLimit_other": {
+      "message": "브라우저 과부하를 방지하기 위해 한 번에 최대 탭 {COUNT}개만 열 수 있습니다."
+   },
+   "openTabLimit_two": {
+      "message": "브라우저 과부하를 방지하기 위해 한 번에 최대 탭 {COUNT}개만 열 수 있습니다."
+   },
+   "openTabLimit_zero": {
+      "message": "브라우저 과부하를 방지하기 위해 한 번에 최대 탭 {COUNT}개만 열 수 있습니다."
+   },
+   "openTabsAlreadyStoredHere_few": {
+      "message": "여기에 이미 저장된 열려 있는 탭 {COUNT}개:"
+   },
+   "openTabsAlreadyStoredHere_many": {
+      "message": "여기에 이미 저장된 열려 있는 탭 {COUNT}개:"
+   },
+   "openTabsAlreadyStoredHere_one": {
+      "message": "여기에 이미 저장된 열려 있는 탭 {COUNT}개:"
+   },
+   "openTabsAlreadyStoredHere_other": {
+      "message": "여기에 이미 저장된 열려 있는 탭 {COUNT}개:"
+   },
+   "openTabsAlreadyStoredHere_two": {
+      "message": "여기에 이미 저장된 열려 있는 탭 {COUNT}개:"
+   },
+   "openTabsAlreadyStoredHere_zero": {
+      "message": "여기에 이미 저장된 열려 있는 탭 {COUNT}개:"
+   },
+   "openTabsConfirm_few": {
+      "message": "탭 {COUNT}개를 열려고 합니다. 계속하시겠습니까?"
+   },
+   "openTabsConfirm_many": {
+      "message": "탭 {COUNT}개를 열려고 합니다. 계속하시겠습니까?"
+   },
+   "openTabsConfirm_one": {
+      "message": "탭 {COUNT}개를 열려고 합니다. 계속하시겠습니까?"
+   },
+   "openTabsConfirm_other": {
+      "message": "탭 {COUNT}개를 열려고 합니다. 계속하시겠습니까?"
+   },
+   "openTabsConfirm_two": {
+      "message": "탭 {COUNT}개를 열려고 합니다. 계속하시겠습니까?"
+   },
+   "openTabsConfirm_zero": {
+      "message": "탭 {COUNT}개를 열려고 합니다. 계속하시겠습니까?"
+   },
+   "openTabsNotStoredInOneTab_few": {
+      "message": "OneTab에 저장되지 않은 열려 있는 탭 {COUNT}개"
+   },
+   "openTabsNotStoredInOneTab_many": {
+      "message": "OneTab에 저장되지 않은 열려 있는 탭 {COUNT}개"
+   },
+   "openTabsNotStoredInOneTab_one": {
+      "message": "OneTab에 저장되지 않은 열려 있는 탭 {COUNT}개"
+   },
+   "openTabsNotStoredInOneTab_other": {
+      "message": "OneTab에 저장되지 않은 열려 있는 탭 {COUNT}개"
+   },
+   "openTabsNotStoredInOneTab_two": {
+      "message": "OneTab에 저장되지 않은 열려 있는 탭 {COUNT}개"
+   },
+   "openTabsNotStoredInOneTab_zero": {
+      "message": "OneTab에 저장되지 않은 열려 있는 탭 {COUNT}개"
+   },
+   "optionAutoActionOnGroupOpenArchiveDesc": {
+      "message": "그룹이 보관됨으로 표시되지 않게 하려면 그룹을 열 때 Alt/Option 키를 누른 채 클릭하세요"
+   },
+   "optionAutoActionOnGroupOpenArchiveTitle": {
+      "message": "탭을 열고 그룹을 보관됨으로 표시"
+   },
+   "optionAutoActionOnGroupOpenHeading": {
+      "message": "그룹을 클릭해 탭을 열 때 자동 동작:"
+   },
+   "optionAutoActionOnGroupOpenNote": {
+      "message": "자동 동작은 잠금되었거나 작업인 그룹에는 적용되지 않습니다."
+   },
+   "optionAutoActionOnGroupOpenOpenDesc": {
+      "message": "그룹을 보관됨으로 표시하려면 그룹을 열 때 Alt/Option 키를 누른 채 클릭하세요"
+   },
+   "optionAutoActionOnGroupOpenOpenTitle": {
+      "message": "탭만 열기"
+   },
+   "optionAutoActionOnGroupOpenTrashDesc": {
+      "message": "그룹이 자동으로 휴지통으로 이동되지 않게 하려면 그룹을 열 때 Alt/Option 키를 누른 채 클릭하세요"
+   },
+   "optionAutoActionOnGroupOpenTrashTitle": {
+      "message": "탭을 열고 그룹을 휴지통으로 이동"
+   },
+   "optionAutoActionOnTabOpenArchiveDesc": {
+      "message": "탭이 자동으로 보관됨으로 표시되지 않게 하려면 탭을 열 때 Alt/Option 키를 누른 채 클릭하세요"
+   },
+   "optionAutoActionOnTabOpenArchiveTitle": {
+      "message": "탭을 열고 보관됨으로 표시"
+   },
+   "optionAutoActionOnTabOpenHeading": {
+      "message": "탭을 클릭해 열 때 자동 동작:"
+   },
+   "optionAutoActionOnTabOpenNote": {
+      "message": "자동 동작은 잠금된 그룹 또는 작업인 그룹의 탭에는 적용되지 않습니다."
+   },
+   "optionAutoActionOnTabOpenOpenDesc": {
+      "message": "탭을 보관됨으로 표시하려면 탭을 열 때 Alt/Option 키를 누른 채 클릭하세요"
+   },
+   "optionAutoActionOnTabOpenOpenTitle": {
+      "message": "탭만 열기"
+   },
+   "optionAutoActionOnTabOpenTrashDesc": {
+      "message": "탭이 자동으로 휴지통으로 이동되지 않게 하려면 탭을 열 때 Alt/Option 키를 누른 채 클릭하세요"
+   },
+   "optionAutoActionOnTabOpenTrashTitle": {
+      "message": "탭을 열고 휴지통으로 이동"
+   },
+   "optionCopyToClipboardFormatHeading": {
+      "message": "링크를 클립보드에 복사할 때:"
+   },
+   "optionCopyToClipboardFormatNote": {
+      "message": "이 설정은 '클립보드에 복사' 동작에 적용됩니다. OneTab에서 탭과 그룹을 문서로 직접 끌어다 놓을 수도 있습니다."
+   },
+   "optionCopyToClipboardFormatRichTextDesc": {
+      "message": "워드 프로세서 같은 앱에서는 서식 있는 텍스트로 붙여넣을 수 있습니다. 지원되지 않으면 일반 텍스트로 붙여넣습니다."
+   },
+   "optionCopyToClipboardFormatRichTextTitle": {
+      "message": "가능한 경우 서식 있는 텍스트"
+   },
+   "optionCopyToClipboardFormatTitleUrlTitle": {
+      "message": "제목과 URL"
+   },
+   "optionCopyToClipboardFormatUrlOnlyTitle": {
+      "message": "URL만"
+   },
+   "optionCopyToClipboardFormatUrlTitleTitle": {
+      "message": "URL과 제목"
+   },
+   "optionDefaultTabGroupOpenTypeCurrentWindow": {
+      "message": "브라우저 탭 그룹을 현재 창에서 열기"
+   },
+   "optionDefaultTabGroupOpenTypeHeading": {
+      "message": "‘브라우저 탭 그룹’으로 열리도록 설정된 탭 묶음을 클릭하여 열 때:"
+   },
+   "optionDefaultTabGroupOpenTypeNewWindow": {
+      "message": "브라우저 탭 그룹을 새 창에서 열기"
+   },
+   "optionDefaultTabGroupOpenTypeNote": {
+      "message": "드롭다운에서 특정 옵션(예: 시크릿 창에서 열기)을 선택하면, 그 그룹에는 해당 옵션이 기억됩니다."
+   },
+   "optionDefaultWindowGroupOpenTypeCurrentWindow": {
+      "message": "탭을 현재 창에서 열기"
+   },
+   "optionDefaultWindowGroupOpenTypeHeading": {
+      "message": "그룹을 클릭해 탭을 열 때:"
+   },
+   "optionDefaultWindowGroupOpenTypeNewWindow": {
+      "message": "탭을 새 창에서 열기"
+   },
+   "optionDefaultWindowGroupOpenTypeNote": {
+      "message": "드롭다운에서 특정 옵션(예: 시크릿 창에서 열기)을 선택하면, 그 그룹에는 해당 옵션이 기억됩니다."
+   },
+   "optionDiscardNonActiveTabOnOpenHeading": {
+      "message": "탭을 처음 열 때 메모리(RAM) 즉시 절약:"
+   },
+   "optionDiscardNonActiveTabOnOpenNote": {
+      "message": "이 설정을 사용하면 OneTab 목록에서 탭을 처음 열 때 메모리에서 즉시 언로드합니다. 한 번에 많은 탭을 자주 여는 경우, 접근할 때까지 메모리에 로드되지 않아 유용합니다. 이 설정을 사용하지 않더라도, 많은 웹 브라우저는 사용 중이 아닌 탭을 자동으로 메모리에서 언로드하기도 합니다."
+   },
+   "optionDisplayContextMenuHeading": {
+      "message": "웹페이지에서 오른쪽 클릭하여 OneTab 컨텍스트 메뉴에 접근:"
+   },
+   "optionDisplayContextMenuNote": {
+      "message": "메뉴를 사용 중지하면 \"웹사이트를 OneTab에서 제외\" 기능을 사용할 수 없습니다"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenFalseTitle": {
+      "message": "이미 OneTab 탭이 열려 있는 창으로 전환"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenHeading": {
+      "message": "\"OneTab 열기\" 동작:"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenNote": {
+      "message": "\"OneTab 열기\" 동작은 키보드 단축키로 사용할 수 있습니다. 또한 브라우저 도구모음의 OneTab 아이콘을 클릭할 때 표시되는 작업 팝업에서도 사용할 수 있습니다."
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenTrueTitle": {
+      "message": "기존 OneTab 탭을 현재 창으로 이동"
+   },
+   "optionStartupLaunchDisplay": {
+      "message": "브라우저를 시작할 때마다 OneTab 열기"
+   },
+   "optionStartupLaunchNone": {
+      "message": "OneTab을 자동으로 열지 않기"
+   },
+   "optionStartupLaunchNoneDesc3": {
+      "message": "수동으로 OneTab을 열려면 브라우저 도구모음의 OneTab 아이콘을 클릭한 다음 'OneTab 열기'를 선택하세요. 또는 임의의 웹페이지에서 마우스 오른쪽 버튼을 클릭한 뒤 OneTab 메뉴에서 'OneTab 열기'를 클릭하세요."
+   },
+   "optionStartupLaunchTitle": {
+      "message": "시작:"
+   },
+   "optionSwitchToOpenedTabFalseTitle": {
+      "message": "탭을 열고 OneTab에 머무르기"
+   },
+   "optionSwitchToOpenedTabHeading": {
+      "message": "OneTab 페이지에서 탭을 열 때:"
+   },
+   "optionSwitchToOpenedTabNote": {
+      "message": "클릭할 때 Shift를 누르면 탭이 새 창에서 열립니다"
+   },
+   "optionSwitchToOpenedTabTrueTitle": {
+      "message": "탭을 열고 해당 탭으로 전환(클릭 시 Command ⌘/Ctrl을 누르면 제외)"
+   },
+   "optionUrlAbbr": {
+      "message": "축약"
+   },
+   "optionUrlDisplayTitle": {
+      "message": "URL 표시:"
+   },
+   "optionUrlDomain": {
+      "message": "도메인만"
+   },
+   "optionUrlFull": {
+      "message": "전체"
+   },
+   "optionUrlNone": {
+      "message": "없음"
+   },
+   "options": {
+      "message": "옵션"
+   },
+   "otherCopiesColon": {
+      "message": "다른 사본:"
+   },
+   "pasteRichOrPlainTextBelow": {
+      "message": "아래에 서식 있는 텍스트나 일반 텍스트를 붙여넣을 수 있습니다."
+   },
+   "pendingTaskCount_few": {
+      "message": "대기 {COUNT}개"
+   },
+   "pendingTaskCount_many": {
+      "message": "대기 {COUNT}개"
+   },
+   "pendingTaskCount_one": {
+      "message": "대기 {COUNT}개"
+   },
+   "pendingTaskCount_other": {
+      "message": "대기 {COUNT}개"
+   },
+   "pendingTaskCount_two": {
+      "message": "대기 {COUNT}개"
+   },
+   "pendingTaskCount_zero": {
+      "message": "대기 {COUNT}개"
+   },
+   "permissionRequiredPleaseTryAgain": {
+      "message": "어떤 컴퓨터에서든 접근 가능한 공유 페이지를 만들려면 OneTab 웹 서버와의 연결 권한이 필요합니다. 다시 시도해 주세요."
+   },
+   "pinToTopOfFolder": {
+      "message": "폴더 상단에 고정"
+   },
+   "pinToTopOfList": {
+      "message": "목록 상단에 고정"
+   },
+   "pinnedTabs": {
+      "message": "고정된 탭"
+   },
+   "placeholderAndOtherLocations_few": {
+      "message": "PLACEHOLDER 외 {COUNT}곳"
+   },
+   "placeholderAndOtherLocations_many": {
+      "message": "PLACEHOLDER 외 {COUNT}곳"
+   },
+   "placeholderAndOtherLocations_one": {
+      "message": "PLACEHOLDER 외 {COUNT}곳"
+   },
+   "placeholderAndOtherLocations_other": {
+      "message": "PLACEHOLDER 외 {COUNT}곳"
+   },
+   "placeholderAndOtherLocations_two": {
+      "message": "PLACEHOLDER 외 {COUNT}곳"
+   },
+   "placeholderAndOtherLocations_zero": {
+      "message": "PLACEHOLDER 외 {COUNT}곳"
+   },
+   "placeholderExplanation": {
+      "message": "웹 브라우저 보안 규정으로 인해 OneTab은 이 페이지를 직접 복원할 수 없습니다. URL을 복사해 브라우저 주소창에 붙여넣어 주세요."
+   },
+   "plainTextLineFormat": {
+      "message": "일반 텍스트를 붙여넣는 경우, 각 URL에 프로토콜이 지정되어 있어야 합니다(wikipedia.org가 아니라 https://wikipedia.org). 각 줄은 다음 형식이어야 합니다:"
+   },
+   "pleaseWaitTripleDot": {
+      "message": "잠시만 기다려 주세요…"
+   },
+   "popupSlashShortcutInfo": {
+      "message": "OneTab 아이콘을 클릭하면 표시되는 OneTab 작업 팝업에서 슬래시(/) 키를 누르면 대상 선택기가 열리고 검색 상자에 포커스가 이동합니다."
+   },
+   "privacyAssurance": {
+      "message": "개인정보 보호 보장"
+   },
+   "privacyAssuranceDetail": {
+      "message": "탭 목록은 OneTab 개발자나 그 외 누구에게도 전송되거나 공개되지 않습니다. 유일한 예외는 다른 사람과 공유하기 위해 '웹 페이지로 공유' 기능을 사용해 탭 목록을 웹 페이지로 업로드하는 경우입니다."
+   },
+   "privacyFirst": {
+      "message": "프라이버시 우선"
+   },
+   "privacyFirstMessage": {
+      "message": "OneTab은 사용자의 개인 데이터를 보호하도록 설계되었습니다. 탭은 사용자 컴퓨터에만 저장되며, OneTab 개발자나 그 외 누구와도 공유되지 않습니다.\n백업/동기화 기능을 사용하는 경우, 데이터는 고강도 AES-256으로 종단 간 암호화됩니다. 암호화 키는 사용자만 보유하므로, OneTab 개발자도 기기 간에 백업/동기화된 탭을 볼 수 없습니다.\n유일한 예외는 '웹 페이지로 공유' 기능을 사용해 일부 탭을 의도적으로 다른 사람과 공유하기로 결정한 경우입니다.\n우리는 '프라이버시 우선'을 믿습니다."
+   },
+   "privateBrowsingPermissionRequired": {
+      "message": "OneTab이 사생활 보호 창을 만들 수 있도록 권한이 필요합니다."
+   },
+   "privateBrowsingWindows": {
+      "message": "사생활 보호 창"
+   },
+   "quickList": {
+      "message": "빠른 목록"
+   },
+   "rating": {
+      "message": "평점"
+   },
+   "readingList": {
+      "message": "읽기 목록"
+   },
+   "readingListPermissionNecesssary": {
+      "message": "OneTab이 읽기 목록에서 항목을 가져오려면 읽기 목록 권한이 필요합니다. 이 기능이 작동하지 않으면 브라우저가 읽기 목록을 지원하지 않을 수 있습니다."
+   },
+   "recent": {
+      "message": "최신순"
+   },
+   "recentDestinationsColon": {
+      "message": "최근 대상:"
+   },
+   "recentDuplicateRetainedHelp": {
+      "message": "같은 탭이 여러 번 있을 경우, 가장 최근의 중복만 유지됩니다"
+   },
+   "recentlyAccessed": {
+      "message": "최근 액세스순"
+   },
+   "recentlyCreated": {
+      "message": "최근 생성순"
+   },
+   "recentlyModified": {
+      "message": "최근 수정순"
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "message": "메모리 사용량 95% 절감"
+   },
+   "removeDuplicateTabsHere_few": {
+      "message": "여기에서 중복 탭 {COUNT}개 제거"
+   },
+   "removeDuplicateTabsHere_many": {
+      "message": "여기에서 중복 탭 {COUNT}개 제거"
+   },
+   "removeDuplicateTabsHere_one": {
+      "message": "여기에서 중복 탭 {COUNT}개 제거"
+   },
+   "removeDuplicateTabsHere_other": {
+      "message": "여기에서 중복 탭 {COUNT}개 제거"
+   },
+   "removeDuplicateTabsHere_two": {
+      "message": "여기에서 중복 탭 {COUNT}개 제거"
+   },
+   "removeDuplicateTabsHere_zero": {
+      "message": "여기에서 중복 탭 {COUNT}개 제거"
+   },
+   "removeDuplicates": {
+      "message": "중복 제거"
+   },
+   "removeFromQuickList": {
+      "message": "빠른 목록에서 제거"
+   },
+   "removeTabsElsewhereAlsoHere_few": {
+      "message": "다른 위치에 있으면서 여기에도 있는 탭 {COUNT}개 제거"
+   },
+   "removeTabsElsewhereAlsoHere_many": {
+      "message": "다른 위치에 있으면서 여기에도 있는 탭 {COUNT}개 제거"
+   },
+   "removeTabsElsewhereAlsoHere_one": {
+      "message": "다른 위치에 있으면서 여기에도 있는 탭 {COUNT}개 제거"
+   },
+   "removeTabsElsewhereAlsoHere_other": {
+      "message": "다른 위치에 있으면서 여기에도 있는 탭 {COUNT}개 제거"
+   },
+   "removeTabsElsewhereAlsoHere_two": {
+      "message": "다른 위치에 있으면서 여기에도 있는 탭 {COUNT}개 제거"
+   },
+   "removeTabsElsewhereAlsoHere_zero": {
+      "message": "다른 위치에 있으면서 여기에도 있는 탭 {COUNT}개 제거"
+   },
+   "removeTabsHereAlsoElsewhere_few": {
+      "message": "여기에 있으면서 다른 위치에도 있는 탭 {COUNT}개 제거"
+   },
+   "removeTabsHereAlsoElsewhere_many": {
+      "message": "여기에 있으면서 다른 위치에도 있는 탭 {COUNT}개 제거"
+   },
+   "removeTabsHereAlsoElsewhere_one": {
+      "message": "여기에 있으면서 다른 위치에도 있는 탭 {COUNT}개 제거"
+   },
+   "removeTabsHereAlsoElsewhere_other": {
+      "message": "여기에 있으면서 다른 위치에도 있는 탭 {COUNT}개 제거"
+   },
+   "removeTabsHereAlsoElsewhere_two": {
+      "message": "여기에 있으면서 다른 위치에도 있는 탭 {COUNT}개 제거"
+   },
+   "removeTabsHereAlsoElsewhere_zero": {
+      "message": "여기에 있으면서 다른 위치에도 있는 탭 {COUNT}개 제거"
+   },
+   "rename": {
+      "message": "이름 바꾸기"
+   },
+   "restore": {
+      "message": "복원"
+   },
+   "restrictSearchToFolderColon": {
+      "message": "검색을 다음 폴더로 제한:"
+   },
+   "results": {
+      "message": "결과"
+   },
+   "returnToOneTab": {
+      "message": "OneTab으로 돌아가기"
+   },
+   "reverse": {
+      "message": "역순"
+   },
+   "rightClickAndOpenOneTabMenu": {
+      "message": "웹페이지에서 마우스 오른쪽 버튼을 클릭하고 OneTab 메뉴로 이동"
+   },
+   "rightClickMenuDisabledNote": {
+      "message": "참고: OneTab 오른쪽 클릭 메뉴를 사용 중지했습니다. OneTab 옵션 페이지에서 사용 설정해 주세요."
+   },
+   "rightClickSelectionOptionsTip": {
+      "message": "팁: 항목에 체크한 후 체크 아이콘을 오른쪽 클릭하면 더 많은 선택 옵션이 표시됩니다"
+   },
+   "rightClickTickTip": {
+      "message": "팁: 각 탭 옆의 체크 아이콘을 오른쪽 클릭하면 선택 도구가 표시됩니다"
+   },
+   "safariApproveOneTabInSettings": {
+      "message": "설정으로 이동하여, OneTab이 모든 웹 사이트에 접근하도록 승인해 주세요."
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "message": "메모리를 최대 95% 절약하고 Google Chrome의 탭을 정리하세요"
+   },
+   "searchHere": {
+      "message": "여기에서 검색"
+   },
+   "searchOneTab": {
+      "message": "OneTab 검색"
+   },
+   "secondExampleLink": {
+      "message": "두 번째 예시 링크"
+   },
+   "secondExampleLinkTitle": {
+      "message": "두 번째 예시 링크 제목"
+   },
+   "secondExampleLinkTitleOptional": {
+      "message": "두 번째 예시 링크 제목(선택 사항)"
+   },
+   "seeOtherTabsInThisGroup_few": {
+      "message": "이 그룹의 다른 탭 {COUNT}개 보기"
+   },
+   "seeOtherTabsInThisGroup_many": {
+      "message": "이 그룹의 다른 탭 {COUNT}개 보기"
+   },
+   "seeOtherTabsInThisGroup_one": {
+      "message": "이 그룹의 다른 탭 {COUNT}개 보기"
+   },
+   "seeOtherTabsInThisGroup_other": {
+      "message": "이 그룹의 다른 탭 {COUNT}개 보기"
+   },
+   "seeOtherTabsInThisGroup_two": {
+      "message": "이 그룹의 다른 탭 {COUNT}개 보기"
+   },
+   "seeOtherTabsInThisGroup_zero": {
+      "message": "이 그룹의 다른 탭 {COUNT}개 보기"
+   },
+   "seePasteInstructions": {
+      "message": "붙여넣기 안내 보기…"
+   },
+   "seeTabsInThisGroup_few": {
+      "message": "이 그룹의 탭 {COUNT}개 보기"
+   },
+   "seeTabsInThisGroup_many": {
+      "message": "이 그룹의 탭 {COUNT}개 보기"
+   },
+   "seeTabsInThisGroup_one": {
+      "message": "이 그룹의 탭 {COUNT}개 보기"
+   },
+   "seeTabsInThisGroup_other": {
+      "message": "이 그룹의 탭 {COUNT}개 보기"
+   },
+   "seeTabsInThisGroup_two": {
+      "message": "이 그룹의 탭 {COUNT}개 보기"
+   },
+   "seeTabsInThisGroup_zero": {
+      "message": "이 그룹의 탭 {COUNT}개 보기"
+   },
+   "selectAll": {
+      "message": "모두 선택"
+   },
+   "selectAllExceptThis": {
+      "message": "이 항목 제외하고 모두 선택"
+   },
+   "selectThisAndAbove": {
+      "message": "이 항목 및 위쪽 모두 선택"
+   },
+   "selectThisAndBelow": {
+      "message": "이 항목 및 아래쪽 모두 선택"
+   },
+   "selectedItemCount_few": {
+      "message": "선택 항목 {COUNT}개"
+   },
+   "selectedItemCount_many": {
+      "message": "선택 항목 {COUNT}개"
+   },
+   "selectedItemCount_one": {
+      "message": "선택 항목 {COUNT}개"
+   },
+   "selectedItemCount_other": {
+      "message": "선택 항목 {COUNT}개"
+   },
+   "selectedItemCount_two": {
+      "message": "선택 항목 {COUNT}개"
+   },
+   "selectedItemCount_zero": {
+      "message": "선택 항목 {COUNT}개"
+   },
+   "selection": {
+      "message": "선택"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "message": "모든 창의 모든 탭을 OneTab으로 보내기"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "message": "현재 탭을 제외한 모든 탭을 OneTab으로 보내기"
+   },
+   "sendAllTabsInGroupToOneTab": {
+      "message": "이 탭 그룹의 모든 탭을 OneTab으로 보내기"
+   },
+   "sendAllTabsInWindowToOneTab": {
+      "message": "이 창의 모든 탭을 OneTab으로 보내기"
+   },
+   "sendCurrentTabToOneTab": {
+      "message": "현재 탭을 OneTab으로 보내기"
+   },
+   "sendLeftTabsToOneTab": {
+      "message": "왼쪽의 탭을 OneTab으로 보내기"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "message": "이 탭만 OneTab으로 보내기"
+   },
+   "sendRightTabsToOneTab": {
+      "message": "오른쪽의 탭을 OneTab으로 보내기"
+   },
+   "sendSelectedTabsToOneTab": {
+      "message": "선택한 탭을 OneTab으로 보내기"
+   },
+   "sendThisWebLinkToOneTab": {
+      "message": "이 웹 링크를 OneTab으로 보내기"
+   },
+   "serverUnreachable": {
+      "message": "서버에 연결할 수 없습니다. 인터넷 연결을 확인해 주세요."
+   },
+   "share": {
+      "message": "공유"
+   },
+   "shareAsAWebPage": {
+      "message": "웹 페이지로 공유"
+   },
+   "shared": {
+      "message": "공유됨"
+   },
+   "sharedExpiresColon": {
+      "message": "웹 페이지로 공유됨. 만료:"
+   },
+   "sharedPageOptions": {
+      "message": "공유 페이지 옵션"
+   },
+   "sharedPageTabLimit_few": {
+      "message": "공유 페이지는 탭 {COUNT}개로 제한됩니다"
+   },
+   "sharedPageTabLimit_many": {
+      "message": "공유 페이지는 탭 {COUNT}개로 제한됩니다"
+   },
+   "sharedPageTabLimit_one": {
+      "message": "공유 페이지는 탭 {COUNT}개로 제한됩니다"
+   },
+   "sharedPageTabLimit_other": {
+      "message": "공유 페이지는 탭 {COUNT}개로 제한됩니다"
+   },
+   "sharedPageTabLimit_two": {
+      "message": "공유 페이지는 탭 {COUNT}개로 제한됩니다"
+   },
+   "sharedPageTabLimit_zero": {
+      "message": "공유 페이지는 탭 {COUNT}개로 제한됩니다"
+   },
+   "sharedPageWillAutomaticallyExpire": {
+      "message": "공유 페이지는 자동으로 만료되며, 언제든 만료일을 연장할 수 있습니다."
+   },
+   "shiftDragShortcutInfo": {
+      "message": "탭을 놓을 때 Shift 키를 누르면 이동 대신 사본이 생성됩니다. 중요: 드래그를 시작한 후에만 Shift 키를 누르세요."
+   },
+   "showEverything": {
+      "message": "모두 표시"
+   },
+   "showFoldersOnly": {
+      "message": "폴더만 표시"
+   },
+   "showNamedItemsOnly": {
+      "message": "이름 있는 항목만 표시"
+   },
+   "showNamedOnly": {
+      "message": "이름 있는 항목만 표시"
+   },
+   "showNextCount_few": {
+      "message": "다음 {COUNT}개 표시"
+   },
+   "showNextCount_many": {
+      "message": "다음 {COUNT}개 표시"
+   },
+   "showNextCount_one": {
+      "message": "다음 {COUNT}개 표시"
+   },
+   "showNextCount_other": {
+      "message": "다음 {COUNT}개 표시"
+   },
+   "showNextCount_two": {
+      "message": "다음 {COUNT}개 표시"
+   },
+   "showNextCount_zero": {
+      "message": "다음 {COUNT}개 표시"
+   },
+   "showPreviousCount_few": {
+      "message": "이전 {COUNT}개 표시"
+   },
+   "showPreviousCount_many": {
+      "message": "이전 {COUNT}개 표시"
+   },
+   "showPreviousCount_one": {
+      "message": "이전 {COUNT}개 표시"
+   },
+   "showPreviousCount_other": {
+      "message": "이전 {COUNT}개 표시"
+   },
+   "showPreviousCount_two": {
+      "message": "이전 {COUNT}개 표시"
+   },
+   "showPreviousCount_zero": {
+      "message": "이전 {COUNT}개 표시"
+   },
+   "soon": {
+      "message": "곧"
+   },
+   "sort": {
+      "message": "정렬"
+   },
+   "sortByColon": {
+      "message": "정렬 기준:"
+   },
+   "sortGroups": {
+      "message": "그룹 정렬"
+   },
+   "sourceColon": {
+      "message": "원본:"
+   },
+   "starRatingTooltip": {
+      "message": "별점 설정"
+   },
+   "storeSelectedTabsInONETAB_few": {
+      "message": "선택한 탭 {COUNT}개 ONETAB에 저장"
+   },
+   "storeSelectedTabsInONETAB_many": {
+      "message": "선택한 탭 {COUNT}개 ONETAB에 저장"
+   },
+   "storeSelectedTabsInONETAB_one": {
+      "message": "선택한 탭 {COUNT}개 ONETAB에 저장"
+   },
+   "storeSelectedTabsInONETAB_other": {
+      "message": "선택한 탭 {COUNT}개 ONETAB에 저장"
+   },
+   "storeSelectedTabsInONETAB_two": {
+      "message": "선택한 탭 {COUNT}개 ONETAB에 저장"
+   },
+   "storeSelectedTabsInONETAB_zero": {
+      "message": "선택한 탭 {COUNT}개 ONETAB에 저장"
+   },
+   "storeTabInAdditionalLocation": {
+      "message": "탭을 추가 위치에도 저장"
+   },
+   "storeTabInONETAB": {
+      "message": "탭을 ONETAB에 저장"
+   },
+   "storeTabsInAdditionalLocation": {
+      "message": "탭을 추가 위치에도 저장"
+   },
+   "storeTabsInONETAB": {
+      "message": "탭을 ONETAB에 저장"
+   },
+   "subFoldersNotShared": {
+      "message": "하위 폴더는 공유되지 않습니다. 폴더 바로 안의 그룹만 공유됩니다."
+   },
+   "tab": {
+      "message": "탭"
+   },
+   "tabAlreadyStoredHere": {
+      "message": "현재 열려 있는 탭은 이미 여기에 저장되어 있습니다:"
+   },
+   "tabCaretTooltipTitleNotes": {
+      "message": "탭 제목과 메모 편집"
+   },
+   "tabCaretTooltipTitleNotesUrl": {
+      "message": "탭 제목, URL, 메모 편집"
+   },
+   "tabCount_few": {
+      "message": "탭 {COUNT}개"
+   },
+   "tabCount_many": {
+      "message": "탭 {COUNT}개"
+   },
+   "tabCount_one": {
+      "message": "탭 {COUNT}개"
+   },
+   "tabCount_other": {
+      "message": "탭 {COUNT}개"
+   },
+   "tabCount_two": {
+      "message": "탭 {COUNT}개"
+   },
+   "tabCount_zero": {
+      "message": "탭 {COUNT}개"
+   },
+   "tabGroupColorColon": {
+      "message": "탭 그룹 색상:"
+   },
+   "tabShortcutInfo": {
+      "message": "OneTab 페이지에서 Tab 키를 누르면 가운데 열의 그룹 사이로 포커스가 이동합니다. 특히 큰 그룹이 많을 때 빠르게 건너뛰기에 유용합니다. 그룹에 포커스가 있을 때 Enter 키를 누르면 엽니다. Shift+Tab으로 뒤로 이동합니다."
+   },
+   "tabTotalCount_few": {
+      "message": "합계: 탭 {COUNT}개"
+   },
+   "tabTotalCount_many": {
+      "message": "합계: 탭 {COUNT}개"
+   },
+   "tabTotalCount_one": {
+      "message": "합계: 탭 {COUNT}개"
+   },
+   "tabTotalCount_other": {
+      "message": "합계: 탭 {COUNT}개"
+   },
+   "tabTotalCount_two": {
+      "message": "합계: 탭 {COUNT}개"
+   },
+   "tabTotalCount_zero": {
+      "message": "합계: 탭 {COUNT}개"
+   },
+   "tabs": {
+      "message": "탭"
+   },
+   "tabsFromExcludedDomains": {
+      "message": "제외된 도메인의 탭"
+   },
+   "tabsInTabGroups": {
+      "message": "탭 그룹의 탭"
+   },
+   "taskTotalCount_few": {
+      "message": "전체 {COUNT}개"
+   },
+   "taskTotalCount_many": {
+      "message": "전체 {COUNT}개"
+   },
+   "taskTotalCount_one": {
+      "message": "전체 {COUNT}개"
+   },
+   "taskTotalCount_other": {
+      "message": "전체 {COUNT}개"
+   },
+   "taskTotalCount_two": {
+      "message": "전체 {COUNT}개"
+   },
+   "taskTotalCount_zero": {
+      "message": "전체 {COUNT}개"
+   },
+   "tasks": {
+      "message": "작업"
+   },
+   "tasksDone": {
+      "message": "작업(완료)"
+   },
+   "tasksPending": {
+      "message": "작업(대기)"
+   },
+   "tasksWillAppearHere": {
+      "message": "탭이나 그룹을 작업으로 표시하면 여기에 나타납니다."
+   },
+   "thenClickToolbarIcon": {
+      "message": "그런 다음 OneTab을 사용하려면 도구모음의 OneTab 아이콘을 다시 클릭하세요."
+   },
+   "thisFolderIsEmpty": {
+      "message": "이 폴더는 비어 있습니다"
+   },
+   "thisTab": {
+      "message": "이 탭"
+   },
+   "thisTabGroup": {
+      "message": "이 탭 그룹"
+   },
+   "thisTabNotStored": {
+      "message": "이 탭은 OneTab에 저장되어 있지 않습니다"
+   },
+   "thisWindow": {
+      "message": "이 창"
+   },
+   "tickOrUntickToExclude": {
+      "message": "웹사이트 제외를 체크/해제하세요"
+   },
+   "title": {
+      "message": "제목"
+   },
+   "toAddOrRemoveExclusions": {
+      "message": "제외 목록에 웹사이트를 추가/제거하려면:"
+   },
+   "toAllowOneTabInIncognito": {
+      "message": "시크릿 창에 OneTab 아이콘이 표시되도록 허용하려면: "
+   },
+   "toImportBrowserBookmarksUseMenuOption": {
+      "message": "브라우저 북마크에서 가져오려면 OneTab 페이지의 '여기에 링크 가져오기' 메뉴 옵션을 사용하세요"
+   },
+   "toMakeOpenButtonWorkApprovePermission": {
+      "message": "공유 페이지의 '열기' 버튼이 작동하도록 하려면 권한 요청을 승인해 주세요."
+   },
+   "toSaveChangesClickButton": {
+      "message": "변경사항을 저장하려면 버튼을 클릭하세요"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "message": "탭이 너무 많으신가요? 탭을 목록으로 전환하여 Firefox 속도를 높이세요"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "message": "탭이 너무 많으신가요? 탭을 목록으로 전환하여 Safari 속도를 높이세요"
+   },
+   "total0Tabs": {
+      "message": "합계: 탭 0개"
+   },
+   "trash": {
+      "message": "휴지통"
+   },
+   "unMarkAsTask": {
+      "message": "작업 표시 해제"
+   },
+   "unPin": {
+      "message": "고정 해제"
+   },
+   "unlock": {
+      "message": "잠금 해제"
+   },
+   "unmarkAsArchived": {
+      "message": "보관 표시 해제"
+   },
+   "unshare": {
+      "message": "공유 해제"
+   },
+   "untitled": {
+      "message": "제목 없음"
+   },
+   "update": {
+      "message": "업데이트"
+   },
+   "userLanguage": {
+      "message": "한국어"
+   },
+   "website": {
+      "message": "웹사이트"
+   },
+   "yearCount_few": {
+      "message": "{COUNT}년"
+   },
+   "yearCount_many": {
+      "message": "{COUNT}년"
+   },
+   "yearCount_one": {
+      "message": "{COUNT}년"
+   },
+   "yearCount_other": {
+      "message": "{COUNT}년"
+   },
+   "yearCount_two": {
+      "message": "{COUNT}년"
+   },
+   "yearCount_zero": {
+      "message": "{COUNT}년"
+   },
+   "yourTabAlreadyStoredHere": {
+      "message": "해당 탭은 이미 여기에 저장되어 있습니다:"
+   }
+}

@@ -122,7 +122,9 @@ function VisibilityIcon({ filter }: { filter: VisibilityFilter }) {
 
 export function BookmarksPage() {
   const [selectedTags, setSelectedTags] = useState<string[]>([])
+  const [debouncedSelectedTags, setDebouncedSelectedTags] = useState<string[]>([])
   const [searchKeyword, setSearchKeyword] = useState('')
+  const [debouncedSearchKeyword, setDebouncedSearchKeyword] = useState('')
   const [sortBy, setSortBy] = useState<SortOption>('popular')
   const [viewMode, setViewMode] = useState<ViewMode>(() => getStoredViewMode() ?? 'card')
   const [visibilityFilter, setVisibilityFilter] = useState<VisibilityFilter>('all')
@@ -133,6 +135,7 @@ export function BookmarksPage() {
   const previousCountRef = useRef(0)
   const autoCleanupTimerRef = useRef<NodeJS.Timeout | null>(null)
   const searchCleanupTimerRef = useRef<NodeJS.Timeout | null>(null)
+  const tagDebounceTimerRef = useRef<NodeJS.Timeout | null>(null)
   const viewMenuButtonRef = useRef<HTMLButtonElement>(null)
   const visibilityMenuButtonRef = useRef<HTMLButtonElement>(null)
   const viewMenuContentRef = useRef<HTMLDivElement | null>(null)
@@ -154,6 +157,32 @@ export function BookmarksPage() {
   // 获取用户偏好设置
   const { data: preferences } = usePreferences()
   const updatePreferences = useUpdatePreferences()
+
+  // 标签选择防抖：延迟300ms更新实际标签筛选（减少API调用）
+  useEffect(() => {
+    if (tagDebounceTimerRef.current) {
+      clearTimeout(tagDebounceTimerRef.current)
+    }
+
+    tagDebounceTimerRef.current = setTimeout(() => {
+      setDebouncedSelectedTags(selectedTags)
+    }, 300)
+
+    return () => {
+      if (tagDebounceTimerRef.current) {
+        clearTimeout(tagDebounceTimerRef.current)
+      }
+    }
+  }, [selectedTags])
+
+  // 搜索防抖：延迟500ms更新实际搜索关键词（减少API调用）
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setDebouncedSearchKeyword(searchKeyword)
+    }, 500)
+
+    return () => clearTimeout(timer)
+  }, [searchKeyword])
 
   // 初始化视图模式
   useEffect(() => {
@@ -198,26 +227,27 @@ export function BookmarksPage() {
     return () => document.removeEventListener('mousedown', handleClickOutside)
   }, [isViewMenuOpen, isVisibilityMenuOpen])
 
-  // 构建查询参数
+  // 构建查询参数（使用防抖后的值）
   const queryParams = useMemo<BookmarkQueryParams>(() => {
     const params: BookmarkQueryParams = {}
 
-    if (searchKeyword.trim()) {
-      params.keyword = searchKeyword.trim()
+    if (debouncedSearchKeyword.trim()) {
+      params.keyword = debouncedSearchKeyword.trim()
     }
 
-    if (selectedTags.length > 0) {
-      params.tags = selectedTags.join(',')
+    if (debouncedSelectedTags.length > 0) {
+      params.tags = debouncedSelectedTags.join(',')
     }
 
     params.sort = sortBy
 
     return params
-  }, [searchKeyword, selectedTags, sortBy])
+  }, [debouncedSearchKeyword, debouncedSelectedTags, sortBy])
 
   const bookmarksQuery = useInfiniteBookmarks(queryParams)
   const { refetch: refetchTags } = useTags()
 
+  // 使用 useMemo 缓存书签列表
   const bookmarks = useMemo(() => {
     if (!bookmarksQuery.data?.pages?.length) {
       return [] as Bookmark[]
@@ -225,14 +255,13 @@ export function BookmarksPage() {
     return bookmarksQuery.data.pages.flatMap(page => page.bookmarks)
   }, [bookmarksQuery.data])
 
+  // 使用 useMemo 缓存可见性筛选结果
   const filteredBookmarks = useMemo(() => {
-    if (visibilityFilter === 'public') {
-      return bookmarks.filter((bookmark) => bookmark.is_public)
-    }
-    if (visibilityFilter === 'private') {
-      return bookmarks.filter((bookmark) => !bookmark.is_public)
-    }
-    return bookmarks
+    if (visibilityFilter === 'all') return bookmarks
+    
+    return bookmarks.filter((bookmark) => 
+      visibilityFilter === 'public' ? bookmark.is_public : !bookmark.is_public
+    )
   }, [bookmarks, visibilityFilter])
 
   const lastPageCount = useMemo(() => {
@@ -271,6 +300,7 @@ export function BookmarksPage() {
     if (selectedTags.length > 0) {
       autoCleanupTimerRef.current = setTimeout(() => {
         setSelectedTags([])
+        setDebouncedSelectedTags([])
       }, 30000) // 30秒
     }
 
@@ -291,11 +321,12 @@ export function BookmarksPage() {
       searchCleanupTimerRef.current = null
     }
 
-    // 如果有搜索关键词，设置20秒后自动清空
+    // 如果有搜索关键词，设置15秒后自动清空
     if (searchKeyword.trim()) {
       searchCleanupTimerRef.current = setTimeout(() => {
         setSearchKeyword('')
-      }, 20000) // 20秒
+        setDebouncedSearchKeyword('')
+      }, 15000) // 15秒
     }
 
     // 清理函数

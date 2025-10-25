@@ -1,0 +1,1715 @@
+{
+   "95PctMemoryReduction": {
+      "message": "%95 bellek azalması"
+   },
+   "Folder": {
+      "message": "Klasör"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "message": "OneTab, Firefox için de mevcut"
+   },
+   "aDashZ": {
+      "message": "A-Z"
+   },
+   "about": {
+      "message": "Hakkında"
+   },
+   "addOneTabNow": {
+      "message": "OneTab'ı şimdi ekle"
+   },
+   "all": {
+      "message": "Tümü"
+   },
+   "allBookmarks": {
+      "message": "Tüm yer işaretleri"
+   },
+   "allOpenTabsAlreadyStoredHere": {
+      "message": "Tüm açık sekmeler zaten burada kaydedildi:"
+   },
+   "allowFileAccessInstructions": {
+      "message": "Dosyaların doğrudan açılmasına izin vermek için Ayarlar ➝ Uzantılar ➝ OneTab ➝ Ayrıntılar ➝ Dosya URL'lerine erişime izin ver"
+   },
+   "alreadyExistingOpenTabsWillBeClosedAfterMerge": {
+      "message": "Bu grupta zaten bulunan tüm açık sekmeler birleştirmeden sonra kapatılacak."
+   },
+   "alternatePlainTextFormat": {
+      "message": "Alternatif olarak, düz metin şu biçimde olabilir:"
+   },
+   "approve": {
+      "message": "Onayla"
+   },
+   "archived": {
+      "message": "Arşivlenmiş"
+   },
+   "autoTheme": {
+      "message": "Otomatik (işletim sistemi ayarını kullan)"
+   },
+   "backupAndSync": {
+      "message": "Yedekleme ve eşitleme"
+   },
+   "betaReleaseReportBugsHere": {
+      "message": "Beta sürüm - Hataları buradan bildirin"
+   },
+   "bookmarkCount_few": {
+      "message": "{COUNT} yer işareti"
+   },
+   "bookmarkCount_many": {
+      "message": "{COUNT} yer işareti"
+   },
+   "bookmarkCount_one": {
+      "message": "{COUNT} yer işareti"
+   },
+   "bookmarkCount_other": {
+      "message": "{COUNT} yer işareti"
+   },
+   "bookmarkCount_two": {
+      "message": "{COUNT} yer işareti"
+   },
+   "bookmarkCount_zero": {
+      "message": "{COUNT} yer işareti"
+   },
+   "bookmarksPermissionNecesssary": {
+      "message": "OneTab'ın tarayıcı yer işaretlerinizi içe aktarabilmesi için yer işaretleri izni gereklidir"
+   },
+   "bulkActions": {
+      "message": "Toplu işlemler"
+   },
+   "canDragTextNote": {
+      "message": "Not: Web bağlantıları içeren metni başka bir web sayfasından veya belgeden doğrudan sürükleyip bırakmak da mümkündür. Bu metni, bu içe aktarma kutusunu kullanmadan doğrudan OneTab sayfanıza sürükleyebilirsiniz."
+   },
+   "canPasteWebContentForExample": {
+      "message": "Bir web sayfasından veya belgeden kopyaladığınız metni yapıştırabilirsiniz; bağlantılar otomatik olarak çıkarılır. Örneğin:"
+   },
+   "cancel": {
+      "message": "İptal"
+   },
+   "cannotConnectToServerDeletionRequestQueued": {
+      "message": "OneTab sunucusuna bağlanılamıyor. Lütfen internet bağlantınızı kontrol edin. Paylaşılan sayfayı silme isteğiniz yerelde sıraya alındı ve OneTab sunucusuna tekrar erişilebilir olur olmaz otomatik olarak iletilecek."
+   },
+   "cannotCreateTabGroupInTabGroup": {
+      "message": "Seçtiğiniz hedef bir sekme grubu. Mevcut bir sekme grubunun içine sekme grubu oluşturamazsınız. Lütfen farklı bir hedef seçin."
+   },
+   "cannotMixTabsGroupsFoldersDuringDrag": {
+      "message": "Sürüklerken sekmeleri, grupları ve klasörleri karıştıramazsınız. Örneğin, bir klasörü sekmeyle aynı yerlere sürükleyemezsiniz."
+   },
+   "caseSensitive": {
+      "message": "Büyük/küçük harf duyarlı"
+   },
+   "changesMadeSinceSharedPageCreation": {
+      "message": "Paylaşılan sayfayı oluşturduğunuzdan beri değişiklikler yapıldı. Mevcut paylaşılan sayfayı güncellemek için 'Güncelle' düğmesine tıklayın."
+   },
+   "checkboxesDeterminePinnedAndGroupedTabMergeInclusion": {
+      "message": "Bu sayfanın üstündeki onay kutuları, birleştirmeye sabitlenmiş veya sekme gruplarındaki sekmelerin dahil edilip edilmeyeceğini belirler."
+   },
+   "chooseALocation": {
+      "message": "Bir konum seç"
+   },
+   "chooseALocationToImportTo": {
+      "message": "İçe aktarılacak konumu seçin"
+   },
+   "chooseExportLocation": {
+      "message": "Dışa aktarılacak konumu seçin"
+   },
+   "chooseLightDarkTheme": {
+      "message": "Açık/koyu tema seç"
+   },
+   "chooseLocationToCopyTo": {
+      "message": "Kopyalanacak konumu seçin"
+   },
+   "chooseLocationToMoveTo": {
+      "message": "Taşınacak konumu seçin"
+   },
+   "chooseLocationToRestoreTo": {
+      "message": "Geri yüklenecek konumu seçin"
+   },
+   "chooseToIncludeNotes": {
+      "message": "Sekmelere veya gruplara not eklediyseniz, paylaşılan web sayfasına eklenip eklenmeyeceğini seçin"
+   },
+   "chooseToIncludeRatings": {
+      "message": "Sekmelere veya gruplara yıldız derecelendirmeleri eklediyseniz, bunların paylaşılan web sayfasına dahil edilip edilmeyeceğini seçin"
+   },
+   "chromeIncognitoInstructions": {
+      "message": "Tarayıcı ayarlarınızdan 'Ayarlar' → 'Uzantılar' → 'OneTab' → 'Ayrıntılar' yoluna gidin ve 'Gizli modda izin ver'i etkinleştirin."
+   },
+   "clickButtonToAllowTabAccess": {
+      "message": "OneTab'ın açık sekmelerinize erişmesine izin vermek için aşağıdaki düğmeye tıklayın."
+   },
+   "clickHereToContinue": {
+      "message": "Devam etmek için buraya tıklayın."
+   },
+   "clickOneTabIconToStoreTabsHere": {
+      "message": "Açık sekmelerinizi burada saklamak için tarayıcınızın araç çubuğundaki OneTab simgesine tıklayın."
+   },
+   "closeSelectedTabsAndStoreInONETAB_few": {
+      "message": "Seçili {COUNT} sekmeyi kapat ve ONETAB içinde sakla"
+   },
+   "closeSelectedTabsAndStoreInONETAB_many": {
+      "message": "Seçili {COUNT} sekmeyi kapat ve ONETAB içinde sakla"
+   },
+   "closeSelectedTabsAndStoreInONETAB_one": {
+      "message": "Seçili {COUNT} sekmeyi kapat ve ONETAB içinde sakla"
+   },
+   "closeSelectedTabsAndStoreInONETAB_other": {
+      "message": "Seçili {COUNT} sekmeyi kapat ve ONETAB içinde sakla"
+   },
+   "closeSelectedTabsAndStoreInONETAB_two": {
+      "message": "Seçili {COUNT} sekmeyi kapat ve ONETAB içinde sakla"
+   },
+   "closeSelectedTabsAndStoreInONETAB_zero": {
+      "message": "Seçili {COUNT} sekmeyi kapat ve ONETAB içinde sakla"
+   },
+   "closeSelectedTabs_few": {
+      "message": "Seçili {COUNT} sekmeyi kapat"
+   },
+   "closeSelectedTabs_many": {
+      "message": "Seçili {COUNT} sekmeyi kapat"
+   },
+   "closeSelectedTabs_one": {
+      "message": "Seçili {COUNT} sekmeyi kapat"
+   },
+   "closeSelectedTabs_other": {
+      "message": "Seçili {COUNT} sekmeyi kapat"
+   },
+   "closeSelectedTabs_two": {
+      "message": "Seçili {COUNT} sekmeyi kapat"
+   },
+   "closeSelectedTabs_zero": {
+      "message": "Seçili {COUNT} sekmeyi kapat"
+   },
+   "closeTab": {
+      "message": "Sekmeyi kapat"
+   },
+   "closeTabAndStore": {
+      "message": "Sekmeyi kapat ve ONETAB içinde sakla"
+   },
+   "closeTabs": {
+      "message": "Sekmeleri kapat"
+   },
+   "closeTabsAfterMerge": {
+      "message": "Birleştirmeden sonra sekmeleri kapat"
+   },
+   "closeTabsAlreadyStoredInOneTab_few": {
+      "message": "OneTab içinde zaten kaydedilmiş {COUNT} sekmeyi kapat"
+   },
+   "closeTabsAlreadyStoredInOneTab_many": {
+      "message": "OneTab içinde zaten kaydedilmiş {COUNT} sekmeyi kapat"
+   },
+   "closeTabsAlreadyStoredInOneTab_one": {
+      "message": "OneTab içinde zaten kaydedilmiş {COUNT} sekmeyi kapat"
+   },
+   "closeTabsAlreadyStoredInOneTab_other": {
+      "message": "OneTab içinde zaten kaydedilmiş {COUNT} sekmeyi kapat"
+   },
+   "closeTabsAlreadyStoredInOneTab_two": {
+      "message": "OneTab içinde zaten kaydedilmiş {COUNT} sekmeyi kapat"
+   },
+   "closeTabsAlreadyStoredInOneTab_zero": {
+      "message": "OneTab içinde zaten kaydedilmiş {COUNT} sekmeyi kapat"
+   },
+   "closeTabsAndStore": {
+      "message": "Sekmeleri kapat ve ONETAB içinde sakla"
+   },
+   "closeTheseDuplicates": {
+      "message": "Bu yinelenenleri kapat"
+   },
+   "closeThisDuplicate": {
+      "message": "Bu yineleneni kapat"
+   },
+   "completeEditingShortcutInfo": {
+      "message": "Not alanını düzenlerken, düzenlemeyi tamamlamak için bu kısayolu kullanın."
+   },
+   "configureShortcuts": {
+      "message": "Kısayolları yapılandır"
+   },
+   "conflictingShortcutsHint": {
+      "message": "Yukarıdaki kısayollardan bazıları çalışmıyor veya başka uygulamalarla çakışıyorsa, farklı bir kısayol tuşu yapılandırabilirsiniz."
+   },
+   "continue": {
+      "message": "Devam et"
+   },
+   "convertTabsIntoAList": {
+      "message": "Sekmeleri listeye dönüştür"
+   },
+   "copiedToClipboard": {
+      "message": "Panoya kopyalandı"
+   },
+   "copy": {
+      "message": "Kopyala"
+   },
+   "copyLinksToClipboard": {
+      "message": "Bağlantıları panoya kopyala"
+   },
+   "copySharedPageUrl": {
+      "message": "Paylaşılan sayfa URL'sini kopyala"
+   },
+   "copyToClipboard": {
+      "message": "Panoya kopyala"
+   },
+   "createANewGroupHere": {
+      "message": "Burada yeni bir grup oluştur"
+   },
+   "createFolderAbove": {
+      "message": "Üstüne klasör oluştur"
+   },
+   "createFolderAboveBelow": {
+      "message": "Üstüne / altına klasör oluştur"
+   },
+   "createFolderAboveWithinBelow": {
+      "message": "Üstüne / içine / altına klasör oluştur"
+   },
+   "createFolderBelow": {
+      "message": "Altına klasör oluştur"
+   },
+   "createFolderWithin": {
+      "message": "İçine klasör oluştur"
+   },
+   "createGroupAbove": {
+      "message": "Üstüne grup oluştur"
+   },
+   "createGroupAboveBelow": {
+      "message": "Üstüne / altına grup oluştur"
+   },
+   "createGroupAboveWithinBelow": {
+      "message": "Üstüne / içine / altına grup oluştur"
+   },
+   "createGroupBelow": {
+      "message": "Altına grup oluştur"
+   },
+   "createGroupInsideDestination": {
+      "message": "Hedefin içinde yeni grup oluştur"
+   },
+   "createGroupInsideDestinationHelp": {
+      "message": "İşaretli değilse, sekmeleriniz doğrudan hedef gruba eklenir. İşaretliyse, sekmeleriniz için hedef grubun içinde yeni bir tarayıcı sekme grubu oluşturulur. Yalnızca tarayıcınızın \"sekme grupları\" özelliğini kullanmak istiyorsanız bu kutuyu işaretleyin."
+   },
+   "createGroupWithin": {
+      "message": "İçine grup oluştur"
+   },
+   "createNewGroupTip": {
+      "message": "Yeni bir grup oluşturmak için \"Yalnızca klasörleri göster\"in işaretini kaldırın"
+   },
+   "createdOnOrAfterColon": {
+      "message": "Şu tarihte ya da sonrasında oluşturuldu:"
+   },
+   "createdOnOrBeforeColon": {
+      "message": "Şu tarihte ya da öncesinde oluşturuldu:"
+   },
+   "createdPreceedingDate": {
+      "message": "Oluşturuldu"
+   },
+   "darkTheme": {
+      "message": "Koyu tema"
+   },
+   "dayCount_few": {
+      "message": "{COUNT} gün"
+   },
+   "dayCount_many": {
+      "message": "{COUNT} gün"
+   },
+   "dayCount_one": {
+      "message": "{COUNT} gün"
+   },
+   "dayCount_other": {
+      "message": "{COUNT} gün"
+   },
+   "dayCount_two": {
+      "message": "{COUNT} gün"
+   },
+   "dayCount_zero": {
+      "message": "{COUNT} gün"
+   },
+   "delete": {
+      "message": "Sil"
+   },
+   "deleteAllTrash": {
+      "message": "Çöpteki tümünü sil"
+   },
+   "deleteThisCopy": {
+      "message": "Bu kopyayı sil"
+   },
+   "deselectAll": {
+      "message": "Tümünün seçimini kaldır"
+   },
+   "destinationColon": {
+      "message": "Hedef:"
+   },
+   "disabled": {
+      "message": "Devre dışı"
+   },
+   "doneTaskCount_few": {
+      "message": "{COUNT} tamamlanan"
+   },
+   "doneTaskCount_many": {
+      "message": "{COUNT} tamamlanan"
+   },
+   "doneTaskCount_one": {
+      "message": "{COUNT} tamamlanan"
+   },
+   "doneTaskCount_other": {
+      "message": "{COUNT} tamamlanan"
+   },
+   "doneTaskCount_two": {
+      "message": "{COUNT} tamamlanan"
+   },
+   "doneTaskCount_zero": {
+      "message": "{COUNT} tamamlanan"
+   },
+   "dontCloseGroupedTabs": {
+      "message": "Sekme gruplarındaki sekmelerin hiçbirini kapatma"
+   },
+   "dontClosePinnedTabs": {
+      "message": "Sabitlenmiş sekmelerin hiçbirini kapatma"
+   },
+   "dontCloseTabsFromDomains": {
+      "message": "EXAMPLE.COM'daki sekmelerin hiçbirini kapatma"
+   },
+   "dragTabsHereForQuickList": {
+      "message": "Kaydettiğiniz sekmeleri veya grupları buraya sürükleyin. Hızlı listenize eklenecekler."
+   },
+   "editTabGroupTitleAndNotes": {
+      "message": "Sekme grubunun başlığını ve notlarını düzenle"
+   },
+   "emojiShortcutInfo": {
+      "message": "Not alanını düzenlerken, emoji seçiciyi açmak için bu kısayolu kullanın."
+   },
+   "emptyInBrackets": {
+      "message": "(boş)"
+   },
+   "emptyOneTabInfoMsg": {
+      "message": "Birden fazla sekme açtığınızda, tarayıcı araç çubuğunuzdaki OneTab simgesine tıklayın; açık sekmeleriniz burada görünecek."
+   },
+   "enabled": {
+      "message": "Etkin"
+   },
+   "encryptedSyncAndBackup": {
+      "message": "Şifreli eşitleme ve yedekleme"
+   },
+   "encryptedSyncAndBackupComingSoonMessage": {
+      "message": "Çok yakında: OneTab verilerinizi birden çok tarayıcı profili ve bilgisayar arasında eşitleyebileceksiniz.\nOneTab baştan yazıldı; böylece bir cihazda yaptığınız değişiklikler anında diğer tüm cihazlarda görünecek.\nBu özelliği kullanırsanız, verileriniz uçtan uca, güçlü AES-256 şifrelemeyle korunur. Bu, yalnızca sizde şifreleme anahtarı bulunduğundan, OneTab geliştiricilerinin yedeklediğiniz veya cihazlar arasında eşitlediğiniz sekmeleri görmesini imkansız kılar."
+   },
+   "everything": {
+      "message": "Her şey"
+   },
+   "exampleLink": {
+      "message": "Örnek bağlantı"
+   },
+   "exampleLinkTitle": {
+      "message": "Örnek bağlantı başlığı"
+   },
+   "exampleLinkTitleOptional": {
+      "message": "Örnek bağlantı başlığı (isteğe bağlı)"
+   },
+   "exampleRichTextParagraph": {
+      "message": "PLACEHOLDER ve PLACEHOLDER içeren örnek metin paragrafı"
+   },
+   "exampleWebsitePageTitle": {
+      "message": "Örnek web sitesi sayfa başlığı"
+   },
+   "excludeDomainFromOneTab": {
+      "message": "EXAMPLE.COM'u OneTab'dan hariç tut"
+   },
+   "excludeWebSiteFromOneTab": {
+      "message": "Bu web sitesini OneTab'dan hariç tut"
+   },
+   "expiresColon": {
+      "message": "Sona erme:"
+   },
+   "export": {
+      "message": "Dışa aktar"
+   },
+   "exportImportUrls": {
+      "message": "URL'leri dışa / içe aktar"
+   },
+   "exportThenImportNote": {
+      "message": "Aşağıdaki URL listesi bu bilgisayarda veya başka bir bilgisayarda OneTab'a geri aktarılabilir"
+   },
+   "exportUrls": {
+      "message": "URL'leri dışa aktar"
+   },
+   "feedback": {
+      "message": "Geri bildirim"
+   },
+   "filter": {
+      "message": "Filtre"
+   },
+   "firefoxIncognitoInstructions": {
+      "message": "Tarayıcı ayarlarınızdan 'Ayarlar' → 'Eklentiler ve Temalar' → 'Eklentiler' → 'OneTab' → '...' → 'Yönet' yoluna gidin ve 'Gizli pencerelerde çalıştır'ı etkinleştirin."
+   },
+   "firefoxShortcutConfigInstructions": {
+      "message": "Tarayıcınızın adres çubuğuna \"about:addons?type=extension\" URL'sini yazın. Sayfa açıldığında, dişli simgesine tıklayın ve \"Uzantı Kısayollarını Yönet\"i seçin"
+   },
+   "folderCount_few": {
+      "message": "{COUNT} klasör"
+   },
+   "folderCount_many": {
+      "message": "{COUNT} klasör"
+   },
+   "folderCount_one": {
+      "message": "{COUNT} klasör"
+   },
+   "folderCount_other": {
+      "message": "{COUNT} klasör"
+   },
+   "folderCount_two": {
+      "message": "{COUNT} klasör"
+   },
+   "folderCount_zero": {
+      "message": "{COUNT} klasör"
+   },
+   "folders": {
+      "message": "Klasörler"
+   },
+   "foldersOnly": {
+      "message": "Yalnızca klasörler"
+   },
+   "gettingStarted": {
+      "message": "Başlarken"
+   },
+   "goToParentFolder": {
+      "message": "Üst klasöre git"
+   },
+   "groupCount_few": {
+      "message": "{COUNT} grup"
+   },
+   "groupCount_many": {
+      "message": "{COUNT} grup"
+   },
+   "groupCount_one": {
+      "message": "{COUNT} grup"
+   },
+   "groupCount_other": {
+      "message": "{COUNT} grup"
+   },
+   "groupCount_two": {
+      "message": "{COUNT} grup"
+   },
+   "groupCount_zero": {
+      "message": "{COUNT} grup"
+   },
+   "groups": {
+      "message": "Gruplar"
+   },
+   "hasNotes": {
+      "message": "Notu olanlar"
+   },
+   "hasRating": {
+      "message": "Derecelendirmesi olanlar"
+   },
+   "help": {
+      "message": "Yardım"
+   },
+   "hideArchivedItems": {
+      "message": "Arşivlenmiş öğeleri gizle"
+   },
+   "import": {
+      "message": "İçe aktar"
+   },
+   "importAndExport": {
+      "message": "İçe ve dışa aktar"
+   },
+   "importBookmarks": {
+      "message": "Yer işaretlerini içe aktar"
+   },
+   "importFolderAndSubfolders": {
+      "message": "Klasörü ve alt klasörlerini içe aktar"
+   },
+   "importLinksHere": {
+      "message": "Bağlantıları buraya içe aktar"
+   },
+   "importReadingList": {
+      "message": "Okuma listesini içe aktar"
+   },
+   "importText": {
+      "message": "Metni içe aktar"
+   },
+   "importUrls": {
+      "message": "URL'leri içe aktar"
+   },
+   "importedBookmarks": {
+      "message": "İçe aktarılan yer işaretleri"
+   },
+   "includeGroupedTabs": {
+      "message": "Sekme gruplarındaki sekmeleri dahil et"
+   },
+   "includeNotes": {
+      "message": "Notları dahil et"
+   },
+   "includePinnedTabs": {
+      "message": "Sabitlenmiş sekmeleri dahil et"
+   },
+   "includeStarRatings": {
+      "message": "Yıldız derecelendirmelerini dahil et"
+   },
+   "includeTabsAlreadyStored": {
+      "message": "Zaten kaydettiğiniz sekmeleri dahil et"
+   },
+   "includeTabsFromDomains": {
+      "message": "EXAMPLE.COM sitesindeki sekmeleri dahil et"
+   },
+   "incogitoPermissionRequired": {
+      "message": "OneTab'ın gizli pencereler oluşturmak için izne ihtiyacı var."
+   },
+   "incognitoWindows": {
+      "message": "Gizli pencereler"
+   },
+   "invertSelection": {
+      "message": "Seçimi tersine çevir"
+   },
+   "justNow": {
+      "message": "az önce"
+   },
+   "keyboardShortcutsColon": {
+      "message": "Klavye kısayolları:"
+   },
+   "languageTitle": {
+      "message": "Dil:"
+   },
+   "lightTheme": {
+      "message": "Açık tema"
+   },
+   "localeId": {
+      "message": "tr"
+   },
+   "locationColon": {
+      "message": "Konum:"
+   },
+   "lock": {
+      "message": "Kilitle"
+   },
+   "lockMenuItemHelp": {
+      "message": "Bir grup kilitliyken, grup içindeki öğeleri silemez veya yeniden sıralayamazsınız. Kilitli bir grubu açarken otomatik eylemler uygulanmaz. Otomatik eylemler hakkında bilgi için Seçenekler sayfasına bakın."
+   },
+   "lockedGroupUnlockHelp": {
+      "message": "Kilidi açmak için açılır menüyü kullanın. Bir grup kilitliyken, grubu veya sekmelerini silemez ve sekmelerin sırasını değiştiremezsiniz."
+   },
+   "makeThisATask": {
+      "message": "Bunu görev olarak işaretle"
+   },
+   "manifestDescription": {
+      "message": "Bellek kullanımını %95'e kadar azaltın ve sekme karmaşasını azaltın"
+   },
+   "markAsArchived": {
+      "message": "Arşivlenmiş olarak işaretle"
+   },
+   "markAsArchivedMenuItemHelp": {
+      "message": "Arşivlenmiş görevlerin ve arşivlenmiş gruplardaki görevlerin görevler sütununda görünmeyeceğini unutmayın"
+   },
+   "markAsDoneTask": {
+      "message": "Tamamlanan görev olarak işaretle"
+   },
+   "markAsPendingTask": {
+      "message": "Bekleyen görev olarak işaretle"
+   },
+   "matchCount_few": {
+      "message": "{COUNT} eşleşme"
+   },
+   "matchCount_many": {
+      "message": "{COUNT} eşleşme"
+   },
+   "matchCount_one": {
+      "message": "{COUNT} eşleşme"
+   },
+   "matchCount_other": {
+      "message": "{COUNT} eşleşme"
+   },
+   "matchCount_two": {
+      "message": "{COUNT} eşleşme"
+   },
+   "matchCount_zero": {
+      "message": "{COUNT} eşleşme"
+   },
+   "matchWholeWordsOnly": {
+      "message": "Yalnızca tam kelime eşleşmesi"
+   },
+   "mayNeedToRestartBrowser": {
+      "message": "Tarayıcınızı güncellemeniz ve yeniden başlatmanız da gerekebilir."
+   },
+   "mergeIntoParent": {
+      "message": "Üst öğeyle birleştir"
+   },
+   "mergeOpenTabsHere_few": {
+      "message": "{COUNT} açık sekmeyi buraya birleştir"
+   },
+   "mergeOpenTabsHere_many": {
+      "message": "{COUNT} açık sekmeyi buraya birleştir"
+   },
+   "mergeOpenTabsHere_one": {
+      "message": "{COUNT} açık sekmeyi buraya birleştir"
+   },
+   "mergeOpenTabsHere_other": {
+      "message": "{COUNT} açık sekmeyi buraya birleştir"
+   },
+   "mergeOpenTabsHere_two": {
+      "message": "{COUNT} açık sekmeyi buraya birleştir"
+   },
+   "mergeOpenTabsHere_zero": {
+      "message": "{COUNT} açık sekmeyi buraya birleştir"
+   },
+   "mergeSelectedTabsHere_few": {
+      "message": "Seçili {COUNT} sekmeyi buraya birleştir"
+   },
+   "mergeSelectedTabsHere_many": {
+      "message": "Seçili {COUNT} sekmeyi buraya birleştir"
+   },
+   "mergeSelectedTabsHere_one": {
+      "message": "Seçili {COUNT} sekmeyi buraya birleştir"
+   },
+   "mergeSelectedTabsHere_other": {
+      "message": "Seçili {COUNT} sekmeyi buraya birleştir"
+   },
+   "mergeSelectedTabsHere_two": {
+      "message": "Seçili {COUNT} sekmeyi buraya birleştir"
+   },
+   "mergeSelectedTabsHere_zero": {
+      "message": "Seçili {COUNT} sekmeyi buraya birleştir"
+   },
+   "mergeWithInnerGroups": {
+      "message": "İç gruplarla birleştir"
+   },
+   "modifySharing": {
+      "message": "Paylaşımı değiştir"
+   },
+   "moreEllipsis": {
+      "message": "Daha fazla…"
+   },
+   "moreSearchFilters": {
+      "message": "Daha fazla arama filtresi"
+   },
+   "moreTripleDot": {
+      "message": "Daha fazla…"
+   },
+   "move": {
+      "message": "Taşı"
+   },
+   "moveToTrash": {
+      "message": "Çöpe taşı"
+   },
+   "namedOnly": {
+      "message": "Yalnızca adlandırılmış öğeler"
+   },
+   "navigationFilter": {
+      "message": "Gezinme filtresi"
+   },
+   "newExclamation": {
+      "message": "Yeni!"
+   },
+   "noDupsExistExceptForColon": {
+      "message": "Şunlar dışında yinelenen yok:"
+   },
+   "noDupsFoundHere": {
+      "message": "Burada yinelenen bulunamadı"
+   },
+   "noMatches": {
+      "message": "Eşleşme yok"
+   },
+   "noMatchesFound": {
+      "message": "Eşleşme bulunamadı"
+   },
+   "noOpenTabsToStore": {
+      "message": "Bu pencerede kaydedilecek açık sekme yok."
+   },
+   "noReadingListEntries": {
+      "message": "Okuma listesinde giriş bulunamadı"
+   },
+   "noTabsInOneTabYet": {
+      "message": "Henüz OneTab'da hiçbir sekmeniz yok"
+   },
+   "noTabsMeetCriteriaUseCheckboxes": {
+      "message": "Kriterlerinize uyan açık sekme yok. Lütfen yukarıdaki onay kutularını kullanın."
+   },
+   "noTextHasBeenEntered": {
+      "message": "Herhangi bir metin girilmedi"
+   },
+   "nonArchived": {
+      "message": "Arşivlenmemiş"
+   },
+   "notAssigned": {
+      "message": "Atanmadı"
+   },
+   "notes": {
+      "message": "Notlar"
+   },
+   "notesAboutTheLinkOptional": {
+      "message": "Bağlantı hakkında notlar (isteğe bağlı)"
+   },
+   "notesAboutTheSecondLinkOptional": {
+      "message": "İkinci bağlantı hakkında notlar (isteğe bağlı)"
+   },
+   "ok": {
+      "message": "Tamam"
+   },
+   "omniboxShortcutInfo": {
+      "message": "Herhangi bir sekmeden OneTab listenizde aramak için: Tarayıcınızın adres çubuğuna gidin, 1 yazın, sonra boşluk, ardından bir arama anahtar sözcüğü yazın."
+   },
+   "oneTabDesignedToProtectPrivacy": {
+      "message": "OneTab gizliliğinizi koruyacak şekilde tasarlandı. Sekmeleriniz bize açıklanmaz."
+   },
+   "oneTabImportExportPageTitle": {
+      "message": "OneTab içe/dışa aktarma"
+   },
+   "oneTabNeedsPermissionToAccessYourTabs": {
+      "message": "OneTab'ın sekmelerinize erişmek için izne ihtiyacı var."
+   },
+   "oneTabOptionsPageTitle": {
+      "message": "OneTab seçenekleri"
+   },
+   "oneTabPermissionRequired": {
+      "message": "OneTab - İzin gerekli"
+   },
+   "oneTabRestartRequired": {
+      "message": "OneTab'ın yeniden başlatılması gerekiyor."
+   },
+   "oneTabSlashShortcutInfo": {
+      "message": "OneTab sayfasındayken, arama kutusuna odaklanmak için eğik çizgi tuşuna basın."
+   },
+   "open": {
+      "message": "Aç"
+   },
+   "openActionPopup": {
+      "message": "Eylem açılır penceresini aç"
+   },
+   "openAsCollapsedTabGroup": {
+      "message": "'Daraltılmış' bir sekme grubu olarak aç"
+   },
+   "openAsCollapsedTabGroupMenuItemHelp": {
+      "message": "Bu sekmeleri daraltılmış bir \"sekme grubu\" olarak açarsanız, içindeki sekmeleri göstermek için üzerine tıklayana kadar yalnızca grup etiketi gösterilir."
+   },
+   "openAsTabGroup": {
+      "message": "Tarayıcı sekme grubu olarak aç"
+   },
+   "openAsTabGroupMenuItemHelp": {
+      "message": "Tarayıcınız, sekmelerin bir pencere içinde renkli \"sekme grupları\" halinde gruplanmasına izin verir."
+   },
+   "openGroupsLimitNotice_few": {
+      "message": "Tarayıcınızın aşırı yüklenmesini önlemek için yalnızca ilk {COUNT} grup açılacak."
+   },
+   "openGroupsLimitNotice_many": {
+      "message": "Tarayıcınızın aşırı yüklenmesini önlemek için yalnızca ilk {COUNT} grup açılacak."
+   },
+   "openGroupsLimitNotice_one": {
+      "message": "Tarayıcınızın aşırı yüklenmesini önlemek için yalnızca ilk {COUNT} grup açılacak."
+   },
+   "openGroupsLimitNotice_other": {
+      "message": "Tarayıcınızın aşırı yüklenmesini önlemek için yalnızca ilk {COUNT} grup açılacak."
+   },
+   "openGroupsLimitNotice_two": {
+      "message": "Tarayıcınızın aşırı yüklenmesini önlemek için yalnızca ilk {COUNT} grup açılacak."
+   },
+   "openGroupsLimitNotice_zero": {
+      "message": "Tarayıcınızın aşırı yüklenmesini önlemek için yalnızca ilk {COUNT} grup açılacak."
+   },
+   "openInIncognitoWindow": {
+      "message": "Yeni bir gizli pencerede aç"
+   },
+   "openInNewWindow": {
+      "message": "Yeni bir pencerede aç"
+   },
+   "openInThisWindow": {
+      "message": "Bu pencerede aç"
+   },
+   "openONETABLogo": {
+      "message": "ONETAB uygulamasını aç"
+   },
+   "openOneTab": {
+      "message": "OneTab'ı aç"
+   },
+   "openOneTabAfter": {
+      "message": "Sekmeleri kaydettikten sonra OneTab'ı aç"
+   },
+   "openTabFromWebsite": {
+      "message": "Bir sekme açın ve web sitesine gidin"
+   },
+   "openTabLimit_few": {
+      "message": "Tarayıcınızın aşırı yüklenmesini önlemek için aynı anda en fazla {COUNT} sekme açılabilir."
+   },
+   "openTabLimit_many": {
+      "message": "Tarayıcınızın aşırı yüklenmesini önlemek için aynı anda en fazla {COUNT} sekme açılabilir."
+   },
+   "openTabLimit_one": {
+      "message": "Tarayıcınızın aşırı yüklenmesini önlemek için aynı anda en fazla {COUNT} sekme açılabilir."
+   },
+   "openTabLimit_other": {
+      "message": "Tarayıcınızın aşırı yüklenmesini önlemek için aynı anda en fazla {COUNT} sekme açılabilir."
+   },
+   "openTabLimit_two": {
+      "message": "Tarayıcınızın aşırı yüklenmesini önlemek için aynı anda en fazla {COUNT} sekme açılabilir."
+   },
+   "openTabLimit_zero": {
+      "message": "Tarayıcınızın aşırı yüklenmesini önlemek için aynı anda en fazla {COUNT} sekme açılabilir."
+   },
+   "openTabsAlreadyStoredHere_few": {
+      "message": "Zaten burada kaydedilmiş {COUNT} açık sekme:"
+   },
+   "openTabsAlreadyStoredHere_many": {
+      "message": "Zaten burada kaydedilmiş {COUNT} açık sekme:"
+   },
+   "openTabsAlreadyStoredHere_one": {
+      "message": "Zaten burada kaydedilmiş {COUNT} açık sekme:"
+   },
+   "openTabsAlreadyStoredHere_other": {
+      "message": "Zaten burada kaydedilmiş {COUNT} açık sekme:"
+   },
+   "openTabsAlreadyStoredHere_two": {
+      "message": "Zaten burada kaydedilmiş {COUNT} açık sekme:"
+   },
+   "openTabsAlreadyStoredHere_zero": {
+      "message": "Zaten burada kaydedilmiş {COUNT} açık sekme:"
+   },
+   "openTabsConfirm_few": {
+      "message": "{COUNT} sekme açmak üzeresiniz. Emin misiniz?"
+   },
+   "openTabsConfirm_many": {
+      "message": "{COUNT} sekme açmak üzeresiniz. Emin misiniz?"
+   },
+   "openTabsConfirm_one": {
+      "message": "{COUNT} sekme açmak üzeresiniz. Emin misiniz?"
+   },
+   "openTabsConfirm_other": {
+      "message": "{COUNT} sekme açmak üzeresiniz. Emin misiniz?"
+   },
+   "openTabsConfirm_two": {
+      "message": "{COUNT} sekme açmak üzeresiniz. Emin misiniz?"
+   },
+   "openTabsConfirm_zero": {
+      "message": "{COUNT} sekme açmak üzeresiniz. Emin misiniz?"
+   },
+   "openTabsNotStoredInOneTab_few": {
+      "message": "OneTab içinde kaydedilmemiş {COUNT} açık sekme"
+   },
+   "openTabsNotStoredInOneTab_many": {
+      "message": "OneTab içinde kaydedilmemiş {COUNT} açık sekme"
+   },
+   "openTabsNotStoredInOneTab_one": {
+      "message": "OneTab içinde kaydedilmemiş {COUNT} açık sekme"
+   },
+   "openTabsNotStoredInOneTab_other": {
+      "message": "OneTab içinde kaydedilmemiş {COUNT} açık sekme"
+   },
+   "openTabsNotStoredInOneTab_two": {
+      "message": "OneTab içinde kaydedilmemiş {COUNT} açık sekme"
+   },
+   "openTabsNotStoredInOneTab_zero": {
+      "message": "OneTab içinde kaydedilmemiş {COUNT} açık sekme"
+   },
+   "optionAutoActionOnGroupOpenArchiveDesc": {
+      "message": "Grubun arşivlenmesini önlemek için, grubu açmak üzere tıklarken Alt/Option tuşunu basılı tutun"
+   },
+   "optionAutoActionOnGroupOpenArchiveTitle": {
+      "message": "Sekmeleri aç ve grubu arşivlenmiş olarak işaretle"
+   },
+   "optionAutoActionOnGroupOpenHeading": {
+      "message": "Bir grup sekmeyi açmak için tıkladığınızda otomatik eylem:"
+   },
+   "optionAutoActionOnGroupOpenNote": {
+      "message": "Otomatik eylemler, kilitli olan veya görev olan gruplara uygulanmaz."
+   },
+   "optionAutoActionOnGroupOpenOpenDesc": {
+      "message": "Grubu arşivlenmiş olarak işaretlemek için, grubu açmak üzere tıklarken Alt/Option tuşunu basılı tutun"
+   },
+   "optionAutoActionOnGroupOpenOpenTitle": {
+      "message": "Yalnızca sekmeleri aç"
+   },
+   "optionAutoActionOnGroupOpenTrashDesc": {
+      "message": "Grubun otomatik olarak çöpe gönderilmesini önlemek için, grubu açmak üzere tıklarken Alt/Option tuşunu basılı tutun"
+   },
+   "optionAutoActionOnGroupOpenTrashTitle": {
+      "message": "Sekmeleri aç ve grubu çöpe taşı"
+   },
+   "optionAutoActionOnTabOpenArchiveDesc": {
+      "message": "Sekmenin otomatik olarak arşivlenmesini önlemek için, sekmeyi açmak üzere tıklarken Alt/Option tuşunu basılı tutun"
+   },
+   "optionAutoActionOnTabOpenArchiveTitle": {
+      "message": "Sekmeyi aç ve arşivlenmiş olarak işaretle"
+   },
+   "optionAutoActionOnTabOpenHeading": {
+      "message": "Bir sekmeyi açmak için tıkladığınızda otomatik eylem:"
+   },
+   "optionAutoActionOnTabOpenNote": {
+      "message": "Otomatik eylemler, kilitli olan veya görev olan gruplardaki sekmelere uygulanmaz."
+   },
+   "optionAutoActionOnTabOpenOpenDesc": {
+      "message": "Sekmeyi arşivlenmiş olarak işaretlemek için, sekmeyi açmak üzere tıklarken Alt/Option tuşunu basılı tutun"
+   },
+   "optionAutoActionOnTabOpenOpenTitle": {
+      "message": "Yalnızca sekmeyi aç"
+   },
+   "optionAutoActionOnTabOpenTrashDesc": {
+      "message": "Sekmenin otomatik olarak çöpe gönderilmesini önlemek için, sekmeyi açmak üzere tıklarken Alt/Option tuşunu basılı tutun"
+   },
+   "optionAutoActionOnTabOpenTrashTitle": {
+      "message": "Sekmeyi aç ve çöpe taşı"
+   },
+   "optionCopyToClipboardFormatHeading": {
+      "message": "Bağlantıları panoya kopyalama:"
+   },
+   "optionCopyToClipboardFormatNote": {
+      "message": "Bu ayar, 'Panoya kopyala' eylemini kullandığınızda geçerlidir. Sekmeleri ve grupları OneTab'dan doğrudan bir belgeye de sürükleyebilirsiniz."
+   },
+   "optionCopyToClipboardFormatRichTextDesc": {
+      "message": "Kelime işlemciler gibi uygulamalar, zengin metin yapıştırmanıza izin verir. Desteklenmiyorsa, bunun yerine düz metin yapıştırılır."
+   },
+   "optionCopyToClipboardFormatRichTextTitle": {
+      "message": "Uygunsa zengin metin"
+   },
+   "optionCopyToClipboardFormatTitleUrlTitle": {
+      "message": "Başlık ve URL"
+   },
+   "optionCopyToClipboardFormatUrlOnlyTitle": {
+      "message": "Yalnızca URL"
+   },
+   "optionCopyToClipboardFormatUrlTitleTitle": {
+      "message": "URL ve başlık"
+   },
+   "optionDefaultTabGroupOpenTypeCurrentWindow": {
+      "message": "Tarayıcı sekme grubunu mevcut pencerede aç"
+   },
+   "optionDefaultTabGroupOpenTypeHeading": {
+      "message": "\"tarayıcı sekme grubu\" olarak açılacak şekilde yapılandırılmış bir grup sekmeyi açmak için tıkladığınızda:"
+   },
+   "optionDefaultTabGroupOpenTypeNewWindow": {
+      "message": "Tarayıcı sekme grubunu yeni bir pencerede aç"
+   },
+   "optionDefaultTabGroupOpenTypeNote": {
+      "message": "Açılır menüden belirli bir seçenek (ör. sekmeleri gizli pencerede açma) seçerseniz, bu seçenek o grup için hatırlanacaktır."
+   },
+   "optionDefaultWindowGroupOpenTypeCurrentWindow": {
+      "message": "Sekmeleri mevcut pencerede aç"
+   },
+   "optionDefaultWindowGroupOpenTypeHeading": {
+      "message": "Bir grup sekmeyi açmak için tıkladığınızda:"
+   },
+   "optionDefaultWindowGroupOpenTypeNewWindow": {
+      "message": "Sekmeleri yeni bir pencerede aç"
+   },
+   "optionDefaultWindowGroupOpenTypeNote": {
+      "message": "Açılır menüden belirli bir seçenek (ör. sekmeleri gizli pencerede açma) seçerseniz, bu seçenek o grup için hatırlanacaktır."
+   },
+   "optionDiscardNonActiveTabOnOpenHeading": {
+      "message": "Sekmeler ilk açıldığında bellekten (RAM) anında tasarruf et:"
+   },
+   "optionDiscardNonActiveTabOnOpenNote": {
+      "message": "Bu ayar etkinleştirildiyse, OneTab listenizden ilk açtığınız anda sekmeler bellekten hemen boşaltılır. Bir seferde sık sık onlarca sekme açıyorsanız, bu, siz erişene kadar hepsinin belleğe yüklenmesini engeller. Bu ayar devre dışıysa bile, birçok web tarayıcısı kullanmadığınız sekmeleri otomatik olarak bellekten boşaltmayı seçebilir."
+   },
+   "optionDisplayContextMenuHeading": {
+      "message": "OneTab bağlam menüsüne erişmek için bir web sayfasında sağ tıklayın:"
+   },
+   "optionDisplayContextMenuNote": {
+      "message": "Menüyü devre dışı bırakırsanız, \"Web sitesini OneTab'dan hariç tut\" özelliğine erişemezsiniz"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenFalseTitle": {
+      "message": "OneTab sekmesinin zaten açık olduğu pencereye geç"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenHeading": {
+      "message": "\"OneTab'ı aç\" eylemi:"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenNote": {
+      "message": "\"OneTab'ı aç\" eylemine bir klavye kısayoluyla erişebilirsiniz. Ayrıca, tarayıcı araç çubuğunuzdaki OneTab simgesine tıkladığınızda görünen açılır pencereden de erişebilirsiniz."
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenTrueTitle": {
+      "message": "Var olan OneTab sekmesini geçerli pencereye taşı"
+   },
+   "optionStartupLaunchDisplay": {
+      "message": "Web tarayıcınızı her başlattığınızda OneTab'ı aç"
+   },
+   "optionStartupLaunchNone": {
+      "message": "OneTab'ı otomatik olarak açma"
+   },
+   "optionStartupLaunchNoneDesc3": {
+      "message": "OneTab'ı elle açmak için, tarayıcı araç çubuğunuzdaki OneTab simgesine tıklayın ve 'OneTab'ı aç'ı seçin. Alternatif olarak, herhangi bir web sayfasında sağ tıklayıp OneTab menüsünden 'OneTab'ı aç'ı tıklayabilirsiniz."
+   },
+   "optionStartupLaunchTitle": {
+      "message": "Başlangıç:"
+   },
+   "optionSwitchToOpenedTabFalseTitle": {
+      "message": "Sekmeyi aç ve OneTab'da kal"
+   },
+   "optionSwitchToOpenedTabHeading": {
+      "message": "OneTab sayfasından sekme açarken:"
+   },
+   "optionSwitchToOpenedTabNote": {
+      "message": "Tıklarken Shift tuşunu basılı tutarsanız, sekme yeni bir pencerede açılır"
+   },
+   "optionSwitchToOpenedTabTrueTitle": {
+      "message": "Sekmeyi aç ve ona geç (tıklarken Command ⌘/Ctrl basılı tutmadıkça)"
+   },
+   "optionUrlAbbr": {
+      "message": "Kısaltılmış"
+   },
+   "optionUrlDisplayTitle": {
+      "message": "URL görüntüleme:"
+   },
+   "optionUrlDomain": {
+      "message": "Yalnızca alan adı"
+   },
+   "optionUrlFull": {
+      "message": "Tam"
+   },
+   "optionUrlNone": {
+      "message": "Yok"
+   },
+   "options": {
+      "message": "Seçenekler"
+   },
+   "otherCopiesColon": {
+      "message": "Diğer kopyalar:"
+   },
+   "pasteRichOrPlainTextBelow": {
+      "message": "Aşağıya zengin metin veya düz metin yapıştırabilirsiniz."
+   },
+   "pendingTaskCount_few": {
+      "message": "{COUNT} bekleyen"
+   },
+   "pendingTaskCount_many": {
+      "message": "{COUNT} bekleyen"
+   },
+   "pendingTaskCount_one": {
+      "message": "{COUNT} bekleyen"
+   },
+   "pendingTaskCount_other": {
+      "message": "{COUNT} bekleyen"
+   },
+   "pendingTaskCount_two": {
+      "message": "{COUNT} bekleyen"
+   },
+   "pendingTaskCount_zero": {
+      "message": "{COUNT} bekleyen"
+   },
+   "permissionRequiredPleaseTryAgain": {
+      "message": "Her bilgisayardan erişilebilen bir paylaşılan sayfa oluşturmak için OneTab web sunucusuyla koordinasyon için izin gereklidir. Lütfen tekrar deneyin."
+   },
+   "pinToTopOfFolder": {
+      "message": "Klasörün en üstüne sabitle"
+   },
+   "pinToTopOfList": {
+      "message": "Listenin en üstüne sabitle"
+   },
+   "pinnedTabs": {
+      "message": "sabitlenmiş sekmeler"
+   },
+   "placeholderAndOtherLocations_few": {
+      "message": "PLACEHOLDER ve diğer {COUNT} konum"
+   },
+   "placeholderAndOtherLocations_many": {
+      "message": "PLACEHOLDER ve diğer {COUNT} konum"
+   },
+   "placeholderAndOtherLocations_one": {
+      "message": "PLACEHOLDER ve diğer {COUNT} konum"
+   },
+   "placeholderAndOtherLocations_other": {
+      "message": "PLACEHOLDER ve diğer {COUNT} konum"
+   },
+   "placeholderAndOtherLocations_two": {
+      "message": "PLACEHOLDER ve diğer {COUNT} konum"
+   },
+   "placeholderAndOtherLocations_zero": {
+      "message": "PLACEHOLDER ve diğer {COUNT} konum"
+   },
+   "placeholderExplanation": {
+      "message": "Web tarayıcısı güvenlik kuralları nedeniyle OneTab bu sayfayı doğrudan geri yükleyemez. Lütfen URL'nizi kopyalayıp tarayıcınızın adres çubuğuna yapıştırın."
+   },
+   "plainTextLineFormat": {
+      "message": "Düz metin yapıştırırsanız, her URL'nin bir protokolle belirtildiğinden emin olun (yalnızca wikipedia.org yerine https://wikipedia.org). Her satır şu biçimde olmalıdır:"
+   },
+   "pleaseWaitTripleDot": {
+      "message": "Lütfen bekleyin…"
+   },
+   "popupSlashShortcutInfo": {
+      "message": "OneTab simgesine tıkladığınızda görünen OneTab eylem açılır penceresindeyken, hedef seçiciyi açmak ve arama kutusuna odaklanmak için eğik çizgi tuşuna basın."
+   },
+   "privacyAssurance": {
+      "message": "Gizlilik güvencesi"
+   },
+   "privacyAssuranceDetail": {
+      "message": "Sekme listeniz hiçbir zaman OneTab geliştiricilerine veya başka bir tarafa iletilmez ya da açıklanmaz. Bunun tek istisnası, sekme listenizi başkalarıyla paylaşmak için bilerek 'web sayfası olarak paylaş' özelliğini kullanarak bir web sayfasına yüklemenizdir."
+   },
+   "privacyFirst": {
+      "message": "Önce gizlilik"
+   },
+   "privacyFirstMessage": {
+      "message": "OneTab, kişisel verilerinizi koruyacak şekilde tasarlanmıştır. Sekmeleriniz yalnızca bilgisayarınızda saklanır; OneTab geliştiricileriyle veya başka herhangi bir tarafla asla paylaşılmaz.\nYedekleme/eşitleme özelliğimizi kullanırsanız, verileriniz uçtan uca, güçlü AES-256 şifrelemeyle korunur. Bu, yalnızca sizde şifreleme anahtarı bulunduğundan, OneTab geliştiricilerinin yedeklediğiniz veya cihazlar arasında eşitlediğiniz sekmeleri görmesini imkansız kılar. \nTek istisna, 'web sayfası olarak paylaş' özelliğimizi bilerek kullanıp bazı sekmelerinizi başkalarıyla paylaşmayı seçmenizdir.\nBiz Gizlilik Önceliklidir ilkesine inanıyoruz."
+   },
+   "privateBrowsingPermissionRequired": {
+      "message": "OneTab'ın gizli pencereler oluşturmak için izne ihtiyacı var."
+   },
+   "privateBrowsingWindows": {
+      "message": "Gizli gezinti pencereleri"
+   },
+   "quickList": {
+      "message": "Hızlı liste"
+   },
+   "rating": {
+      "message": "Derecelendirme"
+   },
+   "readingList": {
+      "message": "Okuma listesi"
+   },
+   "readingListPermissionNecesssary": {
+      "message": "OneTab'ın okuma listenizden öğeleri içe aktarabilmesi için okuma listesi izni gereklidir. Bu özellik çalışmıyorsa, tarayıcınız okuma listelerini desteklemiyor olabilir."
+   },
+   "recent": {
+      "message": "En yeni"
+   },
+   "recentDestinationsColon": {
+      "message": "Son hedefler:"
+   },
+   "recentDuplicateRetainedHelp": {
+      "message": "Bir sekme birden fazla kez bulunuyorsa, yalnızca en son yinelenen korunur"
+   },
+   "recentlyAccessed": {
+      "message": "En son erişilen"
+   },
+   "recentlyCreated": {
+      "message": "En son oluşturulan"
+   },
+   "recentlyModified": {
+      "message": "En son değiştirilen"
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "message": "Bellek kullanımını %95 azaltın"
+   },
+   "removeDuplicateTabsHere_few": {
+      "message": "Buradaki {COUNT} yinelenen sekmeyi kaldır"
+   },
+   "removeDuplicateTabsHere_many": {
+      "message": "Buradaki {COUNT} yinelenen sekmeyi kaldır"
+   },
+   "removeDuplicateTabsHere_one": {
+      "message": "Buradaki {COUNT} yinelenen sekmeyi kaldır"
+   },
+   "removeDuplicateTabsHere_other": {
+      "message": "Buradaki {COUNT} yinelenen sekmeyi kaldır"
+   },
+   "removeDuplicateTabsHere_two": {
+      "message": "Buradaki {COUNT} yinelenen sekmeyi kaldır"
+   },
+   "removeDuplicateTabsHere_zero": {
+      "message": "Buradaki {COUNT} yinelenen sekmeyi kaldır"
+   },
+   "removeDuplicates": {
+      "message": "Yinelenenleri kaldır"
+   },
+   "removeFromQuickList": {
+      "message": "Hızlı listeden kaldır"
+   },
+   "removeTabsElsewhereAlsoHere_few": {
+      "message": "Başka yerlerde olup burada da bulunan {COUNT} sekmeyi kaldır"
+   },
+   "removeTabsElsewhereAlsoHere_many": {
+      "message": "Başka yerlerde olup burada da bulunan {COUNT} sekmeyi kaldır"
+   },
+   "removeTabsElsewhereAlsoHere_one": {
+      "message": "Başka yerlerde olup burada da bulunan {COUNT} sekmeyi kaldır"
+   },
+   "removeTabsElsewhereAlsoHere_other": {
+      "message": "Başka yerlerde olup burada da bulunan {COUNT} sekmeyi kaldır"
+   },
+   "removeTabsElsewhereAlsoHere_two": {
+      "message": "Başka yerlerde olup burada da bulunan {COUNT} sekmeyi kaldır"
+   },
+   "removeTabsElsewhereAlsoHere_zero": {
+      "message": "Başka yerlerde olup burada da bulunan {COUNT} sekmeyi kaldır"
+   },
+   "removeTabsHereAlsoElsewhere_few": {
+      "message": "Burada olup başka yerlerde de bulunan {COUNT} sekmeyi kaldır"
+   },
+   "removeTabsHereAlsoElsewhere_many": {
+      "message": "Burada olup başka yerlerde de bulunan {COUNT} sekmeyi kaldır"
+   },
+   "removeTabsHereAlsoElsewhere_one": {
+      "message": "Burada olup başka yerlerde de bulunan {COUNT} sekmeyi kaldır"
+   },
+   "removeTabsHereAlsoElsewhere_other": {
+      "message": "Burada olup başka yerlerde de bulunan {COUNT} sekmeyi kaldır"
+   },
+   "removeTabsHereAlsoElsewhere_two": {
+      "message": "Burada olup başka yerlerde de bulunan {COUNT} sekmeyi kaldır"
+   },
+   "removeTabsHereAlsoElsewhere_zero": {
+      "message": "Burada olup başka yerlerde de bulunan {COUNT} sekmeyi kaldır"
+   },
+   "rename": {
+      "message": "Yeniden adlandır"
+   },
+   "restore": {
+      "message": "Geri yükle"
+   },
+   "restrictSearchToFolderColon": {
+      "message": "Aramayı şu klasörle sınırla:"
+   },
+   "results": {
+      "message": "Sonuçlar"
+   },
+   "returnToOneTab": {
+      "message": "OneTab'a dön"
+   },
+   "reverse": {
+      "message": "Tersine çevir"
+   },
+   "rightClickAndOpenOneTabMenu": {
+      "message": "Web sayfasında sağ tıklayın ve OneTab menüsüne gidin"
+   },
+   "rightClickMenuDisabledNote": {
+      "message": "Not: OneTab sağ tık menüsünü devre dışı bırakmışsınız. Lütfen OneTab seçenekler sayfasından etkinleştirin."
+   },
+   "rightClickSelectionOptionsTip": {
+      "message": "İpucu: Bir öğeyi işaretledikten sonra, daha fazla seçim seçeneğini görmek için onay işareti simgesine sağ tıklayın"
+   },
+   "rightClickTickTip": {
+      "message": "İpucu: Seçim araçları için her sekmenin yanındaki onay işareti simgesine sağ tıklayın"
+   },
+   "safariApproveOneTabInSettings": {
+      "message": "Lütfen Ayarlar'a gidip OneTab'ın tüm web sitelerine erişmesine izin verin."
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "message": "Bellek kullanımını %95'e kadar azaltın ve Google Chrome'da sekme karmaşasını azaltın"
+   },
+   "searchHere": {
+      "message": "Burada ara"
+   },
+   "searchOneTab": {
+      "message": "OneTab'da ara"
+   },
+   "secondExampleLink": {
+      "message": "İkinci örnek bağlantı"
+   },
+   "secondExampleLinkTitle": {
+      "message": "İkinci örnek bağlantı başlığı"
+   },
+   "secondExampleLinkTitleOptional": {
+      "message": "İkinci örnek bağlantı başlığı (isteğe bağlı)"
+   },
+   "seeOtherTabsInThisGroup_few": {
+      "message": "Bu gruptaki diğer {COUNT} sekmeyi göster"
+   },
+   "seeOtherTabsInThisGroup_many": {
+      "message": "Bu gruptaki diğer {COUNT} sekmeyi göster"
+   },
+   "seeOtherTabsInThisGroup_one": {
+      "message": "Bu gruptaki diğer {COUNT} sekmeyi göster"
+   },
+   "seeOtherTabsInThisGroup_other": {
+      "message": "Bu gruptaki diğer {COUNT} sekmeyi göster"
+   },
+   "seeOtherTabsInThisGroup_two": {
+      "message": "Bu gruptaki diğer {COUNT} sekmeyi göster"
+   },
+   "seeOtherTabsInThisGroup_zero": {
+      "message": "Bu gruptaki diğer {COUNT} sekmeyi göster"
+   },
+   "seePasteInstructions": {
+      "message": "Yapıştırma talimatlarını gör…"
+   },
+   "seeTabsInThisGroup_few": {
+      "message": "Bu gruptaki {COUNT} sekmeyi göster"
+   },
+   "seeTabsInThisGroup_many": {
+      "message": "Bu gruptaki {COUNT} sekmeyi göster"
+   },
+   "seeTabsInThisGroup_one": {
+      "message": "Bu gruptaki {COUNT} sekmeyi göster"
+   },
+   "seeTabsInThisGroup_other": {
+      "message": "Bu gruptaki {COUNT} sekmeyi göster"
+   },
+   "seeTabsInThisGroup_two": {
+      "message": "Bu gruptaki {COUNT} sekmeyi göster"
+   },
+   "seeTabsInThisGroup_zero": {
+      "message": "Bu gruptaki {COUNT} sekmeyi göster"
+   },
+   "selectAll": {
+      "message": "Tümünü seç"
+   },
+   "selectAllExceptThis": {
+      "message": "Bunun dışındakilerin tümünü seç"
+   },
+   "selectThisAndAbove": {
+      "message": "Bunu ve üsttekilerin tümünü seç"
+   },
+   "selectThisAndBelow": {
+      "message": "Bunu ve alttakilerin tümünü seç"
+   },
+   "selectedItemCount_few": {
+      "message": "{COUNT} öğe"
+   },
+   "selectedItemCount_many": {
+      "message": "{COUNT} öğe"
+   },
+   "selectedItemCount_one": {
+      "message": "{COUNT} öğe"
+   },
+   "selectedItemCount_other": {
+      "message": "{COUNT} öğe"
+   },
+   "selectedItemCount_two": {
+      "message": "{COUNT} öğe"
+   },
+   "selectedItemCount_zero": {
+      "message": "{COUNT} öğe"
+   },
+   "selection": {
+      "message": "Seçim"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "message": "Tüm pencerelerdeki tüm sekmeleri OneTab'a gönder"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "message": "Bu sekme hariç tüm sekmeleri OneTab'a gönder"
+   },
+   "sendAllTabsInGroupToOneTab": {
+      "message": "Bu sekme grubundaki tüm sekmeleri OneTab'a gönder"
+   },
+   "sendAllTabsInWindowToOneTab": {
+      "message": "Bu penceredeki tüm sekmeleri OneTab'a gönder"
+   },
+   "sendCurrentTabToOneTab": {
+      "message": "Geçerli sekmeyi OneTab'a gönder"
+   },
+   "sendLeftTabsToOneTab": {
+      "message": "Soldaki sekmeleri OneTab'a gönder"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "message": "Yalnızca bu sekmeyi OneTab'a gönder"
+   },
+   "sendRightTabsToOneTab": {
+      "message": "Sağdaki sekmeleri OneTab'a gönder"
+   },
+   "sendSelectedTabsToOneTab": {
+      "message": "Seçili sekmeleri OneTab'a gönder"
+   },
+   "sendThisWebLinkToOneTab": {
+      "message": "Bu web bağlantısını OneTab'a gönder"
+   },
+   "serverUnreachable": {
+      "message": "Sunucuya ulaşılamıyor. Lütfen internet bağlantınızı kontrol edin."
+   },
+   "share": {
+      "message": "Paylaş"
+   },
+   "shareAsAWebPage": {
+      "message": "Web sayfası olarak paylaş"
+   },
+   "shared": {
+      "message": "Paylaşılan"
+   },
+   "sharedExpiresColon": {
+      "message": "Web sayfası olarak paylaşıldı. Sona erme:"
+   },
+   "sharedPageOptions": {
+      "message": "Paylaşılan sayfa seçenekleri"
+   },
+   "sharedPageTabLimit_few": {
+      "message": "Paylaşılan sayfalar {COUNT} sekme ile sınırlıdır"
+   },
+   "sharedPageTabLimit_many": {
+      "message": "Paylaşılan sayfalar {COUNT} sekme ile sınırlıdır"
+   },
+   "sharedPageTabLimit_one": {
+      "message": "Paylaşılan sayfalar {COUNT} sekme ile sınırlıdır"
+   },
+   "sharedPageTabLimit_other": {
+      "message": "Paylaşılan sayfalar {COUNT} sekme ile sınırlıdır"
+   },
+   "sharedPageTabLimit_two": {
+      "message": "Paylaşılan sayfalar {COUNT} sekme ile sınırlıdır"
+   },
+   "sharedPageTabLimit_zero": {
+      "message": "Paylaşılan sayfalar {COUNT} sekme ile sınırlıdır"
+   },
+   "sharedPageWillAutomaticallyExpire": {
+      "message": "Paylaşılan sayfa otomatik olarak sona erecek, ancak bitiş tarihini istediğiniz zaman uzatabilirsiniz."
+   },
+   "shiftDragShortcutInfo": {
+      "message": "Bir sekmeyi bırakırken Shift tuşunu basılı tutun; böylece taşımak yerine bir kopyası oluşturulur. Önemli: Shift tuşuna yalnızca sürüklemeye başladıktan sonra basın."
+   },
+   "showEverything": {
+      "message": "Her şeyi göster"
+   },
+   "showFoldersOnly": {
+      "message": "Yalnızca klasörleri göster"
+   },
+   "showNamedItemsOnly": {
+      "message": "Yalnızca adlandırılmış öğeleri göster"
+   },
+   "showNamedOnly": {
+      "message": "Yalnızca adlandırılmışları göster"
+   },
+   "showNextCount_few": {
+      "message": "Sonraki {COUNT}"
+   },
+   "showNextCount_many": {
+      "message": "Sonraki {COUNT}"
+   },
+   "showNextCount_one": {
+      "message": "Sonraki {COUNT}"
+   },
+   "showNextCount_other": {
+      "message": "Sonraki {COUNT}"
+   },
+   "showNextCount_two": {
+      "message": "Sonraki {COUNT}"
+   },
+   "showNextCount_zero": {
+      "message": "Sonraki {COUNT}"
+   },
+   "showPreviousCount_few": {
+      "message": "Önceki {COUNT}"
+   },
+   "showPreviousCount_many": {
+      "message": "Önceki {COUNT}"
+   },
+   "showPreviousCount_one": {
+      "message": "Önceki {COUNT}"
+   },
+   "showPreviousCount_other": {
+      "message": "Önceki {COUNT}"
+   },
+   "showPreviousCount_two": {
+      "message": "Önceki {COUNT}"
+   },
+   "showPreviousCount_zero": {
+      "message": "Önceki {COUNT}"
+   },
+   "soon": {
+      "message": "birazdan"
+   },
+   "sort": {
+      "message": "Sırala"
+   },
+   "sortByColon": {
+      "message": "Şuna göre sırala:"
+   },
+   "sortGroups": {
+      "message": "Grupları sırala"
+   },
+   "sourceColon": {
+      "message": "Kaynak:"
+   },
+   "starRatingTooltip": {
+      "message": "Yıldız derecelendirmesi ayarla"
+   },
+   "storeSelectedTabsInONETAB_few": {
+      "message": "Seçili {COUNT} sekmeyi ONETAB içinde sakla"
+   },
+   "storeSelectedTabsInONETAB_many": {
+      "message": "Seçili {COUNT} sekmeyi ONETAB içinde sakla"
+   },
+   "storeSelectedTabsInONETAB_one": {
+      "message": "Seçili {COUNT} sekmeyi ONETAB içinde sakla"
+   },
+   "storeSelectedTabsInONETAB_other": {
+      "message": "Seçili {COUNT} sekmeyi ONETAB içinde sakla"
+   },
+   "storeSelectedTabsInONETAB_two": {
+      "message": "Seçili {COUNT} sekmeyi ONETAB içinde sakla"
+   },
+   "storeSelectedTabsInONETAB_zero": {
+      "message": "Seçili {COUNT} sekmeyi ONETAB içinde sakla"
+   },
+   "storeTabInAdditionalLocation": {
+      "message": "Sekmenizi ek bir konumda sakla"
+   },
+   "storeTabInONETAB": {
+      "message": "Sekmeyi ONETAB içinde sakla"
+   },
+   "storeTabsInAdditionalLocation": {
+      "message": "Sekmelerinizi ek bir konumda sakla"
+   },
+   "storeTabsInONETAB": {
+      "message": "Sekmeleri ONETAB içinde sakla"
+   },
+   "subFoldersNotShared": {
+      "message": "Alt klasörlerin paylaşılmadığını unutmayın. Yalnızca klasörün içindeki gruplar paylaşılır."
+   },
+   "tab": {
+      "message": "sekme"
+   },
+   "tabAlreadyStoredHere": {
+      "message": "Açık sekmeniz zaten burada kaydedildi:"
+   },
+   "tabCaretTooltipTitleNotes": {
+      "message": "Sekme başlığını ve notlarını düzenle"
+   },
+   "tabCaretTooltipTitleNotesUrl": {
+      "message": "Sekme başlığını, URL'sini ve notlarını düzenle"
+   },
+   "tabCount_few": {
+      "message": "{COUNT} sekme"
+   },
+   "tabCount_many": {
+      "message": "{COUNT} sekme"
+   },
+   "tabCount_one": {
+      "message": "{COUNT} sekme"
+   },
+   "tabCount_other": {
+      "message": "{COUNT} sekme"
+   },
+   "tabCount_two": {
+      "message": "{COUNT} sekme"
+   },
+   "tabCount_zero": {
+      "message": "{COUNT} sekme"
+   },
+   "tabGroupColorColon": {
+      "message": "Sekme grubu rengi:"
+   },
+   "tabShortcutInfo": {
+      "message": "OneTab sayfasındayken, odağı orta sütundaki gruplar arasında taşımak için Tab tuşuna basın. Bu, özellikle büyüklerse, grupları hızla atlamayı kolaylaştırır. Bir grubun odağı varsa, açmak için Enter tuşuna basın. Odağı geri taşımak için Shift+Tab kullanın."
+   },
+   "tabTotalCount_few": {
+      "message": "Toplam: {COUNT} sekme"
+   },
+   "tabTotalCount_many": {
+      "message": "Toplam: {COUNT} sekme"
+   },
+   "tabTotalCount_one": {
+      "message": "Toplam: {COUNT} sekme"
+   },
+   "tabTotalCount_other": {
+      "message": "Toplam: {COUNT} sekme"
+   },
+   "tabTotalCount_two": {
+      "message": "Toplam: {COUNT} sekme"
+   },
+   "tabTotalCount_zero": {
+      "message": "Toplam: {COUNT} sekme"
+   },
+   "tabs": {
+      "message": "Sekmeler"
+   },
+   "tabsFromExcludedDomains": {
+      "message": "hariç tutulan alan adlarından sekmeler"
+   },
+   "tabsInTabGroups": {
+      "message": "sekme gruplarındaki sekmeler"
+   },
+   "taskTotalCount_few": {
+      "message": "Toplam {COUNT}"
+   },
+   "taskTotalCount_many": {
+      "message": "Toplam {COUNT}"
+   },
+   "taskTotalCount_one": {
+      "message": "Toplam {COUNT}"
+   },
+   "taskTotalCount_other": {
+      "message": "Toplam {COUNT}"
+   },
+   "taskTotalCount_two": {
+      "message": "Toplam {COUNT}"
+   },
+   "taskTotalCount_zero": {
+      "message": "Toplam {COUNT}"
+   },
+   "tasks": {
+      "message": "Görevler"
+   },
+   "tasksDone": {
+      "message": "Görevler (tamamlanan)"
+   },
+   "tasksPending": {
+      "message": "Görevler (bekleyen)"
+   },
+   "tasksWillAppearHere": {
+      "message": "Sekmelerinizi veya gruplarınızı görev olarak işaretlerseniz, burada görünecekler."
+   },
+   "thenClickToolbarIcon": {
+      "message": "Ardından, OneTab'ı kullanmak için OneTab araç çubuğu simgesine tekrar tıklayın."
+   },
+   "thisFolderIsEmpty": {
+      "message": "Bu klasör boş"
+   },
+   "thisTab": {
+      "message": "Bu sekme"
+   },
+   "thisTabGroup": {
+      "message": "Bu sekme grubu"
+   },
+   "thisTabNotStored": {
+      "message": "Bu sekme OneTab'da saklı değil"
+   },
+   "thisWindow": {
+      "message": "Bu pencere"
+   },
+   "tickOrUntickToExclude": {
+      "message": "Web sitesini hariç tutmak için işaretleyin ya da işaretini kaldırın"
+   },
+   "title": {
+      "message": "Başlık"
+   },
+   "toAddOrRemoveExclusions": {
+      "message": "Hariç tutma listesine bir web sitesi eklemek veya kaldırmak için:"
+   },
+   "toAllowOneTabInIncognito": {
+      "message": "OneTab simgesinin Gizli pencerelerde görünmesi için: "
+   },
+   "toImportBrowserBookmarksUseMenuOption": {
+      "message": "Tarayıcı yer işaretlerinden içe aktarmak için, OneTab sayfanızdaki 'Bağlantıları buraya içe aktar' menü seçeneğini kullanın"
+   },
+   "toMakeOpenButtonWorkApprovePermission": {
+      "message": "Paylaşılan sayfalardaki \"Aç\" düğmesinin çalışması için, lütfen izin isteğini onaylayın."
+   },
+   "toSaveChangesClickButton": {
+      "message": "Değişikliklerinizi kaydetmek için düğmeye tıklayın"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "message": "Çok fazla sekme mi? Sekmelerinizi listeye dönüştürün ve Firefox'u hızlandırın"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "message": "Çok fazla sekme mi? Sekmelerinizi listeye dönüştürün ve Safari'yi hızlandırın"
+   },
+   "total0Tabs": {
+      "message": "Toplam: 0 sekme"
+   },
+   "trash": {
+      "message": "Çöp"
+   },
+   "unMarkAsTask": {
+      "message": "Görev işaretini kaldır"
+   },
+   "unPin": {
+      "message": "Sabitlemeyi kaldır"
+   },
+   "unlock": {
+      "message": "Kilidi aç"
+   },
+   "unmarkAsArchived": {
+      "message": "Arşivlenmiş işaretini kaldır"
+   },
+   "unshare": {
+      "message": "Paylaşımı kaldır"
+   },
+   "untitled": {
+      "message": "Adsız"
+   },
+   "update": {
+      "message": "Güncelle"
+   },
+   "userLanguage": {
+      "message": "Türkçe"
+   },
+   "website": {
+      "message": "Web sitesi"
+   },
+   "yearCount_few": {
+      "message": "{COUNT} yıl"
+   },
+   "yearCount_many": {
+      "message": "{COUNT} yıl"
+   },
+   "yearCount_one": {
+      "message": "{COUNT} yıl"
+   },
+   "yearCount_other": {
+      "message": "{COUNT} yıl"
+   },
+   "yearCount_two": {
+      "message": "{COUNT} yıl"
+   },
+   "yearCount_zero": {
+      "message": "{COUNT} yıl"
+   },
+   "yourTabAlreadyStoredHere": {
+      "message": "Sekmeniz zaten burada kaydedildi:"
+   }
+}

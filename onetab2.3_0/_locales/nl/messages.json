@@ -1,0 +1,1715 @@
+{
+   "95PctMemoryReduction": {
+      "message": "95% minder geheugengebruik"
+   },
+   "Folder": {
+      "message": "Map"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "message": "OneTab is ook beschikbaar voor Firefox"
+   },
+   "aDashZ": {
+      "message": "A-Z"
+   },
+   "about": {
+      "message": "Over"
+   },
+   "addOneTabNow": {
+      "message": "OneTab nu installeren"
+   },
+   "all": {
+      "message": "Alles"
+   },
+   "allBookmarks": {
+      "message": "Alle bladwijzers"
+   },
+   "allOpenTabsAlreadyStoredHere": {
+      "message": "Alle open tabbladen zijn hier al opgeslagen:"
+   },
+   "allowFileAccessInstructions": {
+      "message": "Om bestanden direct te kunnen openen, ga naar Instellingen ➝ Extensies ➝ OneTab ➝ Details ➝ Toegang tot bestands-URL's toestaan"
+   },
+   "alreadyExistingOpenTabsWillBeClosedAfterMerge": {
+      "message": "Alle open tabbladen die al in deze groep aanwezig zijn, worden na het samenvoegen gesloten."
+   },
+   "alternatePlainTextFormat": {
+      "message": "Als alternatief kan platte tekst het volgende formaat hebben:"
+   },
+   "approve": {
+      "message": "Goedkeuren"
+   },
+   "archived": {
+      "message": "Gearchiveerd"
+   },
+   "autoTheme": {
+      "message": "Automatisch (instelling van het besturingssysteem gebruiken)"
+   },
+   "backupAndSync": {
+      "message": "Back-up & synchronisatie"
+   },
+   "betaReleaseReportBugsHere": {
+      "message": "Bètaversie – Meld bugs hier"
+   },
+   "bookmarkCount_few": {
+      "message": "{COUNT} bladwijzers"
+   },
+   "bookmarkCount_many": {
+      "message": "{COUNT} bladwijzers"
+   },
+   "bookmarkCount_one": {
+      "message": "{COUNT} bladwijzer"
+   },
+   "bookmarkCount_other": {
+      "message": "{COUNT} bladwijzers"
+   },
+   "bookmarkCount_two": {
+      "message": "{COUNT} bladwijzers"
+   },
+   "bookmarkCount_zero": {
+      "message": "{COUNT} bladwijzers"
+   },
+   "bookmarksPermissionNecesssary": {
+      "message": "De machtiging 'Bladwijzers' is nodig om OneTab uw browserbladwijzers te laten importeren"
+   },
+   "bulkActions": {
+      "message": "Bulkacties"
+   },
+   "canDragTextNote": {
+      "message": "Opmerking: u kunt ook tekst met weblinks rechtstreeks vanuit een andere webpagina of een document slepen en neerzetten. U kunt de tekst direct naar uw OneTab-pagina slepen, zonder deze importbox te gebruiken."
+   },
+   "canPasteWebContentForExample": {
+      "message": "U kunt tekst plakken die van een webpagina of document is gekopieerd; links worden automatisch geëxtraheerd. Bijvoorbeeld:"
+   },
+   "cancel": {
+      "message": "Annuleren"
+   },
+   "cannotConnectToServerDeletionRequestQueued": {
+      "message": "Kan geen verbinding maken met de OneTab-server. Controleer uw internetverbinding. Uw verzoek om de gedeelde pagina te verwijderen is lokaal in de wachtrij geplaatst en wordt automatisch naar de OneTab-server verzonden zodra deze weer bereikbaar is."
+   },
+   "cannotCreateTabGroupInTabGroup": {
+      "message": "Uw gekozen bestemming is een tabgroep. U kunt geen tabgroep maken binnen een bestaande tabgroep. Kies een andere bestemming."
+   },
+   "cannotMixTabsGroupsFoldersDuringDrag": {
+      "message": "Het is niet mogelijk tabbladen, groepen en mappen te mengen tijdens het slepen. U kunt bijvoorbeeld een map niet op dezelfde plaatsen neerzetten als een tabblad."
+   },
+   "caseSensitive": {
+      "message": "Hoofdlettergevoelig"
+   },
+   "changesMadeSinceSharedPageCreation": {
+      "message": "Er zijn wijzigingen aangebracht sinds u de gedeelde pagina hebt gemaakt. Klik op de knop 'Bijwerken' om de bestaande gedeelde pagina bij te werken."
+   },
+   "checkboxesDeterminePinnedAndGroupedTabMergeInclusion": {
+      "message": "De selectievakjes bovenaan deze pagina bepalen of vastgezette tabbladen of tabbladen in tabgroepen in het samenvoegen worden opgenomen."
+   },
+   "chooseALocation": {
+      "message": "Kies een locatie"
+   },
+   "chooseALocationToImportTo": {
+      "message": "Kies een locatie om naar te importeren"
+   },
+   "chooseExportLocation": {
+      "message": "Kies een locatie om van te exporteren"
+   },
+   "chooseLightDarkTheme": {
+      "message": "Kies licht/donker thema"
+   },
+   "chooseLocationToCopyTo": {
+      "message": "Kies een locatie om naar te kopiëren"
+   },
+   "chooseLocationToMoveTo": {
+      "message": "Kies een locatie om naartoe te verplaatsen"
+   },
+   "chooseLocationToRestoreTo": {
+      "message": "Kies een locatie om naar te herstellen"
+   },
+   "chooseToIncludeNotes": {
+      "message": "Als u notities aan tabbladen of groepen hebt toegevoegd, kies dan of u ze op de gedeelde webpagina wilt opnemen"
+   },
+   "chooseToIncludeRatings": {
+      "message": "Als u sterbeoordelingen aan tabbladen of groepen hebt toegevoegd, kies dan of u ze op de gedeelde webpagina wilt opnemen"
+   },
+   "chromeIncognitoInstructions": {
+      "message": "Ga in de browserinstellingen naar 'Instellingen' → 'Extensies' → 'OneTab' → 'Details' en schakel vervolgens 'Toestaan in incognito' in."
+   },
+   "clickButtonToAllowTabAccess": {
+      "message": "Klik op de onderstaande knop om OneTab toegang te geven tot uw open tabbladen."
+   },
+   "clickHereToContinue": {
+      "message": "Klik hier om door te gaan."
+   },
+   "clickOneTabIconToStoreTabsHere": {
+      "message": "Klik op het OneTab-pictogram op de werkbalk van uw browser om uw open tabbladen hier op te slaan."
+   },
+   "closeSelectedTabsAndStoreInONETAB_few": {
+      "message": "Sluit {COUNT} geselecteerde tabbladen en sla op in ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_many": {
+      "message": "Sluit {COUNT} geselecteerde tabbladen en sla op in ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_one": {
+      "message": "Sluit {COUNT} geselecteerd tabblad en sla op in ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_other": {
+      "message": "Sluit {COUNT} geselecteerde tabbladen en sla op in ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_two": {
+      "message": "Sluit {COUNT} geselecteerde tabbladen en sla op in ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_zero": {
+      "message": "Sluit {COUNT} geselecteerde tabbladen en sla op in ONETAB"
+   },
+   "closeSelectedTabs_few": {
+      "message": "Sluit {COUNT} geselecteerde tabbladen"
+   },
+   "closeSelectedTabs_many": {
+      "message": "Sluit {COUNT} geselecteerde tabbladen"
+   },
+   "closeSelectedTabs_one": {
+      "message": "Sluit {COUNT} geselecteerd tabblad"
+   },
+   "closeSelectedTabs_other": {
+      "message": "Sluit {COUNT} geselecteerde tabbladen"
+   },
+   "closeSelectedTabs_two": {
+      "message": "Sluit {COUNT} geselecteerde tabbladen"
+   },
+   "closeSelectedTabs_zero": {
+      "message": "Sluit {COUNT} geselecteerde tabbladen"
+   },
+   "closeTab": {
+      "message": "Tabblad sluiten"
+   },
+   "closeTabAndStore": {
+      "message": "Tabblad sluiten en opslaan in ONETAB"
+   },
+   "closeTabs": {
+      "message": "Tabbladen sluiten"
+   },
+   "closeTabsAfterMerge": {
+      "message": "Tabbladen sluiten na samenvoegen"
+   },
+   "closeTabsAlreadyStoredInOneTab_few": {
+      "message": "Sluit {COUNT} tabbladen die al in OneTab zijn opgeslagen"
+   },
+   "closeTabsAlreadyStoredInOneTab_many": {
+      "message": "Sluit {COUNT} tabbladen die al in OneTab zijn opgeslagen"
+   },
+   "closeTabsAlreadyStoredInOneTab_one": {
+      "message": "Sluit {COUNT} tabblad dat al in OneTab is opgeslagen"
+   },
+   "closeTabsAlreadyStoredInOneTab_other": {
+      "message": "Sluit {COUNT} tabbladen die al in OneTab zijn opgeslagen"
+   },
+   "closeTabsAlreadyStoredInOneTab_two": {
+      "message": "Sluit {COUNT} tabbladen die al in OneTab zijn opgeslagen"
+   },
+   "closeTabsAlreadyStoredInOneTab_zero": {
+      "message": "Sluit {COUNT} tabbladen die al in OneTab zijn opgeslagen"
+   },
+   "closeTabsAndStore": {
+      "message": "Tabbladen sluiten en opslaan in ONETAB"
+   },
+   "closeTheseDuplicates": {
+      "message": "Deze duplicaten sluiten"
+   },
+   "closeThisDuplicate": {
+      "message": "Dit duplicaat sluiten"
+   },
+   "completeEditingShortcutInfo": {
+      "message": "Bij het bewerken van een notitieveld gebruikt u deze sneltoets om het bewerken te voltooien."
+   },
+   "configureShortcuts": {
+      "message": "Sneltoetsen instellen"
+   },
+   "conflictingShortcutsHint": {
+      "message": "Als een van de bovenstaande sneltoetsen niet werkt of conflicteert met andere toepassingen, kunt u een andere sneltoets instellen."
+   },
+   "continue": {
+      "message": "Doorgaan"
+   },
+   "convertTabsIntoAList": {
+      "message": "Tabbladen in een lijst omzetten"
+   },
+   "copiedToClipboard": {
+      "message": "Gekopieerd naar klembord"
+   },
+   "copy": {
+      "message": "Kopiëren"
+   },
+   "copyLinksToClipboard": {
+      "message": "Links kopiëren naar klembord"
+   },
+   "copySharedPageUrl": {
+      "message": "URL van gedeelde pagina kopiëren"
+   },
+   "copyToClipboard": {
+      "message": "Kopieer naar klembord"
+   },
+   "createANewGroupHere": {
+      "message": "Nieuwe groep hier maken"
+   },
+   "createFolderAbove": {
+      "message": "Map boven maken"
+   },
+   "createFolderAboveBelow": {
+      "message": "Map boven / onder maken"
+   },
+   "createFolderAboveWithinBelow": {
+      "message": "Map boven / binnenin / onder maken"
+   },
+   "createFolderBelow": {
+      "message": "Map onder maken"
+   },
+   "createFolderWithin": {
+      "message": "Map binnenin maken"
+   },
+   "createGroupAbove": {
+      "message": "Groep boven maken"
+   },
+   "createGroupAboveBelow": {
+      "message": "Groep boven / onder maken"
+   },
+   "createGroupAboveWithinBelow": {
+      "message": "Groep boven / binnenin / onder maken"
+   },
+   "createGroupBelow": {
+      "message": "Groep onder maken"
+   },
+   "createGroupInsideDestination": {
+      "message": "Nieuwe groep maken in bestemming"
+   },
+   "createGroupInsideDestinationHelp": {
+      "message": "Als dit is uitgevinkt, worden uw tabbladen direct aan de bestemmingsgroep toegevoegd. Als dit is aangevinkt, wordt binnen de bestemmingsgroep een nieuwe tabgroep van de browser gemaakt voor uw tabbladen. Vink dit alleen aan als u de functie 'tabgroepen' van uw browser wilt gebruiken."
+   },
+   "createGroupWithin": {
+      "message": "Groep binnenin maken"
+   },
+   "createNewGroupTip": {
+      "message": "Om een nieuwe groep te maken, vink 'Alleen mappen weergeven' uit"
+   },
+   "createdOnOrAfterColon": {
+      "message": "Gemaakt op of na:"
+   },
+   "createdOnOrBeforeColon": {
+      "message": "Gemaakt op of vóór:"
+   },
+   "createdPreceedingDate": {
+      "message": "Gemaakt"
+   },
+   "darkTheme": {
+      "message": "Donker thema"
+   },
+   "dayCount_few": {
+      "message": "{COUNT} dagen"
+   },
+   "dayCount_many": {
+      "message": "{COUNT} dagen"
+   },
+   "dayCount_one": {
+      "message": "{COUNT} dag"
+   },
+   "dayCount_other": {
+      "message": "{COUNT} dagen"
+   },
+   "dayCount_two": {
+      "message": "{COUNT} dagen"
+   },
+   "dayCount_zero": {
+      "message": "{COUNT} dagen"
+   },
+   "delete": {
+      "message": "Verwijderen"
+   },
+   "deleteAllTrash": {
+      "message": "Prullenbak leegmaken"
+   },
+   "deleteThisCopy": {
+      "message": "Deze kopie verwijderen"
+   },
+   "deselectAll": {
+      "message": "Alles deselecteren"
+   },
+   "destinationColon": {
+      "message": "Bestemming:"
+   },
+   "disabled": {
+      "message": "Uitgeschakeld"
+   },
+   "doneTaskCount_few": {
+      "message": "{COUNT} voltooid"
+   },
+   "doneTaskCount_many": {
+      "message": "{COUNT} voltooid"
+   },
+   "doneTaskCount_one": {
+      "message": "{COUNT} voltooid"
+   },
+   "doneTaskCount_other": {
+      "message": "{COUNT} voltooid"
+   },
+   "doneTaskCount_two": {
+      "message": "{COUNT} voltooid"
+   },
+   "doneTaskCount_zero": {
+      "message": "{COUNT} voltooid"
+   },
+   "dontCloseGroupedTabs": {
+      "message": "Geen tabbladen in tabgroepen sluiten"
+   },
+   "dontClosePinnedTabs": {
+      "message": "Geen vastgezette tabbladen sluiten"
+   },
+   "dontCloseTabsFromDomains": {
+      "message": "Geen tabbladen van EXAMPLE.COM sluiten"
+   },
+   "dragTabsHereForQuickList": {
+      "message": "Sleep uw opgeslagen tabbladen of groepen hierheen. Ze worden aan uw snellijst toegevoegd."
+   },
+   "editTabGroupTitleAndNotes": {
+      "message": "Titel en notities van de tabgroep bewerken"
+   },
+   "emojiShortcutInfo": {
+      "message": "Bij het bewerken van een notitieveld gebruikt u deze sneltoets om de emoji-kiezer te openen."
+   },
+   "emptyInBrackets": {
+      "message": "(leeg)"
+   },
+   "emptyOneTabInfoMsg": {
+      "message": "Wanneer u meerdere tabbladen open hebt, klikt u op het OneTab-pictogram op de werkbalk van uw browser en verschijnen uw open tabbladen hier."
+   },
+   "enabled": {
+      "message": "Ingeschakeld"
+   },
+   "encryptedSyncAndBackup": {
+      "message": "Versleutelde synchronisatie en back-up"
+   },
+   "encryptedSyncAndBackupComingSoonMessage": {
+      "message": "Binnenkort beschikbaar: u kunt uw OneTab-gegevens synchroniseren tussen meerdere browserprofielen en computers.\nOneTab is volledig herschreven zodat wijzigingen op het ene apparaat direct op alle andere apparaten verschijnen.\nAls u deze functie gebruikt, worden uw gegevens end-to-end versleuteld met sterke AES-256-versleuteling. Hierdoor is het voor de OneTab-ontwikkelaars onmogelijk om de tabbladen te zien die u hebt geback-upt of tussen apparaten hebt gesynchroniseerd, omdat alleen u de versleutelingssleutel hebt."
+   },
+   "everything": {
+      "message": "Alles"
+   },
+   "exampleLink": {
+      "message": "Voorbeeldlink"
+   },
+   "exampleLinkTitle": {
+      "message": "Voorbeeldlinktitel"
+   },
+   "exampleLinkTitleOptional": {
+      "message": "Voorbeeldlinktitel (optioneel)"
+   },
+   "exampleRichTextParagraph": {
+      "message": "Voorbeeldalinea met PLACEHOLDER en PLACEHOLDER"
+   },
+   "exampleWebsitePageTitle": {
+      "message": "Voorbeeldpaginatitel van website"
+   },
+   "excludeDomainFromOneTab": {
+      "message": "EXAMPLE.COM uitsluiten van OneTab"
+   },
+   "excludeWebSiteFromOneTab": {
+      "message": "Deze website uitsluiten van OneTab"
+   },
+   "expiresColon": {
+      "message": "Verloopt:"
+   },
+   "export": {
+      "message": "Exporteren"
+   },
+   "exportImportUrls": {
+      "message": "URL's exporteren/importeren"
+   },
+   "exportThenImportNote": {
+      "message": "De onderstaande lijst met URL's kan ook weer worden geïmporteerd in OneTab op deze of een andere computer"
+   },
+   "exportUrls": {
+      "message": "URL's exporteren"
+   },
+   "feedback": {
+      "message": "Feedback"
+   },
+   "filter": {
+      "message": "Filter"
+   },
+   "firefoxIncognitoInstructions": {
+      "message": "Ga in de browserinstellingen naar 'Instellingen' → 'Add-ons en thema's' → 'Extensies' → 'OneTab' → '…' → 'Beheren' en schakel vervolgens 'Uitvoeren in privénavigatievensters' in."
+   },
+   "firefoxShortcutConfigInstructions": {
+      "message": "Voer de URL \"about:addons?type=extension\" in de adresbalk van uw browser in. Wanneer de pagina verschijnt, klikt u op het tandwielpictogram en kiest u vervolgens \"Sneltoetsen voor extensies beheren\""
+   },
+   "folderCount_few": {
+      "message": "{COUNT} mappen"
+   },
+   "folderCount_many": {
+      "message": "{COUNT} mappen"
+   },
+   "folderCount_one": {
+      "message": "{COUNT} map"
+   },
+   "folderCount_other": {
+      "message": "{COUNT} mappen"
+   },
+   "folderCount_two": {
+      "message": "{COUNT} mappen"
+   },
+   "folderCount_zero": {
+      "message": "{COUNT} mappen"
+   },
+   "folders": {
+      "message": "Mappen"
+   },
+   "foldersOnly": {
+      "message": "Alleen mappen"
+   },
+   "gettingStarted": {
+      "message": "Aan de slag"
+   },
+   "goToParentFolder": {
+      "message": "Naar bovenliggende map"
+   },
+   "groupCount_few": {
+      "message": "{COUNT} groepen"
+   },
+   "groupCount_many": {
+      "message": "{COUNT} groepen"
+   },
+   "groupCount_one": {
+      "message": "{COUNT} groep"
+   },
+   "groupCount_other": {
+      "message": "{COUNT} groepen"
+   },
+   "groupCount_two": {
+      "message": "{COUNT} groepen"
+   },
+   "groupCount_zero": {
+      "message": "{COUNT} groepen"
+   },
+   "groups": {
+      "message": "Groepen"
+   },
+   "hasNotes": {
+      "message": "Met notities"
+   },
+   "hasRating": {
+      "message": "Met beoordeling"
+   },
+   "help": {
+      "message": "Help"
+   },
+   "hideArchivedItems": {
+      "message": "Gearchiveerde items verbergen"
+   },
+   "import": {
+      "message": "Importeren"
+   },
+   "importAndExport": {
+      "message": "Importeren & exporteren"
+   },
+   "importBookmarks": {
+      "message": "Bladwijzers importeren"
+   },
+   "importFolderAndSubfolders": {
+      "message": "Map en submappen importeren"
+   },
+   "importLinksHere": {
+      "message": "Links hier importeren"
+   },
+   "importReadingList": {
+      "message": "Leeslijst importeren"
+   },
+   "importText": {
+      "message": "Tekst importeren"
+   },
+   "importUrls": {
+      "message": "URL's importeren"
+   },
+   "importedBookmarks": {
+      "message": "Geïmporteerde bladwijzers"
+   },
+   "includeGroupedTabs": {
+      "message": "Tabbladen in tabgroepen opnemen"
+   },
+   "includeNotes": {
+      "message": "Notities opnemen"
+   },
+   "includePinnedTabs": {
+      "message": "Vastgezette tabbladen opnemen"
+   },
+   "includeStarRatings": {
+      "message": "Sterbeoordelingen opnemen"
+   },
+   "includeTabsAlreadyStored": {
+      "message": "Tabbladen opnemen die u al hebt opgeslagen"
+   },
+   "includeTabsFromDomains": {
+      "message": "Tabbladen van EXAMPLE.COM opnemen"
+   },
+   "incogitoPermissionRequired": {
+      "message": "OneTab heeft toestemming nodig om incognitovensters te maken."
+   },
+   "incognitoWindows": {
+      "message": "Incognitovensters"
+   },
+   "invertSelection": {
+      "message": "Selectie omkeren"
+   },
+   "justNow": {
+      "message": "zojuist"
+   },
+   "keyboardShortcutsColon": {
+      "message": "Sneltoetsen:"
+   },
+   "languageTitle": {
+      "message": "Taal:"
+   },
+   "lightTheme": {
+      "message": "Licht thema"
+   },
+   "localeId": {
+      "message": "nl"
+   },
+   "locationColon": {
+      "message": "Locatie:"
+   },
+   "lock": {
+      "message": "Vergrendelen"
+   },
+   "lockMenuItemHelp": {
+      "message": "Wanneer een groep is vergrendeld, kunt u geen items binnen de groep verwijderen of opnieuw ordenen. Bij het openen van een vergrendelde groep zijn automatische acties niet van toepassing. Zie de pagina Opties voor informatie over automatische acties."
+   },
+   "lockedGroupUnlockHelp": {
+      "message": "Ontgrendelen doet u via het vervolgkeuzemenu. Als een groep is vergrendeld, kunt u de groep of de tabbladen niet verwijderen en kunnen tabbladen niet worden herschikt."
+   },
+   "makeThisATask": {
+      "message": "Als taak markeren"
+   },
+   "manifestDescription": {
+      "message": "Bespaar tot 95% geheugen en verminder de tabbladchaos"
+   },
+   "markAsArchived": {
+      "message": "Als gearchiveerd markeren"
+   },
+   "markAsArchivedMenuItemHelp": {
+      "message": "Let op: gearchiveerde taken en taken binnen gearchiveerde groepen verschijnen niet in de taakkolom"
+   },
+   "markAsDoneTask": {
+      "message": "Als voltooide taak markeren"
+   },
+   "markAsPendingTask": {
+      "message": "Als lopende taak markeren"
+   },
+   "matchCount_few": {
+      "message": "{COUNT} treffers"
+   },
+   "matchCount_many": {
+      "message": "{COUNT} treffers"
+   },
+   "matchCount_one": {
+      "message": "{COUNT} treffer"
+   },
+   "matchCount_other": {
+      "message": "{COUNT} treffers"
+   },
+   "matchCount_two": {
+      "message": "{COUNT} treffers"
+   },
+   "matchCount_zero": {
+      "message": "{COUNT} treffers"
+   },
+   "matchWholeWordsOnly": {
+      "message": "Alleen volledige woorden"
+   },
+   "mayNeedToRestartBrowser": {
+      "message": "Mogelijk moet u ook uw browser bijwerken en opnieuw starten."
+   },
+   "mergeIntoParent": {
+      "message": "Samenvoegen met bovenliggend element"
+   },
+   "mergeOpenTabsHere_few": {
+      "message": "Voeg {COUNT} open tabbladen hier samen"
+   },
+   "mergeOpenTabsHere_many": {
+      "message": "Voeg {COUNT} open tabbladen hier samen"
+   },
+   "mergeOpenTabsHere_one": {
+      "message": "Voeg {COUNT} open tabblad hier samen"
+   },
+   "mergeOpenTabsHere_other": {
+      "message": "Voeg {COUNT} open tabbladen hier samen"
+   },
+   "mergeOpenTabsHere_two": {
+      "message": "Voeg {COUNT} open tabbladen hier samen"
+   },
+   "mergeOpenTabsHere_zero": {
+      "message": "Voeg {COUNT} open tabbladen hier samen"
+   },
+   "mergeSelectedTabsHere_few": {
+      "message": "Voeg {COUNT} geselecteerde tabbladen hier samen"
+   },
+   "mergeSelectedTabsHere_many": {
+      "message": "Voeg {COUNT} geselecteerde tabbladen hier samen"
+   },
+   "mergeSelectedTabsHere_one": {
+      "message": "Voeg {COUNT} geselecteerd tabblad hier samen"
+   },
+   "mergeSelectedTabsHere_other": {
+      "message": "Voeg {COUNT} geselecteerde tabbladen hier samen"
+   },
+   "mergeSelectedTabsHere_two": {
+      "message": "Voeg {COUNT} geselecteerde tabbladen hier samen"
+   },
+   "mergeSelectedTabsHere_zero": {
+      "message": "Voeg {COUNT} geselecteerde tabbladen hier samen"
+   },
+   "mergeWithInnerGroups": {
+      "message": "Samenvoegen met binnenste groepen"
+   },
+   "modifySharing": {
+      "message": "Delen wijzigen"
+   },
+   "moreEllipsis": {
+      "message": "Meer…"
+   },
+   "moreSearchFilters": {
+      "message": "Meer zoekfilters"
+   },
+   "moreTripleDot": {
+      "message": "Meer…"
+   },
+   "move": {
+      "message": "Verplaatsen"
+   },
+   "moveToTrash": {
+      "message": "Naar prullenbak verplaatsen"
+   },
+   "namedOnly": {
+      "message": "Alleen met naam"
+   },
+   "navigationFilter": {
+      "message": "Navigatiefilter"
+   },
+   "newExclamation": {
+      "message": "Nieuw!"
+   },
+   "noDupsExistExceptForColon": {
+      "message": "Geen duplicaten, behalve:"
+   },
+   "noDupsFoundHere": {
+      "message": "Geen duplicaten gevonden"
+   },
+   "noMatches": {
+      "message": "Geen overeenkomsten"
+   },
+   "noMatchesFound": {
+      "message": "Geen overeenkomsten gevonden"
+   },
+   "noOpenTabsToStore": {
+      "message": "Er zijn geen open tabbladen in dit venster om op te slaan."
+   },
+   "noReadingListEntries": {
+      "message": "Geen leeslijst-items gevonden"
+   },
+   "noTabsInOneTabYet": {
+      "message": "U hebt nog geen tabbladen in OneTab"
+   },
+   "noTabsMeetCriteriaUseCheckboxes": {
+      "message": "Geen open tabbladen voldoen aan uw criteria. Gebruik de bovenstaande selectievakjes."
+   },
+   "noTextHasBeenEntered": {
+      "message": "Er is geen tekst ingevoerd"
+   },
+   "nonArchived": {
+      "message": "Niet gearchiveerd"
+   },
+   "notAssigned": {
+      "message": "Niet toegewezen"
+   },
+   "notes": {
+      "message": "Notities"
+   },
+   "notesAboutTheLinkOptional": {
+      "message": "Notities over de link (optioneel)"
+   },
+   "notesAboutTheSecondLinkOptional": {
+      "message": "Notities over de tweede link (optioneel)"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "omniboxShortcutInfo": {
+      "message": "Uw OneTab-lijst vanuit elk tabblad doorzoeken: ga naar de adresbalk van uw browser, typ 1, dan spatie, vervolgens een zoekwoord."
+   },
+   "oneTabDesignedToProtectPrivacy": {
+      "message": "OneTab is ontworpen om uw privacy te beschermen. Uw tabbladen worden niet aan ons doorgegeven."
+   },
+   "oneTabImportExportPageTitle": {
+      "message": "OneTab importeren/exporteren"
+   },
+   "oneTabNeedsPermissionToAccessYourTabs": {
+      "message": "OneTab heeft toestemming nodig om toegang te krijgen tot uw tabbladen."
+   },
+   "oneTabOptionsPageTitle": {
+      "message": "OneTab-opties"
+   },
+   "oneTabPermissionRequired": {
+      "message": "OneTab - Toestemming vereist"
+   },
+   "oneTabRestartRequired": {
+      "message": "OneTab moet opnieuw worden gestart."
+   },
+   "oneTabSlashShortcutInfo": {
+      "message": "Wanneer u op de OneTab-pagina bent, drukt u op de slash-toets om het zoekvak te activeren."
+   },
+   "open": {
+      "message": "Openen"
+   },
+   "openActionPopup": {
+      "message": "Actiepop-up openen"
+   },
+   "openAsCollapsedTabGroup": {
+      "message": "Openen als een 'samengevouwen' tabgroep"
+   },
+   "openAsCollapsedTabGroupMenuItemHelp": {
+      "message": "Als u deze tabbladen opent als een samengevouwen 'tabgroep', wordt alleen het groepslabel weergegeven totdat u erop klikt om de tabbladen te tonen."
+   },
+   "openAsTabGroup": {
+      "message": "Openen als tabgroep in de browser"
+   },
+   "openAsTabGroupMenuItemHelp": {
+      "message": "Uw browser staat toe dat tabbladen binnen een venster in gekleurde 'tabgroepen' worden gegroepeerd."
+   },
+   "openGroupsLimitNotice_few": {
+      "message": "Om te voorkomen dat uw browser overbelast raakt, worden alleen de eerste {COUNT} groepen geopend."
+   },
+   "openGroupsLimitNotice_many": {
+      "message": "Om te voorkomen dat uw browser overbelast raakt, worden alleen de eerste {COUNT} groepen geopend."
+   },
+   "openGroupsLimitNotice_one": {
+      "message": "Om te voorkomen dat uw browser overbelast raakt, wordt alleen de eerste {COUNT} groep geopend."
+   },
+   "openGroupsLimitNotice_other": {
+      "message": "Om te voorkomen dat uw browser overbelast raakt, worden alleen de eerste {COUNT} groepen geopend."
+   },
+   "openGroupsLimitNotice_two": {
+      "message": "Om te voorkomen dat uw browser overbelast raakt, worden alleen de eerste {COUNT} groepen geopend."
+   },
+   "openGroupsLimitNotice_zero": {
+      "message": "Om te voorkomen dat uw browser overbelast raakt, worden alleen de eerste {COUNT} groepen geopend."
+   },
+   "openInIncognitoWindow": {
+      "message": "Openen in een nieuw incognitovenster"
+   },
+   "openInNewWindow": {
+      "message": "Openen in een nieuw venster"
+   },
+   "openInThisWindow": {
+      "message": "Openen in dit venster"
+   },
+   "openONETABLogo": {
+      "message": "Open ONETAB"
+   },
+   "openOneTab": {
+      "message": "Open OneTab"
+   },
+   "openOneTabAfter": {
+      "message": "OneTab openen na opslaan van tabbladen"
+   },
+   "openTabFromWebsite": {
+      "message": "Open een tabblad en ga naar de website"
+   },
+   "openTabLimit_few": {
+      "message": "Om te voorkomen dat uw browser overbelast raakt, kunnen er maximaal {COUNT} tabbladen tegelijk worden geopend."
+   },
+   "openTabLimit_many": {
+      "message": "Om te voorkomen dat uw browser overbelast raakt, kunnen er maximaal {COUNT} tabbladen tegelijk worden geopend."
+   },
+   "openTabLimit_one": {
+      "message": "Om te voorkomen dat uw browser overbelast raakt, kan er maximaal {COUNT} tabblad tegelijk worden geopend."
+   },
+   "openTabLimit_other": {
+      "message": "Om te voorkomen dat uw browser overbelast raakt, kunnen er maximaal {COUNT} tabbladen tegelijk worden geopend."
+   },
+   "openTabLimit_two": {
+      "message": "Om te voorkomen dat uw browser overbelast raakt, kunnen er maximaal {COUNT} tabbladen tegelijk worden geopend."
+   },
+   "openTabLimit_zero": {
+      "message": "Om te voorkomen dat uw browser overbelast raakt, kunnen er maximaal {COUNT} tabbladen tegelijk worden geopend."
+   },
+   "openTabsAlreadyStoredHere_few": {
+      "message": "{COUNT} open tabbladen die hier al zijn opgeslagen:"
+   },
+   "openTabsAlreadyStoredHere_many": {
+      "message": "{COUNT} open tabbladen die hier al zijn opgeslagen:"
+   },
+   "openTabsAlreadyStoredHere_one": {
+      "message": "{COUNT} open tabblad dat hier al is opgeslagen:"
+   },
+   "openTabsAlreadyStoredHere_other": {
+      "message": "{COUNT} open tabbladen die hier al zijn opgeslagen:"
+   },
+   "openTabsAlreadyStoredHere_two": {
+      "message": "{COUNT} open tabbladen die hier al zijn opgeslagen:"
+   },
+   "openTabsAlreadyStoredHere_zero": {
+      "message": "{COUNT} open tabbladen die hier al zijn opgeslagen:"
+   },
+   "openTabsConfirm_few": {
+      "message": "U staat op het punt {COUNT} tabbladen te openen. Weet u het zeker?"
+   },
+   "openTabsConfirm_many": {
+      "message": "U staat op het punt {COUNT} tabbladen te openen. Weet u het zeker?"
+   },
+   "openTabsConfirm_one": {
+      "message": "U staat op het punt {COUNT} tabblad te openen. Weet u het zeker?"
+   },
+   "openTabsConfirm_other": {
+      "message": "U staat op het punt {COUNT} tabbladen te openen. Weet u het zeker?"
+   },
+   "openTabsConfirm_two": {
+      "message": "U staat op het punt {COUNT} tabbladen te openen. Weet u het zeker?"
+   },
+   "openTabsConfirm_zero": {
+      "message": "U staat op het punt {COUNT} tabbladen te openen. Weet u het zeker?"
+   },
+   "openTabsNotStoredInOneTab_few": {
+      "message": "{COUNT} open tabbladen die niet in OneTab zijn opgeslagen"
+   },
+   "openTabsNotStoredInOneTab_many": {
+      "message": "{COUNT} open tabbladen die niet in OneTab zijn opgeslagen"
+   },
+   "openTabsNotStoredInOneTab_one": {
+      "message": "{COUNT} open tabblad dat niet in OneTab is opgeslagen"
+   },
+   "openTabsNotStoredInOneTab_other": {
+      "message": "{COUNT} open tabbladen die niet in OneTab zijn opgeslagen"
+   },
+   "openTabsNotStoredInOneTab_two": {
+      "message": "{COUNT} open tabbladen die niet in OneTab zijn opgeslagen"
+   },
+   "openTabsNotStoredInOneTab_zero": {
+      "message": "{COUNT} open tabbladen die niet in OneTab zijn opgeslagen"
+   },
+   "optionAutoActionOnGroupOpenArchiveDesc": {
+      "message": "Om te voorkomen dat de groep als gearchiveerd wordt gemarkeerd, houdt u de Alt/Option-toets ingedrukt wanneer u klikt om de groep te openen"
+   },
+   "optionAutoActionOnGroupOpenArchiveTitle": {
+      "message": "De tabbladen openen en de groep als gearchiveerd markeren"
+   },
+   "optionAutoActionOnGroupOpenHeading": {
+      "message": "Automatische actie bij klikken om een groep tabbladen te openen:"
+   },
+   "optionAutoActionOnGroupOpenNote": {
+      "message": "Automatische acties worden niet toegepast op groepen die zijn vergrendeld of die taken zijn."
+   },
+   "optionAutoActionOnGroupOpenOpenDesc": {
+      "message": "Om de groep als gearchiveerd te markeren, houdt u de Alt/Option-toets ingedrukt wanneer u klikt om de groep te openen"
+   },
+   "optionAutoActionOnGroupOpenOpenTitle": {
+      "message": "Alleen de tabbladen openen"
+   },
+   "optionAutoActionOnGroupOpenTrashDesc": {
+      "message": "Om te voorkomen dat de groep automatisch naar de prullenbak wordt verplaatst, houdt u de Alt/Option-toets ingedrukt wanneer u klikt om de groep te openen"
+   },
+   "optionAutoActionOnGroupOpenTrashTitle": {
+      "message": "De tabbladen openen en de groep naar de prullenbak verplaatsen"
+   },
+   "optionAutoActionOnTabOpenArchiveDesc": {
+      "message": "Om te voorkomen dat het tabblad automatisch als gearchiveerd wordt gemarkeerd, houdt u de Alt/Option-toets ingedrukt wanneer u klikt om het tabblad te openen"
+   },
+   "optionAutoActionOnTabOpenArchiveTitle": {
+      "message": "Het tabblad openen en als gearchiveerd markeren"
+   },
+   "optionAutoActionOnTabOpenHeading": {
+      "message": "Automatische actie bij klikken om een tabblad te openen:"
+   },
+   "optionAutoActionOnTabOpenNote": {
+      "message": "Automatische acties worden niet toegepast op tabbladen in groepen die zijn vergrendeld of die taken zijn."
+   },
+   "optionAutoActionOnTabOpenOpenDesc": {
+      "message": "Om het tabblad als gearchiveerd te markeren, houdt u de Alt/Option-toets ingedrukt wanneer u klikt om het tabblad te openen"
+   },
+   "optionAutoActionOnTabOpenOpenTitle": {
+      "message": "Alleen het tabblad openen"
+   },
+   "optionAutoActionOnTabOpenTrashDesc": {
+      "message": "Om te voorkomen dat het tabblad automatisch naar de prullenbak wordt verplaatst, houdt u de Alt/Option-toets ingedrukt wanneer u klikt om het tabblad te openen"
+   },
+   "optionAutoActionOnTabOpenTrashTitle": {
+      "message": "Het tabblad openen en naar de prullenbak verplaatsen"
+   },
+   "optionCopyToClipboardFormatHeading": {
+      "message": "Links naar het klembord kopiëren:"
+   },
+   "optionCopyToClipboardFormatNote": {
+      "message": "Deze instelling is van toepassing wanneer u de actie 'Kopieer naar klembord' gebruikt. U kunt ook tabbladen en groepen rechtstreeks vanuit OneTab naar een document slepen."
+   },
+   "optionCopyToClipboardFormatRichTextDesc": {
+      "message": "Toepassingen zoals tekstverwerkers laten u opgemaakte tekst plakken. Als dit niet wordt ondersteund, wordt platte tekst geplakt."
+   },
+   "optionCopyToClipboardFormatRichTextTitle": {
+      "message": "Opgemaakte tekst, indien beschikbaar"
+   },
+   "optionCopyToClipboardFormatTitleUrlTitle": {
+      "message": "Titel en URL"
+   },
+   "optionCopyToClipboardFormatUrlOnlyTitle": {
+      "message": "Alleen URL"
+   },
+   "optionCopyToClipboardFormatUrlTitleTitle": {
+      "message": "URL en titel"
+   },
+   "optionDefaultTabGroupOpenTypeCurrentWindow": {
+      "message": "De tabgroep van de browser in het huidige venster openen"
+   },
+   "optionDefaultTabGroupOpenTypeHeading": {
+      "message": "Wanneer u klikt om een groep tabbladen te openen die is geconfigureerd om te openen als een \"tabgroep\" in de browser:"
+   },
+   "optionDefaultTabGroupOpenTypeNewWindow": {
+      "message": "De tabgroep van de browser in een nieuw venster openen"
+   },
+   "optionDefaultTabGroupOpenTypeNote": {
+      "message": "Als u via de vervolgkeuzelijst een bepaalde optie kiest (zoals tabbladen openen in een incognitovenster), wordt die optie onthouden voor die specifieke groep."
+   },
+   "optionDefaultWindowGroupOpenTypeCurrentWindow": {
+      "message": "Open de tabbladen in het huidige venster"
+   },
+   "optionDefaultWindowGroupOpenTypeHeading": {
+      "message": "Wanneer u klikt om een groep tabbladen te openen:"
+   },
+   "optionDefaultWindowGroupOpenTypeNewWindow": {
+      "message": "Open de tabbladen in een nieuw venster"
+   },
+   "optionDefaultWindowGroupOpenTypeNote": {
+      "message": "Als u via de vervolgkeuzelijst een bepaalde optie kiest (zoals tabbladen openen in een incognitovenster), wordt die optie onthouden voor die specifieke groep."
+   },
+   "optionDiscardNonActiveTabOnOpenHeading": {
+      "message": "Direct geheugen (RAM) besparen wanneer tabbladen voor het eerst worden geopend:"
+   },
+   "optionDiscardNonActiveTabOnOpenNote": {
+      "message": "Als deze instelling is ingeschakeld, worden tabbladen direct uit het geheugen gehaald wanneer u ze voor het eerst vanuit uw OneTab-lijst opent. Dit is handig als u vaak tientallen tabbladen tegelijk opent, omdat ze dan pas in het geheugen worden geladen wanneer u ze gebruikt. Als deze instelling is uitgeschakeld, zullen veel webbrowsers nog steeds automatisch besluiten om tabbladen uit het geheugen te halen als u ze niet actief gebruikt."
+   },
+   "optionDisplayContextMenuHeading": {
+      "message": "Klik met de rechtermuisknop in een webpagina om toegang te krijgen tot het OneTab-contextmenu:"
+   },
+   "optionDisplayContextMenuNote": {
+      "message": "Als u het menu uitschakelt, kunt u de functie \"Website uitsluiten van OneTab\" niet gebruiken"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenFalseTitle": {
+      "message": "Schakel over naar het venster waarin het OneTab-tabblad al open is"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenHeading": {
+      "message": "Actie 'Open OneTab':"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenNote": {
+      "message": "De actie 'Open OneTab' is beschikbaar via een sneltoets. U vindt deze ook in de pop-up die verschijnt wanneer u op het OneTab-pictogram op de werkbalk van uw browser klikt."
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenTrueTitle": {
+      "message": "Bestaand OneTab-tabblad naar het huidige venster verplaatsen"
+   },
+   "optionStartupLaunchDisplay": {
+      "message": "Open OneTab telkens wanneer u uw browser start"
+   },
+   "optionStartupLaunchNone": {
+      "message": "OneTab niet automatisch openen"
+   },
+   "optionStartupLaunchNoneDesc3": {
+      "message": "Om OneTab handmatig te openen, klikt u op het OneTab-pictogram op de werkbalk van uw browser en kiest u 'Open OneTab'. U kunt ook met de rechtermuisknop in een webpagina klikken en 'Open OneTab' selecteren in het OneTab-menu."
+   },
+   "optionStartupLaunchTitle": {
+      "message": "Opstarten:"
+   },
+   "optionSwitchToOpenedTabFalseTitle": {
+      "message": "Open het tabblad en blijf in OneTab"
+   },
+   "optionSwitchToOpenedTabHeading": {
+      "message": "Bij het openen van tabbladen vanaf de OneTab-pagina:"
+   },
+   "optionSwitchToOpenedTabNote": {
+      "message": "Als u Shift ingedrukt houdt tijdens het klikken, wordt het tabblad in een nieuw venster geopend"
+   },
+   "optionSwitchToOpenedTabTrueTitle": {
+      "message": "Open het tabblad en schakel ernaartoe (tenzij u Command ⌘/Ctrl ingedrukt houdt bij het klikken)"
+   },
+   "optionUrlAbbr": {
+      "message": "Afgekort"
+   },
+   "optionUrlDisplayTitle": {
+      "message": "URL-weergave:"
+   },
+   "optionUrlDomain": {
+      "message": "Alleen domein"
+   },
+   "optionUrlFull": {
+      "message": "Volledig"
+   },
+   "optionUrlNone": {
+      "message": "Geen"
+   },
+   "options": {
+      "message": "Opties"
+   },
+   "otherCopiesColon": {
+      "message": "Andere kopieën:"
+   },
+   "pasteRichOrPlainTextBelow": {
+      "message": "U kunt hieronder opgemaakte of platte tekst plakken."
+   },
+   "pendingTaskCount_few": {
+      "message": "{COUNT} in behandeling"
+   },
+   "pendingTaskCount_many": {
+      "message": "{COUNT} in behandeling"
+   },
+   "pendingTaskCount_one": {
+      "message": "{COUNT} in behandeling"
+   },
+   "pendingTaskCount_other": {
+      "message": "{COUNT} in behandeling"
+   },
+   "pendingTaskCount_two": {
+      "message": "{COUNT} in behandeling"
+   },
+   "pendingTaskCount_zero": {
+      "message": "{COUNT} in behandeling"
+   },
+   "permissionRequiredPleaseTryAgain": {
+      "message": "Om een gedeelde pagina te maken die vanaf elke computer toegankelijk is, is toestemming nodig om te coördineren met de OneTab-webserver. Probeer het opnieuw."
+   },
+   "pinToTopOfFolder": {
+      "message": "Bovenaan in de map vastzetten"
+   },
+   "pinToTopOfList": {
+      "message": "Bovenaan de lijst vastzetten"
+   },
+   "pinnedTabs": {
+      "message": "vastgezette tabbladen"
+   },
+   "placeholderAndOtherLocations_few": {
+      "message": "PLACEHOLDER en {COUNT} anderen"
+   },
+   "placeholderAndOtherLocations_many": {
+      "message": "PLACEHOLDER en {COUNT} anderen"
+   },
+   "placeholderAndOtherLocations_one": {
+      "message": "PLACEHOLDER en {COUNT} ander"
+   },
+   "placeholderAndOtherLocations_other": {
+      "message": "PLACEHOLDER en {COUNT} anderen"
+   },
+   "placeholderAndOtherLocations_two": {
+      "message": "PLACEHOLDER en {COUNT} anderen"
+   },
+   "placeholderAndOtherLocations_zero": {
+      "message": "PLACEHOLDER en {COUNT} anderen"
+   },
+   "placeholderExplanation": {
+      "message": "Vanwege beveiligingsregels van de webbrowser mag OneTab deze pagina niet direct herstellen. Kopieer uw URL en plak die in de adresbalk van uw browser."
+   },
+   "plainTextLineFormat": {
+      "message": "Als u platte tekst plakt, zorg er dan voor dat elke URL een protocol bevat (https://wikipedia.org in plaats van alleen wikipedia.org). Elke regel moet het volgende formaat hebben:"
+   },
+   "pleaseWaitTripleDot": {
+      "message": "Even geduld…"
+   },
+   "popupSlashShortcutInfo": {
+      "message": "Wanneer u in de OneTab-actiepop-up bent (die verschijnt wanneer u op het OneTab-pictogram klikt), drukt u op de slash-toets om de bestemmingskiezer te openen en het zoekvak te activeren."
+   },
+   "privacyAssurance": {
+      "message": "Privacygarantie"
+   },
+   "privacyAssuranceDetail": {
+      "message": "Uw lijst met tabbladen wordt nooit verzonden of bekendgemaakt aan de OneTab-ontwikkelaars of andere partijen. De enige uitzondering is als u bewust de functie 'Delen als webpagina' gebruikt om uw lijst met tabbladen te uploaden naar een webpagina om die met anderen te delen."
+   },
+   "privacyFirst": {
+      "message": "Privacy eerst"
+   },
+   "privacyFirstMessage": {
+      "message": "OneTab is ontworpen om uw privégegevens te beschermen. Uw tabbladen worden alleen op uw computer opgeslagen en nooit gedeeld met de OneTab-ontwikkelaars of enige andere partij.\nAls u onze back-up-/synchronisatiefunctie gebruikt, worden uw gegevens end-to-end versleuteld met sterke AES-256-versleuteling. Hierdoor is het voor de OneTab-ontwikkelaars onmogelijk om de tabbladen te zien die u hebt geback-upt of tussen apparaten hebt gesynchroniseerd, omdat alleen u de versleutelingssleutel hebt.\nDe enige uitzondering is als u er bewust voor kiest om een aantal van uw tabbladen met anderen te delen via de functie 'Delen als webpagina'.\nWij geloven in Privacy eerst."
+   },
+   "privateBrowsingPermissionRequired": {
+      "message": "OneTab heeft toestemming nodig om privévensters te maken."
+   },
+   "privateBrowsingWindows": {
+      "message": "Privénavigatievensters"
+   },
+   "quickList": {
+      "message": "Snellijst"
+   },
+   "rating": {
+      "message": "Beoordeling"
+   },
+   "readingList": {
+      "message": "Leeslijst"
+   },
+   "readingListPermissionNecesssary": {
+      "message": "De machtiging 'Leeslijst' is nodig om OneTab items uit uw leeslijst te laten importeren. Als deze functie niet werkt, ondersteunt uw browser mogelijk geen leeslijsten."
+   },
+   "recent": {
+      "message": "Recent"
+   },
+   "recentDestinationsColon": {
+      "message": "Recente bestemmingen:"
+   },
+   "recentDuplicateRetainedHelp": {
+      "message": "Als een tabblad meerdere keren voorkomt, blijft alleen het meest recente duplicaat behouden"
+   },
+   "recentlyAccessed": {
+      "message": "Recent geopend"
+   },
+   "recentlyCreated": {
+      "message": "Recent gemaakt"
+   },
+   "recentlyModified": {
+      "message": "Recent gewijzigd"
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "message": "Verminder het geheugengebruik met 95%"
+   },
+   "removeDuplicateTabsHere_few": {
+      "message": "Verwijder {COUNT} dubbele tabbladen hierbinnen"
+   },
+   "removeDuplicateTabsHere_many": {
+      "message": "Verwijder {COUNT} dubbele tabbladen hierbinnen"
+   },
+   "removeDuplicateTabsHere_one": {
+      "message": "Verwijder {COUNT} dubbel tabblad hierbinnen"
+   },
+   "removeDuplicateTabsHere_other": {
+      "message": "Verwijder {COUNT} dubbele tabbladen hierbinnen"
+   },
+   "removeDuplicateTabsHere_two": {
+      "message": "Verwijder {COUNT} dubbele tabbladen hierbinnen"
+   },
+   "removeDuplicateTabsHere_zero": {
+      "message": "Verwijder {COUNT} dubbele tabbladen hierbinnen"
+   },
+   "removeDuplicates": {
+      "message": "Duplicaten verwijderen"
+   },
+   "removeFromQuickList": {
+      "message": "Uit snellijst verwijderen"
+   },
+   "removeTabsElsewhereAlsoHere_few": {
+      "message": "Verwijder {COUNT} tabbladen elders die ook hier voorkomen"
+   },
+   "removeTabsElsewhereAlsoHere_many": {
+      "message": "Verwijder {COUNT} tabbladen elders die ook hier voorkomen"
+   },
+   "removeTabsElsewhereAlsoHere_one": {
+      "message": "Verwijder {COUNT} tabblad elders dat ook hier voorkomt"
+   },
+   "removeTabsElsewhereAlsoHere_other": {
+      "message": "Verwijder {COUNT} tabbladen elders die ook hier voorkomen"
+   },
+   "removeTabsElsewhereAlsoHere_two": {
+      "message": "Verwijder {COUNT} tabbladen elders die ook hier voorkomen"
+   },
+   "removeTabsElsewhereAlsoHere_zero": {
+      "message": "Verwijder {COUNT} tabbladen elders die ook hier voorkomen"
+   },
+   "removeTabsHereAlsoElsewhere_few": {
+      "message": "Verwijder {COUNT} tabbladen hier die ook elders voorkomen"
+   },
+   "removeTabsHereAlsoElsewhere_many": {
+      "message": "Verwijder {COUNT} tabbladen hier die ook elders voorkomen"
+   },
+   "removeTabsHereAlsoElsewhere_one": {
+      "message": "Verwijder {COUNT} tabblad hier dat ook elders voorkomt"
+   },
+   "removeTabsHereAlsoElsewhere_other": {
+      "message": "Verwijder {COUNT} tabbladen hier die ook elders voorkomen"
+   },
+   "removeTabsHereAlsoElsewhere_two": {
+      "message": "Verwijder {COUNT} tabbladen hier die ook elders voorkomen"
+   },
+   "removeTabsHereAlsoElsewhere_zero": {
+      "message": "Verwijder {COUNT} tabbladen hier die ook elders voorkomen"
+   },
+   "rename": {
+      "message": "Naam wijzigen"
+   },
+   "restore": {
+      "message": "Herstellen"
+   },
+   "restrictSearchToFolderColon": {
+      "message": "Zoekopdracht beperken tot de volgende map:"
+   },
+   "results": {
+      "message": "Resultaten"
+   },
+   "returnToOneTab": {
+      "message": "Terug naar OneTab"
+   },
+   "reverse": {
+      "message": "Omgekeerd"
+   },
+   "rightClickAndOpenOneTabMenu": {
+      "message": "Klik met de rechtermuisknop op de webpagina en ga naar het OneTab-menu"
+   },
+   "rightClickMenuDisabledNote": {
+      "message": "Opmerking: u hebt het OneTab-rechtermuisknopmenu uitgeschakeld. Schakel het in op de OneTab-optiespagina."
+   },
+   "rightClickSelectionOptionsTip": {
+      "message": "Tip: Nadat u een item hebt aangevinkt, klikt u met de rechtermuisknop op het vinkpictogram om meer selectieopties te tonen"
+   },
+   "rightClickTickTip": {
+      "message": "Tip: Klik met de rechtermuisknop op het vinkpictogram naast elk tabblad voor selectiehulpmiddelen"
+   },
+   "safariApproveOneTabInSettings": {
+      "message": "Ga naar Instellingen en keur OneTab goed om toegang te krijgen tot alle websites."
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "message": "Bespaar tot 95% geheugen en verminder de tabbladchaos in Google Chrome"
+   },
+   "searchHere": {
+      "message": "Hier zoeken"
+   },
+   "searchOneTab": {
+      "message": "OneTab doorzoeken"
+   },
+   "secondExampleLink": {
+      "message": "Tweede voorbeeldlink"
+   },
+   "secondExampleLinkTitle": {
+      "message": "Tweede voorbeeldlinktitel"
+   },
+   "secondExampleLinkTitleOptional": {
+      "message": "Tweede voorbeeldlinktitel (optioneel)"
+   },
+   "seeOtherTabsInThisGroup_few": {
+      "message": "Toon {COUNT} andere tabbladen in deze groep"
+   },
+   "seeOtherTabsInThisGroup_many": {
+      "message": "Toon {COUNT} andere tabbladen in deze groep"
+   },
+   "seeOtherTabsInThisGroup_one": {
+      "message": "Toon {COUNT} ander tabblad in deze groep"
+   },
+   "seeOtherTabsInThisGroup_other": {
+      "message": "Toon {COUNT} andere tabbladen in deze groep"
+   },
+   "seeOtherTabsInThisGroup_two": {
+      "message": "Toon {COUNT} andere tabbladen in deze groep"
+   },
+   "seeOtherTabsInThisGroup_zero": {
+      "message": "Toon {COUNT} andere tabbladen in deze groep"
+   },
+   "seePasteInstructions": {
+      "message": "Plakinstructies bekijken…"
+   },
+   "seeTabsInThisGroup_few": {
+      "message": "Toon {COUNT} tabbladen in deze groep"
+   },
+   "seeTabsInThisGroup_many": {
+      "message": "Toon {COUNT} tabbladen in deze groep"
+   },
+   "seeTabsInThisGroup_one": {
+      "message": "Toon {COUNT} tabblad in deze groep"
+   },
+   "seeTabsInThisGroup_other": {
+      "message": "Toon {COUNT} tabbladen in deze groep"
+   },
+   "seeTabsInThisGroup_two": {
+      "message": "Toon {COUNT} tabbladen in deze groep"
+   },
+   "seeTabsInThisGroup_zero": {
+      "message": "Toon {COUNT} tabbladen in deze groep"
+   },
+   "selectAll": {
+      "message": "Alles selecteren"
+   },
+   "selectAllExceptThis": {
+      "message": "Alles selecteren behalve dit"
+   },
+   "selectThisAndAbove": {
+      "message": "Dit en alles erboven selecteren"
+   },
+   "selectThisAndBelow": {
+      "message": "Dit en alles eronder selecteren"
+   },
+   "selectedItemCount_few": {
+      "message": "{COUNT} items"
+   },
+   "selectedItemCount_many": {
+      "message": "{COUNT} items"
+   },
+   "selectedItemCount_one": {
+      "message": "{COUNT} item"
+   },
+   "selectedItemCount_other": {
+      "message": "{COUNT} items"
+   },
+   "selectedItemCount_two": {
+      "message": "{COUNT} items"
+   },
+   "selectedItemCount_zero": {
+      "message": "{COUNT} items"
+   },
+   "selection": {
+      "message": "Selectie"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "message": "Stuur alle tabbladen van alle vensters naar OneTab"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "message": "Stuur alle tabbladen behalve dit tabblad naar OneTab"
+   },
+   "sendAllTabsInGroupToOneTab": {
+      "message": "Alle tabbladen in deze tabgroep naar OneTab sturen"
+   },
+   "sendAllTabsInWindowToOneTab": {
+      "message": "Alle tabbladen in dit venster naar OneTab sturen"
+   },
+   "sendCurrentTabToOneTab": {
+      "message": "Stuur het huidige tabblad naar OneTab"
+   },
+   "sendLeftTabsToOneTab": {
+      "message": "Stuur tabbladen links naar OneTab"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "message": "Stuur alleen dit tabblad naar OneTab"
+   },
+   "sendRightTabsToOneTab": {
+      "message": "Stuur tabbladen rechts naar OneTab"
+   },
+   "sendSelectedTabsToOneTab": {
+      "message": "Stuur geselecteerde tabbladen naar OneTab"
+   },
+   "sendThisWebLinkToOneTab": {
+      "message": "Stuur deze koppeling naar OneTab"
+   },
+   "serverUnreachable": {
+      "message": "De server is niet bereikbaar. Controleer uw internetverbinding."
+   },
+   "share": {
+      "message": "Delen"
+   },
+   "shareAsAWebPage": {
+      "message": "Delen als webpagina"
+   },
+   "shared": {
+      "message": "Gedeeld"
+   },
+   "sharedExpiresColon": {
+      "message": "Gedeeld als webpagina. Verloopt:"
+   },
+   "sharedPageOptions": {
+      "message": "Opties voor gedeelde pagina"
+   },
+   "sharedPageTabLimit_few": {
+      "message": "Gedeelde pagina's zijn beperkt tot {COUNT} tabbladen"
+   },
+   "sharedPageTabLimit_many": {
+      "message": "Gedeelde pagina's zijn beperkt tot {COUNT} tabbladen"
+   },
+   "sharedPageTabLimit_one": {
+      "message": "Gedeelde pagina's zijn beperkt tot {COUNT} tabblad"
+   },
+   "sharedPageTabLimit_other": {
+      "message": "Gedeelde pagina's zijn beperkt tot {COUNT} tabbladen"
+   },
+   "sharedPageTabLimit_two": {
+      "message": "Gedeelde pagina's zijn beperkt tot {COUNT} tabbladen"
+   },
+   "sharedPageTabLimit_zero": {
+      "message": "Gedeelde pagina's zijn beperkt tot {COUNT} tabbladen"
+   },
+   "sharedPageWillAutomaticallyExpire": {
+      "message": "De gedeelde pagina verloopt automatisch, maar u kunt de vervaldatum op elk moment verlengen."
+   },
+   "shiftDragShortcutInfo": {
+      "message": "Houd de Shift-toets ingedrukt wanneer u een tabblad neerzet om er een kopie van te maken in plaats van het te verplaatsen. Belangrijk: druk pas op de Shift-toets nadat u bent begonnen met slepen."
+   },
+   "showEverything": {
+      "message": "Alles weergeven"
+   },
+   "showFoldersOnly": {
+      "message": "Alleen mappen weergeven"
+   },
+   "showNamedItemsOnly": {
+      "message": "Alleen items met naam weergeven"
+   },
+   "showNamedOnly": {
+      "message": "Alleen items met naam weergeven"
+   },
+   "showNextCount_few": {
+      "message": "Toon volgende {COUNT}"
+   },
+   "showNextCount_many": {
+      "message": "Toon volgende {COUNT}"
+   },
+   "showNextCount_one": {
+      "message": "Toon volgende {COUNT}"
+   },
+   "showNextCount_other": {
+      "message": "Toon volgende {COUNT}"
+   },
+   "showNextCount_two": {
+      "message": "Toon volgende {COUNT}"
+   },
+   "showNextCount_zero": {
+      "message": "Toon volgende {COUNT}"
+   },
+   "showPreviousCount_few": {
+      "message": "Toon vorige {COUNT}"
+   },
+   "showPreviousCount_many": {
+      "message": "Toon vorige {COUNT}"
+   },
+   "showPreviousCount_one": {
+      "message": "Toon vorige {COUNT}"
+   },
+   "showPreviousCount_other": {
+      "message": "Toon vorige {COUNT}"
+   },
+   "showPreviousCount_two": {
+      "message": "Toon vorige {COUNT}"
+   },
+   "showPreviousCount_zero": {
+      "message": "Toon vorige {COUNT}"
+   },
+   "soon": {
+      "message": "zo meteen"
+   },
+   "sort": {
+      "message": "Sorteren"
+   },
+   "sortByColon": {
+      "message": "Sorteren op:"
+   },
+   "sortGroups": {
+      "message": "Groepen sorteren"
+   },
+   "sourceColon": {
+      "message": "Bron:"
+   },
+   "starRatingTooltip": {
+      "message": "Een sterbeoordeling instellen"
+   },
+   "storeSelectedTabsInONETAB_few": {
+      "message": "Sla {COUNT} geselecteerde tabbladen op in ONETAB"
+   },
+   "storeSelectedTabsInONETAB_many": {
+      "message": "Sla {COUNT} geselecteerde tabbladen op in ONETAB"
+   },
+   "storeSelectedTabsInONETAB_one": {
+      "message": "Sla {COUNT} geselecteerd tabblad op in ONETAB"
+   },
+   "storeSelectedTabsInONETAB_other": {
+      "message": "Sla {COUNT} geselecteerde tabbladen op in ONETAB"
+   },
+   "storeSelectedTabsInONETAB_two": {
+      "message": "Sla {COUNT} geselecteerde tabbladen op in ONETAB"
+   },
+   "storeSelectedTabsInONETAB_zero": {
+      "message": "Sla {COUNT} geselecteerde tabbladen op in ONETAB"
+   },
+   "storeTabInAdditionalLocation": {
+      "message": "Tabblad op extra locatie opslaan"
+   },
+   "storeTabInONETAB": {
+      "message": "Tabblad opslaan in ONETAB"
+   },
+   "storeTabsInAdditionalLocation": {
+      "message": "Tabbladen op extra locatie opslaan"
+   },
+   "storeTabsInONETAB": {
+      "message": "Tabbladen opslaan in ONETAB"
+   },
+   "subFoldersNotShared": {
+      "message": "Let op: submappen worden niet gedeeld. Alleen groepen met tabbladen die zich direct in de map bevinden, worden gedeeld."
+   },
+   "tab": {
+      "message": "tabblad"
+   },
+   "tabAlreadyStoredHere": {
+      "message": "Uw open tabblad is hier al opgeslagen:"
+   },
+   "tabCaretTooltipTitleNotes": {
+      "message": "Titel en notities van het tabblad bewerken"
+   },
+   "tabCaretTooltipTitleNotesUrl": {
+      "message": "Titel, URL en notities van het tabblad bewerken"
+   },
+   "tabCount_few": {
+      "message": "{COUNT} tabbladen"
+   },
+   "tabCount_many": {
+      "message": "{COUNT} tabbladen"
+   },
+   "tabCount_one": {
+      "message": "{COUNT} tabblad"
+   },
+   "tabCount_other": {
+      "message": "{COUNT} tabbladen"
+   },
+   "tabCount_two": {
+      "message": "{COUNT} tabbladen"
+   },
+   "tabCount_zero": {
+      "message": "{COUNT} tabbladen"
+   },
+   "tabGroupColorColon": {
+      "message": "Kleur van tabgroep:"
+   },
+   "tabShortcutInfo": {
+      "message": "Wanneer u op de OneTab-pagina bent, drukt u op de Tabtoets om de focus te verplaatsen tussen groepen in de middelste kolom. Zo kunt u snel grote groepen overslaan. Als een groep focus heeft, drukt u op Enter om deze te openen. Gebruik Shift+Tab om de focus achterwaarts te verplaatsen."
+   },
+   "tabTotalCount_few": {
+      "message": "Totaal: {COUNT} tabbladen"
+   },
+   "tabTotalCount_many": {
+      "message": "Totaal: {COUNT} tabbladen"
+   },
+   "tabTotalCount_one": {
+      "message": "Totaal: {COUNT} tabblad"
+   },
+   "tabTotalCount_other": {
+      "message": "Totaal: {COUNT} tabbladen"
+   },
+   "tabTotalCount_two": {
+      "message": "Totaal: {COUNT} tabbladen"
+   },
+   "tabTotalCount_zero": {
+      "message": "Totaal: {COUNT} tabbladen"
+   },
+   "tabs": {
+      "message": "Tabbladen"
+   },
+   "tabsFromExcludedDomains": {
+      "message": "tabbladen van uitgesloten domeinen"
+   },
+   "tabsInTabGroups": {
+      "message": "tabbladen in tabgroepen"
+   },
+   "taskTotalCount_few": {
+      "message": "{COUNT} totaal"
+   },
+   "taskTotalCount_many": {
+      "message": "{COUNT} totaal"
+   },
+   "taskTotalCount_one": {
+      "message": "{COUNT} totaal"
+   },
+   "taskTotalCount_other": {
+      "message": "{COUNT} totaal"
+   },
+   "taskTotalCount_two": {
+      "message": "{COUNT} totaal"
+   },
+   "taskTotalCount_zero": {
+      "message": "{COUNT} totaal"
+   },
+   "tasks": {
+      "message": "Taken"
+   },
+   "tasksDone": {
+      "message": "Taken (voltooid)"
+   },
+   "tasksPending": {
+      "message": "Taken (in behandeling)"
+   },
+   "tasksWillAppearHere": {
+      "message": "Als u tabbladen of groepen als taken markeert, verschijnen ze hier."
+   },
+   "thenClickToolbarIcon": {
+      "message": "Klik daarna opnieuw op het OneTab-pictogram op de werkbalk om OneTab te gebruiken."
+   },
+   "thisFolderIsEmpty": {
+      "message": "Deze map is leeg"
+   },
+   "thisTab": {
+      "message": "Dit tabblad"
+   },
+   "thisTabGroup": {
+      "message": "Deze tabgroep"
+   },
+   "thisTabNotStored": {
+      "message": "Dit tabblad is niet in OneTab opgeslagen"
+   },
+   "thisWindow": {
+      "message": "Dit venster"
+   },
+   "tickOrUntickToExclude": {
+      "message": "Vink aan of uit om de website uit te sluiten"
+   },
+   "title": {
+      "message": "Titel"
+   },
+   "toAddOrRemoveExclusions": {
+      "message": "Een website aan de uitsluitingslijst toevoegen of eruit verwijderen:"
+   },
+   "toAllowOneTabInIncognito": {
+      "message": "Om het OneTab-pictogram zichtbaar te maken in Incognitovensters: "
+   },
+   "toImportBrowserBookmarksUseMenuOption": {
+      "message": "Om vanuit browserbladwijzers te importeren, gebruikt u de menuoptie 'Links hier importeren' op uw OneTab-pagina"
+   },
+   "toMakeOpenButtonWorkApprovePermission": {
+      "message": "Om de knop 'Openen' op gedeelde pagina's te laten werken, keurt u de toestemmingsaanvraag goed."
+   },
+   "toSaveChangesClickButton": {
+      "message": "Klik op de knop om uw wijzigingen op te slaan"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "message": "Te veel tabbladen? Zet uw tabbladen om in een lijst en versnel Firefox"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "message": "Te veel tabbladen? Zet uw tabbladen om in een lijst en versnel Safari"
+   },
+   "total0Tabs": {
+      "message": "Totaal: 0 tabbladen"
+   },
+   "trash": {
+      "message": "Prullenbak"
+   },
+   "unMarkAsTask": {
+      "message": "Markering als taak verwijderen"
+   },
+   "unPin": {
+      "message": "Vastzetten opheffen"
+   },
+   "unlock": {
+      "message": "Ontgrendelen"
+   },
+   "unmarkAsArchived": {
+      "message": "Markering als gearchiveerd verwijderen"
+   },
+   "unshare": {
+      "message": "Delen stoppen"
+   },
+   "untitled": {
+      "message": "Naamloos"
+   },
+   "update": {
+      "message": "Bijwerken"
+   },
+   "userLanguage": {
+      "message": "Nederlands"
+   },
+   "website": {
+      "message": "Website"
+   },
+   "yearCount_few": {
+      "message": "{COUNT} jaar"
+   },
+   "yearCount_many": {
+      "message": "{COUNT} jaar"
+   },
+   "yearCount_one": {
+      "message": "{COUNT} jaar"
+   },
+   "yearCount_other": {
+      "message": "{COUNT} jaar"
+   },
+   "yearCount_two": {
+      "message": "{COUNT} jaar"
+   },
+   "yearCount_zero": {
+      "message": "{COUNT} jaar"
+   },
+   "yourTabAlreadyStoredHere": {
+      "message": "Uw tabblad is hier al opgeslagen:"
+   }
+}

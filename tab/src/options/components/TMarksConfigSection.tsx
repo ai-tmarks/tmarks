@@ -1,3 +1,5 @@
+import { TMARKS_URLS } from '@/lib/constants/urls';
+
 interface TMarksConfigSectionProps {
   formData: {
     bookmarkApiUrl: string;
@@ -33,12 +35,12 @@ export function TMarksConfigSection({ formData, setFormData }: TMarksConfigSecti
             type="url"
             value={formData.bookmarkApiUrl}
             onChange={(e) => setFormData({ ...formData, bookmarkApiUrl: e.target.value })}
-            placeholder="https://tmarks.669696.xyz/api"
+            placeholder={TMARKS_URLS.DEFAULT_API_BASE}
             className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           <p className="mt-2 text-xs text-gray-500 dark:text-gray-400">
             <span className="font-medium">TMarks 官方 API：</span>
-            <code className="ml-1 px-1.5 py-0.5 bg-gray-100 dark:bg-gray-700 rounded">https://tmarks.669696.xyz/api</code>
+            <code className="ml-1 px-1.5 py-0.5 bg-gray-100 dark:bg-gray-700 rounded">{TMARKS_URLS.DEFAULT_API_BASE}</code>
           </p>
           <div className="mt-2 p-3 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
             <p className="text-xs text-gray-600 dark:text-gray-400 mb-2">

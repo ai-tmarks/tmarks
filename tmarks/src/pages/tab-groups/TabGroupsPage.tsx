@@ -1,5 +1,6 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef, useMemo } from 'react'
 import { tabGroupsService } from '@/services/tab-groups'
+import { logger } from '@/lib/logger'
 import type { TabGroup, TabGroupItem } from '@/lib/types'
 import { ShareDialog } from '@/components/tab-groups/ShareDialog'
 import { sortTabGroups, type SortOption } from '@/components/tab-groups/SortSelector'
@@ -16,6 +17,7 @@ import { arrayMove } from '@dnd-kit/sortable'
 import type { DragEndEvent } from '@dnd-kit/core'
 import { useTabGroupActions } from '@/hooks/useTabGroupActions'
 import { useBatchActions } from '@/hooks/useBatchActions'
+import { searchInFields } from '@/lib/search-utils'
 
 export function TabGroupsPage() {
   const [tabGroups, setTabGroups] = useState<TabGroup[]>([])
@@ -23,12 +25,14 @@ export function TabGroupsPage() {
   const [error, setError] = useState<string | null>(null)
   const [deletingId, setDeletingId] = useState<string | null>(null)
   const [searchQuery, setSearchQuery] = useState('')
+  const [debouncedSearchQuery, setDebouncedSearchQuery] = useState('')
   const [highlightedDomain, setHighlightedDomain] = useState<string | null>(null)
   const [selectedItems, setSelectedItems] = useState<Set<string>>(new Set())
   const [batchMode, setBatchMode] = useState(false)
   const [sortBy, setSortBy] = useState<SortOption>('created')
   const [sharingGroupId, setSharingGroupId] = useState<string | null>(null)
   const [selectedGroupId, setSelectedGroupId] = useState<string | null>(null)
+  const searchCleanupTimerRef = useRef<NodeJS.Timeout | null>(null)
 
   // Confirm dialog state
   const [confirmDialog, setConfirmDialog] = useState<{
@@ -89,6 +93,40 @@ export function TabGroupsPage() {
     loadTabGroups()
   }, [])
 
+  // 搜索防抖：延迟300ms更新实际搜索关键词
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setDebouncedSearchQuery(searchQuery)
+    }, 300)
+
+    return () => clearTimeout(timer)
+  }, [searchQuery])
+
+  // 搜索自动清空
+  useEffect(() => {
+    // 清除之前的定时器
+    if (searchCleanupTimerRef.current) {
+      clearTimeout(searchCleanupTimerRef.current)
+      searchCleanupTimerRef.current = null
+    }
+
+    // 如果有搜索关键词，设置15秒后自动清空
+    if (searchQuery.trim()) {
+      searchCleanupTimerRef.current = setTimeout(() => {
+        setSearchQuery('')
+        setDebouncedSearchQuery('')
+      }, 15000) // 15秒
+    }
+
+    // 清理函数
+    return () => {
+      if (searchCleanupTimerRef.current) {
+        clearTimeout(searchCleanupTimerRef.current)
+        searchCleanupTimerRef.current = null
+      }
+    }
+  }, [searchQuery])
+
   const loadTabGroups = async () => {
     try {
       setIsLoading(true)
@@ -96,7 +134,7 @@ export function TabGroupsPage() {
       const groups = await tabGroupsService.getAllTabGroups()
       setTabGroups(groups)
     } catch (err) {
-      console.error('Failed to load tab groups:', err)
+      logger.error('Failed to load tab groups:', err)
       setError('加载标签页组失败')
     } finally {
       setIsLoading(false)
@@ -121,7 +159,7 @@ export function TabGroupsPage() {
         // 中间列会继续显示相同的内容
       }
     } catch (err) {
-      console.error('Failed to refresh tree:', err)
+      logger.error('Failed to refresh tree:', err)
       setError('刷新失败')
     }
   }
@@ -132,7 +170,7 @@ export function TabGroupsPage() {
       // 只刷新左侧树形列表
       await refreshTreeOnly()
     } catch (err) {
-      console.error('Failed to create folder:', err)
+      logger.error('Failed to create folder:', err)
       setError('创建文件夹失败')
     }
   }
@@ -143,19 +181,19 @@ export function TabGroupsPage() {
       // 只刷新左侧树形列表
       await refreshTreeOnly()
     } catch (err) {
-      console.error('Failed to rename group:', err)
+      logger.error('Failed to rename group:', err)
       setError('重命名失败')
     }
   }
 
   const handleMoveGroup = async (groupId: string, newParentId: string | null, newPosition: number) => {
     try {
-      console.log('📦 handleMoveGroup:', { groupId, newParentId, newPosition })
+      logger.log('📦 handleMoveGroup:', { groupId, newParentId, newPosition })
 
       // 获取拖拽项
       const draggedGroup = tabGroups.find(g => g.id === groupId)
       if (!draggedGroup) {
-        console.error('Dragged group not found')
+        logger.error('Dragged group not found')
         return
       }
 
@@ -183,7 +221,7 @@ export function TabGroupsPage() {
         parent_id: newParentId
       }))
 
-      console.log('  → Reordering', updates.length, 'items')
+      logger.log('  → Reordering', updates.length, 'items')
 
       // 批量更新
       await Promise.all(
@@ -198,7 +236,7 @@ export function TabGroupsPage() {
       // 只刷新左侧树形列表，不影响中间和右侧列
       await refreshTreeOnly()
     } catch (err) {
-      console.error('Failed to move group:', err)
+      logger.error('Failed to move group:', err)
       setError('移动失败')
     }
   }
@@ -261,7 +299,7 @@ export function TabGroupsPage() {
         )
       )
     } catch (err) {
-      console.error('Failed to update positions:', err)
+      logger.error('Failed to update positions:', err)
       // Revert on error
       setTabGroups((prev) =>
         prev.map((g) =>
@@ -270,6 +308,79 @@ export function TabGroupsPage() {
       )
     }
   }
+
+  // 使用 useMemo 缓存筛选结果，避免每次渲染都重新计算
+  // 注意：必须在所有提前返回之前调用 hooks
+  const groupFilteredTabGroups = useMemo(() => {
+    if (!tabGroups || tabGroups.length === 0) {
+      return []
+    }
+    
+    if (!selectedGroupId) {
+      return tabGroups
+    }
+    
+    const selectedGroup = tabGroups.find(g => g.id === selectedGroupId)
+    if (!selectedGroup) {
+      return []
+    }
+    
+    // 如果选中的是文件夹，显示文件夹本身和所有子项
+    if (selectedGroup.is_folder === 1) {
+      const children = tabGroups.filter(g => g.parent_id === selectedGroupId)
+      return [selectedGroup, ...children]
+    }
+    
+    // 如果选中的是普通分组，只显示该分组
+    return [selectedGroup]
+  }, [selectedGroupId, tabGroups])
+
+  // 使用防抖后的搜索关键词进行筛选（高性能版）
+  const filteredTabGroups = useMemo(() => {
+    if (!groupFilteredTabGroups || groupFilteredTabGroups.length === 0) {
+      return []
+    }
+    
+    if (!debouncedSearchQuery.trim()) {
+      return groupFilteredTabGroups
+    }
+
+    const query = debouncedSearchQuery
+    const results: TabGroup[] = []
+    
+    for (const group of groupFilteredTabGroups) {
+      // 使用优化的搜索函数
+      const matchesTitle = searchInFields([group.title], query)
+      
+      if (matchesTitle) {
+        // 标题匹配，保留所有 items
+        results.push(group)
+      } else if (group.items && group.items.length > 0) {
+        // 标题不匹配，筛选 items（批量搜索标题和URL）
+        const filteredItems = group.items.filter((item) =>
+          searchInFields([item.title, item.url], query)
+        )
+        
+        if (filteredItems.length > 0) {
+          // 只在有匹配的 items 时才创建新对象
+          results.push({
+            ...group,
+            items: filteredItems,
+          })
+        }
+      }
+    }
+    
+    return results
+  }, [groupFilteredTabGroups, debouncedSearchQuery])
+
+  // 使用 useMemo 缓存排序结果
+  const sortedGroups = useMemo(() => {
+    if (!filteredTabGroups || filteredTabGroups.length === 0) {
+      return []
+    }
+    return sortTabGroups(filteredTabGroups, sortBy)
+  }, [filteredTabGroups, sortBy])
 
   if (isLoading) {
     return (
@@ -300,36 +411,6 @@ export function TabGroupsPage() {
       </div>
     )
   }
-
-  // Filter by selected group first
-  const groupFilteredTabGroups = selectedGroupId
-    ? tabGroups.filter(g => g.id === selectedGroupId)
-    : tabGroups
-
-  // Then filter by search query
-  const filteredTabGroups = groupFilteredTabGroups.map((group) => {
-    if (!searchQuery.trim()) return group
-
-    const query = searchQuery.toLowerCase()
-    const matchesTitle = group.title.toLowerCase().includes(query)
-    const filteredItems = group.items?.filter(
-      (item) =>
-        item.title.toLowerCase().includes(query) ||
-        item.url.toLowerCase().includes(query)
-    )
-
-    if (matchesTitle || (filteredItems && filteredItems.length > 0)) {
-      return {
-        ...group,
-        items: matchesTitle ? group.items : filteredItems,
-      }
-    }
-
-    return null
-  }).filter((g): g is TabGroup => g !== null)
-
-  // Sort filtered groups
-  const sortedGroups = sortTabGroups(filteredTabGroups, sortBy)
 
   return (
     <div className="flex h-screen overflow-hidden bg-background">

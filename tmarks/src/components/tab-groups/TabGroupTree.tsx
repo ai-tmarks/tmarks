@@ -1,4 +1,5 @@
 import type { TabGroup } from '@/lib/types'
+import { logger } from '@/lib/logger'
 import {
   ChevronRight,
   ChevronDown,
@@ -221,7 +222,7 @@ function TreeNode({
         await onRenameGroup(group.id, trimmedTitle)
         setEditingGroupId(null)
       } catch (error) {
-        console.error('Failed to rename:', error)
+        logger.error('Failed to rename:', error)
         alert('重命名失败，请重试')
       }
     }
@@ -641,7 +642,7 @@ export function TabGroupTree({
   const handleDragStart = (event: DragStartEvent) => {
     const draggedId = event.active.id as string
     const draggedGroup = tabGroups.find(g => g.id === draggedId)
-    console.log('🚀🚀🚀 Drag Start:', {
+    logger.log('🚀🚀🚀 Drag Start:', {
       id: draggedId,
       title: draggedGroup?.title,
       isFolder: draggedGroup?.is_folder
@@ -706,7 +707,7 @@ export function TabGroupTree({
     const relativeY = Math.min(Math.max(relativeYRaw, 0), 1)
     const relativeX = Math.min(Math.max(relativeXRaw, 0), 1)
 
-    console.log('🎯 DragOver:', {
+    logger.log('🎯 DragOver:', {
       overId,
       overTitle: overGroup.title,
       isFolder: overGroup.is_folder,
@@ -725,22 +726,22 @@ export function TabGroupTree({
       const insideByHorizontal = relativeX >= 0.45
 
       if (insideByVertical || insideByHorizontal) {
-        console.log('  → inside')
+        logger.log('  → inside')
         setDropPosition('inside') // 中间区域
       } else if (relativeY < 0.15) {
-        console.log('  → before')
+        logger.log('  → before')
         setDropPosition('before') // 上边缘
       } else {
-        console.log('  → after')
+        logger.log('  → after')
         setDropPosition('after') // 下边缘
       }
     } else {
       // 如果是分组，使用两区域逻辑
       if (relativeY < 0.5) {
-        console.log('  → before')
+        logger.log('  → before')
         setDropPosition('before')
       } else {
-        console.log('  → after')
+        logger.log('  → after')
         setDropPosition('after')
       }
     }
@@ -764,7 +765,7 @@ export function TabGroupTree({
 
     if (!draggedGroup || !targetGroup) return
 
-    console.log('🎯 DragEnd:', {
+    logger.log('🎯 DragEnd:', {
       draggedId: draggedGroup.id,
       draggedTitle: draggedGroup.title,
       targetId: targetGroup.id,
@@ -785,7 +786,7 @@ export function TabGroupTree({
         }
 
         if (isDescendant(draggedGroup.id, targetGroup.id)) {
-          console.log('  ❌ Cannot move folder into its descendant')
+          logger.log('  ❌ Cannot move folder into its descendant')
           return
         }
       }
@@ -797,7 +798,7 @@ export function TabGroupTree({
         : -1
       const newPosition = maxPosition + 1
 
-      console.log('  → Moving inside folder, new position:', newPosition)
+      logger.log('  → Moving inside folder, new position:', newPosition)
       await onMoveGroup(draggedGroup.id, targetGroup.id, newPosition)
     } else if (currentDropPosition === 'before' || currentDropPosition === 'after') {
       // 插入到目标的上方或下方（与目标同级）
@@ -813,10 +814,10 @@ export function TabGroupTree({
       let newPosition: number
       if (currentDropPosition === 'before') {
         newPosition = targetGroup.position || 0
-        console.log('  → Moving before target, new position:', newPosition)
+        logger.log('  → Moving before target, new position:', newPosition)
       } else {
         newPosition = (targetGroup.position || 0) + 1
-        console.log('  → Moving after target, new position:', newPosition)
+        logger.log('  → Moving after target, new position:', newPosition)
       }
 
       await onMoveGroup(draggedGroup.id, newParentId, newPosition)
@@ -829,7 +830,7 @@ export function TabGroupTree({
         : -1
       const newPosition = maxPosition + 1
 
-      console.log('  → Moving to same parent, new position:', newPosition)
+      logger.log('  → Moving to same parent, new position:', newPosition)
       await onMoveGroup(draggedGroup.id, newParentId, newPosition)
     }
   }

@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { logger } from '@/lib/logger'
 import { useParams, useNavigate } from 'react-router-dom'
 import {
   ArrowLeft,
@@ -56,7 +57,7 @@ export function TabGroupDetailPage() {
       setTabGroup(group)
       setEditedTitle(group.title)
     } catch (err) {
-      console.error('Failed to load tab group:', err)
+      logger.error('Failed to load tab group:', err)
       setError('加载标签页组失败')
     } finally {
       setIsLoading(false)
@@ -75,7 +76,7 @@ export function TabGroupDetailPage() {
       setIsEditingTitle(false)
       success('标题更新成功')
     } catch (err) {
-      console.error('Failed to update title:', err)
+      logger.error('Failed to update title:', err)
       showError('更新标题失败，请重试')
     } finally {
       setIsSavingTitle(false)
@@ -101,7 +102,7 @@ export function TabGroupDetailPage() {
           success('删除成功')
           navigate('/tab')
         } catch (err) {
-          console.error('Failed to delete tab group:', err)
+          logger.error('Failed to delete tab group:', err)
           showError('删除失败，请重试')
         }
       },
@@ -111,20 +112,51 @@ export function TabGroupDetailPage() {
   const handleRestoreAll = () => {
     if (!tabGroup || !tabGroup.items) return
 
+    const items = tabGroup.items
+    const itemCount = items.length
+
+    // 超过 10 个标签时提供更详细的提示
+    const message = itemCount > 10
+      ? `即将打开 ${itemCount} 个标签页，将分批打开以避免浏览器拦截。\n\n每批 10 个，间隔 1 秒。\n\n是否继续？`
+      : `确定要在新标签页中打开 ${itemCount} 个链接吗？`
+
     setConfirmDialog({
       isOpen: true,
       title: '打开所有标签页',
-      message: `确定要在新标签页中打开 ${tabGroup.items.length} 个链接吗？`,
-      onConfirm: () => {
+      message,
+      onConfirm: async () => {
         setConfirmDialog({ ...confirmDialog, isOpen: false })
-        // Open all tabs in new browser tabs
-        tabGroup.items?.forEach((item, index) => {
-          // Add a small delay to avoid browser blocking
-          setTimeout(() => {
-            window.open(item.url, '_blank', 'noopener,noreferrer')
-          }, index * 100)
-        })
-        success(`已打开 ${tabGroup.items?.length} 个标签页`)
+        
+        const BATCH_SIZE = 10
+        const BATCH_DELAY = 1000
+        const totalBatches = Math.ceil(itemCount / BATCH_SIZE)
+        
+        logger.log(`Opening ${itemCount} tabs in ${totalBatches} batches`)
+        
+        // 分批打开标签页
+        for (let i = 0; i < itemCount; i += BATCH_SIZE) {
+          const currentBatch = Math.floor(i / BATCH_SIZE) + 1
+          const batch = items.slice(i, i + BATCH_SIZE)
+          
+          // 显示进度提示（仅当有多批时）
+          if (totalBatches > 1) {
+            success(`正在打开第 ${currentBatch}/${totalBatches} 批...`)
+          }
+          
+          // 打开当前批次的标签页
+          batch.forEach((item, index) => {
+            setTimeout(() => {
+              window.open(item.url, '_blank', 'noopener,noreferrer')
+            }, index * 100)
+          })
+          
+          // 等待下一批（如果还有）
+          if (i + BATCH_SIZE < itemCount) {
+            await new Promise(resolve => setTimeout(resolve, BATCH_DELAY))
+          }
+        }
+        
+        success(`已成功打开 ${itemCount} 个标签页！`)
       },
     })
   }

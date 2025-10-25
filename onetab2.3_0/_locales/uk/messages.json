@@ -1,0 +1,1715 @@
+{
+   "95PctMemoryReduction": {
+      "message": "Зменшення використання пам’яті на 95%"
+   },
+   "Folder": {
+      "message": "Папка"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "message": "OneTab також доступний для Firefox"
+   },
+   "aDashZ": {
+      "message": "A-Z"
+   },
+   "about": {
+      "message": "Про програму"
+   },
+   "addOneTabNow": {
+      "message": "Встановити OneTab зараз"
+   },
+   "all": {
+      "message": "Усе"
+   },
+   "allBookmarks": {
+      "message": "Усі закладки"
+   },
+   "allOpenTabsAlreadyStoredHere": {
+      "message": "Усі відкриті вкладки вже збережено тут:"
+   },
+   "allowFileAccessInstructions": {
+      "message": "Щоб дозволити відкривати файли безпосередньо, перейдіть до Налаштування ➝ Розширення ➝ OneTab ➝ Докладніше ➝ Дозволити доступ до URL-адрес файлів"
+   },
+   "alreadyExistingOpenTabsWillBeClosedAfterMerge": {
+      "message": "Усі відкриті вкладки, що вже є в цій групі, буде закрито після об’єднання."
+   },
+   "alternatePlainTextFormat": {
+      "message": "Альтернативно, звичайний текст може мати формат:"
+   },
+   "approve": {
+      "message": "Підтвердити"
+   },
+   "archived": {
+      "message": "Архівовані"
+   },
+   "autoTheme": {
+      "message": "Автоматично (згідно з налаштуваннями ОС)"
+   },
+   "backupAndSync": {
+      "message": "Резервне копіювання й синхронізація"
+   },
+   "betaReleaseReportBugsHere": {
+      "message": "Бета-версія — повідомте про помилки тут"
+   },
+   "bookmarkCount_few": {
+      "message": "{COUNT} закладки"
+   },
+   "bookmarkCount_many": {
+      "message": "{COUNT} закладок"
+   },
+   "bookmarkCount_one": {
+      "message": "{COUNT} закладка"
+   },
+   "bookmarkCount_other": {
+      "message": "{COUNT} закладок"
+   },
+   "bookmarkCount_two": {
+      "message": "{COUNT} закладки"
+   },
+   "bookmarkCount_zero": {
+      "message": "{COUNT} закладок"
+   },
+   "bookmarksPermissionNecesssary": {
+      "message": "Потрібен дозвіл на закладки, щоб OneTab міг імпортувати закладки вашого браузера"
+   },
+   "bulkActions": {
+      "message": "Масові дії"
+   },
+   "canDragTextNote": {
+      "message": "Примітка: також можна перетягувати текст, що містить вебпосилання, безпосередньо з іншої вебсторінки або документа. Ви можете перетягувати текст прямо на сторінку OneTab без використання цього поля імпорту."
+   },
+   "canPasteWebContentForExample": {
+      "message": "Можна вставити текст, скопійований з вебсторінки чи документа, і посилання будуть автоматично витягнуті. Наприклад:"
+   },
+   "cancel": {
+      "message": "Скасувати"
+   },
+   "cannotConnectToServerDeletionRequestQueued": {
+      "message": "Не вдається під’єднатися до сервера OneTab. Перевірте підключення до інтернету. Ваш запит на видалення спільної сторінки поставлено в локальну чергу та буде автоматично надіслано на сервер OneTab, щойно він знову стане доступним."
+   },
+   "cannotCreateTabGroupInTabGroup": {
+      "message": "Вибране місце призначення — це група вкладок. Неможливо створити групу вкладок усередині наявної групи вкладок. Виберіть інше місце."
+   },
+   "cannotMixTabsGroupsFoldersDuringDrag": {
+      "message": "Під час перетягування не можна змішувати вкладки, групи та папки. Це тому, що, наприклад, папку не можна перетягнути в ті самі місця, куди можна перетягнути вкладку."
+   },
+   "caseSensitive": {
+      "message": "З урахуванням регістру"
+   },
+   "changesMadeSinceSharedPageCreation": {
+      "message": "Після створення спільної сторінки були внесені зміни. Натисніть кнопку «Оновити», щоб оновити наявну спільну сторінку."
+   },
+   "checkboxesDeterminePinnedAndGroupedTabMergeInclusion": {
+      "message": "Прапорці вгорі сторінки визначають, чи включати закріплені вкладки та вкладки в групах вкладок під час об’єднання."
+   },
+   "chooseALocation": {
+      "message": "Виберіть місце"
+   },
+   "chooseALocationToImportTo": {
+      "message": "Виберіть місце для імпорту"
+   },
+   "chooseExportLocation": {
+      "message": "Виберіть місце для експорту"
+   },
+   "chooseLightDarkTheme": {
+      "message": "Виберіть світлу/темну тему"
+   },
+   "chooseLocationToCopyTo": {
+      "message": "Виберіть місце для копіювання"
+   },
+   "chooseLocationToMoveTo": {
+      "message": "Виберіть місце для переміщення"
+   },
+   "chooseLocationToRestoreTo": {
+      "message": "Виберіть місце для відновлення"
+   },
+   "chooseToIncludeNotes": {
+      "message": "Якщо ви додали нотатки до вкладок чи груп, виберіть, чи включати їх до спільної вебсторінки"
+   },
+   "chooseToIncludeRatings": {
+      "message": "Якщо ви додали оцінки зірками до вкладок чи груп, виберіть, чи включати їх до спільної вебсторінки"
+   },
+   "chromeIncognitoInstructions": {
+      "message": "У налаштуваннях браузера перейдіть до «Налаштування» → «Розширення» → «OneTab» → «Докладніше», а потім увімкніть «Дозволити в режимі інкогніто»."
+   },
+   "clickButtonToAllowTabAccess": {
+      "message": "Натисніть кнопку нижче, щоб дозволити OneTab доступ до ваших відкритих вкладок."
+   },
+   "clickHereToContinue": {
+      "message": "Натисніть тут, щоб продовжити."
+   },
+   "clickOneTabIconToStoreTabsHere": {
+      "message": "Натисніть значок OneTab на панелі інструментів браузера, щоб зберегти відкриті вкладки тут."
+   },
+   "closeSelectedTabsAndStoreInONETAB_few": {
+      "message": "Закрити {COUNT} вибрані вкладки і зберегти в ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_many": {
+      "message": "Закрити {COUNT} вибраних вкладок і зберегти в ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_one": {
+      "message": "Закрити {COUNT} вибрану вкладку і зберегти в ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_other": {
+      "message": "Закрити {COUNT} вибраних вкладок і зберегти в ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_two": {
+      "message": "Закрити {COUNT} вибрані вкладки і зберегти в ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_zero": {
+      "message": "Закрити {COUNT} вибраних вкладок і зберегти в ONETAB"
+   },
+   "closeSelectedTabs_few": {
+      "message": "Закрити {COUNT} вибрані вкладки"
+   },
+   "closeSelectedTabs_many": {
+      "message": "Закрити {COUNT} вибраних вкладок"
+   },
+   "closeSelectedTabs_one": {
+      "message": "Закрити {COUNT} вибрану вкладку"
+   },
+   "closeSelectedTabs_other": {
+      "message": "Закрити {COUNT} вибраних вкладок"
+   },
+   "closeSelectedTabs_two": {
+      "message": "Закрити {COUNT} вибрані вкладки"
+   },
+   "closeSelectedTabs_zero": {
+      "message": "Закрити {COUNT} вибраних вкладок"
+   },
+   "closeTab": {
+      "message": "Закрити вкладку"
+   },
+   "closeTabAndStore": {
+      "message": "Закрити вкладку й зберегти в ONETAB"
+   },
+   "closeTabs": {
+      "message": "Закрити вкладки"
+   },
+   "closeTabsAfterMerge": {
+      "message": "Закривати вкладки після об’єднання"
+   },
+   "closeTabsAlreadyStoredInOneTab_few": {
+      "message": "Закрити {COUNT} вкладки, уже збережені в OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_many": {
+      "message": "Закрити {COUNT} вкладок, уже збережених в OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_one": {
+      "message": "Закрити {COUNT} вкладку, уже збережену в OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_other": {
+      "message": "Закрити {COUNT} вкладок, уже збережених в OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_two": {
+      "message": "Закрити {COUNT} вкладки, уже збережені в OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_zero": {
+      "message": "Закрити {COUNT} вкладок, уже збережених в OneTab"
+   },
+   "closeTabsAndStore": {
+      "message": "Закрити вкладки й зберегти в ONETAB"
+   },
+   "closeTheseDuplicates": {
+      "message": "Закрити ці дублікати"
+   },
+   "closeThisDuplicate": {
+      "message": "Закрити цей дублікат"
+   },
+   "completeEditingShortcutInfo": {
+      "message": "Під час редагування поля нотаток скористайтеся цим сполученням, щоб завершити редагування."
+   },
+   "configureShortcuts": {
+      "message": "Налаштувати сполучення клавіш"
+   },
+   "conflictingShortcutsHint": {
+      "message": "Якщо деякі з наведених вище сполучень клавіш не працюють або конфліктують з іншими застосунками, налаштуйте інше сполучення."
+   },
+   "continue": {
+      "message": "Продовжити"
+   },
+   "convertTabsIntoAList": {
+      "message": "Перетворити вкладки на список"
+   },
+   "copiedToClipboard": {
+      "message": "Скопійовано до буфера обміну"
+   },
+   "copy": {
+      "message": "Копіювати"
+   },
+   "copyLinksToClipboard": {
+      "message": "Копіювати посилання до буфера обміну"
+   },
+   "copySharedPageUrl": {
+      "message": "Копіювати URL-адресу спільної сторінки"
+   },
+   "copyToClipboard": {
+      "message": "Копіювати до буфера обміну"
+   },
+   "createANewGroupHere": {
+      "message": "Створити тут нову групу"
+   },
+   "createFolderAbove": {
+      "message": "Створити папку вище"
+   },
+   "createFolderAboveBelow": {
+      "message": "Створити папку вище / нижче"
+   },
+   "createFolderAboveWithinBelow": {
+      "message": "Створити папку вище / всередині / нижче"
+   },
+   "createFolderBelow": {
+      "message": "Створити папку нижче"
+   },
+   "createFolderWithin": {
+      "message": "Створити папку всередині"
+   },
+   "createGroupAbove": {
+      "message": "Створити групу вище"
+   },
+   "createGroupAboveBelow": {
+      "message": "Створити групу вище / нижче"
+   },
+   "createGroupAboveWithinBelow": {
+      "message": "Створити групу вище / всередині / нижче"
+   },
+   "createGroupBelow": {
+      "message": "Створити групу нижче"
+   },
+   "createGroupInsideDestination": {
+      "message": "Створити нову групу в місці призначення"
+   },
+   "createGroupInsideDestinationHelp": {
+      "message": "Якщо не позначено, ваші вкладки буде додано безпосередньо до групи призначення. Якщо позначено, для ваших вкладок у межах групи призначення буде створено нову групу вкладок браузера. Позначайте цей пункт лише якщо хочете використати функцію браузера \"групи вкладок\"."
+   },
+   "createGroupWithin": {
+      "message": "Створити групу всередині"
+   },
+   "createNewGroupTip": {
+      "message": "Щоб створити нову групу, зніміть позначку \"Показувати лише папки\""
+   },
+   "createdOnOrAfterColon": {
+      "message": "Створено не раніше:"
+   },
+   "createdOnOrBeforeColon": {
+      "message": "Створено не пізніше:"
+   },
+   "createdPreceedingDate": {
+      "message": "Створено"
+   },
+   "darkTheme": {
+      "message": "Темна тема"
+   },
+   "dayCount_few": {
+      "message": "{COUNT} дні"
+   },
+   "dayCount_many": {
+      "message": "{COUNT} днів"
+   },
+   "dayCount_one": {
+      "message": "{COUNT} день"
+   },
+   "dayCount_other": {
+      "message": "{COUNT} днів"
+   },
+   "dayCount_two": {
+      "message": "{COUNT} дні"
+   },
+   "dayCount_zero": {
+      "message": "{COUNT} днів"
+   },
+   "delete": {
+      "message": "Видалити"
+   },
+   "deleteAllTrash": {
+      "message": "Очистити кошик"
+   },
+   "deleteThisCopy": {
+      "message": "Видалити цю копію"
+   },
+   "deselectAll": {
+      "message": "Зняти всі позначення"
+   },
+   "destinationColon": {
+      "message": "Місце призначення:"
+   },
+   "disabled": {
+      "message": "Вимкнено"
+   },
+   "doneTaskCount_few": {
+      "message": "{COUNT} виконано"
+   },
+   "doneTaskCount_many": {
+      "message": "{COUNT} виконано"
+   },
+   "doneTaskCount_one": {
+      "message": "{COUNT} виконано"
+   },
+   "doneTaskCount_other": {
+      "message": "{COUNT} виконано"
+   },
+   "doneTaskCount_two": {
+      "message": "{COUNT} виконано"
+   },
+   "doneTaskCount_zero": {
+      "message": "{COUNT} виконано"
+   },
+   "dontCloseGroupedTabs": {
+      "message": "Не закривати вкладки в групах вкладок"
+   },
+   "dontClosePinnedTabs": {
+      "message": "Не закривати закріплені вкладки"
+   },
+   "dontCloseTabsFromDomains": {
+      "message": "Не закривати вкладки з EXAMPLE.COM"
+   },
+   "dragTabsHereForQuickList": {
+      "message": "Перетягніть сюди збережені вкладки або групи — їх буде додано до вашого швидкого списку."
+   },
+   "editTabGroupTitleAndNotes": {
+      "message": "Редагувати назву та нотатки групи вкладок"
+   },
+   "emojiShortcutInfo": {
+      "message": "Під час редагування поля нотаток скористайтеся цим сполученням, щоб відкрити вибір емодзі."
+   },
+   "emptyInBrackets": {
+      "message": "(порожньо)"
+   },
+   "emptyOneTabInfoMsg": {
+      "message": "Коли у вас відкрито кілька вкладок, натисніть значок OneTab на панелі інструментів браузера — і відкриті вкладки з’являться тут."
+   },
+   "enabled": {
+      "message": "Увімкнено"
+   },
+   "encryptedSyncAndBackup": {
+      "message": "Синхронізація та резервне копіювання з шифруванням"
+   },
+   "encryptedSyncAndBackupComingSoonMessage": {
+      "message": "Незабаром: ви зможете синхронізувати свої дані OneTab між кількома профілями браузера та комп’ютерами.\nOneTab повністю переписано, тож зміни, внесені на одному пристрої, миттєво з’являтимуться на інших.\nЯкщо ви скористаєтеся цією функцією, ваші дані шифруватимуться наскрізно за допомогою AES‑256 високої стійкості. Це унеможливлює для розробників OneTab перегляд вкладок, які ви зарезервували або синхронізували між пристроями, адже ключ шифрування маєте лише ви."
+   },
+   "everything": {
+      "message": "Усе"
+   },
+   "exampleLink": {
+      "message": "Приклад посилання"
+   },
+   "exampleLinkTitle": {
+      "message": "Приклад назви посилання"
+   },
+   "exampleLinkTitleOptional": {
+      "message": "Приклад назви посилання (необов’язково)"
+   },
+   "exampleRichTextParagraph": {
+      "message": "Приклад абзацу тексту з PLACEHOLDER і PLACEHOLDER"
+   },
+   "exampleWebsitePageTitle": {
+      "message": "Приклад назви сторінки вебсайту"
+   },
+   "excludeDomainFromOneTab": {
+      "message": "Виключити EXAMPLE.COM з OneTab"
+   },
+   "excludeWebSiteFromOneTab": {
+      "message": "Виключити цей вебсайт з OneTab"
+   },
+   "expiresColon": {
+      "message": "Спливає:"
+   },
+   "export": {
+      "message": "Експорт"
+   },
+   "exportImportUrls": {
+      "message": "Експорт / імпорт URL-адрес"
+   },
+   "exportThenImportNote": {
+      "message": "Поданий нижче список URL-адрес можна також імпортувати назад до OneTab на цьому чи іншому комп’ютері"
+   },
+   "exportUrls": {
+      "message": "Експорт URL-адрес"
+   },
+   "feedback": {
+      "message": "Відгук"
+   },
+   "filter": {
+      "message": "Фільтр"
+   },
+   "firefoxIncognitoInstructions": {
+      "message": "У налаштуваннях браузера перейдіть до «Налаштування» → «Додатки і теми» → «Розширення» → «OneTab» → «…» → «Керувати», а потім увімкніть «Працювати в приватних вікнах»."
+   },
+   "firefoxShortcutConfigInstructions": {
+      "message": "Введіть URL «about:addons?type=extension» в адресний рядок браузера. Коли сторінка відкриється, натисніть піктограму шестерні й виберіть «Керування сполученнями клавіш розширень»"
+   },
+   "folderCount_few": {
+      "message": "{COUNT} папки"
+   },
+   "folderCount_many": {
+      "message": "{COUNT} папок"
+   },
+   "folderCount_one": {
+      "message": "{COUNT} папка"
+   },
+   "folderCount_other": {
+      "message": "{COUNT} папок"
+   },
+   "folderCount_two": {
+      "message": "{COUNT} папки"
+   },
+   "folderCount_zero": {
+      "message": "{COUNT} папок"
+   },
+   "folders": {
+      "message": "Папки"
+   },
+   "foldersOnly": {
+      "message": "Лише папки"
+   },
+   "gettingStarted": {
+      "message": "Початок роботи"
+   },
+   "goToParentFolder": {
+      "message": "Перейти до батьківської папки"
+   },
+   "groupCount_few": {
+      "message": "{COUNT} групи"
+   },
+   "groupCount_many": {
+      "message": "{COUNT} груп"
+   },
+   "groupCount_one": {
+      "message": "{COUNT} група"
+   },
+   "groupCount_other": {
+      "message": "{COUNT} груп"
+   },
+   "groupCount_two": {
+      "message": "{COUNT} групи"
+   },
+   "groupCount_zero": {
+      "message": "{COUNT} груп"
+   },
+   "groups": {
+      "message": "Групи"
+   },
+   "hasNotes": {
+      "message": "Має нотатки"
+   },
+   "hasRating": {
+      "message": "Має оцінку"
+   },
+   "help": {
+      "message": "Довідка"
+   },
+   "hideArchivedItems": {
+      "message": "Приховувати архівовані елементи"
+   },
+   "import": {
+      "message": "Імпорт"
+   },
+   "importAndExport": {
+      "message": "Імпорт і експорт"
+   },
+   "importBookmarks": {
+      "message": "Імпортувати закладки"
+   },
+   "importFolderAndSubfolders": {
+      "message": "Імпортувати папку та підпапки"
+   },
+   "importLinksHere": {
+      "message": "Імпортувати посилання сюди"
+   },
+   "importReadingList": {
+      "message": "Імпортувати список для читання"
+   },
+   "importText": {
+      "message": "Імпортувати текст"
+   },
+   "importUrls": {
+      "message": "Імпорт URL-адрес"
+   },
+   "importedBookmarks": {
+      "message": "Імпортовані закладки"
+   },
+   "includeGroupedTabs": {
+      "message": "Включати вкладки в групах вкладок"
+   },
+   "includeNotes": {
+      "message": "Додавати нотатки"
+   },
+   "includePinnedTabs": {
+      "message": "Включати закріплені вкладки"
+   },
+   "includeStarRatings": {
+      "message": "Додавати оцінки зірками"
+   },
+   "includeTabsAlreadyStored": {
+      "message": "Включати вкладки, які ви вже зберегли"
+   },
+   "includeTabsFromDomains": {
+      "message": "Включати вкладки з EXAMPLE.COM"
+   },
+   "incogitoPermissionRequired": {
+      "message": "OneTab потрібен дозвіл на створення вікон у режимі інкогніто."
+   },
+   "incognitoWindows": {
+      "message": "Вікна в режимі інкогніто"
+   },
+   "invertSelection": {
+      "message": "Інвертувати вибір"
+   },
+   "justNow": {
+      "message": "щойно"
+   },
+   "keyboardShortcutsColon": {
+      "message": "Сполучення клавіш:"
+   },
+   "languageTitle": {
+      "message": "Мова:"
+   },
+   "lightTheme": {
+      "message": "Світла тема"
+   },
+   "localeId": {
+      "message": "uk"
+   },
+   "locationColon": {
+      "message": "Розташування:"
+   },
+   "lock": {
+      "message": "Заблокувати"
+   },
+   "lockMenuItemHelp": {
+      "message": "Коли групу заблоковано, ви не можете видаляти або змінювати порядок елементів у групі. Під час відкриття заблокованої групи автоматичні дії не застосовуються. Докладніше про автоматичні дії — на сторінці параметрів."
+   },
+   "lockedGroupUnlockHelp": {
+      "message": "Щоб розблокувати, скористайтеся розкривним меню. Коли групу заблоковано, ви не можете видаляти групу чи її вкладки, а також змінювати порядок вкладок."
+   },
+   "makeThisATask": {
+      "message": "Позначити як завдання"
+   },
+   "manifestDescription": {
+      "message": "Заощаджуйте до 95% пам’яті та зменшуйте безлад із вкладками"
+   },
+   "markAsArchived": {
+      "message": "Позначити як архівоване"
+   },
+   "markAsArchivedMenuItemHelp": {
+      "message": "Зауважте: архівовані завдання та завдання в архівованих групах не відображаються в колонці завдань"
+   },
+   "markAsDoneTask": {
+      "message": "Позначити як виконане завдання"
+   },
+   "markAsPendingTask": {
+      "message": "Позначити як поточне завдання"
+   },
+   "matchCount_few": {
+      "message": "{COUNT} збіги"
+   },
+   "matchCount_many": {
+      "message": "{COUNT} збігів"
+   },
+   "matchCount_one": {
+      "message": "{COUNT} збіг"
+   },
+   "matchCount_other": {
+      "message": "{COUNT} збігів"
+   },
+   "matchCount_two": {
+      "message": "{COUNT} збіги"
+   },
+   "matchCount_zero": {
+      "message": "{COUNT} збігів"
+   },
+   "matchWholeWordsOnly": {
+      "message": "Лише цілими словами"
+   },
+   "mayNeedToRestartBrowser": {
+      "message": "Можливо, також знадобиться оновити й перезапустити браузер."
+   },
+   "mergeIntoParent": {
+      "message": "Об’єднати з батьківським елементом"
+   },
+   "mergeOpenTabsHere_few": {
+      "message": "Об’єднати {COUNT} відкриті вкладки тут"
+   },
+   "mergeOpenTabsHere_many": {
+      "message": "Об’єднати {COUNT} відкритих вкладок тут"
+   },
+   "mergeOpenTabsHere_one": {
+      "message": "Об’єднати {COUNT} відкриту вкладку тут"
+   },
+   "mergeOpenTabsHere_other": {
+      "message": "Об’єднати {COUNT} відкритих вкладок тут"
+   },
+   "mergeOpenTabsHere_two": {
+      "message": "Об’єднати {COUNT} відкриті вкладки тут"
+   },
+   "mergeOpenTabsHere_zero": {
+      "message": "Об’єднати {COUNT} відкритих вкладок тут"
+   },
+   "mergeSelectedTabsHere_few": {
+      "message": "Об’єднати {COUNT} вибрані вкладки тут"
+   },
+   "mergeSelectedTabsHere_many": {
+      "message": "Об’єднати {COUNT} вибраних вкладок тут"
+   },
+   "mergeSelectedTabsHere_one": {
+      "message": "Об’єднати {COUNT} вибрану вкладку тут"
+   },
+   "mergeSelectedTabsHere_other": {
+      "message": "Об’єднати {COUNT} вибраних вкладок тут"
+   },
+   "mergeSelectedTabsHere_two": {
+      "message": "Об’єднати {COUNT} вибрані вкладки тут"
+   },
+   "mergeSelectedTabsHere_zero": {
+      "message": "Об’єднати {COUNT} вибраних вкладок тут"
+   },
+   "mergeWithInnerGroups": {
+      "message": "Об’єднати з внутрішніми групами"
+   },
+   "modifySharing": {
+      "message": "Змінити поширення"
+   },
+   "moreEllipsis": {
+      "message": "Ще…"
+   },
+   "moreSearchFilters": {
+      "message": "Додаткові фільтри пошуку"
+   },
+   "moreTripleDot": {
+      "message": "Ще…"
+   },
+   "move": {
+      "message": "Перемістити"
+   },
+   "moveToTrash": {
+      "message": "Перемістити до кошика"
+   },
+   "namedOnly": {
+      "message": "Лише з назвами"
+   },
+   "navigationFilter": {
+      "message": "Фільтр навігації"
+   },
+   "newExclamation": {
+      "message": "Нове!"
+   },
+   "noDupsExistExceptForColon": {
+      "message": "Дублікатів немає, за винятком:"
+   },
+   "noDupsFoundHere": {
+      "message": "Дублікатів тут не знайдено"
+   },
+   "noMatches": {
+      "message": "Немає збігів"
+   },
+   "noMatchesFound": {
+      "message": "Збігів не знайдено"
+   },
+   "noOpenTabsToStore": {
+      "message": "У цьому вікні немає відкритих вкладок для збереження."
+   },
+   "noReadingListEntries": {
+      "message": "Записів у списку для читання не знайдено"
+   },
+   "noTabsInOneTabYet": {
+      "message": "У вас ще немає вкладок у OneTab"
+   },
+   "noTabsMeetCriteriaUseCheckboxes": {
+      "message": "Відкриті вкладки не відповідають вашим критеріям. Скористайтеся прапорцями вище."
+   },
+   "noTextHasBeenEntered": {
+      "message": "Текст не введено"
+   },
+   "nonArchived": {
+      "message": "Неархівовані"
+   },
+   "notAssigned": {
+      "message": "Не призначено"
+   },
+   "notes": {
+      "message": "Нотатки"
+   },
+   "notesAboutTheLinkOptional": {
+      "message": "Примітки до посилання (необов’язково)"
+   },
+   "notesAboutTheSecondLinkOptional": {
+      "message": "Примітки до другого посилання (необов’язково)"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "omniboxShortcutInfo": {
+      "message": "Щоб шукати у своєму списку OneTab з будь-якої вкладки: перейдіть до адресного рядка браузера, введіть 1, потім пробіл і ключове слово пошуку."
+   },
+   "oneTabDesignedToProtectPrivacy": {
+      "message": "OneTab розроблено для захисту вашої приватності. Ваші вкладки нам не передаються."
+   },
+   "oneTabImportExportPageTitle": {
+      "message": "OneTab — імпорт/експорт"
+   },
+   "oneTabNeedsPermissionToAccessYourTabs": {
+      "message": "OneTab потрібен дозвіл на доступ до ваших вкладок."
+   },
+   "oneTabOptionsPageTitle": {
+      "message": "Параметри OneTab"
+   },
+   "oneTabPermissionRequired": {
+      "message": "OneTab — потрібен дозвіл"
+   },
+   "oneTabRestartRequired": {
+      "message": "Потрібен перезапуск OneTab."
+   },
+   "oneTabSlashShortcutInfo": {
+      "message": "На сторінці OneTab натисніть клавішу косої риски, щоб перейти до поля пошуку."
+   },
+   "open": {
+      "message": "Відкрити"
+   },
+   "openActionPopup": {
+      "message": "Відкрити спливаюче вікно дії"
+   },
+   "openAsCollapsedTabGroup": {
+      "message": "Відкрити як «згорнуту» групу вкладок"
+   },
+   "openAsCollapsedTabGroupMenuItemHelp": {
+      "message": "Якщо відкрити ці вкладки як згорнуту \"групу вкладок\", показуватиметься лише мітка групи, доки ви не натиснете її, щоб показати вкладки всередині."
+   },
+   "openAsTabGroup": {
+      "message": "Відкрити як групу вкладок браузера"
+   },
+   "openAsTabGroupMenuItemHelp": {
+      "message": "Ваш браузер дозволяє групувати вкладки у кольорові \"групи вкладок\" у межах вікна."
+   },
+   "openGroupsLimitNotice_few": {
+      "message": "Щоб запобігти перевантаженню браузера, буде відкрито лише перші {COUNT} групи."
+   },
+   "openGroupsLimitNotice_many": {
+      "message": "Щоб запобігти перевантаженню браузера, буде відкрито лише перших {COUNT} груп."
+   },
+   "openGroupsLimitNotice_one": {
+      "message": "Щоб запобігти перевантаженню браузера, буде відкрито лише першу {COUNT} групу."
+   },
+   "openGroupsLimitNotice_other": {
+      "message": "Щоб запобігти перевантаженню браузера, буде відкрито лише перших {COUNT} груп."
+   },
+   "openGroupsLimitNotice_two": {
+      "message": "Щоб запобігти перевантаженню браузера, буде відкрито лише перші {COUNT} групи."
+   },
+   "openGroupsLimitNotice_zero": {
+      "message": "Щоб запобігти перевантаженню браузера, буде відкрито лише перших {COUNT} груп."
+   },
+   "openInIncognitoWindow": {
+      "message": "Відкрити в новому вікні в режимі інкогніто"
+   },
+   "openInNewWindow": {
+      "message": "Відкрити в новому вікні"
+   },
+   "openInThisWindow": {
+      "message": "Відкрити в цьому вікні"
+   },
+   "openONETABLogo": {
+      "message": "Відкрити ONETAB"
+   },
+   "openOneTab": {
+      "message": "Відкрити OneTab"
+   },
+   "openOneTabAfter": {
+      "message": "Відкрити OneTab після збереження вкладок"
+   },
+   "openTabFromWebsite": {
+      "message": "Відкрийте вкладку й перейдіть на вебсайт"
+   },
+   "openTabLimit_few": {
+      "message": "Щоб запобігти перевантаженню браузера, одночасно можна відкрити щонайбільше {COUNT} вкладки."
+   },
+   "openTabLimit_many": {
+      "message": "Щоб запобігти перевантаженню браузера, одночасно можна відкрити щонайбільше {COUNT} вкладок."
+   },
+   "openTabLimit_one": {
+      "message": "Щоб запобігти перевантаженню браузера, одночасно можна відкрити щонайбільше {COUNT} вкладку."
+   },
+   "openTabLimit_other": {
+      "message": "Щоб запобігти перевантаженню браузера, одночасно можна відкрити щонайбільше {COUNT} вкладок."
+   },
+   "openTabLimit_two": {
+      "message": "Щоб запобігти перевантаженню браузера, одночасно можна відкрити щонайбільше {COUNT} вкладки."
+   },
+   "openTabLimit_zero": {
+      "message": "Щоб запобігти перевантаженню браузера, одночасно можна відкрити щонайбільше {COUNT} вкладок."
+   },
+   "openTabsAlreadyStoredHere_few": {
+      "message": "{COUNT} відкриті вкладки вже збережено тут:"
+   },
+   "openTabsAlreadyStoredHere_many": {
+      "message": "{COUNT} відкритих вкладок уже збережено тут:"
+   },
+   "openTabsAlreadyStoredHere_one": {
+      "message": "{COUNT} відкрита вкладка вже збережена тут:"
+   },
+   "openTabsAlreadyStoredHere_other": {
+      "message": "{COUNT} відкритих вкладок уже збережено тут:"
+   },
+   "openTabsAlreadyStoredHere_two": {
+      "message": "{COUNT} відкриті вкладки вже збережено тут:"
+   },
+   "openTabsAlreadyStoredHere_zero": {
+      "message": "{COUNT} відкритих вкладок уже збережено тут:"
+   },
+   "openTabsConfirm_few": {
+      "message": "Ви збираєтеся відкрити {COUNT} вкладки. Ви впевнені?"
+   },
+   "openTabsConfirm_many": {
+      "message": "Ви збираєтеся відкрити {COUNT} вкладок. Ви впевнені?"
+   },
+   "openTabsConfirm_one": {
+      "message": "Ви збираєтеся відкрити {COUNT} вкладку. Ви впевнені?"
+   },
+   "openTabsConfirm_other": {
+      "message": "Ви збираєтеся відкрити {COUNT} вкладок. Ви впевнені?"
+   },
+   "openTabsConfirm_two": {
+      "message": "Ви збираєтеся відкрити {COUNT} вкладки. Ви впевнені?"
+   },
+   "openTabsConfirm_zero": {
+      "message": "Ви збираєтеся відкрити {COUNT} вкладок. Ви впевнені?"
+   },
+   "openTabsNotStoredInOneTab_few": {
+      "message": "{COUNT} відкриті вкладки не збережено в OneTab"
+   },
+   "openTabsNotStoredInOneTab_many": {
+      "message": "{COUNT} відкритих вкладок не збережено в OneTab"
+   },
+   "openTabsNotStoredInOneTab_one": {
+      "message": "{COUNT} відкрита вкладка не збережена в OneTab"
+   },
+   "openTabsNotStoredInOneTab_other": {
+      "message": "{COUNT} відкритих вкладок не збережено в OneTab"
+   },
+   "openTabsNotStoredInOneTab_two": {
+      "message": "{COUNT} відкриті вкладки не збережено в OneTab"
+   },
+   "openTabsNotStoredInOneTab_zero": {
+      "message": "{COUNT} відкритих вкладок не збережено в OneTab"
+   },
+   "optionAutoActionOnGroupOpenArchiveDesc": {
+      "message": "Щоб не позначати групу як архівовану, утримуйте клавішу Alt/Option під час натискання для відкриття групи"
+   },
+   "optionAutoActionOnGroupOpenArchiveTitle": {
+      "message": "Відкрити вкладки та позначити групу як архівовану"
+   },
+   "optionAutoActionOnGroupOpenHeading": {
+      "message": "Автоматична дія під час натискання для відкриття групи вкладок:"
+   },
+   "optionAutoActionOnGroupOpenNote": {
+      "message": "Автоматичні дії не застосовуються до груп, які заблоковано або позначено як завдання."
+   },
+   "optionAutoActionOnGroupOpenOpenDesc": {
+      "message": "Щоб позначити групу як архівовану, утримуйте клавішу Alt/Option під час натискання для відкриття групи"
+   },
+   "optionAutoActionOnGroupOpenOpenTitle": {
+      "message": "Лише відкрити вкладки"
+   },
+   "optionAutoActionOnGroupOpenTrashDesc": {
+      "message": "Щоб не надсилати групу до кошика автоматично, утримуйте клавішу Alt/Option під час натискання для відкриття групи"
+   },
+   "optionAutoActionOnGroupOpenTrashTitle": {
+      "message": "Відкрити вкладки та перемістити групу до кошика"
+   },
+   "optionAutoActionOnTabOpenArchiveDesc": {
+      "message": "Щоб не позначати вкладку як архівовану автоматично, утримуйте клавішу Alt/Option під час натискання для відкриття вкладки"
+   },
+   "optionAutoActionOnTabOpenArchiveTitle": {
+      "message": "Відкрити вкладку та позначити її як архівовану"
+   },
+   "optionAutoActionOnTabOpenHeading": {
+      "message": "Автоматична дія під час відкриття вкладки:"
+   },
+   "optionAutoActionOnTabOpenNote": {
+      "message": "Автоматичні дії не застосовуються до вкладок у групах, які заблоковано або позначено як завдання."
+   },
+   "optionAutoActionOnTabOpenOpenDesc": {
+      "message": "Щоб позначити вкладку як архівовану, утримуйте клавішу Alt/Option під час натискання для відкриття вкладки"
+   },
+   "optionAutoActionOnTabOpenOpenTitle": {
+      "message": "Лише відкрити вкладку"
+   },
+   "optionAutoActionOnTabOpenTrashDesc": {
+      "message": "Щоб не надсилати вкладку до кошика автоматично, утримуйте клавішу Alt/Option під час натискання для відкриття вкладки"
+   },
+   "optionAutoActionOnTabOpenTrashTitle": {
+      "message": "Відкрити вкладку та перемістити її до кошика"
+   },
+   "optionCopyToClipboardFormatHeading": {
+      "message": "Копіювання посилань до буфера обміну:"
+   },
+   "optionCopyToClipboardFormatNote": {
+      "message": "Це налаштування діє, коли ви використовуєте дію «Копіювати до буфера обміну». Також ви можете перетягувати вкладки й групи безпосередньо з OneTab у документ."
+   },
+   "optionCopyToClipboardFormatRichTextDesc": {
+      "message": "У програмах на кшталт текстових процесорів можна вставляти форматований текст. Якщо це не підтримується, буде вставлено звичайний текст."
+   },
+   "optionCopyToClipboardFormatRichTextTitle": {
+      "message": "Форматований текст, де можливо"
+   },
+   "optionCopyToClipboardFormatTitleUrlTitle": {
+      "message": "Заголовок і URL-адреса"
+   },
+   "optionCopyToClipboardFormatUrlOnlyTitle": {
+      "message": "Лише URL-адреса"
+   },
+   "optionCopyToClipboardFormatUrlTitleTitle": {
+      "message": "URL-адреса та заголовок"
+   },
+   "optionDefaultTabGroupOpenTypeCurrentWindow": {
+      "message": "Відкрити групу вкладок браузера в поточному вікні"
+   },
+   "optionDefaultTabGroupOpenTypeHeading": {
+      "message": "Під час натискання для відкриття групи вкладок, налаштованої відкриватися як «група вкладок браузера»:"
+   },
+   "optionDefaultTabGroupOpenTypeNewWindow": {
+      "message": "Відкрити групу вкладок браузера в новому вікні"
+   },
+   "optionDefaultTabGroupOpenTypeNote": {
+      "message": "Якщо в розкривному списку вибрати певний варіант (наприклад, відкрити вкладки у вікні в режимі інкогніто), той варіант запам’ятається для цієї групи."
+   },
+   "optionDefaultWindowGroupOpenTypeCurrentWindow": {
+      "message": "Відкрити вкладки в поточному вікні"
+   },
+   "optionDefaultWindowGroupOpenTypeHeading": {
+      "message": "Під час натискання для відкриття групи вкладок:"
+   },
+   "optionDefaultWindowGroupOpenTypeNewWindow": {
+      "message": "Відкрити вкладки в новому вікні"
+   },
+   "optionDefaultWindowGroupOpenTypeNote": {
+      "message": "Якщо в розкривному списку вибрати певний варіант (наприклад, відкрити вкладки у вікні в режимі інкогніто), той варіант запам’ятається для цієї групи."
+   },
+   "optionDiscardNonActiveTabOnOpenHeading": {
+      "message": "Негайно заощаджувати пам’ять (RAM) під час першого відкриття вкладок:"
+   },
+   "optionDiscardNonActiveTabOnOpenNote": {
+      "message": "Якщо ввімкнути цей параметр, вкладки буде одразу вивантажено з пам’яті під час першого відкриття їх зі списку OneTab. Це корисно, якщо ви часто відкриваєте десятки вкладок одночасно: вкладки не завантажуватимуться в пам’ять, доки ви до них не звернетеся. Якщо вимкнути цей параметр, багато веббраузерів усе одно можуть автоматично вивантажувати з пам’яті вкладки, якими ви зараз не користуєтеся."
+   },
+   "optionDisplayContextMenuHeading": {
+      "message": "Клацніть правою кнопкою на вебсторінці, щоб відкрити контекстне меню OneTab:"
+   },
+   "optionDisplayContextMenuNote": {
+      "message": "Якщо вимкнути меню, ви не зможете скористатися функцією «Виключити вебсайт з OneTab»"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenFalseTitle": {
+      "message": "Перемкнутися на вікно, де вкладка OneTab уже відкрита"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenHeading": {
+      "message": "Дія \"Відкрити OneTab\":"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenNote": {
+      "message": "Дію \"Відкрити OneTab\" можна викликати сполученням клавіш. Також вона доступна у спливаючому вікні, яке з’являється після натискання значка OneTab на панелі інструментів браузера."
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenTrueTitle": {
+      "message": "Перемістити будь-яку наявну вкладку OneTab у поточне вікно"
+   },
+   "optionStartupLaunchDisplay": {
+      "message": "Відкривати OneTab під час запуску браузера"
+   },
+   "optionStartupLaunchNone": {
+      "message": "Не відкривати OneTab автоматично"
+   },
+   "optionStartupLaunchNoneDesc3": {
+      "message": "Щоб відкрити OneTab вручну, натисніть значок OneTab на панелі інструментів браузера й виберіть «Відкрити OneTab». Або клацніть правою кнопкою на будь-якій вебсторінці й у меню OneTab натисніть «Відкрити OneTab»."
+   },
+   "optionStartupLaunchTitle": {
+      "message": "Запуск:"
+   },
+   "optionSwitchToOpenedTabFalseTitle": {
+      "message": "Відкрити вкладку й залишитися в OneTab"
+   },
+   "optionSwitchToOpenedTabHeading": {
+      "message": "Під час відкриття вкладок зі сторінки OneTab:"
+   },
+   "optionSwitchToOpenedTabNote": {
+      "message": "Якщо під час натискання утримувати Shift, вкладка відкриється в новому вікні"
+   },
+   "optionSwitchToOpenedTabTrueTitle": {
+      "message": "Відкрити вкладку й перемкнутися на неї (якщо під час натискання не утримуєте Command ⌘/Ctrl)"
+   },
+   "optionUrlAbbr": {
+      "message": "Скорочено"
+   },
+   "optionUrlDisplayTitle": {
+      "message": "Відображення URL:"
+   },
+   "optionUrlDomain": {
+      "message": "Лише домен"
+   },
+   "optionUrlFull": {
+      "message": "Повністю"
+   },
+   "optionUrlNone": {
+      "message": "Немає"
+   },
+   "options": {
+      "message": "Параметри"
+   },
+   "otherCopiesColon": {
+      "message": "Інші копії:"
+   },
+   "pasteRichOrPlainTextBelow": {
+      "message": "Нижче можна вставити форматований або звичайний текст."
+   },
+   "pendingTaskCount_few": {
+      "message": "{COUNT} в очікуванні"
+   },
+   "pendingTaskCount_many": {
+      "message": "{COUNT} в очікуванні"
+   },
+   "pendingTaskCount_one": {
+      "message": "{COUNT} в очікуванні"
+   },
+   "pendingTaskCount_other": {
+      "message": "{COUNT} в очікуванні"
+   },
+   "pendingTaskCount_two": {
+      "message": "{COUNT} в очікуванні"
+   },
+   "pendingTaskCount_zero": {
+      "message": "{COUNT} в очікуванні"
+   },
+   "permissionRequiredPleaseTryAgain": {
+      "message": "Щоб створити спільну сторінку, доступну з будь-якого комп’ютера, потрібен дозвіл на взаємодію з вебсервером OneTab. Спробуйте ще раз."
+   },
+   "pinToTopOfFolder": {
+      "message": "Закріпити зверху папки"
+   },
+   "pinToTopOfList": {
+      "message": "Закріпити зверху списку"
+   },
+   "pinnedTabs": {
+      "message": "закріплені вкладки"
+   },
+   "placeholderAndOtherLocations_few": {
+      "message": "PLACEHOLDER та ще {COUNT} інші"
+   },
+   "placeholderAndOtherLocations_many": {
+      "message": "PLACEHOLDER та ще {COUNT} інших"
+   },
+   "placeholderAndOtherLocations_one": {
+      "message": "PLACEHOLDER та ще {COUNT} інша"
+   },
+   "placeholderAndOtherLocations_other": {
+      "message": "PLACEHOLDER та ще {COUNT} інших"
+   },
+   "placeholderAndOtherLocations_two": {
+      "message": "PLACEHOLDER та ще {COUNT} інші"
+   },
+   "placeholderAndOtherLocations_zero": {
+      "message": "PLACEHOLDER та ще {COUNT} інших"
+   },
+   "placeholderExplanation": {
+      "message": "Через правила безпеки веббраузера OneTab не може безпосередньо відновити цю сторінку. Скопіюйте свою URL-адресу та вставте її в адресний рядок браузера."
+   },
+   "plainTextLineFormat": {
+      "message": "Якщо ви вставляєте звичайний текст, переконайтеся, що в кожному URL вказано протокол (https://wikipedia.org, а не просто wikipedia.org). Кожен рядок має бути в такому форматі:"
+   },
+   "pleaseWaitTripleDot": {
+      "message": "Зачекайте…"
+   },
+   "popupSlashShortcutInfo": {
+      "message": "У спливаючому вікні OneTab (яке з’являється після натискання значка OneTab) натисніть клавішу косої риски, щоб відкрити вибір місця призначення та сфокусувати поле пошуку."
+   },
+   "privacyAssurance": {
+      "message": "Гарантія конфіденційності"
+   },
+   "privacyAssuranceDetail": {
+      "message": "Ваш список вкладок ніколи не передається й не розкривається ні розробникам OneTab, ні будь-кому іншому. Єдиний виняток — якщо ви навмисно скористаєтеся функцією «поділитися як вебсторінкою», щоб завантажити список вкладок на вебсторінку для спільного доступу з іншими."
+   },
+   "privacyFirst": {
+      "message": "Приватність насамперед"
+   },
+   "privacyFirstMessage": {
+      "message": "OneTab розроблено для захисту ваших персональних даних. Ваші вкладки зберігаються лише на вашому комп’ютері й ніколи не передаються розробникам OneTab чи будь‑якій іншій стороні.\nЯкщо ви користуєтеся функцією резервування/синхронізації, ваші дані шифруються наскрізним шифруванням AES‑256 високої стійкості. Це унеможливлює для розробників OneTab перегляд вкладок, які ви зарезервували або синхронізували між пристроями, адже ключ шифрування маєте лише ви.\nЄдиний виняток — якщо ви навмисно вирішите поділитися частиною вкладок через функцію \"Поділитися як вебсторінкою\".\nМи дотримуємося принципу Privacy First."
+   },
+   "privateBrowsingPermissionRequired": {
+      "message": "OneTab потрібен дозвіл на створення приватних вікон."
+   },
+   "privateBrowsingWindows": {
+      "message": "Вікна приватного перегляду"
+   },
+   "quickList": {
+      "message": "Швидкий список"
+   },
+   "rating": {
+      "message": "Оцінка"
+   },
+   "readingList": {
+      "message": "Список для читання"
+   },
+   "readingListPermissionNecesssary": {
+      "message": "Потрібен дозвіл на список для читання, щоб OneTab міг імпортувати елементи з вашого списку для читання. Якщо функція не працює, можливо, ваш браузер не підтримує списки для читання."
+   },
+   "recent": {
+      "message": "Нещодавні"
+   },
+   "recentDestinationsColon": {
+      "message": "Нещодавні місця призначення:"
+   },
+   "recentDuplicateRetainedHelp": {
+      "message": "Якщо вкладка трапляється кілька разів, буде збережено лише найновіший дублікат"
+   },
+   "recentlyAccessed": {
+      "message": "Нещодавно відкриті"
+   },
+   "recentlyCreated": {
+      "message": "Нещодавно створені"
+   },
+   "recentlyModified": {
+      "message": "Нещодавно змінені"
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "message": "Зменшіть використання пам’яті на 95%"
+   },
+   "removeDuplicateTabsHere_few": {
+      "message": "Видалити {COUNT} дублікати вкладок тут"
+   },
+   "removeDuplicateTabsHere_many": {
+      "message": "Видалити {COUNT} дублікатів вкладок тут"
+   },
+   "removeDuplicateTabsHere_one": {
+      "message": "Видалити {COUNT} дублікат вкладки тут"
+   },
+   "removeDuplicateTabsHere_other": {
+      "message": "Видалити {COUNT} дублікатів вкладок тут"
+   },
+   "removeDuplicateTabsHere_two": {
+      "message": "Видалити {COUNT} дублікати вкладок тут"
+   },
+   "removeDuplicateTabsHere_zero": {
+      "message": "Видалити {COUNT} дублікатів вкладок тут"
+   },
+   "removeDuplicates": {
+      "message": "Видалити дублікати"
+   },
+   "removeFromQuickList": {
+      "message": "Вилучити зі швидкого списку"
+   },
+   "removeTabsElsewhereAlsoHere_few": {
+      "message": "Видалити {COUNT} вкладки в інших місцях, які також є тут"
+   },
+   "removeTabsElsewhereAlsoHere_many": {
+      "message": "Видалити {COUNT} вкладок в інших місцях, які також є тут"
+   },
+   "removeTabsElsewhereAlsoHere_one": {
+      "message": "Видалити {COUNT} вкладку в інших місцях, яка також є тут"
+   },
+   "removeTabsElsewhereAlsoHere_other": {
+      "message": "Видалити {COUNT} вкладок в інших місцях, які також є тут"
+   },
+   "removeTabsElsewhereAlsoHere_two": {
+      "message": "Видалити {COUNT} вкладки в інших місцях, які також є тут"
+   },
+   "removeTabsElsewhereAlsoHere_zero": {
+      "message": "Видалити {COUNT} вкладок в інших місцях, які також є тут"
+   },
+   "removeTabsHereAlsoElsewhere_few": {
+      "message": "Видалити {COUNT} вкладки тут, які також є в інших місцях"
+   },
+   "removeTabsHereAlsoElsewhere_many": {
+      "message": "Видалити {COUNT} вкладок тут, які також є в інших місцях"
+   },
+   "removeTabsHereAlsoElsewhere_one": {
+      "message": "Видалити {COUNT} вкладку тут, яка також є в інших місцях"
+   },
+   "removeTabsHereAlsoElsewhere_other": {
+      "message": "Видалити {COUNT} вкладок тут, які також є в інших місцях"
+   },
+   "removeTabsHereAlsoElsewhere_two": {
+      "message": "Видалити {COUNT} вкладки тут, які також є в інших місцях"
+   },
+   "removeTabsHereAlsoElsewhere_zero": {
+      "message": "Видалити {COUNT} вкладок тут, які також є в інших місцях"
+   },
+   "rename": {
+      "message": "Перейменувати"
+   },
+   "restore": {
+      "message": "Відновити"
+   },
+   "restrictSearchToFolderColon": {
+      "message": "Обмежити пошук такою папкою:"
+   },
+   "results": {
+      "message": "Результати"
+   },
+   "returnToOneTab": {
+      "message": "Повернутися до OneTab"
+   },
+   "reverse": {
+      "message": "Зворотний порядок"
+   },
+   "rightClickAndOpenOneTabMenu": {
+      "message": "Клацніть правою кнопкою на вебсторінці й відкрийте меню OneTab"
+   },
+   "rightClickMenuDisabledNote": {
+      "message": "Примітка: ви вимкнули контекстне меню OneTab. Увімкніть його на сторінці параметрів OneTab."
+   },
+   "rightClickSelectionOptionsTip": {
+      "message": "Порада: після позначення елемента клацніть правою кнопкою на значку галочки, щоб відкрити додаткові параметри вибору"
+   },
+   "rightClickTickTip": {
+      "message": "Порада: клацніть правою кнопкою на значку галочки біля кожної вкладки, щоб відкрити засоби вибору"
+   },
+   "safariApproveOneTabInSettings": {
+      "message": "Перейдіть до Параметрів і дозвольте OneTab доступ до всіх вебсайтів."
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "message": "Заощаджуйте до 95% пам’яті та зменшуйте безлад із вкладками в Google Chrome"
+   },
+   "searchHere": {
+      "message": "Шукати тут"
+   },
+   "searchOneTab": {
+      "message": "Пошук у OneTab"
+   },
+   "secondExampleLink": {
+      "message": "Друге прикладове посилання"
+   },
+   "secondExampleLinkTitle": {
+      "message": "Друга прикладова назва посилання"
+   },
+   "secondExampleLinkTitleOptional": {
+      "message": "Друга прикладова назва посилання (необов’язково)"
+   },
+   "seeOtherTabsInThisGroup_few": {
+      "message": "Переглянути {COUNT} інші вкладки у цій групі"
+   },
+   "seeOtherTabsInThisGroup_many": {
+      "message": "Переглянути {COUNT} інших вкладок у цій групі"
+   },
+   "seeOtherTabsInThisGroup_one": {
+      "message": "Переглянути {COUNT} іншу вкладку у цій групі"
+   },
+   "seeOtherTabsInThisGroup_other": {
+      "message": "Переглянути {COUNT} інших вкладок у цій групі"
+   },
+   "seeOtherTabsInThisGroup_two": {
+      "message": "Переглянути {COUNT} інші вкладки у цій групі"
+   },
+   "seeOtherTabsInThisGroup_zero": {
+      "message": "Переглянути {COUNT} інших вкладок у цій групі"
+   },
+   "seePasteInstructions": {
+      "message": "Переглянути інструкції щодо вставлення…"
+   },
+   "seeTabsInThisGroup_few": {
+      "message": "Переглянути {COUNT} вкладки у цій групі"
+   },
+   "seeTabsInThisGroup_many": {
+      "message": "Переглянути {COUNT} вкладок у цій групі"
+   },
+   "seeTabsInThisGroup_one": {
+      "message": "Переглянути {COUNT} вкладку у цій групі"
+   },
+   "seeTabsInThisGroup_other": {
+      "message": "Переглянути {COUNT} вкладок у цій групі"
+   },
+   "seeTabsInThisGroup_two": {
+      "message": "Переглянути {COUNT} вкладки у цій групі"
+   },
+   "seeTabsInThisGroup_zero": {
+      "message": "Переглянути {COUNT} вкладок у цій групі"
+   },
+   "selectAll": {
+      "message": "Вибрати все"
+   },
+   "selectAllExceptThis": {
+      "message": "Вибрати все, крім цього"
+   },
+   "selectThisAndAbove": {
+      "message": "Вибрати цей елемент і всі вище"
+   },
+   "selectThisAndBelow": {
+      "message": "Вибрати цей елемент і всі нижче"
+   },
+   "selectedItemCount_few": {
+      "message": "{COUNT} елементи"
+   },
+   "selectedItemCount_many": {
+      "message": "{COUNT} елементів"
+   },
+   "selectedItemCount_one": {
+      "message": "{COUNT} елемент"
+   },
+   "selectedItemCount_other": {
+      "message": "{COUNT} елементів"
+   },
+   "selectedItemCount_two": {
+      "message": "{COUNT} елементи"
+   },
+   "selectedItemCount_zero": {
+      "message": "{COUNT} елементів"
+   },
+   "selection": {
+      "message": "Вибір"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "message": "Надіслати всі вкладки з усіх вікон до OneTab"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "message": "Надіслати всі вкладки, крім цієї, до OneTab"
+   },
+   "sendAllTabsInGroupToOneTab": {
+      "message": "Надіслати всі вкладки в цій групі вкладок до OneTab"
+   },
+   "sendAllTabsInWindowToOneTab": {
+      "message": "Надіслати всі вкладки в цьому вікні до OneTab"
+   },
+   "sendCurrentTabToOneTab": {
+      "message": "Надіслати поточну вкладку до OneTab"
+   },
+   "sendLeftTabsToOneTab": {
+      "message": "Надіслати вкладки ліворуч до OneTab"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "message": "Надіслати лише цю вкладку до OneTab"
+   },
+   "sendRightTabsToOneTab": {
+      "message": "Надіслати вкладки праворуч до OneTab"
+   },
+   "sendSelectedTabsToOneTab": {
+      "message": "Надіслати вибрані вкладки до OneTab"
+   },
+   "sendThisWebLinkToOneTab": {
+      "message": "Надіслати це вебпосилання до OneTab"
+   },
+   "serverUnreachable": {
+      "message": "Сервер недоступний. Перевірте підключення до інтернету."
+   },
+   "share": {
+      "message": "Поділитися"
+   },
+   "shareAsAWebPage": {
+      "message": "Поділитися як вебсторінкою"
+   },
+   "shared": {
+      "message": "Спільні"
+   },
+   "sharedExpiresColon": {
+      "message": "Поширено як вебсторінку. Спливає:"
+   },
+   "sharedPageOptions": {
+      "message": "Параметри спільної сторінки"
+   },
+   "sharedPageTabLimit_few": {
+      "message": "Спільні сторінки обмежено {COUNT} вкладками"
+   },
+   "sharedPageTabLimit_many": {
+      "message": "Спільні сторінки обмежено {COUNT} вкладками"
+   },
+   "sharedPageTabLimit_one": {
+      "message": "Спільні сторінки обмежено {COUNT} вкладкою"
+   },
+   "sharedPageTabLimit_other": {
+      "message": "Спільні сторінки обмежено {COUNT} вкладками"
+   },
+   "sharedPageTabLimit_two": {
+      "message": "Спільні сторінки обмежено {COUNT} вкладками"
+   },
+   "sharedPageTabLimit_zero": {
+      "message": "Спільні сторінки обмежено {COUNT} вкладками"
+   },
+   "sharedPageWillAutomaticallyExpire": {
+      "message": "Спільна сторінка автоматично втратить чинність, але ви можете будь-коли продовжити строк дії."
+   },
+   "shiftDragShortcutInfo": {
+      "message": "Утримуйте клавішу Shift, коли відпускаєте вкладку, щоб створити її копію замість переміщення. Важливо: натискайте Shift лише після того, як почали перетягування."
+   },
+   "showEverything": {
+      "message": "Показувати все"
+   },
+   "showFoldersOnly": {
+      "message": "Показувати лише папки"
+   },
+   "showNamedItemsOnly": {
+      "message": "Показувати лише елементи з назвами"
+   },
+   "showNamedOnly": {
+      "message": "Показувати лише елементи з назвами"
+   },
+   "showNextCount_few": {
+      "message": "Показати наступні {COUNT}"
+   },
+   "showNextCount_many": {
+      "message": "Показати наступні {COUNT}"
+   },
+   "showNextCount_one": {
+      "message": "Показати наступний {COUNT}"
+   },
+   "showNextCount_other": {
+      "message": "Показати наступні {COUNT}"
+   },
+   "showNextCount_two": {
+      "message": "Показати наступні {COUNT}"
+   },
+   "showNextCount_zero": {
+      "message": "Показати наступні {COUNT}"
+   },
+   "showPreviousCount_few": {
+      "message": "Показати попередні {COUNT}"
+   },
+   "showPreviousCount_many": {
+      "message": "Показати попередні {COUNT}"
+   },
+   "showPreviousCount_one": {
+      "message": "Показати попередній {COUNT}"
+   },
+   "showPreviousCount_other": {
+      "message": "Показати попередні {COUNT}"
+   },
+   "showPreviousCount_two": {
+      "message": "Показати попередні {COUNT}"
+   },
+   "showPreviousCount_zero": {
+      "message": "Показати попередні {COUNT}"
+   },
+   "soon": {
+      "message": "незабаром"
+   },
+   "sort": {
+      "message": "Сортування"
+   },
+   "sortByColon": {
+      "message": "Сортувати за:"
+   },
+   "sortGroups": {
+      "message": "Сортувати групи"
+   },
+   "sourceColon": {
+      "message": "Джерело:"
+   },
+   "starRatingTooltip": {
+      "message": "Призначити оцінку зірками"
+   },
+   "storeSelectedTabsInONETAB_few": {
+      "message": "Зберегти {COUNT} вибрані вкладки в ONETAB"
+   },
+   "storeSelectedTabsInONETAB_many": {
+      "message": "Зберегти {COUNT} вибраних вкладок в ONETAB"
+   },
+   "storeSelectedTabsInONETAB_one": {
+      "message": "Зберегти {COUNT} вибрану вкладку в ONETAB"
+   },
+   "storeSelectedTabsInONETAB_other": {
+      "message": "Зберегти {COUNT} вибраних вкладок в ONETAB"
+   },
+   "storeSelectedTabsInONETAB_two": {
+      "message": "Зберегти {COUNT} вибрані вкладки в ONETAB"
+   },
+   "storeSelectedTabsInONETAB_zero": {
+      "message": "Зберегти {COUNT} вибраних вкладок в ONETAB"
+   },
+   "storeTabInAdditionalLocation": {
+      "message": "Зберегти вкладку ще в одному місці"
+   },
+   "storeTabInONETAB": {
+      "message": "Зберегти вкладку в ONETAB"
+   },
+   "storeTabsInAdditionalLocation": {
+      "message": "Зберегти вкладки ще в одному місці"
+   },
+   "storeTabsInONETAB": {
+      "message": "Зберегти вкладки в ONETAB"
+   },
+   "subFoldersNotShared": {
+      "message": "Зауважте: підпапки не поширюються. Поширюються лише групи вкладок безпосередньо у папці."
+   },
+   "tab": {
+      "message": "вкладка"
+   },
+   "tabAlreadyStoredHere": {
+      "message": "Ваша відкрита вкладка вже збережена тут:"
+   },
+   "tabCaretTooltipTitleNotes": {
+      "message": "Редагувати назву вкладки та нотатки"
+   },
+   "tabCaretTooltipTitleNotesUrl": {
+      "message": "Редагувати назву вкладки, URL-адресу та нотатки"
+   },
+   "tabCount_few": {
+      "message": "{COUNT} вкладки"
+   },
+   "tabCount_many": {
+      "message": "{COUNT} вкладок"
+   },
+   "tabCount_one": {
+      "message": "{COUNT} вкладка"
+   },
+   "tabCount_other": {
+      "message": "{COUNT} вкладок"
+   },
+   "tabCount_two": {
+      "message": "{COUNT} вкладки"
+   },
+   "tabCount_zero": {
+      "message": "{COUNT} вкладок"
+   },
+   "tabGroupColorColon": {
+      "message": "Колір групи вкладок:"
+   },
+   "tabShortcutInfo": {
+      "message": "На сторінці OneTab натискайте клавішу Tab, щоб переміщувати фокус між групами в центральній колонці. Це дає змогу швидко пропускати групи, особливо якщо вони великі. Якщо група у фокусі, натисніть Enter, щоб відкрити її. Щоб переміщатися назад, використовуйте Shift+Tab."
+   },
+   "tabTotalCount_few": {
+      "message": "Усього: {COUNT} вкладки"
+   },
+   "tabTotalCount_many": {
+      "message": "Усього: {COUNT} вкладок"
+   },
+   "tabTotalCount_one": {
+      "message": "Усього: {COUNT} вкладка"
+   },
+   "tabTotalCount_other": {
+      "message": "Усього: {COUNT} вкладок"
+   },
+   "tabTotalCount_two": {
+      "message": "Усього: {COUNT} вкладки"
+   },
+   "tabTotalCount_zero": {
+      "message": "Усього: {COUNT} вкладок"
+   },
+   "tabs": {
+      "message": "Вкладки"
+   },
+   "tabsFromExcludedDomains": {
+      "message": "вкладки з виключених доменів"
+   },
+   "tabsInTabGroups": {
+      "message": "вкладки в групах вкладок"
+   },
+   "taskTotalCount_few": {
+      "message": "{COUNT} усього"
+   },
+   "taskTotalCount_many": {
+      "message": "{COUNT} усього"
+   },
+   "taskTotalCount_one": {
+      "message": "{COUNT} усього"
+   },
+   "taskTotalCount_other": {
+      "message": "{COUNT} усього"
+   },
+   "taskTotalCount_two": {
+      "message": "{COUNT} усього"
+   },
+   "taskTotalCount_zero": {
+      "message": "{COUNT} усього"
+   },
+   "tasks": {
+      "message": "Завдання"
+   },
+   "tasksDone": {
+      "message": "Завдання (виконані)"
+   },
+   "tasksPending": {
+      "message": "Завдання (у процесі)"
+   },
+   "tasksWillAppearHere": {
+      "message": "Якщо позначите вкладки чи групи як завдання, вони з’являться тут."
+   },
+   "thenClickToolbarIcon": {
+      "message": "Потім знову натисніть значок OneTab на панелі інструментів, щоб користуватися OneTab."
+   },
+   "thisFolderIsEmpty": {
+      "message": "Ця папка порожня"
+   },
+   "thisTab": {
+      "message": "Ця вкладка"
+   },
+   "thisTabGroup": {
+      "message": "Ця група вкладок"
+   },
+   "thisTabNotStored": {
+      "message": "Цю вкладку не збережено в OneTab"
+   },
+   "thisWindow": {
+      "message": "Це вікно"
+   },
+   "tickOrUntickToExclude": {
+      "message": "Позначте або зніміть позначку, щоб виключити вебсайт"
+   },
+   "title": {
+      "message": "Назва"
+   },
+   "toAddOrRemoveExclusions": {
+      "message": "Щоб додати або вилучити вебсайт зі списку виключень:"
+   },
+   "toAllowOneTabInIncognito": {
+      "message": "Щоб значок OneTab відображався у вікнах у режимі інкогніто: "
+   },
+   "toImportBrowserBookmarksUseMenuOption": {
+      "message": "Щоб імпортувати з закладок браузера, скористайтеся пунктом меню «Імпортувати посилання сюди» на сторінці OneTab"
+   },
+   "toMakeOpenButtonWorkApprovePermission": {
+      "message": "Щоб кнопка \"Відкрити\" на спільних сторінках працювала, підтвердьте запит на дозвіл."
+   },
+   "toSaveChangesClickButton": {
+      "message": "Щоб зберегти зміни, натисніть кнопку"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "message": "Забагато вкладок? Перетворіть їх на список і пришвидшіть Firefox"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "message": "Забагато вкладок? Перетворіть їх на список і пришвидшіть Safari"
+   },
+   "total0Tabs": {
+      "message": "Усього: 0 вкладок"
+   },
+   "trash": {
+      "message": "Кошик"
+   },
+   "unMarkAsTask": {
+      "message": "Зняти позначку «завдання»"
+   },
+   "unPin": {
+      "message": "Відкріпити"
+   },
+   "unlock": {
+      "message": "Розблокувати"
+   },
+   "unmarkAsArchived": {
+      "message": "Зняти позначку «архівоване»"
+   },
+   "unshare": {
+      "message": "Припинити поширення"
+   },
+   "untitled": {
+      "message": "Без назви"
+   },
+   "update": {
+      "message": "Оновити"
+   },
+   "userLanguage": {
+      "message": "Українська"
+   },
+   "website": {
+      "message": "Вебсайт"
+   },
+   "yearCount_few": {
+      "message": "{COUNT} роки"
+   },
+   "yearCount_many": {
+      "message": "{COUNT} років"
+   },
+   "yearCount_one": {
+      "message": "{COUNT} рік"
+   },
+   "yearCount_other": {
+      "message": "{COUNT} років"
+   },
+   "yearCount_two": {
+      "message": "{COUNT} роки"
+   },
+   "yearCount_zero": {
+      "message": "{COUNT} років"
+   },
+   "yourTabAlreadyStoredHere": {
+      "message": "Ваша вкладка вже збережена тут:"
+   }
+}

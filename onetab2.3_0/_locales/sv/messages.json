@@ -1,0 +1,1715 @@
+{
+   "95PctMemoryReduction": {
+      "message": "95 % minskning av minnesanvändning"
+   },
+   "Folder": {
+      "message": "Mapp"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "message": "OneTab finns även för Firefox"
+   },
+   "aDashZ": {
+      "message": "A–Ö"
+   },
+   "about": {
+      "message": "Om"
+   },
+   "addOneTabNow": {
+      "message": "Lägg till OneTab nu"
+   },
+   "all": {
+      "message": "Alla"
+   },
+   "allBookmarks": {
+      "message": "Alla bokmärken"
+   },
+   "allOpenTabsAlreadyStoredHere": {
+      "message": "Alla öppna flikar är redan sparade här:"
+   },
+   "allowFileAccessInstructions": {
+      "message": "För att kunna öppna filer direkt går du till Inställningar ➝ Tillägg ➝ OneTab ➝ Detaljer ➝ Tillåt åtkomst till fil-URL:er"
+   },
+   "alreadyExistingOpenTabsWillBeClosedAfterMerge": {
+      "message": "Alla öppna flikar som redan finns i den här gruppen stängs efter sammanslagningen."
+   },
+   "alternatePlainTextFormat": {
+      "message": "Alternativt kan oformaterad text ha formatet:"
+   },
+   "approve": {
+      "message": "Godkänn"
+   },
+   "archived": {
+      "message": "Arkiverade"
+   },
+   "autoTheme": {
+      "message": "Automatiskt (använd operativsystemets inställning)"
+   },
+   "backupAndSync": {
+      "message": "Säkerhetskopiering & synk"
+   },
+   "betaReleaseReportBugsHere": {
+      "message": "Beta-version – rapportera buggar här"
+   },
+   "bookmarkCount_few": {
+      "message": "{COUNT} bokmärken"
+   },
+   "bookmarkCount_many": {
+      "message": "{COUNT} bokmärken"
+   },
+   "bookmarkCount_one": {
+      "message": "{COUNT} bokmärke"
+   },
+   "bookmarkCount_other": {
+      "message": "{COUNT} bokmärken"
+   },
+   "bookmarkCount_two": {
+      "message": "{COUNT} bokmärken"
+   },
+   "bookmarkCount_zero": {
+      "message": "{COUNT} bokmärken"
+   },
+   "bookmarksPermissionNecesssary": {
+      "message": "Behörigheten för bokmärken krävs för att OneTab ska kunna importera dina webbläsarbokmärken"
+   },
+   "bulkActions": {
+      "message": "Massåtgärder"
+   },
+   "canDragTextNote": {
+      "message": "Obs! Du kan också dra och släppa text som innehåller länkar direkt från en annan webbsida eller från ett dokument. Du kan dra texten direkt till din OneTab-sida utan att använda den här importrutan."
+   },
+   "canPasteWebContentForExample": {
+      "message": "Du kan klistra in text kopierad från en webbsida eller ett dokument, så extraheras länkar automatiskt. Till exempel:"
+   },
+   "cancel": {
+      "message": "Avbryt"
+   },
+   "cannotConnectToServerDeletionRequestQueued": {
+      "message": "Det går inte att ansluta till servern för OneTab. Kontrollera din internetanslutning. Din begäran om att ta bort den delade sidan har köats lokalt och skickas automatiskt till servern för OneTab så snart den kan nås igen."
+   },
+   "cannotCreateTabGroupInTabGroup": {
+      "message": "Din valda plats är en flikgrupp. Du kan inte skapa en flikgrupp inuti en befintlig flikgrupp. Välj en annan plats."
+   },
+   "cannotMixTabsGroupsFoldersDuringDrag": {
+      "message": "Det går inte att blanda flikar, grupper och mappar vid dragning. Till exempel kan du inte dra en mapp till samma ställen som du kan dra en flik."
+   },
+   "caseSensitive": {
+      "message": "Skiftlägeskänsligt"
+   },
+   "changesMadeSinceSharedPageCreation": {
+      "message": "Ändringar har gjorts sedan du skapade den delade sidan. Klicka på knappen ”Uppdatera” för att uppdatera den befintliga delade sidan."
+   },
+   "checkboxesDeterminePinnedAndGroupedTabMergeInclusion": {
+      "message": "Kryssrutorna högst upp på sidan avgör om fästa flikar eller flikar i flikgrupper tas med i sammanslagningen."
+   },
+   "chooseALocation": {
+      "message": "Välj en plats"
+   },
+   "chooseALocationToImportTo": {
+      "message": "Välj plats att importera till"
+   },
+   "chooseExportLocation": {
+      "message": "Välj plats att exportera från"
+   },
+   "chooseLightDarkTheme": {
+      "message": "Välj ljust/mörkt tema"
+   },
+   "chooseLocationToCopyTo": {
+      "message": "Välj plats att kopiera till"
+   },
+   "chooseLocationToMoveTo": {
+      "message": "Välj plats att flytta till"
+   },
+   "chooseLocationToRestoreTo": {
+      "message": "Välj plats att återställa till"
+   },
+   "chooseToIncludeNotes": {
+      "message": "Om du har lagt till anteckningar i flikar eller grupper väljer du om de ska inkluderas på den delade webbsidan"
+   },
+   "chooseToIncludeRatings": {
+      "message": "Om du har lagt till stjärnbetyg i flikar eller grupper väljer du om de ska inkluderas på den delade webbsidan"
+   },
+   "chromeIncognitoInstructions": {
+      "message": "I webbläsarens inställningar, gå till ”Inställningar” → ”Tillägg” → ”OneTab” → ”Detaljer” och aktivera sedan ”Tillåt i inkognitoläge”."
+   },
+   "clickButtonToAllowTabAccess": {
+      "message": "Klicka på knappen nedan för att låta OneTab få åtkomst till dina öppna flikar."
+   },
+   "clickHereToContinue": {
+      "message": "Klicka här för att fortsätta."
+   },
+   "clickOneTabIconToStoreTabsHere": {
+      "message": "Klicka på OneTab-ikonen i webbläsarens verktygsfält för att spara dina öppna flikar här."
+   },
+   "closeSelectedTabsAndStoreInONETAB_few": {
+      "message": "Stäng {COUNT} markerade flikar och spara i ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_many": {
+      "message": "Stäng {COUNT} markerade flikar och spara i ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_one": {
+      "message": "Stäng {COUNT} markerad flik och spara i ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_other": {
+      "message": "Stäng {COUNT} markerade flikar och spara i ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_two": {
+      "message": "Stäng {COUNT} markerade flikar och spara i ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_zero": {
+      "message": "Stäng {COUNT} markerade flikar och spara i ONETAB"
+   },
+   "closeSelectedTabs_few": {
+      "message": "Stäng {COUNT} markerade flikar"
+   },
+   "closeSelectedTabs_many": {
+      "message": "Stäng {COUNT} markerade flikar"
+   },
+   "closeSelectedTabs_one": {
+      "message": "Stäng {COUNT} markerad flik"
+   },
+   "closeSelectedTabs_other": {
+      "message": "Stäng {COUNT} markerade flikar"
+   },
+   "closeSelectedTabs_two": {
+      "message": "Stäng {COUNT} markerade flikar"
+   },
+   "closeSelectedTabs_zero": {
+      "message": "Stäng {COUNT} markerade flikar"
+   },
+   "closeTab": {
+      "message": "Stäng fliken"
+   },
+   "closeTabAndStore": {
+      "message": "Stäng fliken och spara i ONETAB"
+   },
+   "closeTabs": {
+      "message": "Stäng flikarna"
+   },
+   "closeTabsAfterMerge": {
+      "message": "Stäng flikarna efter sammanslagningen"
+   },
+   "closeTabsAlreadyStoredInOneTab_few": {
+      "message": "Stäng {COUNT} flikar som redan är sparade i OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_many": {
+      "message": "Stäng {COUNT} flikar som redan är sparade i OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_one": {
+      "message": "Stäng {COUNT} flik som redan är sparad i OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_other": {
+      "message": "Stäng {COUNT} flikar som redan är sparade i OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_two": {
+      "message": "Stäng {COUNT} flikar som redan är sparade i OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_zero": {
+      "message": "Stäng {COUNT} flikar som redan är sparade i OneTab"
+   },
+   "closeTabsAndStore": {
+      "message": "Stäng flikarna och spara i ONETAB"
+   },
+   "closeTheseDuplicates": {
+      "message": "Stäng dessa dubbletter"
+   },
+   "closeThisDuplicate": {
+      "message": "Stäng den här dubbletten"
+   },
+   "completeEditingShortcutInfo": {
+      "message": "När du redigerar ett anteckningsfält använder du det här kortkommandot för att avsluta redigeringen."
+   },
+   "configureShortcuts": {
+      "message": "Konfigurera kortkommandon"
+   },
+   "conflictingShortcutsHint": {
+      "message": "Om något av kortkommandona ovan inte fungerar eller krockar med andra program kan du konfigurera en annan tangentkombination."
+   },
+   "continue": {
+      "message": "Fortsätt"
+   },
+   "convertTabsIntoAList": {
+      "message": "Konvertera flikar till en lista"
+   },
+   "copiedToClipboard": {
+      "message": "Kopierat till urklipp"
+   },
+   "copy": {
+      "message": "Kopiera"
+   },
+   "copyLinksToClipboard": {
+      "message": "Kopiera länkar till urklipp"
+   },
+   "copySharedPageUrl": {
+      "message": "Kopiera URL för delad sida"
+   },
+   "copyToClipboard": {
+      "message": "Kopiera till urklipp"
+   },
+   "createANewGroupHere": {
+      "message": "Skapa en ny grupp här"
+   },
+   "createFolderAbove": {
+      "message": "Skapa mapp ovanför"
+   },
+   "createFolderAboveBelow": {
+      "message": "Skapa mapp ovanför / under"
+   },
+   "createFolderAboveWithinBelow": {
+      "message": "Skapa mapp ovanför / i / under"
+   },
+   "createFolderBelow": {
+      "message": "Skapa mapp under"
+   },
+   "createFolderWithin": {
+      "message": "Skapa mapp i"
+   },
+   "createGroupAbove": {
+      "message": "Skapa grupp ovanför"
+   },
+   "createGroupAboveBelow": {
+      "message": "Skapa grupp ovanför / under"
+   },
+   "createGroupAboveWithinBelow": {
+      "message": "Skapa grupp ovanför / i / under"
+   },
+   "createGroupBelow": {
+      "message": "Skapa grupp under"
+   },
+   "createGroupInsideDestination": {
+      "message": "Skapa ny grupp i destinationen"
+   },
+   "createGroupInsideDestinationHelp": {
+      "message": "Om inte markerad läggs dina flikar direkt till i destinationsgruppen. Om markerad skapas en ny flikgrupp i webbläsaren för dina flikar inom destinationsgruppen. Markera bara den här rutan om du vill använda webbläsarens funktion ”flikgrupper”."
+   },
+   "createGroupWithin": {
+      "message": "Skapa grupp i"
+   },
+   "createNewGroupTip": {
+      "message": "För att skapa en ny grupp, avmarkera ”Visa endast mappar”"
+   },
+   "createdOnOrAfterColon": {
+      "message": "Skapad på eller efter:"
+   },
+   "createdOnOrBeforeColon": {
+      "message": "Skapad på eller före:"
+   },
+   "createdPreceedingDate": {
+      "message": "Skapad"
+   },
+   "darkTheme": {
+      "message": "Mörkt tema"
+   },
+   "dayCount_few": {
+      "message": "{COUNT} dagar"
+   },
+   "dayCount_many": {
+      "message": "{COUNT} dagar"
+   },
+   "dayCount_one": {
+      "message": "{COUNT} dag"
+   },
+   "dayCount_other": {
+      "message": "{COUNT} dagar"
+   },
+   "dayCount_two": {
+      "message": "{COUNT} dagar"
+   },
+   "dayCount_zero": {
+      "message": "{COUNT} dagar"
+   },
+   "delete": {
+      "message": "Ta bort"
+   },
+   "deleteAllTrash": {
+      "message": "Töm papperskorgen"
+   },
+   "deleteThisCopy": {
+      "message": "Ta bort den här kopian"
+   },
+   "deselectAll": {
+      "message": "Avmarkera alla"
+   },
+   "destinationColon": {
+      "message": "Destination:"
+   },
+   "disabled": {
+      "message": "Inaktiverad"
+   },
+   "doneTaskCount_few": {
+      "message": "{COUNT} klara"
+   },
+   "doneTaskCount_many": {
+      "message": "{COUNT} klara"
+   },
+   "doneTaskCount_one": {
+      "message": "{COUNT} klar"
+   },
+   "doneTaskCount_other": {
+      "message": "{COUNT} klara"
+   },
+   "doneTaskCount_two": {
+      "message": "{COUNT} klara"
+   },
+   "doneTaskCount_zero": {
+      "message": "{COUNT} klara"
+   },
+   "dontCloseGroupedTabs": {
+      "message": "Stäng inga flikar i flikgrupper"
+   },
+   "dontClosePinnedTabs": {
+      "message": "Stäng inga fästa flikar"
+   },
+   "dontCloseTabsFromDomains": {
+      "message": "Stäng inga flikar från EXAMPLE.COM"
+   },
+   "dragTabsHereForQuickList": {
+      "message": "Dra dina sparade flikar eller grupper hit. De läggs till i din snabblista."
+   },
+   "editTabGroupTitleAndNotes": {
+      "message": "Redigera flikgruppens titel och anteckningar"
+   },
+   "emojiShortcutInfo": {
+      "message": "När du redigerar ett anteckningsfält använder du det här kortkommandot för att öppna emojiväljaren."
+   },
+   "emptyInBrackets": {
+      "message": "(tom)"
+   },
+   "emptyOneTabInfoMsg": {
+      "message": "När du har flera flikar öppna klickar du på OneTab-ikonen i webbläsarens verktygsfält så visas dina öppna flikar här."
+   },
+   "enabled": {
+      "message": "Aktiverad"
+   },
+   "encryptedSyncAndBackup": {
+      "message": "Krypterad synkronisering och säkerhetskopiering"
+   },
+   "encryptedSyncAndBackupComingSoonMessage": {
+      "message": "Kommer snart: Du kommer att kunna synka dina OneTab-data mellan flera webbläsarprofiler och datorer.\nOneTab har skrivits om från grunden så att ändringar som görs på en enhet omedelbart visas på alla andra enheter.\nOm du använder den här funktionen krypteras dina data från ände till ände med stark AES-256-kryptering. Detta gör det omöjligt för OneTabs utvecklare att se de flikar du har säkerhetskopierat eller synkat mellan enheter, eftersom bara du har krypteringsnyckeln."
+   },
+   "everything": {
+      "message": "Allt"
+   },
+   "exampleLink": {
+      "message": "Exempellänk"
+   },
+   "exampleLinkTitle": {
+      "message": "Exempel på länktitel"
+   },
+   "exampleLinkTitleOptional": {
+      "message": "Exempel på länktitel (valfritt)"
+   },
+   "exampleRichTextParagraph": {
+      "message": "Exempelstycke med text med PLACEHOLDER och PLACEHOLDER"
+   },
+   "exampleWebsitePageTitle": {
+      "message": "Exempel på webbsidans titel"
+   },
+   "excludeDomainFromOneTab": {
+      "message": "Uteslut EXAMPLE.COM från OneTab"
+   },
+   "excludeWebSiteFromOneTab": {
+      "message": "Uteslut den här webbplatsen från OneTab"
+   },
+   "expiresColon": {
+      "message": "Upphör:"
+   },
+   "export": {
+      "message": "Exportera"
+   },
+   "exportImportUrls": {
+      "message": "Exportera / importera URL:er"
+   },
+   "exportThenImportNote": {
+      "message": "Följande URL-lista kan också importeras tillbaka till OneTab på den här eller en annan dator"
+   },
+   "exportUrls": {
+      "message": "Exportera URL:er"
+   },
+   "feedback": {
+      "message": "Feedback"
+   },
+   "filter": {
+      "message": "Filter"
+   },
+   "firefoxIncognitoInstructions": {
+      "message": "I webbläsarens inställningar, gå till ”Inställningar” → ”Tillägg och teman” → ”Tillägg” → ”OneTab” → ”…” → ”Hantera” och aktivera sedan ”Kör i privata fönster”."
+   },
+   "firefoxShortcutConfigInstructions": {
+      "message": "Ange webbadressen \"about:addons?type=extension\" i webbläsarens adressfält. När sidan visas klickar du på kugghjulsikonen och väljer sedan \"Hantera kortkommandon för tillägg\""
+   },
+   "folderCount_few": {
+      "message": "{COUNT} mappar"
+   },
+   "folderCount_many": {
+      "message": "{COUNT} mappar"
+   },
+   "folderCount_one": {
+      "message": "{COUNT} mapp"
+   },
+   "folderCount_other": {
+      "message": "{COUNT} mappar"
+   },
+   "folderCount_two": {
+      "message": "{COUNT} mappar"
+   },
+   "folderCount_zero": {
+      "message": "{COUNT} mappar"
+   },
+   "folders": {
+      "message": "Mappar"
+   },
+   "foldersOnly": {
+      "message": "Endast mappar"
+   },
+   "gettingStarted": {
+      "message": "Kom igång"
+   },
+   "goToParentFolder": {
+      "message": "Gå till överordnad mapp"
+   },
+   "groupCount_few": {
+      "message": "{COUNT} grupper"
+   },
+   "groupCount_many": {
+      "message": "{COUNT} grupper"
+   },
+   "groupCount_one": {
+      "message": "{COUNT} grupp"
+   },
+   "groupCount_other": {
+      "message": "{COUNT} grupper"
+   },
+   "groupCount_two": {
+      "message": "{COUNT} grupper"
+   },
+   "groupCount_zero": {
+      "message": "{COUNT} grupper"
+   },
+   "groups": {
+      "message": "Grupper"
+   },
+   "hasNotes": {
+      "message": "Har anteckningar"
+   },
+   "hasRating": {
+      "message": "Har betyg"
+   },
+   "help": {
+      "message": "Hjälp"
+   },
+   "hideArchivedItems": {
+      "message": "Dölj arkiverade objekt"
+   },
+   "import": {
+      "message": "Importera"
+   },
+   "importAndExport": {
+      "message": "Importera & exportera"
+   },
+   "importBookmarks": {
+      "message": "Importera bokmärken"
+   },
+   "importFolderAndSubfolders": {
+      "message": "Importera mapp och undermappar"
+   },
+   "importLinksHere": {
+      "message": "Importera länkar här"
+   },
+   "importReadingList": {
+      "message": "Importera läslista"
+   },
+   "importText": {
+      "message": "Importera text"
+   },
+   "importUrls": {
+      "message": "Importera URL:er"
+   },
+   "importedBookmarks": {
+      "message": "Importerade bokmärken"
+   },
+   "includeGroupedTabs": {
+      "message": "Inkludera flikar i flikgrupper"
+   },
+   "includeNotes": {
+      "message": "Inkludera anteckningar"
+   },
+   "includePinnedTabs": {
+      "message": "Inkludera fästa flikar"
+   },
+   "includeStarRatings": {
+      "message": "Inkludera stjärnbetyg"
+   },
+   "includeTabsAlreadyStored": {
+      "message": "Inkludera flikar som du redan har sparat"
+   },
+   "includeTabsFromDomains": {
+      "message": "Inkludera flikar från EXAMPLE.COM"
+   },
+   "incogitoPermissionRequired": {
+      "message": "OneTab behöver behörighet att skapa inkognitofönster."
+   },
+   "incognitoWindows": {
+      "message": "Inkognitofönster"
+   },
+   "invertSelection": {
+      "message": "Invertera markering"
+   },
+   "justNow": {
+      "message": "nyss"
+   },
+   "keyboardShortcutsColon": {
+      "message": "Kortkommandon:"
+   },
+   "languageTitle": {
+      "message": "Språk:"
+   },
+   "lightTheme": {
+      "message": "Ljust tema"
+   },
+   "localeId": {
+      "message": "sv"
+   },
+   "locationColon": {
+      "message": "Plats:"
+   },
+   "lock": {
+      "message": "Lås"
+   },
+   "lockMenuItemHelp": {
+      "message": "När en grupp är låst kan du inte ta bort eller ordna om objekt i gruppen. När du öppnar en låst grupp tillämpas inte automatiska åtgärder. Se sidan Alternativ för information om automatiska åtgärder."
+   },
+   "lockedGroupUnlockHelp": {
+      "message": "Lås upp via rullgardinsmenyn. När en grupp är låst kan du inte ta bort gruppen eller dess flikar, och flikarna kan inte ordnas om."
+   },
+   "makeThisATask": {
+      "message": "Gör det här till en uppgift"
+   },
+   "manifestDescription": {
+      "message": "Spara upp till 95 % minne och minska flikröran"
+   },
+   "markAsArchived": {
+      "message": "Markera som arkiverad"
+   },
+   "markAsArchivedMenuItemHelp": {
+      "message": "Observera att arkiverade uppgifter och uppgifter i arkiverade grupper inte visas i uppgiftskolumnen"
+   },
+   "markAsDoneTask": {
+      "message": "Markera som klar uppgift"
+   },
+   "markAsPendingTask": {
+      "message": "Markera som väntande uppgift"
+   },
+   "matchCount_few": {
+      "message": "{COUNT} träffar"
+   },
+   "matchCount_many": {
+      "message": "{COUNT} träffar"
+   },
+   "matchCount_one": {
+      "message": "{COUNT} träff"
+   },
+   "matchCount_other": {
+      "message": "{COUNT} träffar"
+   },
+   "matchCount_two": {
+      "message": "{COUNT} träffar"
+   },
+   "matchCount_zero": {
+      "message": "{COUNT} träffar"
+   },
+   "matchWholeWordsOnly": {
+      "message": "Matcha endast hela ord"
+   },
+   "mayNeedToRestartBrowser": {
+      "message": "Du kan också behöva uppdatera och starta om webbläsaren."
+   },
+   "mergeIntoParent": {
+      "message": "Slå samman med överordnad"
+   },
+   "mergeOpenTabsHere_few": {
+      "message": "Slå samman {COUNT} öppna flikar här"
+   },
+   "mergeOpenTabsHere_many": {
+      "message": "Slå samman {COUNT} öppna flikar här"
+   },
+   "mergeOpenTabsHere_one": {
+      "message": "Slå samman {COUNT} öppen flik här"
+   },
+   "mergeOpenTabsHere_other": {
+      "message": "Slå samman {COUNT} öppna flikar här"
+   },
+   "mergeOpenTabsHere_two": {
+      "message": "Slå samman {COUNT} öppna flikar här"
+   },
+   "mergeOpenTabsHere_zero": {
+      "message": "Slå samman {COUNT} öppna flikar här"
+   },
+   "mergeSelectedTabsHere_few": {
+      "message": "Slå samman {COUNT} markerade flikar här"
+   },
+   "mergeSelectedTabsHere_many": {
+      "message": "Slå samman {COUNT} markerade flikar här"
+   },
+   "mergeSelectedTabsHere_one": {
+      "message": "Slå samman {COUNT} markerad flik här"
+   },
+   "mergeSelectedTabsHere_other": {
+      "message": "Slå samman {COUNT} markerade flikar här"
+   },
+   "mergeSelectedTabsHere_two": {
+      "message": "Slå samman {COUNT} markerade flikar här"
+   },
+   "mergeSelectedTabsHere_zero": {
+      "message": "Slå samman {COUNT} markerade flikar här"
+   },
+   "mergeWithInnerGroups": {
+      "message": "Slå samman med undergrupper"
+   },
+   "modifySharing": {
+      "message": "Ändra delning"
+   },
+   "moreEllipsis": {
+      "message": "Mer…"
+   },
+   "moreSearchFilters": {
+      "message": "Fler sökfilter"
+   },
+   "moreTripleDot": {
+      "message": "Mer…"
+   },
+   "move": {
+      "message": "Flytta"
+   },
+   "moveToTrash": {
+      "message": "Flytta till papperskorgen"
+   },
+   "namedOnly": {
+      "message": "Endast namngivna"
+   },
+   "navigationFilter": {
+      "message": "Navigeringsfilter"
+   },
+   "newExclamation": {
+      "message": "Ny!"
+   },
+   "noDupsExistExceptForColon": {
+      "message": "Inga dubbletter finns, förutom:"
+   },
+   "noDupsFoundHere": {
+      "message": "Inga dubbletter hittades här"
+   },
+   "noMatches": {
+      "message": "Inga träffar"
+   },
+   "noMatchesFound": {
+      "message": "Inga träffar hittades"
+   },
+   "noOpenTabsToStore": {
+      "message": "Det finns inga öppna flikar i det här fönstret att spara."
+   },
+   "noReadingListEntries": {
+      "message": "Inga poster i läslistan hittades"
+   },
+   "noTabsInOneTabYet": {
+      "message": "Du har ännu inga flikar i OneTab"
+   },
+   "noTabsMeetCriteriaUseCheckboxes": {
+      "message": "Inga öppna flikar matchar dina kriterier. Använd kryssrutorna ovan."
+   },
+   "noTextHasBeenEntered": {
+      "message": "Ingen text har angetts"
+   },
+   "nonArchived": {
+      "message": "Ej arkiverade"
+   },
+   "notAssigned": {
+      "message": "Inte tilldelat"
+   },
+   "notes": {
+      "message": "Anteckningar"
+   },
+   "notesAboutTheLinkOptional": {
+      "message": "Anteckningar om länken (valfritt)"
+   },
+   "notesAboutTheSecondLinkOptional": {
+      "message": "Anteckningar om den andra länken (valfritt)"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "omniboxShortcutInfo": {
+      "message": "För att söka i din OneTab-lista från valfri flik: Gå till webbläsarens adressfält, skriv 1, sedan mellanslag, och därefter ett sökord."
+   },
+   "oneTabDesignedToProtectPrivacy": {
+      "message": "OneTab har utformats för att skydda din integritet. Dina flikar lämnas inte ut till oss."
+   },
+   "oneTabImportExportPageTitle": {
+      "message": "OneTab import/export"
+   },
+   "oneTabNeedsPermissionToAccessYourTabs": {
+      "message": "OneTab behöver behörighet att få åtkomst till dina flikar."
+   },
+   "oneTabOptionsPageTitle": {
+      "message": "Alternativ för OneTab"
+   },
+   "oneTabPermissionRequired": {
+      "message": "OneTab – Behörighet krävs"
+   },
+   "oneTabRestartRequired": {
+      "message": "OneTab måste startas om."
+   },
+   "oneTabSlashShortcutInfo": {
+      "message": "På OneTab-sidan: tryck på snedstreck för att fokusera sökrutan."
+   },
+   "open": {
+      "message": "Öppna"
+   },
+   "openActionPopup": {
+      "message": "Öppna tilläggets popup"
+   },
+   "openAsCollapsedTabGroup": {
+      "message": "Öppna som en ”ihopfälld” flikgrupp"
+   },
+   "openAsCollapsedTabGroupMenuItemHelp": {
+      "message": "Om du öppnar dessa flikar som en ihopfälld ”flikgrupp” visas bara gruppetiketten tills du klickar på den för att visa flikarna inuti."
+   },
+   "openAsTabGroup": {
+      "message": "Öppna som en flikgrupp i webbläsaren"
+   },
+   "openAsTabGroupMenuItemHelp": {
+      "message": "Din webbläsare låter dig gruppera flikar i färgkodade ”flikgrupper” i ett fönster."
+   },
+   "openGroupsLimitNotice_few": {
+      "message": "För att förhindra att webbläsaren överbelastas öppnas bara de första {COUNT} grupperna."
+   },
+   "openGroupsLimitNotice_many": {
+      "message": "För att förhindra att webbläsaren överbelastas öppnas bara de första {COUNT} grupperna."
+   },
+   "openGroupsLimitNotice_one": {
+      "message": "För att förhindra att webbläsaren överbelastas öppnas bara den första {COUNT} gruppen."
+   },
+   "openGroupsLimitNotice_other": {
+      "message": "För att förhindra att webbläsaren överbelastas öppnas bara de första {COUNT} grupperna."
+   },
+   "openGroupsLimitNotice_two": {
+      "message": "För att förhindra att webbläsaren överbelastas öppnas bara de första {COUNT} grupperna."
+   },
+   "openGroupsLimitNotice_zero": {
+      "message": "För att förhindra att webbläsaren överbelastas öppnas bara de första {COUNT} grupperna."
+   },
+   "openInIncognitoWindow": {
+      "message": "Öppna i ett nytt inkognitofönster"
+   },
+   "openInNewWindow": {
+      "message": "Öppna i ett nytt fönster"
+   },
+   "openInThisWindow": {
+      "message": "Öppna i det här fönstret"
+   },
+   "openONETABLogo": {
+      "message": "Öppna ONETAB"
+   },
+   "openOneTab": {
+      "message": "Öppna OneTab"
+   },
+   "openOneTabAfter": {
+      "message": "Öppna OneTab efter att flikarna sparats"
+   },
+   "openTabFromWebsite": {
+      "message": "Öppna en flik och gå till webbplatsen"
+   },
+   "openTabLimit_few": {
+      "message": "För att förhindra att webbläsaren överbelastas kan högst {COUNT} flikar öppnas samtidigt."
+   },
+   "openTabLimit_many": {
+      "message": "För att förhindra att webbläsaren överbelastas kan högst {COUNT} flikar öppnas samtidigt."
+   },
+   "openTabLimit_one": {
+      "message": "För att förhindra att webbläsaren överbelastas kan högst {COUNT} flik öppnas samtidigt."
+   },
+   "openTabLimit_other": {
+      "message": "För att förhindra att webbläsaren överbelastas kan högst {COUNT} flikar öppnas samtidigt."
+   },
+   "openTabLimit_two": {
+      "message": "För att förhindra att webbläsaren överbelastas kan högst {COUNT} flikar öppnas samtidigt."
+   },
+   "openTabLimit_zero": {
+      "message": "För att förhindra att webbläsaren överbelastas kan högst {COUNT} flikar öppnas samtidigt."
+   },
+   "openTabsAlreadyStoredHere_few": {
+      "message": "{COUNT} öppna flikar redan sparade här:"
+   },
+   "openTabsAlreadyStoredHere_many": {
+      "message": "{COUNT} öppna flikar redan sparade här:"
+   },
+   "openTabsAlreadyStoredHere_one": {
+      "message": "{COUNT} öppen flik redan sparad här:"
+   },
+   "openTabsAlreadyStoredHere_other": {
+      "message": "{COUNT} öppna flikar redan sparade här:"
+   },
+   "openTabsAlreadyStoredHere_two": {
+      "message": "{COUNT} öppna flikar redan sparade här:"
+   },
+   "openTabsAlreadyStoredHere_zero": {
+      "message": "{COUNT} öppna flikar redan sparade här:"
+   },
+   "openTabsConfirm_few": {
+      "message": "Du är på väg att öppna {COUNT} flikar. Är du säker?"
+   },
+   "openTabsConfirm_many": {
+      "message": "Du är på väg att öppna {COUNT} flikar. Är du säker?"
+   },
+   "openTabsConfirm_one": {
+      "message": "Du är på väg att öppna {COUNT} flik. Är du säker?"
+   },
+   "openTabsConfirm_other": {
+      "message": "Du är på väg att öppna {COUNT} flikar. Är du säker?"
+   },
+   "openTabsConfirm_two": {
+      "message": "Du är på väg att öppna {COUNT} flikar. Är du säker?"
+   },
+   "openTabsConfirm_zero": {
+      "message": "Du är på väg att öppna {COUNT} flikar. Är du säker?"
+   },
+   "openTabsNotStoredInOneTab_few": {
+      "message": "{COUNT} öppna flikar som inte är sparade i OneTab"
+   },
+   "openTabsNotStoredInOneTab_many": {
+      "message": "{COUNT} öppna flikar som inte är sparade i OneTab"
+   },
+   "openTabsNotStoredInOneTab_one": {
+      "message": "{COUNT} öppen flik som inte är sparad i OneTab"
+   },
+   "openTabsNotStoredInOneTab_other": {
+      "message": "{COUNT} öppna flikar som inte är sparade i OneTab"
+   },
+   "openTabsNotStoredInOneTab_two": {
+      "message": "{COUNT} öppna flikar som inte är sparade i OneTab"
+   },
+   "openTabsNotStoredInOneTab_zero": {
+      "message": "{COUNT} öppna flikar som inte är sparade i OneTab"
+   },
+   "optionAutoActionOnGroupOpenArchiveDesc": {
+      "message": "För att undvika att gruppen markeras som arkiverad, håll Alt/Option nedtryckt när du klickar för att öppna gruppen"
+   },
+   "optionAutoActionOnGroupOpenArchiveTitle": {
+      "message": "Öppna flikarna och markera gruppen som arkiverad"
+   },
+   "optionAutoActionOnGroupOpenHeading": {
+      "message": "Automatisk åtgärd när du klickar för att öppna en grupp med flikar:"
+   },
+   "optionAutoActionOnGroupOpenNote": {
+      "message": "Automatiska åtgärder tillämpas inte på grupper som har låsts eller som är uppgifter."
+   },
+   "optionAutoActionOnGroupOpenOpenDesc": {
+      "message": "För att markera gruppen som arkiverad, håll Alt/Option nedtryckt när du klickar för att öppna gruppen"
+   },
+   "optionAutoActionOnGroupOpenOpenTitle": {
+      "message": "Öppna bara flikarna"
+   },
+   "optionAutoActionOnGroupOpenTrashDesc": {
+      "message": "För att undvika att gruppen automatiskt flyttas till papperskorgen, håll Alt/Option nedtryckt när du klickar för att öppna gruppen"
+   },
+   "optionAutoActionOnGroupOpenTrashTitle": {
+      "message": "Öppna flikarna och flytta gruppen till papperskorgen"
+   },
+   "optionAutoActionOnTabOpenArchiveDesc": {
+      "message": "För att undvika att fliken automatiskt markeras som arkiverad, håll Alt/Option nedtryckt när du klickar för att öppna fliken"
+   },
+   "optionAutoActionOnTabOpenArchiveTitle": {
+      "message": "Öppna fliken och markera den som arkiverad"
+   },
+   "optionAutoActionOnTabOpenHeading": {
+      "message": "Automatisk åtgärd när du klickar för att öppna en flik:"
+   },
+   "optionAutoActionOnTabOpenNote": {
+      "message": "Automatiska åtgärder tillämpas inte på flikar i grupper som har låsts eller som är uppgifter."
+   },
+   "optionAutoActionOnTabOpenOpenDesc": {
+      "message": "För att markera fliken som arkiverad, håll Alt/Option nedtryckt när du klickar för att öppna fliken"
+   },
+   "optionAutoActionOnTabOpenOpenTitle": {
+      "message": "Öppna bara fliken"
+   },
+   "optionAutoActionOnTabOpenTrashDesc": {
+      "message": "För att undvika att fliken automatiskt flyttas till papperskorgen, håll Alt/Option nedtryckt när du klickar för att öppna fliken"
+   },
+   "optionAutoActionOnTabOpenTrashTitle": {
+      "message": "Öppna fliken och flytta den till papperskorgen"
+   },
+   "optionCopyToClipboardFormatHeading": {
+      "message": "Kopiering av länkar till urklipp:"
+   },
+   "optionCopyToClipboardFormatNote": {
+      "message": "Den här inställningen används när du väljer åtgärden ”Kopiera till urklipp”. Du kan också dra flikar och grupper direkt från OneTab till ett dokument."
+   },
+   "optionCopyToClipboardFormatRichTextDesc": {
+      "message": "Program som ordbehandlare låter dig klistra in formaterad text. Om det inte stöds klistras i stället oformaterad text in."
+   },
+   "optionCopyToClipboardFormatRichTextTitle": {
+      "message": "Formaterad text, där det stöds"
+   },
+   "optionCopyToClipboardFormatTitleUrlTitle": {
+      "message": "Titel och URL"
+   },
+   "optionCopyToClipboardFormatUrlOnlyTitle": {
+      "message": "Endast URL"
+   },
+   "optionCopyToClipboardFormatUrlTitleTitle": {
+      "message": "URL och titel"
+   },
+   "optionDefaultTabGroupOpenTypeCurrentWindow": {
+      "message": "Öppna flikgruppen i det aktuella fönstret"
+   },
+   "optionDefaultTabGroupOpenTypeHeading": {
+      "message": "När du klickar för att öppna en grupp med flikar som ska öppnas som en ”flikgrupp” i webbläsaren:"
+   },
+   "optionDefaultTabGroupOpenTypeNewWindow": {
+      "message": "Öppna flikgruppen i ett nytt fönster"
+   },
+   "optionDefaultTabGroupOpenTypeNote": {
+      "message": "Om du använder rullgardinsmenyn för att välja ett visst alternativ (t.ex. att öppna flikar i ett inkognitofönster) kommer det alternativet att kommas ihåg för just den gruppen."
+   },
+   "optionDefaultWindowGroupOpenTypeCurrentWindow": {
+      "message": "Öppna flikarna i det aktuella fönstret"
+   },
+   "optionDefaultWindowGroupOpenTypeHeading": {
+      "message": "När du klickar för att öppna en grupp med flikar:"
+   },
+   "optionDefaultWindowGroupOpenTypeNewWindow": {
+      "message": "Öppna flikarna i ett nytt fönster"
+   },
+   "optionDefaultWindowGroupOpenTypeNote": {
+      "message": "Om du använder rullgardinsmenyn för att välja ett visst alternativ (t.ex. att öppna flikar i ett inkognitofönster) kommer det alternativet att kommas ihåg för just den gruppen."
+   },
+   "optionDiscardNonActiveTabOnOpenHeading": {
+      "message": "Spara minne (RAM) direkt när flikar öppnas:"
+   },
+   "optionDiscardNonActiveTabOnOpenNote": {
+      "message": "Om den här inställningen är aktiverad frigörs flikar omedelbart från minnet när du först öppnar dem från din OneTab-lista. Detta är användbart om du ofta öppnar dussintals flikar samtidigt, eftersom de då inte läses in i minnet förrän du går till dem. Om inställningen är inaktiverad kommer många webbläsare ändå att välja att automatiskt frigöra flikar från minnet när du inte använder dem."
+   },
+   "optionDisplayContextMenuHeading": {
+      "message": "Högerklicka i en webbsida för att öppna snabbmenyn för OneTab:"
+   },
+   "optionDisplayContextMenuNote": {
+      "message": "Om du inaktiverar menyn kan du inte använda funktionen ”Uteslut webbplats från OneTab”"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenFalseTitle": {
+      "message": "Byt till det fönster där OneTab-fliken redan är öppen"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenHeading": {
+      "message": "Åtgärden ”Öppna OneTab”:"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenNote": {
+      "message": "Åtgärden ”Öppna OneTab” kan nås via ett kortkommando. Den finns också i popupfönstret som visas när du klickar på OneTab-ikonen i webbläsarens verktygsfält."
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenTrueTitle": {
+      "message": "Flytta eventuell befintlig OneTab-flik till det aktuella fönstret"
+   },
+   "optionStartupLaunchDisplay": {
+      "message": "Öppna OneTab när du startar webbläsaren"
+   },
+   "optionStartupLaunchNone": {
+      "message": "Öppna inte OneTab automatiskt"
+   },
+   "optionStartupLaunchNoneDesc3": {
+      "message": "För att öppna OneTab manuellt, klicka på OneTab-ikonen i webbläsarens verktygsfält och välj ”Öppna OneTab”. Alternativt kan du högerklicka i valfri webbsida och klicka på ”Öppna OneTab” i OneTab-menyn."
+   },
+   "optionStartupLaunchTitle": {
+      "message": "Vid start:"
+   },
+   "optionSwitchToOpenedTabFalseTitle": {
+      "message": "Öppna fliken och stanna i OneTab"
+   },
+   "optionSwitchToOpenedTabHeading": {
+      "message": "När du öppnar flikar från OneTab-sidan:"
+   },
+   "optionSwitchToOpenedTabNote": {
+      "message": "Om du håller Skift nedtryckt när du klickar öppnas fliken i ett nytt fönster"
+   },
+   "optionSwitchToOpenedTabTrueTitle": {
+      "message": "Öppna fliken och byt till den (om du inte håller Kommando ⌘/Ctrl nedtryckt när du klickar)"
+   },
+   "optionUrlAbbr": {
+      "message": "Förkortad"
+   },
+   "optionUrlDisplayTitle": {
+      "message": "URL-visning:"
+   },
+   "optionUrlDomain": {
+      "message": "Endast domän"
+   },
+   "optionUrlFull": {
+      "message": "Fullständig"
+   },
+   "optionUrlNone": {
+      "message": "Ingen"
+   },
+   "options": {
+      "message": "Alternativ"
+   },
+   "otherCopiesColon": {
+      "message": "Andra kopior:"
+   },
+   "pasteRichOrPlainTextBelow": {
+      "message": "Du kan klistra in formaterad text eller oformaterad text nedan."
+   },
+   "pendingTaskCount_few": {
+      "message": "{COUNT} väntande"
+   },
+   "pendingTaskCount_many": {
+      "message": "{COUNT} väntande"
+   },
+   "pendingTaskCount_one": {
+      "message": "{COUNT} väntande"
+   },
+   "pendingTaskCount_other": {
+      "message": "{COUNT} väntande"
+   },
+   "pendingTaskCount_two": {
+      "message": "{COUNT} väntande"
+   },
+   "pendingTaskCount_zero": {
+      "message": "{COUNT} väntande"
+   },
+   "permissionRequiredPleaseTryAgain": {
+      "message": "För att skapa en delad sida som kan nås från vilken dator som helst krävs behörighet att samordna med webbservern för OneTab. Försök igen."
+   },
+   "pinToTopOfFolder": {
+      "message": "Fäst högst upp i mappen"
+   },
+   "pinToTopOfList": {
+      "message": "Fäst högst upp i listan"
+   },
+   "pinnedTabs": {
+      "message": "fästa flikar"
+   },
+   "placeholderAndOtherLocations_few": {
+      "message": "PLACEHOLDER och {COUNT} andra"
+   },
+   "placeholderAndOtherLocations_many": {
+      "message": "PLACEHOLDER och {COUNT} andra"
+   },
+   "placeholderAndOtherLocations_one": {
+      "message": "PLACEHOLDER och {COUNT} annan"
+   },
+   "placeholderAndOtherLocations_other": {
+      "message": "PLACEHOLDER och {COUNT} andra"
+   },
+   "placeholderAndOtherLocations_two": {
+      "message": "PLACEHOLDER och {COUNT} andra"
+   },
+   "placeholderAndOtherLocations_zero": {
+      "message": "PLACEHOLDER och {COUNT} andra"
+   },
+   "placeholderExplanation": {
+      "message": "På grund av webbläsarens säkerhetsregler får OneTab inte återställa den här sidan direkt. Kopiera URL:en och klistra in den i webbläsarens adressfält."
+   },
+   "plainTextLineFormat": {
+      "message": "Om du klistrar in oformaterad text, se till att varje URL har ett protokoll angivet (https://wikipedia.org istället för bara wikipedia.org). Varje rad ska ha följande format:"
+   },
+   "pleaseWaitTripleDot": {
+      "message": "Vänta…"
+   },
+   "popupSlashShortcutInfo": {
+      "message": "I popupfönstret för OneTab (som visas när du klickar på OneTab-ikonen), tryck på snedstreck för att öppna målväljaren och fokusera sökrutan."
+   },
+   "privacyAssurance": {
+      "message": "Integritetsskydd"
+   },
+   "privacyAssuranceDetail": {
+      "message": "Din fliklista varken överförs eller lämnas ut till utvecklarna av OneTab eller någon annan part. Det enda undantaget är om du medvetet använder funktionen ”Dela som webbsida” för att ladda upp din fliklista till en webbsida för att dela den med andra."
+   },
+   "privacyFirst": {
+      "message": "Integritet först"
+   },
+   "privacyFirstMessage": {
+      "message": "OneTab har utformats för att skydda dina personuppgifter. Dina flikar lagras bara på din dator och delas aldrig med OneTabs utvecklare eller någon annan part.\nOm du använder vår funktion för säkerhetskopiering/synkronisering krypteras dina data från ände till ände med stark AES-256-kryptering. Detta gör det omöjligt för OneTabs utvecklare att se de flikar du har säkerhetskopierat eller synkat mellan enheter, eftersom bara du har krypteringsnyckeln. \nDet enda undantaget är om du medvetet väljer att dela några av dina flikar med andra via funktionen ”Dela som webbsida”.\nVi sätter integriteten först."
+   },
+   "privateBrowsingPermissionRequired": {
+      "message": "OneTab behöver behörighet att skapa privata fönster."
+   },
+   "privateBrowsingWindows": {
+      "message": "Privata fönster"
+   },
+   "quickList": {
+      "message": "Snabblista"
+   },
+   "rating": {
+      "message": "Betyg"
+   },
+   "readingList": {
+      "message": "Läslista"
+   },
+   "readingListPermissionNecesssary": {
+      "message": "Behörigheten för läslistan krävs för att OneTab ska kunna importera objekt från din läslista. Om den här funktionen inte fungerar kanske din webbläsare inte stöder läslistor."
+   },
+   "recent": {
+      "message": "Senaste"
+   },
+   "recentDestinationsColon": {
+      "message": "Senaste destinationer:"
+   },
+   "recentDuplicateRetainedHelp": {
+      "message": "Om en flik förekommer flera gånger behålls bara den senaste dubbletten"
+   },
+   "recentlyAccessed": {
+      "message": "Senast öppnade"
+   },
+   "recentlyCreated": {
+      "message": "Senast skapade"
+   },
+   "recentlyModified": {
+      "message": "Senast ändrade"
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "message": "Minska minnesanvändningen med 95 %"
+   },
+   "removeDuplicateTabsHere_few": {
+      "message": "Ta bort {COUNT} duplicerade flikar här"
+   },
+   "removeDuplicateTabsHere_many": {
+      "message": "Ta bort {COUNT} duplicerade flikar här"
+   },
+   "removeDuplicateTabsHere_one": {
+      "message": "Ta bort {COUNT} duplicerad flik här"
+   },
+   "removeDuplicateTabsHere_other": {
+      "message": "Ta bort {COUNT} duplicerade flikar här"
+   },
+   "removeDuplicateTabsHere_two": {
+      "message": "Ta bort {COUNT} duplicerade flikar här"
+   },
+   "removeDuplicateTabsHere_zero": {
+      "message": "Ta bort {COUNT} duplicerade flikar här"
+   },
+   "removeDuplicates": {
+      "message": "Ta bort dubbletter"
+   },
+   "removeFromQuickList": {
+      "message": "Ta bort från snabblistan"
+   },
+   "removeTabsElsewhereAlsoHere_few": {
+      "message": "Ta bort {COUNT} flikar på andra ställen som också finns här"
+   },
+   "removeTabsElsewhereAlsoHere_many": {
+      "message": "Ta bort {COUNT} flikar på andra ställen som också finns här"
+   },
+   "removeTabsElsewhereAlsoHere_one": {
+      "message": "Ta bort {COUNT} flik på andra ställen som också finns här"
+   },
+   "removeTabsElsewhereAlsoHere_other": {
+      "message": "Ta bort {COUNT} flikar på andra ställen som också finns här"
+   },
+   "removeTabsElsewhereAlsoHere_two": {
+      "message": "Ta bort {COUNT} flikar på andra ställen som också finns här"
+   },
+   "removeTabsElsewhereAlsoHere_zero": {
+      "message": "Ta bort {COUNT} flikar på andra ställen som också finns här"
+   },
+   "removeTabsHereAlsoElsewhere_few": {
+      "message": "Ta bort {COUNT} flikar här som också finns någon annanstans"
+   },
+   "removeTabsHereAlsoElsewhere_many": {
+      "message": "Ta bort {COUNT} flikar här som också finns någon annanstans"
+   },
+   "removeTabsHereAlsoElsewhere_one": {
+      "message": "Ta bort {COUNT} flik här som också finns någon annanstans"
+   },
+   "removeTabsHereAlsoElsewhere_other": {
+      "message": "Ta bort {COUNT} flikar här som också finns någon annanstans"
+   },
+   "removeTabsHereAlsoElsewhere_two": {
+      "message": "Ta bort {COUNT} flikar här som också finns någon annanstans"
+   },
+   "removeTabsHereAlsoElsewhere_zero": {
+      "message": "Ta bort {COUNT} flikar här som också finns någon annanstans"
+   },
+   "rename": {
+      "message": "Byt namn"
+   },
+   "restore": {
+      "message": "Återställ"
+   },
+   "restrictSearchToFolderColon": {
+      "message": "Begränsa sökningen till följande mapp:"
+   },
+   "results": {
+      "message": "Resultat"
+   },
+   "returnToOneTab": {
+      "message": "Tillbaka till OneTab"
+   },
+   "reverse": {
+      "message": "Omvänd"
+   },
+   "rightClickAndOpenOneTabMenu": {
+      "message": "Högerklicka på webbsidan och öppna OneTab-menyn"
+   },
+   "rightClickMenuDisabledNote": {
+      "message": "Obs! Du har inaktiverat OneTabs högerklicksmeny. Aktivera den på OneTabs alternativsida."
+   },
+   "rightClickSelectionOptionsTip": {
+      "message": "Tips: När du har bockat i ett objekt, högerklicka på bockikonen för att visa fler markeringsalternativ"
+   },
+   "rightClickTickTip": {
+      "message": "Tips: Högerklicka på bockikonen bredvid varje flik för markeringsverktyg"
+   },
+   "safariApproveOneTabInSettings": {
+      "message": "Gå till Inställningar och godkänn att OneTab får åtkomst till alla webbplatser."
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "message": "Spara upp till 95 % minne och minska flikröran i Google Chrome"
+   },
+   "searchHere": {
+      "message": "Sök här"
+   },
+   "searchOneTab": {
+      "message": "Sök i OneTab"
+   },
+   "secondExampleLink": {
+      "message": "Den andra exempellänken"
+   },
+   "secondExampleLinkTitle": {
+      "message": "Andra exempel på länktitel"
+   },
+   "secondExampleLinkTitleOptional": {
+      "message": "Andra exempel på länktitel (valfritt)"
+   },
+   "seeOtherTabsInThisGroup_few": {
+      "message": "Visa {COUNT} andra flikar i den här gruppen"
+   },
+   "seeOtherTabsInThisGroup_many": {
+      "message": "Visa {COUNT} andra flikar i den här gruppen"
+   },
+   "seeOtherTabsInThisGroup_one": {
+      "message": "Visa {COUNT} annan flik i den här gruppen"
+   },
+   "seeOtherTabsInThisGroup_other": {
+      "message": "Visa {COUNT} andra flikar i den här gruppen"
+   },
+   "seeOtherTabsInThisGroup_two": {
+      "message": "Visa {COUNT} andra flikar i den här gruppen"
+   },
+   "seeOtherTabsInThisGroup_zero": {
+      "message": "Visa {COUNT} andra flikar i den här gruppen"
+   },
+   "seePasteInstructions": {
+      "message": "Se inklistringsinstruktioner…"
+   },
+   "seeTabsInThisGroup_few": {
+      "message": "Visa {COUNT} flikar i den här gruppen"
+   },
+   "seeTabsInThisGroup_many": {
+      "message": "Visa {COUNT} flikar i den här gruppen"
+   },
+   "seeTabsInThisGroup_one": {
+      "message": "Visa {COUNT} flik i den här gruppen"
+   },
+   "seeTabsInThisGroup_other": {
+      "message": "Visa {COUNT} flikar i den här gruppen"
+   },
+   "seeTabsInThisGroup_two": {
+      "message": "Visa {COUNT} flikar i den här gruppen"
+   },
+   "seeTabsInThisGroup_zero": {
+      "message": "Visa {COUNT} flikar i den här gruppen"
+   },
+   "selectAll": {
+      "message": "Markera alla"
+   },
+   "selectAllExceptThis": {
+      "message": "Markera alla utom den här"
+   },
+   "selectThisAndAbove": {
+      "message": "Markera den här och alla ovanför"
+   },
+   "selectThisAndBelow": {
+      "message": "Markera den här och alla nedanför"
+   },
+   "selectedItemCount_few": {
+      "message": "{COUNT} objekt"
+   },
+   "selectedItemCount_many": {
+      "message": "{COUNT} objekt"
+   },
+   "selectedItemCount_one": {
+      "message": "{COUNT} objekt"
+   },
+   "selectedItemCount_other": {
+      "message": "{COUNT} objekt"
+   },
+   "selectedItemCount_two": {
+      "message": "{COUNT} objekt"
+   },
+   "selectedItemCount_zero": {
+      "message": "{COUNT} objekt"
+   },
+   "selection": {
+      "message": "Markering"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "message": "Skicka alla flikar från alla fönster till OneTab"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "message": "Skicka alla flikar utom den här fliken till OneTab"
+   },
+   "sendAllTabsInGroupToOneTab": {
+      "message": "Skicka alla flikar i den här flikgruppen till OneTab"
+   },
+   "sendAllTabsInWindowToOneTab": {
+      "message": "Skicka alla flikar i det här fönstret till OneTab"
+   },
+   "sendCurrentTabToOneTab": {
+      "message": "Skicka den aktuella fliken till OneTab"
+   },
+   "sendLeftTabsToOneTab": {
+      "message": "Skicka flikarna till vänster till OneTab"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "message": "Skicka bara den här fliken till OneTab"
+   },
+   "sendRightTabsToOneTab": {
+      "message": "Skicka flikarna till höger till OneTab"
+   },
+   "sendSelectedTabsToOneTab": {
+      "message": "Skicka markerade flikar till OneTab"
+   },
+   "sendThisWebLinkToOneTab": {
+      "message": "Skicka den här länken till OneTab"
+   },
+   "serverUnreachable": {
+      "message": "Servern kan inte nås. Kontrollera din internetanslutning."
+   },
+   "share": {
+      "message": "Dela"
+   },
+   "shareAsAWebPage": {
+      "message": "Dela som webbsida"
+   },
+   "shared": {
+      "message": "Delade"
+   },
+   "sharedExpiresColon": {
+      "message": "Delad som webbsida. Upphör:"
+   },
+   "sharedPageOptions": {
+      "message": "Alternativ för delad sida"
+   },
+   "sharedPageTabLimit_few": {
+      "message": "Delade sidor är begränsade till {COUNT} flikar"
+   },
+   "sharedPageTabLimit_many": {
+      "message": "Delade sidor är begränsade till {COUNT} flikar"
+   },
+   "sharedPageTabLimit_one": {
+      "message": "Delade sidor är begränsade till {COUNT} flik"
+   },
+   "sharedPageTabLimit_other": {
+      "message": "Delade sidor är begränsade till {COUNT} flikar"
+   },
+   "sharedPageTabLimit_two": {
+      "message": "Delade sidor är begränsade till {COUNT} flikar"
+   },
+   "sharedPageTabLimit_zero": {
+      "message": "Delade sidor är begränsade till {COUNT} flikar"
+   },
+   "sharedPageWillAutomaticallyExpire": {
+      "message": "Den delade sidan upphör automatiskt, men du kan förlänga giltighetstiden när som helst."
+   },
+   "shiftDragShortcutInfo": {
+      "message": "Håll ned Skift när du släpper en flik för att skapa en kopia i stället för att flytta den. Viktigt: Tryck på Skift först efter att du har börjat dra."
+   },
+   "showEverything": {
+      "message": "Visa allt"
+   },
+   "showFoldersOnly": {
+      "message": "Visa endast mappar"
+   },
+   "showNamedItemsOnly": {
+      "message": "Visa endast namngivna objekt"
+   },
+   "showNamedOnly": {
+      "message": "Visa endast namngivna objekt"
+   },
+   "showNextCount_few": {
+      "message": "Visa nästa {COUNT}"
+   },
+   "showNextCount_many": {
+      "message": "Visa nästa {COUNT}"
+   },
+   "showNextCount_one": {
+      "message": "Visa nästa {COUNT}"
+   },
+   "showNextCount_other": {
+      "message": "Visa nästa {COUNT}"
+   },
+   "showNextCount_two": {
+      "message": "Visa nästa {COUNT}"
+   },
+   "showNextCount_zero": {
+      "message": "Visa nästa {COUNT}"
+   },
+   "showPreviousCount_few": {
+      "message": "Visa föregående {COUNT}"
+   },
+   "showPreviousCount_many": {
+      "message": "Visa föregående {COUNT}"
+   },
+   "showPreviousCount_one": {
+      "message": "Visa föregående {COUNT}"
+   },
+   "showPreviousCount_other": {
+      "message": "Visa föregående {COUNT}"
+   },
+   "showPreviousCount_two": {
+      "message": "Visa föregående {COUNT}"
+   },
+   "showPreviousCount_zero": {
+      "message": "Visa föregående {COUNT}"
+   },
+   "soon": {
+      "message": "snart"
+   },
+   "sort": {
+      "message": "Sortera"
+   },
+   "sortByColon": {
+      "message": "Sortera efter:"
+   },
+   "sortGroups": {
+      "message": "Sortera grupper"
+   },
+   "sourceColon": {
+      "message": "Källa:"
+   },
+   "starRatingTooltip": {
+      "message": "Sätt ett stjärnbetyg"
+   },
+   "storeSelectedTabsInONETAB_few": {
+      "message": "Spara {COUNT} markerade flikar i ONETAB"
+   },
+   "storeSelectedTabsInONETAB_many": {
+      "message": "Spara {COUNT} markerade flikar i ONETAB"
+   },
+   "storeSelectedTabsInONETAB_one": {
+      "message": "Spara {COUNT} markerad flik i ONETAB"
+   },
+   "storeSelectedTabsInONETAB_other": {
+      "message": "Spara {COUNT} markerade flikar i ONETAB"
+   },
+   "storeSelectedTabsInONETAB_two": {
+      "message": "Spara {COUNT} markerade flikar i ONETAB"
+   },
+   "storeSelectedTabsInONETAB_zero": {
+      "message": "Spara {COUNT} markerade flikar i ONETAB"
+   },
+   "storeTabInAdditionalLocation": {
+      "message": "Spara din flik på en extra plats"
+   },
+   "storeTabInONETAB": {
+      "message": "Spara fliken i ONETAB"
+   },
+   "storeTabsInAdditionalLocation": {
+      "message": "Spara dina flikar på en extra plats"
+   },
+   "storeTabsInONETAB": {
+      "message": "Spara flikarna i ONETAB"
+   },
+   "subFoldersNotShared": {
+      "message": "Observera att undermappar inte delas. Endast grupper av flikar direkt i mappen delas."
+   },
+   "tab": {
+      "message": "flik"
+   },
+   "tabAlreadyStoredHere": {
+      "message": "Din öppna flik är redan sparad här:"
+   },
+   "tabCaretTooltipTitleNotes": {
+      "message": "Redigera flikens titel och anteckningar"
+   },
+   "tabCaretTooltipTitleNotesUrl": {
+      "message": "Redigera flikens titel, URL och anteckningar"
+   },
+   "tabCount_few": {
+      "message": "{COUNT} flikar"
+   },
+   "tabCount_many": {
+      "message": "{COUNT} flikar"
+   },
+   "tabCount_one": {
+      "message": "{COUNT} flik"
+   },
+   "tabCount_other": {
+      "message": "{COUNT} flikar"
+   },
+   "tabCount_two": {
+      "message": "{COUNT} flikar"
+   },
+   "tabCount_zero": {
+      "message": "{COUNT} flikar"
+   },
+   "tabGroupColorColon": {
+      "message": "Flikgruppsfärg:"
+   },
+   "tabShortcutInfo": {
+      "message": "På OneTab-sidan: tryck på tabbtangenten för att flytta fokus mellan grupper i mittkolumnen. Det gör det enkelt att snabbt hoppa över grupper, särskilt om de är stora. Om en grupp har fokus, tryck på Retur för att öppna den. Använd Skift+Tabb för att flytta fokus bakåt."
+   },
+   "tabTotalCount_few": {
+      "message": "Totalt: {COUNT} flikar"
+   },
+   "tabTotalCount_many": {
+      "message": "Totalt: {COUNT} flikar"
+   },
+   "tabTotalCount_one": {
+      "message": "Totalt: {COUNT} flik"
+   },
+   "tabTotalCount_other": {
+      "message": "Totalt: {COUNT} flikar"
+   },
+   "tabTotalCount_two": {
+      "message": "Totalt: {COUNT} flikar"
+   },
+   "tabTotalCount_zero": {
+      "message": "Totalt: {COUNT} flikar"
+   },
+   "tabs": {
+      "message": "Flikar"
+   },
+   "tabsFromExcludedDomains": {
+      "message": "flikar från exkluderade domäner"
+   },
+   "tabsInTabGroups": {
+      "message": "flikar i flikgrupper"
+   },
+   "taskTotalCount_few": {
+      "message": "{COUNT} totalt"
+   },
+   "taskTotalCount_many": {
+      "message": "{COUNT} totalt"
+   },
+   "taskTotalCount_one": {
+      "message": "{COUNT} totalt"
+   },
+   "taskTotalCount_other": {
+      "message": "{COUNT} totalt"
+   },
+   "taskTotalCount_two": {
+      "message": "{COUNT} totalt"
+   },
+   "taskTotalCount_zero": {
+      "message": "{COUNT} totalt"
+   },
+   "tasks": {
+      "message": "Uppgifter"
+   },
+   "tasksDone": {
+      "message": "Uppgifter (klara)"
+   },
+   "tasksPending": {
+      "message": "Uppgifter (väntande)"
+   },
+   "tasksWillAppearHere": {
+      "message": "Om du markerar några flikar eller grupper som uppgifter visas de här."
+   },
+   "thenClickToolbarIcon": {
+      "message": "Klicka sedan på OneTab-ikonen i verktygsfältet igen för att använda OneTab."
+   },
+   "thisFolderIsEmpty": {
+      "message": "Den här mappen är tom"
+   },
+   "thisTab": {
+      "message": "Den här fliken"
+   },
+   "thisTabGroup": {
+      "message": "Den här flikgruppen"
+   },
+   "thisTabNotStored": {
+      "message": "Den här fliken är inte sparad i OneTab"
+   },
+   "thisWindow": {
+      "message": "Det här fönstret"
+   },
+   "tickOrUntickToExclude": {
+      "message": "Bocka i eller av för att utesluta webbplatsen"
+   },
+   "title": {
+      "message": "Titel"
+   },
+   "toAddOrRemoveExclusions": {
+      "message": "Så här lägger du till eller tar bort en webbplats i uteslutningslistan:"
+   },
+   "toAllowOneTabInIncognito": {
+      "message": "För att låta OneTab-ikonen visas i inkognitofönster: "
+   },
+   "toImportBrowserBookmarksUseMenuOption": {
+      "message": "För att importera från webbläsarens bokmärken använder du menyalternativet ”Importera länkar här” på din OneTab-sida"
+   },
+   "toMakeOpenButtonWorkApprovePermission": {
+      "message": "För att knappen ”Öppna” på delade sidor ska fungera, godkänn behörighetsbegäran."
+   },
+   "toSaveChangesClickButton": {
+      "message": "För att spara dina ändringar klickar du på knappen"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "message": "För många flikar? Gör om flikarna till en lista och snabba upp Firefox"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "message": "För många flikar? Gör om flikarna till en lista och snabba upp Safari"
+   },
+   "total0Tabs": {
+      "message": "Totalt: 0 flikar"
+   },
+   "trash": {
+      "message": "Papperskorg"
+   },
+   "unMarkAsTask": {
+      "message": "Avmarkera som uppgift"
+   },
+   "unPin": {
+      "message": "Lösgör"
+   },
+   "unlock": {
+      "message": "Lås upp"
+   },
+   "unmarkAsArchived": {
+      "message": "Avmarkera som arkiverad"
+   },
+   "unshare": {
+      "message": "Sluta dela"
+   },
+   "untitled": {
+      "message": "Namnlös"
+   },
+   "update": {
+      "message": "Uppdatera"
+   },
+   "userLanguage": {
+      "message": "Svenska"
+   },
+   "website": {
+      "message": "Webbplats"
+   },
+   "yearCount_few": {
+      "message": "{COUNT} år"
+   },
+   "yearCount_many": {
+      "message": "{COUNT} år"
+   },
+   "yearCount_one": {
+      "message": "{COUNT} år"
+   },
+   "yearCount_other": {
+      "message": "{COUNT} år"
+   },
+   "yearCount_two": {
+      "message": "{COUNT} år"
+   },
+   "yearCount_zero": {
+      "message": "{COUNT} år"
+   },
+   "yourTabAlreadyStoredHere": {
+      "message": "Din flik är redan sparad här:"
+   }
+}

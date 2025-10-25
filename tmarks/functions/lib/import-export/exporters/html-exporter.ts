@@ -64,20 +64,27 @@ ${includeMetadata ? this.generateMetadataComment(data) : ''}
     bookmarks.forEach(bookmark => {
       if (!includeTags || bookmark.tags.length === 0) {
         // 没有标签的书签放入未分类
-        folderMap.get('未分类')!.push(bookmark)
+        const uncategorized = folderMap.get('未分类')
+        if (uncategorized) {
+          uncategorized.push(bookmark)
+        }
       } else {
         // 有标签的书签，为每个标签创建文件夹
         bookmark.tags.forEach((tag: string) => {
           if (!folderMap.has(tag)) {
             folderMap.set(tag, [])
           }
-          folderMap.get(tag)!.push(bookmark)
+          const folder = folderMap.get(tag)
+          if (folder) {
+            folder.push(bookmark)
+          }
         })
       }
     })
     
     // 移除空的未分类文件夹
-    if (folderMap.get('未分类')!.length === 0) {
+    const uncategorized = folderMap.get('未分类')
+    if (uncategorized && uncategorized.length === 0) {
       folderMap.delete('未分类')
     }
     
@@ -163,9 +170,11 @@ ${includeMetadata ? this.generateMetadataComment(data) : ''}
   }
 
   private escapeHtml(text: string): string {
-    const div = { innerHTML: '' } as any
-    div.textContent = text
-    return div.innerHTML
+    // 使用标准的 HTML 转义方法
+    return text
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;')
       .replace(/'/g, '&#39;')
   }
@@ -220,7 +229,8 @@ ${includeMetadata ? this.generateMetadataComment(data) : ''}
     
     return this.generateHtml(previewData, { 
       include_metadata: false, 
-      include_tags: true 
+      include_tags: true,
+      format_options: {}
     })
   }
 }

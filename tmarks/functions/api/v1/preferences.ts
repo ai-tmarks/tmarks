@@ -134,14 +134,18 @@ export const onRequestPatch: PagesFunction<Env, RouteParams, AuthContext>[] = [
             .bind(userId)
             .first<UserPreferences>()
 
+          if (!preferences) {
+            return internalError('Failed to load preferences')
+          }
+
           return success({
             preferences: {
-              theme: preferences!.theme,
-              page_size: preferences!.page_size,
-              view_mode: preferences!.view_mode,
-              density: preferences!.density,
-              tag_layout: preferences!.tag_layout ?? 'grid',
-              updated_at: preferences!.updated_at,
+              theme: preferences.theme,
+              page_size: preferences.page_size,
+              view_mode: preferences.view_mode,
+              density: preferences.density,
+              tag_layout: preferences.tag_layout ?? 'grid',
+              updated_at: preferences.updated_at,
             },
           })
         }
@@ -169,14 +173,18 @@ export const onRequestPatch: PagesFunction<Env, RouteParams, AuthContext>[] = [
         .bind(userId)
         .first<UserPreferences>()
 
+      if (!preferences) {
+        return internalError('Failed to load preferences after update')
+      }
+
       return success({
         preferences: {
-          theme: preferences!.theme,
-          page_size: preferences!.page_size,
-          view_mode: preferences!.view_mode,
-          density: preferences!.density,
-          tag_layout: preferences!.tag_layout ?? 'grid',
-          updated_at: preferences!.updated_at,
+          theme: preferences.theme,
+          page_size: preferences.page_size,
+          view_mode: preferences.view_mode,
+          density: preferences.density,
+          tag_layout: preferences.tag_layout ?? 'grid',
+          updated_at: preferences.updated_at,
         },
       })
     } catch (error) {

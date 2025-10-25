@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <title data-m="oneTabPermissionRequired"></title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="images/extension-icon32.png">
+
+  <style>
+
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url("fonts/OpenSans-Light-webfont.woff") format('woff');
+  }
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url("fonts/OpenSans-Regular-webfont.woff") format("woff");
+  }
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Open Sans Italic'), local('OpenSans-Italic'), url("fonts/OpenSans-Italic-webfont.woff") format("woff");
+  }
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url("fonts/OpenSans-Semibold-webfont.woff") format('woff');
+  }
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url("fonts/OpenSans-Bold-webfont.woff") format('woff');
+  }
+
+  </style>
+
+  <link href="onetab.css" rel="stylesheet" type="text/css" />
+
+  <style>
+    body {
+      background-color: #fbfcfd
+    }
+  </style>
+
+  <script src="ext-onetab-concatenated-sources-shared-page-permission.js"></script>
+
+</head>
+
+<body>
+
+<div style="margin-inline-start: auto; margin-inline-end: auto;  margin-top: 30px; margin-bottom: 30px; height: 43px; width: 155px;">
+  <picture class="inline-block-ltr" style="vertical-align:middle; height: 43px; width: 155px; padding-inline-start:9px; padding-inline-end:0px">
+    <source srcset="/images/top-left-logo-sml-light.png" media="(prefers-color-scheme: light)"/>
+    <source srcset="/images/top-left-logo-sml-dark.png" media="(prefers-color-scheme: dark)"/>
+    <img src="/images/top-left-logo-sml-light.png" style="width: 100%; height: 100%;">
+  </picture>
+</div>
+
+
+<div data-m="toMakeOpenButtonWorkApprovePermission" style="text-align:center; margin-inline-start: auto; margin-inline-end: auto; width: 300px; font-size: 13px; line-height: 1.7em">
+</div>
+
+<div style="margin-top: 20px; margin-inline-start: auto; margin-inline-end: auto; font-size: 20px; line-height: 1.7em; width: 300px; text-align: center">
+  <div class="button-outer button-default-outer">
+    <div data-m="approve" id="approveButton" class="button button-hover-bg-change" style="font-size: 16px; font-weight: 400"></div>
+  </div>
+</div>
+
+
+</body>
+
+</html>

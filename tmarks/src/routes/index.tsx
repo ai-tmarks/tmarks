@@ -12,6 +12,7 @@ import { StatisticsPage } from '@/pages/tab-groups/StatisticsPage'
 import { ApiKeysPage } from '@/pages/settings/ApiKeysPage'
 import { ShareSettingsPage } from '@/pages/settings/ShareSettingsPage'
 import { ImportExportPage } from '@/pages/settings/ImportExportPage'
+import { PermissionsPage } from '@/pages/settings/PermissionsPage'
 import { PublicSharePage } from '@/pages/share/PublicSharePage'
 
 export function AppRouter() {
@@ -36,6 +37,7 @@ export function AppRouter() {
           <Route path="/api-keys" element={<ApiKeysPage />} />
           <Route path="/share-settings" element={<ShareSettingsPage />} />
           <Route path="/import-export" element={<ImportExportPage />} />
+          <Route path="/permissions" element={<PermissionsPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Route>
       </Route>

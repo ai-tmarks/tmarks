@@ -12,8 +12,10 @@ export function SuccessMessage({ message, onDismiss, autoHideDuration = 3000 }: 
       const timer = setTimeout(() => {
         onDismiss();
       }, autoHideDuration);
-
-      return () => clearTimeout(timer);
+      
+      return () => {
+        clearTimeout(timer);
+      };
     }
   }, [onDismiss, autoHideDuration]);
 

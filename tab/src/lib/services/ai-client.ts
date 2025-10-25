@@ -1,4 +1,5 @@
 import type { AIProvider as ProviderName } from '@/types';
+import { AI_SERVICE_URLS } from '@/lib/constants/urls';
 
 const SYSTEM_PROMPT =
   '你是一个智能书签标签推荐助手。优先使用已有标签,只有在必要时才建议新标签。返回格式必须是JSON。';
@@ -161,18 +162,18 @@ const buildOpenAIStyleRequest = (
 
 const providerConfigs: Record<ProviderName, ProviderConfig> = {
   openai: {
-    defaultBaseUrl: 'https://api.openai.com/v1',
+    defaultBaseUrl: AI_SERVICE_URLS.OPENAI,
     buildRequest: params =>
-      buildOpenAIStyleRequest('https://api.openai.com/v1', params, {
+      buildOpenAIStyleRequest(AI_SERVICE_URLS.OPENAI, params, {
         includeJsonResponseFormat: true,
         defaultMaxTokens: 500
       }),
     extractContent: openAIStyleExtractor
   },
   claude: {
-    defaultBaseUrl: 'https://api.anthropic.com/v1',
+    defaultBaseUrl: AI_SERVICE_URLS.CLAUDE,
     buildRequest: params => {
-      const baseUrl = params.apiUrl?.trim() || 'https://api.anthropic.com/v1';
+      const baseUrl = params.apiUrl?.trim() || AI_SERVICE_URLS.CLAUDE;
       const url = resolveEndpoint(baseUrl, '/messages');
 
       const headers: Record<string, string> = {
@@ -209,26 +210,26 @@ const providerConfigs: Record<ProviderName, ProviderConfig> = {
     extractContent: anthropicExtractor
   },
   deepseek: {
-    defaultBaseUrl: 'https://api.deepseek.com/v1',
+    defaultBaseUrl: AI_SERVICE_URLS.DEEPSEEK,
     buildRequest: params =>
-      buildOpenAIStyleRequest('https://api.deepseek.com/v1', params, {
+      buildOpenAIStyleRequest(AI_SERVICE_URLS.DEEPSEEK, params, {
         includeJsonResponseFormat: true,
         defaultMaxTokens: 500
       }),
     extractContent: openAIStyleExtractor
   },
   zhipu: {
-    defaultBaseUrl: 'https://open.bigmodel.cn/api/paas/v4',
+    defaultBaseUrl: AI_SERVICE_URLS.ZHIPU,
     buildRequest: params =>
-      buildOpenAIStyleRequest('https://open.bigmodel.cn/api/paas/v4', params, {
+      buildOpenAIStyleRequest(AI_SERVICE_URLS.ZHIPU, params, {
         defaultMaxTokens: 500
       }),
     extractContent: openAIStyleExtractor
   },
   modelscope: {
-    defaultBaseUrl: 'https://api-inference.modelscope.cn/v1',
+    defaultBaseUrl: AI_SERVICE_URLS.MODELSCOPE,
     buildRequest: params =>
-      buildOpenAIStyleRequest('https://api-inference.modelscope.cn/v1', params, {
+      buildOpenAIStyleRequest(AI_SERVICE_URLS.MODELSCOPE, params, {
         defaultMaxTokens: 500,
         additionalBody: {
           result_format: 'message'
@@ -237,9 +238,9 @@ const providerConfigs: Record<ProviderName, ProviderConfig> = {
     extractContent: openAIStyleExtractor
   },
   siliconflow: {
-    defaultBaseUrl: 'https://api.siliconflow.cn/v1',
+    defaultBaseUrl: AI_SERVICE_URLS.SILICONFLOW,
     buildRequest: params =>
-      buildOpenAIStyleRequest('https://api.siliconflow.cn/v1', params, {
+      buildOpenAIStyleRequest(AI_SERVICE_URLS.SILICONFLOW, params, {
         defaultMaxTokens: 500,
         additionalBody: {
           stream: false
@@ -248,17 +249,17 @@ const providerConfigs: Record<ProviderName, ProviderConfig> = {
     extractContent: openAIStyleExtractor
   },
   iflow: {
-    defaultBaseUrl: 'https://apis.iflow.cn/v1',
+    defaultBaseUrl: AI_SERVICE_URLS.IFLOW,
     buildRequest: params =>
-      buildOpenAIStyleRequest('https://apis.iflow.cn/v1', params, {
+      buildOpenAIStyleRequest(AI_SERVICE_URLS.IFLOW, params, {
         defaultMaxTokens: 1000
       }),
     extractContent: openAIStyleExtractor
   },
   custom: {
-    defaultBaseUrl: 'https://api.openai.com/v1',
+    defaultBaseUrl: AI_SERVICE_URLS.OPENAI,
     buildRequest: params =>
-      buildOpenAIStyleRequest(params.apiUrl?.trim() || 'https://api.openai.com/v1', params, {
+      buildOpenAIStyleRequest(params.apiUrl?.trim() || AI_SERVICE_URLS.OPENAI, params, {
         defaultMaxTokens: 500
       }),
     extractContent: openAIStyleExtractor

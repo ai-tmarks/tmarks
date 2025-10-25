@@ -1,0 +1,1715 @@
+{
+   "95PctMemoryReduction": {
+      "message": "Redução de memória de 95%"
+   },
+   "Folder": {
+      "message": "Pasta"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "message": "O OneTab também está disponível para o Firefox"
+   },
+   "aDashZ": {
+      "message": "A-Z"
+   },
+   "about": {
+      "message": "Acerca de"
+   },
+   "addOneTabNow": {
+      "message": "Adicionar o OneTab agora"
+   },
+   "all": {
+      "message": "Tudo"
+   },
+   "allBookmarks": {
+      "message": "Todos os marcadores"
+   },
+   "allOpenTabsAlreadyStoredHere": {
+      "message": "Todos os separadores abertos já estão guardados aqui:"
+   },
+   "allowFileAccessInstructions": {
+      "message": "Para permitir abrir ficheiros diretamente, vá a Definições ➝ Extensões ➝ OneTab ➝ Detalhes ➝ Permitir acesso a URLs de ficheiros"
+   },
+   "alreadyExistingOpenTabsWillBeClosedAfterMerge": {
+      "message": "Todos os separadores abertos que já existam neste grupo serão fechados após a junção."
+   },
+   "alternatePlainTextFormat": {
+      "message": "Em alternativa, o texto simples pode estar no formato:"
+   },
+   "approve": {
+      "message": "Aprovar"
+   },
+   "archived": {
+      "message": "Arquivado"
+   },
+   "autoTheme": {
+      "message": "Automático (usar a definição do sistema operativo)"
+   },
+   "backupAndSync": {
+      "message": "Cópia de segurança e sincronização"
+   },
+   "betaReleaseReportBugsHere": {
+      "message": "Beta — comunicar erros aqui"
+   },
+   "bookmarkCount_few": {
+      "message": "{COUNT} marcadores"
+   },
+   "bookmarkCount_many": {
+      "message": "{COUNT} marcadores"
+   },
+   "bookmarkCount_one": {
+      "message": "{COUNT} marcador"
+   },
+   "bookmarkCount_other": {
+      "message": "{COUNT} marcadores"
+   },
+   "bookmarkCount_two": {
+      "message": "{COUNT} marcadores"
+   },
+   "bookmarkCount_zero": {
+      "message": "{COUNT} marcadores"
+   },
+   "bookmarksPermissionNecesssary": {
+      "message": "A permissão de marcadores é necessária para permitir que o OneTab importe os seus marcadores do navegador"
+   },
+   "bulkActions": {
+      "message": "Ações em lote"
+   },
+   "canDragTextNote": {
+      "message": "Nota: Também é possível arrastar e largar texto que contenha ligações web diretamente de outra página web ou de um documento. Pode arrastar o texto diretamente para a sua página do OneTab, sem precisar de usar esta caixa de importação."
+   },
+   "canPasteWebContentForExample": {
+      "message": "Pode colar texto copiado de uma página web ou de um documento, e as ligações serão extraídas automaticamente. Por exemplo:"
+   },
+   "cancel": {
+      "message": "Cancelar"
+   },
+   "cannotConnectToServerDeletionRequestQueued": {
+      "message": "Não é possível ligar ao servidor do OneTab. Verifique a sua ligação à Internet. O seu pedido de eliminação da página partilhada foi colocado em fila localmente e será automaticamente transmitido para o servidor do OneTab assim que voltar a estar acessível."
+   },
+   "cannotCreateTabGroupInTabGroup": {
+      "message": "O destino escolhido é um grupo de separadores. Não pode criar um grupo de separadores dentro de um grupo de separadores existente. Escolha um destino diferente."
+   },
+   "cannotMixTabsGroupsFoldersDuringDrag": {
+      "message": "Não é possível misturar separadores, grupos e pastas ao arrastar. Isto porque, por exemplo, não pode arrastar uma pasta para os mesmos locais onde pode arrastar um separador."
+   },
+   "caseSensitive": {
+      "message": "Sensível a maiúsculas/minúsculas"
+   },
+   "changesMadeSinceSharedPageCreation": {
+      "message": "Foram feitas alterações desde que criou a página partilhada. Clique no botão 'Atualizar' para atualizar a página partilhada existente."
+   },
+   "checkboxesDeterminePinnedAndGroupedTabMergeInclusion": {
+      "message": "As caixas de seleção no topo desta página determinam se os separadores fixados ou em grupos de separadores são incluídos na junção."
+   },
+   "chooseALocation": {
+      "message": "Escolha um local"
+   },
+   "chooseALocationToImportTo": {
+      "message": "Escolha um local para importar"
+   },
+   "chooseExportLocation": {
+      "message": "Escolha um local de onde exportar"
+   },
+   "chooseLightDarkTheme": {
+      "message": "Escolher tema claro/escuro"
+   },
+   "chooseLocationToCopyTo": {
+      "message": "Escolha um local para onde copiar"
+   },
+   "chooseLocationToMoveTo": {
+      "message": "Escolha um local para onde mover"
+   },
+   "chooseLocationToRestoreTo": {
+      "message": "Escolha um local para onde restaurar"
+   },
+   "chooseToIncludeNotes": {
+      "message": "Se adicionou notas a separadores ou grupos, escolha se as inclui na página web partilhada"
+   },
+   "chooseToIncludeRatings": {
+      "message": "Se adicionou classificações por estrelas a separadores ou grupos, escolha se as inclui na página web partilhada"
+   },
+   "chromeIncognitoInstructions": {
+      "message": "Nas definições do navegador, vá a 'Definições' → 'Extensões' → 'OneTab' → 'Detalhes' e ative 'Permitir no modo de navegação anónima'."
+   },
+   "clickButtonToAllowTabAccess": {
+      "message": "Clique no botão abaixo para permitir que o OneTab aceda aos seus separadores abertos."
+   },
+   "clickHereToContinue": {
+      "message": "Clique aqui para continuar."
+   },
+   "clickOneTabIconToStoreTabsHere": {
+      "message": "Clique no ícone do OneTab na barra de ferramentas do navegador para guardar aqui os separadores abertos."
+   },
+   "closeSelectedTabsAndStoreInONETAB_few": {
+      "message": "Fechar {COUNT} separadores selecionados e guardar no ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_many": {
+      "message": "Fechar {COUNT} separadores selecionados e guardar no ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_one": {
+      "message": "Fechar {COUNT} separador selecionado e guardar no ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_other": {
+      "message": "Fechar {COUNT} separadores selecionados e guardar no ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_two": {
+      "message": "Fechar {COUNT} separadores selecionados e guardar no ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_zero": {
+      "message": "Fechar {COUNT} separadores selecionados e guardar no ONETAB"
+   },
+   "closeSelectedTabs_few": {
+      "message": "Fechar {COUNT} separadores selecionados"
+   },
+   "closeSelectedTabs_many": {
+      "message": "Fechar {COUNT} separadores selecionados"
+   },
+   "closeSelectedTabs_one": {
+      "message": "Fechar {COUNT} separador selecionado"
+   },
+   "closeSelectedTabs_other": {
+      "message": "Fechar {COUNT} separadores selecionados"
+   },
+   "closeSelectedTabs_two": {
+      "message": "Fechar {COUNT} separadores selecionados"
+   },
+   "closeSelectedTabs_zero": {
+      "message": "Fechar {COUNT} separadores selecionados"
+   },
+   "closeTab": {
+      "message": "Fechar separador"
+   },
+   "closeTabAndStore": {
+      "message": "Fechar separador e guardar no ONETAB"
+   },
+   "closeTabs": {
+      "message": "Fechar separadores"
+   },
+   "closeTabsAfterMerge": {
+      "message": "Fechar separadores após a junção"
+   },
+   "closeTabsAlreadyStoredInOneTab_few": {
+      "message": "Fechar {COUNT} separadores já guardados no OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_many": {
+      "message": "Fechar {COUNT} separadores já guardados no OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_one": {
+      "message": "Fechar {COUNT} separador já guardado no OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_other": {
+      "message": "Fechar {COUNT} separadores já guardados no OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_two": {
+      "message": "Fechar {COUNT} separadores já guardados no OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_zero": {
+      "message": "Fechar {COUNT} separadores já guardados no OneTab"
+   },
+   "closeTabsAndStore": {
+      "message": "Fechar separadores e guardar no ONETAB"
+   },
+   "closeTheseDuplicates": {
+      "message": "Fechar estes duplicados"
+   },
+   "closeThisDuplicate": {
+      "message": "Fechar este duplicado"
+   },
+   "completeEditingShortcutInfo": {
+      "message": "Ao editar um campo de notas, use este atalho para concluir a edição."
+   },
+   "configureShortcuts": {
+      "message": "Configurar atalhos"
+   },
+   "conflictingShortcutsHint": {
+      "message": "Se algum dos atalhos acima não funcionar ou entrar em conflito com outras aplicações, pode configurar uma tecla de atalho diferente."
+   },
+   "continue": {
+      "message": "Continuar"
+   },
+   "convertTabsIntoAList": {
+      "message": "Converter separadores numa lista"
+   },
+   "copiedToClipboard": {
+      "message": "Copiado para a área de transferência"
+   },
+   "copy": {
+      "message": "Copiar"
+   },
+   "copyLinksToClipboard": {
+      "message": "Copiar ligações para a área de transferência"
+   },
+   "copySharedPageUrl": {
+      "message": "Copiar URL da página partilhada"
+   },
+   "copyToClipboard": {
+      "message": "Copiar para a área de transferência"
+   },
+   "createANewGroupHere": {
+      "message": "Criar aqui um novo grupo"
+   },
+   "createFolderAbove": {
+      "message": "Criar pasta acima"
+   },
+   "createFolderAboveBelow": {
+      "message": "Criar pasta acima / abaixo"
+   },
+   "createFolderAboveWithinBelow": {
+      "message": "Criar pasta acima / dentro / abaixo"
+   },
+   "createFolderBelow": {
+      "message": "Criar pasta abaixo"
+   },
+   "createFolderWithin": {
+      "message": "Criar pasta dentro"
+   },
+   "createGroupAbove": {
+      "message": "Criar grupo acima"
+   },
+   "createGroupAboveBelow": {
+      "message": "Criar grupo acima / abaixo"
+   },
+   "createGroupAboveWithinBelow": {
+      "message": "Criar grupo acima / dentro / abaixo"
+   },
+   "createGroupBelow": {
+      "message": "Criar grupo abaixo"
+   },
+   "createGroupInsideDestination": {
+      "message": "Criar novo grupo dentro do destino"
+   },
+   "createGroupInsideDestinationHelp": {
+      "message": "Se desassinalada, os seus separadores serão adicionados diretamente ao grupo de destino. Se assinalada, será criado um novo grupo de separadores do navegador para os seus separadores dentro do grupo de destino. Assinale esta caixa apenas se quiser usar a funcionalidade \"grupos de separadores\" do seu navegador."
+   },
+   "createGroupWithin": {
+      "message": "Criar grupo dentro"
+   },
+   "createNewGroupTip": {
+      "message": "Para criar um novo grupo, desassinale \"Mostrar apenas pastas\""
+   },
+   "createdOnOrAfterColon": {
+      "message": "Criado em ou após:"
+   },
+   "createdOnOrBeforeColon": {
+      "message": "Criado em ou antes de:"
+   },
+   "createdPreceedingDate": {
+      "message": "Criado"
+   },
+   "darkTheme": {
+      "message": "Tema escuro"
+   },
+   "dayCount_few": {
+      "message": "{COUNT} dias"
+   },
+   "dayCount_many": {
+      "message": "{COUNT} dias"
+   },
+   "dayCount_one": {
+      "message": "{COUNT} dia"
+   },
+   "dayCount_other": {
+      "message": "{COUNT} dias"
+   },
+   "dayCount_two": {
+      "message": "{COUNT} dias"
+   },
+   "dayCount_zero": {
+      "message": "{COUNT} dias"
+   },
+   "delete": {
+      "message": "Eliminar"
+   },
+   "deleteAllTrash": {
+      "message": "Esvaziar o lixo"
+   },
+   "deleteThisCopy": {
+      "message": "Eliminar esta cópia"
+   },
+   "deselectAll": {
+      "message": "Desmarcar tudo"
+   },
+   "destinationColon": {
+      "message": "Destino:"
+   },
+   "disabled": {
+      "message": "Desativado"
+   },
+   "doneTaskCount_few": {
+      "message": "{COUNT} concluídas"
+   },
+   "doneTaskCount_many": {
+      "message": "{COUNT} concluídas"
+   },
+   "doneTaskCount_one": {
+      "message": "{COUNT} concluída"
+   },
+   "doneTaskCount_other": {
+      "message": "{COUNT} concluídas"
+   },
+   "doneTaskCount_two": {
+      "message": "{COUNT} concluídas"
+   },
+   "doneTaskCount_zero": {
+      "message": "{COUNT} concluídas"
+   },
+   "dontCloseGroupedTabs": {
+      "message": "Não fechar quaisquer separadores em grupos de separadores"
+   },
+   "dontClosePinnedTabs": {
+      "message": "Não fechar quaisquer separadores fixados"
+   },
+   "dontCloseTabsFromDomains": {
+      "message": "Não fechar quaisquer separadores de EXAMPLE.COM"
+   },
+   "dragTabsHereForQuickList": {
+      "message": "Arraste aqui os seus separadores ou grupos guardados. Serão adicionados à lista rápida."
+   },
+   "editTabGroupTitleAndNotes": {
+      "message": "Editar o título e as notas do grupo de separadores"
+   },
+   "emojiShortcutInfo": {
+      "message": "Ao editar um campo de notas, use este atalho para abrir o seletor de emoji."
+   },
+   "emptyInBrackets": {
+      "message": "(vazio)"
+   },
+   "emptyOneTabInfoMsg": {
+      "message": "Quando tiver vários separadores abertos, clique no ícone do OneTab na barra de ferramentas do navegador e os seus separadores abertos aparecerão aqui."
+   },
+   "enabled": {
+      "message": "Ativado"
+   },
+   "encryptedSyncAndBackup": {
+      "message": "Sincronização e cópia de segurança encriptadas"
+   },
+   "encryptedSyncAndBackupComingSoonMessage": {
+      "message": "Em breve: poderá sincronizar os seus dados do OneTab entre vários perfis do navegador e computadores.\nO OneTab foi completamente reescrito para que as alterações feitas num dispositivo apareçam instantaneamente em todos os outros.\nSe utilizar esta funcionalidade, os seus dados serão encriptados de ponta a ponta com encriptação AES-256 de elevada robustez. Isto torna impossível que os programadores do OneTab vejam os separadores que copiou ou sincronizou entre dispositivos, porque só você tem a chave de encriptação."
+   },
+   "everything": {
+      "message": "Tudo"
+   },
+   "exampleLink": {
+      "message": "Ligação de exemplo"
+   },
+   "exampleLinkTitle": {
+      "message": "Título da ligação de exemplo"
+   },
+   "exampleLinkTitleOptional": {
+      "message": "Título da ligação de exemplo (opcional)"
+   },
+   "exampleRichTextParagraph": {
+      "message": "Parágrafo de exemplo com PLACEHOLDER e PLACEHOLDER"
+   },
+   "exampleWebsitePageTitle": {
+      "message": "Título de página de site de exemplo"
+   },
+   "excludeDomainFromOneTab": {
+      "message": "Excluir EXAMPLE.COM do OneTab"
+   },
+   "excludeWebSiteFromOneTab": {
+      "message": "Excluir este site do OneTab"
+   },
+   "expiresColon": {
+      "message": "Expira:"
+   },
+   "export": {
+      "message": "Exportar"
+   },
+   "exportImportUrls": {
+      "message": "Exportar / Importar URLs"
+   },
+   "exportThenImportNote": {
+      "message": "A lista de URLs abaixo também pode ser importada novamente para o OneTab neste ou noutro computador"
+   },
+   "exportUrls": {
+      "message": "Exportar URLs"
+   },
+   "feedback": {
+      "message": "Feedback"
+   },
+   "filter": {
+      "message": "Filtro"
+   },
+   "firefoxIncognitoInstructions": {
+      "message": "Nas definições do navegador, vá a 'Definições' → 'Extensões e temas' → 'Extensões' → 'OneTab' → '...' → 'Gerir' e ative 'Executar em janelas privadas'."
+   },
+   "firefoxShortcutConfigInstructions": {
+      "message": "Introduza o URL \"about:addons?type=extension\" na barra de endereços do seu navegador. Quando a página aparecer, clique no ícone de engrenagem e depois escolha \"Gerir atalhos de extensões\""
+   },
+   "folderCount_few": {
+      "message": "{COUNT} pastas"
+   },
+   "folderCount_many": {
+      "message": "{COUNT} pastas"
+   },
+   "folderCount_one": {
+      "message": "{COUNT} pasta"
+   },
+   "folderCount_other": {
+      "message": "{COUNT} pastas"
+   },
+   "folderCount_two": {
+      "message": "{COUNT} pastas"
+   },
+   "folderCount_zero": {
+      "message": "{COUNT} pastas"
+   },
+   "folders": {
+      "message": "Pastas"
+   },
+   "foldersOnly": {
+      "message": "Apenas pastas"
+   },
+   "gettingStarted": {
+      "message": "Primeiros passos"
+   },
+   "goToParentFolder": {
+      "message": "Ir para a pasta superior"
+   },
+   "groupCount_few": {
+      "message": "{COUNT} grupos"
+   },
+   "groupCount_many": {
+      "message": "{COUNT} grupos"
+   },
+   "groupCount_one": {
+      "message": "{COUNT} grupo"
+   },
+   "groupCount_other": {
+      "message": "{COUNT} grupos"
+   },
+   "groupCount_two": {
+      "message": "{COUNT} grupos"
+   },
+   "groupCount_zero": {
+      "message": "{COUNT} grupos"
+   },
+   "groups": {
+      "message": "Grupos"
+   },
+   "hasNotes": {
+      "message": "Com notas"
+   },
+   "hasRating": {
+      "message": "Com classificação"
+   },
+   "help": {
+      "message": "Ajuda"
+   },
+   "hideArchivedItems": {
+      "message": "Ocultar itens arquivados"
+   },
+   "import": {
+      "message": "Importar"
+   },
+   "importAndExport": {
+      "message": "Importar e exportar"
+   },
+   "importBookmarks": {
+      "message": "Importar marcadores"
+   },
+   "importFolderAndSubfolders": {
+      "message": "Importar pasta e subpastas"
+   },
+   "importLinksHere": {
+      "message": "Importar ligações aqui"
+   },
+   "importReadingList": {
+      "message": "Importar lista de leitura"
+   },
+   "importText": {
+      "message": "Importar texto"
+   },
+   "importUrls": {
+      "message": "Importar URLs"
+   },
+   "importedBookmarks": {
+      "message": "Marcadores importados"
+   },
+   "includeGroupedTabs": {
+      "message": "Incluir separadores em grupos de separadores"
+   },
+   "includeNotes": {
+      "message": "Incluir notas"
+   },
+   "includePinnedTabs": {
+      "message": "Incluir separadores fixados"
+   },
+   "includeStarRatings": {
+      "message": "Incluir classificações por estrelas"
+   },
+   "includeTabsAlreadyStored": {
+      "message": "Incluir separadores que já guardou"
+   },
+   "includeTabsFromDomains": {
+      "message": "Incluir separadores de EXAMPLE.COM"
+   },
+   "incogitoPermissionRequired": {
+      "message": "O OneTab precisa de permissão para criar janelas de navegação anónima."
+   },
+   "incognitoWindows": {
+      "message": "Janelas de navegação anónima"
+   },
+   "invertSelection": {
+      "message": "Inverter seleção"
+   },
+   "justNow": {
+      "message": "agora mesmo"
+   },
+   "keyboardShortcutsColon": {
+      "message": "Atalhos de teclado:"
+   },
+   "languageTitle": {
+      "message": "Idioma:"
+   },
+   "lightTheme": {
+      "message": "Tema claro"
+   },
+   "localeId": {
+      "message": "pt_PT"
+   },
+   "locationColon": {
+      "message": "Local:"
+   },
+   "lock": {
+      "message": "Bloquear"
+   },
+   "lockMenuItemHelp": {
+      "message": "Quando um grupo está bloqueado, não pode eliminar nem reordenar itens dentro do grupo. Ao abrir um grupo bloqueado, as ações automáticas não se aplicam. Consulte a página de Opções para obter informações sobre ações automáticas."
+   },
+   "lockedGroupUnlockHelp": {
+      "message": "Para desbloquear, use o menu pendente. Quando um grupo está bloqueado, não pode eliminar o grupo ou os seus separadores, e os separadores não podem ser reordenados."
+   },
+   "makeThisATask": {
+      "message": "Marcar como tarefa"
+   },
+   "manifestDescription": {
+      "message": "Poupe até 95% de memória e reduza a desordem de separadores"
+   },
+   "markAsArchived": {
+      "message": "Marcar como arquivado"
+   },
+   "markAsArchivedMenuItemHelp": {
+      "message": "Note que as tarefas arquivadas e as tarefas dentro de grupos arquivados não aparecem na coluna de tarefas"
+   },
+   "markAsDoneTask": {
+      "message": "Marcar como tarefa concluída"
+   },
+   "markAsPendingTask": {
+      "message": "Marcar como tarefa pendente"
+   },
+   "matchCount_few": {
+      "message": "{COUNT} correspondências"
+   },
+   "matchCount_many": {
+      "message": "{COUNT} correspondências"
+   },
+   "matchCount_one": {
+      "message": "{COUNT} correspondência"
+   },
+   "matchCount_other": {
+      "message": "{COUNT} correspondências"
+   },
+   "matchCount_two": {
+      "message": "{COUNT} correspondências"
+   },
+   "matchCount_zero": {
+      "message": "{COUNT} correspondências"
+   },
+   "matchWholeWordsOnly": {
+      "message": "Corresponder apenas a palavras inteiras"
+   },
+   "mayNeedToRestartBrowser": {
+      "message": "Também poderá ser necessário atualizar e reiniciar o seu navegador."
+   },
+   "mergeIntoParent": {
+      "message": "Juntar ao elemento pai"
+   },
+   "mergeOpenTabsHere_few": {
+      "message": "Juntar {COUNT} separadores abertos aqui"
+   },
+   "mergeOpenTabsHere_many": {
+      "message": "Juntar {COUNT} separadores abertos aqui"
+   },
+   "mergeOpenTabsHere_one": {
+      "message": "Juntar {COUNT} separador aberto aqui"
+   },
+   "mergeOpenTabsHere_other": {
+      "message": "Juntar {COUNT} separadores abertos aqui"
+   },
+   "mergeOpenTabsHere_two": {
+      "message": "Juntar {COUNT} separadores abertos aqui"
+   },
+   "mergeOpenTabsHere_zero": {
+      "message": "Juntar {COUNT} separadores abertos aqui"
+   },
+   "mergeSelectedTabsHere_few": {
+      "message": "Juntar {COUNT} separadores selecionados aqui"
+   },
+   "mergeSelectedTabsHere_many": {
+      "message": "Juntar {COUNT} separadores selecionados aqui"
+   },
+   "mergeSelectedTabsHere_one": {
+      "message": "Juntar {COUNT} separador selecionado aqui"
+   },
+   "mergeSelectedTabsHere_other": {
+      "message": "Juntar {COUNT} separadores selecionados aqui"
+   },
+   "mergeSelectedTabsHere_two": {
+      "message": "Juntar {COUNT} separadores selecionados aqui"
+   },
+   "mergeSelectedTabsHere_zero": {
+      "message": "Juntar {COUNT} separadores selecionados aqui"
+   },
+   "mergeWithInnerGroups": {
+      "message": "Juntar com os grupos internos"
+   },
+   "modifySharing": {
+      "message": "Modificar partilha"
+   },
+   "moreEllipsis": {
+      "message": "Mais…"
+   },
+   "moreSearchFilters": {
+      "message": "Mais filtros de pesquisa"
+   },
+   "moreTripleDot": {
+      "message": "Mais…"
+   },
+   "move": {
+      "message": "Mover"
+   },
+   "moveToTrash": {
+      "message": "Mover para o lixo"
+   },
+   "namedOnly": {
+      "message": "Apenas itens com nome"
+   },
+   "navigationFilter": {
+      "message": "Filtro de navegação"
+   },
+   "newExclamation": {
+      "message": "Novo!"
+   },
+   "noDupsExistExceptForColon": {
+      "message": "Não existem duplicados, exceto:"
+   },
+   "noDupsFoundHere": {
+      "message": "Nenhum duplicado encontrado aqui"
+   },
+   "noMatches": {
+      "message": "Sem correspondências"
+   },
+   "noMatchesFound": {
+      "message": "Nenhuma correspondência encontrada"
+   },
+   "noOpenTabsToStore": {
+      "message": "Não há separadores abertos nesta janela para guardar."
+   },
+   "noReadingListEntries": {
+      "message": "Nenhuma entrada da lista de leitura encontrada"
+   },
+   "noTabsInOneTabYet": {
+      "message": "Ainda não tem separadores no OneTab"
+   },
+   "noTabsMeetCriteriaUseCheckboxes": {
+      "message": "Nenhum separador aberto corresponde aos seus critérios. Utilize as caixas de seleção acima."
+   },
+   "noTextHasBeenEntered": {
+      "message": "Nenhum texto foi introduzido"
+   },
+   "nonArchived": {
+      "message": "Não arquivado"
+   },
+   "notAssigned": {
+      "message": "Não atribuído"
+   },
+   "notes": {
+      "message": "Notas"
+   },
+   "notesAboutTheLinkOptional": {
+      "message": "Notas sobre a ligação (opcional)"
+   },
+   "notesAboutTheSecondLinkOptional": {
+      "message": "Notas sobre a segunda ligação (opcional)"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "omniboxShortcutInfo": {
+      "message": "Para pesquisar a sua lista do OneTab a partir de qualquer separador: vá para a barra de endereços do navegador, escreva 1, depois espaço, e depois uma palavra-chave de pesquisa."
+   },
+   "oneTabDesignedToProtectPrivacy": {
+      "message": "O OneTab foi concebido para proteger a sua privacidade. Os seus separadores não nos são divulgados."
+   },
+   "oneTabImportExportPageTitle": {
+      "message": "Importação/exportação do OneTab"
+   },
+   "oneTabNeedsPermissionToAccessYourTabs": {
+      "message": "O OneTab precisa de permissão para aceder aos seus separadores."
+   },
+   "oneTabOptionsPageTitle": {
+      "message": "Opções do OneTab"
+   },
+   "oneTabPermissionRequired": {
+      "message": "OneTab - Permissão necessária"
+   },
+   "oneTabRestartRequired": {
+      "message": "É necessário reiniciar o OneTab."
+   },
+   "oneTabSlashShortcutInfo": {
+      "message": "Na página do OneTab, prima a tecla barra (/) para focar a caixa de pesquisa."
+   },
+   "open": {
+      "message": "Abrir"
+   },
+   "openActionPopup": {
+      "message": "Abrir o pop-up da extensão"
+   },
+   "openAsCollapsedTabGroup": {
+      "message": "Abrir como grupo de separadores \"recolhido\""
+   },
+   "openAsCollapsedTabGroupMenuItemHelp": {
+      "message": "Se abrir estes separadores como um \"grupo de separadores\" recolhido, apenas o título do grupo será mostrado até clicar para revelar os separadores no interior."
+   },
+   "openAsTabGroup": {
+      "message": "Abrir como grupo de separadores do navegador"
+   },
+   "openAsTabGroupMenuItemHelp": {
+      "message": "O seu navegador permite agrupar separadores em \"grupos de separadores\" coloridos numa janela."
+   },
+   "openGroupsLimitNotice_few": {
+      "message": "Para evitar sobrecarga do seu navegador, apenas os primeiros {COUNT} grupos serão abertos."
+   },
+   "openGroupsLimitNotice_many": {
+      "message": "Para evitar sobrecarga do seu navegador, apenas os primeiros {COUNT} grupos serão abertos."
+   },
+   "openGroupsLimitNotice_one": {
+      "message": "Para evitar sobrecarga do seu navegador, apenas o {COUNT}.º grupo será aberto."
+   },
+   "openGroupsLimitNotice_other": {
+      "message": "Para evitar sobrecarga do seu navegador, apenas os primeiros {COUNT} grupos serão abertos."
+   },
+   "openGroupsLimitNotice_two": {
+      "message": "Para evitar sobrecarga do seu navegador, apenas os primeiros {COUNT} grupos serão abertos."
+   },
+   "openGroupsLimitNotice_zero": {
+      "message": "Para evitar sobrecarga do seu navegador, apenas os primeiros {COUNT} grupos serão abertos."
+   },
+   "openInIncognitoWindow": {
+      "message": "Abrir numa nova janela de navegação anónima"
+   },
+   "openInNewWindow": {
+      "message": "Abrir numa nova janela"
+   },
+   "openInThisWindow": {
+      "message": "Abrir nesta janela"
+   },
+   "openONETABLogo": {
+      "message": "Abrir o ONETAB"
+   },
+   "openOneTab": {
+      "message": "Abrir o OneTab"
+   },
+   "openOneTabAfter": {
+      "message": "Abrir o OneTab após guardar os separadores"
+   },
+   "openTabFromWebsite": {
+      "message": "Abra um separador e aceda ao site"
+   },
+   "openTabLimit_few": {
+      "message": "Para evitar sobrecarga do seu navegador, no máximo {COUNT} separadores podem ser abertos de uma vez."
+   },
+   "openTabLimit_many": {
+      "message": "Para evitar sobrecarga do seu navegador, no máximo {COUNT} separadores podem ser abertos de uma vez."
+   },
+   "openTabLimit_one": {
+      "message": "Para evitar sobrecarga do seu navegador, no máximo {COUNT} separador pode ser aberto de uma vez."
+   },
+   "openTabLimit_other": {
+      "message": "Para evitar sobrecarga do seu navegador, no máximo {COUNT} separadores podem ser abertos de uma vez."
+   },
+   "openTabLimit_two": {
+      "message": "Para evitar sobrecarga do seu navegador, no máximo {COUNT} separadores podem ser abertos de uma vez."
+   },
+   "openTabLimit_zero": {
+      "message": "Para evitar sobrecarga do seu navegador, no máximo {COUNT} separadores podem ser abertos de uma vez."
+   },
+   "openTabsAlreadyStoredHere_few": {
+      "message": "{COUNT} separadores abertos já guardados aqui:"
+   },
+   "openTabsAlreadyStoredHere_many": {
+      "message": "{COUNT} separadores abertos já guardados aqui:"
+   },
+   "openTabsAlreadyStoredHere_one": {
+      "message": "{COUNT} separador aberto já guardado aqui:"
+   },
+   "openTabsAlreadyStoredHere_other": {
+      "message": "{COUNT} separadores abertos já guardados aqui:"
+   },
+   "openTabsAlreadyStoredHere_two": {
+      "message": "{COUNT} separadores abertos já guardados aqui:"
+   },
+   "openTabsAlreadyStoredHere_zero": {
+      "message": "{COUNT} separadores abertos já guardados aqui:"
+   },
+   "openTabsConfirm_few": {
+      "message": "Está prestes a abrir {COUNT} separadores. Tem a certeza?"
+   },
+   "openTabsConfirm_many": {
+      "message": "Está prestes a abrir {COUNT} separadores. Tem a certeza?"
+   },
+   "openTabsConfirm_one": {
+      "message": "Está prestes a abrir {COUNT} separador. Tem a certeza?"
+   },
+   "openTabsConfirm_other": {
+      "message": "Está prestes a abrir {COUNT} separadores. Tem a certeza?"
+   },
+   "openTabsConfirm_two": {
+      "message": "Está prestes a abrir {COUNT} separadores. Tem a certeza?"
+   },
+   "openTabsConfirm_zero": {
+      "message": "Está prestes a abrir {COUNT} separadores. Tem a certeza?"
+   },
+   "openTabsNotStoredInOneTab_few": {
+      "message": "{COUNT} separadores abertos não guardados no OneTab"
+   },
+   "openTabsNotStoredInOneTab_many": {
+      "message": "{COUNT} separadores abertos não guardados no OneTab"
+   },
+   "openTabsNotStoredInOneTab_one": {
+      "message": "{COUNT} separador aberto não guardado no OneTab"
+   },
+   "openTabsNotStoredInOneTab_other": {
+      "message": "{COUNT} separadores abertos não guardados no OneTab"
+   },
+   "openTabsNotStoredInOneTab_two": {
+      "message": "{COUNT} separadores abertos não guardados no OneTab"
+   },
+   "openTabsNotStoredInOneTab_zero": {
+      "message": "{COUNT} separadores abertos não guardados no OneTab"
+   },
+   "optionAutoActionOnGroupOpenArchiveDesc": {
+      "message": "Para evitar marcar o grupo como arquivado, mantenha premida a tecla Alt/Option ao clicar para abrir o grupo"
+   },
+   "optionAutoActionOnGroupOpenArchiveTitle": {
+      "message": "Abrir os separadores e marcar o grupo como arquivado"
+   },
+   "optionAutoActionOnGroupOpenHeading": {
+      "message": "Ação automática ao clicar para abrir um grupo de separadores:"
+   },
+   "optionAutoActionOnGroupOpenNote": {
+      "message": "As ações automáticas não se aplicam a grupos que foram bloqueados ou que são tarefas."
+   },
+   "optionAutoActionOnGroupOpenOpenDesc": {
+      "message": "Para marcar o grupo como arquivado, mantenha premida a tecla Alt/Option ao clicar para abrir o grupo"
+   },
+   "optionAutoActionOnGroupOpenOpenTitle": {
+      "message": "Apenas abrir os separadores"
+   },
+   "optionAutoActionOnGroupOpenTrashDesc": {
+      "message": "Para evitar enviar automaticamente o grupo para o lixo, mantenha premida a tecla Alt/Option ao clicar para abrir o grupo"
+   },
+   "optionAutoActionOnGroupOpenTrashTitle": {
+      "message": "Abrir os separadores e mover o grupo para o lixo"
+   },
+   "optionAutoActionOnTabOpenArchiveDesc": {
+      "message": "Para evitar marcar automaticamente o separador como arquivado, mantenha premida a tecla Alt/Option ao clicar para o abrir"
+   },
+   "optionAutoActionOnTabOpenArchiveTitle": {
+      "message": "Abrir o separador e marcá-lo como arquivado"
+   },
+   "optionAutoActionOnTabOpenHeading": {
+      "message": "Ação automática ao clicar para abrir um separador:"
+   },
+   "optionAutoActionOnTabOpenNote": {
+      "message": "As ações automáticas não se aplicam a separadores em grupos que foram bloqueados ou que são tarefas."
+   },
+   "optionAutoActionOnTabOpenOpenDesc": {
+      "message": "Para marcar o separador como arquivado, mantenha premida a tecla Alt/Option ao clicar para o abrir"
+   },
+   "optionAutoActionOnTabOpenOpenTitle": {
+      "message": "Apenas abrir o separador"
+   },
+   "optionAutoActionOnTabOpenTrashDesc": {
+      "message": "Para evitar enviar automaticamente o separador para o lixo, mantenha premida a tecla Alt/Option ao clicar para o abrir"
+   },
+   "optionAutoActionOnTabOpenTrashTitle": {
+      "message": "Abrir o separador e movê-lo para o lixo"
+   },
+   "optionCopyToClipboardFormatHeading": {
+      "message": "Ao copiar ligações para a área de transferência:"
+   },
+   "optionCopyToClipboardFormatNote": {
+      "message": "Esta definição aplica-se quando utiliza a ação 'Copiar para a área de transferência'. Também pode arrastar separadores e grupos diretamente do OneTab para um documento."
+   },
+   "optionCopyToClipboardFormatRichTextDesc": {
+      "message": "Aplicações como processadores de texto permitem colar texto formatado. Se não for suportado, será colado texto simples."
+   },
+   "optionCopyToClipboardFormatRichTextTitle": {
+      "message": "Texto formatado, quando disponível"
+   },
+   "optionCopyToClipboardFormatTitleUrlTitle": {
+      "message": "Título e URL"
+   },
+   "optionCopyToClipboardFormatUrlOnlyTitle": {
+      "message": "Apenas URL"
+   },
+   "optionCopyToClipboardFormatUrlTitleTitle": {
+      "message": "URL e título"
+   },
+   "optionDefaultTabGroupOpenTypeCurrentWindow": {
+      "message": "Abrir o grupo de separadores do navegador na janela atual"
+   },
+   "optionDefaultTabGroupOpenTypeHeading": {
+      "message": "Ao clicar para abrir um grupo de separadores que está configurado para abrir como um \"grupo de separadores do navegador\":"
+   },
+   "optionDefaultTabGroupOpenTypeNewWindow": {
+      "message": "Abrir o grupo de separadores do navegador numa nova janela"
+   },
+   "optionDefaultTabGroupOpenTypeNote": {
+      "message": "Se usar o menu pendente para escolher uma opção específica (como abrir separadores numa janela de navegação anónima), essa opção será lembrada para esse grupo em particular."
+   },
+   "optionDefaultWindowGroupOpenTypeCurrentWindow": {
+      "message": "Abrir os separadores na janela atual"
+   },
+   "optionDefaultWindowGroupOpenTypeHeading": {
+      "message": "Ao clicar para abrir um grupo de separadores:"
+   },
+   "optionDefaultWindowGroupOpenTypeNewWindow": {
+      "message": "Abrir os separadores numa nova janela"
+   },
+   "optionDefaultWindowGroupOpenTypeNote": {
+      "message": "Se usar o menu pendente para escolher uma opção específica (como abrir separadores numa janela de navegação anónima), essa opção será lembrada para esse grupo em particular."
+   },
+   "optionDiscardNonActiveTabOnOpenHeading": {
+      "message": "Poupar memória (RAM) imediatamente quando os separadores são abertos pela primeira vez:"
+   },
+   "optionDiscardNonActiveTabOnOpenNote": {
+      "message": "Se esta definição estiver ativada, os separadores serão descarregados da memória imediatamente quando os abrir a partir da sua lista do OneTab. Isto é útil se costuma abrir dezenas de separadores de uma só vez, pois impede que sejam todos carregados na memória até lhes aceder. Se esta definição estiver desativada, muitos navegadores ainda irão optar automaticamente por descarregar separadores da memória se não os estiver a usar."
+   },
+   "optionDisplayContextMenuHeading": {
+      "message": "Clique com o botão direito numa página web para aceder ao menu de contexto do OneTab:"
+   },
+   "optionDisplayContextMenuNote": {
+      "message": "Se desativar o menu, não poderá aceder à funcionalidade \"Excluir este site do OneTab\""
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenFalseTitle": {
+      "message": "Mudar para a janela onde o separador do OneTab já está aberto"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenHeading": {
+      "message": "Ação \"Abrir o OneTab\":"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenNote": {
+      "message": "A ação \"Abrir o OneTab\" pode ser acedida através de um atalho de teclado. Também está disponível no pop-up que aparece quando clica no ícone do OneTab na barra de ferramentas do navegador."
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenTrueTitle": {
+      "message": "Mover qualquer separador do OneTab existente para a janela atual"
+   },
+   "optionStartupLaunchDisplay": {
+      "message": "Abrir o OneTab sempre que iniciar o navegador"
+   },
+   "optionStartupLaunchNone": {
+      "message": "Não abrir o OneTab automaticamente"
+   },
+   "optionStartupLaunchNoneDesc3": {
+      "message": "Para abrir o OneTab manualmente, clique no ícone do OneTab na barra de ferramentas do navegador e escolha 'Abrir o OneTab'. Em alternativa, pode clicar com o botão direito em qualquer página web e clicar em 'Abrir o OneTab' no menu do OneTab."
+   },
+   "optionStartupLaunchTitle": {
+      "message": "Arranque:"
+   },
+   "optionSwitchToOpenedTabFalseTitle": {
+      "message": "Abrir o separador e manter-se no OneTab"
+   },
+   "optionSwitchToOpenedTabHeading": {
+      "message": "Ao abrir separadores a partir da página do OneTab:"
+   },
+   "optionSwitchToOpenedTabNote": {
+      "message": "Se mantiver premida a tecla Shift ao clicar, o separador abre numa nova janela"
+   },
+   "optionSwitchToOpenedTabTrueTitle": {
+      "message": "Abrir o separador e mudar para ele (a menos que mantenha premido Command ⌘/Ctrl ao clicar)"
+   },
+   "optionUrlAbbr": {
+      "message": "Abreviado"
+   },
+   "optionUrlDisplayTitle": {
+      "message": "Apresentação do URL:"
+   },
+   "optionUrlDomain": {
+      "message": "Apenas domínio"
+   },
+   "optionUrlFull": {
+      "message": "Completo"
+   },
+   "optionUrlNone": {
+      "message": "Nenhum"
+   },
+   "options": {
+      "message": "Opções"
+   },
+   "otherCopiesColon": {
+      "message": "Outras cópias:"
+   },
+   "pasteRichOrPlainTextBelow": {
+      "message": "Pode colar abaixo texto formatado ou texto simples."
+   },
+   "pendingTaskCount_few": {
+      "message": "{COUNT} pendentes"
+   },
+   "pendingTaskCount_many": {
+      "message": "{COUNT} pendentes"
+   },
+   "pendingTaskCount_one": {
+      "message": "{COUNT} pendente"
+   },
+   "pendingTaskCount_other": {
+      "message": "{COUNT} pendentes"
+   },
+   "pendingTaskCount_two": {
+      "message": "{COUNT} pendentes"
+   },
+   "pendingTaskCount_zero": {
+      "message": "{COUNT} pendentes"
+   },
+   "permissionRequiredPleaseTryAgain": {
+      "message": "Para criar uma página partilhada acessível a partir de qualquer computador, é necessária permissão para coordenar com o servidor web do OneTab. Tente novamente."
+   },
+   "pinToTopOfFolder": {
+      "message": "Fixar no topo da pasta"
+   },
+   "pinToTopOfList": {
+      "message": "Fixar no topo da lista"
+   },
+   "pinnedTabs": {
+      "message": "separadores fixados"
+   },
+   "placeholderAndOtherLocations_few": {
+      "message": "PLACEHOLDER e {COUNT} outros"
+   },
+   "placeholderAndOtherLocations_many": {
+      "message": "PLACEHOLDER e {COUNT} outros"
+   },
+   "placeholderAndOtherLocations_one": {
+      "message": "PLACEHOLDER e {COUNT} outro"
+   },
+   "placeholderAndOtherLocations_other": {
+      "message": "PLACEHOLDER e {COUNT} outros"
+   },
+   "placeholderAndOtherLocations_two": {
+      "message": "PLACEHOLDER e {COUNT} outros"
+   },
+   "placeholderAndOtherLocations_zero": {
+      "message": "PLACEHOLDER e {COUNT} outros"
+   },
+   "placeholderExplanation": {
+      "message": "Devido às regras de segurança do navegador, o OneTab não pode restaurar esta página diretamente. Copie o URL e cole-o na barra de endereços do navegador."
+   },
+   "plainTextLineFormat": {
+      "message": "Se colar texto simples, garanta que cada URL tem um protocolo especificado (https://wikipedia.org, em vez de apenas wikipedia.org). Cada linha deve estar no seguinte formato:"
+   },
+   "pleaseWaitTripleDot": {
+      "message": "Aguarde…"
+   },
+   "popupSlashShortcutInfo": {
+      "message": "No pop-up do OneTab (que aparece quando clica no ícone do OneTab), prima a tecla barra (/) para abrir o seletor de destino e focar a caixa de pesquisa."
+   },
+   "privacyAssurance": {
+      "message": "Garantia de privacidade"
+   },
+   "privacyAssuranceDetail": {
+      "message": "A sua lista de separadores nunca é transmitida nem divulgada aos programadores do OneTab ou a qualquer outra parte. A única exceção é se utilizar intencionalmente a funcionalidade 'partilhar como página web' para carregar a sua lista de separadores para uma página web a fim de a partilhar com outras pessoas."
+   },
+   "privacyFirst": {
+      "message": "Privacidade em primeiro lugar"
+   },
+   "privacyFirstMessage": {
+      "message": "O OneTab foi concebido para proteger os seus dados privados. Os seus separadores são armazenados apenas no seu computador e nunca são partilhados com os programadores do OneTab nem com quaisquer outras partes.\nSe utilizar a nossa funcionalidade de cópia de segurança/sincronização, os seus dados serão encriptados de ponta a ponta com encriptação AES-256 de elevada robustez. Isto torna impossível que os programadores do OneTab vejam os separadores que copiou ou sincronizou entre dispositivos, porque só você tem a chave de encriptação. \nA única exceção é se decidir intencionalmente partilhar alguns dos seus separadores com outras pessoas utilizando a nossa funcionalidade \"Partilhar como página web\".\nAcreditamos em Privacidade em Primeiro Lugar."
+   },
+   "privateBrowsingPermissionRequired": {
+      "message": "O OneTab precisa de permissão para criar janelas privadas."
+   },
+   "privateBrowsingWindows": {
+      "message": "Janelas de navegação privada"
+   },
+   "quickList": {
+      "message": "Lista rápida"
+   },
+   "rating": {
+      "message": "Classificação"
+   },
+   "readingList": {
+      "message": "Lista de leitura"
+   },
+   "readingListPermissionNecesssary": {
+      "message": "A permissão da lista de leitura é necessária para permitir que o OneTab importe itens da sua lista de leitura. Se esta funcionalidade não estiver a funcionar, o seu navegador pode não suportar listas de leitura."
+   },
+   "recent": {
+      "message": "Recentes"
+   },
+   "recentDestinationsColon": {
+      "message": "Destinos recentes:"
+   },
+   "recentDuplicateRetainedHelp": {
+      "message": "Se um separador ocorrer mais do que uma vez, apenas o duplicado mais recente será mantido"
+   },
+   "recentlyAccessed": {
+      "message": "Acedidos recentemente"
+   },
+   "recentlyCreated": {
+      "message": "Criados recentemente"
+   },
+   "recentlyModified": {
+      "message": "Modificados recentemente"
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "message": "Reduza a utilização de memória em 95%"
+   },
+   "removeDuplicateTabsHere_few": {
+      "message": "Remover {COUNT} separadores duplicados aqui"
+   },
+   "removeDuplicateTabsHere_many": {
+      "message": "Remover {COUNT} separadores duplicados aqui"
+   },
+   "removeDuplicateTabsHere_one": {
+      "message": "Remover {COUNT} separador duplicado aqui"
+   },
+   "removeDuplicateTabsHere_other": {
+      "message": "Remover {COUNT} separadores duplicados aqui"
+   },
+   "removeDuplicateTabsHere_two": {
+      "message": "Remover {COUNT} separadores duplicados aqui"
+   },
+   "removeDuplicateTabsHere_zero": {
+      "message": "Remover {COUNT} separadores duplicados aqui"
+   },
+   "removeDuplicates": {
+      "message": "Remover duplicados"
+   },
+   "removeFromQuickList": {
+      "message": "Remover da lista rápida"
+   },
+   "removeTabsElsewhereAlsoHere_few": {
+      "message": "Remover {COUNT} separadores noutros locais que também existem aqui"
+   },
+   "removeTabsElsewhereAlsoHere_many": {
+      "message": "Remover {COUNT} separadores noutros locais que também existem aqui"
+   },
+   "removeTabsElsewhereAlsoHere_one": {
+      "message": "Remover {COUNT} separador noutro local que também existe aqui"
+   },
+   "removeTabsElsewhereAlsoHere_other": {
+      "message": "Remover {COUNT} separadores noutros locais que também existem aqui"
+   },
+   "removeTabsElsewhereAlsoHere_two": {
+      "message": "Remover {COUNT} separadores noutros locais que também existem aqui"
+   },
+   "removeTabsElsewhereAlsoHere_zero": {
+      "message": "Remover {COUNT} separadores noutros locais que também existem aqui"
+   },
+   "removeTabsHereAlsoElsewhere_few": {
+      "message": "Remover {COUNT} separadores aqui que também existem noutros locais"
+   },
+   "removeTabsHereAlsoElsewhere_many": {
+      "message": "Remover {COUNT} separadores aqui que também existem noutros locais"
+   },
+   "removeTabsHereAlsoElsewhere_one": {
+      "message": "Remover {COUNT} separador aqui que também existe noutros locais"
+   },
+   "removeTabsHereAlsoElsewhere_other": {
+      "message": "Remover {COUNT} separadores aqui que também existem noutros locais"
+   },
+   "removeTabsHereAlsoElsewhere_two": {
+      "message": "Remover {COUNT} separadores aqui que também existem noutros locais"
+   },
+   "removeTabsHereAlsoElsewhere_zero": {
+      "message": "Remover {COUNT} separadores aqui que também existem noutros locais"
+   },
+   "rename": {
+      "message": "Renomear"
+   },
+   "restore": {
+      "message": "Restaurar"
+   },
+   "restrictSearchToFolderColon": {
+      "message": "Restringir a pesquisa à seguinte pasta:"
+   },
+   "results": {
+      "message": "Resultados"
+   },
+   "returnToOneTab": {
+      "message": "Voltar ao OneTab"
+   },
+   "reverse": {
+      "message": "Inverter"
+   },
+   "rightClickAndOpenOneTabMenu": {
+      "message": "Clique com o botão direito na página web e abra o menu do OneTab"
+   },
+   "rightClickMenuDisabledNote": {
+      "message": "Nota: Desativou o menu de clique direito do OneTab. Ative‑o na página de opções do OneTab."
+   },
+   "rightClickSelectionOptionsTip": {
+      "message": "Dica: Depois de assinalar um item, clique com o botão direito no ícone de visto para ver mais opções de seleção"
+   },
+   "rightClickTickTip": {
+      "message": "Dica: Clique com o botão direito no ícone de visto ao lado de cada separador para aceder às ferramentas de seleção"
+   },
+   "safariApproveOneTabInSettings": {
+      "message": "Vá a Definições e aprove o OneTab para aceder a todos os sites."
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "message": "Poupe até 95% de memória e reduza a desordem de separadores no Google Chrome"
+   },
+   "searchHere": {
+      "message": "Pesquisar aqui"
+   },
+   "searchOneTab": {
+      "message": "Pesquisar no OneTab"
+   },
+   "secondExampleLink": {
+      "message": "Segunda ligação de exemplo"
+   },
+   "secondExampleLinkTitle": {
+      "message": "Segundo título da ligação de exemplo"
+   },
+   "secondExampleLinkTitleOptional": {
+      "message": "Segundo título da ligação de exemplo (opcional)"
+   },
+   "seeOtherTabsInThisGroup_few": {
+      "message": "Ver {COUNT} outros separadores neste grupo"
+   },
+   "seeOtherTabsInThisGroup_many": {
+      "message": "Ver {COUNT} outros separadores neste grupo"
+   },
+   "seeOtherTabsInThisGroup_one": {
+      "message": "Ver {COUNT} outro separador neste grupo"
+   },
+   "seeOtherTabsInThisGroup_other": {
+      "message": "Ver {COUNT} outros separadores neste grupo"
+   },
+   "seeOtherTabsInThisGroup_two": {
+      "message": "Ver {COUNT} outros separadores neste grupo"
+   },
+   "seeOtherTabsInThisGroup_zero": {
+      "message": "Ver {COUNT} outros separadores neste grupo"
+   },
+   "seePasteInstructions": {
+      "message": "Ver instruções de colagem…"
+   },
+   "seeTabsInThisGroup_few": {
+      "message": "Ver {COUNT} separadores neste grupo"
+   },
+   "seeTabsInThisGroup_many": {
+      "message": "Ver {COUNT} separadores neste grupo"
+   },
+   "seeTabsInThisGroup_one": {
+      "message": "Ver {COUNT} separador neste grupo"
+   },
+   "seeTabsInThisGroup_other": {
+      "message": "Ver {COUNT} separadores neste grupo"
+   },
+   "seeTabsInThisGroup_two": {
+      "message": "Ver {COUNT} separadores neste grupo"
+   },
+   "seeTabsInThisGroup_zero": {
+      "message": "Ver {COUNT} separadores neste grupo"
+   },
+   "selectAll": {
+      "message": "Selecionar tudo"
+   },
+   "selectAllExceptThis": {
+      "message": "Selecionar tudo exceto este"
+   },
+   "selectThisAndAbove": {
+      "message": "Selecionar este e todos os acima"
+   },
+   "selectThisAndBelow": {
+      "message": "Selecionar este e todos os abaixo"
+   },
+   "selectedItemCount_few": {
+      "message": "{COUNT} itens"
+   },
+   "selectedItemCount_many": {
+      "message": "{COUNT} itens"
+   },
+   "selectedItemCount_one": {
+      "message": "{COUNT} item"
+   },
+   "selectedItemCount_other": {
+      "message": "{COUNT} itens"
+   },
+   "selectedItemCount_two": {
+      "message": "{COUNT} itens"
+   },
+   "selectedItemCount_zero": {
+      "message": "{COUNT} itens"
+   },
+   "selection": {
+      "message": "Seleção"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "message": "Enviar todos os separadores de todas as janelas para o OneTab"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "message": "Enviar todos os separadores, exceto este, para o OneTab"
+   },
+   "sendAllTabsInGroupToOneTab": {
+      "message": "Enviar todos os separadores deste grupo de separadores para o OneTab"
+   },
+   "sendAllTabsInWindowToOneTab": {
+      "message": "Enviar todos os separadores desta janela para o OneTab"
+   },
+   "sendCurrentTabToOneTab": {
+      "message": "Enviar o separador atual para o OneTab"
+   },
+   "sendLeftTabsToOneTab": {
+      "message": "Enviar os separadores à esquerda para o OneTab"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "message": "Enviar apenas este separador para o OneTab"
+   },
+   "sendRightTabsToOneTab": {
+      "message": "Enviar os separadores à direita para o OneTab"
+   },
+   "sendSelectedTabsToOneTab": {
+      "message": "Enviar separadores selecionados para o OneTab"
+   },
+   "sendThisWebLinkToOneTab": {
+      "message": "Enviar esta ligação para o OneTab"
+   },
+   "serverUnreachable": {
+      "message": "O servidor está inacessível. Verifique a sua ligação à Internet."
+   },
+   "share": {
+      "message": "Partilhar"
+   },
+   "shareAsAWebPage": {
+      "message": "Partilhar como página web"
+   },
+   "shared": {
+      "message": "Partilhado"
+   },
+   "sharedExpiresColon": {
+      "message": "Partilhado como página web. Expira:"
+   },
+   "sharedPageOptions": {
+      "message": "Opções da página partilhada"
+   },
+   "sharedPageTabLimit_few": {
+      "message": "As páginas partilhadas estão limitadas a {COUNT} separadores"
+   },
+   "sharedPageTabLimit_many": {
+      "message": "As páginas partilhadas estão limitadas a {COUNT} separadores"
+   },
+   "sharedPageTabLimit_one": {
+      "message": "As páginas partilhadas estão limitadas a {COUNT} separador"
+   },
+   "sharedPageTabLimit_other": {
+      "message": "As páginas partilhadas estão limitadas a {COUNT} separadores"
+   },
+   "sharedPageTabLimit_two": {
+      "message": "As páginas partilhadas estão limitadas a {COUNT} separadores"
+   },
+   "sharedPageTabLimit_zero": {
+      "message": "As páginas partilhadas estão limitadas a {COUNT} separadores"
+   },
+   "sharedPageWillAutomaticallyExpire": {
+      "message": "A página partilhada expirará automaticamente, mas pode prolongar a data de expiração a qualquer momento."
+   },
+   "shiftDragShortcutInfo": {
+      "message": "Mantenha premida a tecla Shift ao largar um separador para criar uma cópia em vez de o mover. Importante: Só prima a tecla Shift depois de começar a arrastar."
+   },
+   "showEverything": {
+      "message": "Mostrar tudo"
+   },
+   "showFoldersOnly": {
+      "message": "Mostrar apenas pastas"
+   },
+   "showNamedItemsOnly": {
+      "message": "Mostrar apenas itens com nome"
+   },
+   "showNamedOnly": {
+      "message": "Mostrar apenas itens com nome"
+   },
+   "showNextCount_few": {
+      "message": "Mostrar {COUNT} seguintes"
+   },
+   "showNextCount_many": {
+      "message": "Mostrar {COUNT} seguintes"
+   },
+   "showNextCount_one": {
+      "message": "Mostrar {COUNT} seguinte"
+   },
+   "showNextCount_other": {
+      "message": "Mostrar {COUNT} seguintes"
+   },
+   "showNextCount_two": {
+      "message": "Mostrar {COUNT} seguintes"
+   },
+   "showNextCount_zero": {
+      "message": "Mostrar {COUNT} seguintes"
+   },
+   "showPreviousCount_few": {
+      "message": "Mostrar {COUNT} anteriores"
+   },
+   "showPreviousCount_many": {
+      "message": "Mostrar {COUNT} anteriores"
+   },
+   "showPreviousCount_one": {
+      "message": "Mostrar {COUNT} anterior"
+   },
+   "showPreviousCount_other": {
+      "message": "Mostrar {COUNT} anteriores"
+   },
+   "showPreviousCount_two": {
+      "message": "Mostrar {COUNT} anteriores"
+   },
+   "showPreviousCount_zero": {
+      "message": "Mostrar {COUNT} anteriores"
+   },
+   "soon": {
+      "message": "em breve"
+   },
+   "sort": {
+      "message": "Ordenar"
+   },
+   "sortByColon": {
+      "message": "Ordenar por:"
+   },
+   "sortGroups": {
+      "message": "Ordenar grupos"
+   },
+   "sourceColon": {
+      "message": "Origem:"
+   },
+   "starRatingTooltip": {
+      "message": "Definir uma classificação por estrelas"
+   },
+   "storeSelectedTabsInONETAB_few": {
+      "message": "Guardar {COUNT} separadores selecionados no ONETAB"
+   },
+   "storeSelectedTabsInONETAB_many": {
+      "message": "Guardar {COUNT} separadores selecionados no ONETAB"
+   },
+   "storeSelectedTabsInONETAB_one": {
+      "message": "Guardar {COUNT} separador selecionado no ONETAB"
+   },
+   "storeSelectedTabsInONETAB_other": {
+      "message": "Guardar {COUNT} separadores selecionados no ONETAB"
+   },
+   "storeSelectedTabsInONETAB_two": {
+      "message": "Guardar {COUNT} separadores selecionados no ONETAB"
+   },
+   "storeSelectedTabsInONETAB_zero": {
+      "message": "Guardar {COUNT} separadores selecionados no ONETAB"
+   },
+   "storeTabInAdditionalLocation": {
+      "message": "Guardar o seu separador num local adicional"
+   },
+   "storeTabInONETAB": {
+      "message": "Guardar separador no ONETAB"
+   },
+   "storeTabsInAdditionalLocation": {
+      "message": "Guardar os seus separadores num local adicional"
+   },
+   "storeTabsInONETAB": {
+      "message": "Guardar separadores no ONETAB"
+   },
+   "subFoldersNotShared": {
+      "message": "Note que as subpastas não são partilhadas. Apenas os grupos de separadores diretamente dentro da pasta são partilhados."
+   },
+   "tab": {
+      "message": "separador"
+   },
+   "tabAlreadyStoredHere": {
+      "message": "O seu separador aberto já está guardado aqui:"
+   },
+   "tabCaretTooltipTitleNotes": {
+      "message": "Editar o título e as notas do separador"
+   },
+   "tabCaretTooltipTitleNotesUrl": {
+      "message": "Editar o título, URL e notas do separador"
+   },
+   "tabCount_few": {
+      "message": "{COUNT} separadores"
+   },
+   "tabCount_many": {
+      "message": "{COUNT} separadores"
+   },
+   "tabCount_one": {
+      "message": "{COUNT} separador"
+   },
+   "tabCount_other": {
+      "message": "{COUNT} separadores"
+   },
+   "tabCount_two": {
+      "message": "{COUNT} separadores"
+   },
+   "tabCount_zero": {
+      "message": "{COUNT} separadores"
+   },
+   "tabGroupColorColon": {
+      "message": "Cor do grupo de separadores:"
+   },
+   "tabShortcutInfo": {
+      "message": "Na página do OneTab, prima a tecla Tab para mover o foco entre os grupos na coluna central. Isto facilita saltar rapidamente entre grupos, especialmente se forem grandes. Se um grupo tiver foco, prima a tecla Enter para o abrir. Use Shift+Tab para mover o foco para trás."
+   },
+   "tabTotalCount_few": {
+      "message": "Total: {COUNT} separadores"
+   },
+   "tabTotalCount_many": {
+      "message": "Total: {COUNT} separadores"
+   },
+   "tabTotalCount_one": {
+      "message": "Total: {COUNT} separador"
+   },
+   "tabTotalCount_other": {
+      "message": "Total: {COUNT} separadores"
+   },
+   "tabTotalCount_two": {
+      "message": "Total: {COUNT} separadores"
+   },
+   "tabTotalCount_zero": {
+      "message": "Total: {COUNT} separadores"
+   },
+   "tabs": {
+      "message": "Separadores"
+   },
+   "tabsFromExcludedDomains": {
+      "message": "separadores de domínios excluídos"
+   },
+   "tabsInTabGroups": {
+      "message": "separadores em grupos de separadores"
+   },
+   "taskTotalCount_few": {
+      "message": "{COUNT} no total"
+   },
+   "taskTotalCount_many": {
+      "message": "{COUNT} no total"
+   },
+   "taskTotalCount_one": {
+      "message": "{COUNT} no total"
+   },
+   "taskTotalCount_other": {
+      "message": "{COUNT} no total"
+   },
+   "taskTotalCount_two": {
+      "message": "{COUNT} no total"
+   },
+   "taskTotalCount_zero": {
+      "message": "{COUNT} no total"
+   },
+   "tasks": {
+      "message": "Tarefas"
+   },
+   "tasksDone": {
+      "message": "Tarefas (concluídas)"
+   },
+   "tasksPending": {
+      "message": "Tarefas (pendentes)"
+   },
+   "tasksWillAppearHere": {
+      "message": "Se marcar quaisquer separadores ou grupos como tarefas, aparecerão aqui."
+   },
+   "thenClickToolbarIcon": {
+      "message": "Em seguida, clique novamente no ícone do OneTab na barra de ferramentas do navegador para usar o OneTab."
+   },
+   "thisFolderIsEmpty": {
+      "message": "Esta pasta está vazia"
+   },
+   "thisTab": {
+      "message": "Este separador"
+   },
+   "thisTabGroup": {
+      "message": "Este grupo de separadores"
+   },
+   "thisTabNotStored": {
+      "message": "Este separador não está guardado no OneTab"
+   },
+   "thisWindow": {
+      "message": "Esta janela"
+   },
+   "tickOrUntickToExclude": {
+      "message": "Assinale ou desassinale para excluir o site"
+   },
+   "title": {
+      "message": "Título"
+   },
+   "toAddOrRemoveExclusions": {
+      "message": "Para adicionar ou remover um site da lista de exclusões:"
+   },
+   "toAllowOneTabInIncognito": {
+      "message": "Para permitir que o ícone do OneTab apareça em janelas de navegação anónima: "
+   },
+   "toImportBrowserBookmarksUseMenuOption": {
+      "message": "Para importar a partir dos marcadores do navegador, use a opção de menu 'Importar ligações aqui' na sua página do OneTab"
+   },
+   "toMakeOpenButtonWorkApprovePermission": {
+      "message": "Para que o botão \"Abrir\" nas páginas partilhadas funcione, aprove o pedido de permissão."
+   },
+   "toSaveChangesClickButton": {
+      "message": "Para guardar as suas alterações, clique no botão"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "message": "Demasiados separadores? Converta os seus separadores numa lista e acelere o Firefox"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "message": "Demasiados separadores? Converta os seus separadores numa lista e acelere o Safari"
+   },
+   "total0Tabs": {
+      "message": "Total: 0 separadores"
+   },
+   "trash": {
+      "message": "Lixo"
+   },
+   "unMarkAsTask": {
+      "message": "Desmarcar como tarefa"
+   },
+   "unPin": {
+      "message": "Desafixar"
+   },
+   "unlock": {
+      "message": "Desbloquear"
+   },
+   "unmarkAsArchived": {
+      "message": "Desmarcar como arquivado"
+   },
+   "unshare": {
+      "message": "Deixar de partilhar"
+   },
+   "untitled": {
+      "message": "Sem título"
+   },
+   "update": {
+      "message": "Atualizar"
+   },
+   "userLanguage": {
+      "message": "Português (Portugal)"
+   },
+   "website": {
+      "message": "Site"
+   },
+   "yearCount_few": {
+      "message": "{COUNT} anos"
+   },
+   "yearCount_many": {
+      "message": "{COUNT} anos"
+   },
+   "yearCount_one": {
+      "message": "{COUNT} ano"
+   },
+   "yearCount_other": {
+      "message": "{COUNT} anos"
+   },
+   "yearCount_two": {
+      "message": "{COUNT} anos"
+   },
+   "yearCount_zero": {
+      "message": "{COUNT} anos"
+   },
+   "yourTabAlreadyStoredHere": {
+      "message": "O seu separador já está guardado aqui:"
+   }
+}

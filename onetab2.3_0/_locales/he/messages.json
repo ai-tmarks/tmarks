@@ -1,0 +1,1715 @@
+{
+   "95PctMemoryReduction": {
+      "message": "חיסכון של 95% בזיכרון"
+   },
+   "Folder": {
+      "message": "תיקייה"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "message": "OneTab זמין גם עבור Firefox"
+   },
+   "aDashZ": {
+      "message": "א-ת"
+   },
+   "about": {
+      "message": "אודות"
+   },
+   "addOneTabNow": {
+      "message": "הוסף את OneTab עכשיו"
+   },
+   "all": {
+      "message": "הכל"
+   },
+   "allBookmarks": {
+      "message": "כל הסימניות"
+   },
+   "allOpenTabsAlreadyStoredHere": {
+      "message": "כל הכרטיסיות הפתוחות כבר מאוחסנות כאן:"
+   },
+   "allowFileAccessInstructions": {
+      "message": "כדי לאפשר פתיחה ישירה של קבצים, היכנס ל'הגדרות' ➝ 'הרחבות' ➝ OneTab ➝ 'פרטים' ➝ 'אפשר גישה לכתובות URL של קבצים'"
+   },
+   "alreadyExistingOpenTabsWillBeClosedAfterMerge": {
+      "message": "כל הכרטיסיות הפתוחות שכבר קיימות בקבוצה זו ייסגרו לאחר המיזוג."
+   },
+   "alternatePlainTextFormat": {
+      "message": "לחלופין, ניתן להשתמש בפורמט טקסט פשוט:"
+   },
+   "approve": {
+      "message": "אשר"
+   },
+   "archived": {
+      "message": "בארכיון"
+   },
+   "autoTheme": {
+      "message": "אוטומטי (לפי הגדרת מערכת ההפעלה)"
+   },
+   "backupAndSync": {
+      "message": "גיבוי וסנכרון"
+   },
+   "betaReleaseReportBugsHere": {
+      "message": "גרסת בטא – דיווח על תקלות כאן"
+   },
+   "bookmarkCount_few": {
+      "message": "{COUNT} סימניות"
+   },
+   "bookmarkCount_many": {
+      "message": "{COUNT} סימניות"
+   },
+   "bookmarkCount_one": {
+      "message": "{COUNT} סימנייה"
+   },
+   "bookmarkCount_other": {
+      "message": "{COUNT} סימניות"
+   },
+   "bookmarkCount_two": {
+      "message": "{COUNT} סימניות"
+   },
+   "bookmarkCount_zero": {
+      "message": "{COUNT} סימניות"
+   },
+   "bookmarksPermissionNecesssary": {
+      "message": "נדרשת הרשאת סימניות כדי ש-OneTab יוכל לייבא את סימניות הדפדפן שלך"
+   },
+   "bulkActions": {
+      "message": "פעולות גורפות"
+   },
+   "canDragTextNote": {
+      "message": "לתשומת לבך: ניתן גם לגרור ולשחרר טקסט שמכיל קישורי אינטרנט ישירות מדף אחר או ממסמך. אפשר לגרור את הטקסט ישירות אל דף OneTab שלך, בלי להשתמש בתיבת הייבוא הזו."
+   },
+   "canPasteWebContentForExample": {
+      "message": "אפשר להדביק טקסט שהועתק מדף אינטרנט או ממסמך, והקישורים יופקו אוטומטית. לדוגמה:"
+   },
+   "cancel": {
+      "message": "ביטול"
+   },
+   "cannotConnectToServerDeletionRequestQueued": {
+      "message": "לא ניתן להתחבר לשרת OneTab. בדוק את חיבור האינטרנט שלך. בקשת המחיקה של הדף המשותף נכנסה לתור מקומי ותישלח אוטומטית לשרת OneTab ברגע שניתן יהיה להתחבר שוב."
+   },
+   "cannotCreateTabGroupInTabGroup": {
+      "message": "יעד שבחרת הוא קבוצת כרטיסיות. אי אפשר ליצור קבוצת כרטיסיות בתוך קבוצת כרטיסיות קיימת. בחר יעד אחר."
+   },
+   "cannotMixTabsGroupsFoldersDuringDrag": {
+      "message": "לא ניתן לערבב כרטיסיות, קבוצות ותיקיות בזמן גרירה. למשל, אי אפשר לגרור תיקייה לאותם מקומות שאליהם ניתן לגרור כרטיסייה."
+   },
+   "caseSensitive": {
+      "message": "תלוי רישיות"
+   },
+   "changesMadeSinceSharedPageCreation": {
+      "message": "בוצעו שינויים מאז שיצרת את הדף המשותף. לחץ על הכפתור 'עדכן' כדי לעדכן את הדף המשותף הקיים."
+   },
+   "checkboxesDeterminePinnedAndGroupedTabMergeInclusion": {
+      "message": "תיבות הסימון בראש דף זה קובעות אם לכלול כרטיסיות מוצמדות או כרטיסיות בקבוצות כרטיסיות במיזוג."
+   },
+   "chooseALocation": {
+      "message": "בחר מיקום"
+   },
+   "chooseALocationToImportTo": {
+      "message": "בחר מיקום לייבוא"
+   },
+   "chooseExportLocation": {
+      "message": "בחר מיקום לייצוא ממנו"
+   },
+   "chooseLightDarkTheme": {
+      "message": "בחר ערכת נושא בהירה/כהה"
+   },
+   "chooseLocationToCopyTo": {
+      "message": "בחר מיקום להעתקה אליו"
+   },
+   "chooseLocationToMoveTo": {
+      "message": "בחר מיקום להעברה אליו"
+   },
+   "chooseLocationToRestoreTo": {
+      "message": "בחר מיקום לשחזור אליו"
+   },
+   "chooseToIncludeNotes": {
+      "message": "אם הוספת הערות לכרטיסיות או לקבוצות, בחר אם לכלול אותן בדף המשותף"
+   },
+   "chooseToIncludeRatings": {
+      "message": "אם הוספת דירוגי כוכבים לכרטיסיות או לקבוצות, בחר אם לכלול אותם בדף המשותף"
+   },
+   "chromeIncognitoInstructions": {
+      "message": "בהגדרות הדפדפן, עבור אל 'הגדרות' → 'הרחבות' → 'OneTab' → 'פרטים', ולאחר מכן הפעל 'אפשר במצב גלישה בסתר'."
+   },
+   "clickButtonToAllowTabAccess": {
+      "message": "לחץ על הכפתור למטה כדי לאפשר ל-OneTab לגשת לכרטיסיות הפתוחות שלך."
+   },
+   "clickHereToContinue": {
+      "message": "לחץ כאן כדי להמשיך."
+   },
+   "clickOneTabIconToStoreTabsHere": {
+      "message": "לחץ על סמל OneTab בסרגל הכלים של הדפדפן כדי לאחסן כאן את הכרטיסיות הפתוחות שלך."
+   },
+   "closeSelectedTabsAndStoreInONETAB_few": {
+      "message": "סגור {COUNT} כרטיסיות נבחרות ואחסן ב-ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_many": {
+      "message": "סגור {COUNT} כרטיסיות נבחרות ואחסן ב-ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_one": {
+      "message": "סגור {COUNT} כרטיסייה נבחרת ואחסן ב-ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_other": {
+      "message": "סגור {COUNT} כרטיסיות נבחרות ואחסן ב-ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_two": {
+      "message": "סגור {COUNT} כרטיסיות נבחרות ואחסן ב-ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_zero": {
+      "message": "סגור {COUNT} כרטיסיות נבחרות ואחסן ב-ONETAB"
+   },
+   "closeSelectedTabs_few": {
+      "message": "סגור {COUNT} כרטיסיות נבחרות"
+   },
+   "closeSelectedTabs_many": {
+      "message": "סגור {COUNT} כרטיסיות נבחרות"
+   },
+   "closeSelectedTabs_one": {
+      "message": "סגור {COUNT} כרטיסייה נבחרת"
+   },
+   "closeSelectedTabs_other": {
+      "message": "סגור {COUNT} כרטיסיות נבחרות"
+   },
+   "closeSelectedTabs_two": {
+      "message": "סגור {COUNT} כרטיסיות נבחרות"
+   },
+   "closeSelectedTabs_zero": {
+      "message": "סגור {COUNT} כרטיסיות נבחרות"
+   },
+   "closeTab": {
+      "message": "סגור כרטיסייה"
+   },
+   "closeTabAndStore": {
+      "message": "סגור את הכרטיסייה ואחסן ב-ONETAB"
+   },
+   "closeTabs": {
+      "message": "סגור כרטיסיות"
+   },
+   "closeTabsAfterMerge": {
+      "message": "סגור כרטיסיות אחרי מיזוג"
+   },
+   "closeTabsAlreadyStoredInOneTab_few": {
+      "message": "סגור {COUNT} כרטיסיות שכבר מאוחסנות ב-OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_many": {
+      "message": "סגור {COUNT} כרטיסיות שכבר מאוחסנות ב-OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_one": {
+      "message": "סגור {COUNT} כרטיסייה שכבר מאוחסנת ב-OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_other": {
+      "message": "סגור {COUNT} כרטיסיות שכבר מאוחסנות ב-OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_two": {
+      "message": "סגור {COUNT} כרטיסיות שכבר מאוחסנות ב-OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_zero": {
+      "message": "סגור {COUNT} כרטיסיות שכבר מאוחסנות ב-OneTab"
+   },
+   "closeTabsAndStore": {
+      "message": "סגור את הכרטיסיות ואחסן ב-ONETAB"
+   },
+   "closeTheseDuplicates": {
+      "message": "סגור את הכרטיסיות הכפולות האלה"
+   },
+   "closeThisDuplicate": {
+      "message": "סגור את הכרטיסייה הכפולה הזו"
+   },
+   "completeEditingShortcutInfo": {
+      "message": "בעת עריכת שדה הערות, השתמש בקיצור זה כדי לסיים את העריכה."
+   },
+   "configureShortcuts": {
+      "message": "הגדרת קיצורים"
+   },
+   "conflictingShortcutsHint": {
+      "message": "אם חלק מקיצורי המקלדת שלעיל לא עובדים או מתנגשים עם יישומים אחרים, אפשר להגדיר מקש קיצור אחר."
+   },
+   "continue": {
+      "message": "המשך"
+   },
+   "convertTabsIntoAList": {
+      "message": "המרת כרטיסיות לרשימה"
+   },
+   "copiedToClipboard": {
+      "message": "הועתק ללוח"
+   },
+   "copy": {
+      "message": "העתק"
+   },
+   "copyLinksToClipboard": {
+      "message": "העתקת קישורים ללוח"
+   },
+   "copySharedPageUrl": {
+      "message": "העתק כתובת URL של הדף המשותף"
+   },
+   "copyToClipboard": {
+      "message": "העתקה ללוח"
+   },
+   "createANewGroupHere": {
+      "message": "צור כאן קבוצה חדשה"
+   },
+   "createFolderAbove": {
+      "message": "צור תיקייה מעל"
+   },
+   "createFolderAboveBelow": {
+      "message": "צור תיקייה מעל / מתחת"
+   },
+   "createFolderAboveWithinBelow": {
+      "message": "צור תיקייה מעל / בתוך / מתחת"
+   },
+   "createFolderBelow": {
+      "message": "צור תיקייה מתחת"
+   },
+   "createFolderWithin": {
+      "message": "צור תיקייה בתוך המיקום"
+   },
+   "createGroupAbove": {
+      "message": "צור קבוצה מעל"
+   },
+   "createGroupAboveBelow": {
+      "message": "צור קבוצה מעל / מתחת"
+   },
+   "createGroupAboveWithinBelow": {
+      "message": "צור קבוצה מעל / בתוך / מתחת"
+   },
+   "createGroupBelow": {
+      "message": "צור קבוצה מתחת"
+   },
+   "createGroupInsideDestination": {
+      "message": "צור קבוצה חדשה בתוך היעד"
+   },
+   "createGroupInsideDestinationHelp": {
+      "message": "אם תיבת הסימון אינה מסומנת, הכרטיסיות יתווספו ישירות לקבוצת היעד. אם מסומנת, תיווצר עבור הכרטיסיות קבוצת כרטיסיות חדשה בדפדפן בתוך קבוצת היעד. סמן תיבה זו רק אם ברצונך להשתמש בתכונת \"קבוצות כרטיסיות\" של הדפדפן."
+   },
+   "createGroupWithin": {
+      "message": "צור קבוצה בתוך המיקום"
+   },
+   "createNewGroupTip": {
+      "message": "כדי ליצור קבוצה חדשה, בטל את הסימון של \"הצג רק תיקיות\""
+   },
+   "createdOnOrAfterColon": {
+      "message": "נוצר בתאריך זה או אחריו:"
+   },
+   "createdOnOrBeforeColon": {
+      "message": "נוצר בתאריך זה או לפניו:"
+   },
+   "createdPreceedingDate": {
+      "message": "נוצר"
+   },
+   "darkTheme": {
+      "message": "ערכת נושא כהה"
+   },
+   "dayCount_few": {
+      "message": "{COUNT} ימים"
+   },
+   "dayCount_many": {
+      "message": "{COUNT} ימים"
+   },
+   "dayCount_one": {
+      "message": "{COUNT} יום"
+   },
+   "dayCount_other": {
+      "message": "{COUNT} ימים"
+   },
+   "dayCount_two": {
+      "message": "{COUNT} ימים"
+   },
+   "dayCount_zero": {
+      "message": "{COUNT} ימים"
+   },
+   "delete": {
+      "message": "מחיקה"
+   },
+   "deleteAllTrash": {
+      "message": "מחק את כל האשפה"
+   },
+   "deleteThisCopy": {
+      "message": "מחק עותק זה"
+   },
+   "deselectAll": {
+      "message": "בטל סימון הכל"
+   },
+   "destinationColon": {
+      "message": "יעד:"
+   },
+   "disabled": {
+      "message": "מושבת"
+   },
+   "doneTaskCount_few": {
+      "message": "{COUNT} הושלמו"
+   },
+   "doneTaskCount_many": {
+      "message": "{COUNT} הושלמו"
+   },
+   "doneTaskCount_one": {
+      "message": "{COUNT} הושלם"
+   },
+   "doneTaskCount_other": {
+      "message": "{COUNT} הושלמו"
+   },
+   "doneTaskCount_two": {
+      "message": "{COUNT} הושלמו"
+   },
+   "doneTaskCount_zero": {
+      "message": "{COUNT} הושלמו"
+   },
+   "dontCloseGroupedTabs": {
+      "message": "אל תסגור כרטיסיות בתוך קבוצות כרטיסיות"
+   },
+   "dontClosePinnedTabs": {
+      "message": "אל תסגור כרטיסיות מוצמדות"
+   },
+   "dontCloseTabsFromDomains": {
+      "message": "אל תסגור כרטיסיות מ-EXAMPLE.COM"
+   },
+   "dragTabsHereForQuickList": {
+      "message": "גרור לכאן כרטיסיות או קבוצות ששמרת. הן יתווספו לרשימה המהירה שלך."
+   },
+   "editTabGroupTitleAndNotes": {
+      "message": "ערוך כותרת והערות של קבוצת הכרטיסיות"
+   },
+   "emojiShortcutInfo": {
+      "message": "בעת עריכת שדה הערות, השתמש בקיצור זה כדי לפתוח את בורר האימוג'ים."
+   },
+   "emptyInBrackets": {
+      "message": "(ריק)"
+   },
+   "emptyOneTabInfoMsg": {
+      "message": "כשפתוחות כמה כרטיסיות, לחץ על סמל OneTab בסרגל הכלים של הדפדפן והכרטיסיות הפתוחות יופיעו כאן."
+   },
+   "enabled": {
+      "message": "מופעל"
+   },
+   "encryptedSyncAndBackup": {
+      "message": "סנכרון וגיבוי מוצפנים"
+   },
+   "encryptedSyncAndBackupComingSoonMessage": {
+      "message": "בקרוב: תוכל לסנכרן את נתוני OneTab שלך בין מספר פרופילי דפדפן ומחשבים.\nOneTab נכתב מחדש מהיסוד כך ששינויים שתבצע במכשיר אחד יופיעו מיידית בכל שאר המכשירים.\nאם תשתמש בתכונה הזו, הנתונים שלך יוצפנו מקצה לקצה בהצפנת AES-256 חזקה. המשמעות היא שמפתחי OneTab אינם יכולים לראות את הכרטיסיות שגיבית או שסינכרנת בין מכשירים, מכיוון שרק לך יש את מפתח ההצפנה."
+   },
+   "everything": {
+      "message": "הכל"
+   },
+   "exampleLink": {
+      "message": "קישור לדוגמה"
+   },
+   "exampleLinkTitle": {
+      "message": "כותרת קישור לדוגמה"
+   },
+   "exampleLinkTitleOptional": {
+      "message": "כותרת קישור לדוגמה (אופציונלי)"
+   },
+   "exampleRichTextParagraph": {
+      "message": "פסקת טקסט לדוגמה עם PLACEHOLDER ו-PLACEHOLDER"
+   },
+   "exampleWebsitePageTitle": {
+      "message": "כותרת עמוד אתר לדוגמה"
+   },
+   "excludeDomainFromOneTab": {
+      "message": "החרג את EXAMPLE.COM מ-OneTab"
+   },
+   "excludeWebSiteFromOneTab": {
+      "message": "החרג את האתר הזה מ-OneTab"
+   },
+   "expiresColon": {
+      "message": "תפוגה:"
+   },
+   "export": {
+      "message": "ייצוא"
+   },
+   "exportImportUrls": {
+      "message": "ייצוא / ייבוא כתובות URL"
+   },
+   "exportThenImportNote": {
+      "message": "ניתן גם לייבא את רשימת כתובות ה-URL הבאה חזרה ל-OneTab במחשב זה או במחשב אחר"
+   },
+   "exportUrls": {
+      "message": "ייצוא כתובות URL"
+   },
+   "feedback": {
+      "message": "משוב"
+   },
+   "filter": {
+      "message": "סינון"
+   },
+   "firefoxIncognitoInstructions": {
+      "message": "בהגדרות הדפדפן, עבור אל 'הגדרות' → 'הרחבות וערכות נושא' → 'הרחבות' → 'OneTab' → '…' → 'ניהול', ולאחר מכן הפעל 'הפעלה בחלונות פרטיים'."
+   },
+   "firefoxShortcutConfigInstructions": {
+      "message": "הקלד את הכתובת \"about:addons?type=extension\" בשורת הכתובת של הדפדפן. לאחר שהדף יופיע, לחץ על סמל גלגל השיניים ואז בחר \"ניהול קיצורי מקשים של הרחבות\""
+   },
+   "folderCount_few": {
+      "message": "{COUNT} תיקיות"
+   },
+   "folderCount_many": {
+      "message": "{COUNT} תיקיות"
+   },
+   "folderCount_one": {
+      "message": "{COUNT} תיקייה"
+   },
+   "folderCount_other": {
+      "message": "{COUNT} תיקיות"
+   },
+   "folderCount_two": {
+      "message": "{COUNT} תיקיות"
+   },
+   "folderCount_zero": {
+      "message": "{COUNT} תיקיות"
+   },
+   "folders": {
+      "message": "תיקיות"
+   },
+   "foldersOnly": {
+      "message": "תיקיות בלבד"
+   },
+   "gettingStarted": {
+      "message": "תחילת עבודה"
+   },
+   "goToParentFolder": {
+      "message": "עבור לתיקיית האב"
+   },
+   "groupCount_few": {
+      "message": "{COUNT} קבוצות"
+   },
+   "groupCount_many": {
+      "message": "{COUNT} קבוצות"
+   },
+   "groupCount_one": {
+      "message": "{COUNT} קבוצה"
+   },
+   "groupCount_other": {
+      "message": "{COUNT} קבוצות"
+   },
+   "groupCount_two": {
+      "message": "{COUNT} קבוצות"
+   },
+   "groupCount_zero": {
+      "message": "{COUNT} קבוצות"
+   },
+   "groups": {
+      "message": "קבוצות"
+   },
+   "hasNotes": {
+      "message": "עם הערות"
+   },
+   "hasRating": {
+      "message": "עם דירוג"
+   },
+   "help": {
+      "message": "עזרה"
+   },
+   "hideArchivedItems": {
+      "message": "הסתר פריטים בארכיון"
+   },
+   "import": {
+      "message": "ייבוא"
+   },
+   "importAndExport": {
+      "message": "ייבוא וייצוא"
+   },
+   "importBookmarks": {
+      "message": "ייבוא סימניות"
+   },
+   "importFolderAndSubfolders": {
+      "message": "ייבוא תיקייה ותתי-תיקיות"
+   },
+   "importLinksHere": {
+      "message": "ייבא קישורים לכאן"
+   },
+   "importReadingList": {
+      "message": "ייבוא רשימת קריאה"
+   },
+   "importText": {
+      "message": "ייבוא טקסט"
+   },
+   "importUrls": {
+      "message": "ייבוא כתובות URL"
+   },
+   "importedBookmarks": {
+      "message": "סימניות מיובאות"
+   },
+   "includeGroupedTabs": {
+      "message": "כלול כרטיסיות בקבוצות כרטיסיות"
+   },
+   "includeNotes": {
+      "message": "כלול הערות"
+   },
+   "includePinnedTabs": {
+      "message": "כלול כרטיסיות מוצמדות"
+   },
+   "includeStarRatings": {
+      "message": "כלול דירוגי כוכבים"
+   },
+   "includeTabsAlreadyStored": {
+      "message": "כלול כרטיסיות שכבר אחסנת"
+   },
+   "includeTabsFromDomains": {
+      "message": "כלול כרטיסיות מ-EXAMPLE.COM"
+   },
+   "incogitoPermissionRequired": {
+      "message": "OneTab זקוק להרשאה כדי ליצור חלונות גלישה בסתר."
+   },
+   "incognitoWindows": {
+      "message": "חלונות גלישה בסתר"
+   },
+   "invertSelection": {
+      "message": "הפוך בחירה"
+   },
+   "justNow": {
+      "message": "זה עתה"
+   },
+   "keyboardShortcutsColon": {
+      "message": "קיצורי מקלדת:"
+   },
+   "languageTitle": {
+      "message": "שפה:"
+   },
+   "lightTheme": {
+      "message": "ערכת נושא בהירה"
+   },
+   "localeId": {
+      "message": "he"
+   },
+   "locationColon": {
+      "message": "מיקום:"
+   },
+   "lock": {
+      "message": "נעל"
+   },
+   "lockMenuItemHelp": {
+      "message": "כאשר קבוצה נעולה, לא ניתן למחוק או לשנות את סדר הפריטים בתוך הקבוצה. בעת פתיחת קבוצה נעולה, פעולות אוטומטיות אינן חלות. ראה את עמוד האפשרויות למידע על פעולות אוטומטיות."
+   },
+   "lockedGroupUnlockHelp": {
+      "message": "כדי לבטל נעילה, השתמש בתפריט הנפתח. כאשר קבוצה נעולה, אי אפשר למחוק את הקבוצה או את הכרטיסיות שבה, ואי אפשר לשנות את סדר הכרטיסיות."
+   },
+   "makeThisATask": {
+      "message": "סמן כמשימה"
+   },
+   "manifestDescription": {
+      "message": "חיסכון של עד 95% בזיכרון וצמצום הבלגן בכרטיסיות"
+   },
+   "markAsArchived": {
+      "message": "סמן כמאוחסן בארכיון"
+   },
+   "markAsArchivedMenuItemHelp": {
+      "message": "לתשומת לבך: משימות בארכיון ומשימות בתוך קבוצות שבארכיון לא יופיעו בעמודת המשימות"
+   },
+   "markAsDoneTask": {
+      "message": "סמן כמשימה שהושלמה"
+   },
+   "markAsPendingTask": {
+      "message": "סמן כמשימה בהמתנה"
+   },
+   "matchCount_few": {
+      "message": "{COUNT} התאמות"
+   },
+   "matchCount_many": {
+      "message": "{COUNT} התאמות"
+   },
+   "matchCount_one": {
+      "message": "{COUNT} התאמה"
+   },
+   "matchCount_other": {
+      "message": "{COUNT} התאמות"
+   },
+   "matchCount_two": {
+      "message": "{COUNT} התאמות"
+   },
+   "matchCount_zero": {
+      "message": "{COUNT} התאמות"
+   },
+   "matchWholeWordsOnly": {
+      "message": "התאמת מילים שלמות בלבד"
+   },
+   "mayNeedToRestartBrowser": {
+      "message": "ייתכן שתצטרך גם לעדכן ולהפעיל מחדש את הדפדפן."
+   },
+   "mergeIntoParent": {
+      "message": "מזג לפריט האב"
+   },
+   "mergeOpenTabsHere_few": {
+      "message": "מזג {COUNT} כרטיסיות פתוחות לכאן"
+   },
+   "mergeOpenTabsHere_many": {
+      "message": "מזג {COUNT} כרטיסיות פתוחות לכאן"
+   },
+   "mergeOpenTabsHere_one": {
+      "message": "מזג {COUNT} כרטיסייה פתוחה לכאן"
+   },
+   "mergeOpenTabsHere_other": {
+      "message": "מזג {COUNT} כרטיסיות פתוחות לכאן"
+   },
+   "mergeOpenTabsHere_two": {
+      "message": "מזג {COUNT} כרטיסיות פתוחות לכאן"
+   },
+   "mergeOpenTabsHere_zero": {
+      "message": "מזג {COUNT} כרטיסיות פתוחות לכאן"
+   },
+   "mergeSelectedTabsHere_few": {
+      "message": "מזג {COUNT} כרטיסיות נבחרות לכאן"
+   },
+   "mergeSelectedTabsHere_many": {
+      "message": "מזג {COUNT} כרטיסיות נבחרות לכאן"
+   },
+   "mergeSelectedTabsHere_one": {
+      "message": "מזג {COUNT} כרטיסייה נבחרת לכאן"
+   },
+   "mergeSelectedTabsHere_other": {
+      "message": "מזג {COUNT} כרטיסיות נבחרות לכאן"
+   },
+   "mergeSelectedTabsHere_two": {
+      "message": "מזג {COUNT} כרטיסיות נבחרות לכאן"
+   },
+   "mergeSelectedTabsHere_zero": {
+      "message": "מזג {COUNT} כרטיסיות נבחרות לכאן"
+   },
+   "mergeWithInnerGroups": {
+      "message": "מזג עם הקבוצות הפנימיות"
+   },
+   "modifySharing": {
+      "message": "שינוי השיתוף"
+   },
+   "moreEllipsis": {
+      "message": "עוד…"
+   },
+   "moreSearchFilters": {
+      "message": "מסנני חיפוש נוספים"
+   },
+   "moreTripleDot": {
+      "message": "עוד…"
+   },
+   "move": {
+      "message": "העבר"
+   },
+   "moveToTrash": {
+      "message": "העבר לאשפה"
+   },
+   "namedOnly": {
+      "message": "פריטים עם שם בלבד"
+   },
+   "navigationFilter": {
+      "message": "מסנן ניווט"
+   },
+   "newExclamation": {
+      "message": "חדש!"
+   },
+   "noDupsExistExceptForColon": {
+      "message": "אין כפילויות, למעט:"
+   },
+   "noDupsFoundHere": {
+      "message": "לא נמצאו כפילויות כאן"
+   },
+   "noMatches": {
+      "message": "אין תוצאות"
+   },
+   "noMatchesFound": {
+      "message": "לא נמצאו תוצאות"
+   },
+   "noOpenTabsToStore": {
+      "message": "אין כרטיסיות פתוחות בחלון זה לאחסון."
+   },
+   "noReadingListEntries": {
+      "message": "לא נמצאו פריטים ברשימת הקריאה"
+   },
+   "noTabsInOneTabYet": {
+      "message": "עדיין אין לך כרטיסיות ב-OneTab"
+   },
+   "noTabsMeetCriteriaUseCheckboxes": {
+      "message": "אין כרטיסיות פתוחות שעונות על הקריטריונים. אנא השתמש בתיבות הסימון למעלה."
+   },
+   "noTextHasBeenEntered": {
+      "message": "לא הוזן טקסט"
+   },
+   "nonArchived": {
+      "message": "לא בארכיון"
+   },
+   "notAssigned": {
+      "message": "לא הוגדר"
+   },
+   "notes": {
+      "message": "הערות"
+   },
+   "notesAboutTheLinkOptional": {
+      "message": "הערות על הקישור (אופציונלי)"
+   },
+   "notesAboutTheSecondLinkOptional": {
+      "message": "הערות על הקישור השני (אופציונלי)"
+   },
+   "ok": {
+      "message": "אישור"
+   },
+   "omniboxShortcutInfo": {
+      "message": "כדי לחפש ברשימת OneTab מכל כרטיסייה: עבור לשורת הכתובת של הדפדפן, הקלד 1, אחר כך רווח, ואז מילת חיפוש."
+   },
+   "oneTabDesignedToProtectPrivacy": {
+      "message": "OneTab תוכנן כדי להגן על הפרטיות שלך. הכרטיסיות שלך אינן נחשפות אלינו."
+   },
+   "oneTabImportExportPageTitle": {
+      "message": "OneTab - ייבוא/ייצוא"
+   },
+   "oneTabNeedsPermissionToAccessYourTabs": {
+      "message": "OneTab זקוק להרשאה לגשת לכרטיסיות שלך."
+   },
+   "oneTabOptionsPageTitle": {
+      "message": "OneTab - אפשרויות"
+   },
+   "oneTabPermissionRequired": {
+      "message": "OneTab - נדרשת הרשאה"
+   },
+   "oneTabRestartRequired": {
+      "message": "נדרשת הפעלה מחדש של OneTab."
+   },
+   "oneTabSlashShortcutInfo": {
+      "message": "בעת השהייה בדף OneTab, לחץ על מקש הלוכסן (/) כדי למקד את תיבת החיפוש."
+   },
+   "open": {
+      "message": "פתח"
+   },
+   "openActionPopup": {
+      "message": "פתח את החלון הקופץ של הפעולה"
+   },
+   "openAsCollapsedTabGroup": {
+      "message": "פתח כקבוצת כרטיסיות 'מכווצת'"
+   },
+   "openAsCollapsedTabGroupMenuItemHelp": {
+      "message": "אם תפתח את הכרטיסיות כ\"קבוצת כרטיסיות\" מכווצת, תוצג רק תווית הקבוצה עד שתלחץ עליה כדי לחשוף את הכרטיסיות שבתוכה."
+   },
+   "openAsTabGroup": {
+      "message": "פתח כקבוצת כרטיסיות בדפדפן"
+   },
+   "openAsTabGroupMenuItemHelp": {
+      "message": "הדפדפן שלך מאפשר לקבץ כרטיסיות ל\"קבוצות כרטיסיות\" צבעוניות בתוך חלון."
+   },
+   "openGroupsLimitNotice_few": {
+      "message": "כדי למנוע עומס בדפדפן שלך, ייפתחו רק הקבוצות הראשונות ({COUNT})."
+   },
+   "openGroupsLimitNotice_many": {
+      "message": "כדי למנוע עומס בדפדפן שלך, ייפתחו רק הקבוצות הראשונות ({COUNT})."
+   },
+   "openGroupsLimitNotice_one": {
+      "message": "כדי למנוע עומס בדפדפן שלך, תיפתח רק הקבוצה הראשונה ({COUNT})."
+   },
+   "openGroupsLimitNotice_other": {
+      "message": "כדי למנוע עומס בדפדפן שלך, ייפתחו רק הקבוצות הראשונות ({COUNT})."
+   },
+   "openGroupsLimitNotice_two": {
+      "message": "כדי למנוע עומס בדפדפן שלך, ייפתחו רק הקבוצות הראשונות ({COUNT})."
+   },
+   "openGroupsLimitNotice_zero": {
+      "message": "כדי למנוע עומס בדפדפן שלך, ייפתחו רק הקבוצות הראשונות ({COUNT})."
+   },
+   "openInIncognitoWindow": {
+      "message": "פתח בחלון גלישה בסתר חדש"
+   },
+   "openInNewWindow": {
+      "message": "פתח בחלון חדש"
+   },
+   "openInThisWindow": {
+      "message": "פתח בחלון זה"
+   },
+   "openONETABLogo": {
+      "message": "פתח את ONETAB"
+   },
+   "openOneTab": {
+      "message": "פתח את OneTab"
+   },
+   "openOneTabAfter": {
+      "message": "פתח את OneTab לאחר אחסון הכרטיסיות"
+   },
+   "openTabFromWebsite": {
+      "message": "פתח כרטיסייה וגש אל האתר"
+   },
+   "openTabLimit_few": {
+      "message": "כדי למנוע עומס בדפדפן שלך, ניתן לפתוח לכל היותר {COUNT} כרטיסיות בו-זמנית."
+   },
+   "openTabLimit_many": {
+      "message": "כדי למנוע עומס בדפדפן שלך, ניתן לפתוח לכל היותר {COUNT} כרטיסיות בו-זמנית."
+   },
+   "openTabLimit_one": {
+      "message": "כדי למנוע עומס בדפדפן שלך, ניתן לפתוח לכל היותר {COUNT} כרטיסייה בו-זמנית."
+   },
+   "openTabLimit_other": {
+      "message": "כדי למנוע עומס בדפדפן שלך, ניתן לפתוח לכל היותר {COUNT} כרטיסיות בו-זמנית."
+   },
+   "openTabLimit_two": {
+      "message": "כדי למנוע עומס בדפדפן שלך, ניתן לפתוח לכל היותר {COUNT} כרטיסיות בו-זמנית."
+   },
+   "openTabLimit_zero": {
+      "message": "כדי למנוע עומס בדפדפן שלך, ניתן לפתוח לכל היותר {COUNT} כרטיסיות בו-זמנית."
+   },
+   "openTabsAlreadyStoredHere_few": {
+      "message": "{COUNT} כרטיסיות פתוחות שכבר מאוחסנות כאן:"
+   },
+   "openTabsAlreadyStoredHere_many": {
+      "message": "{COUNT} כרטיסיות פתוחות שכבר מאוחסנות כאן:"
+   },
+   "openTabsAlreadyStoredHere_one": {
+      "message": "{COUNT} כרטיסייה פתוחה שכבר מאוחסנת כאן:"
+   },
+   "openTabsAlreadyStoredHere_other": {
+      "message": "{COUNT} כרטיסיות פתוחות שכבר מאוחסנות כאן:"
+   },
+   "openTabsAlreadyStoredHere_two": {
+      "message": "{COUNT} כרטיסיות פתוחות שכבר מאוחסנות כאן:"
+   },
+   "openTabsAlreadyStoredHere_zero": {
+      "message": "{COUNT} כרטיסיות פתוחות שכבר מאוחסנות כאן:"
+   },
+   "openTabsConfirm_few": {
+      "message": "פעולה זו תפתח {COUNT} כרטיסיות. להמשיך?"
+   },
+   "openTabsConfirm_many": {
+      "message": "פעולה זו תפתח {COUNT} כרטיסיות. להמשיך?"
+   },
+   "openTabsConfirm_one": {
+      "message": "פעולה זו תפתח {COUNT} כרטיסייה. להמשיך?"
+   },
+   "openTabsConfirm_other": {
+      "message": "פעולה זו תפתח {COUNT} כרטיסיות. להמשיך?"
+   },
+   "openTabsConfirm_two": {
+      "message": "פעולה זו תפתח {COUNT} כרטיסיות. להמשיך?"
+   },
+   "openTabsConfirm_zero": {
+      "message": "פעולה זו תפתח {COUNT} כרטיסיות. להמשיך?"
+   },
+   "openTabsNotStoredInOneTab_few": {
+      "message": "{COUNT} כרטיסיות פתוחות שלא מאוחסנות ב-OneTab"
+   },
+   "openTabsNotStoredInOneTab_many": {
+      "message": "{COUNT} כרטיסיות פתוחות שלא מאוחסנות ב-OneTab"
+   },
+   "openTabsNotStoredInOneTab_one": {
+      "message": "{COUNT} כרטיסייה פתוחה שלא מאוחסנת ב-OneTab"
+   },
+   "openTabsNotStoredInOneTab_other": {
+      "message": "{COUNT} כרטיסיות פתוחות שלא מאוחסנות ב-OneTab"
+   },
+   "openTabsNotStoredInOneTab_two": {
+      "message": "{COUNT} כרטיסיות פתוחות שלא מאוחסנות ב-OneTab"
+   },
+   "openTabsNotStoredInOneTab_zero": {
+      "message": "{COUNT} כרטיסיות פתוחות שלא מאוחסנות ב-OneTab"
+   },
+   "optionAutoActionOnGroupOpenArchiveDesc": {
+      "message": "כדי למנוע סימון הקבוצה כבארכיון, החזק את מקש Alt/Option בעת הלחיצה לפתיחת הקבוצה"
+   },
+   "optionAutoActionOnGroupOpenArchiveTitle": {
+      "message": "פתח את הכרטיסיות וסמן את הקבוצה כמאוחסנת בארכיון"
+   },
+   "optionAutoActionOnGroupOpenHeading": {
+      "message": "פעולה אוטומטית בעת לחיצה לפתיחת קבוצה של כרטיסיות:"
+   },
+   "optionAutoActionOnGroupOpenNote": {
+      "message": "פעולות אוטומטיות לא יחולו על קבוצות שננעלו או שהן משימות."
+   },
+   "optionAutoActionOnGroupOpenOpenDesc": {
+      "message": "כדי לסמן את הקבוצה כבארכיון, החזק את מקש Alt/Option בעת הלחיצה לפתיחת הקבוצה"
+   },
+   "optionAutoActionOnGroupOpenOpenTitle": {
+      "message": "רק לפתוח את הכרטיסיות"
+   },
+   "optionAutoActionOnGroupOpenTrashDesc": {
+      "message": "כדי למנוע שליחה אוטומטית של הקבוצה לאשפה, החזק את מקש Alt/Option בעת הלחיצה לפתיחת הקבוצה"
+   },
+   "optionAutoActionOnGroupOpenTrashTitle": {
+      "message": "פתח את הכרטיסיות והעבר את הקבוצה לאשפה"
+   },
+   "optionAutoActionOnTabOpenArchiveDesc": {
+      "message": "כדי למנוע סימון אוטומטי של הכרטיסייה כמאוחסנת בארכיון, החזק את מקש Alt/Option בעת הלחיצה לפתיחת הכרטיסייה"
+   },
+   "optionAutoActionOnTabOpenArchiveTitle": {
+      "message": "פתח את הכרטיסייה וסמן אותה כמאוחסנת בארכיון"
+   },
+   "optionAutoActionOnTabOpenHeading": {
+      "message": "פעולה אוטומטית בעת לחיצה לפתיחת כרטיסייה:"
+   },
+   "optionAutoActionOnTabOpenNote": {
+      "message": "פעולות אוטומטיות לא יחולו על כרטיסיות בקבוצות שננעלו או שהן משימות."
+   },
+   "optionAutoActionOnTabOpenOpenDesc": {
+      "message": "כדי לסמן את הכרטיסייה כמאוחסנת בארכיון, החזק את מקש Alt/Option בעת הלחיצה לפתיחת הכרטיסייה"
+   },
+   "optionAutoActionOnTabOpenOpenTitle": {
+      "message": "רק לפתוח את הכרטיסייה"
+   },
+   "optionAutoActionOnTabOpenTrashDesc": {
+      "message": "כדי למנוע שליחה אוטומטית של הכרטיסייה לאשפה, החזק את מקש Alt/Option בעת הלחיצה לפתיחת הכרטיסייה"
+   },
+   "optionAutoActionOnTabOpenTrashTitle": {
+      "message": "פתח את הכרטיסייה והעבר אותה לאשפה"
+   },
+   "optionCopyToClipboardFormatHeading": {
+      "message": "העתקת קישורים ללוח:"
+   },
+   "optionCopyToClipboardFormatNote": {
+      "message": "הגדרה זו חלה כאשר משתמשים בפעולה 'העתקה ללוח'. ניתן גם לגרור כרטיסיות וקבוצות ישירות מ-OneTab אל מסמך."
+   },
+   "optionCopyToClipboardFormatRichTextDesc": {
+      "message": "יישומים כמו מעבדי תמלילים יאפשרו להדביק טקסט עשיר. אם לא נתמך, יודבק טקסט פשוט במקום."
+   },
+   "optionCopyToClipboardFormatRichTextTitle": {
+      "message": "טקסט עשיר, אם זמין"
+   },
+   "optionCopyToClipboardFormatTitleUrlTitle": {
+      "message": "כותרת ו-URL"
+   },
+   "optionCopyToClipboardFormatUrlOnlyTitle": {
+      "message": "URL בלבד"
+   },
+   "optionCopyToClipboardFormatUrlTitleTitle": {
+      "message": "URL וכותרת"
+   },
+   "optionDefaultTabGroupOpenTypeCurrentWindow": {
+      "message": "פתח את קבוצת הכרטיסיות בחלון הנוכחי"
+   },
+   "optionDefaultTabGroupOpenTypeHeading": {
+      "message": "בעת לחיצה לפתיחת קבוצה של כרטיסיות שמוגדרת להיפתח כ\"קבוצת כרטיסיות\" בדפדפן:"
+   },
+   "optionDefaultTabGroupOpenTypeNewWindow": {
+      "message": "פתח את קבוצת הכרטיסיות בחלון חדש"
+   },
+   "optionDefaultTabGroupOpenTypeNote": {
+      "message": "אם תשתמש בתפריט הנפתח כדי לבחור אפשרות מסוימת (למשל לפתוח כרטיסיות בחלון גלישה בסתר), האפשרות תישמר עבור אותה קבוצה."
+   },
+   "optionDefaultWindowGroupOpenTypeCurrentWindow": {
+      "message": "פתח את הכרטיסיות בחלון הנוכחי"
+   },
+   "optionDefaultWindowGroupOpenTypeHeading": {
+      "message": "בעת לחיצה לפתיחת קבוצה של כרטיסיות:"
+   },
+   "optionDefaultWindowGroupOpenTypeNewWindow": {
+      "message": "פתח את הכרטיסיות בחלון חדש"
+   },
+   "optionDefaultWindowGroupOpenTypeNote": {
+      "message": "אם תשתמש בתפריט הנפתח כדי לבחור אפשרות מסוימת (למשל לפתוח כרטיסיות בחלון גלישה בסתר), האפשרות תישמר עבור אותה קבוצה."
+   },
+   "optionDiscardNonActiveTabOnOpenHeading": {
+      "message": "חסוך בזיכרון (RAM) מיידית בעת פתיחת הכרטיסיות:"
+   },
+   "optionDiscardNonActiveTabOnOpenNote": {
+      "message": "אם ההגדרה הזו מופעלת, הכרטיסיות ייפרקו מהזיכרון מיד כשאתה פותח אותן לראשונה מרשימת OneTab. זה שימושי אם אתה נוהג לפתוח עשרות כרטיסיות בו-זמנית, מכיוון שזה ימנע מכולן להיטען לזיכרון עד שתיגש אליהן. אם ההגדרה הזו מושבתת, דפדפנים רבים עדיין יבחרו אוטומטית לפרוק כרטיסיות מהזיכרון כשאינך משתמש בהן."
+   },
+   "optionDisplayContextMenuHeading": {
+      "message": "לחץ לחיצה ימנית בתוך דף אינטרנט כדי לגשת לתפריט ההקשר של OneTab:"
+   },
+   "optionDisplayContextMenuNote": {
+      "message": "אם תבטל את התפריט, לא תהיה אפשרות לגשת לתכונה 'החרג אתר זה מ-OneTab'"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenFalseTitle": {
+      "message": "עבור אל החלון שבו כרטיסיית OneTab כבר פתוחה"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenHeading": {
+      "message": "פעולת \"פתח את OneTab\":"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenNote": {
+      "message": "ניתן לגשת לפעולת \"פתח את OneTab\" באמצעות קיצור מקלדת. ניתן גם לגשת אליה בחלון הקופץ שמופיע כשלוחצים על סמל OneTab בסרגל הכלים של הדפדפן."
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenTrueTitle": {
+      "message": "העבר כל כרטיסיית OneTab קיימת אל החלון הנוכחי"
+   },
+   "optionStartupLaunchDisplay": {
+      "message": "פתח את OneTab בכל פעם שאתה מפעיל את הדפדפן"
+   },
+   "optionStartupLaunchNone": {
+      "message": "אל תפתח את OneTab אוטומטית"
+   },
+   "optionStartupLaunchNoneDesc3": {
+      "message": "כדי לפתוח את OneTab ידנית, לחץ על סמל OneTab בסרגל הכלים של הדפדפן, ובחר 'פתח את OneTab'. לחלופין, אפשר ללחוץ לחיצה ימנית בכל דף אינטרנט וללחוץ על 'פתח את OneTab' בתפריט של OneTab."
+   },
+   "optionStartupLaunchTitle": {
+      "message": "בעת ההפעלה:"
+   },
+   "optionSwitchToOpenedTabFalseTitle": {
+      "message": "פתח את הכרטיסייה והישאר ב-OneTab"
+   },
+   "optionSwitchToOpenedTabHeading": {
+      "message": "בעת פתיחת כרטיסיות מדף OneTab:"
+   },
+   "optionSwitchToOpenedTabNote": {
+      "message": "אם תחזיק Shift בעת הלחיצה, הכרטיסייה תיפתח בחלון חדש"
+   },
+   "optionSwitchToOpenedTabTrueTitle": {
+      "message": "פתח את הכרטיסייה ועבור אליה (אלא אם תחזיק את Command ⌘/Ctrl בעת הלחיצה)"
+   },
+   "optionUrlAbbr": {
+      "message": "מקוצרת"
+   },
+   "optionUrlDisplayTitle": {
+      "message": "תצוגת URL:"
+   },
+   "optionUrlDomain": {
+      "message": "שם מתחם בלבד"
+   },
+   "optionUrlFull": {
+      "message": "מלאה"
+   },
+   "optionUrlNone": {
+      "message": "ללא"
+   },
+   "options": {
+      "message": "אפשרויות"
+   },
+   "otherCopiesColon": {
+      "message": "עותקים נוספים:"
+   },
+   "pasteRichOrPlainTextBelow": {
+      "message": "אפשר להדביק למטה טקסט עשיר או טקסט פשוט."
+   },
+   "pendingTaskCount_few": {
+      "message": "{COUNT} בהמתנה"
+   },
+   "pendingTaskCount_many": {
+      "message": "{COUNT} בהמתנה"
+   },
+   "pendingTaskCount_one": {
+      "message": "{COUNT} בהמתנה"
+   },
+   "pendingTaskCount_other": {
+      "message": "{COUNT} בהמתנה"
+   },
+   "pendingTaskCount_two": {
+      "message": "{COUNT} בהמתנה"
+   },
+   "pendingTaskCount_zero": {
+      "message": "{COUNT} בהמתנה"
+   },
+   "permissionRequiredPleaseTryAgain": {
+      "message": "כדי ליצור דף משותף שניתן לגשת אליו מכל מחשב, נדרשת הרשאה לתאם עם שרת האינטרנט של OneTab. נסה שוב."
+   },
+   "pinToTopOfFolder": {
+      "message": "הצמד לראש התיקייה"
+   },
+   "pinToTopOfList": {
+      "message": "הצמד לראש הרשימה"
+   },
+   "pinnedTabs": {
+      "message": "כרטיסיות מוצמדות"
+   },
+   "placeholderAndOtherLocations_few": {
+      "message": "PLACEHOLDER, ועוד {COUNT} אחרים"
+   },
+   "placeholderAndOtherLocations_many": {
+      "message": "PLACEHOLDER, ועוד {COUNT} אחרים"
+   },
+   "placeholderAndOtherLocations_one": {
+      "message": "PLACEHOLDER, ועוד {COUNT} אחר"
+   },
+   "placeholderAndOtherLocations_other": {
+      "message": "PLACEHOLDER, ועוד {COUNT} אחרים"
+   },
+   "placeholderAndOtherLocations_two": {
+      "message": "PLACEHOLDER, ועוד {COUNT} אחרים"
+   },
+   "placeholderAndOtherLocations_zero": {
+      "message": "PLACEHOLDER, ועוד {COUNT} אחרים"
+   },
+   "placeholderExplanation": {
+      "message": "עקב כללי אבטחה של הדפדפן, ל-OneTab אין הרשאה לשחזר ישירות את הדף הזה. יש להעתיק את כתובת ה-URL ולהדביק אותה בשורת הכתובת של הדפדפן."
+   },
+   "plainTextLineFormat": {
+      "message": "אם תדביק טקסט פשוט, ודא שלכל URL מוגדר פרוטוקול (https://wikipedia.org, ולא רק wikipedia.org). כל שורה צריכה להיות בפורמט הבא:"
+   },
+   "pleaseWaitTripleDot": {
+      "message": "אנא המתן…"
+   },
+   "popupSlashShortcutInfo": {
+      "message": "בעת השהייה בחלון הקופץ של הפעולה של OneTab (שמופיע כשלוחצים על סמל OneTab), לחץ על מקש הלוכסן (/) כדי לפתוח את בורר היעד ולמקד את תיבת החיפוש."
+   },
+   "privacyAssurance": {
+      "message": "הבטחת פרטיות"
+   },
+   "privacyAssuranceDetail": {
+      "message": "רשימת הכרטיסיות שלך לעולם אינה נשלחת או נחשפת למפתחי OneTab או לכל גורם אחר. החריג היחיד הוא אם בכוונה תשתמש בתכונת 'שיתוף כדף אינטרנט' כדי להעלות את רשימת הכרטיסיות לדף אינטרנט לצורך שיתוף עם אחרים."
+   },
+   "privacyFirst": {
+      "message": "פרטיות תחילה"
+   },
+   "privacyFirstMessage": {
+      "message": "OneTab תוכנן כדי להגן על הנתונים הפרטיים שלך. הכרטיסיות שלך נשמרות רק במחשב שלך, ולעולם אינן משותפות עם מפתחי OneTab או עם כל גורם אחר.\nאם תשתמש בתכונת הגיבוי/סנכרון שלנו, הנתונים שלך יוצפנו מקצה לקצה בהצפנת AES-256 חזקה. המשמעות היא שמפתחי OneTab אינם יכולים לראות את הכרטיסיות שגיבית או שסינכרנת בין מכשירים, מכיוון שרק לך יש את מפתח ההצפנה.\nהחריג היחיד הוא אם תבחר במכוון לשתף חלק מהכרטיסיות שלך עם אנשים אחרים באמצעות התכונה \"שיתוף כדף אינטרנט\".\nאנחנו מאמינים בפרטיות תחילה."
+   },
+   "privateBrowsingPermissionRequired": {
+      "message": "OneTab זקוק להרשאה כדי ליצור חלונות פרטיים."
+   },
+   "privateBrowsingWindows": {
+      "message": "חלונות גלישה פרטית"
+   },
+   "quickList": {
+      "message": "רשימה מהירה"
+   },
+   "rating": {
+      "message": "דירוג"
+   },
+   "readingList": {
+      "message": "רשימת קריאה"
+   },
+   "readingListPermissionNecesssary": {
+      "message": "נדרשת הרשאה לרשימת הקריאה כדי ש-OneTab יוכל לייבא פריטים מרשימת הקריאה שלך. אם תכונה זו לא עובדת, ייתכן שהדפדפן שלך לא תומך ברשימות קריאה."
+   },
+   "recent": {
+      "message": "האחרונים"
+   },
+   "recentDestinationsColon": {
+      "message": "יעדים אחרונים:"
+   },
+   "recentDuplicateRetainedHelp": {
+      "message": "אם כרטיסייה מופיעה יותר מפעם אחת, יישמר רק העותק הכפול העדכני ביותר"
+   },
+   "recentlyAccessed": {
+      "message": "בשימוש לאחרונה"
+   },
+   "recentlyCreated": {
+      "message": "נוצרו לאחרונה"
+   },
+   "recentlyModified": {
+      "message": "שונו לאחרונה"
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "message": "צמצום שימוש בזיכרון ב-95%"
+   },
+   "removeDuplicateTabsHere_few": {
+      "message": "הסר {COUNT} כרטיסיות כפולות מכאן"
+   },
+   "removeDuplicateTabsHere_many": {
+      "message": "הסר {COUNT} כרטיסיות כפולות מכאן"
+   },
+   "removeDuplicateTabsHere_one": {
+      "message": "הסר {COUNT} כרטיסייה כפולה מכאן"
+   },
+   "removeDuplicateTabsHere_other": {
+      "message": "הסר {COUNT} כרטיסיות כפולות מכאן"
+   },
+   "removeDuplicateTabsHere_two": {
+      "message": "הסר {COUNT} כרטיסיות כפולות מכאן"
+   },
+   "removeDuplicateTabsHere_zero": {
+      "message": "הסר {COUNT} כרטיסיות כפולות מכאן"
+   },
+   "removeDuplicates": {
+      "message": "הסר כפילויות"
+   },
+   "removeFromQuickList": {
+      "message": "הסר מהרשימה המהירה"
+   },
+   "removeTabsElsewhereAlsoHere_few": {
+      "message": "הסר {COUNT} כרטיסיות במקומות אחרים שקיימות גם כאן"
+   },
+   "removeTabsElsewhereAlsoHere_many": {
+      "message": "הסר {COUNT} כרטיסיות במקומות אחרים שקיימות גם כאן"
+   },
+   "removeTabsElsewhereAlsoHere_one": {
+      "message": "הסר {COUNT} כרטיסייה במקום אחר שקיימת גם כאן"
+   },
+   "removeTabsElsewhereAlsoHere_other": {
+      "message": "הסר {COUNT} כרטיסיות במקומות אחרים שקיימות גם כאן"
+   },
+   "removeTabsElsewhereAlsoHere_two": {
+      "message": "הסר {COUNT} כרטיסיות במקומות אחרים שקיימות גם כאן"
+   },
+   "removeTabsElsewhereAlsoHere_zero": {
+      "message": "הסר {COUNT} כרטיסיות במקומות אחרים שקיימות גם כאן"
+   },
+   "removeTabsHereAlsoElsewhere_few": {
+      "message": "הסר {COUNT} כרטיסיות כאן שקיימות גם במקומות אחרים"
+   },
+   "removeTabsHereAlsoElsewhere_many": {
+      "message": "הסר {COUNT} כרטיסיות כאן שקיימות גם במקומות אחרים"
+   },
+   "removeTabsHereAlsoElsewhere_one": {
+      "message": "הסר {COUNT} כרטיסייה כאן שקיימת גם במקומות אחרים"
+   },
+   "removeTabsHereAlsoElsewhere_other": {
+      "message": "הסר {COUNT} כרטיסיות כאן שקיימות גם במקומות אחרים"
+   },
+   "removeTabsHereAlsoElsewhere_two": {
+      "message": "הסר {COUNT} כרטיסיות כאן שקיימות גם במקומות אחרים"
+   },
+   "removeTabsHereAlsoElsewhere_zero": {
+      "message": "הסר {COUNT} כרטיסיות כאן שקיימות גם במקומות אחרים"
+   },
+   "rename": {
+      "message": "שנה שם"
+   },
+   "restore": {
+      "message": "שחזור"
+   },
+   "restrictSearchToFolderColon": {
+      "message": "הגבל את החיפוש לתיקייה הבאה:"
+   },
+   "results": {
+      "message": "תוצאות"
+   },
+   "returnToOneTab": {
+      "message": "חזור ל-OneTab"
+   },
+   "reverse": {
+      "message": "היפוך סדר"
+   },
+   "rightClickAndOpenOneTabMenu": {
+      "message": "לחץ לחיצה ימנית בדף האינטרנט, ועבור לתפריט OneTab"
+   },
+   "rightClickMenuDisabledNote": {
+      "message": "לתשומת לבך: ביטלת את תפריט הלחיצה הימנית של OneTab. יש להפעיל אותו בעמוד האפשרויות של OneTab."
+   },
+   "rightClickSelectionOptionsTip": {
+      "message": "טיפ: לאחר סימון פריט, לחץ לחיצה ימנית על סמל הסימון כדי לראות אפשרויות בחירה נוספות"
+   },
+   "rightClickTickTip": {
+      "message": "טיפ: לחץ לחיצה ימנית על סמל הסימון ליד כל כרטיסייה לכלי בחירה"
+   },
+   "safariApproveOneTabInSettings": {
+      "message": "נא לעבור אל 'הגדרות' ולאשר ל-OneTab לגשת לכל האתרים."
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "message": "חיסכון של עד 95% בזיכרון וצמצום הבלגן בכרטיסיות ב-Google Chrome"
+   },
+   "searchHere": {
+      "message": "חפש כאן"
+   },
+   "searchOneTab": {
+      "message": "חפש ב-OneTab"
+   },
+   "secondExampleLink": {
+      "message": "קישור לדוגמה שני"
+   },
+   "secondExampleLinkTitle": {
+      "message": "כותרת קישור לדוגמה שנייה"
+   },
+   "secondExampleLinkTitleOptional": {
+      "message": "כותרת קישור לדוגמה שנייה (אופציונלי)"
+   },
+   "seeOtherTabsInThisGroup_few": {
+      "message": "הצג {COUNT} כרטיסיות אחרות בקבוצה זו"
+   },
+   "seeOtherTabsInThisGroup_many": {
+      "message": "הצג {COUNT} כרטיסיות אחרות בקבוצה זו"
+   },
+   "seeOtherTabsInThisGroup_one": {
+      "message": "הצג {COUNT} כרטיסייה אחרת בקבוצה זו"
+   },
+   "seeOtherTabsInThisGroup_other": {
+      "message": "הצג {COUNT} כרטיסיות אחרות בקבוצה זו"
+   },
+   "seeOtherTabsInThisGroup_two": {
+      "message": "הצג {COUNT} כרטיסיות אחרות בקבוצה זו"
+   },
+   "seeOtherTabsInThisGroup_zero": {
+      "message": "הצג {COUNT} כרטיסיות אחרות בקבוצה זו"
+   },
+   "seePasteInstructions": {
+      "message": "הצג הוראות הדבקה…"
+   },
+   "seeTabsInThisGroup_few": {
+      "message": "הצג {COUNT} כרטיסיות בקבוצה זו"
+   },
+   "seeTabsInThisGroup_many": {
+      "message": "הצג {COUNT} כרטיסיות בקבוצה זו"
+   },
+   "seeTabsInThisGroup_one": {
+      "message": "הצג {COUNT} כרטיסייה בקבוצה זו"
+   },
+   "seeTabsInThisGroup_other": {
+      "message": "הצג {COUNT} כרטיסיות בקבוצה זו"
+   },
+   "seeTabsInThisGroup_two": {
+      "message": "הצג {COUNT} כרטיסיות בקבוצה זו"
+   },
+   "seeTabsInThisGroup_zero": {
+      "message": "הצג {COUNT} כרטיסיות בקבוצה זו"
+   },
+   "selectAll": {
+      "message": "בחר הכל"
+   },
+   "selectAllExceptThis": {
+      "message": "בחר הכל מלבד זה"
+   },
+   "selectThisAndAbove": {
+      "message": "בחר את זה ואת כל מה שמעליו"
+   },
+   "selectThisAndBelow": {
+      "message": "בחר את זה ואת כל מה שמתחתיו"
+   },
+   "selectedItemCount_few": {
+      "message": "{COUNT} פריטים"
+   },
+   "selectedItemCount_many": {
+      "message": "{COUNT} פריטים"
+   },
+   "selectedItemCount_one": {
+      "message": "{COUNT} פריט"
+   },
+   "selectedItemCount_other": {
+      "message": "{COUNT} פריטים"
+   },
+   "selectedItemCount_two": {
+      "message": "{COUNT} פריטים"
+   },
+   "selectedItemCount_zero": {
+      "message": "{COUNT} פריטים"
+   },
+   "selection": {
+      "message": "בחירה"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "message": "שלח את כל הכרטיסיות מכל החלונות ל-OneTab"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "message": "שלח את כל הכרטיסיות מלבד כרטיסייה זו ל-OneTab"
+   },
+   "sendAllTabsInGroupToOneTab": {
+      "message": "שלח את כל הכרטיסיות בקבוצת הכרטיסיות הזו ל-OneTab"
+   },
+   "sendAllTabsInWindowToOneTab": {
+      "message": "שלח את כל הכרטיסיות בחלון זה ל-OneTab"
+   },
+   "sendCurrentTabToOneTab": {
+      "message": "שלח את הכרטיסייה הנוכחית ל-OneTab"
+   },
+   "sendLeftTabsToOneTab": {
+      "message": "שלח את הכרטיסיות שמשמאל לכרטיסייה הנוכחית ל-OneTab"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "message": "שלח רק את הכרטיסייה הזו ל-OneTab"
+   },
+   "sendRightTabsToOneTab": {
+      "message": "שלח את הכרטיסיות שמימין לכרטיסייה הנוכחית ל-OneTab"
+   },
+   "sendSelectedTabsToOneTab": {
+      "message": "שלח את הכרטיסיות הנבחרות ל-OneTab"
+   },
+   "sendThisWebLinkToOneTab": {
+      "message": "שלח את הקישור הזה ל-OneTab"
+   },
+   "serverUnreachable": {
+      "message": "השרת אינו זמין. בדוק את חיבור האינטרנט שלך."
+   },
+   "share": {
+      "message": "שתף"
+   },
+   "shareAsAWebPage": {
+      "message": "שיתוף כדף אינטרנט"
+   },
+   "shared": {
+      "message": "משותף"
+   },
+   "sharedExpiresColon": {
+      "message": "שותף כדף אינטרנט. תפוגה:"
+   },
+   "sharedPageOptions": {
+      "message": "אפשרויות דף משותף"
+   },
+   "sharedPageTabLimit_few": {
+      "message": "דפים משותפים מוגבלים ל-{COUNT} כרטיסיות"
+   },
+   "sharedPageTabLimit_many": {
+      "message": "דפים משותפים מוגבלים ל-{COUNT} כרטיסיות"
+   },
+   "sharedPageTabLimit_one": {
+      "message": "דפים משותפים מוגבלים ל-{COUNT} כרטיסייה"
+   },
+   "sharedPageTabLimit_other": {
+      "message": "דפים משותפים מוגבלים ל-{COUNT} כרטיסיות"
+   },
+   "sharedPageTabLimit_two": {
+      "message": "דפים משותפים מוגבלים ל-{COUNT} כרטיסיות"
+   },
+   "sharedPageTabLimit_zero": {
+      "message": "דפים משותפים מוגבלים ל-{COUNT} כרטיסיות"
+   },
+   "sharedPageWillAutomaticallyExpire": {
+      "message": "הדף המשותף יפוג אוטומטית, אך ניתן להאריך את תאריך התפוגה בכל עת."
+   },
+   "shiftDragShortcutInfo": {
+      "message": "החזק את מקש Shift בעת שחרור כרטיסייה כדי ליצור עותק שלה במקום להעביר. חשוב: לחץ על Shift רק לאחר שהתחלת לגרור."
+   },
+   "showEverything": {
+      "message": "הצג הכל"
+   },
+   "showFoldersOnly": {
+      "message": "הצג רק תיקיות"
+   },
+   "showNamedItemsOnly": {
+      "message": "הצג רק פריטים עם שם"
+   },
+   "showNamedOnly": {
+      "message": "הצג רק פריטים עם שם"
+   },
+   "showNextCount_few": {
+      "message": "הצג {COUNT} הבאים"
+   },
+   "showNextCount_many": {
+      "message": "הצג {COUNT} הבאים"
+   },
+   "showNextCount_one": {
+      "message": "הצג {COUNT} הבא"
+   },
+   "showNextCount_other": {
+      "message": "הצג {COUNT} הבאים"
+   },
+   "showNextCount_two": {
+      "message": "הצג {COUNT} הבאים"
+   },
+   "showNextCount_zero": {
+      "message": "הצג {COUNT} הבאים"
+   },
+   "showPreviousCount_few": {
+      "message": "הצג {COUNT} הקודמים"
+   },
+   "showPreviousCount_many": {
+      "message": "הצג {COUNT} הקודמים"
+   },
+   "showPreviousCount_one": {
+      "message": "הצג {COUNT} הקודם"
+   },
+   "showPreviousCount_other": {
+      "message": "הצג {COUNT} הקודמים"
+   },
+   "showPreviousCount_two": {
+      "message": "הצג {COUNT} הקודמים"
+   },
+   "showPreviousCount_zero": {
+      "message": "הצג {COUNT} הקודמים"
+   },
+   "soon": {
+      "message": "בעוד רגע"
+   },
+   "sort": {
+      "message": "מיון"
+   },
+   "sortByColon": {
+      "message": "מיון לפי:"
+   },
+   "sortGroups": {
+      "message": "מיין קבוצות"
+   },
+   "sourceColon": {
+      "message": "מקור:"
+   },
+   "starRatingTooltip": {
+      "message": "קבע דירוג כוכבים"
+   },
+   "storeSelectedTabsInONETAB_few": {
+      "message": "אחסן {COUNT} כרטיסיות נבחרות ב-ONETAB"
+   },
+   "storeSelectedTabsInONETAB_many": {
+      "message": "אחסן {COUNT} כרטיסיות נבחרות ב-ONETAB"
+   },
+   "storeSelectedTabsInONETAB_one": {
+      "message": "אחסן {COUNT} כרטיסייה נבחרת ב-ONETAB"
+   },
+   "storeSelectedTabsInONETAB_other": {
+      "message": "אחסן {COUNT} כרטיסיות נבחרות ב-ONETAB"
+   },
+   "storeSelectedTabsInONETAB_two": {
+      "message": "אחסן {COUNT} כרטיסיות נבחרות ב-ONETAB"
+   },
+   "storeSelectedTabsInONETAB_zero": {
+      "message": "אחסן {COUNT} כרטיסיות נבחרות ב-ONETAB"
+   },
+   "storeTabInAdditionalLocation": {
+      "message": "אחסן את הכרטיסייה שלך במיקום נוסף"
+   },
+   "storeTabInONETAB": {
+      "message": "אחסן את הכרטיסייה ב-ONETAB"
+   },
+   "storeTabsInAdditionalLocation": {
+      "message": "אחסן את הכרטיסיות שלך במיקום נוסף"
+   },
+   "storeTabsInONETAB": {
+      "message": "אחסן את הכרטיסיות ב-ONETAB"
+   },
+   "subFoldersNotShared": {
+      "message": "לתשומת לבך: תתי-תיקיות אינן משותפות. רק קבוצות שנמצאות ישירות בתוך התיקייה משותפות."
+   },
+   "tab": {
+      "message": "כרטיסייה"
+   },
+   "tabAlreadyStoredHere": {
+      "message": "הכרטיסייה הפתוחה שלך כבר מאוחסנת כאן:"
+   },
+   "tabCaretTooltipTitleNotes": {
+      "message": "ערוך את כותרת הכרטיסייה וההערות"
+   },
+   "tabCaretTooltipTitleNotesUrl": {
+      "message": "ערוך את כותרת הכרטיסייה, כתובת ה-URL וההערות"
+   },
+   "tabCount_few": {
+      "message": "{COUNT} כרטיסיות"
+   },
+   "tabCount_many": {
+      "message": "{COUNT} כרטיסיות"
+   },
+   "tabCount_one": {
+      "message": "{COUNT} כרטיסייה"
+   },
+   "tabCount_other": {
+      "message": "{COUNT} כרטיסיות"
+   },
+   "tabCount_two": {
+      "message": "{COUNT} כרטיסיות"
+   },
+   "tabCount_zero": {
+      "message": "{COUNT} כרטיסיות"
+   },
+   "tabGroupColorColon": {
+      "message": "צבע קבוצת הכרטיסיות:"
+   },
+   "tabShortcutInfo": {
+      "message": "בעת השהייה בדף OneTab, לחץ על מקש Tab כדי להעביר את המיקוד בין קבוצות בעמודה המרכזית. כך ניתן לדלג במהירות על קבוצות, במיוחד כשהן גדולות. אם קבוצה במיקוד, לחץ Enter כדי לפתוח אותה. השתמש ב-Shift+Tab כדי להעביר את המיקוד אחורה."
+   },
+   "tabTotalCount_few": {
+      "message": "סה״כ: {COUNT} כרטיסיות"
+   },
+   "tabTotalCount_many": {
+      "message": "סה״כ: {COUNT} כרטיסיות"
+   },
+   "tabTotalCount_one": {
+      "message": "סה״כ: {COUNT} כרטיסייה"
+   },
+   "tabTotalCount_other": {
+      "message": "סה״כ: {COUNT} כרטיסיות"
+   },
+   "tabTotalCount_two": {
+      "message": "סה״כ: {COUNT} כרטיסיות"
+   },
+   "tabTotalCount_zero": {
+      "message": "סה״כ: {COUNT} כרטיסיות"
+   },
+   "tabs": {
+      "message": "כרטיסיות"
+   },
+   "tabsFromExcludedDomains": {
+      "message": "כרטיסיות מתחומים מוחרגים"
+   },
+   "tabsInTabGroups": {
+      "message": "כרטיסיות בקבוצות כרטיסיות"
+   },
+   "taskTotalCount_few": {
+      "message": "{COUNT} סה״כ"
+   },
+   "taskTotalCount_many": {
+      "message": "{COUNT} סה״כ"
+   },
+   "taskTotalCount_one": {
+      "message": "{COUNT} סה״כ"
+   },
+   "taskTotalCount_other": {
+      "message": "{COUNT} סה״כ"
+   },
+   "taskTotalCount_two": {
+      "message": "{COUNT} סה״כ"
+   },
+   "taskTotalCount_zero": {
+      "message": "{COUNT} סה״כ"
+   },
+   "tasks": {
+      "message": "משימות"
+   },
+   "tasksDone": {
+      "message": "משימות (הושלמו)"
+   },
+   "tasksPending": {
+      "message": "משימות (בהמתנה)"
+   },
+   "tasksWillAppearHere": {
+      "message": "אם תסמן כרטיסיות או קבוצות כמשימות, הן יופיעו כאן."
+   },
+   "thenClickToolbarIcon": {
+      "message": "לאחר מכן, לחץ שוב על סמל OneTab בסרגל הכלים כדי להשתמש ב-OneTab."
+   },
+   "thisFolderIsEmpty": {
+      "message": "תיקייה זו ריקה"
+   },
+   "thisTab": {
+      "message": "כרטיסייה זו"
+   },
+   "thisTabGroup": {
+      "message": "קבוצת כרטיסיות זו"
+   },
+   "thisTabNotStored": {
+      "message": "כרטיסייה זו לא מאוחסנת ב-OneTab"
+   },
+   "thisWindow": {
+      "message": "חלון זה"
+   },
+   "tickOrUntickToExclude": {
+      "message": "סמן או בטל סימון כדי להחריג את האתר"
+   },
+   "title": {
+      "message": "כותרת"
+   },
+   "toAddOrRemoveExclusions": {
+      "message": "כדי להוסיף או להסיר אתר מרשימת ההחרגות:"
+   },
+   "toAllowOneTabInIncognito": {
+      "message": "כדי לאפשר לסמל OneTab להופיע בחלונות גלישה בסתר: "
+   },
+   "toImportBrowserBookmarksUseMenuOption": {
+      "message": "כדי לייבא מסימניות הדפדפן, השתמש באפשרות התפריט 'ייבוא קישורים לכאן' בדף OneTab שלך"
+   },
+   "toMakeOpenButtonWorkApprovePermission": {
+      "message": "כדי שכפתור \"פתח\" בדפים משותפים יעבוד, אנא אשר את בקשת ההרשאה."
+   },
+   "toSaveChangesClickButton": {
+      "message": "כדי לשמור את השינויים, לחץ על הכפתור"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "message": "יותר מדי כרטיסיות? המר את הכרטיסיות שלך לרשימה והאץ את Firefox"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "message": "יותר מדי כרטיסיות? המר את הכרטיסיות שלך לרשימה והאץ את Safari"
+   },
+   "total0Tabs": {
+      "message": "סה״כ: 0 כרטיסיות"
+   },
+   "trash": {
+      "message": "אשפה"
+   },
+   "unMarkAsTask": {
+      "message": "בטל סימון כמשימה"
+   },
+   "unPin": {
+      "message": "בטל הצמדה"
+   },
+   "unlock": {
+      "message": "בטל נעילה"
+   },
+   "unmarkAsArchived": {
+      "message": "בטל סימון כמאוחסן בארכיון"
+   },
+   "unshare": {
+      "message": "בטל שיתוף"
+   },
+   "untitled": {
+      "message": "ללא כותרת"
+   },
+   "update": {
+      "message": "עדכן"
+   },
+   "userLanguage": {
+      "message": "עברית"
+   },
+   "website": {
+      "message": "אתר"
+   },
+   "yearCount_few": {
+      "message": "{COUNT} שנים"
+   },
+   "yearCount_many": {
+      "message": "{COUNT} שנים"
+   },
+   "yearCount_one": {
+      "message": "{COUNT} שנה"
+   },
+   "yearCount_other": {
+      "message": "{COUNT} שנים"
+   },
+   "yearCount_two": {
+      "message": "{COUNT} שנים"
+   },
+   "yearCount_zero": {
+      "message": "{COUNT} שנים"
+   },
+   "yourTabAlreadyStoredHere": {
+      "message": "הכרטיסייה שלך כבר מאוחסנת כאן:"
+   }
+}

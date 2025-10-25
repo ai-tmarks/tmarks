@@ -4,6 +4,7 @@
  */
 
 import { useState, useCallback } from 'react'
+import { logger } from '@/lib/logger'
 import type {
   ExportFormat,
   ExportOptions,
@@ -130,7 +131,7 @@ export function useImportExport(): UseImportExportReturn {
 
       return await response.json()
     } catch (error) {
-      console.error('Export preview error:', error)
+      logger.error('Export preview error:', error)
       throw error
     }
   }, [])
@@ -146,7 +147,7 @@ export function useImportExport(): UseImportExportReturn {
 
       return await response.json()
     } catch (error) {
-      console.error('Import preview error:', error)
+      logger.error('Import preview error:', error)
       throw error
     }
   }, [])

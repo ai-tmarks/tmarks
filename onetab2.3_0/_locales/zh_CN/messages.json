@@ -1,0 +1,1715 @@
+{
+   "95PctMemoryReduction": {
+      "message": "内存占用减少 95%"
+   },
+   "Folder": {
+      "message": "文件夹"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "message": "OneTab 也适用于 Firefox"
+   },
+   "aDashZ": {
+      "message": "A-Z"
+   },
+   "about": {
+      "message": "关于"
+   },
+   "addOneTabNow": {
+      "message": "立即添加 OneTab"
+   },
+   "all": {
+      "message": "全部"
+   },
+   "allBookmarks": {
+      "message": "所有书签"
+   },
+   "allOpenTabsAlreadyStoredHere": {
+      "message": "所有打开的标签页已保存在此处:"
+   },
+   "allowFileAccessInstructions": {
+      "message": "若要直接打开文件，请前往 设置 ➝ 扩展程序 ➝ OneTab ➝ 详细信息 ➝ 允许访问文件网址"
+   },
+   "alreadyExistingOpenTabsWillBeClosedAfterMerge": {
+      "message": "此分组中已存在的所有打开标签页将在合并后被关闭。"
+   },
+   "alternatePlainTextFormat": {
+      "message": "或者，纯文本也可以采用以下格式:"
+   },
+   "approve": {
+      "message": "批准"
+   },
+   "archived": {
+      "message": "已归档"
+   },
+   "autoTheme": {
+      "message": "自动（使用操作系统设置）"
+   },
+   "backupAndSync": {
+      "message": "备份与同步"
+   },
+   "betaReleaseReportBugsHere": {
+      "message": "测试版 - 在此报告问题"
+   },
+   "bookmarkCount_few": {
+      "message": "{COUNT} 个书签"
+   },
+   "bookmarkCount_many": {
+      "message": "{COUNT} 个书签"
+   },
+   "bookmarkCount_one": {
+      "message": "{COUNT} 个书签"
+   },
+   "bookmarkCount_other": {
+      "message": "{COUNT} 个书签"
+   },
+   "bookmarkCount_two": {
+      "message": "{COUNT} 个书签"
+   },
+   "bookmarkCount_zero": {
+      "message": "{COUNT} 个书签"
+   },
+   "bookmarksPermissionNecesssary": {
+      "message": "需要书签权限以允许 OneTab 导入您的浏览器书签"
+   },
+   "bulkActions": {
+      "message": "批量操作"
+   },
+   "canDragTextNote": {
+      "message": "注意: 您也可以直接从其他网页或文档中拖放包含网页链接的文本。您可以直接将文本拖到您的 OneTab 页面，无需使用此导入框。"
+   },
+   "canPasteWebContentForExample": {
+      "message": "您可以粘贴从网页或文档复制的文本，链接会被自动提取。例如:"
+   },
+   "cancel": {
+      "message": "取消"
+   },
+   "cannotConnectToServerDeletionRequestQueued": {
+      "message": "无法连接到 OneTab 服务器。请检查您的网络连接。您删除共享页面的请求已在本地排队，一旦服务器可达将自动发送到 OneTab 服务器。"
+   },
+   "cannotCreateTabGroupInTabGroup": {
+      "message": "您选择的目标是一个标签页组。无法在现有的标签页组内创建另一个标签页组。请选择其他目标位置。"
+   },
+   "cannotMixTabsGroupsFoldersDuringDrag": {
+      "message": "拖动时不能混合标签页、分组和文件夹。例如，您无法把文件夹拖到与标签页相同的位置。"
+   },
+   "caseSensitive": {
+      "message": "区分大小写"
+   },
+   "changesMadeSinceSharedPageCreation": {
+      "message": "自创建共享页面后已有更改。点击“更新”按钮以更新现有共享页面。"
+   },
+   "checkboxesDeterminePinnedAndGroupedTabMergeInclusion": {
+      "message": "此页顶部的复选框决定合并时是否包含固定标签页或标签页组内的标签页。"
+   },
+   "chooseALocation": {
+      "message": "选择位置"
+   },
+   "chooseALocationToImportTo": {
+      "message": "选择导入位置"
+   },
+   "chooseExportLocation": {
+      "message": "选择导出来源"
+   },
+   "chooseLightDarkTheme": {
+      "message": "选择浅色/深色主题"
+   },
+   "chooseLocationToCopyTo": {
+      "message": "选择复制位置"
+   },
+   "chooseLocationToMoveTo": {
+      "message": "选择移动位置"
+   },
+   "chooseLocationToRestoreTo": {
+      "message": "选择还原位置"
+   },
+   "chooseToIncludeNotes": {
+      "message": "如果您为标签页或分组添加了备注，可选择是否在共享网页中包含它们"
+   },
+   "chooseToIncludeRatings": {
+      "message": "如果您为标签页或分组添加了星级评分，可选择是否在共享网页中包含它们"
+   },
+   "chromeIncognitoInstructions": {
+      "message": "在浏览器设置中，前往“设置”→“扩展程序”→“OneTab”→“详细信息”，然后启用“允许在隐身模式下使用”。"
+   },
+   "clickButtonToAllowTabAccess": {
+      "message": "点击下方按钮，允许 OneTab 访问您已打开的标签页。"
+   },
+   "clickHereToContinue": {
+      "message": "点击此处继续。"
+   },
+   "clickOneTabIconToStoreTabsHere": {
+      "message": "点击浏览器工具栏中的 OneTab 图标，将打开的标签页保存到此处。"
+   },
+   "closeSelectedTabsAndStoreInONETAB_few": {
+      "message": "关闭所选 {COUNT} 个标签页并保存到 ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_many": {
+      "message": "关闭所选 {COUNT} 个标签页并保存到 ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_one": {
+      "message": "关闭所选 {COUNT} 个标签页并保存到 ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_other": {
+      "message": "关闭所选 {COUNT} 个标签页并保存到 ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_two": {
+      "message": "关闭所选 {COUNT} 个标签页并保存到 ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_zero": {
+      "message": "关闭所选 {COUNT} 个标签页并保存到 ONETAB"
+   },
+   "closeSelectedTabs_few": {
+      "message": "关闭所选 {COUNT} 个标签页"
+   },
+   "closeSelectedTabs_many": {
+      "message": "关闭所选 {COUNT} 个标签页"
+   },
+   "closeSelectedTabs_one": {
+      "message": "关闭所选 {COUNT} 个标签页"
+   },
+   "closeSelectedTabs_other": {
+      "message": "关闭所选 {COUNT} 个标签页"
+   },
+   "closeSelectedTabs_two": {
+      "message": "关闭所选 {COUNT} 个标签页"
+   },
+   "closeSelectedTabs_zero": {
+      "message": "关闭所选 {COUNT} 个标签页"
+   },
+   "closeTab": {
+      "message": "关闭标签页"
+   },
+   "closeTabAndStore": {
+      "message": "关闭标签页并保存到 ONETAB"
+   },
+   "closeTabs": {
+      "message": "关闭标签页"
+   },
+   "closeTabsAfterMerge": {
+      "message": "合并后关闭标签页"
+   },
+   "closeTabsAlreadyStoredInOneTab_few": {
+      "message": "关闭 {COUNT} 个已保存在 OneTab 中的标签页"
+   },
+   "closeTabsAlreadyStoredInOneTab_many": {
+      "message": "关闭 {COUNT} 个已保存在 OneTab 中的标签页"
+   },
+   "closeTabsAlreadyStoredInOneTab_one": {
+      "message": "关闭 {COUNT} 个已保存在 OneTab 中的标签页"
+   },
+   "closeTabsAlreadyStoredInOneTab_other": {
+      "message": "关闭 {COUNT} 个已保存在 OneTab 中的标签页"
+   },
+   "closeTabsAlreadyStoredInOneTab_two": {
+      "message": "关闭 {COUNT} 个已保存在 OneTab 中的标签页"
+   },
+   "closeTabsAlreadyStoredInOneTab_zero": {
+      "message": "关闭 {COUNT} 个已保存在 OneTab 中的标签页"
+   },
+   "closeTabsAndStore": {
+      "message": "关闭标签页并保存到 ONETAB"
+   },
+   "closeTheseDuplicates": {
+      "message": "关闭这些重复的标签页"
+   },
+   "closeThisDuplicate": {
+      "message": "关闭此重复的标签页"
+   },
+   "completeEditingShortcutInfo": {
+      "message": "编辑备注字段时，使用此快捷键完成编辑。"
+   },
+   "configureShortcuts": {
+      "message": "配置快捷键"
+   },
+   "conflictingShortcutsHint": {
+      "message": "如果上述某些快捷键无效或与其他应用程序冲突，您可以配置其他快捷键。"
+   },
+   "continue": {
+      "message": "继续"
+   },
+   "convertTabsIntoAList": {
+      "message": "将标签页转换为列表"
+   },
+   "copiedToClipboard": {
+      "message": "已复制到剪贴板"
+   },
+   "copy": {
+      "message": "复制"
+   },
+   "copyLinksToClipboard": {
+      "message": "复制链接到剪贴板"
+   },
+   "copySharedPageUrl": {
+      "message": "复制共享页面 URL"
+   },
+   "copyToClipboard": {
+      "message": "复制到剪贴板"
+   },
+   "createANewGroupHere": {
+      "message": "在此创建新分组"
+   },
+   "createFolderAbove": {
+      "message": "在上方创建文件夹"
+   },
+   "createFolderAboveBelow": {
+      "message": "在上方/下方创建文件夹"
+   },
+   "createFolderAboveWithinBelow": {
+      "message": "在上方/内部/下方创建文件夹"
+   },
+   "createFolderBelow": {
+      "message": "在下方创建文件夹"
+   },
+   "createFolderWithin": {
+      "message": "在此位置内创建文件夹"
+   },
+   "createGroupAbove": {
+      "message": "在上方创建分组"
+   },
+   "createGroupAboveBelow": {
+      "message": "在上方/下方创建分组"
+   },
+   "createGroupAboveWithinBelow": {
+      "message": "在上方/内部/下方创建分组"
+   },
+   "createGroupBelow": {
+      "message": "在下方创建分组"
+   },
+   "createGroupInsideDestination": {
+      "message": "在目标位置内创建新分组"
+   },
+   "createGroupInsideDestinationHelp": {
+      "message": "未勾选时，您的标签页将直接添加到目标分组中。勾选时，会在目标分组内为您的标签页创建一个新的浏览器“标签页组”。仅当您希望使用浏览器的“标签页组”功能时才勾选此项。"
+   },
+   "createGroupWithin": {
+      "message": "在其中创建分组"
+   },
+   "createNewGroupTip": {
+      "message": "要创建新分组，请取消勾选“仅显示文件夹”"
+   },
+   "createdOnOrAfterColon": {
+      "message": "创建时间不早于:"
+   },
+   "createdOnOrBeforeColon": {
+      "message": "创建时间不晚于:"
+   },
+   "createdPreceedingDate": {
+      "message": "创建于"
+   },
+   "darkTheme": {
+      "message": "深色主题"
+   },
+   "dayCount_few": {
+      "message": "{COUNT} 天"
+   },
+   "dayCount_many": {
+      "message": "{COUNT} 天"
+   },
+   "dayCount_one": {
+      "message": "{COUNT} 天"
+   },
+   "dayCount_other": {
+      "message": "{COUNT} 天"
+   },
+   "dayCount_two": {
+      "message": "{COUNT} 天"
+   },
+   "dayCount_zero": {
+      "message": "{COUNT} 天"
+   },
+   "delete": {
+      "message": "删除"
+   },
+   "deleteAllTrash": {
+      "message": "清空回收站"
+   },
+   "deleteThisCopy": {
+      "message": "删除此副本"
+   },
+   "deselectAll": {
+      "message": "取消全选"
+   },
+   "destinationColon": {
+      "message": "目标位置:"
+   },
+   "disabled": {
+      "message": "已禁用"
+   },
+   "doneTaskCount_few": {
+      "message": "已完成 {COUNT}"
+   },
+   "doneTaskCount_many": {
+      "message": "已完成 {COUNT}"
+   },
+   "doneTaskCount_one": {
+      "message": "已完成 {COUNT}"
+   },
+   "doneTaskCount_other": {
+      "message": "已完成 {COUNT}"
+   },
+   "doneTaskCount_two": {
+      "message": "已完成 {COUNT}"
+   },
+   "doneTaskCount_zero": {
+      "message": "已完成 {COUNT}"
+   },
+   "dontCloseGroupedTabs": {
+      "message": "不要关闭任何标签页组内的标签页"
+   },
+   "dontClosePinnedTabs": {
+      "message": "不要关闭任何固定的标签页"
+   },
+   "dontCloseTabsFromDomains": {
+      "message": "不要关闭任何来自 EXAMPLE.COM 的标签页"
+   },
+   "dragTabsHereForQuickList": {
+      "message": "将已保存的标签页或分组拖到此处，它们会添加到您的快速列表。"
+   },
+   "editTabGroupTitleAndNotes": {
+      "message": "编辑标签页分组的标题和备注"
+   },
+   "emojiShortcutInfo": {
+      "message": "编辑备注字段时，使用此快捷键打开表情选择器。"
+   },
+   "emptyInBrackets": {
+      "message": "(空)"
+   },
+   "emptyOneTabInfoMsg": {
+      "message": "当您打开多个标签页时，点击浏览器工具栏中的 OneTab 图标，打开的标签页会显示在此处。"
+   },
+   "enabled": {
+      "message": "已启用"
+   },
+   "encryptedSyncAndBackup": {
+      "message": "加密同步与备份"
+   },
+   "encryptedSyncAndBackupComingSoonMessage": {
+      "message": "即将推出: 您将能够在多个浏览器配置文件和计算机之间同步您的 OneTab 数据。\nOneTab 已完全重写，因此您在一台设备上的更改会即时显示在所有其他设备上。\n如果您使用此功能，您的数据将使用高强度 AES-256 端到端加密。由于只有您拥有加密密钥，这使得 OneTab 开发者无法查看您在设备之间备份或同步的标签页。"
+   },
+   "everything": {
+      "message": "全部"
+   },
+   "exampleLink": {
+      "message": "示例链接"
+   },
+   "exampleLinkTitle": {
+      "message": "示例链接标题"
+   },
+   "exampleLinkTitleOptional": {
+      "message": "示例链接标题（可选）"
+   },
+   "exampleRichTextParagraph": {
+      "message": "示例段落，其中包含 PLACEHOLDER 和 PLACEHOLDER"
+   },
+   "exampleWebsitePageTitle": {
+      "message": "示例网站页面标题"
+   },
+   "excludeDomainFromOneTab": {
+      "message": "将 EXAMPLE.COM 排除在 OneTab 之外"
+   },
+   "excludeWebSiteFromOneTab": {
+      "message": "将此网站排除在 OneTab 之外"
+   },
+   "expiresColon": {
+      "message": "到期时间:"
+   },
+   "export": {
+      "message": "导出"
+   },
+   "exportImportUrls": {
+      "message": "导出/导入 URL"
+   },
+   "exportThenImportNote": {
+      "message": "以下 URL 列表也可在此计算机或其他计算机上的 OneTab 中导入"
+   },
+   "exportUrls": {
+      "message": "导出 URL"
+   },
+   "feedback": {
+      "message": "反馈"
+   },
+   "filter": {
+      "message": "筛选"
+   },
+   "firefoxIncognitoInstructions": {
+      "message": "在浏览器设置中，前往“设置”→“扩展和主题”→“扩展”→“OneTab”→“…”→“管理”，然后启用“在隐私窗口中运行”。"
+   },
+   "firefoxShortcutConfigInstructions": {
+      "message": "在浏览器地址栏输入 \"about:addons?type=extension\"。页面出现后，点击齿轮图标，然后选择“管理扩展的快捷键”"
+   },
+   "folderCount_few": {
+      "message": "{COUNT} 个文件夹"
+   },
+   "folderCount_many": {
+      "message": "{COUNT} 个文件夹"
+   },
+   "folderCount_one": {
+      "message": "{COUNT} 个文件夹"
+   },
+   "folderCount_other": {
+      "message": "{COUNT} 个文件夹"
+   },
+   "folderCount_two": {
+      "message": "{COUNT} 个文件夹"
+   },
+   "folderCount_zero": {
+      "message": "{COUNT} 个文件夹"
+   },
+   "folders": {
+      "message": "文件夹"
+   },
+   "foldersOnly": {
+      "message": "仅文件夹"
+   },
+   "gettingStarted": {
+      "message": "快速上手"
+   },
+   "goToParentFolder": {
+      "message": "转到父文件夹"
+   },
+   "groupCount_few": {
+      "message": "{COUNT} 个分组"
+   },
+   "groupCount_many": {
+      "message": "{COUNT} 个分组"
+   },
+   "groupCount_one": {
+      "message": "{COUNT} 个分组"
+   },
+   "groupCount_other": {
+      "message": "{COUNT} 个分组"
+   },
+   "groupCount_two": {
+      "message": "{COUNT} 个分组"
+   },
+   "groupCount_zero": {
+      "message": "{COUNT} 个分组"
+   },
+   "groups": {
+      "message": "分组"
+   },
+   "hasNotes": {
+      "message": "有备注"
+   },
+   "hasRating": {
+      "message": "有评分"
+   },
+   "help": {
+      "message": "帮助"
+   },
+   "hideArchivedItems": {
+      "message": "隐藏已归档项"
+   },
+   "import": {
+      "message": "导入"
+   },
+   "importAndExport": {
+      "message": "导入与导出"
+   },
+   "importBookmarks": {
+      "message": "导入书签"
+   },
+   "importFolderAndSubfolders": {
+      "message": "导入文件夹及子文件夹"
+   },
+   "importLinksHere": {
+      "message": "在此导入链接"
+   },
+   "importReadingList": {
+      "message": "导入阅读列表"
+   },
+   "importText": {
+      "message": "导入文本"
+   },
+   "importUrls": {
+      "message": "导入 URL"
+   },
+   "importedBookmarks": {
+      "message": "已导入的书签"
+   },
+   "includeGroupedTabs": {
+      "message": "包含标签页组内的标签页"
+   },
+   "includeNotes": {
+      "message": "包含备注"
+   },
+   "includePinnedTabs": {
+      "message": "包含固定的标签页"
+   },
+   "includeStarRatings": {
+      "message": "包含星级评分"
+   },
+   "includeTabsAlreadyStored": {
+      "message": "包含您已保存的标签页"
+   },
+   "includeTabsFromDomains": {
+      "message": "包含来自 EXAMPLE.COM 的标签页"
+   },
+   "incogitoPermissionRequired": {
+      "message": "OneTab 需要创建隐身窗口的权限。"
+   },
+   "incognitoWindows": {
+      "message": "无痕窗口"
+   },
+   "invertSelection": {
+      "message": "反选"
+   },
+   "justNow": {
+      "message": "刚刚"
+   },
+   "keyboardShortcutsColon": {
+      "message": "键盘快捷键:"
+   },
+   "languageTitle": {
+      "message": "语言:"
+   },
+   "lightTheme": {
+      "message": "浅色主题"
+   },
+   "localeId": {
+      "message": "zh_CN"
+   },
+   "locationColon": {
+      "message": "位置:"
+   },
+   "lock": {
+      "message": "锁定"
+   },
+   "lockMenuItemHelp": {
+      "message": "分组被锁定时，您不能在分组内删除或重新排序项目。打开已锁定分组时，不会应用自动操作。有关自动操作，请参见选项页面。"
+   },
+   "lockedGroupUnlockHelp": {
+      "message": "要解锁，请使用下拉菜单。分组被锁定时，您无法删除该分组或其中的标签页，也无法重新排序标签页。"
+   },
+   "makeThisATask": {
+      "message": "标记为任务"
+   },
+   "manifestDescription": {
+      "message": "最多节省 95% 内存，减少标签页杂乱"
+   },
+   "markAsArchived": {
+      "message": "标记为已归档"
+   },
+   "markAsArchivedMenuItemHelp": {
+      "message": "注意: 已归档的任务以及归档分组中的任务不会显示在任务列中"
+   },
+   "markAsDoneTask": {
+      "message": "标记为已完成任务"
+   },
+   "markAsPendingTask": {
+      "message": "标记为待处理任务"
+   },
+   "matchCount_few": {
+      "message": "{COUNT} 个匹配项"
+   },
+   "matchCount_many": {
+      "message": "{COUNT} 个匹配项"
+   },
+   "matchCount_one": {
+      "message": "{COUNT} 个匹配项"
+   },
+   "matchCount_other": {
+      "message": "{COUNT} 个匹配项"
+   },
+   "matchCount_two": {
+      "message": "{COUNT} 个匹配项"
+   },
+   "matchCount_zero": {
+      "message": "{COUNT} 个匹配项"
+   },
+   "matchWholeWordsOnly": {
+      "message": "仅匹配整词"
+   },
+   "mayNeedToRestartBrowser": {
+      "message": "您可能还需要更新并重启浏览器。"
+   },
+   "mergeIntoParent": {
+      "message": "合并到父级"
+   },
+   "mergeOpenTabsHere_few": {
+      "message": "将 {COUNT} 个打开的标签页合并到此处"
+   },
+   "mergeOpenTabsHere_many": {
+      "message": "将 {COUNT} 个打开的标签页合并到此处"
+   },
+   "mergeOpenTabsHere_one": {
+      "message": "将 {COUNT} 个打开的标签页合并到此处"
+   },
+   "mergeOpenTabsHere_other": {
+      "message": "将 {COUNT} 个打开的标签页合并到此处"
+   },
+   "mergeOpenTabsHere_two": {
+      "message": "将 {COUNT} 个打开的标签页合并到此处"
+   },
+   "mergeOpenTabsHere_zero": {
+      "message": "将 {COUNT} 个打开的标签页合并到此处"
+   },
+   "mergeSelectedTabsHere_few": {
+      "message": "将所选 {COUNT} 个标签页合并到此处"
+   },
+   "mergeSelectedTabsHere_many": {
+      "message": "将所选 {COUNT} 个标签页合并到此处"
+   },
+   "mergeSelectedTabsHere_one": {
+      "message": "将所选 {COUNT} 个标签页合并到此处"
+   },
+   "mergeSelectedTabsHere_other": {
+      "message": "将所选 {COUNT} 个标签页合并到此处"
+   },
+   "mergeSelectedTabsHere_two": {
+      "message": "将所选 {COUNT} 个标签页合并到此处"
+   },
+   "mergeSelectedTabsHere_zero": {
+      "message": "将所选 {COUNT} 个标签页合并到此处"
+   },
+   "mergeWithInnerGroups": {
+      "message": "与内部分组合并"
+   },
+   "modifySharing": {
+      "message": "修改共享"
+   },
+   "moreEllipsis": {
+      "message": "更多…"
+   },
+   "moreSearchFilters": {
+      "message": "更多搜索筛选"
+   },
+   "moreTripleDot": {
+      "message": "更多…"
+   },
+   "move": {
+      "message": "移动"
+   },
+   "moveToTrash": {
+      "message": "移至回收站"
+   },
+   "namedOnly": {
+      "message": "仅已命名项"
+   },
+   "navigationFilter": {
+      "message": "导航筛选"
+   },
+   "newExclamation": {
+      "message": "新!"
+   },
+   "noDupsExistExceptForColon": {
+      "message": "不存在重复项，以下除外:"
+   },
+   "noDupsFoundHere": {
+      "message": "此处未发现重复项"
+   },
+   "noMatches": {
+      "message": "无匹配项"
+   },
+   "noMatchesFound": {
+      "message": "未找到匹配项"
+   },
+   "noOpenTabsToStore": {
+      "message": "此窗口中没有可保存的打开标签页。"
+   },
+   "noReadingListEntries": {
+      "message": "未找到阅读列表条目"
+   },
+   "noTabsInOneTabYet": {
+      "message": "您在 OneTab 中还没有任何标签页"
+   },
+   "noTabsMeetCriteriaUseCheckboxes": {
+      "message": "没有打开的标签页符合您的条件。请使用上方的复选框。"
+   },
+   "noTextHasBeenEntered": {
+      "message": "未输入任何文本"
+   },
+   "nonArchived": {
+      "message": "未归档"
+   },
+   "notAssigned": {
+      "message": "未分配"
+   },
+   "notes": {
+      "message": "备注"
+   },
+   "notesAboutTheLinkOptional": {
+      "message": "关于该链接的备注（可选）"
+   },
+   "notesAboutTheSecondLinkOptional": {
+      "message": "关于第二个链接的备注（可选）"
+   },
+   "ok": {
+      "message": "确定"
+   },
+   "omniboxShortcutInfo": {
+      "message": "要在任意标签页中从地址栏搜索您的 OneTab 列表: 转到浏览器的地址栏，输入 1，然后空格，然后输入搜索关键字。"
+   },
+   "oneTabDesignedToProtectPrivacy": {
+      "message": "OneTab 专为保护您的隐私而设计。您的标签页不会透露给我们。"
+   },
+   "oneTabImportExportPageTitle": {
+      "message": "OneTab 导入/导出"
+   },
+   "oneTabNeedsPermissionToAccessYourTabs": {
+      "message": "OneTab 需要访问您的标签页的权限。"
+   },
+   "oneTabOptionsPageTitle": {
+      "message": "OneTab 选项"
+   },
+   "oneTabPermissionRequired": {
+      "message": "OneTab - 需要权限"
+   },
+   "oneTabRestartRequired": {
+      "message": "需要重启 OneTab。"
+   },
+   "oneTabSlashShortcutInfo": {
+      "message": "在 OneTab 页面中，按斜杠键可将焦点置于搜索框。"
+   },
+   "open": {
+      "message": "打开"
+   },
+   "openActionPopup": {
+      "message": "打开操作弹出窗口"
+   },
+   "openAsCollapsedTabGroup": {
+      "message": "以“折叠”的标签页组打开"
+   },
+   "openAsCollapsedTabGroupMenuItemHelp": {
+      "message": "如果将这些标签页作为折叠的“标签页组”打开，将只显示标签页组标题，直到您点击它以展开其中的标签页。"
+   },
+   "openAsTabGroup": {
+      "message": "以浏览器“标签页组”方式打开"
+   },
+   "openAsTabGroupMenuItemHelp": {
+      "message": "您的浏览器支持在窗口中使用带颜色的“标签页组”整理标签页。"
+   },
+   "openGroupsLimitNotice_few": {
+      "message": "为防止浏览器过载，只会打开前 {COUNT} 个分组。"
+   },
+   "openGroupsLimitNotice_many": {
+      "message": "为防止浏览器过载，只会打开前 {COUNT} 个分组。"
+   },
+   "openGroupsLimitNotice_one": {
+      "message": "为防止浏览器过载，只会打开前 {COUNT} 个分组。"
+   },
+   "openGroupsLimitNotice_other": {
+      "message": "为防止浏览器过载，只会打开前 {COUNT} 个分组。"
+   },
+   "openGroupsLimitNotice_two": {
+      "message": "为防止浏览器过载，只会打开前 {COUNT} 个分组。"
+   },
+   "openGroupsLimitNotice_zero": {
+      "message": "为防止浏览器过载，只会打开前 {COUNT} 个分组。"
+   },
+   "openInIncognitoWindow": {
+      "message": "在新的隐身窗口中打开"
+   },
+   "openInNewWindow": {
+      "message": "在新窗口中打开"
+   },
+   "openInThisWindow": {
+      "message": "在此窗口中打开"
+   },
+   "openONETABLogo": {
+      "message": "打开 ONETAB"
+   },
+   "openOneTab": {
+      "message": "打开 OneTab"
+   },
+   "openOneTabAfter": {
+      "message": "保存标签页后打开 OneTab"
+   },
+   "openTabFromWebsite": {
+      "message": "打开一个标签页并前往该网站"
+   },
+   "openTabLimit_few": {
+      "message": "为防止浏览器过载，最多可同时打开 {COUNT} 个标签页。"
+   },
+   "openTabLimit_many": {
+      "message": "为防止浏览器过载，最多可同时打开 {COUNT} 个标签页。"
+   },
+   "openTabLimit_one": {
+      "message": "为防止浏览器过载，最多可同时打开 {COUNT} 个标签页。"
+   },
+   "openTabLimit_other": {
+      "message": "为防止浏览器过载，最多可同时打开 {COUNT} 个标签页。"
+   },
+   "openTabLimit_two": {
+      "message": "为防止浏览器过载，最多可同时打开 {COUNT} 个标签页。"
+   },
+   "openTabLimit_zero": {
+      "message": "为防止浏览器过载，最多可同时打开 {COUNT} 个标签页。"
+   },
+   "openTabsAlreadyStoredHere_few": {
+      "message": "{COUNT} 个已在此处保存的打开标签页:"
+   },
+   "openTabsAlreadyStoredHere_many": {
+      "message": "{COUNT} 个已在此处保存的打开标签页:"
+   },
+   "openTabsAlreadyStoredHere_one": {
+      "message": "{COUNT} 个已在此处保存的打开标签页:"
+   },
+   "openTabsAlreadyStoredHere_other": {
+      "message": "{COUNT} 个已在此处保存的打开的标签页:"
+   },
+   "openTabsAlreadyStoredHere_two": {
+      "message": "{COUNT} 个已在此处保存的打开的标签页:"
+   },
+   "openTabsAlreadyStoredHere_zero": {
+      "message": "{COUNT} 个已在此处保存的打开的标签页:"
+   },
+   "openTabsConfirm_few": {
+      "message": "您将要打开 {COUNT} 个标签页。确定吗？"
+   },
+   "openTabsConfirm_many": {
+      "message": "您将要打开 {COUNT} 个标签页。确定吗？"
+   },
+   "openTabsConfirm_one": {
+      "message": "您将要打开 {COUNT} 个标签页。确定吗？"
+   },
+   "openTabsConfirm_other": {
+      "message": "您将要打开 {COUNT} 个标签页。确定吗？"
+   },
+   "openTabsConfirm_two": {
+      "message": "您将要打开 {COUNT} 个标签页。确定吗？"
+   },
+   "openTabsConfirm_zero": {
+      "message": "您将要打开 {COUNT} 个标签页。确定吗？"
+   },
+   "openTabsNotStoredInOneTab_few": {
+      "message": "{COUNT} 个未在 OneTab 中保存的打开的标签页"
+   },
+   "openTabsNotStoredInOneTab_many": {
+      "message": "{COUNT} 个未在 OneTab 中保存的打开标签页"
+   },
+   "openTabsNotStoredInOneTab_one": {
+      "message": "{COUNT} 个未在 OneTab 中保存的打开的标签页"
+   },
+   "openTabsNotStoredInOneTab_other": {
+      "message": "{COUNT} 个未在 OneTab 中保存的打开标签页"
+   },
+   "openTabsNotStoredInOneTab_two": {
+      "message": "{COUNT} 个未在 OneTab 中保存的打开的标签页"
+   },
+   "openTabsNotStoredInOneTab_zero": {
+      "message": "{COUNT} 个未在 OneTab 中保存的打开标签页"
+   },
+   "optionAutoActionOnGroupOpenArchiveDesc": {
+      "message": "如需阻止将该分组标记为已归档，点击打开分组时按住 Alt/Option 键"
+   },
+   "optionAutoActionOnGroupOpenArchiveTitle": {
+      "message": "打开这些标签页，并将分组标记为已归档"
+   },
+   "optionAutoActionOnGroupOpenHeading": {
+      "message": "点击打开一组标签页时的自动操作:"
+   },
+   "optionAutoActionOnGroupOpenNote": {
+      "message": "对已锁定或标记为任务的分组不应用自动操作。"
+   },
+   "optionAutoActionOnGroupOpenOpenDesc": {
+      "message": "要将该组标记为已归档，点击打开该组时按住 Alt/Option 键"
+   },
+   "optionAutoActionOnGroupOpenOpenTitle": {
+      "message": "仅打开这些标签页"
+   },
+   "optionAutoActionOnGroupOpenTrashDesc": {
+      "message": "如需阻止自动将分组移至回收站，点击打开分组时按住 Alt/Option 键"
+   },
+   "optionAutoActionOnGroupOpenTrashTitle": {
+      "message": "打开这些标签页，并将分组移至回收站"
+   },
+   "optionAutoActionOnTabOpenArchiveDesc": {
+      "message": "如需阻止自动将标签页标记为已归档，点击打开标签页时按住 Alt/Option 键"
+   },
+   "optionAutoActionOnTabOpenArchiveTitle": {
+      "message": "打开该标签页，并将其标记为已归档"
+   },
+   "optionAutoActionOnTabOpenHeading": {
+      "message": "点击打开标签页时的自动操作:"
+   },
+   "optionAutoActionOnTabOpenNote": {
+      "message": "位于已锁定或标记为任务的分组中的标签页不会应用自动操作。"
+   },
+   "optionAutoActionOnTabOpenOpenDesc": {
+      "message": "要将该标签页标记为已归档，点击打开标签页时按住 Alt/Option 键"
+   },
+   "optionAutoActionOnTabOpenOpenTitle": {
+      "message": "仅打开该标签页"
+   },
+   "optionAutoActionOnTabOpenTrashDesc": {
+      "message": "如需阻止自动将标签页移至回收站，点击打开标签页时按住 Alt/Option 键"
+   },
+   "optionAutoActionOnTabOpenTrashTitle": {
+      "message": "打开该标签页，并移至回收站"
+   },
+   "optionCopyToClipboardFormatHeading": {
+      "message": "复制链接到剪贴板:"
+   },
+   "optionCopyToClipboardFormatNote": {
+      "message": "此设置适用于使用“复制到剪贴板”操作时。您也可以将标签页和分组直接从 OneTab 拖入文档。"
+   },
+   "optionCopyToClipboardFormatRichTextDesc": {
+      "message": "文字处理器等应用支持粘贴富文本；不支持时将改为粘贴纯文本。"
+   },
+   "optionCopyToClipboardFormatRichTextTitle": {
+      "message": "支持时使用富文本"
+   },
+   "optionCopyToClipboardFormatTitleUrlTitle": {
+      "message": "标题与 URL"
+   },
+   "optionCopyToClipboardFormatUrlOnlyTitle": {
+      "message": "仅 URL"
+   },
+   "optionCopyToClipboardFormatUrlTitleTitle": {
+      "message": "URL 与标题"
+   },
+   "optionDefaultTabGroupOpenTypeCurrentWindow": {
+      "message": "在当前窗口中打开该标签页组"
+   },
+   "optionDefaultTabGroupOpenTypeHeading": {
+      "message": "点击打开已配置为以“标签页组”方式打开的一组标签页时："
+   },
+   "optionDefaultTabGroupOpenTypeNewWindow": {
+      "message": "在新窗口中打开该标签页组"
+   },
+   "optionDefaultTabGroupOpenTypeNote": {
+      "message": "如果通过下拉菜单选择了特定选项（例如在无痕窗口中打开标签页），该选项将被记住并用于该分组。"
+   },
+   "optionDefaultWindowGroupOpenTypeCurrentWindow": {
+      "message": "在当前窗口中打开这些标签页"
+   },
+   "optionDefaultWindowGroupOpenTypeHeading": {
+      "message": "点击打开一组标签页时:"
+   },
+   "optionDefaultWindowGroupOpenTypeNewWindow": {
+      "message": "在新窗口中打开这些标签页"
+   },
+   "optionDefaultWindowGroupOpenTypeNote": {
+      "message": "如果通过下拉菜单选择了特定选项（例如在无痕窗口中打开标签页），该选项将被记住并用于该分组。"
+   },
+   "optionDiscardNonActiveTabOnOpenHeading": {
+      "message": "在首次打开标签页时立即节省内存 (RAM):"
+   },
+   "optionDiscardNonActiveTabOnOpenNote": {
+      "message": "启用此设置后，从 OneTab 列表首次打开标签页时，会立即将其从内存中卸载。如果您经常一次性打开数十个标签页，这将很有用，因为在您访问它们之前，它们都不会被加载到内存中。若禁用此设置，许多浏览器仍可能在您未使用某些标签页时自动将其从内存中卸载。"
+   },
+   "optionDisplayContextMenuHeading": {
+      "message": "在网页中点击右键以访问 OneTab 上下文菜单:"
+   },
+   "optionDisplayContextMenuNote": {
+      "message": "如果禁用该菜单，将无法使用“将此网站排除在 OneTab 之外”功能"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenFalseTitle": {
+      "message": "切换到已打开 OneTab 的窗口"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenHeading": {
+      "message": "“打开 OneTab”操作:"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenNote": {
+      "message": "可通过键盘快捷键使用“打开 OneTab”操作。点击浏览器工具栏中的 OneTab 图标时出现的弹出窗口中也可使用该操作。"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenTrueTitle": {
+      "message": "将任何已存在的 OneTab 标签页移到当前窗口"
+   },
+   "optionStartupLaunchDisplay": {
+      "message": "每次启动浏览器时打开 OneTab"
+   },
+   "optionStartupLaunchNone": {
+      "message": "不要自动打开 OneTab"
+   },
+   "optionStartupLaunchNoneDesc3": {
+      "message": "要手动打开 OneTab，请点击浏览器工具栏中的 OneTab 图标，并选择“打开 OneTab”。或者，您也可以在任意网页中单击右键，在 OneTab 菜单中点击“打开 OneTab”。"
+   },
+   "optionStartupLaunchTitle": {
+      "message": "启动:"
+   },
+   "optionSwitchToOpenedTabFalseTitle": {
+      "message": "打开标签页并停留在 OneTab"
+   },
+   "optionSwitchToOpenedTabHeading": {
+      "message": "从 OneTab 页面打开标签页时:"
+   },
+   "optionSwitchToOpenedTabNote": {
+      "message": "点击时按住 Shift，将在新窗口中打开该标签页"
+   },
+   "optionSwitchToOpenedTabTrueTitle": {
+      "message": "打开标签页并切换过去（除非点击时按住 Command ⌘/Ctrl）"
+   },
+   "optionUrlAbbr": {
+      "message": "缩略"
+   },
+   "optionUrlDisplayTitle": {
+      "message": "URL 显示:"
+   },
+   "optionUrlDomain": {
+      "message": "仅域名"
+   },
+   "optionUrlFull": {
+      "message": "完整"
+   },
+   "optionUrlNone": {
+      "message": "无"
+   },
+   "options": {
+      "message": "选项"
+   },
+   "otherCopiesColon": {
+      "message": "其他副本:"
+   },
+   "pasteRichOrPlainTextBelow": {
+      "message": "您可以在下方粘贴富文本或纯文本。"
+   },
+   "pendingTaskCount_few": {
+      "message": "待处理 {COUNT}"
+   },
+   "pendingTaskCount_many": {
+      "message": "待处理 {COUNT}"
+   },
+   "pendingTaskCount_one": {
+      "message": "待处理 {COUNT}"
+   },
+   "pendingTaskCount_other": {
+      "message": "待处理 {COUNT}"
+   },
+   "pendingTaskCount_two": {
+      "message": "待处理 {COUNT}"
+   },
+   "pendingTaskCount_zero": {
+      "message": "待处理 {COUNT}"
+   },
+   "permissionRequiredPleaseTryAgain": {
+      "message": "要创建可从任意计算机访问的共享页面，需要与 OneTab Web 服务器协调的权限。请重试。"
+   },
+   "pinToTopOfFolder": {
+      "message": "固定到文件夹顶部"
+   },
+   "pinToTopOfList": {
+      "message": "固定到列表顶部"
+   },
+   "pinnedTabs": {
+      "message": "固定的标签页"
+   },
+   "placeholderAndOtherLocations_few": {
+      "message": "PLACEHOLDER，以及其他 {COUNT} 个"
+   },
+   "placeholderAndOtherLocations_many": {
+      "message": "PLACEHOLDER，以及其他 {COUNT} 个"
+   },
+   "placeholderAndOtherLocations_one": {
+      "message": "PLACEHOLDER，以及其他 {COUNT} 个"
+   },
+   "placeholderAndOtherLocations_other": {
+      "message": "PLACEHOLDER，以及其他 {COUNT} 个"
+   },
+   "placeholderAndOtherLocations_two": {
+      "message": "PLACEHOLDER，以及其他 {COUNT} 个"
+   },
+   "placeholderAndOtherLocations_zero": {
+      "message": "PLACEHOLDER，以及其他 {COUNT} 个"
+   },
+   "placeholderExplanation": {
+      "message": "由于浏览器的安全规则，OneTab 不允许直接还原此页面。请复制您的 URL 并将其粘贴到浏览器地址栏。"
+   },
+   "plainTextLineFormat": {
+      "message": "如果粘贴的是纯文本，请确保每个 URL 都包含协议（https://wikipedia.org，而不是仅 wikipedia.org）。每行应采用以下格式:"
+   },
+   "pleaseWaitTripleDot": {
+      "message": "请稍候…"
+   },
+   "popupSlashShortcutInfo": {
+      "message": "在 OneTab 操作弹出窗口（点击 OneTab 图标时出现）中，按斜杠键可打开目标选择器并将焦点置于搜索框。"
+   },
+   "privacyAssurance": {
+      "message": "隐私保障"
+   },
+   "privacyAssuranceDetail": {
+      "message": "您的标签页列表绝不会传输或披露给 OneTab 开发者或任何其他方。唯一的例外是您有意使用“共享为网页”功能，将标签页列表上传为网页以便与他人分享。"
+   },
+   "privacyFirst": {
+      "message": "隐私优先"
+   },
+   "privacyFirstMessage": {
+      "message": "OneTab 旨在保护您的私人数据。您的标签页仅存储在您的计算机上，绝不会与 OneTab 开发者或任何其他方共享。\n如果您使用我们的备份/同步功能，您的数据将使用高强度 AES-256 端到端加密。由于只有您拥有加密密钥，这使得 OneTab 开发者无法查看您在设备之间备份或同步的标签页。\n唯一的例外是您有意决定使用我们的“共享为网页”功能，与他人共享部分标签页。\n我们坚持隐私优先。"
+   },
+   "privateBrowsingPermissionRequired": {
+      "message": "OneTab 需要创建隐私浏览窗口的权限。"
+   },
+   "privateBrowsingWindows": {
+      "message": "隐私浏览窗口"
+   },
+   "quickList": {
+      "message": "快速列表"
+   },
+   "rating": {
+      "message": "评分"
+   },
+   "readingList": {
+      "message": "阅读列表"
+   },
+   "readingListPermissionNecesssary": {
+      "message": "需要阅读列表权限以允许 OneTab 从您的阅读列表中导入项目。若此功能不可用，可能是您的浏览器不支持阅读列表。"
+   },
+   "recent": {
+      "message": "最近"
+   },
+   "recentDestinationsColon": {
+      "message": "最近的目标位置:"
+   },
+   "recentDuplicateRetainedHelp": {
+      "message": "如果某个标签页出现多次，只会保留最近的重复项"
+   },
+   "recentlyAccessed": {
+      "message": "最近访问"
+   },
+   "recentlyCreated": {
+      "message": "最近创建"
+   },
+   "recentlyModified": {
+      "message": "最近修改"
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "message": "将内存占用降低 95%"
+   },
+   "removeDuplicateTabsHere_few": {
+      "message": "移除此处 {COUNT} 个重复的标签页"
+   },
+   "removeDuplicateTabsHere_many": {
+      "message": "移除此处 {COUNT} 个重复的标签页"
+   },
+   "removeDuplicateTabsHere_one": {
+      "message": "移除此处 {COUNT} 个重复的标签页"
+   },
+   "removeDuplicateTabsHere_other": {
+      "message": "移除此处 {COUNT} 个重复的标签页"
+   },
+   "removeDuplicateTabsHere_two": {
+      "message": "移除此处 {COUNT} 个重复的标签页"
+   },
+   "removeDuplicateTabsHere_zero": {
+      "message": "移除此处 {COUNT} 个重复的标签页"
+   },
+   "removeDuplicates": {
+      "message": "移除重复项"
+   },
+   "removeFromQuickList": {
+      "message": "从快速列表中移除"
+   },
+   "removeTabsElsewhereAlsoHere_few": {
+      "message": "移除其他位置 {COUNT} 个也存在于此处的标签页"
+   },
+   "removeTabsElsewhereAlsoHere_many": {
+      "message": "移除其他位置 {COUNT} 个也存在于此处的标签页"
+   },
+   "removeTabsElsewhereAlsoHere_one": {
+      "message": "移除其他位置 {COUNT} 个也存在于此处的标签页"
+   },
+   "removeTabsElsewhereAlsoHere_other": {
+      "message": "移除其他位置 {COUNT} 个也存在于此处的标签页"
+   },
+   "removeTabsElsewhereAlsoHere_two": {
+      "message": "移除其他位置 {COUNT} 个也存在于此处的标签页"
+   },
+   "removeTabsElsewhereAlsoHere_zero": {
+      "message": "移除其他位置 {COUNT} 个也存在于此处的标签页"
+   },
+   "removeTabsHereAlsoElsewhere_few": {
+      "message": "移除此处 {COUNT} 个在其他位置也存在的标签页"
+   },
+   "removeTabsHereAlsoElsewhere_many": {
+      "message": "移除此处 {COUNT} 个在其他位置也存在的标签页"
+   },
+   "removeTabsHereAlsoElsewhere_one": {
+      "message": "移除此处 {COUNT} 个在其他位置也存在的标签页"
+   },
+   "removeTabsHereAlsoElsewhere_other": {
+      "message": "移除此处 {COUNT} 个在其他位置也存在的标签页"
+   },
+   "removeTabsHereAlsoElsewhere_two": {
+      "message": "移除此处 {COUNT} 个在其他位置也存在的标签页"
+   },
+   "removeTabsHereAlsoElsewhere_zero": {
+      "message": "移除此处 {COUNT} 个在其他位置也存在的标签页"
+   },
+   "rename": {
+      "message": "重命名"
+   },
+   "restore": {
+      "message": "还原"
+   },
+   "restrictSearchToFolderColon": {
+      "message": "将搜索限定在以下文件夹:"
+   },
+   "results": {
+      "message": "结果"
+   },
+   "returnToOneTab": {
+      "message": "返回 OneTab"
+   },
+   "reverse": {
+      "message": "反转顺序"
+   },
+   "rightClickAndOpenOneTabMenu": {
+      "message": "在网页中右键单击，并进入 OneTab 菜单"
+   },
+   "rightClickMenuDisabledNote": {
+      "message": "注意: 您已禁用 OneTab 的右键菜单。请在 OneTab 的选项页中启用它。"
+   },
+   "rightClickSelectionOptionsTip": {
+      "message": "提示: 勾选项目后，右键单击勾选图标可查看更多选择选项"
+   },
+   "rightClickTickTip": {
+      "message": "提示: 在每个标签页旁的勾选图标上右键单击以使用选择工具"
+   },
+   "safariApproveOneTabInSettings": {
+      "message": "请前往设置，授予 OneTab 访问所有网站的权限。"
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "message": "在 Google Chrome 中最多节省 95% 内存，减少标签页杂乱"
+   },
+   "searchHere": {
+      "message": "在此搜索"
+   },
+   "searchOneTab": {
+      "message": "搜索 OneTab"
+   },
+   "secondExampleLink": {
+      "message": "第二个示例链接"
+   },
+   "secondExampleLinkTitle": {
+      "message": "第二个示例链接标题"
+   },
+   "secondExampleLinkTitleOptional": {
+      "message": "第二个示例链接标题（可选）"
+   },
+   "seeOtherTabsInThisGroup_few": {
+      "message": "查看此分组中的其他 {COUNT} 个标签页"
+   },
+   "seeOtherTabsInThisGroup_many": {
+      "message": "查看此分组中的其他 {COUNT} 个标签页"
+   },
+   "seeOtherTabsInThisGroup_one": {
+      "message": "查看此分组中的其他 {COUNT} 个标签页"
+   },
+   "seeOtherTabsInThisGroup_other": {
+      "message": "查看此分组中的其他 {COUNT} 个标签页"
+   },
+   "seeOtherTabsInThisGroup_two": {
+      "message": "查看此分组中的其他 {COUNT} 个标签页"
+   },
+   "seeOtherTabsInThisGroup_zero": {
+      "message": "查看此分组中的其他 {COUNT} 个标签页"
+   },
+   "seePasteInstructions": {
+      "message": "查看粘贴说明…"
+   },
+   "seeTabsInThisGroup_few": {
+      "message": "查看此分组中的 {COUNT} 个标签页"
+   },
+   "seeTabsInThisGroup_many": {
+      "message": "查看此分组中的 {COUNT} 个标签页"
+   },
+   "seeTabsInThisGroup_one": {
+      "message": "查看此分组中的 {COUNT} 个标签页"
+   },
+   "seeTabsInThisGroup_other": {
+      "message": "查看此分组中的 {COUNT} 个标签页"
+   },
+   "seeTabsInThisGroup_two": {
+      "message": "查看此分组中的 {COUNT} 个标签页"
+   },
+   "seeTabsInThisGroup_zero": {
+      "message": "查看此分组中的 {COUNT} 个标签页"
+   },
+   "selectAll": {
+      "message": "全选"
+   },
+   "selectAllExceptThis": {
+      "message": "全选（除此项外）"
+   },
+   "selectThisAndAbove": {
+      "message": "选择此项及其上方全部"
+   },
+   "selectThisAndBelow": {
+      "message": "选择此项及其下方全部"
+   },
+   "selectedItemCount_few": {
+      "message": "{COUNT} 项"
+   },
+   "selectedItemCount_many": {
+      "message": "{COUNT} 项"
+   },
+   "selectedItemCount_one": {
+      "message": "{COUNT} 项"
+   },
+   "selectedItemCount_other": {
+      "message": "{COUNT} 项"
+   },
+   "selectedItemCount_two": {
+      "message": "{COUNT} 项"
+   },
+   "selectedItemCount_zero": {
+      "message": "{COUNT} 项"
+   },
+   "selection": {
+      "message": "选中项"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "message": "将所有窗口中的所有标签页发送到 OneTab"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "message": "将除当前标签页外的所有标签页发送到 OneTab"
+   },
+   "sendAllTabsInGroupToOneTab": {
+      "message": "将此标签页组中的所有标签页发送到 OneTab"
+   },
+   "sendAllTabsInWindowToOneTab": {
+      "message": "将此窗口中的所有标签页发送到 OneTab"
+   },
+   "sendCurrentTabToOneTab": {
+      "message": "将当前标签页发送到 OneTab"
+   },
+   "sendLeftTabsToOneTab": {
+      "message": "将左侧的标签页发送到 OneTab"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "message": "仅将此标签页发送到 OneTab"
+   },
+   "sendRightTabsToOneTab": {
+      "message": "将右侧的标签页发送到 OneTab"
+   },
+   "sendSelectedTabsToOneTab": {
+      "message": "将所选标签页发送到 OneTab"
+   },
+   "sendThisWebLinkToOneTab": {
+      "message": "将此网页链接发送到 OneTab"
+   },
+   "serverUnreachable": {
+      "message": "无法连接到服务器。请检查您的网络连接。"
+   },
+   "share": {
+      "message": "共享"
+   },
+   "shareAsAWebPage": {
+      "message": "共享为网页"
+   },
+   "shared": {
+      "message": "已共享"
+   },
+   "sharedExpiresColon": {
+      "message": "已共享为网页。到期时间:"
+   },
+   "sharedPageOptions": {
+      "message": "共享页面选项"
+   },
+   "sharedPageTabLimit_few": {
+      "message": "共享页面最多可包含 {COUNT} 个标签页"
+   },
+   "sharedPageTabLimit_many": {
+      "message": "共享页面最多可包含 {COUNT} 个标签页"
+   },
+   "sharedPageTabLimit_one": {
+      "message": "共享页面最多可包含 {COUNT} 个标签页"
+   },
+   "sharedPageTabLimit_other": {
+      "message": "共享页面最多可包含 {COUNT} 个标签页"
+   },
+   "sharedPageTabLimit_two": {
+      "message": "共享页面最多可包含 {COUNT} 个标签页"
+   },
+   "sharedPageTabLimit_zero": {
+      "message": "共享页面最多可包含 {COUNT} 个标签页"
+   },
+   "sharedPageWillAutomaticallyExpire": {
+      "message": "共享页面会自动过期，但您可以随时延长期限。"
+   },
+   "shiftDragShortcutInfo": {
+      "message": "拖放标签页时，在放下时按住 Shift 键，可创建其副本而非移动。重要：请在开始拖动之后再按下 Shift 键。"
+   },
+   "showEverything": {
+      "message": "显示全部"
+   },
+   "showFoldersOnly": {
+      "message": "仅显示文件夹"
+   },
+   "showNamedItemsOnly": {
+      "message": "仅显示已命名项"
+   },
+   "showNamedOnly": {
+      "message": "仅显示已命名项"
+   },
+   "showNextCount_few": {
+      "message": "显示接下来的 {COUNT} 个"
+   },
+   "showNextCount_many": {
+      "message": "显示接下来的 {COUNT} 个"
+   },
+   "showNextCount_one": {
+      "message": "显示接下来的 {COUNT} 个"
+   },
+   "showNextCount_other": {
+      "message": "显示接下来的 {COUNT} 个"
+   },
+   "showNextCount_two": {
+      "message": "显示接下来的 {COUNT} 个"
+   },
+   "showNextCount_zero": {
+      "message": "显示接下来的 {COUNT} 个"
+   },
+   "showPreviousCount_few": {
+      "message": "显示之前的 {COUNT} 个"
+   },
+   "showPreviousCount_many": {
+      "message": "显示之前的 {COUNT} 个"
+   },
+   "showPreviousCount_one": {
+      "message": "显示之前的 {COUNT} 个"
+   },
+   "showPreviousCount_other": {
+      "message": "显示之前的 {COUNT} 个"
+   },
+   "showPreviousCount_two": {
+      "message": "显示之前的 {COUNT} 个"
+   },
+   "showPreviousCount_zero": {
+      "message": "显示之前的 {COUNT} 个"
+   },
+   "soon": {
+      "message": "即将"
+   },
+   "sort": {
+      "message": "排序"
+   },
+   "sortByColon": {
+      "message": "排序依据:"
+   },
+   "sortGroups": {
+      "message": "排序分组"
+   },
+   "sourceColon": {
+      "message": "来源:"
+   },
+   "starRatingTooltip": {
+      "message": "设置星级评分"
+   },
+   "storeSelectedTabsInONETAB_few": {
+      "message": "将所选 {COUNT} 个标签页保存到 ONETAB"
+   },
+   "storeSelectedTabsInONETAB_many": {
+      "message": "将所选 {COUNT} 个标签页保存到 ONETAB"
+   },
+   "storeSelectedTabsInONETAB_one": {
+      "message": "将所选 {COUNT} 个标签页保存到 ONETAB"
+   },
+   "storeSelectedTabsInONETAB_other": {
+      "message": "将所选 {COUNT} 个标签页保存到 ONETAB"
+   },
+   "storeSelectedTabsInONETAB_two": {
+      "message": "将所选 {COUNT} 个标签页保存到 ONETAB"
+   },
+   "storeSelectedTabsInONETAB_zero": {
+      "message": "将所选 {COUNT} 个标签页保存到 ONETAB"
+   },
+   "storeTabInAdditionalLocation": {
+      "message": "将此标签页另存到其他位置"
+   },
+   "storeTabInONETAB": {
+      "message": "将标签页保存到 ONETAB"
+   },
+   "storeTabsInAdditionalLocation": {
+      "message": "将这些标签页另存到其他位置"
+   },
+   "storeTabsInONETAB": {
+      "message": "将标签页保存到 ONETAB"
+   },
+   "subFoldersNotShared": {
+      "message": "注意：子文件夹不会被共享。仅共享文件夹内直接包含的组。"
+   },
+   "tab": {
+      "message": "标签页"
+   },
+   "tabAlreadyStoredHere": {
+      "message": "您当前打开的标签页已保存在此处:"
+   },
+   "tabCaretTooltipTitleNotes": {
+      "message": "编辑标签页的标题和备注"
+   },
+   "tabCaretTooltipTitleNotesUrl": {
+      "message": "编辑标签页的标题、URL 和备注"
+   },
+   "tabCount_few": {
+      "message": "{COUNT} 个标签页"
+   },
+   "tabCount_many": {
+      "message": "{COUNT} 个标签页"
+   },
+   "tabCount_one": {
+      "message": "{COUNT} 个标签页"
+   },
+   "tabCount_other": {
+      "message": "{COUNT} 个标签页"
+   },
+   "tabCount_two": {
+      "message": "{COUNT} 个标签页"
+   },
+   "tabCount_zero": {
+      "message": "{COUNT} 个标签页"
+   },
+   "tabGroupColorColon": {
+      "message": "标签页组颜色："
+   },
+   "tabShortcutInfo": {
+      "message": "在 OneTab 页面中，按 Tab 键可在中间列的分组之间移动焦点。这可让您快速略过各分组，尤其是在它们很大时。分组获得焦点时，按 Enter 键将其打开。使用 Shift+Tab 可向后移动焦点。"
+   },
+   "tabTotalCount_few": {
+      "message": "总计: {COUNT} 个标签页"
+   },
+   "tabTotalCount_many": {
+      "message": "总计: {COUNT} 个标签页"
+   },
+   "tabTotalCount_one": {
+      "message": "总计: {COUNT} 个标签页"
+   },
+   "tabTotalCount_other": {
+      "message": "总计: {COUNT} 个标签页"
+   },
+   "tabTotalCount_two": {
+      "message": "总计: {COUNT} 个标签页"
+   },
+   "tabTotalCount_zero": {
+      "message": "总计: {COUNT} 个标签页"
+   },
+   "tabs": {
+      "message": "标签页"
+   },
+   "tabsFromExcludedDomains": {
+      "message": "来自已排除域名的标签页"
+   },
+   "tabsInTabGroups": {
+      "message": "标签页组中的标签页"
+   },
+   "taskTotalCount_few": {
+      "message": "总计 {COUNT}"
+   },
+   "taskTotalCount_many": {
+      "message": "总计 {COUNT}"
+   },
+   "taskTotalCount_one": {
+      "message": "总计 {COUNT}"
+   },
+   "taskTotalCount_other": {
+      "message": "总计 {COUNT}"
+   },
+   "taskTotalCount_two": {
+      "message": "总计 {COUNT}"
+   },
+   "taskTotalCount_zero": {
+      "message": "总计 {COUNT}"
+   },
+   "tasks": {
+      "message": "任务"
+   },
+   "tasksDone": {
+      "message": "任务（已完成）"
+   },
+   "tasksPending": {
+      "message": "任务（待处理）"
+   },
+   "tasksWillAppearHere": {
+      "message": "将标签页或分组标记为任务后，它们会显示在此处。"
+   },
+   "thenClickToolbarIcon": {
+      "message": "然后，再次点击工具栏中的 OneTab 图标以使用 OneTab。"
+   },
+   "thisFolderIsEmpty": {
+      "message": "此文件夹为空"
+   },
+   "thisTab": {
+      "message": "当前标签页"
+   },
+   "thisTabGroup": {
+      "message": "此标签页组"
+   },
+   "thisTabNotStored": {
+      "message": "此标签页未保存在 OneTab 中"
+   },
+   "thisWindow": {
+      "message": "当前窗口"
+   },
+   "tickOrUntickToExclude": {
+      "message": "勾选或取消勾选以排除此网站"
+   },
+   "title": {
+      "message": "标题"
+   },
+   "toAddOrRemoveExclusions": {
+      "message": "要在排除列表中添加或移除网站:"
+   },
+   "toAllowOneTabInIncognito": {
+      "message": "要允许 OneTab 图标在无痕窗口中显示:"
+   },
+   "toImportBrowserBookmarksUseMenuOption": {
+      "message": "要从浏览器书签导入，请在您的 OneTab 页面使用“在此导入链接”菜单选项"
+   },
+   "toMakeOpenButtonWorkApprovePermission": {
+      "message": "要使共享页面上的“打开”按钮可用，请批准权限请求。"
+   },
+   "toSaveChangesClickButton": {
+      "message": "要保存更改，请点击该按钮"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "message": "标签页太多？将标签页转换为列表，加快 Firefox 的速度"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "message": "标签页太多？将标签页转换为列表，加快 Safari 的速度"
+   },
+   "total0Tabs": {
+      "message": "总计: 0 个标签页"
+   },
+   "trash": {
+      "message": "回收站"
+   },
+   "unMarkAsTask": {
+      "message": "取消任务标记"
+   },
+   "unPin": {
+      "message": "取消固定"
+   },
+   "unlock": {
+      "message": "解锁"
+   },
+   "unmarkAsArchived": {
+      "message": "取消归档标记"
+   },
+   "unshare": {
+      "message": "取消共享"
+   },
+   "untitled": {
+      "message": "未命名"
+   },
+   "update": {
+      "message": "更新"
+   },
+   "userLanguage": {
+      "message": "中文（简体）"
+   },
+   "website": {
+      "message": "网站"
+   },
+   "yearCount_few": {
+      "message": "{COUNT} 年"
+   },
+   "yearCount_many": {
+      "message": "{COUNT} 年"
+   },
+   "yearCount_one": {
+      "message": "{COUNT} 年"
+   },
+   "yearCount_other": {
+      "message": "{COUNT} 年"
+   },
+   "yearCount_two": {
+      "message": "{COUNT} 年"
+   },
+   "yearCount_zero": {
+      "message": "{COUNT} 年"
+   },
+   "yourTabAlreadyStoredHere": {
+      "message": "您的标签页已保存在此处:"
+   }
+}

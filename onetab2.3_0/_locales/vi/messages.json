@@ -1,0 +1,1715 @@
+{
+   "95PctMemoryReduction": {
+      "message": "Giảm 95% bộ nhớ"
+   },
+   "Folder": {
+      "message": "Thư mục"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "message": "OneTab cũng có trên Firefox"
+   },
+   "aDashZ": {
+      "message": "A-Z"
+   },
+   "about": {
+      "message": "Giới thiệu"
+   },
+   "addOneTabNow": {
+      "message": "Thêm OneTab ngay"
+   },
+   "all": {
+      "message": "Tất cả"
+   },
+   "allBookmarks": {
+      "message": "Tất cả dấu trang"
+   },
+   "allOpenTabsAlreadyStoredHere": {
+      "message": "Tất cả thẻ đang mở đã được lưu tại đây:"
+   },
+   "allowFileAccessInstructions": {
+      "message": "Để cho phép mở tệp trực tiếp, vào Cài đặt ➝ Tiện ích mở rộng ➝ OneTab ➝ Chi tiết ➝ Cho phép truy cập vào URL tệp"
+   },
+   "alreadyExistingOpenTabsWillBeClosedAfterMerge": {
+      "message": "Tất cả thẻ đang mở đã tồn tại trong nhóm này sẽ được đóng sau khi gộp."
+   },
+   "alternatePlainTextFormat": {
+      "message": "Hoặc văn bản thuần có thể theo định dạng:"
+   },
+   "approve": {
+      "message": "Chấp thuận"
+   },
+   "archived": {
+      "message": "Đã lưu trữ"
+   },
+   "autoTheme": {
+      "message": "Tự động (theo cài đặt hệ điều hành)"
+   },
+   "backupAndSync": {
+      "message": "Sao lưu & Đồng bộ"
+   },
+   "betaReleaseReportBugsHere": {
+      "message": "Bản beta - Báo lỗi tại đây"
+   },
+   "bookmarkCount_few": {
+      "message": "{COUNT} dấu trang"
+   },
+   "bookmarkCount_many": {
+      "message": "{COUNT} dấu trang"
+   },
+   "bookmarkCount_one": {
+      "message": "{COUNT} dấu trang"
+   },
+   "bookmarkCount_other": {
+      "message": "{COUNT} dấu trang"
+   },
+   "bookmarkCount_two": {
+      "message": "{COUNT} dấu trang"
+   },
+   "bookmarkCount_zero": {
+      "message": "{COUNT} dấu trang"
+   },
+   "bookmarksPermissionNecesssary": {
+      "message": "Quyền dấu trang là cần thiết để OneTab có thể nhập dấu trang trình duyệt của bạn"
+   },
+   "bulkActions": {
+      "message": "Thao tác hàng loạt"
+   },
+   "canDragTextNote": {
+      "message": "Lưu ý: Bạn cũng có thể kéo thả văn bản chứa liên kết web trực tiếp từ trang web khác hoặc từ tài liệu. Bạn có thể kéo văn bản trực tiếp vào trang OneTab của mình, không cần dùng ô nhập này."
+   },
+   "canPasteWebContentForExample": {
+      "message": "Bạn có thể dán văn bản sao chép từ trang web hoặc tài liệu, và các liên kết sẽ được tự động trích xuất. Ví dụ:"
+   },
+   "cancel": {
+      "message": "Hủy"
+   },
+   "cannotConnectToServerDeletionRequestQueued": {
+      "message": "Không thể kết nối tới máy chủ OneTab. Vui lòng kiểm tra kết nối internet của bạn. Yêu cầu xóa trang chia sẻ của bạn đã được xếp hàng cục bộ và sẽ tự động truyền tới máy chủ OneTab ngay khi có thể kết nối lại."
+   },
+   "cannotCreateTabGroupInTabGroup": {
+      "message": "Điểm đến bạn chọn là một nhóm thẻ. Bạn không thể tạo một nhóm thẻ bên trong một nhóm thẻ hiện có. Vui lòng chọn điểm đến khác."
+   },
+   "cannotMixTabsGroupsFoldersDuringDrag": {
+      "message": "Không thể trộn thẻ, nhóm và thư mục khi kéo. Điều này là vì, ví dụ, bạn không thể kéo một thư mục vào cùng những nơi có thể kéo một thẻ."
+   },
+   "caseSensitive": {
+      "message": "Phân biệt hoa thường"
+   },
+   "changesMadeSinceSharedPageCreation": {
+      "message": "Đã có thay đổi kể từ khi bạn tạo trang chia sẻ. Nhấp nút 'Cập nhật' để cập nhật trang chia sẻ hiện có."
+   },
+   "checkboxesDeterminePinnedAndGroupedTabMergeInclusion": {
+      "message": "Các hộp kiểm ở đầu trang này quyết định có bao gồm các thẻ đã ghim hoặc các thẻ trong nhóm thẻ khi gộp hay không."
+   },
+   "chooseALocation": {
+      "message": "Chọn vị trí"
+   },
+   "chooseALocationToImportTo": {
+      "message": "Chọn vị trí để nhập vào"
+   },
+   "chooseExportLocation": {
+      "message": "Chọn vị trí để xuất từ"
+   },
+   "chooseLightDarkTheme": {
+      "message": "Chọn chủ đề sáng/tối"
+   },
+   "chooseLocationToCopyTo": {
+      "message": "Chọn vị trí để sao chép đến"
+   },
+   "chooseLocationToMoveTo": {
+      "message": "Chọn vị trí để di chuyển đến"
+   },
+   "chooseLocationToRestoreTo": {
+      "message": "Chọn vị trí để khôi phục đến"
+   },
+   "chooseToIncludeNotes": {
+      "message": "Nếu bạn đã thêm ghi chú cho thẻ hoặc nhóm, hãy chọn có đưa chúng vào trang chia sẻ hay không"
+   },
+   "chooseToIncludeRatings": {
+      "message": "Nếu bạn đã thêm đánh giá sao cho thẻ hoặc nhóm, hãy chọn có đưa chúng vào trang chia sẻ hay không"
+   },
+   "chromeIncognitoInstructions": {
+      "message": "Trong cài đặt trình duyệt, vào 'Cài đặt' → 'Tiện ích' → 'OneTab' → 'Chi tiết', rồi bật 'Cho phép ở chế độ ẩn danh'."
+   },
+   "clickButtonToAllowTabAccess": {
+      "message": "Nhấp nút bên dưới để cho phép OneTab truy cập các thẻ đang mở của bạn."
+   },
+   "clickHereToContinue": {
+      "message": "Nhấp vào đây để tiếp tục."
+   },
+   "clickOneTabIconToStoreTabsHere": {
+      "message": "Nhấp biểu tượng OneTab trên thanh công cụ trình duyệt để lưu các thẻ đang mở vào đây."
+   },
+   "closeSelectedTabsAndStoreInONETAB_few": {
+      "message": "Đóng {COUNT} thẻ đã chọn và lưu vào ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_many": {
+      "message": "Đóng {COUNT} thẻ đã chọn và lưu vào ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_one": {
+      "message": "Đóng {COUNT} thẻ đã chọn và lưu vào ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_other": {
+      "message": "Đóng {COUNT} thẻ đã chọn và lưu vào ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_two": {
+      "message": "Đóng {COUNT} thẻ đã chọn và lưu vào ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_zero": {
+      "message": "Đóng {COUNT} thẻ đã chọn và lưu vào ONETAB"
+   },
+   "closeSelectedTabs_few": {
+      "message": "Đóng {COUNT} thẻ đã chọn"
+   },
+   "closeSelectedTabs_many": {
+      "message": "Đóng {COUNT} thẻ đã chọn"
+   },
+   "closeSelectedTabs_one": {
+      "message": "Đóng {COUNT} thẻ đã chọn"
+   },
+   "closeSelectedTabs_other": {
+      "message": "Đóng {COUNT} thẻ đã chọn"
+   },
+   "closeSelectedTabs_two": {
+      "message": "Đóng {COUNT} thẻ đã chọn"
+   },
+   "closeSelectedTabs_zero": {
+      "message": "Đóng {COUNT} thẻ đã chọn"
+   },
+   "closeTab": {
+      "message": "Đóng thẻ"
+   },
+   "closeTabAndStore": {
+      "message": "Đóng thẻ và lưu vào ONETAB"
+   },
+   "closeTabs": {
+      "message": "Đóng các thẻ"
+   },
+   "closeTabsAfterMerge": {
+      "message": "Đóng thẻ sau khi gộp"
+   },
+   "closeTabsAlreadyStoredInOneTab_few": {
+      "message": "Đóng {COUNT} thẻ đã được lưu trong OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_many": {
+      "message": "Đóng {COUNT} thẻ đã được lưu trong OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_one": {
+      "message": "Đóng {COUNT} thẻ đã được lưu trong OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_other": {
+      "message": "Đóng {COUNT} thẻ đã được lưu trong OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_two": {
+      "message": "Đóng {COUNT} thẻ đã được lưu trong OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_zero": {
+      "message": "Đóng {COUNT} thẻ đã được lưu trong OneTab"
+   },
+   "closeTabsAndStore": {
+      "message": "Đóng các thẻ và lưu vào ONETAB"
+   },
+   "closeTheseDuplicates": {
+      "message": "Đóng các thẻ trùng này"
+   },
+   "closeThisDuplicate": {
+      "message": "Đóng thẻ trùng này"
+   },
+   "completeEditingShortcutInfo": {
+      "message": "Khi chỉnh sửa trường ghi chú, dùng phím tắt này để hoàn tất chỉnh sửa."
+   },
+   "configureShortcuts": {
+      "message": "Cấu hình phím tắt"
+   },
+   "conflictingShortcutsHint": {
+      "message": "Nếu bất kỳ phím tắt nào ở trên không hoạt động hoặc xung đột với ứng dụng khác, bạn có thể cấu hình phím tắt khác."
+   },
+   "continue": {
+      "message": "Tiếp tục"
+   },
+   "convertTabsIntoAList": {
+      "message": "Chuyển các thẻ thành danh sách"
+   },
+   "copiedToClipboard": {
+      "message": "Đã sao chép vào bảng tạm"
+   },
+   "copy": {
+      "message": "Sao chép"
+   },
+   "copyLinksToClipboard": {
+      "message": "Sao chép liên kết vào bảng tạm"
+   },
+   "copySharedPageUrl": {
+      "message": "Sao chép URL trang đã chia sẻ"
+   },
+   "copyToClipboard": {
+      "message": "Sao chép vào bảng tạm"
+   },
+   "createANewGroupHere": {
+      "message": "Tạo nhóm mới tại đây"
+   },
+   "createFolderAbove": {
+      "message": "Tạo thư mục ở trên"
+   },
+   "createFolderAboveBelow": {
+      "message": "Tạo thư mục ở trên / bên dưới"
+   },
+   "createFolderAboveWithinBelow": {
+      "message": "Tạo thư mục ở trên / bên trong / bên dưới"
+   },
+   "createFolderBelow": {
+      "message": "Tạo thư mục ở bên dưới"
+   },
+   "createFolderWithin": {
+      "message": "Tạo thư mục bên trong"
+   },
+   "createGroupAbove": {
+      "message": "Tạo nhóm ở trên"
+   },
+   "createGroupAboveBelow": {
+      "message": "Tạo nhóm ở trên / bên dưới"
+   },
+   "createGroupAboveWithinBelow": {
+      "message": "Tạo nhóm ở trên / bên trong / bên dưới"
+   },
+   "createGroupBelow": {
+      "message": "Tạo nhóm ở bên dưới"
+   },
+   "createGroupInsideDestination": {
+      "message": "Tạo nhóm mới trong điểm đến"
+   },
+   "createGroupInsideDestinationHelp": {
+      "message": "Nếu bỏ chọn, các thẻ của bạn sẽ được thêm trực tiếp vào nhóm đích. Nếu chọn, sẽ tạo một nhóm thẻ của trình duyệt mới cho các thẻ của bạn bên trong nhóm đích. Chỉ chọn ô này nếu bạn muốn dùng tính năng \"nhóm thẻ\" của trình duyệt."
+   },
+   "createGroupWithin": {
+      "message": "Tạo nhóm bên trong"
+   },
+   "createNewGroupTip": {
+      "message": "Để tạo nhóm mới, hãy bỏ chọn \"Chỉ hiển thị thư mục\""
+   },
+   "createdOnOrAfterColon": {
+      "message": "Được tạo vào hoặc sau:"
+   },
+   "createdOnOrBeforeColon": {
+      "message": "Được tạo vào hoặc trước:"
+   },
+   "createdPreceedingDate": {
+      "message": "Đã tạo"
+   },
+   "darkTheme": {
+      "message": "Chủ đề tối"
+   },
+   "dayCount_few": {
+      "message": "{COUNT} ngày"
+   },
+   "dayCount_many": {
+      "message": "{COUNT} ngày"
+   },
+   "dayCount_one": {
+      "message": "{COUNT} ngày"
+   },
+   "dayCount_other": {
+      "message": "{COUNT} ngày"
+   },
+   "dayCount_two": {
+      "message": "{COUNT} ngày"
+   },
+   "dayCount_zero": {
+      "message": "{COUNT} ngày"
+   },
+   "delete": {
+      "message": "Xóa"
+   },
+   "deleteAllTrash": {
+      "message": "Xóa sạch thùng rác"
+   },
+   "deleteThisCopy": {
+      "message": "Xóa bản sao này"
+   },
+   "deselectAll": {
+      "message": "Bỏ chọn tất cả"
+   },
+   "destinationColon": {
+      "message": "Điểm đến:"
+   },
+   "disabled": {
+      "message": "Đã tắt"
+   },
+   "doneTaskCount_few": {
+      "message": "{COUNT} đã xong"
+   },
+   "doneTaskCount_many": {
+      "message": "{COUNT} đã xong"
+   },
+   "doneTaskCount_one": {
+      "message": "{COUNT} đã xong"
+   },
+   "doneTaskCount_other": {
+      "message": "{COUNT} đã xong"
+   },
+   "doneTaskCount_two": {
+      "message": "{COUNT} đã xong"
+   },
+   "doneTaskCount_zero": {
+      "message": "{COUNT} đã xong"
+   },
+   "dontCloseGroupedTabs": {
+      "message": "Không đóng thẻ nào trong nhóm thẻ"
+   },
+   "dontClosePinnedTabs": {
+      "message": "Không đóng bất kỳ thẻ đã ghim nào"
+   },
+   "dontCloseTabsFromDomains": {
+      "message": "Không đóng thẻ nào từ EXAMPLE.COM"
+   },
+   "dragTabsHereForQuickList": {
+      "message": "Kéo các thẻ hoặc nhóm đã lưu vào đây. Chúng sẽ được thêm vào danh sách nhanh."
+   },
+   "editTabGroupTitleAndNotes": {
+      "message": "Sửa tiêu đề và ghi chú của nhóm thẻ"
+   },
+   "emojiShortcutInfo": {
+      "message": "Khi chỉnh sửa trường ghi chú, dùng phím tắt này để mở bộ chọn emoji."
+   },
+   "emptyInBrackets": {
+      "message": "(trống)"
+   },
+   "emptyOneTabInfoMsg": {
+      "message": "Khi bạn mở nhiều thẻ, hãy nhấp biểu tượng OneTab trên thanh công cụ trình duyệt và các thẻ đang mở sẽ xuất hiện ở đây."
+   },
+   "enabled": {
+      "message": "Đã bật"
+   },
+   "encryptedSyncAndBackup": {
+      "message": "Đồng bộ và sao lưu được mã hóa"
+   },
+   "encryptedSyncAndBackupComingSoonMessage": {
+      "message": "Sắp có: Bạn sẽ có thể đồng bộ dữ liệu OneTab của mình giữa nhiều hồ sơ trình duyệt và máy tính.\nOneTab đã được viết lại hoàn toàn để các thay đổi trên một thiết bị sẽ xuất hiện ngay lập tức trên mọi thiết bị khác.\nNếu bạn dùng tính năng này, dữ liệu của bạn sẽ được mã hóa đầu cuối bằng AES-256 mạnh. Điều này khiến nhà phát triển OneTab không thể xem các thẻ bạn đã sao lưu hoặc đồng bộ giữa các thiết bị, vì chỉ mình bạn có khóa mã hóa."
+   },
+   "everything": {
+      "message": "Tất cả"
+   },
+   "exampleLink": {
+      "message": "Liên kết ví dụ"
+   },
+   "exampleLinkTitle": {
+      "message": "Tiêu đề liên kết ví dụ"
+   },
+   "exampleLinkTitleOptional": {
+      "message": "Tiêu đề liên kết ví dụ (tùy chọn)"
+   },
+   "exampleRichTextParagraph": {
+      "message": "Đoạn văn bản ví dụ có PLACEHOLDER và PLACEHOLDER"
+   },
+   "exampleWebsitePageTitle": {
+      "message": "Tiêu đề trang web ví dụ"
+   },
+   "excludeDomainFromOneTab": {
+      "message": "Loại trừ EXAMPLE.COM khỏi OneTab"
+   },
+   "excludeWebSiteFromOneTab": {
+      "message": "Loại trừ trang web này khỏi OneTab"
+   },
+   "expiresColon": {
+      "message": "Hết hạn:"
+   },
+   "export": {
+      "message": "Xuất"
+   },
+   "exportImportUrls": {
+      "message": "Xuất / Nhập URL"
+   },
+   "exportThenImportNote": {
+      "message": "Danh sách URL sau đây cũng có thể được nhập lại vào OneTab trên máy tính này hoặc máy khác"
+   },
+   "exportUrls": {
+      "message": "Xuất URL"
+   },
+   "feedback": {
+      "message": "Phản hồi"
+   },
+   "filter": {
+      "message": "Bộ lọc"
+   },
+   "firefoxIncognitoInstructions": {
+      "message": "Trong cài đặt trình duyệt, vào 'Cài đặt' → 'Tiện ích mở rộng và chủ đề' → 'Tiện ích mở rộng' → 'OneTab' → '...' → 'Quản lý', sau đó bật 'Chạy trong Cửa sổ riêng tư'."
+   },
+   "firefoxShortcutConfigInstructions": {
+      "message": "Nhập URL \"about:addons?type=extension\" vào thanh địa chỉ của trình duyệt. Khi trang xuất hiện, nhấp biểu tượng bánh răng, rồi chọn \"Quản lý phím tắt tiện ích mở rộng\""
+   },
+   "folderCount_few": {
+      "message": "{COUNT} thư mục"
+   },
+   "folderCount_many": {
+      "message": "{COUNT} thư mục"
+   },
+   "folderCount_one": {
+      "message": "{COUNT} thư mục"
+   },
+   "folderCount_other": {
+      "message": "{COUNT} thư mục"
+   },
+   "folderCount_two": {
+      "message": "{COUNT} thư mục"
+   },
+   "folderCount_zero": {
+      "message": "{COUNT} thư mục"
+   },
+   "folders": {
+      "message": "Thư mục"
+   },
+   "foldersOnly": {
+      "message": "Chỉ thư mục"
+   },
+   "gettingStarted": {
+      "message": "Bắt đầu"
+   },
+   "goToParentFolder": {
+      "message": "Đi tới thư mục cha"
+   },
+   "groupCount_few": {
+      "message": "{COUNT} nhóm"
+   },
+   "groupCount_many": {
+      "message": "{COUNT} nhóm"
+   },
+   "groupCount_one": {
+      "message": "{COUNT} nhóm"
+   },
+   "groupCount_other": {
+      "message": "{COUNT} nhóm"
+   },
+   "groupCount_two": {
+      "message": "{COUNT} nhóm"
+   },
+   "groupCount_zero": {
+      "message": "{COUNT} nhóm"
+   },
+   "groups": {
+      "message": "Nhóm"
+   },
+   "hasNotes": {
+      "message": "Có ghi chú"
+   },
+   "hasRating": {
+      "message": "Có đánh giá"
+   },
+   "help": {
+      "message": "Trợ giúp"
+   },
+   "hideArchivedItems": {
+      "message": "Ẩn mục đã lưu trữ"
+   },
+   "import": {
+      "message": "Nhập"
+   },
+   "importAndExport": {
+      "message": "Nhập & Xuất"
+   },
+   "importBookmarks": {
+      "message": "Nhập dấu trang"
+   },
+   "importFolderAndSubfolders": {
+      "message": "Nhập thư mục và các thư mục con"
+   },
+   "importLinksHere": {
+      "message": "Nhập liên kết vào đây"
+   },
+   "importReadingList": {
+      "message": "Nhập danh sách đọc"
+   },
+   "importText": {
+      "message": "Nhập văn bản"
+   },
+   "importUrls": {
+      "message": "Nhập URL"
+   },
+   "importedBookmarks": {
+      "message": "Dấu trang đã nhập"
+   },
+   "includeGroupedTabs": {
+      "message": "Bao gồm thẻ trong nhóm thẻ"
+   },
+   "includeNotes": {
+      "message": "Bao gồm ghi chú"
+   },
+   "includePinnedTabs": {
+      "message": "Bao gồm các thẻ đã ghim"
+   },
+   "includeStarRatings": {
+      "message": "Bao gồm đánh giá sao"
+   },
+   "includeTabsAlreadyStored": {
+      "message": "Bao gồm cả các thẻ bạn đã lưu"
+   },
+   "includeTabsFromDomains": {
+      "message": "Bao gồm thẻ từ EXAMPLE.COM"
+   },
+   "incogitoPermissionRequired": {
+      "message": "OneTab cần quyền để tạo cửa sổ ẩn danh."
+   },
+   "incognitoWindows": {
+      "message": "Cửa sổ ẩn danh"
+   },
+   "invertSelection": {
+      "message": "Đảo lựa chọn"
+   },
+   "justNow": {
+      "message": "vừa xong"
+   },
+   "keyboardShortcutsColon": {
+      "message": "Phím tắt:"
+   },
+   "languageTitle": {
+      "message": "Ngôn ngữ:"
+   },
+   "lightTheme": {
+      "message": "Chủ đề sáng"
+   },
+   "localeId": {
+      "message": "vi"
+   },
+   "locationColon": {
+      "message": "Vị trí:"
+   },
+   "lock": {
+      "message": "Khóa"
+   },
+   "lockMenuItemHelp": {
+      "message": "Khi một nhóm bị khóa, bạn không thể xóa hoặc sắp xếp lại các mục trong nhóm. Khi mở một nhóm bị khóa, các hành động tự động sẽ không áp dụng. Xem trang Tùy chọn để biết thông tin về hành động tự động."
+   },
+   "lockedGroupUnlockHelp": {
+      "message": "Để mở khóa, hãy dùng menu thả xuống. Khi một nhóm bị khóa, bạn không thể xóa nhóm hoặc các thẻ trong đó, và không thể sắp xếp lại thẻ."
+   },
+   "makeThisATask": {
+      "message": "Đánh dấu là tác vụ"
+   },
+   "manifestDescription": {
+      "message": "Tiết kiệm tới 95% bộ nhớ và giảm lộn xộn thẻ"
+   },
+   "markAsArchived": {
+      "message": "Đánh dấu là đã lưu trữ"
+   },
+   "markAsArchivedMenuItemHelp": {
+      "message": "Lưu ý: các tác vụ đã lưu trữ và tác vụ trong các nhóm đã lưu trữ sẽ không xuất hiện trong cột tác vụ"
+   },
+   "markAsDoneTask": {
+      "message": "Đánh dấu là tác vụ đã xong"
+   },
+   "markAsPendingTask": {
+      "message": "Đánh dấu là tác vụ đang chờ"
+   },
+   "matchCount_few": {
+      "message": "{COUNT} kết quả khớp"
+   },
+   "matchCount_many": {
+      "message": "{COUNT} kết quả khớp"
+   },
+   "matchCount_one": {
+      "message": "{COUNT} kết quả khớp"
+   },
+   "matchCount_other": {
+      "message": "{COUNT} kết quả khớp"
+   },
+   "matchCount_two": {
+      "message": "{COUNT} kết quả khớp"
+   },
+   "matchCount_zero": {
+      "message": "{COUNT} kết quả khớp"
+   },
+   "matchWholeWordsOnly": {
+      "message": "Chỉ khớp cả từ"
+   },
+   "mayNeedToRestartBrowser": {
+      "message": "Bạn cũng có thể cần cập nhật và khởi động lại trình duyệt."
+   },
+   "mergeIntoParent": {
+      "message": "Gộp vào mục cha"
+   },
+   "mergeOpenTabsHere_few": {
+      "message": "Gộp {COUNT} thẻ đang mở vào đây"
+   },
+   "mergeOpenTabsHere_many": {
+      "message": "Gộp {COUNT} thẻ đang mở vào đây"
+   },
+   "mergeOpenTabsHere_one": {
+      "message": "Gộp {COUNT} thẻ đang mở vào đây"
+   },
+   "mergeOpenTabsHere_other": {
+      "message": "Gộp {COUNT} thẻ đang mở vào đây"
+   },
+   "mergeOpenTabsHere_two": {
+      "message": "Gộp {COUNT} thẻ đang mở vào đây"
+   },
+   "mergeOpenTabsHere_zero": {
+      "message": "Gộp {COUNT} thẻ đang mở vào đây"
+   },
+   "mergeSelectedTabsHere_few": {
+      "message": "Gộp {COUNT} thẻ đã chọn vào đây"
+   },
+   "mergeSelectedTabsHere_many": {
+      "message": "Gộp {COUNT} thẻ đã chọn vào đây"
+   },
+   "mergeSelectedTabsHere_one": {
+      "message": "Gộp {COUNT} thẻ đã chọn vào đây"
+   },
+   "mergeSelectedTabsHere_other": {
+      "message": "Gộp {COUNT} thẻ đã chọn vào đây"
+   },
+   "mergeSelectedTabsHere_two": {
+      "message": "Gộp {COUNT} thẻ đã chọn vào đây"
+   },
+   "mergeSelectedTabsHere_zero": {
+      "message": "Gộp {COUNT} thẻ đã chọn vào đây"
+   },
+   "mergeWithInnerGroups": {
+      "message": "Gộp với các nhóm bên trong"
+   },
+   "modifySharing": {
+      "message": "Chỉnh sửa chia sẻ"
+   },
+   "moreEllipsis": {
+      "message": "Thêm…"
+   },
+   "moreSearchFilters": {
+      "message": "Thêm bộ lọc tìm kiếm"
+   },
+   "moreTripleDot": {
+      "message": "Thêm…"
+   },
+   "move": {
+      "message": "Di chuyển"
+   },
+   "moveToTrash": {
+      "message": "Chuyển vào thùng rác"
+   },
+   "namedOnly": {
+      "message": "Chỉ mục có tên"
+   },
+   "navigationFilter": {
+      "message": "Bộ lọc điều hướng"
+   },
+   "newExclamation": {
+      "message": "Mới!"
+   },
+   "noDupsExistExceptForColon": {
+      "message": "Không có trùng lặp nào, ngoại trừ:"
+   },
+   "noDupsFoundHere": {
+      "message": "Không tìm thấy trùng lặp tại đây"
+   },
+   "noMatches": {
+      "message": "Không có kết quả khớp"
+   },
+   "noMatchesFound": {
+      "message": "Không tìm thấy kết quả khớp"
+   },
+   "noOpenTabsToStore": {
+      "message": "Không có thẻ nào đang mở trong cửa sổ này để lưu."
+   },
+   "noReadingListEntries": {
+      "message": "Không tìm thấy mục nào trong danh sách đọc"
+   },
+   "noTabsInOneTabYet": {
+      "message": "Bạn chưa có thẻ nào trong OneTab"
+   },
+   "noTabsMeetCriteriaUseCheckboxes": {
+      "message": "Không có thẻ đang mở nào đáp ứng tiêu chí của bạn. Vui lòng dùng các hộp kiểm ở trên."
+   },
+   "noTextHasBeenEntered": {
+      "message": "Chưa nhập nội dung nào"
+   },
+   "nonArchived": {
+      "message": "Chưa lưu trữ"
+   },
+   "notAssigned": {
+      "message": "Chưa gán"
+   },
+   "notes": {
+      "message": "Ghi chú"
+   },
+   "notesAboutTheLinkOptional": {
+      "message": "Ghi chú về liên kết (tùy chọn)"
+   },
+   "notesAboutTheSecondLinkOptional": {
+      "message": "Ghi chú về liên kết thứ hai (tùy chọn)"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "omniboxShortcutInfo": {
+      "message": "Để tìm trong danh sách OneTab từ bất kỳ thẻ nào: Vào thanh địa chỉ trình duyệt, gõ 1, rồi khoảng trắng, rồi từ khóa tìm kiếm."
+   },
+   "oneTabDesignedToProtectPrivacy": {
+      "message": "OneTab được thiết kế để bảo vệ quyền riêng tư của bạn. Thẻ của bạn không được tiết lộ cho chúng tôi."
+   },
+   "oneTabImportExportPageTitle": {
+      "message": "Nhập/xuất OneTab"
+   },
+   "oneTabNeedsPermissionToAccessYourTabs": {
+      "message": "OneTab cần quyền truy cập vào các thẻ của bạn."
+   },
+   "oneTabOptionsPageTitle": {
+      "message": "Tùy chọn OneTab"
+   },
+   "oneTabPermissionRequired": {
+      "message": "OneTab - Cần cấp quyền"
+   },
+   "oneTabRestartRequired": {
+      "message": "Cần khởi động lại OneTab."
+   },
+   "oneTabSlashShortcutInfo": {
+      "message": "Khi ở trong trang OneTab, nhấn phím dấu gạch chéo để chuyển tiêu điểm vào ô tìm kiếm."
+   },
+   "open": {
+      "message": "Mở"
+   },
+   "openActionPopup": {
+      "message": "Mở cửa sổ bật lên của OneTab"
+   },
+   "openAsCollapsedTabGroup": {
+      "message": "Mở dưới dạng nhóm thẻ \"thu gọn\""
+   },
+   "openAsCollapsedTabGroupMenuItemHelp": {
+      "message": "Nếu bạn mở các thẻ này dưới dạng \"nhóm thẻ\" đã thu gọn, chỉ nhãn nhóm sẽ được hiển thị cho đến khi bạn nhấp để hiện các thẻ bên trong."
+   },
+   "openAsTabGroup": {
+      "message": "Mở dưới dạng một nhóm thẻ của trình duyệt"
+   },
+   "openAsTabGroupMenuItemHelp": {
+      "message": "Trình duyệt của bạn cho phép nhóm các thẻ thành các \"nhóm thẻ\" có màu trong một cửa sổ."
+   },
+   "openGroupsLimitNotice_few": {
+      "message": "Để tránh trình duyệt của bạn bị quá tải, chỉ {COUNT} nhóm đầu tiên sẽ được mở."
+   },
+   "openGroupsLimitNotice_many": {
+      "message": "Để tránh trình duyệt của bạn bị quá tải, chỉ {COUNT} nhóm đầu tiên sẽ được mở."
+   },
+   "openGroupsLimitNotice_one": {
+      "message": "Để tránh trình duyệt của bạn bị quá tải, chỉ {COUNT} nhóm đầu tiên sẽ được mở."
+   },
+   "openGroupsLimitNotice_other": {
+      "message": "Để tránh trình duyệt của bạn bị quá tải, chỉ {COUNT} nhóm đầu tiên sẽ được mở."
+   },
+   "openGroupsLimitNotice_two": {
+      "message": "Để tránh trình duyệt của bạn bị quá tải, chỉ {COUNT} nhóm đầu tiên sẽ được mở."
+   },
+   "openGroupsLimitNotice_zero": {
+      "message": "Để tránh trình duyệt của bạn bị quá tải, chỉ {COUNT} nhóm đầu tiên sẽ được mở."
+   },
+   "openInIncognitoWindow": {
+      "message": "Mở trong cửa sổ ẩn danh mới"
+   },
+   "openInNewWindow": {
+      "message": "Mở trong cửa sổ mới"
+   },
+   "openInThisWindow": {
+      "message": "Mở trong cửa sổ này"
+   },
+   "openONETABLogo": {
+      "message": "Mở ONETAB"
+   },
+   "openOneTab": {
+      "message": "Mở OneTab"
+   },
+   "openOneTabAfter": {
+      "message": "Mở OneTab sau khi lưu thẻ"
+   },
+   "openTabFromWebsite": {
+      "message": "Mở một thẻ và truy cập trang web đó"
+   },
+   "openTabLimit_few": {
+      "message": "Để tránh trình duyệt của bạn bị quá tải, tối đa {COUNT} thẻ có thể được mở cùng lúc."
+   },
+   "openTabLimit_many": {
+      "message": "Để tránh trình duyệt của bạn bị quá tải, tối đa {COUNT} thẻ có thể được mở cùng lúc."
+   },
+   "openTabLimit_one": {
+      "message": "Để tránh trình duyệt của bạn bị quá tải, tối đa {COUNT} thẻ có thể được mở cùng lúc."
+   },
+   "openTabLimit_other": {
+      "message": "Để tránh trình duyệt của bạn bị quá tải, tối đa {COUNT} thẻ có thể được mở cùng lúc."
+   },
+   "openTabLimit_two": {
+      "message": "Để tránh trình duyệt của bạn bị quá tải, tối đa {COUNT} thẻ có thể được mở cùng lúc."
+   },
+   "openTabLimit_zero": {
+      "message": "Để tránh trình duyệt của bạn bị quá tải, tối đa {COUNT} thẻ có thể được mở cùng lúc."
+   },
+   "openTabsAlreadyStoredHere_few": {
+      "message": "{COUNT} thẻ đang mở đã được lưu tại đây:"
+   },
+   "openTabsAlreadyStoredHere_many": {
+      "message": "{COUNT} thẻ đang mở đã được lưu tại đây:"
+   },
+   "openTabsAlreadyStoredHere_one": {
+      "message": "{COUNT} thẻ đang mở đã được lưu tại đây:"
+   },
+   "openTabsAlreadyStoredHere_other": {
+      "message": "{COUNT} thẻ đang mở đã được lưu tại đây:"
+   },
+   "openTabsAlreadyStoredHere_two": {
+      "message": "{COUNT} thẻ đang mở đã được lưu tại đây:"
+   },
+   "openTabsAlreadyStoredHere_zero": {
+      "message": "{COUNT} thẻ đang mở đã được lưu tại đây:"
+   },
+   "openTabsConfirm_few": {
+      "message": "Bạn sắp mở {COUNT} thẻ. Bạn có chắc không?"
+   },
+   "openTabsConfirm_many": {
+      "message": "Bạn sắp mở {COUNT} thẻ. Bạn có chắc không?"
+   },
+   "openTabsConfirm_one": {
+      "message": "Bạn sắp mở {COUNT} thẻ. Bạn có chắc không?"
+   },
+   "openTabsConfirm_other": {
+      "message": "Bạn sắp mở {COUNT} thẻ. Bạn có chắc không?"
+   },
+   "openTabsConfirm_two": {
+      "message": "Bạn sắp mở {COUNT} thẻ. Bạn có chắc không?"
+   },
+   "openTabsConfirm_zero": {
+      "message": "Bạn sắp mở {COUNT} thẻ. Bạn có chắc không?"
+   },
+   "openTabsNotStoredInOneTab_few": {
+      "message": "{COUNT} thẻ đang mở chưa được lưu trong OneTab"
+   },
+   "openTabsNotStoredInOneTab_many": {
+      "message": "{COUNT} thẻ đang mở chưa được lưu trong OneTab"
+   },
+   "openTabsNotStoredInOneTab_one": {
+      "message": "{COUNT} thẻ đang mở chưa được lưu trong OneTab"
+   },
+   "openTabsNotStoredInOneTab_other": {
+      "message": "{COUNT} thẻ đang mở chưa được lưu trong OneTab"
+   },
+   "openTabsNotStoredInOneTab_two": {
+      "message": "{COUNT} thẻ đang mở chưa được lưu trong OneTab"
+   },
+   "openTabsNotStoredInOneTab_zero": {
+      "message": "{COUNT} thẻ đang mở chưa được lưu trong OneTab"
+   },
+   "optionAutoActionOnGroupOpenArchiveDesc": {
+      "message": "Để không đánh dấu nhóm là đã lưu trữ, giữ phím Alt/Option khi nhấp để mở nhóm"
+   },
+   "optionAutoActionOnGroupOpenArchiveTitle": {
+      "message": "Mở các thẻ và đánh dấu nhóm là đã lưu trữ"
+   },
+   "optionAutoActionOnGroupOpenHeading": {
+      "message": "Hành động tự động khi nhấp để mở một nhóm thẻ:"
+   },
+   "optionAutoActionOnGroupOpenNote": {
+      "message": "Các hành động tự động sẽ không áp dụng cho những nhóm đã khóa hoặc là tác vụ."
+   },
+   "optionAutoActionOnGroupOpenOpenDesc": {
+      "message": "Để đánh dấu nhóm là đã lưu trữ, giữ phím Alt/Option khi nhấp để mở nhóm"
+   },
+   "optionAutoActionOnGroupOpenOpenTitle": {
+      "message": "Chỉ mở các thẻ"
+   },
+   "optionAutoActionOnGroupOpenTrashDesc": {
+      "message": "Để không tự động chuyển nhóm vào thùng rác, giữ phím Alt/Option khi nhấp để mở nhóm"
+   },
+   "optionAutoActionOnGroupOpenTrashTitle": {
+      "message": "Mở các thẻ và chuyển nhóm vào thùng rác"
+   },
+   "optionAutoActionOnTabOpenArchiveDesc": {
+      "message": "Để không tự động đánh dấu thẻ là đã lưu trữ, giữ phím Alt/Option khi nhấp để mở thẻ"
+   },
+   "optionAutoActionOnTabOpenArchiveTitle": {
+      "message": "Mở thẻ và đánh dấu là đã lưu trữ"
+   },
+   "optionAutoActionOnTabOpenHeading": {
+      "message": "Hành động tự động khi nhấp để mở một thẻ:"
+   },
+   "optionAutoActionOnTabOpenNote": {
+      "message": "Các hành động tự động sẽ không áp dụng cho những thẻ trong nhóm đã khóa hoặc là tác vụ."
+   },
+   "optionAutoActionOnTabOpenOpenDesc": {
+      "message": "Để đánh dấu thẻ là đã lưu trữ, giữ phím Alt/Option khi nhấp để mở thẻ"
+   },
+   "optionAutoActionOnTabOpenOpenTitle": {
+      "message": "Chỉ mở thẻ"
+   },
+   "optionAutoActionOnTabOpenTrashDesc": {
+      "message": "Để không tự động chuyển thẻ vào thùng rác, giữ phím Alt/Option khi nhấp để mở thẻ"
+   },
+   "optionAutoActionOnTabOpenTrashTitle": {
+      "message": "Mở thẻ và chuyển vào thùng rác"
+   },
+   "optionCopyToClipboardFormatHeading": {
+      "message": "Sao chép liên kết vào bảng tạm:"
+   },
+   "optionCopyToClipboardFormatNote": {
+      "message": "Thiết lập này áp dụng khi bạn dùng hành động 'Sao chép vào bảng tạm'. Bạn cũng có thể kéo thả thẻ và nhóm trực tiếp từ OneTab vào tài liệu."
+   },
+   "optionCopyToClipboardFormatRichTextDesc": {
+      "message": "Các ứng dụng như trình xử lý văn bản sẽ cho phép bạn dán văn bản có định dạng. Nếu không hỗ trợ, sẽ dán văn bản thuần."
+   },
+   "optionCopyToClipboardFormatRichTextTitle": {
+      "message": "Văn bản có định dạng, nếu có"
+   },
+   "optionCopyToClipboardFormatTitleUrlTitle": {
+      "message": "Tiêu đề và URL"
+   },
+   "optionCopyToClipboardFormatUrlOnlyTitle": {
+      "message": "Chỉ URL"
+   },
+   "optionCopyToClipboardFormatUrlTitleTitle": {
+      "message": "URL và tiêu đề"
+   },
+   "optionDefaultTabGroupOpenTypeCurrentWindow": {
+      "message": "Mở nhóm thẻ của trình duyệt trong cửa sổ hiện tại"
+   },
+   "optionDefaultTabGroupOpenTypeHeading": {
+      "message": "Khi nhấp để mở một nhóm thẻ được cấu hình để mở dưới dạng \"nhóm thẻ\" của trình duyệt:"
+   },
+   "optionDefaultTabGroupOpenTypeNewWindow": {
+      "message": "Mở nhóm thẻ của trình duyệt trong cửa sổ mới"
+   },
+   "optionDefaultTabGroupOpenTypeNote": {
+      "message": "Nếu bạn dùng danh sách thả xuống để chọn một tùy chọn (như mở thẻ trong cửa sổ ẩn danh), tùy chọn đó sẽ được ghi nhớ cho nhóm đó."
+   },
+   "optionDefaultWindowGroupOpenTypeCurrentWindow": {
+      "message": "Mở các thẻ trong cửa sổ hiện tại"
+   },
+   "optionDefaultWindowGroupOpenTypeHeading": {
+      "message": "Khi nhấp để mở một nhóm thẻ:"
+   },
+   "optionDefaultWindowGroupOpenTypeNewWindow": {
+      "message": "Mở các thẻ trong cửa sổ mới"
+   },
+   "optionDefaultWindowGroupOpenTypeNote": {
+      "message": "Nếu bạn dùng danh sách thả xuống để chọn một tùy chọn (như mở thẻ trong cửa sổ ẩn danh), tùy chọn đó sẽ được ghi nhớ cho nhóm đó."
+   },
+   "optionDiscardNonActiveTabOnOpenHeading": {
+      "message": "Tiết kiệm bộ nhớ (RAM) ngay khi mở thẻ:"
+   },
+   "optionDiscardNonActiveTabOnOpenNote": {
+      "message": "Nếu bật thiết lập này, các thẻ sẽ được dỡ khỏi bộ nhớ ngay khi bạn mở chúng từ danh sách OneTab. Điều này hữu ích nếu bạn thường mở hàng chục thẻ cùng lúc, vì chúng sẽ không được tải vào bộ nhớ cho đến khi bạn truy cập. Nếu tắt thiết lập này, nhiều trình duyệt vẫn có thể tự động dỡ thẻ khỏi bộ nhớ khi bạn không dùng."
+   },
+   "optionDisplayContextMenuHeading": {
+      "message": "Nhấp chuột phải trong trang web để mở menu ngữ cảnh của OneTab:"
+   },
+   "optionDisplayContextMenuNote": {
+      "message": "Nếu bạn tắt menu, bạn sẽ không thể truy cập tính năng \"Loại trừ trang web khỏi OneTab\""
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenFalseTitle": {
+      "message": "Chuyển sang cửa sổ có thẻ OneTab đang mở"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenHeading": {
+      "message": "Hành động \"Mở OneTab\":"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenNote": {
+      "message": "Bạn có thể truy cập hành động \"Mở OneTab\" bằng phím tắt. Bạn cũng có thể truy cập hành động này trong cửa sổ bật lên xuất hiện khi bạn nhấp biểu tượng OneTab trên thanh công cụ trình duyệt."
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenTrueTitle": {
+      "message": "Di chuyển mọi thẻ OneTab hiện có sang cửa sổ hiện tại"
+   },
+   "optionStartupLaunchDisplay": {
+      "message": "Mở OneTab mỗi khi bạn khởi động trình duyệt"
+   },
+   "optionStartupLaunchNone": {
+      "message": "Không tự động mở OneTab"
+   },
+   "optionStartupLaunchNoneDesc3": {
+      "message": "Để mở OneTab thủ công, nhấp vào biểu tượng OneTab trên thanh công cụ trình duyệt và chọn 'Mở OneTab'. Ngoài ra, bạn có thể nhấp chuột phải trong bất kỳ trang web nào và nhấp 'Mở OneTab' trong menu OneTab."
+   },
+   "optionStartupLaunchTitle": {
+      "message": "Khởi động:"
+   },
+   "optionSwitchToOpenedTabFalseTitle": {
+      "message": "Mở thẻ và vẫn ở trong OneTab"
+   },
+   "optionSwitchToOpenedTabHeading": {
+      "message": "Khi mở thẻ từ trang OneTab:"
+   },
+   "optionSwitchToOpenedTabNote": {
+      "message": "Nếu bạn giữ Shift khi nhấp, thẻ sẽ mở trong cửa sổ mới"
+   },
+   "optionSwitchToOpenedTabTrueTitle": {
+      "message": "Mở thẻ và chuyển sang thẻ đó (trừ khi bạn giữ Command ⌘/Ctrl khi nhấp)"
+   },
+   "optionUrlAbbr": {
+      "message": "Rút gọn"
+   },
+   "optionUrlDisplayTitle": {
+      "message": "Hiển thị URL:"
+   },
+   "optionUrlDomain": {
+      "message": "Chỉ tên miền"
+   },
+   "optionUrlFull": {
+      "message": "Đầy đủ"
+   },
+   "optionUrlNone": {
+      "message": "Không"
+   },
+   "options": {
+      "message": "Tùy chọn"
+   },
+   "otherCopiesColon": {
+      "message": "Các bản sao khác:"
+   },
+   "pasteRichOrPlainTextBelow": {
+      "message": "Bạn có thể dán văn bản có định dạng hoặc văn bản thuần bên dưới."
+   },
+   "pendingTaskCount_few": {
+      "message": "{COUNT} đang chờ"
+   },
+   "pendingTaskCount_many": {
+      "message": "{COUNT} đang chờ"
+   },
+   "pendingTaskCount_one": {
+      "message": "{COUNT} đang chờ"
+   },
+   "pendingTaskCount_other": {
+      "message": "{COUNT} đang chờ"
+   },
+   "pendingTaskCount_two": {
+      "message": "{COUNT} đang chờ"
+   },
+   "pendingTaskCount_zero": {
+      "message": "{COUNT} đang chờ"
+   },
+   "permissionRequiredPleaseTryAgain": {
+      "message": "Để tạo một trang chia sẻ có thể truy cập từ bất kỳ máy tính nào, cần quyền để phối hợp với máy chủ web OneTab. Vui lòng thử lại."
+   },
+   "pinToTopOfFolder": {
+      "message": "Ghim lên đầu thư mục"
+   },
+   "pinToTopOfList": {
+      "message": "Ghim lên đầu danh sách"
+   },
+   "pinnedTabs": {
+      "message": "thẻ đã ghim"
+   },
+   "placeholderAndOtherLocations_few": {
+      "message": "PLACEHOLDER, cùng {COUNT} nơi khác"
+   },
+   "placeholderAndOtherLocations_many": {
+      "message": "PLACEHOLDER, cùng {COUNT} nơi khác"
+   },
+   "placeholderAndOtherLocations_one": {
+      "message": "PLACEHOLDER, cùng {COUNT} nơi khác"
+   },
+   "placeholderAndOtherLocations_other": {
+      "message": "PLACEHOLDER, cùng {COUNT} nơi khác"
+   },
+   "placeholderAndOtherLocations_two": {
+      "message": "PLACEHOLDER, cùng {COUNT} nơi khác"
+   },
+   "placeholderAndOtherLocations_zero": {
+      "message": "PLACEHOLDER, cùng {COUNT} nơi khác"
+   },
+   "placeholderExplanation": {
+      "message": "Do quy tắc bảo mật của trình duyệt, OneTab không được phép khôi phục trực tiếp trang này. Vui lòng sao chép URL và dán vào thanh địa chỉ của trình duyệt."
+   },
+   "plainTextLineFormat": {
+      "message": "Nếu bạn dán văn bản thuần, hãy đảm bảo mỗi URL có giao thức (https://wikipedia.org thay vì chỉ wikipedia.org). Mỗi dòng nên theo định dạng sau:"
+   },
+   "pleaseWaitTripleDot": {
+      "message": "Vui lòng chờ…"
+   },
+   "popupSlashShortcutInfo": {
+      "message": "Khi ở trong cửa sổ bật lên của OneTab (xuất hiện khi bạn nhấp biểu tượng OneTab), nhấn phím dấu gạch chéo để mở bộ chọn đích và chuyển tiêu điểm vào ô tìm kiếm."
+   },
+   "privacyAssurance": {
+      "message": "Đảm bảo quyền riêng tư"
+   },
+   "privacyAssuranceDetail": {
+      "message": "Danh sách thẻ của bạn sẽ không bao giờ được truyền đi hoặc tiết lộ cho nhà phát triển OneTab hay bất kỳ bên nào khác. Ngoại lệ duy nhất là khi bạn cố ý dùng tính năng 'chia sẻ dưới dạng trang web' để tải danh sách thẻ của mình lên một trang web nhằm chia sẻ với người khác."
+   },
+   "privacyFirst": {
+      "message": "Quyền riêng tư trên hết"
+   },
+   "privacyFirstMessage": {
+      "message": "OneTab được thiết kế để bảo vệ dữ liệu riêng tư của bạn. Thẻ của bạn chỉ được lưu trên máy tính của bạn và không bao giờ được chia sẻ với nhà phát triển OneTab hay bất kỳ bên nào khác.\nNếu bạn dùng tính năng sao lưu/đồng bộ, dữ liệu của bạn sẽ được mã hóa đầu cuối bằng AES-256 mạnh. Điều này khiến nhà phát triển OneTab không thể xem các thẻ bạn đã sao lưu hoặc đồng bộ giữa các thiết bị, vì chỉ mình bạn có khóa mã hóa.\nNgoại lệ duy nhất là khi bạn cố ý dùng tính năng \"Chia sẻ thành trang web\" để chia sẻ một số thẻ của bạn với người khác.\nChúng tôi tin vào nguyên tắc Quyền riêng tư trên hết."
+   },
+   "privateBrowsingPermissionRequired": {
+      "message": "OneTab cần quyền để tạo cửa sổ riêng tư."
+   },
+   "privateBrowsingWindows": {
+      "message": "Cửa sổ riêng tư"
+   },
+   "quickList": {
+      "message": "Danh sách nhanh"
+   },
+   "rating": {
+      "message": "Xếp hạng"
+   },
+   "readingList": {
+      "message": "Danh sách đọc"
+   },
+   "readingListPermissionNecesssary": {
+      "message": "Quyền danh sách đọc là cần thiết để OneTab có thể nhập các mục từ danh sách đọc của bạn. Nếu tính năng này không hoạt động, có thể trình duyệt của bạn không hỗ trợ danh sách đọc."
+   },
+   "recent": {
+      "message": "Gần đây"
+   },
+   "recentDestinationsColon": {
+      "message": "Điểm đến gần đây:"
+   },
+   "recentDuplicateRetainedHelp": {
+      "message": "Nếu một thẻ xuất hiện nhiều hơn một lần, chỉ bản trùng mới nhất sẽ được giữ lại"
+   },
+   "recentlyAccessed": {
+      "message": "Truy cập gần đây"
+   },
+   "recentlyCreated": {
+      "message": "Tạo gần đây"
+   },
+   "recentlyModified": {
+      "message": "Sửa đổi gần đây"
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "message": "Giảm mức dùng bộ nhớ 95%"
+   },
+   "removeDuplicateTabsHere_few": {
+      "message": "Xóa {COUNT} thẻ trùng lặp tại đây"
+   },
+   "removeDuplicateTabsHere_many": {
+      "message": "Xóa {COUNT} thẻ trùng lặp tại đây"
+   },
+   "removeDuplicateTabsHere_one": {
+      "message": "Xóa {COUNT} thẻ trùng lặp tại đây"
+   },
+   "removeDuplicateTabsHere_other": {
+      "message": "Xóa {COUNT} thẻ trùng lặp tại đây"
+   },
+   "removeDuplicateTabsHere_two": {
+      "message": "Xóa {COUNT} thẻ trùng lặp tại đây"
+   },
+   "removeDuplicateTabsHere_zero": {
+      "message": "Xóa {COUNT} thẻ trùng lặp tại đây"
+   },
+   "removeDuplicates": {
+      "message": "Xóa trùng lặp"
+   },
+   "removeFromQuickList": {
+      "message": "Xóa khỏi danh sách nhanh"
+   },
+   "removeTabsElsewhereAlsoHere_few": {
+      "message": "Xóa {COUNT} thẻ ở nơi khác cũng tồn tại tại đây"
+   },
+   "removeTabsElsewhereAlsoHere_many": {
+      "message": "Xóa {COUNT} thẻ ở nơi khác cũng tồn tại tại đây"
+   },
+   "removeTabsElsewhereAlsoHere_one": {
+      "message": "Xóa {COUNT} thẻ ở nơi khác cũng tồn tại tại đây"
+   },
+   "removeTabsElsewhereAlsoHere_other": {
+      "message": "Xóa {COUNT} thẻ ở nơi khác cũng tồn tại tại đây"
+   },
+   "removeTabsElsewhereAlsoHere_two": {
+      "message": "Xóa {COUNT} thẻ ở nơi khác cũng tồn tại tại đây"
+   },
+   "removeTabsElsewhereAlsoHere_zero": {
+      "message": "Xóa {COUNT} thẻ ở nơi khác cũng tồn tại tại đây"
+   },
+   "removeTabsHereAlsoElsewhere_few": {
+      "message": "Xóa {COUNT} thẻ tại đây cũng tồn tại ở nơi khác"
+   },
+   "removeTabsHereAlsoElsewhere_many": {
+      "message": "Xóa {COUNT} thẻ tại đây cũng tồn tại ở nơi khác"
+   },
+   "removeTabsHereAlsoElsewhere_one": {
+      "message": "Xóa {COUNT} thẻ tại đây cũng tồn tại ở nơi khác"
+   },
+   "removeTabsHereAlsoElsewhere_other": {
+      "message": "Xóa {COUNT} thẻ tại đây cũng tồn tại ở nơi khác"
+   },
+   "removeTabsHereAlsoElsewhere_two": {
+      "message": "Xóa {COUNT} thẻ tại đây cũng tồn tại ở nơi khác"
+   },
+   "removeTabsHereAlsoElsewhere_zero": {
+      "message": "Xóa {COUNT} thẻ tại đây cũng tồn tại ở nơi khác"
+   },
+   "rename": {
+      "message": "Đổi tên"
+   },
+   "restore": {
+      "message": "Khôi phục"
+   },
+   "restrictSearchToFolderColon": {
+      "message": "Giới hạn tìm kiếm trong thư mục sau:"
+   },
+   "results": {
+      "message": "Kết quả"
+   },
+   "returnToOneTab": {
+      "message": "Quay lại OneTab"
+   },
+   "reverse": {
+      "message": "Đảo thứ tự"
+   },
+   "rightClickAndOpenOneTabMenu": {
+      "message": "Nhấp chuột phải trong trang web và mở menu OneTab"
+   },
+   "rightClickMenuDisabledNote": {
+      "message": "Lưu ý: Bạn đã tắt menu chuột phải của OneTab. Vui lòng bật lại trong trang Tùy chọn của OneTab."
+   },
+   "rightClickSelectionOptionsTip": {
+      "message": "Mẹo: Sau khi tích chọn một mục, nhấp chuột phải vào biểu tượng dấu tích để hiện thêm tùy chọn lựa chọn"
+   },
+   "rightClickTickTip": {
+      "message": "Mẹo: Nhấp chuột phải vào biểu tượng dấu tích cạnh mỗi thẻ để mở công cụ chọn"
+   },
+   "safariApproveOneTabInSettings": {
+      "message": "Vui lòng vào Cài đặt và cho phép OneTab truy cập tất cả trang web."
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "message": "Tiết kiệm tới 95% bộ nhớ và giảm lộn xộn thẻ trong Google Chrome"
+   },
+   "searchHere": {
+      "message": "Tìm kiếm tại đây"
+   },
+   "searchOneTab": {
+      "message": "Tìm kiếm OneTab"
+   },
+   "secondExampleLink": {
+      "message": "Liên kết ví dụ thứ 2"
+   },
+   "secondExampleLinkTitle": {
+      "message": "Tiêu đề liên kết ví dụ thứ 2"
+   },
+   "secondExampleLinkTitleOptional": {
+      "message": "Tiêu đề liên kết ví dụ thứ 2 (tùy chọn)"
+   },
+   "seeOtherTabsInThisGroup_few": {
+      "message": "Xem {COUNT} thẻ khác trong nhóm này"
+   },
+   "seeOtherTabsInThisGroup_many": {
+      "message": "Xem {COUNT} thẻ khác trong nhóm này"
+   },
+   "seeOtherTabsInThisGroup_one": {
+      "message": "Xem {COUNT} thẻ khác trong nhóm này"
+   },
+   "seeOtherTabsInThisGroup_other": {
+      "message": "Xem {COUNT} thẻ khác trong nhóm này"
+   },
+   "seeOtherTabsInThisGroup_two": {
+      "message": "Xem {COUNT} thẻ khác trong nhóm này"
+   },
+   "seeOtherTabsInThisGroup_zero": {
+      "message": "Xem {COUNT} thẻ khác trong nhóm này"
+   },
+   "seePasteInstructions": {
+      "message": "Xem hướng dẫn dán…"
+   },
+   "seeTabsInThisGroup_few": {
+      "message": "Xem {COUNT} thẻ trong nhóm này"
+   },
+   "seeTabsInThisGroup_many": {
+      "message": "Xem {COUNT} thẻ trong nhóm này"
+   },
+   "seeTabsInThisGroup_one": {
+      "message": "Xem {COUNT} thẻ trong nhóm này"
+   },
+   "seeTabsInThisGroup_other": {
+      "message": "Xem {COUNT} thẻ trong nhóm này"
+   },
+   "seeTabsInThisGroup_two": {
+      "message": "Xem {COUNT} thẻ trong nhóm này"
+   },
+   "seeTabsInThisGroup_zero": {
+      "message": "Xem {COUNT} thẻ trong nhóm này"
+   },
+   "selectAll": {
+      "message": "Chọn tất cả"
+   },
+   "selectAllExceptThis": {
+      "message": "Chọn tất cả trừ mục này"
+   },
+   "selectThisAndAbove": {
+      "message": "Chọn mục này và tất cả ở trên"
+   },
+   "selectThisAndBelow": {
+      "message": "Chọn mục này và tất cả ở dưới"
+   },
+   "selectedItemCount_few": {
+      "message": "{COUNT} mục"
+   },
+   "selectedItemCount_many": {
+      "message": "{COUNT} mục"
+   },
+   "selectedItemCount_one": {
+      "message": "{COUNT} mục"
+   },
+   "selectedItemCount_other": {
+      "message": "{COUNT} mục"
+   },
+   "selectedItemCount_two": {
+      "message": "{COUNT} mục"
+   },
+   "selectedItemCount_zero": {
+      "message": "{COUNT} mục"
+   },
+   "selection": {
+      "message": "Lựa chọn"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "message": "Gửi tất cả thẻ từ mọi cửa sổ vào OneTab"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "message": "Gửi tất cả thẻ trừ thẻ này vào OneTab"
+   },
+   "sendAllTabsInGroupToOneTab": {
+      "message": "Gửi tất cả thẻ trong nhóm thẻ này vào OneTab"
+   },
+   "sendAllTabsInWindowToOneTab": {
+      "message": "Gửi tất cả thẻ trong cửa sổ này vào OneTab"
+   },
+   "sendCurrentTabToOneTab": {
+      "message": "Gửi thẻ hiện tại vào OneTab"
+   },
+   "sendLeftTabsToOneTab": {
+      "message": "Gửi các thẻ bên trái vào OneTab"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "message": "Chỉ gửi thẻ này vào OneTab"
+   },
+   "sendRightTabsToOneTab": {
+      "message": "Gửi các thẻ bên phải vào OneTab"
+   },
+   "sendSelectedTabsToOneTab": {
+      "message": "Gửi các tab đã chọn vào OneTab"
+   },
+   "sendThisWebLinkToOneTab": {
+      "message": "Gửi liên kết web này vào OneTab"
+   },
+   "serverUnreachable": {
+      "message": "Không thể truy cập máy chủ. Vui lòng kiểm tra kết nối internet."
+   },
+   "share": {
+      "message": "Chia sẻ"
+   },
+   "shareAsAWebPage": {
+      "message": "Chia sẻ thành trang web"
+   },
+   "shared": {
+      "message": "Đã chia sẻ"
+   },
+   "sharedExpiresColon": {
+      "message": "Đã chia sẻ thành trang web. Hết hạn:"
+   },
+   "sharedPageOptions": {
+      "message": "Tùy chọn trang chia sẻ"
+   },
+   "sharedPageTabLimit_few": {
+      "message": "Các trang được chia sẻ bị giới hạn ở {COUNT} thẻ"
+   },
+   "sharedPageTabLimit_many": {
+      "message": "Các trang được chia sẻ bị giới hạn ở {COUNT} thẻ"
+   },
+   "sharedPageTabLimit_one": {
+      "message": "Các trang được chia sẻ bị giới hạn ở {COUNT} thẻ"
+   },
+   "sharedPageTabLimit_other": {
+      "message": "Các trang được chia sẻ bị giới hạn ở {COUNT} thẻ"
+   },
+   "sharedPageTabLimit_two": {
+      "message": "Các trang được chia sẻ bị giới hạn ở {COUNT} thẻ"
+   },
+   "sharedPageTabLimit_zero": {
+      "message": "Các trang được chia sẻ bị giới hạn ở {COUNT} thẻ"
+   },
+   "sharedPageWillAutomaticallyExpire": {
+      "message": "Trang chia sẻ sẽ tự động hết hạn, nhưng bạn có thể gia hạn bất cứ lúc nào."
+   },
+   "shiftDragShortcutInfo": {
+      "message": "Giữ phím Shift khi thả một thẻ để tạo bản sao thay vì di chuyển. Quan trọng: Chỉ nhấn phím Shift sau khi bạn đã bắt đầu kéo."
+   },
+   "showEverything": {
+      "message": "Hiển thị tất cả"
+   },
+   "showFoldersOnly": {
+      "message": "Chỉ hiển thị thư mục"
+   },
+   "showNamedItemsOnly": {
+      "message": "Chỉ hiển thị mục có tên"
+   },
+   "showNamedOnly": {
+      "message": "Chỉ hiển thị mục có tên"
+   },
+   "showNextCount_few": {
+      "message": "Hiển thị {COUNT} mục tiếp theo"
+   },
+   "showNextCount_many": {
+      "message": "Hiển thị {COUNT} mục tiếp theo"
+   },
+   "showNextCount_one": {
+      "message": "Hiển thị {COUNT} mục tiếp theo"
+   },
+   "showNextCount_other": {
+      "message": "Hiển thị {COUNT} mục tiếp theo"
+   },
+   "showNextCount_two": {
+      "message": "Hiển thị {COUNT} mục tiếp theo"
+   },
+   "showNextCount_zero": {
+      "message": "Hiển thị {COUNT} mục tiếp theo"
+   },
+   "showPreviousCount_few": {
+      "message": "Hiển thị {COUNT} mục trước"
+   },
+   "showPreviousCount_many": {
+      "message": "Hiển thị {COUNT} mục trước"
+   },
+   "showPreviousCount_one": {
+      "message": "Hiển thị {COUNT} mục trước"
+   },
+   "showPreviousCount_other": {
+      "message": "Hiển thị {COUNT} mục trước"
+   },
+   "showPreviousCount_two": {
+      "message": "Hiển thị {COUNT} mục trước"
+   },
+   "showPreviousCount_zero": {
+      "message": "Hiển thị {COUNT} mục trước"
+   },
+   "soon": {
+      "message": "sắp"
+   },
+   "sort": {
+      "message": "Sắp xếp"
+   },
+   "sortByColon": {
+      "message": "Sắp xếp theo:"
+   },
+   "sortGroups": {
+      "message": "Sắp xếp nhóm"
+   },
+   "sourceColon": {
+      "message": "Nguồn:"
+   },
+   "starRatingTooltip": {
+      "message": "Đặt xếp hạng sao"
+   },
+   "storeSelectedTabsInONETAB_few": {
+      "message": "Lưu {COUNT} thẻ đã chọn vào ONETAB"
+   },
+   "storeSelectedTabsInONETAB_many": {
+      "message": "Lưu {COUNT} thẻ đã chọn vào ONETAB"
+   },
+   "storeSelectedTabsInONETAB_one": {
+      "message": "Lưu {COUNT} thẻ đã chọn vào ONETAB"
+   },
+   "storeSelectedTabsInONETAB_other": {
+      "message": "Lưu {COUNT} thẻ đã chọn vào ONETAB"
+   },
+   "storeSelectedTabsInONETAB_two": {
+      "message": "Lưu {COUNT} thẻ đã chọn vào ONETAB"
+   },
+   "storeSelectedTabsInONETAB_zero": {
+      "message": "Lưu {COUNT} thẻ đã chọn vào ONETAB"
+   },
+   "storeTabInAdditionalLocation": {
+      "message": "Lưu thẻ của bạn vào vị trí khác"
+   },
+   "storeTabInONETAB": {
+      "message": "Lưu thẻ vào ONETAB"
+   },
+   "storeTabsInAdditionalLocation": {
+      "message": "Lưu các thẻ của bạn vào vị trí khác"
+   },
+   "storeTabsInONETAB": {
+      "message": "Lưu các thẻ vào ONETAB"
+   },
+   "subFoldersNotShared": {
+      "message": "Lưu ý: các thư mục con không được chia sẻ. Chỉ các nhóm thẻ nằm trực tiếp trong thư mục mới được chia sẻ."
+   },
+   "tab": {
+      "message": "thẻ"
+   },
+   "tabAlreadyStoredHere": {
+      "message": "Thẻ đang mở của bạn đã được lưu tại đây:"
+   },
+   "tabCaretTooltipTitleNotes": {
+      "message": "Sửa tiêu đề và ghi chú của thẻ"
+   },
+   "tabCaretTooltipTitleNotesUrl": {
+      "message": "Sửa tiêu đề, URL và ghi chú của thẻ"
+   },
+   "tabCount_few": {
+      "message": "{COUNT} thẻ"
+   },
+   "tabCount_many": {
+      "message": "{COUNT} thẻ"
+   },
+   "tabCount_one": {
+      "message": "{COUNT} thẻ"
+   },
+   "tabCount_other": {
+      "message": "{COUNT} thẻ"
+   },
+   "tabCount_two": {
+      "message": "{COUNT} thẻ"
+   },
+   "tabCount_zero": {
+      "message": "{COUNT} thẻ"
+   },
+   "tabGroupColorColon": {
+      "message": "Màu nhóm thẻ:"
+   },
+   "tabShortcutInfo": {
+      "message": "Khi ở trong trang OneTab, nhấn phím Tab để di chuyển tiêu điểm giữa các nhóm ở cột giữa. Cách này giúp bạn bỏ qua nhanh các nhóm, nhất là khi chúng lớn. Nếu một nhóm đang có tiêu điểm, nhấn phím Enter để mở. Dùng Shift+Tab để di chuyển ngược."
+   },
+   "tabTotalCount_few": {
+      "message": "Tổng: {COUNT} thẻ"
+   },
+   "tabTotalCount_many": {
+      "message": "Tổng: {COUNT} thẻ"
+   },
+   "tabTotalCount_one": {
+      "message": "Tổng: {COUNT} thẻ"
+   },
+   "tabTotalCount_other": {
+      "message": "Tổng: {COUNT} thẻ"
+   },
+   "tabTotalCount_two": {
+      "message": "Tổng: {COUNT} thẻ"
+   },
+   "tabTotalCount_zero": {
+      "message": "Tổng: {COUNT} thẻ"
+   },
+   "tabs": {
+      "message": "Thẻ"
+   },
+   "tabsFromExcludedDomains": {
+      "message": "thẻ từ tên miền bị loại trừ"
+   },
+   "tabsInTabGroups": {
+      "message": "thẻ trong nhóm thẻ"
+   },
+   "taskTotalCount_few": {
+      "message": "Tổng {COUNT}"
+   },
+   "taskTotalCount_many": {
+      "message": "Tổng {COUNT}"
+   },
+   "taskTotalCount_one": {
+      "message": "Tổng {COUNT}"
+   },
+   "taskTotalCount_other": {
+      "message": "Tổng {COUNT}"
+   },
+   "taskTotalCount_two": {
+      "message": "Tổng {COUNT}"
+   },
+   "taskTotalCount_zero": {
+      "message": "Tổng {COUNT}"
+   },
+   "tasks": {
+      "message": "Tác vụ"
+   },
+   "tasksDone": {
+      "message": "Tác vụ (đã xong)"
+   },
+   "tasksPending": {
+      "message": "Tác vụ (đang chờ)"
+   },
+   "tasksWillAppearHere": {
+      "message": "Nếu bạn đánh dấu bất kỳ thẻ hoặc nhóm nào là tác vụ, chúng sẽ xuất hiện ở đây."
+   },
+   "thenClickToolbarIcon": {
+      "message": "Sau đó, nhấp lại biểu tượng OneTab trên thanh công cụ để dùng OneTab."
+   },
+   "thisFolderIsEmpty": {
+      "message": "Thư mục này trống"
+   },
+   "thisTab": {
+      "message": "Thẻ này"
+   },
+   "thisTabGroup": {
+      "message": "Nhóm thẻ này"
+   },
+   "thisTabNotStored": {
+      "message": "Thẻ này chưa được lưu trong OneTab"
+   },
+   "thisWindow": {
+      "message": "Cửa sổ này"
+   },
+   "tickOrUntickToExclude": {
+      "message": "Chọn hoặc bỏ chọn để loại trừ trang web"
+   },
+   "title": {
+      "message": "Tiêu đề"
+   },
+   "toAddOrRemoveExclusions": {
+      "message": "Để thêm hoặc xóa một trang web khỏi danh sách loại trừ:"
+   },
+   "toAllowOneTabInIncognito": {
+      "message": "Để biểu tượng OneTab hiển thị trong cửa sổ ẩn danh: "
+   },
+   "toImportBrowserBookmarksUseMenuOption": {
+      "message": "Để nhập từ dấu trang của trình duyệt, hãy dùng tùy chọn menu 'Nhập liên kết vào đây' trên trang OneTab của bạn"
+   },
+   "toMakeOpenButtonWorkApprovePermission": {
+      "message": "Để nút \"Mở\" trên các trang chia sẻ hoạt động, vui lòng chấp thuận yêu cầu cấp quyền."
+   },
+   "toSaveChangesClickButton": {
+      "message": "Để lưu thay đổi, nhấp nút"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "message": "Quá nhiều thẻ? Chuyển thẻ thành danh sách và tăng tốc Firefox"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "message": "Quá nhiều thẻ? Chuyển thẻ thành danh sách và tăng tốc Safari"
+   },
+   "total0Tabs": {
+      "message": "Tổng: 0 thẻ"
+   },
+   "trash": {
+      "message": "Thùng rác"
+   },
+   "unMarkAsTask": {
+      "message": "Bỏ đánh dấu là tác vụ"
+   },
+   "unPin": {
+      "message": "Bỏ ghim"
+   },
+   "unlock": {
+      "message": "Mở khóa"
+   },
+   "unmarkAsArchived": {
+      "message": "Bỏ đánh dấu lưu trữ"
+   },
+   "unshare": {
+      "message": "Ngừng chia sẻ"
+   },
+   "untitled": {
+      "message": "Không có tiêu đề"
+   },
+   "update": {
+      "message": "Cập nhật"
+   },
+   "userLanguage": {
+      "message": "Tiếng Việt"
+   },
+   "website": {
+      "message": "Trang web"
+   },
+   "yearCount_few": {
+      "message": "{COUNT} năm"
+   },
+   "yearCount_many": {
+      "message": "{COUNT} năm"
+   },
+   "yearCount_one": {
+      "message": "{COUNT} năm"
+   },
+   "yearCount_other": {
+      "message": "{COUNT} năm"
+   },
+   "yearCount_two": {
+      "message": "{COUNT} năm"
+   },
+   "yearCount_zero": {
+      "message": "{COUNT} năm"
+   },
+   "yourTabAlreadyStoredHere": {
+      "message": "Thẻ của bạn đã được lưu tại đây:"
+   }
+}

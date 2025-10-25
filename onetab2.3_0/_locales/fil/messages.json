@@ -1,0 +1,1715 @@
+{
+   "95PctMemoryReduction": {
+      "message": "95% na pagbawas sa memorya"
+   },
+   "Folder": {
+      "message": "Folder"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "message": "Available din ang OneTab para sa Firefox"
+   },
+   "aDashZ": {
+      "message": "A-Z"
+   },
+   "about": {
+      "message": "Tungkol"
+   },
+   "addOneTabNow": {
+      "message": "Idagdag ang OneTab ngayon"
+   },
+   "all": {
+      "message": "Lahat"
+   },
+   "allBookmarks": {
+      "message": "Lahat ng bookmark"
+   },
+   "allOpenTabsAlreadyStoredHere": {
+      "message": "Nakaimbak na rito ang lahat ng nakabukas na tab:"
+   },
+   "allowFileAccessInstructions": {
+      "message": "Para payagang direktang mabuksan ang mga file, pumunta sa Mga Setting ➝ Mga Extension ➝ OneTab ➝ Mga Detalye ➝ Payagan ang access sa mga URL ng file"
+   },
+   "alreadyExistingOpenTabsWillBeClosedAfterMerge": {
+      "message": "Isasara ang lahat ng nakabukas na tab na mayroon na sa grupong ito pagkatapos ng pagsasama."
+   },
+   "alternatePlainTextFormat": {
+      "message": "Bilang ibang opsyon, puwedeng ganito ang format ng plain text:"
+   },
+   "approve": {
+      "message": "Aprubahan"
+   },
+   "archived": {
+      "message": "Naka-archive"
+   },
+   "autoTheme": {
+      "message": "Awtomatiko (gamitin ang setting ng operating system)"
+   },
+   "backupAndSync": {
+      "message": "Backup at Sync"
+   },
+   "betaReleaseReportBugsHere": {
+      "message": "Beta - I-ulat ang mga bug dito"
+   },
+   "bookmarkCount_few": {
+      "message": "{COUNT} mga bookmark"
+   },
+   "bookmarkCount_many": {
+      "message": "{COUNT} mga bookmark"
+   },
+   "bookmarkCount_one": {
+      "message": "{COUNT} bookmark"
+   },
+   "bookmarkCount_other": {
+      "message": "{COUNT} mga bookmark"
+   },
+   "bookmarkCount_two": {
+      "message": "{COUNT} na bookmark"
+   },
+   "bookmarkCount_zero": {
+      "message": "{COUNT} mga bookmark"
+   },
+   "bookmarksPermissionNecesssary": {
+      "message": "Kailangan ang pahintulot sa bookmark para payagang ma-import ng OneTab ang mga bookmark ng iyong browser"
+   },
+   "bulkActions": {
+      "message": "Maramihang aksyon"
+   },
+   "canDragTextNote": {
+      "message": "Tandaan: Maaari ring mag-drag and drop ng text na may mga web link direkta mula sa ibang web page o mula sa isang dokumento. Maaari mong i-drag ang teksto direkta sa iyong page ng OneTab, nang hindi kailangang gamitin ang kahong ito ng pag-import."
+   },
+   "canPasteWebContentForExample": {
+      "message": "Maaari kang mag-paste ng tekstong kinopya mula sa isang web page o dokumento, at awtomatikong ie-extract ang mga link. Halimbawa:"
+   },
+   "cancel": {
+      "message": "Kanselahin"
+   },
+   "cannotConnectToServerDeletionRequestQueued": {
+      "message": "Hindi makakonekta sa server ng OneTab. Pakisuri ang iyong koneksyong internet. Naka-queue nang lokal ang iyong hiling na pagbura ng ibinahaging pahina at awtomatikong ipapadala sa server ng OneTab sa sandaling muli itong maabot."
+   },
+   "cannotCreateTabGroupInTabGroup": {
+      "message": "Ang napili mong destinasyon ay isang grupo ng tab. Hindi ka makakagawa ng grupo ng tab sa loob ng umiiral nang grupo ng tab. Pumili ng ibang destinasyon."
+   },
+   "cannotMixTabsGroupsFoldersDuringDrag": {
+      "message": "Hindi puwedeng pagsama-samahin ang mga tab, grupo, at folder kapag nagda-drag. Dahil halimbawa, hindi mo maida-drag ang isang folder sa parehong mga lugar kung saan maaari mong i-drag ang isang tab."
+   },
+   "caseSensitive": {
+      "message": "Case-sensitive"
+   },
+   "changesMadeSinceSharedPageCreation": {
+      "message": "May mga pagbabagong nagawa mula nang likhain mo ang ibinahaging pahina. I-click ang 'I-update' na button para i-update ang umiiral na ibinahaging pahina."
+   },
+   "checkboxesDeterminePinnedAndGroupedTabMergeInclusion": {
+      "message": "Tinutukoy ng mga checkbox sa itaas ng pahinang ito kung isasama ang mga naka-pin o ang mga tab sa mga grupo ng tab sa pagsasama."
+   },
+   "chooseALocation": {
+      "message": "Pumili ng lokasyon"
+   },
+   "chooseALocationToImportTo": {
+      "message": "Pumili ng lokasyon ng pag-import"
+   },
+   "chooseExportLocation": {
+      "message": "Pumili ng lokasyong pinagmulan ng pag-export"
+   },
+   "chooseLightDarkTheme": {
+      "message": "Pumili ng light/dark na tema"
+   },
+   "chooseLocationToCopyTo": {
+      "message": "Pumili ng lokasyong pagkokopyahan"
+   },
+   "chooseLocationToMoveTo": {
+      "message": "Pumili ng lokasyong paglilipatan"
+   },
+   "chooseLocationToRestoreTo": {
+      "message": "Pumili ng lokasyon ng pag-restore"
+   },
+   "chooseToIncludeNotes": {
+      "message": "Kung nagdagdag ka ng anumang tala sa mga tab o grupo, piliin kung isasama ang mga ito sa ibinahaging web page"
+   },
+   "chooseToIncludeRatings": {
+      "message": "Kung nagdagdag ka ng anumang star rating sa mga tab o grupo, piliin kung isasama ang mga ito sa ibinahaging web page"
+   },
+   "chromeIncognitoInstructions": {
+      "message": "Sa mga setting ng iyong browser, pumunta sa 'Mga Setting' → 'Mga Extension' → 'OneTab' → 'Mga Detalye', at i-enable ang 'Payagan sa Incognito'."
+   },
+   "clickButtonToAllowTabAccess": {
+      "message": "I-click ang button sa ibaba para payagang ma-access ng OneTab ang iyong mga nakabukas na tab."
+   },
+   "clickHereToContinue": {
+      "message": "I-click dito para magpatuloy."
+   },
+   "clickOneTabIconToStoreTabsHere": {
+      "message": "I-click ang icon ng OneTab sa toolbar ng browser mo para iimbak dito ang mga nakabukas mong tab."
+   },
+   "closeSelectedTabsAndStoreInONETAB_few": {
+      "message": "Isara ang {COUNT} napiling tab at iimbak sa ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_many": {
+      "message": "Isara ang {COUNT} napiling tab at iimbak sa ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_one": {
+      "message": "Isara ang {COUNT} napiling tab at iimbak sa ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_other": {
+      "message": "Isara ang {COUNT} napiling tab at iimbak sa ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_two": {
+      "message": "Isara ang {COUNT} napiling tab at iimbak sa ONETAB"
+   },
+   "closeSelectedTabsAndStoreInONETAB_zero": {
+      "message": "Isara ang {COUNT} napiling tab at iimbak sa ONETAB"
+   },
+   "closeSelectedTabs_few": {
+      "message": "Isara ang {COUNT} napiling tab"
+   },
+   "closeSelectedTabs_many": {
+      "message": "Isara ang {COUNT} napiling tab"
+   },
+   "closeSelectedTabs_one": {
+      "message": "Isara ang {COUNT} napiling tab"
+   },
+   "closeSelectedTabs_other": {
+      "message": "Isara ang {COUNT} napiling tab"
+   },
+   "closeSelectedTabs_two": {
+      "message": "Isara ang {COUNT} napiling tab"
+   },
+   "closeSelectedTabs_zero": {
+      "message": "Isara ang {COUNT} napiling tab"
+   },
+   "closeTab": {
+      "message": "Isara ang tab"
+   },
+   "closeTabAndStore": {
+      "message": "Isara ang tab at iimbak sa ONETAB"
+   },
+   "closeTabs": {
+      "message": "Isara ang mga tab"
+   },
+   "closeTabsAfterMerge": {
+      "message": "Isara ang mga tab pagkatapos ng pagsasama"
+   },
+   "closeTabsAlreadyStoredInOneTab_few": {
+      "message": "Isara ang {COUNT} tab na nakaimbak na sa OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_many": {
+      "message": "Isara ang {COUNT} tab na nakaimbak na sa OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_one": {
+      "message": "Isara ang {COUNT} tab na nakaimbak na sa OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_other": {
+      "message": "Isara ang {COUNT} tab na nakaimbak na sa OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_two": {
+      "message": "Isara ang {COUNT} tab na nakaimbak na sa OneTab"
+   },
+   "closeTabsAlreadyStoredInOneTab_zero": {
+      "message": "Isara ang {COUNT} tab na nakaimbak na sa OneTab"
+   },
+   "closeTabsAndStore": {
+      "message": "Isara ang mga tab at iimbak sa ONETAB"
+   },
+   "closeTheseDuplicates": {
+      "message": "Isara ang mga duplikadong ito"
+   },
+   "closeThisDuplicate": {
+      "message": "Isara ang duplikadong ito"
+   },
+   "completeEditingShortcutInfo": {
+      "message": "Kapag nag-e-edit ng field ng tala, gamitin ang shortcut na ito para tapusin ang pag-edit."
+   },
+   "configureShortcuts": {
+      "message": "I-configure ang mga shortcut"
+   },
+   "conflictingShortcutsHint": {
+      "message": "Kung alinman sa mga keyboard shortcut sa itaas ay hindi gumana o sumasalungat sa iba pang mga application, maaari kang magtakda ng ibang shortcut key."
+   },
+   "continue": {
+      "message": "Magpatuloy"
+   },
+   "convertTabsIntoAList": {
+      "message": "Gawing listahan ang mga tab"
+   },
+   "copiedToClipboard": {
+      "message": "Nakopya sa clipboard"
+   },
+   "copy": {
+      "message": "Kopyahin"
+   },
+   "copyLinksToClipboard": {
+      "message": "Kopyahin ang mga link sa clipboard"
+   },
+   "copySharedPageUrl": {
+      "message": "Kopyahin ang URL ng ibinahaging pahina"
+   },
+   "copyToClipboard": {
+      "message": "Kopyahin sa clipboard"
+   },
+   "createANewGroupHere": {
+      "message": "Gumawa ng bagong grupo rito"
+   },
+   "createFolderAbove": {
+      "message": "Gumawa ng folder sa itaas"
+   },
+   "createFolderAboveBelow": {
+      "message": "Gumawa ng folder sa itaas / sa ibaba"
+   },
+   "createFolderAboveWithinBelow": {
+      "message": "Gumawa ng folder sa itaas / sa loob / sa ibaba"
+   },
+   "createFolderBelow": {
+      "message": "Gumawa ng folder sa ibaba"
+   },
+   "createFolderWithin": {
+      "message": "Gumawa ng folder sa loob"
+   },
+   "createGroupAbove": {
+      "message": "Gumawa ng grupo sa itaas"
+   },
+   "createGroupAboveBelow": {
+      "message": "Gumawa ng grupo sa itaas / sa ibaba"
+   },
+   "createGroupAboveWithinBelow": {
+      "message": "Gumawa ng grupo sa itaas / sa loob / sa ibaba"
+   },
+   "createGroupBelow": {
+      "message": "Gumawa ng grupo sa ibaba"
+   },
+   "createGroupInsideDestination": {
+      "message": "Gumawa ng bagong grupo sa loob ng destinasyon"
+   },
+   "createGroupInsideDestinationHelp": {
+      "message": "Kung hindi naka-tsek, idadagdag ang mga tab mo direkta sa destinasyong grupo. Kapag naka-tsek, lilikha ng bagong grupo ng tab ng browser para sa mga tab mo sa loob ng destinasyong grupo. Lagyan lang ng tsek ang kahong ito kung gusto mong gamitin ang feature ng browser mong \"mga grupo ng tab\"."
+   },
+   "createGroupWithin": {
+      "message": "Gumawa ng grupo sa loob"
+   },
+   "createNewGroupTip": {
+      "message": "Para makagawa ng bagong grupo, alisin ang tsek sa \"Ipakita ang mga folder lang\""
+   },
+   "createdOnOrAfterColon": {
+      "message": "Nilikha noong o pagkatapos ng:"
+   },
+   "createdOnOrBeforeColon": {
+      "message": "Nilikha noong o bago ang:"
+   },
+   "createdPreceedingDate": {
+      "message": "Nilikha"
+   },
+   "darkTheme": {
+      "message": "Dark na tema"
+   },
+   "dayCount_few": {
+      "message": "{COUNT} araw"
+   },
+   "dayCount_many": {
+      "message": "{COUNT} araw"
+   },
+   "dayCount_one": {
+      "message": "{COUNT} araw"
+   },
+   "dayCount_other": {
+      "message": "{COUNT} araw"
+   },
+   "dayCount_two": {
+      "message": "{COUNT} araw"
+   },
+   "dayCount_zero": {
+      "message": "{COUNT} araw"
+   },
+   "delete": {
+      "message": "Tanggalin"
+   },
+   "deleteAllTrash": {
+      "message": "Tanggalin ang lahat ng nasa basurahan"
+   },
+   "deleteThisCopy": {
+      "message": "Tanggalin ang kopyang ito"
+   },
+   "deselectAll": {
+      "message": "Alisan ng pagkakapili ang lahat"
+   },
+   "destinationColon": {
+      "message": "Destinasyon:"
+   },
+   "disabled": {
+      "message": "Hindi pinagana"
+   },
+   "doneTaskCount_few": {
+      "message": "{COUNT} tapos"
+   },
+   "doneTaskCount_many": {
+      "message": "{COUNT} tapos"
+   },
+   "doneTaskCount_one": {
+      "message": "{COUNT} tapos"
+   },
+   "doneTaskCount_other": {
+      "message": "{COUNT} tapos"
+   },
+   "doneTaskCount_two": {
+      "message": "{COUNT} tapos"
+   },
+   "doneTaskCount_zero": {
+      "message": "{COUNT} tapos"
+   },
+   "dontCloseGroupedTabs": {
+      "message": "Huwag isara ang anumang tab sa loob ng mga grupo ng tab"
+   },
+   "dontClosePinnedTabs": {
+      "message": "Huwag isara ang anumang naka-pin na tab"
+   },
+   "dontCloseTabsFromDomains": {
+      "message": "Huwag isara ang anumang tab mula sa EXAMPLE.COM"
+   },
+   "dragTabsHereForQuickList": {
+      "message": "I-drag dito ang mga nakaimbak mong tab o grupo. Idaragdag ang mga ito sa iyong mabilisang listahan."
+   },
+   "editTabGroupTitleAndNotes": {
+      "message": "I-edit ang pamagat at mga tala ng grupo ng tab"
+   },
+   "emojiShortcutInfo": {
+      "message": "Kapag nag-e-edit ng field ng tala, gamitin ang shortcut na ito para buksan ang emoji picker."
+   },
+   "emptyInBrackets": {
+      "message": "(walang laman)"
+   },
+   "emptyOneTabInfoMsg": {
+      "message": "Kapag marami kang nakabukas na tab, i-click ang icon ng OneTab sa toolbar ng browser mo at lalabas dito ang mga nakabukas mong tab."
+   },
+   "enabled": {
+      "message": "Pinagana"
+   },
+   "encryptedSyncAndBackup": {
+      "message": "Naka-encrypt na sync at backup"
+   },
+   "encryptedSyncAndBackupComingSoonMessage": {
+      "message": "Paparating: Magagawa mong i-sync ang iyong OneTab data sa maraming profile ng browser at mga computer.\nGanap na isinulat muli ang OneTab para ang mga pagbabagong ginawa sa isang device ay agad na lumitaw sa lahat ng iba mo pang device.\nKung gagamitin mo ang feature na ito, ang iyong data ay end-to-end na naka-encrypt gamit ang matibay na AES-256 encryption. Dahil dito, imposibleng makita ng mga developer ng OneTab ang mga tab na na-backup o na-sync mo sa pagitan ng mga device, dahil ikaw lang ang may hawak ng encryption key."
+   },
+   "everything": {
+      "message": "Lahat"
+   },
+   "exampleLink": {
+      "message": "Halimbawang Link"
+   },
+   "exampleLinkTitle": {
+      "message": "Halimbawang Pamagat ng Link"
+   },
+   "exampleLinkTitleOptional": {
+      "message": "Halimbawang Pamagat ng Link (opsyonal)"
+   },
+   "exampleRichTextParagraph": {
+      "message": "Halimbawang talata ng teksto na may PLACEHOLDER at PLACEHOLDER"
+   },
+   "exampleWebsitePageTitle": {
+      "message": "Pamagat ng pahina ng halimbawa ng website"
+   },
+   "excludeDomainFromOneTab": {
+      "message": "Huwag isama ang EXAMPLE.COM sa OneTab"
+   },
+   "excludeWebSiteFromOneTab": {
+      "message": "Huwag isama ang website na ito sa OneTab"
+   },
+   "expiresColon": {
+      "message": "Mawawalan ng bisa:"
+   },
+   "export": {
+      "message": "I-export"
+   },
+   "exportImportUrls": {
+      "message": "I-export / I-import ang mga URL"
+   },
+   "exportThenImportNote": {
+      "message": "Maaari ring i-import ang sumusunod na listahan ng mga URL pabalik sa OneTab sa computer na ito o sa iba."
+   },
+   "exportUrls": {
+      "message": "I-export ang mga URL"
+   },
+   "feedback": {
+      "message": "Feedback"
+   },
+   "filter": {
+      "message": "Filter"
+   },
+   "firefoxIncognitoInstructions": {
+      "message": "Sa mga setting ng iyong browser, pumunta sa 'Settings' → 'Extensions and Themes' → 'Extensions' → 'OneTab' → '...' → 'Manage', at i-enable ang 'Run in Private Windows'."
+   },
+   "firefoxShortcutConfigInstructions": {
+      "message": "Ilagay ang URL na \"about:addons?type=extension\" sa address bar ng iyong browser. Kapag lumitaw ang pahina, i-click ang icon na gear, pagkatapos piliin ang \"Pamahalaan ang Mga Shortcut ng Extension\""
+   },
+   "folderCount_few": {
+      "message": "{COUNT} folder"
+   },
+   "folderCount_many": {
+      "message": "{COUNT} folder"
+   },
+   "folderCount_one": {
+      "message": "{COUNT} folder"
+   },
+   "folderCount_other": {
+      "message": "{COUNT} folder"
+   },
+   "folderCount_two": {
+      "message": "{COUNT} folder"
+   },
+   "folderCount_zero": {
+      "message": "{COUNT} folder"
+   },
+   "folders": {
+      "message": "Mga folder"
+   },
+   "foldersOnly": {
+      "message": "Mga folder lang"
+   },
+   "gettingStarted": {
+      "message": "Pagsisimula"
+   },
+   "goToParentFolder": {
+      "message": "Pumunta sa parent na folder"
+   },
+   "groupCount_few": {
+      "message": "{COUNT} grupo"
+   },
+   "groupCount_many": {
+      "message": "{COUNT} grupo"
+   },
+   "groupCount_one": {
+      "message": "{COUNT} grupo"
+   },
+   "groupCount_other": {
+      "message": "{COUNT} grupo"
+   },
+   "groupCount_two": {
+      "message": "{COUNT} grupo"
+   },
+   "groupCount_zero": {
+      "message": "{COUNT} grupo"
+   },
+   "groups": {
+      "message": "Mga grupo"
+   },
+   "hasNotes": {
+      "message": "May mga tala"
+   },
+   "hasRating": {
+      "message": "May rating"
+   },
+   "help": {
+      "message": "Tulong"
+   },
+   "hideArchivedItems": {
+      "message": "Itago ang mga naka-archive na item"
+   },
+   "import": {
+      "message": "I-import"
+   },
+   "importAndExport": {
+      "message": "I-import at i-export"
+   },
+   "importBookmarks": {
+      "message": "Mag-import ng mga bookmark"
+   },
+   "importFolderAndSubfolders": {
+      "message": "I-import ang folder at mga sub-folder"
+   },
+   "importLinksHere": {
+      "message": "Mag-import ng mga link dito"
+   },
+   "importReadingList": {
+      "message": "Mag-import ng Reading list"
+   },
+   "importText": {
+      "message": "Mag-import ng teksto"
+   },
+   "importUrls": {
+      "message": "I-import ang mga URL"
+   },
+   "importedBookmarks": {
+      "message": "Na-import na mga bookmark"
+   },
+   "includeGroupedTabs": {
+      "message": "Isama ang mga tab sa mga grupo ng tab"
+   },
+   "includeNotes": {
+      "message": "Isama ang mga tala"
+   },
+   "includePinnedTabs": {
+      "message": "Isama ang mga naka-pin na tab"
+   },
+   "includeStarRatings": {
+      "message": "Isama ang mga star rating"
+   },
+   "includeTabsAlreadyStored": {
+      "message": "Isama ang mga tab na naimbak mo na"
+   },
+   "includeTabsFromDomains": {
+      "message": "Isama ang mga tab mula sa EXAMPLE.COM"
+   },
+   "incogitoPermissionRequired": {
+      "message": "Kailangan ng OneTab ng pahintulot para lumikha ng mga Incognito window."
+   },
+   "incognitoWindows": {
+      "message": "Mga Incognito window"
+   },
+   "invertSelection": {
+      "message": "Baligtarin ang pagpili"
+   },
+   "justNow": {
+      "message": "ngayon lang"
+   },
+   "keyboardShortcutsColon": {
+      "message": "Mga keyboard shortcut:"
+   },
+   "languageTitle": {
+      "message": "Wika:"
+   },
+   "lightTheme": {
+      "message": "Light na tema"
+   },
+   "localeId": {
+      "message": "fil"
+   },
+   "locationColon": {
+      "message": "Lokasyon:"
+   },
+   "lock": {
+      "message": "I-lock"
+   },
+   "lockMenuItemHelp": {
+      "message": "Kapag naka-lock ang isang grupo, hindi mo mabubura o ma-reorder ang mga item sa loob ng grupo. Kapag nagbubukas ng naka-lock na grupo, hindi nalalapat ang mga awtomatikong aksyon. Tingnan ang page ng Mga opsyon para sa impormasyon tungkol sa mga awtomatikong aksyon."
+   },
+   "lockedGroupUnlockHelp": {
+      "message": "Para i-unlock, gamitin ang dropdown na menu. Kapag naka-lock ang isang grupo, hindi mo mabubura ang grupo o ang mga tab nito, at hindi maiaayos muli ang pagkakasunud-sunod ng mga tab."
+   },
+   "makeThisATask": {
+      "message": "Gawing gawain ito"
+   },
+   "manifestDescription": {
+      "message": "Mag-save ng hanggang 95% na memorya at bawasan ang kalat ng mga tab"
+   },
+   "markAsArchived": {
+      "message": "Markahan bilang naka-archive"
+   },
+   "markAsArchivedMenuItemHelp": {
+      "message": "Tandaan na ang mga naka-archive na gawain at mga gawain sa loob ng mga naka-archive na grupo ay hindi lilitaw sa kolum ng mga gawain"
+   },
+   "markAsDoneTask": {
+      "message": "Markahan bilang natapos na gawain"
+   },
+   "markAsPendingTask": {
+      "message": "Markahan bilang nakabinbing gawain"
+   },
+   "matchCount_few": {
+      "message": "{COUNT} tugma"
+   },
+   "matchCount_many": {
+      "message": "{COUNT} tugma"
+   },
+   "matchCount_one": {
+      "message": "{COUNT} tugma"
+   },
+   "matchCount_other": {
+      "message": "{COUNT} tugma"
+   },
+   "matchCount_two": {
+      "message": "{COUNT} tugma"
+   },
+   "matchCount_zero": {
+      "message": "{COUNT} tugma"
+   },
+   "matchWholeWordsOnly": {
+      "message": "Tugma sa buong salita lamang"
+   },
+   "mayNeedToRestartBrowser": {
+      "message": "Maaaring kailanganin mo ring i-update at i-restart ang iyong browser."
+   },
+   "mergeIntoParent": {
+      "message": "Pagsamahin sa parent"
+   },
+   "mergeOpenTabsHere_few": {
+      "message": "Pagsamahin ang {COUNT} nakabukas na tab dito"
+   },
+   "mergeOpenTabsHere_many": {
+      "message": "Pagsamahin ang {COUNT} nakabukas na tab dito"
+   },
+   "mergeOpenTabsHere_one": {
+      "message": "Pagsamahin ang {COUNT} nakabukas na tab dito"
+   },
+   "mergeOpenTabsHere_other": {
+      "message": "Pagsamahin ang {COUNT} nakabukas na tab dito"
+   },
+   "mergeOpenTabsHere_two": {
+      "message": "Pagsamahin ang {COUNT} nakabukas na tab dito"
+   },
+   "mergeOpenTabsHere_zero": {
+      "message": "Pagsamahin ang {COUNT} nakabukas na tab dito"
+   },
+   "mergeSelectedTabsHere_few": {
+      "message": "Pagsamahin ang {COUNT} napiling tab dito"
+   },
+   "mergeSelectedTabsHere_many": {
+      "message": "Pagsamahin ang {COUNT} napiling tab dito"
+   },
+   "mergeSelectedTabsHere_one": {
+      "message": "Pagsamahin ang {COUNT} napiling tab dito"
+   },
+   "mergeSelectedTabsHere_other": {
+      "message": "Pagsamahin ang {COUNT} napiling tab dito"
+   },
+   "mergeSelectedTabsHere_two": {
+      "message": "Pagsamahin ang {COUNT} napiling tab dito"
+   },
+   "mergeSelectedTabsHere_zero": {
+      "message": "Pagsamahin ang {COUNT} napiling tab dito"
+   },
+   "mergeWithInnerGroups": {
+      "message": "Pagsamahin sa mga panloob na grupo"
+   },
+   "modifySharing": {
+      "message": "Baguhin ang pagbahagi"
+   },
+   "moreEllipsis": {
+      "message": "Higit pa…"
+   },
+   "moreSearchFilters": {
+      "message": "Higit pang filter sa paghahanap"
+   },
+   "moreTripleDot": {
+      "message": "Higit pa…"
+   },
+   "move": {
+      "message": "Ilipat"
+   },
+   "moveToTrash": {
+      "message": "Ilipat sa basurahan"
+   },
+   "namedOnly": {
+      "message": "May pangalan lang"
+   },
+   "navigationFilter": {
+      "message": "Filter ng nabigasyon"
+   },
+   "newExclamation": {
+      "message": "Bago!"
+   },
+   "noDupsExistExceptForColon": {
+      "message": "Walang umiiral na duplikado, maliban sa:"
+   },
+   "noDupsFoundHere": {
+      "message": "Walang natagpuang duplikado dito"
+   },
+   "noMatches": {
+      "message": "Walang tugma"
+   },
+   "noMatchesFound": {
+      "message": "Walang nakitang tugma"
+   },
+   "noOpenTabsToStore": {
+      "message": "Walang nakabukas na tab sa window na ito na maiimbak."
+   },
+   "noReadingListEntries": {
+      "message": "Walang nakitang entry sa reading list"
+   },
+   "noTabsInOneTabYet": {
+      "message": "Wala ka pang anumang tab sa OneTab"
+   },
+   "noTabsMeetCriteriaUseCheckboxes": {
+      "message": "Walang nakabukas na tab na tugma sa pamantayan mo. Pakigamit ang mga checkbox sa itaas."
+   },
+   "noTextHasBeenEntered": {
+      "message": "Walang naipasok na teksto"
+   },
+   "nonArchived": {
+      "message": "Hindi naka-archive"
+   },
+   "notAssigned": {
+      "message": "Hindi nakatalaga"
+   },
+   "notes": {
+      "message": "Mga tala"
+   },
+   "notesAboutTheLinkOptional": {
+      "message": "Mga tala tungkol sa link (opsyonal)"
+   },
+   "notesAboutTheSecondLinkOptional": {
+      "message": "Mga tala tungkol sa pangalawang link (opsyonal)"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "omniboxShortcutInfo": {
+      "message": "Para maghanap sa listahan mo sa OneTab mula sa alinmang tab: Pumunta sa address bar ng iyong browser, i-type ang 1, pagkatapos space, pagkatapos isang keyword sa paghahanap."
+   },
+   "oneTabDesignedToProtectPrivacy": {
+      "message": "Idinisenyo ang OneTab para protektahan ang iyong privacy. Hindi ibinubunyag sa amin ang iyong mga tab."
+   },
+   "oneTabImportExportPageTitle": {
+      "message": "Import/Export ng OneTab"
+   },
+   "oneTabNeedsPermissionToAccessYourTabs": {
+      "message": "Kailangan ng OneTab ng pahintulot para ma-access ang iyong mga tab."
+   },
+   "oneTabOptionsPageTitle": {
+      "message": "Mga opsyon ng OneTab"
+   },
+   "oneTabPermissionRequired": {
+      "message": "OneTab - Kailangan ng pahintulot"
+   },
+   "oneTabRestartRequired": {
+      "message": "Kailangang i-restart ang OneTab."
+   },
+   "oneTabSlashShortcutInfo": {
+      "message": "Kapag nasa pahina ng OneTab, pindutin ang slash key para ituon sa search box."
+   },
+   "open": {
+      "message": "Buksan"
+   },
+   "openActionPopup": {
+      "message": "Buksan ang Action pop-up"
+   },
+   "openAsCollapsedTabGroup": {
+      "message": "Buksan bilang 'collapsed' na grupo ng tab"
+   },
+   "openAsCollapsedTabGroupMenuItemHelp": {
+      "message": "Kung bubuksan mo ang mga tab na ito bilang isang 'collapsed' na \"grupo ng tab\", ang label lang ng grupo ang ipapakita hanggang i-click mo ito para ipakita ang mga tab sa loob."
+   },
+   "openAsTabGroup": {
+      "message": "Buksan bilang grupo ng tab ng browser"
+   },
+   "openAsTabGroupMenuItemHelp": {
+      "message": "Pinapayagan ng iyong browser na ang mga tab ay pangkatin sa may kulay na mga \"grupo ng tab\" sa loob ng isang window."
+   },
+   "openGroupsLimitNotice_few": {
+      "message": "Para maiwasang mabigatan ang iyong browser, ang unang {COUNT} grupo lang ang bubuksan."
+   },
+   "openGroupsLimitNotice_many": {
+      "message": "Para maiwasang mabigatan ang iyong browser, ang unang {COUNT} grupo lang ang bubuksan."
+   },
+   "openGroupsLimitNotice_one": {
+      "message": "Para maiwasang mabigatan ang iyong browser, ang unang {COUNT} grupo lang ang bubuksan."
+   },
+   "openGroupsLimitNotice_other": {
+      "message": "Para maiwasang mabigatan ang iyong browser, ang unang {COUNT} grupo lang ang bubuksan."
+   },
+   "openGroupsLimitNotice_two": {
+      "message": "Para maiwasang mabigatan ang iyong browser, ang unang {COUNT} grupo lang ang bubuksan."
+   },
+   "openGroupsLimitNotice_zero": {
+      "message": "Para maiwasang mabigatan ang iyong browser, ang unang {COUNT} grupo lang ang bubuksan."
+   },
+   "openInIncognitoWindow": {
+      "message": "Buksan sa bagong Incognito window"
+   },
+   "openInNewWindow": {
+      "message": "Buksan sa bagong window"
+   },
+   "openInThisWindow": {
+      "message": "Buksan sa window na ito"
+   },
+   "openONETABLogo": {
+      "message": "Buksan ang ONETAB"
+   },
+   "openOneTab": {
+      "message": "Buksan ang OneTab"
+   },
+   "openOneTabAfter": {
+      "message": "Buksan ang OneTab pagkatapos maimbak ang mga tab"
+   },
+   "openTabFromWebsite": {
+      "message": "Magbukas ng tab at pumunta sa website"
+   },
+   "openTabLimit_few": {
+      "message": "Para maiwasang mabigatan ang iyong browser, hanggang {COUNT} tab lang ang puwedeng buksan nang sabay-sabay."
+   },
+   "openTabLimit_many": {
+      "message": "Para maiwasang mabigatan ang iyong browser, hanggang {COUNT} tab lang ang puwedeng buksan nang sabay-sabay."
+   },
+   "openTabLimit_one": {
+      "message": "Para maiwasang mabigatan ang iyong browser, hanggang {COUNT} tab lang ang puwedeng buksan nang sabay-sabay."
+   },
+   "openTabLimit_other": {
+      "message": "Para maiwasang mabigatan ang iyong browser, hanggang {COUNT} tab lang ang puwedeng buksan nang sabay-sabay."
+   },
+   "openTabLimit_two": {
+      "message": "Para maiwasang mabigatan ang iyong browser, hanggang {COUNT} tab lang ang puwedeng buksan nang sabay-sabay."
+   },
+   "openTabLimit_zero": {
+      "message": "Para maiwasang mabigatan ang iyong browser, hanggang {COUNT} tab lang ang puwedeng buksan nang sabay-sabay."
+   },
+   "openTabsAlreadyStoredHere_few": {
+      "message": "{COUNT} nakabukas na tab na nakaimbak na rito:"
+   },
+   "openTabsAlreadyStoredHere_many": {
+      "message": "{COUNT} nakabukas na tab na nakaimbak na rito:"
+   },
+   "openTabsAlreadyStoredHere_one": {
+      "message": "{COUNT} nakabukas na tab na nakaimbak na rito:"
+   },
+   "openTabsAlreadyStoredHere_other": {
+      "message": "{COUNT} nakabukas na tab na nakaimbak na rito:"
+   },
+   "openTabsAlreadyStoredHere_two": {
+      "message": "{COUNT} nakabukas na tab na nakaimbak na rito:"
+   },
+   "openTabsAlreadyStoredHere_zero": {
+      "message": "{COUNT} nakabukas na tab na nakaimbak na rito:"
+   },
+   "openTabsConfirm_few": {
+      "message": "Magbubukas ka ng {COUNT} tab. Sigurado ka ba?"
+   },
+   "openTabsConfirm_many": {
+      "message": "Magbubukas ka ng {COUNT} tab. Sigurado ka ba?"
+   },
+   "openTabsConfirm_one": {
+      "message": "Magbubukas ka ng {COUNT} tab. Sigurado ka ba?"
+   },
+   "openTabsConfirm_other": {
+      "message": "Magbubukas ka ng {COUNT} tab. Sigurado ka ba?"
+   },
+   "openTabsConfirm_two": {
+      "message": "Magbubukas ka ng {COUNT} tab. Sigurado ka ba?"
+   },
+   "openTabsConfirm_zero": {
+      "message": "Magbubukas ka ng {COUNT} tab. Sigurado ka ba?"
+   },
+   "openTabsNotStoredInOneTab_few": {
+      "message": "{COUNT} nakabukas na tab na hindi nakaimbak sa OneTab"
+   },
+   "openTabsNotStoredInOneTab_many": {
+      "message": "{COUNT} nakabukas na tab na hindi nakaimbak sa OneTab"
+   },
+   "openTabsNotStoredInOneTab_one": {
+      "message": "{COUNT} nakabukas na tab na hindi nakaimbak sa OneTab"
+   },
+   "openTabsNotStoredInOneTab_other": {
+      "message": "{COUNT} nakabukas na tab na hindi nakaimbak sa OneTab"
+   },
+   "openTabsNotStoredInOneTab_two": {
+      "message": "{COUNT} nakabukas na tab na hindi nakaimbak sa OneTab"
+   },
+   "openTabsNotStoredInOneTab_zero": {
+      "message": "{COUNT} nakabukas na tab na hindi nakaimbak sa OneTab"
+   },
+   "optionAutoActionOnGroupOpenArchiveDesc": {
+      "message": "Para maiwasang markahan ang grupo bilang naka-archive, hawakan ang Alt/Option key kapag nagki-click para buksan ang grupo"
+   },
+   "optionAutoActionOnGroupOpenArchiveTitle": {
+      "message": "Buksan ang mga tab, at markahan ang grupo bilang naka-archive"
+   },
+   "optionAutoActionOnGroupOpenHeading": {
+      "message": "Awtomatikong aksyon kapag nag-click para magbukas ng grupo ng mga tab:"
+   },
+   "optionAutoActionOnGroupOpenNote": {
+      "message": "Hindi ilalapat ang mga awtomatikong aksyon sa mga grupong naka-lock o mga gawain."
+   },
+   "optionAutoActionOnGroupOpenOpenDesc": {
+      "message": "Para markahan ang grupo bilang naka-archive, hawakan ang Alt/Option key kapag nagki-click para buksan ang grupo"
+   },
+   "optionAutoActionOnGroupOpenOpenTitle": {
+      "message": "Buksan lang ang mga tab"
+   },
+   "optionAutoActionOnGroupOpenTrashDesc": {
+      "message": "Para maiwasang awtomatikong ilipat ang grupo sa basurahan, hawakan ang Alt/Option key kapag nagki-click para buksan ang grupo"
+   },
+   "optionAutoActionOnGroupOpenTrashTitle": {
+      "message": "Buksan ang mga tab, at ilipat ang grupo sa basurahan"
+   },
+   "optionAutoActionOnTabOpenArchiveDesc": {
+      "message": "Para maiwasang awtomatikong markahan ang tab bilang naka-archive, hawakan ang Alt/Option key kapag nagki-click para buksan ang tab"
+   },
+   "optionAutoActionOnTabOpenArchiveTitle": {
+      "message": "Buksan ang tab, at markahan ito bilang naka-archive"
+   },
+   "optionAutoActionOnTabOpenHeading": {
+      "message": "Awtomatikong aksyon kapag nag-click para magbukas ng tab:"
+   },
+   "optionAutoActionOnTabOpenNote": {
+      "message": "Hindi ilalapat ang mga awtomatikong aksyon sa mga tab sa mga grupong naka-lock o mga gawain."
+   },
+   "optionAutoActionOnTabOpenOpenDesc": {
+      "message": "Para markahan ang tab bilang naka-archive, hawakan ang Alt/Option key kapag nagki-click para buksan ang tab"
+   },
+   "optionAutoActionOnTabOpenOpenTitle": {
+      "message": "Buksan lang ang tab"
+   },
+   "optionAutoActionOnTabOpenTrashDesc": {
+      "message": "Para maiwasang awtomatikong ilipat ang tab sa basurahan, hawakan ang Alt/Option key kapag nagki-click para buksan ang tab"
+   },
+   "optionAutoActionOnTabOpenTrashTitle": {
+      "message": "Buksan ang tab, at ilipat ito sa basurahan"
+   },
+   "optionCopyToClipboardFormatHeading": {
+      "message": "Pagkopya ng mga link sa clipboard:"
+   },
+   "optionCopyToClipboardFormatNote": {
+      "message": "Nalalapat ang setting na ito kapag ginamit mo ang aksyong 'Kopyahin sa clipboard'. Maaari mo ring i-drag ang mga tab at grupo direkta mula sa OneTab papunta sa isang dokumento."
+   },
+   "optionCopyToClipboardFormatRichTextDesc": {
+      "message": "Papayagan ka ng mga application gaya ng word processor na mag-paste ng rich text. Kung hindi suportado, plain text ang ipi-paste sa halip."
+   },
+   "optionCopyToClipboardFormatRichTextTitle": {
+      "message": "Rich text, kung available"
+   },
+   "optionCopyToClipboardFormatTitleUrlTitle": {
+      "message": "Pamagat at URL"
+   },
+   "optionCopyToClipboardFormatUrlOnlyTitle": {
+      "message": "URL lang"
+   },
+   "optionCopyToClipboardFormatUrlTitleTitle": {
+      "message": "URL at pamagat"
+   },
+   "optionDefaultTabGroupOpenTypeCurrentWindow": {
+      "message": "Buksan ang grupo ng tab ng browser sa kasalukuyang window"
+   },
+   "optionDefaultTabGroupOpenTypeHeading": {
+      "message": "Kapag nagki-click para magbukas ng grupo ng mga tab na nakatakdang buksan bilang isang \"grupo ng mga tab ng browser\":"
+   },
+   "optionDefaultTabGroupOpenTypeNewWindow": {
+      "message": "Buksan ang grupo ng tab ng browser sa bagong window"
+   },
+   "optionDefaultTabGroupOpenTypeNote": {
+      "message": "Kung gagamitin mo ang dropdown para pumili ng partikular na opsyon (hal., buksan ang mga tab sa isang Incognito window), maaalala ang opsyong iyon para sa partikular na grupong iyon."
+   },
+   "optionDefaultWindowGroupOpenTypeCurrentWindow": {
+      "message": "Buksan ang mga tab sa kasalukuyang window"
+   },
+   "optionDefaultWindowGroupOpenTypeHeading": {
+      "message": "Kapag nagki-click para magbukas ng grupo ng mga tab:"
+   },
+   "optionDefaultWindowGroupOpenTypeNewWindow": {
+      "message": "Buksan ang mga tab sa bagong window"
+   },
+   "optionDefaultWindowGroupOpenTypeNote": {
+      "message": "Kung gagamitin mo ang dropdown para pumili ng partikular na opsyon (hal., buksan ang mga tab sa isang Incognito window), maaalala ang opsyong iyon para sa partikular na grupong iyon."
+   },
+   "optionDiscardNonActiveTabOnOpenHeading": {
+      "message": "Mag-save ng memorya (RAM) kaagad kapag unang binuksan ang mga tab:"
+   },
+   "optionDiscardNonActiveTabOnOpenNote": {
+      "message": "Kung naka-enable ang setting na ito, agad nitong ia-unload mula sa memorya ang mga tab kapag una mo silang binuksan mula sa iyong listahan sa OneTab. Kapaki-pakinabang ito kung madalas kang magbukas ng dose-dosenang tab nang sabay-sabay, dahil maiiwasan nitong lahat silang ma-load sa memorya hangga’t hindi mo pa sila ina-access. Kung naka-disable ang setting na ito, awtomatikong pipiliin pa rin ng maraming web browser na i-unload ang mga tab mula sa memorya kung hindi mo sila kasalukuyang ginagamit."
+   },
+   "optionDisplayContextMenuHeading": {
+      "message": "Mag-right-click sa loob ng isang web page para ma-access ang context menu ng OneTab:"
+   },
+   "optionDisplayContextMenuNote": {
+      "message": "Kung i-disable mo ang menu, hindi mo maa-access ang feature na \"Huwag isama ang website sa OneTab\""
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenFalseTitle": {
+      "message": "Lumipat sa window kung saan nakabukas na ang tab ng OneTab"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenHeading": {
+      "message": "Aksyon na \"Buksan ang OneTab\":"
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenNote": {
+      "message": "Ma-a-access ang aksyong \"Buksan ang OneTab\" sa pamamagitan ng shortcut sa keyboard. Ma-a-access din ito sa pop-up na lumalabas kapag i-click mo ang icon ng OneTab sa toolbar ng browser mo."
+   },
+   "optionMoveOneTabToCurrentWindowOnOpenTrueTitle": {
+      "message": "Ilipat ang anumang umiiral na tab ng OneTab sa kasalukuyang window"
+   },
+   "optionStartupLaunchDisplay": {
+      "message": "Buksan ang OneTab kapag sinisimulan mo ang iyong web browser"
+   },
+   "optionStartupLaunchNone": {
+      "message": "Huwag awtomatikong buksan ang OneTab"
+   },
+   "optionStartupLaunchNoneDesc3": {
+      "message": "Para buksan nang mano-mano ang OneTab, i-click ang icon ng OneTab sa toolbar ng browser mo, at piliin ang 'Buksan ang OneTab'. Bilang alternatibo, maaari kang mag-right-click sa loob ng anumang web page, at i-click ang 'Buksan ang OneTab' sa loob ng menu ng OneTab."
+   },
+   "optionStartupLaunchTitle": {
+      "message": "Startup:"
+   },
+   "optionSwitchToOpenedTabFalseTitle": {
+      "message": "Buksan ang tab at manatili sa OneTab"
+   },
+   "optionSwitchToOpenedTabHeading": {
+      "message": "Kapag bumubukas ng mga tab mula sa pahina ng OneTab:"
+   },
+   "optionSwitchToOpenedTabNote": {
+      "message": "Kung hahawakan mo ang Shift kapag nagki-click, magbubukas ang tab sa bagong window"
+   },
+   "optionSwitchToOpenedTabTrueTitle": {
+      "message": "Buksan ang tab, at lumipat dito (maliban kung hawakan mo ang Command ⌘/Ctrl kapag nagki-click)"
+   },
+   "optionUrlAbbr": {
+      "message": "Pinaiikli"
+   },
+   "optionUrlDisplayTitle": {
+      "message": "Pagpapakita ng URL:"
+   },
+   "optionUrlDomain": {
+      "message": "Domain lamang"
+   },
+   "optionUrlFull": {
+      "message": "Buong URL"
+   },
+   "optionUrlNone": {
+      "message": "Wala"
+   },
+   "options": {
+      "message": "Mga opsyon"
+   },
+   "otherCopiesColon": {
+      "message": "Iba pang mga kopya:"
+   },
+   "pasteRichOrPlainTextBelow": {
+      "message": "Maaari kang mag-paste ng rich text o plain text sa ibaba."
+   },
+   "pendingTaskCount_few": {
+      "message": "{COUNT} nakabinbin"
+   },
+   "pendingTaskCount_many": {
+      "message": "{COUNT} nakabinbin"
+   },
+   "pendingTaskCount_one": {
+      "message": "{COUNT} nakabinbin"
+   },
+   "pendingTaskCount_other": {
+      "message": "{COUNT} nakabinbin"
+   },
+   "pendingTaskCount_two": {
+      "message": "{COUNT} nakabinbin"
+   },
+   "pendingTaskCount_zero": {
+      "message": "{COUNT} nakabinbin"
+   },
+   "permissionRequiredPleaseTryAgain": {
+      "message": "Upang makalikha ng ibinahaging pahina na maa-access mula sa anumang computer, kailangan ng pahintulot para makipag-ugnayan sa web server ng OneTab. Pakisubukang muli."
+   },
+   "pinToTopOfFolder": {
+      "message": "I-pin sa itaas ng folder"
+   },
+   "pinToTopOfList": {
+      "message": "I-pin sa itaas ng listahan"
+   },
+   "pinnedTabs": {
+      "message": "mga naka-pin na tab"
+   },
+   "placeholderAndOtherLocations_few": {
+      "message": "PLACEHOLDER, at {COUNT} iba pa"
+   },
+   "placeholderAndOtherLocations_many": {
+      "message": "PLACEHOLDER, at {COUNT} iba pa"
+   },
+   "placeholderAndOtherLocations_one": {
+      "message": "PLACEHOLDER, at {COUNT} pang iba"
+   },
+   "placeholderAndOtherLocations_other": {
+      "message": "PLACEHOLDER, at {COUNT} iba pa"
+   },
+   "placeholderAndOtherLocations_two": {
+      "message": "PLACEHOLDER, at {COUNT} iba pa"
+   },
+   "placeholderAndOtherLocations_zero": {
+      "message": "PLACEHOLDER, at {COUNT} iba pa"
+   },
+   "placeholderExplanation": {
+      "message": "Dahil sa mga panuntunan sa seguridad ng web browser, hindi pinapayagang i-restore ng OneTab nang direkta ang pahinang ito. Pakikopya ang iyong URL at i-paste ito sa address bar ng browser mo."
+   },
+   "plainTextLineFormat": {
+      "message": "Kung magpa-paste ka ng plain text, tiyaking may nakasaad na protocol ang bawat URL (https://wikipedia.org, sa halip na wikipedia.org lang). Dapat ganito ang format ng bawat linya:"
+   },
+   "pleaseWaitTripleDot": {
+      "message": "Pakihintay…"
+   },
+   "popupSlashShortcutInfo": {
+      "message": "Kapag nasa action pop-up ng OneTab (na lumalabas kapag i-click mo ang icon ng OneTab), pindutin ang slash key para buksan ang tagapili ng destinasyon at ituon ang search box."
+   },
+   "privacyAssurance": {
+      "message": "Pagtiyak sa privacy"
+   },
+   "privacyAssuranceDetail": {
+      "message": "Hindi kailanman ipinapadala o ibinubunyag ang listahan ng iyong mga tab sa mga developer ng OneTab o sa iba pang partido. Ang tanging eksepsiyon dito ay kung sinadya mong gamitin ang feature na 'share as a web page' para i-upload ang listahan ng iyong mga tab sa isang web page upang maibahagi mo ito sa iba."
+   },
+   "privacyFirst": {
+      "message": "Privacy muna"
+   },
+   "privacyFirstMessage": {
+      "message": "Idinisenyo ang OneTab para protektahan ang iyong pribadong data. Sa iyong computer lang nakaimbak ang iyong mga tab, at hindi kailanman ibinabahagi sa mga developer ng OneTab o sa iba pang partido.\nKung gagamitin mo ang aming backup/sync feature, ang iyong data ay end-to-end na naka-encrypt gamit ang matibay na AES-256 encryption. Dahil dito, imposibleng makita ng mga developer ng OneTab ang mga tab na na-backup o na-sync mo sa pagitan ng mga device, dahil ikaw lang ang may hawak ng encryption key.\nAng tanging eksepsiyon ay kung sinadya mong ibahagi ang ilan sa iyong mga tab sa ibang tao gamit ang aming \"Ibahagi bilang web page\" na feature.\nNaniniwala kami sa Privacy First."
+   },
+   "privateBrowsingPermissionRequired": {
+      "message": "Kailangan ng OneTab ng pahintulot para lumikha ng mga Pribadong Window."
+   },
+   "privateBrowsingWindows": {
+      "message": "Mga pribadong window sa pagba-browse"
+   },
+   "quickList": {
+      "message": "Mabilisang listahan"
+   },
+   "rating": {
+      "message": "Rating"
+   },
+   "readingList": {
+      "message": "Reading list"
+   },
+   "readingListPermissionNecesssary": {
+      "message": "Kinakailangan ang pahintulot sa Reading list para payagang ma-import ng OneTab ang mga item mula sa iyong Reading list. Kung hindi gumagana ang feature na ito, maaaring hindi sinusuportahan ng iyong browser ang mga Reading list."
+   },
+   "recent": {
+      "message": "Kamakailan"
+   },
+   "recentDestinationsColon": {
+      "message": "Mga kamakailang destinasyon:"
+   },
+   "recentDuplicateRetainedHelp": {
+      "message": "Kung lumitaw ang isang tab nang higit sa isang beses, ang pinakahuling duplikado lang ang pananatilihin"
+   },
+   "recentlyAccessed": {
+      "message": "Kamakailang na-access"
+   },
+   "recentlyCreated": {
+      "message": "Kamakailang nalikha"
+   },
+   "recentlyModified": {
+      "message": "Kamakailang binago"
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "message": "Bawasan ng 95% ang paggamit ng memorya"
+   },
+   "removeDuplicateTabsHere_few": {
+      "message": "Alisin ang {COUNT} duplikadong tab sa loob nito"
+   },
+   "removeDuplicateTabsHere_many": {
+      "message": "Alisin ang {COUNT} duplikadong tab sa loob nito"
+   },
+   "removeDuplicateTabsHere_one": {
+      "message": "Alisin ang {COUNT} duplikadong tab sa loob nito"
+   },
+   "removeDuplicateTabsHere_other": {
+      "message": "Alisin ang {COUNT} duplikadong tab sa loob nito"
+   },
+   "removeDuplicateTabsHere_two": {
+      "message": "Alisin ang {COUNT} duplikadong tab sa loob nito"
+   },
+   "removeDuplicateTabsHere_zero": {
+      "message": "Alisin ang {COUNT} duplikadong tab sa loob nito"
+   },
+   "removeDuplicates": {
+      "message": "Alisin ang mga duplikado"
+   },
+   "removeFromQuickList": {
+      "message": "Alisin sa mabilisang listahan"
+   },
+   "removeTabsElsewhereAlsoHere_few": {
+      "message": "Alisin ang {COUNT} tab sa ibang lokasyon na mayroon din dito"
+   },
+   "removeTabsElsewhereAlsoHere_many": {
+      "message": "Alisin ang {COUNT} tab sa ibang lokasyon na mayroon din dito"
+   },
+   "removeTabsElsewhereAlsoHere_one": {
+      "message": "Alisin ang {COUNT} tab sa ibang lokasyon na mayroon din dito"
+   },
+   "removeTabsElsewhereAlsoHere_other": {
+      "message": "Alisin ang {COUNT} tab sa ibang lokasyon na mayroon din dito"
+   },
+   "removeTabsElsewhereAlsoHere_two": {
+      "message": "Alisin ang {COUNT} tab sa ibang lokasyon na mayroon din dito"
+   },
+   "removeTabsElsewhereAlsoHere_zero": {
+      "message": "Alisin ang {COUNT} tab sa ibang lokasyon na mayroon din dito"
+   },
+   "removeTabsHereAlsoElsewhere_few": {
+      "message": "Alisin ang {COUNT} tab dito na mayroon din sa ibang lokasyon"
+   },
+   "removeTabsHereAlsoElsewhere_many": {
+      "message": "Alisin ang {COUNT} tab dito na mayroon din sa ibang lokasyon"
+   },
+   "removeTabsHereAlsoElsewhere_one": {
+      "message": "Alisin ang {COUNT} tab dito na mayroon din sa ibang lokasyon"
+   },
+   "removeTabsHereAlsoElsewhere_other": {
+      "message": "Alisin ang {COUNT} tab dito na mayroon din sa ibang lokasyon"
+   },
+   "removeTabsHereAlsoElsewhere_two": {
+      "message": "Alisin ang {COUNT} tab dito na mayroon din sa ibang lokasyon"
+   },
+   "removeTabsHereAlsoElsewhere_zero": {
+      "message": "Alisin ang {COUNT} tab dito na mayroon din sa ibang lokasyon"
+   },
+   "rename": {
+      "message": "Palitan ang pangalan"
+   },
+   "restore": {
+      "message": "Ibalik"
+   },
+   "restrictSearchToFolderColon": {
+      "message": "Ilimitahan ang paghahanap sa sumusunod na folder:"
+   },
+   "results": {
+      "message": "Mga resulta"
+   },
+   "returnToOneTab": {
+      "message": "Bumalik sa OneTab"
+   },
+   "reverse": {
+      "message": "Baligtarin"
+   },
+   "rightClickAndOpenOneTabMenu": {
+      "message": "Mag-right-click sa web page, at pumunta sa menu ng OneTab"
+   },
+   "rightClickMenuDisabledNote": {
+      "message": "Tandaan: Na-disable mo ang right-click na menu ng OneTab. Paki-enable ito sa loob ng page ng mga opsyon ng OneTab."
+   },
+   "rightClickSelectionOptionsTip": {
+      "message": "Tip: Kapag na-tsek mo na ang isang item, i-right-click ang icon ng tsek para lumabas ang higit pang opsyon sa pagpili"
+   },
+   "rightClickTickTip": {
+      "message": "Tip: I-right-click ang icon ng tsek sa tabi ng bawat tab para sa mga tool sa pagpili"
+   },
+   "safariApproveOneTabInSettings": {
+      "message": "Pumunta sa Mga Setting, at aprubahan ang OneTab para maka-access sa lahat ng website."
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "message": "Mag-save ng hanggang 95% na memorya at bawasan ang kalat ng mga tab sa Google Chrome"
+   },
+   "searchHere": {
+      "message": "Maghanap dito"
+   },
+   "searchOneTab": {
+      "message": "Maghanap sa OneTab"
+   },
+   "secondExampleLink": {
+      "message": "Pangalawang Halimbawang Link"
+   },
+   "secondExampleLinkTitle": {
+      "message": "Pangalawang Halimbawang Pamagat ng Link"
+   },
+   "secondExampleLinkTitleOptional": {
+      "message": "Pangalawang Halimbawang Pamagat ng Link (opsyonal)"
+   },
+   "seeOtherTabsInThisGroup_few": {
+      "message": "Tingnan ang {COUNT} iba pang tab sa grupong ito"
+   },
+   "seeOtherTabsInThisGroup_many": {
+      "message": "Tingnan ang {COUNT} iba pang tab sa grupong ito"
+   },
+   "seeOtherTabsInThisGroup_one": {
+      "message": "Tingnan ang {COUNT} iba pang tab sa grupong ito"
+   },
+   "seeOtherTabsInThisGroup_other": {
+      "message": "Tingnan ang {COUNT} iba pang tab sa grupong ito"
+   },
+   "seeOtherTabsInThisGroup_two": {
+      "message": "Tingnan ang {COUNT} iba pang tab sa grupong ito"
+   },
+   "seeOtherTabsInThisGroup_zero": {
+      "message": "Tingnan ang {COUNT} iba pang tab sa grupong ito"
+   },
+   "seePasteInstructions": {
+      "message": "Tingnan ang mga tagubilin sa pag-paste…"
+   },
+   "seeTabsInThisGroup_few": {
+      "message": "Tingnan ang {COUNT} tab sa grupong ito"
+   },
+   "seeTabsInThisGroup_many": {
+      "message": "Tingnan ang {COUNT} tab sa grupong ito"
+   },
+   "seeTabsInThisGroup_one": {
+      "message": "Tingnan ang {COUNT} tab sa grupong ito"
+   },
+   "seeTabsInThisGroup_other": {
+      "message": "Tingnan ang {COUNT} tab sa grupong ito"
+   },
+   "seeTabsInThisGroup_two": {
+      "message": "Tingnan ang {COUNT} tab sa grupong ito"
+   },
+   "seeTabsInThisGroup_zero": {
+      "message": "Tingnan ang {COUNT} tab sa grupong ito"
+   },
+   "selectAll": {
+      "message": "Piliin ang lahat"
+   },
+   "selectAllExceptThis": {
+      "message": "Piliin ang lahat maliban dito"
+   },
+   "selectThisAndAbove": {
+      "message": "Piliin ito at lahat ng nasa itaas"
+   },
+   "selectThisAndBelow": {
+      "message": "Piliin ito at lahat ng nasa ibaba"
+   },
+   "selectedItemCount_few": {
+      "message": "{COUNT} item"
+   },
+   "selectedItemCount_many": {
+      "message": "{COUNT} item"
+   },
+   "selectedItemCount_one": {
+      "message": "{COUNT} item"
+   },
+   "selectedItemCount_other": {
+      "message": "{COUNT} item"
+   },
+   "selectedItemCount_two": {
+      "message": "{COUNT} item"
+   },
+   "selectedItemCount_zero": {
+      "message": "{COUNT} item"
+   },
+   "selection": {
+      "message": "Pagpili"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "message": "Ipadala ang lahat ng tab mula sa lahat ng window sa OneTab"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "message": "Ipadala ang lahat ng tab maliban sa tab na ito sa OneTab"
+   },
+   "sendAllTabsInGroupToOneTab": {
+      "message": "Ipadala ang lahat ng tab sa grupo ng tab na ito sa OneTab"
+   },
+   "sendAllTabsInWindowToOneTab": {
+      "message": "Ipadala ang lahat ng tab sa window na ito sa OneTab"
+   },
+   "sendCurrentTabToOneTab": {
+      "message": "Ipadala ang kasalukuyang tab sa OneTab"
+   },
+   "sendLeftTabsToOneTab": {
+      "message": "Ipadala sa OneTab ang mga tab sa kaliwa"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "message": "Ipadala lang ang tab na ito sa OneTab"
+   },
+   "sendRightTabsToOneTab": {
+      "message": "Ipadala sa OneTab ang mga tab sa kanan"
+   },
+   "sendSelectedTabsToOneTab": {
+      "message": "Ipadala ang mga napiling tab sa OneTab"
+   },
+   "sendThisWebLinkToOneTab": {
+      "message": "Ipadala ang web link na ito sa OneTab"
+   },
+   "serverUnreachable": {
+      "message": "Hindi maabot ang server. Pakisuri ang iyong koneksyong internet."
+   },
+   "share": {
+      "message": "Ibahagi"
+   },
+   "shareAsAWebPage": {
+      "message": "Ibahagi bilang web page"
+   },
+   "shared": {
+      "message": "Ibinahagi"
+   },
+   "sharedExpiresColon": {
+      "message": "Ibinahagi bilang web page. Mawawalan ng bisa:"
+   },
+   "sharedPageOptions": {
+      "message": "Mga opsyon sa ibinahaging pahina"
+   },
+   "sharedPageTabLimit_few": {
+      "message": "Limitado sa {COUNT} tab ang mga ibinahaging pahina"
+   },
+   "sharedPageTabLimit_many": {
+      "message": "Limitado sa {COUNT} tab ang mga ibinahaging pahina"
+   },
+   "sharedPageTabLimit_one": {
+      "message": "Limitado sa {COUNT} tab ang mga ibinahaging pahina"
+   },
+   "sharedPageTabLimit_other": {
+      "message": "Limitado sa {COUNT} tab ang mga ibinahaging pahina"
+   },
+   "sharedPageTabLimit_two": {
+      "message": "Limitado sa {COUNT} tab ang mga ibinahaging pahina"
+   },
+   "sharedPageTabLimit_zero": {
+      "message": "Limitado sa {COUNT} tab ang mga ibinahaging pahina"
+   },
+   "sharedPageWillAutomaticallyExpire": {
+      "message": "Awtomatikong mawawalan ng bisa ang ibinahaging pahina, ngunit maaari mong pahabain ang petsa ng pag-expire anumang oras."
+   },
+   "shiftDragShortcutInfo": {
+      "message": "Hawakan ang Shift key kapag idino-drop ang isang tab para gumawa ng kopya nito sa halip na ilipat ito. Mahalaga: Pindutin lang ang Shift key pagkatapos mong simulan ang pagda-drag."
+   },
+   "showEverything": {
+      "message": "Ipakita ang lahat"
+   },
+   "showFoldersOnly": {
+      "message": "Ipakita ang mga folder lang"
+   },
+   "showNamedItemsOnly": {
+      "message": "Ipakita ang mga may pangalan lang"
+   },
+   "showNamedOnly": {
+      "message": "Ipakita ang mga may pangalan lang"
+   },
+   "showNextCount_few": {
+      "message": "Ipakita ang susunod na {COUNT}"
+   },
+   "showNextCount_many": {
+      "message": "Ipakita ang susunod na {COUNT}"
+   },
+   "showNextCount_one": {
+      "message": "Ipakita ang susunod na {COUNT}"
+   },
+   "showNextCount_other": {
+      "message": "Ipakita ang susunod na {COUNT}"
+   },
+   "showNextCount_two": {
+      "message": "Ipakita ang susunod na {COUNT}"
+   },
+   "showNextCount_zero": {
+      "message": "Ipakita ang susunod na {COUNT}"
+   },
+   "showPreviousCount_few": {
+      "message": "Ipakita ang naunang {COUNT}"
+   },
+   "showPreviousCount_many": {
+      "message": "Ipakita ang naunang {COUNT}"
+   },
+   "showPreviousCount_one": {
+      "message": "Ipakita ang naunang {COUNT}"
+   },
+   "showPreviousCount_other": {
+      "message": "Ipakita ang naunang {COUNT}"
+   },
+   "showPreviousCount_two": {
+      "message": "Ipakita ang naunang {COUNT}"
+   },
+   "showPreviousCount_zero": {
+      "message": "Ipakita ang naunang {COUNT}"
+   },
+   "soon": {
+      "message": "maya-maya"
+   },
+   "sort": {
+      "message": "Iayos"
+   },
+   "sortByColon": {
+      "message": "Iayos ayon sa:"
+   },
+   "sortGroups": {
+      "message": "Iayos ang mga grupo"
+   },
+   "sourceColon": {
+      "message": "Pinagmulan:"
+   },
+   "starRatingTooltip": {
+      "message": "Magtakda ng star rating"
+   },
+   "storeSelectedTabsInONETAB_few": {
+      "message": "Iimbak ang {COUNT} napiling tab sa ONETAB"
+   },
+   "storeSelectedTabsInONETAB_many": {
+      "message": "Iimbak ang {COUNT} napiling tab sa ONETAB"
+   },
+   "storeSelectedTabsInONETAB_one": {
+      "message": "Iimbak ang {COUNT} napiling tab sa ONETAB"
+   },
+   "storeSelectedTabsInONETAB_other": {
+      "message": "Iimbak ang {COUNT} napiling tab sa ONETAB"
+   },
+   "storeSelectedTabsInONETAB_two": {
+      "message": "Iimbak ang {COUNT} napiling tab sa ONETAB"
+   },
+   "storeSelectedTabsInONETAB_zero": {
+      "message": "Iimbak ang {COUNT} napiling tab sa ONETAB"
+   },
+   "storeTabInAdditionalLocation": {
+      "message": "Iimbak ang iyong tab sa isa pang lokasyon"
+   },
+   "storeTabInONETAB": {
+      "message": "Iimbak ang tab sa ONETAB"
+   },
+   "storeTabsInAdditionalLocation": {
+      "message": "Iimbak ang iyong mga tab sa isa pang lokasyon"
+   },
+   "storeTabsInONETAB": {
+      "message": "Iimbak ang mga tab sa ONETAB"
+   },
+   "subFoldersNotShared": {
+      "message": "Tandaan na hindi ibinabahagi ang mga sub-folder. Tanging ang mga grupo ng mga tab na direktang nasa loob ng folder ang ibinabahagi."
+   },
+   "tab": {
+      "message": "tab"
+   },
+   "tabAlreadyStoredHere": {
+      "message": "Nakaimbak na rito ang nakabukas mong tab:"
+   },
+   "tabCaretTooltipTitleNotes": {
+      "message": "I-edit ang pamagat at mga tala ng tab"
+   },
+   "tabCaretTooltipTitleNotesUrl": {
+      "message": "I-edit ang pamagat, URL, at mga tala ng tab"
+   },
+   "tabCount_few": {
+      "message": "{COUNT} tab"
+   },
+   "tabCount_many": {
+      "message": "{COUNT} tab"
+   },
+   "tabCount_one": {
+      "message": "{COUNT} tab"
+   },
+   "tabCount_other": {
+      "message": "{COUNT} tab"
+   },
+   "tabCount_two": {
+      "message": "{COUNT} tab"
+   },
+   "tabCount_zero": {
+      "message": "{COUNT} tab"
+   },
+   "tabGroupColorColon": {
+      "message": "Kulay ng grupo ng tab:"
+   },
+   "tabShortcutInfo": {
+      "message": "Kapag nasa pahina ng OneTab, pindutin ang tab key para ilipat ang focus sa pagitan ng mga grupo sa gitnang kolum. Pinadadali nitong malaktawan ang mga grupo, lalo na kung malalaki ang mga ito. Kapag may focus ang isang grupo, pindutin ang Enter para buksan ito. Gamitin ang Shift+Tab para ilipat pabalik ang focus."
+   },
+   "tabTotalCount_few": {
+      "message": "Kabuuan: {COUNT} tab"
+   },
+   "tabTotalCount_many": {
+      "message": "Kabuuan: {COUNT} tab"
+   },
+   "tabTotalCount_one": {
+      "message": "Kabuuan: {COUNT} tab"
+   },
+   "tabTotalCount_other": {
+      "message": "Kabuuan: {COUNT} tab"
+   },
+   "tabTotalCount_two": {
+      "message": "Kabuuan: {COUNT} tab"
+   },
+   "tabTotalCount_zero": {
+      "message": "Kabuuan: {COUNT} tab"
+   },
+   "tabs": {
+      "message": "Mga tab"
+   },
+   "tabsFromExcludedDomains": {
+      "message": "mga tab mula sa mga domain na hindi isinama"
+   },
+   "tabsInTabGroups": {
+      "message": "mga tab sa mga grupo ng tab"
+   },
+   "taskTotalCount_few": {
+      "message": "{COUNT} kabuuan"
+   },
+   "taskTotalCount_many": {
+      "message": "{COUNT} kabuuan"
+   },
+   "taskTotalCount_one": {
+      "message": "{COUNT} kabuuan"
+   },
+   "taskTotalCount_other": {
+      "message": "{COUNT} kabuuan"
+   },
+   "taskTotalCount_two": {
+      "message": "{COUNT} kabuuan"
+   },
+   "taskTotalCount_zero": {
+      "message": "{COUNT} kabuuan"
+   },
+   "tasks": {
+      "message": "Mga gawain"
+   },
+   "tasksDone": {
+      "message": "Mga gawain (natapos)"
+   },
+   "tasksPending": {
+      "message": "Mga gawain (nakabinbin)"
+   },
+   "tasksWillAppearHere": {
+      "message": "Kung markahan mo ang alinman sa iyong mga tab o grupo bilang mga gawain, lilitaw ang mga ito rito."
+   },
+   "thenClickToolbarIcon": {
+      "message": "Pagkatapos, i-click muli ang icon ng OneTab sa toolbar ng browser mo para magamit ang OneTab."
+   },
+   "thisFolderIsEmpty": {
+      "message": "Walang laman ang folder na ito"
+   },
+   "thisTab": {
+      "message": "Ang tab na ito"
+   },
+   "thisTabGroup": {
+      "message": "Ang grupo ng tab na ito"
+   },
+   "thisTabNotStored": {
+      "message": "Ang tab na ito ay hindi nakaimbak sa OneTab"
+   },
+   "thisWindow": {
+      "message": "Ang window na ito"
+   },
+   "tickOrUntickToExclude": {
+      "message": "I-tsek o alisin ang tsek para huwag isama ang website"
+   },
+   "title": {
+      "message": "Pamagat"
+   },
+   "toAddOrRemoveExclusions": {
+      "message": "Para magdagdag o mag-alis ng website mula sa listahan ng hindi isasama:"
+   },
+   "toAllowOneTabInIncognito": {
+      "message": "Para payagang lumabas ang icon ng OneTab sa mga Incognito window: "
+   },
+   "toImportBrowserBookmarksUseMenuOption": {
+      "message": "Para mag-import mula sa mga bookmark ng browser, gamitin ang opsyong menu na 'Mag-import ng mga link dito' sa iyong OneTab page"
+   },
+   "toMakeOpenButtonWorkApprovePermission": {
+      "message": "Para gumana ang button na \"Buksan\" sa mga ibinahaging pahina, aprubahan ang kahilingang pahintulot."
+   },
+   "toSaveChangesClickButton": {
+      "message": "Para i-save ang iyong mga pagbabago, i-click ang button"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "message": "Sobrang daming tab? Gawing listahan ang iyong mga tab at pabilisin ang Firefox"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "message": "Sobrang daming tab? Gawing listahan ang iyong mga tab at pabilisin ang Safari"
+   },
+   "total0Tabs": {
+      "message": "Kabuuan: 0 tab"
+   },
+   "trash": {
+      "message": "Basurahan"
+   },
+   "unMarkAsTask": {
+      "message": "Alisin ang marka bilang gawain"
+   },
+   "unPin": {
+      "message": "Alisin ang pin"
+   },
+   "unlock": {
+      "message": "I-unlock"
+   },
+   "unmarkAsArchived": {
+      "message": "Alisin ang markang naka-archive"
+   },
+   "unshare": {
+      "message": "Ihinto ang pagbahagi"
+   },
+   "untitled": {
+      "message": "Walang pamagat"
+   },
+   "update": {
+      "message": "I-update"
+   },
+   "userLanguage": {
+      "message": "Filipino"
+   },
+   "website": {
+      "message": "Website"
+   },
+   "yearCount_few": {
+      "message": "{COUNT} taon"
+   },
+   "yearCount_many": {
+      "message": "{COUNT} taon"
+   },
+   "yearCount_one": {
+      "message": "{COUNT} taon"
+   },
+   "yearCount_other": {
+      "message": "{COUNT} taon"
+   },
+   "yearCount_two": {
+      "message": "{COUNT} taon"
+   },
+   "yearCount_zero": {
+      "message": "{COUNT} taon"
+   },
+   "yourTabAlreadyStoredHere": {
+      "message": "Nakaimbak na rito ang iyong tab:"
+   }
+}

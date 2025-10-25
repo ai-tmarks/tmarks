@@ -2,6 +2,7 @@ import { db } from '@/lib/db';
 import { bookmarkAPI } from './bookmark-api';
 import { tagRecommender } from './tag-recommender';
 import type { SyncResult } from '@/types';
+import { PAGINATION } from '@/lib/constants/urls';
 
 export class CacheManager {
   /**
@@ -24,8 +25,8 @@ export class CacheManager {
       let totalBookmarks = 0;
       await db.bookmarks.clear();
 
-      while (page <= 100) { // Safety limit
-        const { bookmarks, hasMore } = await bookmarkAPI.getBookmarks(page, 100);
+      while (page <= PAGINATION.MAX_PAGES) { // Safety limit
+        const { bookmarks, hasMore } = await bookmarkAPI.getBookmarks(page, PAGINATION.DEFAULT_PAGE_SIZE);
 
         if (bookmarks.length > 0) {
           await db.bookmarks.bulkAdd(bookmarks);
