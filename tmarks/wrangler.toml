@@ -9,7 +9,7 @@ pages_build_output_dir = ".deploy"
 [[d1_databases]]
 binding = "DB"
 database_name = "tmarks-prod-db"
-database_id = "fe6b9048-ad82-4105-815c-df0588007cd2"
+database_id = "738dfa55-15d3-4851-b58b-a52e1b08bea4"
 
 # KV namespaces
 # 注意: 需要先创建KV命名空间,然后填入正确的ID
@@ -43,3 +43,4 @@ JWT_REFRESH_TOKEN_EXPIRES_IN = "365d"
 # - JWT_SECRET (至少32个字符的随机字符串)
 
 # - ENCRYPTION_KEY (至少32个字符的随机字符串)
+
