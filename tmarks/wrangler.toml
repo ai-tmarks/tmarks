@@ -9,7 +9,7 @@ pages_build_output_dir = ".deploy"
 [[d1_databases]]
 binding = "DB"
 database_name = "tmarks-prod-db"
-database_id = "bdfa6639-e25d-4698-ad13-a4f95b8c4aa7"
+database_id = "fe6b9048-ad82-4105-815c-df0588007cd2"
 
 # KV namespaces
 # 注意: 需要先创建KV命名空间,然后填入正确的ID
@@ -19,11 +19,11 @@ database_id = "bdfa6639-e25d-4698-ad13-a4f95b8c4aa7"
 
 [[kv_namespaces]]
 binding = "RATE_LIMIT_KV"
-id = "e0f338978b644876ba26910ec547daee"  # 需要先创建KV命名空间
+id = "fb8761fc50d24680ab295c9876ecdab7"  # 需要先创建KV命名空间
 
 [[kv_namespaces]]
 binding = "PUBLIC_SHARE_KV"
-id = "581d130ccef948d99db96ae246b3c810"  # 需要先创建KV命名空间
+id = "960897e88daa40a0b7a51c6f33116d00"  # 需要先创建KV命名空间
 
 # Environment variables
 # ⚠️ 安全警告: 敏感信息不应该提交到Git仓库!
@@ -41,4 +41,5 @@ JWT_REFRESH_TOKEN_EXPIRES_IN = "365d"
 
 # ⚠️ 敏感信息必须在Cloudflare Dashboard中配置:
 # - JWT_SECRET (至少32个字符的随机字符串)
+
 # - ENCRYPTION_KEY (至少32个字符的随机字符串)
