@@ -5,15 +5,15 @@ pages_build_output_dir = ".deploy"
 [[d1_databases]]
 binding = "DB"
 database_name = "tmarks-prod-db"
-database_id = "3d01ef25-44ca-48d6-a2e6-59aed5e29301"
+database_id = "bec281d2-04e2-4561-a7df-bf9484433d0c"
 
 [[kv_namespaces]]
 binding = "RATE_LIMIT_KV"
-id = "eb46a1f070ee4a6993461d49ec4bb0cd"  # 需要先创建KV命名空间
+id = "320ae9b22bc44f7db9f88af005e13a8c"  # 需要先创建KV命名空间
 
 [[kv_namespaces]]
 binding = "PUBLIC_SHARE_KV"
-id = "e382f11b91dc4eafa4d98a4e7a5e3791"  # 需要先创建KV命名空间
+id = "edab8017eb504f80810a0390af68416b"  # 需要先创建KV命名空间
 
 # Environment variables
 # ⚠️ 安全警告: 敏感信息不应该提交到Git仓库!
@@ -33,3 +33,4 @@ JWT_REFRESH_TOKEN_EXPIRES_IN = "365d"
 # - JWT_SECRET (至少32个字符的随机字符串)
 
 # - ENCRYPTION_KEY (至少32个字符的随机字符串)
+
