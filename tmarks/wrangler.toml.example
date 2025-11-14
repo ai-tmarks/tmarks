@@ -1,0 +1,32 @@
+name = "tmarks"
+compatibility_date = "2024-03-18"
+pages_build_output_dir = ".deploy"
+
+# ⚠️ 重要说明：
+# D1 和 KV 资源绑定请在 Cloudflare Pages Dashboard 中配置
+# 路径：项目设置 → 函数 → 绑定
+#
+# 需要绑定的资源：
+# - D1 数据库：变量名 DB，选择数据库 tmarks-prod-db
+# - KV 命名空间：变量名 RATE_LIMIT_KV
+# - KV 命名空间：变量名 PUBLIC_SHARE_KV
+#
+# 这样配置的好处：
+# 1. 不需要在代码中暴露资源 ID
+# 2. 拉取更新时不会覆盖你的配置
+# 3. 更安全，更灵活
+
+[vars]
+ALLOW_REGISTRATION = "true"
+ENVIRONMENT = "production"
+JWT_ACCESS_TOKEN_EXPIRES_IN = "365d"
+JWT_REFRESH_TOKEN_EXPIRES_IN = "365d"
+
+# ⚠️ 敏感环境变量请在 Dashboard 中配置：
+# 路径：项目设置 → 环境变量 → 生产环境
+# - JWT_SECRET
+# - ENCRYPTION_KEY
+#
+# 示例（仅供参考，请不要在仓库中提交真实密钥）：
+# JWT_SECRET = "your-long-random-jwt-secret-at-least-48-characters"
+# ENCRYPTION_KEY = "your-long-random-encryption-key-at-least-48-characters"

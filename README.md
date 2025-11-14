@@ -12,7 +12,7 @@
 
 简体中文
 
-[在线演示](https://tmarks.669696.xyz) | [问题反馈](https://github.com/yourusername/tmarks/issues)
+[在线演示](https://tmarks.669696.xyz) | [问题反馈](https://github.com/ai-tmarks/tmakrs/issues)
 
 </div>
 
@@ -46,7 +46,7 @@ TMarks 是一个现代化的智能书签管理系统，结合 AI 技术自动生
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/yourusername/tmarks.git
+git clone https://github.com/ai-tmarks/tmarks.git
 cd tmarks
 
 # 2. 安装依赖
@@ -86,43 +86,63 @@ pnpm dev
 **前置要求:**
 - Cloudflare 账号
 - GitHub 账号
-- 安装 Wrangler CLI: `npm install -g wrangler`
 
-**步骤:**
+**部署步骤:**
 
-1. **Fork 仓库并连接**
+1. **Fork 仓库**
    - Fork 本仓库到你的 GitHub
-   - 登录 [Cloudflare 控制台](https://dash.cloudflare.com/)
-   - Workers & Pages → 创建 → 连接到 Git → 选择你的仓库
 
-2. **配置构建**
-   - 根目录: `tmarks`
-   - 构建命令: `pnpm install && pnpm build:deploy`
-   - 构建输出目录: `.deploy`
+2. **创建 Cloudflare Pages 项目**
+   - 登录 [Cloudflare Dashboard](https://dash.cloudflare.com/)
+   - Workers & Pages → 创建 → 连接到 Git → 选择你的 Fork 仓库
+   - 配置构建设置：
+     - 根目录：`tmarks`
+     - 构建命令：`pnpm install && pnpm build:deploy`
+     - 构建输出目录：`.deploy`
+   - 保存并部署（首次部署会失败，继续下一步配置）
 
-3. **创建资源**
-   - 创建 D1 数据库: `tmarks-prod-db`
-   - 创建 KV 命名空间: `RATE_LIMIT_KV`
-   - 创建 KV 命名空间: `PUBLIC_SHARE_KV`
+3. **在控制台配置资源和环境变量**
+   
+   进入你的项目 → 设置：
+   
+   **a. 绑定 D1 数据库：**
+   - 设置 → 函数 → D1 数据库绑定 → 添加绑定
+   - 变量名：`DB`
+   - D1 数据库：创建新数据库 `tmarks-prod-db`
+   
+   **b. 绑定 KV 命名空间：**
+   - 设置 → 函数 → KV 命名空间绑定 → 添加绑定
+   - 第一个 KV：
+     - 变量名：`RATE_LIMIT_KV`
+     - KV 命名空间：创建新命名空间 `RATE_LIMIT_KV`
+   - 第二个 KV：
+     - 变量名：`PUBLIC_SHARE_KV`
+     - KV 命名空间：创建新命名空间 `PUBLIC_SHARE_KV`
+   
+   **c. 配置环境变量：**
+   - 路径：项目设置 → 环境变量 → 生产环境
+   - 建议添加以下业务配置（括号为推荐值，可按需调整）：
+     - `ALLOW_REGISTRATION`：是否允许新用户注册，推荐 "true"（设为非 "true" 的任意值——包括 "false" 或留空——都会关闭注册；**推荐的关闭方式是直接删除该变量，避免多处配置造成混淆**）
+     - `ENVIRONMENT`：当前运行环境，生产环境请设为 "production"
+     - `JWT_ACCESS_TOKEN_EXPIRES_IN`：访问 Token 有效期，推荐 "365d"
+     - `JWT_REFRESH_TOKEN_EXPIRES_IN`：刷新 Token 有效期，推荐 "365d"
+   - ⚠️ 敏感环境变量（务必通过 Dashboard 配置，不要写入代码仓库）：
+     - `JWT_SECRET`：JWT 签名密钥，建议使用至少 48 位随机字符串
+     - `ENCRYPTION_KEY`：数据加密密钥，建议使用至少 48 位随机字符串
+   - 本地或自托管部署时，可参考 `tmarks/wrangler.toml.example` 中的 `[vars]` 示例配置（业务配置可直接照抄，敏感密钥仅在 Dashboard 中填写真实值）。
 
-4. **配置 wrangler.toml**
-   将上一步的 ID 填入 `tmarks/wrangler.toml`
+4. **初始化数据库**
+   - Workers & Pages → D1 → 打开 `tmarks-prod-db`
+   - 打开仓库中的 `tmarks/migrations/d1_console_pure.sql` 文件
+   - 复制 SQL 内容并在 D1 控制台执行
 
-5. **运行数据库迁移**
-   ```bash
-   # 在 Cloudflare D1 控制台执行 SQL
-   # 文件路径: tmarks/migrations/d1_console_pure.sql
-   # 在控制台直接复制粘贴该文件内容并执行
-   ```
+5. **重新部署**
+   - 回到项目页面 → 部署 → 重试部署
+   - 等待构建完成即可访问
 
-6. **配置环境变量**
-   设置 → 环境变量 → 生产环境:
-   - `JWT_SECRET`: `openssl rand -base64 48`
-   - `ENCRYPTION_KEY`: `openssl rand -base64 48`
-
-7. **重新部署**
-   部署 → 重试部署
-
+**后续更新:**
+- 直接推送代码到 GitHub，Cloudflare 会自动构建部署
+- 所有配置都保存在 Dashboard 中，不会被代码更新影响
 
 ---
 
