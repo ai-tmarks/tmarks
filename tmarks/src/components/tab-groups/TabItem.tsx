@@ -1,7 +1,9 @@
-import { ExternalLink, Trash2, Edit2, Pin, CheckSquare, Check, X, GripVertical, FolderInput } from 'lucide-react'
+import { ExternalLink, Trash2, Edit2, Pin, CheckSquare, Check, X, GripVertical, FolderInput, MoreVertical } from 'lucide-react'
 import type { TabGroupItem } from '@/lib/types'
 import { useSortable } from '@dnd-kit/sortable'
 import { CSS } from '@dnd-kit/utilities'
+import { useIsMobile } from '@/hooks/useMediaQuery'
+import { DropdownMenu } from '@/components/common/DropdownMenu'
 
 interface TabItemProps {
   item: TabGroupItem
@@ -42,6 +44,8 @@ export function TabItem({
   setEditingTitle,
   extractDomain,
 }: TabItemProps) {
+  const isMobile = useIsMobile()
+
   const {
     attributes,
     listeners,
@@ -63,7 +67,9 @@ export function TabItem({
     <div
       ref={setNodeRef}
       style={style}
-      className={`group flex items-center gap-3 p-3 rounded border transition-all ${
+      className={`group flex items-center gap-3 rounded border transition-all ${
+        isMobile ? 'p-4 min-h-[60px]' : 'p-3'
+      } ${
         isHighlighted
           ? 'bg-warning/10 border-warning/30'
           : isSelected
@@ -148,7 +154,7 @@ export function TabItem({
 
       {/* Actions */}
       {!batchMode && (
-        <div className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+        <div className={`flex items-center gap-1 ${isMobile ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'} transition-opacity`}>
           {isEditing ? (
             <>
               <button
@@ -166,7 +172,50 @@ export function TabItem({
                 <X className="w-4 h-4" />
               </button>
             </>
+          ) : isMobile ? (
+            /* 移动端：使用下拉菜单 */
+            <DropdownMenu
+              trigger={
+                <button className="p-2 text-muted-foreground hover:bg-muted rounded transition-colors">
+                  <MoreVertical className="w-5 h-5" />
+                </button>
+              }
+              items={[
+                {
+                  label: '打开链接',
+                  icon: <ExternalLink className="w-4 h-4" />,
+                  onClick: () => window.open(item.url, '_blank'),
+                },
+                {
+                  label: '编辑',
+                  icon: <Edit2 className="w-4 h-4" />,
+                  onClick: () => onEditItem(item),
+                },
+                {
+                  label: item.is_pinned === 1 ? '取消固定' : '固定',
+                  icon: <Pin className="w-4 h-4" />,
+                  onClick: () => onTogglePin(groupId, item.id, item.is_pinned || 0),
+                },
+                {
+                  label: item.is_todo === 1 ? '取消待办' : '标记待办',
+                  icon: <CheckSquare className="w-4 h-4" />,
+                  onClick: () => onToggleTodo(groupId, item.id, item.is_todo || 0),
+                },
+                ...(onMoveItem ? [{
+                  label: '移动到其他组',
+                  icon: <FolderInput className="w-4 h-4" />,
+                  onClick: () => onMoveItem(item),
+                }] : []),
+                {
+                  label: '删除',
+                  icon: <Trash2 className="w-4 h-4" />,
+                  onClick: () => onDeleteItem(groupId, item.id, item.title),
+                  danger: true,
+                },
+              ]}
+            />
           ) : (
+            /* 桌面端：显示所有按钮 */
             <>
               <a
                 href={item.url}

@@ -620,21 +620,21 @@ export function BookmarksPage() {
               </div>
 
               {/* 排序选择、视图切换和新增按钮 */}
-              <div className="flex items-center gap-2 w-full sm:w-auto">
-                <div className="relative flex-1 sm:flex-initial">
+              <div className="flex items-center gap-1.5 sm:gap-2 w-full sm:w-auto overflow-x-auto scrollbar-hide">
+                <div className="relative flex-shrink-0">
                   <SortSelector
                     value={sortBy}
                     onChange={handleSortByChange}
-                    className="w-full sm:w-auto"
+                    className="w-auto"
                   />
                 </div>
 
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-1.5 sm:gap-2 flex-shrink-0">
                   <div className="relative">
                     <button
                       ref={visibilityMenuButtonRef}
                       onClick={toggleVisibilityMenu}
-                      className={`w-10 h-10 sm:w-11 sm:h-11 rounded-xl flex items-center justify-center transition-all shadow-float touch-manipulation ${
+                      className={`w-10 h-10 sm:w-11 sm:h-11 rounded-xl flex items-center justify-center transition-all shadow-float touch-manipulation flex-shrink-0 ${
                         visibilityFilter === 'all'
                           ? 'bg-muted text-foreground hover:bg-muted/80'
                           : visibilityFilter === 'public'
@@ -657,7 +657,7 @@ export function BookmarksPage() {
                         setSelectedIds([])
                       }
                     }}
-                    className={`w-10 h-10 sm:w-11 sm:h-11 rounded-xl flex items-center justify-center transition-all shadow-float touch-manipulation ${
+                    className={`w-10 h-10 sm:w-11 sm:h-11 rounded-xl flex items-center justify-center transition-all shadow-float touch-manipulation flex-shrink-0 ${
                       batchMode
                         ? 'bg-primary text-primary-foreground'
                         : 'bg-muted text-foreground hover:bg-muted/80'
@@ -673,7 +673,7 @@ export function BookmarksPage() {
                     <button
                       ref={viewMenuButtonRef}
                       onClick={toggleViewMenu}
-                      className="w-10 h-10 sm:w-11 sm:h-11 rounded-xl flex items-center justify-center transition-all shadow-float bg-muted text-foreground hover:bg-muted/80 touch-manipulation"
+                      className="w-10 h-10 sm:w-11 sm:h-11 rounded-xl flex items-center justify-center transition-all shadow-float bg-muted text-foreground hover:bg-muted/80 touch-manipulation flex-shrink-0"
                       title="切换视图"
                       aria-label="切换视图"
                       type="button"
@@ -684,7 +684,7 @@ export function BookmarksPage() {
 
                   <button
                     onClick={() => handleOpenForm()}
-                    className="w-12 h-12 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-br from-primary to-secondary text-primary-content flex items-center justify-center shrink-0 shadow-float hover:shadow-xl transition-all hover:scale-105 active:scale-95 touch-manipulation"
+                    className="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-br from-primary to-secondary text-primary-content flex items-center justify-center shadow-float hover:shadow-xl transition-all hover:scale-105 active:scale-95 touch-manipulation flex-shrink-0"
                     title="新增书签"
                     aria-label="新增书签"
                     type="button"
@@ -772,9 +772,9 @@ export function BookmarksPage() {
           />
 
           {/* 抽屉内容 */}
-          <div className="absolute left-0 top-0 bottom-0 w-80 max-w-[85vw] bg-background border-r border-border shadow-xl animate-in slide-in-from-left duration-300">
+          <div className="absolute left-0 top-0 bottom-0 w-80 max-w-[85vw] bg-background border-r border-border shadow-xl animate-in slide-in-from-left duration-300 flex flex-col">
             {/* 抽屉头部 */}
-            <div className="flex items-center justify-between p-4 border-b border-border bg-background">
+            <div className="flex items-center justify-between p-4 border-b border-border bg-background flex-shrink-0">
               <h3 className="text-lg font-semibold text-foreground">标签筛选</h3>
               <button
                 onClick={() => setIsTagSidebarOpen(false)}
@@ -788,7 +788,7 @@ export function BookmarksPage() {
             </div>
 
             {/* 抽屉内容区域 */}
-            <div className="flex-1 overflow-y-auto p-4 bg-background">
+            <div className="flex-1 overflow-y-auto p-4 bg-background min-h-0">
               <TagSidebar
                 selectedTags={selectedTags}
                 onTagsChange={(tags) => {

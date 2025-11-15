@@ -31,6 +31,17 @@ export function AlertDialog({
     }
   }, [isOpen])
 
+  // ESC 键关闭
+  useEffect(() => {
+    const handleEsc = (e: KeyboardEvent) => {
+      if (e.key === 'Escape' && isOpen) {
+        onConfirm()
+      }
+    }
+    window.addEventListener('keydown', handleEsc)
+    return () => window.removeEventListener('keydown', handleEsc)
+  }, [isOpen, onConfirm])
+
   const handleConfirm = () => {
     onConfirm()
   }
@@ -69,7 +80,7 @@ export function AlertDialog({
   const styles = getTypeStyles()
 
   const dialogContent = (
-    <div className="fixed inset-0 flex items-center justify-center p-4 animate-fade-in" style={{ zIndex: Z_INDEX.ALERT_DIALOG }}>
+    <div className="fixed inset-0 flex items-center justify-center p-4 sm:p-6 animate-fade-in" style={{ zIndex: Z_INDEX.ALERT_DIALOG }}>
       {/* 背景遮罩 - 用于点击关闭 */}
       <div
         className="absolute inset-0 bg-background/80 backdrop-blur-sm"
@@ -77,10 +88,10 @@ export function AlertDialog({
       />
 
       {/* 弹窗内容 */}
-      <div className="relative card rounded-3xl shadow-2xl border max-w-md w-full animate-scale-in" style={{backgroundColor: 'var(--card)', borderColor: 'var(--border)'}}>
+      <div className="relative card rounded-2xl sm:rounded-3xl shadow-2xl border max-w-md w-full animate-scale-in p-6 sm:p-8" style={{backgroundColor: 'var(--card)', borderColor: 'var(--border)'}}>
         {/* 图标区域 */}
-        <div className="flex justify-center mb-6">
-          <div className={`w-16 h-16 rounded-2xl ${styles.icon} ${styles.iconRing} ring-8 flex items-center justify-center shadow-lg`}>
+        <div className="flex justify-center mb-4 sm:mb-6">
+          <div className={`w-14 h-14 sm:w-16 sm:h-16 rounded-xl sm:rounded-2xl ${styles.icon} ${styles.iconRing} ring-4 sm:ring-8 flex items-center justify-center shadow-lg`}>
             {type === 'error' && (
               <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -105,13 +116,13 @@ export function AlertDialog({
         </div>
 
         {/* 内容区域 */}
-        <div className="text-center mb-8">
-          <h3 className="font-bold text-2xl mb-3 text-foreground">{title}</h3>
-          <p className="text-base text-muted-foreground leading-relaxed">{message}</p>
+        <div className="text-center mb-6 sm:mb-8">
+          <h3 className="font-bold text-xl sm:text-2xl mb-2 sm:mb-3 text-foreground">{title}</h3>
+          <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">{message}</p>
         </div>
 
         {/* 按钮 */}
-        <button onClick={handleConfirm} className="btn w-full">
+        <button onClick={handleConfirm} className="btn w-full min-h-[44px]">
           {confirmText}
         </button>
       </div>

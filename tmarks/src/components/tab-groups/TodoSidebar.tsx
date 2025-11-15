@@ -6,6 +6,7 @@ import { useToastStore } from '@/stores/toastStore'
 import { formatDistanceToNow } from 'date-fns'
 import { zhCN } from 'date-fns/locale'
 import { DropdownMenu } from '@/components/common/DropdownMenu'
+import { useIsMobile } from '@/hooks/useMediaQuery'
 
 interface TodoSidebarProps {
   tabGroups: TabGroup[]
@@ -13,6 +14,7 @@ interface TodoSidebarProps {
 }
 
 export function TodoSidebar({ tabGroups, onUpdate }: TodoSidebarProps) {
+  const isMobile = useIsMobile()
   const [processingId, setProcessingId] = useState<string | null>(null)
   const [editingItemId, setEditingItemId] = useState<string | null>(null)
   const [editingTitle, setEditingTitle] = useState('')
@@ -168,9 +170,9 @@ export function TodoSidebar({ tabGroups, onUpdate }: TodoSidebarProps) {
   }
 
   return (
-    <div className="w-full h-full bg-card border-l border-border overflow-y-auto flex flex-col">
+    <div className={`w-full h-full bg-card overflow-y-auto flex flex-col ${isMobile ? '' : 'border-l border-border'}`}>
       {/* 标题栏 */}
-      <div className="p-4 border-b border-border bg-muted sticky top-0 z-10 shadow-md">
+      <div className={`p-4 border-b border-border bg-muted sticky top-0 z-10 shadow-md ${isMobile ? 'pt-safe-area-top' : ''}`}>
         <div className="flex items-center gap-2">
           <ListTodo className="w-5 h-5 text-foreground" />
           <h2 className="text-lg font-bold text-foreground">待办事项</h2>
@@ -194,7 +196,7 @@ export function TodoSidebar({ tabGroups, onUpdate }: TodoSidebarProps) {
       </div>
 
       {/* TODO列表 */}
-      <div className="p-4 space-y-3">
+      <div className={`p-4 space-y-3 ${isMobile ? 'pb-20' : ''}`}>
         {sortedTodos.length === 0 ? (
           <div className="text-center py-16">
             <div className="w-20 h-20 bg-muted rounded-full flex items-center justify-center mx-auto mb-4">

@@ -27,6 +27,10 @@ import { useTabGroupActions } from '@/hooks/useTabGroupActions'
 import { useBatchActions } from '@/hooks/useBatchActions'
 import { searchInFields } from '@/lib/search-utils'
 import { MoveItemDialog } from '@/components/tab-groups/MoveItemDialog'
+import { useIsMobile, useIsDesktop } from '@/hooks/useMediaQuery'
+import { Drawer } from '@/components/common/Drawer'
+import { BottomNav } from '@/components/common/BottomNav'
+import { MobileHeader } from '@/components/common/MobileHeader'
 
 export function TabGroupsPage() {
   const [tabGroups, setTabGroups] = useState<TabGroup[]>([])
@@ -42,6 +46,11 @@ export function TabGroupsPage() {
   const [sharingGroupId, setSharingGroupId] = useState<string | null>(null)
   const [selectedGroupId, setSelectedGroupId] = useState<string | null>(null)
   const searchCleanupTimerRef = useRef<NodeJS.Timeout | null>(null)
+
+  // 移动端状态
+  const isMobile = useIsMobile()
+  const isDesktop = useIsDesktop()
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false)
 
   // Move item dialog state
   const [moveItemDialog, setMoveItemDialog] = useState<{
@@ -595,37 +604,72 @@ export function TabGroupsPage() {
   }
 
   return (
-    <div className="flex h-screen overflow-hidden bg-background">
-      {/* 左侧导航栏 */}
-      <ResizablePanel
-        side="left"
-        defaultWidth={240}
-        minWidth={200}
-        maxWidth={400}
-        storageKey="tab-groups-left-sidebar-width"
-      >
-        <TabGroupTree
-          tabGroups={tabGroups}
-          selectedGroupId={selectedGroupId}
-          onSelectGroup={setSelectedGroupId}
-          onCreateFolder={handleCreateFolder}
-          onRenameGroup={handleRenameGroup}
-          onMoveGroup={handleMoveGroup}
-          onRefresh={refreshTreeOnly}
+    <div className={`flex ${isMobile ? 'flex-col' : ''} h-screen overflow-hidden bg-background`}>
+      {/* 移动端顶部工具栏 */}
+      {isMobile && (
+        <MobileHeader
+          title="标签页组"
+          onMenuClick={() => setIsDrawerOpen(true)}
+          showSearch={false}
+          showMore={false}
         />
-      </ResizablePanel>
+      )}
+
+      {/* 左侧导航栏 - 桌面端显示，移动端改为抽屉 */}
+      {isDesktop ? (
+        <ResizablePanel
+          side="left"
+          defaultWidth={240}
+          minWidth={200}
+          maxWidth={400}
+          storageKey="tab-groups-left-sidebar-width"
+        >
+          <TabGroupTree
+            tabGroups={tabGroups}
+            selectedGroupId={selectedGroupId}
+            onSelectGroup={setSelectedGroupId}
+            onCreateFolder={handleCreateFolder}
+            onRenameGroup={handleRenameGroup}
+            onMoveGroup={handleMoveGroup}
+            onRefresh={refreshTreeOnly}
+          />
+        </ResizablePanel>
+      ) : (
+        <Drawer
+          isOpen={isDrawerOpen}
+          onClose={() => setIsDrawerOpen(false)}
+          title="标签页组"
+          side="left"
+        >
+          <TabGroupTree
+            tabGroups={tabGroups}
+            selectedGroupId={selectedGroupId}
+            onSelectGroup={(id) => {
+              setSelectedGroupId(id)
+              setIsDrawerOpen(false) // 选择后关闭抽屉
+            }}
+            onCreateFolder={handleCreateFolder}
+            onRenameGroup={handleRenameGroup}
+            onMoveGroup={handleMoveGroup}
+            onRefresh={refreshTreeOnly}
+          />
+        </Drawer>
+      )}
 
       {/* 中间内容区域 */}
-      <div className="flex-1 overflow-y-auto bg-muted/30">
-        <div className="container mx-auto px-4 py-6 max-w-7xl">
+      <div className={`flex-1 overflow-y-auto bg-muted/30 ${isMobile ? 'min-h-0' : ''}`}>
+        <div className={`container mx-auto px-4 max-w-7xl ${isMobile ? 'py-4 pb-20' : 'py-6'}`}>
           {/* Header */}
           <div className="mb-6">
             {/* Title and Search Bar in one row */}
             {tabGroups.length > 0 && (
               <div className="flex items-center gap-4 w-full">
-                <h1 className="text-xl font-semibold text-foreground whitespace-nowrap flex-shrink-0">
-                  标签页组
-                </h1>
+                {/* 桌面端显示标题 */}
+                {!isMobile && (
+                  <h1 className="text-xl font-semibold text-foreground whitespace-nowrap flex-shrink-0">
+                    标签页组
+                  </h1>
+                )}
                 <SearchBar
                   searchQuery={searchQuery}
                   onSearchChange={setSearchQuery}
@@ -772,19 +816,24 @@ export function TabGroupsPage() {
         </div>
       </div>
 
-      {/* 右侧TODO栏 */}
-      <ResizablePanel
-        side="right"
-        defaultWidth={320}
-        minWidth={280}
-        maxWidth={500}
-        storageKey="tab-groups-right-sidebar-width"
-      >
-        <TodoSidebar
-          tabGroups={tabGroups}
-          onUpdate={loadTabGroups}
-        />
-      </ResizablePanel>
+      {/* 右侧TODO栏 - 仅桌面端显示 */}
+      {isDesktop && (
+        <ResizablePanel
+          side="right"
+          defaultWidth={320}
+          minWidth={280}
+          maxWidth={500}
+          storageKey="tab-groups-right-sidebar-width"
+        >
+          <TodoSidebar
+            tabGroups={tabGroups}
+            onUpdate={loadTabGroups}
+          />
+        </ResizablePanel>
+      )}
+
+      {/* 移动端底部导航 */}
+      {isMobile && <BottomNav />}
     </div>
   )
 }

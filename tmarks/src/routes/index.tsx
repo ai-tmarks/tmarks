@@ -9,6 +9,7 @@ import { TabGroupsPage } from '@/pages/tab-groups/TabGroupsPage'
 import { TabGroupDetailPage } from '@/pages/tab-groups/TabGroupDetailPage'
 import { TrashPage } from '@/pages/tab-groups/TrashPage'
 import { StatisticsPage } from '@/pages/tab-groups/StatisticsPage'
+import { TodoPage } from '@/pages/tab-groups/TodoPage'
 import { ApiKeysPage } from '@/pages/settings/ApiKeysPage'
 import { ShareSettingsPage } from '@/pages/settings/ShareSettingsPage'
 import { ImportExportPage } from '@/pages/settings/ImportExportPage'
@@ -32,6 +33,7 @@ export function AppRouter() {
         <Route element={<AppShell />}>
           <Route path="/" element={<BookmarksPage />} />
           <Route path="/tab" element={<TabGroupsPage />} />
+          <Route path="/tab/todo" element={<TodoPage />} />
           <Route path="/tab/trash" element={<TrashPage />} />
           <Route path="/tab/statistics" element={<StatisticsPage />} />
           <Route path="/tab/:id" element={<TabGroupDetailPage />} />

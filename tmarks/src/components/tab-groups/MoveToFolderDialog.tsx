@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react'
+import { createPortal } from 'react-dom'
 import { Folder, Home, ChevronRight, ChevronDown } from 'lucide-react'
 import type { TabGroup } from '@/lib/types'
+import { Z_INDEX } from '@/lib/constants/z-index'
+import { useIsMobile } from '@/hooks/useMediaQuery'
 
 interface MoveToFolderDialogProps {
   isOpen: boolean
@@ -17,8 +20,32 @@ export function MoveToFolderDialog({
   onConfirm,
   onCancel,
 }: MoveToFolderDialogProps) {
+  const isMobile = useIsMobile()
   const [selectedFolderId, setSelectedFolderId] = useState<string | null>(null)
   const [expandedFolders, setExpandedFolders] = useState<Set<string>>(new Set())
+
+  // 阻止背景滚动
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = ''
+    }
+    return () => {
+      document.body.style.overflow = ''
+    }
+  }, [isOpen])
+
+  // ESC 键关闭
+  useEffect(() => {
+    const handleEsc = (e: KeyboardEvent) => {
+      if (e.key === 'Escape' && isOpen) {
+        onCancel()
+      }
+    }
+    window.addEventListener('keydown', handleEsc)
+    return () => window.removeEventListener('keydown', handleEsc)
+  }, [isOpen, onCancel])
 
   // 阻止背景滚动
   useEffect(() => {
@@ -139,33 +166,28 @@ export function MoveToFolderDialog({
 
   const rootFolders = buildTree(null)
 
-  return (
-    <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4 animate-fade-in">
-      {/* 背景遮罩 */}
-      <div
-        className="absolute inset-0 bg-background/80 backdrop-blur-sm"
-        onClick={handleCancel}
-      />
-
+  const dialogContent = (
+    <div className="fixed inset-0 flex items-center justify-center p-4 sm:p-6 animate-fade-in" style={{ zIndex: Z_INDEX.MOVE_TO_FOLDER_DIALOG }} onClick={handleCancel}>
       {/* 弹窗内容 */}
       <div
-        className="relative card rounded-3xl shadow-2xl border max-w-lg w-full animate-scale-in"
+        className={`relative card rounded-2xl sm:rounded-3xl shadow-2xl border max-w-lg w-full animate-scale-in ${isMobile ? 'p-4' : 'p-6'}`}
         style={{ backgroundColor: 'var(--card)', borderColor: 'var(--border)' }}
+        onClick={(e) => e.stopPropagation()}
       >
         {/* 标题 */}
-        <div className="mb-6">
-          <h3 className="font-bold text-2xl text-base-content">移动到文件夹</h3>
-          <p className="text-sm text-base-content/70 mt-2">
+        <div className={isMobile ? 'mb-4' : 'mb-6'}>
+          <h3 className={`font-bold text-base-content ${isMobile ? 'text-lg' : 'text-2xl'}`}>移动到文件夹</h3>
+          <p className={`text-base-content/70 mt-2 ${isMobile ? 'text-xs' : 'text-sm'}`}>
             选择目标文件夹，将"{currentGroup.title}"移动到该位置
           </p>
         </div>
 
         {/* 文件夹列表 */}
         <div
-          className="border rounded-xl overflow-hidden mb-6"
+          className={`border rounded-xl overflow-hidden ${isMobile ? 'mb-4' : 'mb-6'}`}
           style={{
             borderColor: 'var(--border)',
-            maxHeight: '400px',
+            maxHeight: isMobile ? '50vh' : '400px',
             overflowY: 'auto',
           }}
         >
@@ -196,13 +218,13 @@ export function MoveToFolderDialog({
         </div>
 
         {/* 按钮组 */}
-        <div className="flex gap-3">
-          <button onClick={handleCancel} className="btn btn-outline flex-1">
+        <div className={`flex gap-2 sm:gap-3 ${isMobile ? 'flex-col-reverse' : ''}`}>
+          <button onClick={handleCancel} className={`btn btn-outline flex-1 ${isMobile ? 'min-h-[44px]' : ''}`}>
             取消
           </button>
           <button
             onClick={handleConfirm}
-            className="btn flex-1"
+            className={`btn flex-1 ${isMobile ? 'min-h-[44px]' : ''}`}
             disabled={selectedFolderId === currentGroup.parent_id}
           >
             确定移动
@@ -211,5 +233,7 @@ export function MoveToFolderDialog({
       </div>
     </div>
   )
+
+  return createPortal(dialogContent, document.body)
 }
 

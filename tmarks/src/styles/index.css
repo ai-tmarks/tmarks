@@ -6,3 +6,22 @@
 
 /* 导入组件样式 */
 @import './components.css';
+
+/* 移动端安全区域支持 */
+@supports (padding: max(0px)) {
+  .safe-area-bottom {
+    padding-bottom: max(env(safe-area-inset-bottom), 0px);
+  }
+
+  .safe-area-top {
+    padding-top: max(env(safe-area-inset-top), 0px);
+  }
+
+  .safe-area-left {
+    padding-left: max(env(safe-area-inset-left), 0px);
+  }
+
+  .safe-area-right {
+    padding-right: max(env(safe-area-inset-right), 0px);
+  }
+}

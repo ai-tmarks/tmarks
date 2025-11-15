@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { X, Plus } from 'lucide-react'
+import { useIsMobile } from '@/hooks/useMediaQuery'
 
 interface TagsInputProps {
   tags: string[]
@@ -111,14 +112,29 @@ export function TagsInput({ tags, onTagsChange, onClose }: TagsInputProps) {
 }
 
 export function TagsList({ tags }: { tags: string[] | null }) {
+  const isMobile = useIsMobile()
+
   if (!tags || tags.length === 0) return null
 
   return (
-    <div className="flex flex-wrap gap-1.5">
+    <div
+      className={`flex gap-1.5 ${
+        isMobile
+          ? 'overflow-x-auto scrollbar-hide -mx-1 px-1'
+          : 'flex-wrap'
+      }`}
+      style={isMobile ? {
+        scrollbarWidth: 'none',
+        msOverflowStyle: 'none',
+        WebkitOverflowScrolling: 'touch'
+      } : undefined}
+    >
       {tags.map((tag) => (
         <span
           key={tag}
-          className="inline-flex items-center px-2 py-0.5 bg-primary/10 text-primary rounded text-xs"
+          className={`inline-flex items-center px-2 py-0.5 bg-primary/10 text-primary rounded text-xs ${
+            isMobile ? 'flex-shrink-0' : ''
+          }`}
         >
           {tag}
         </span>

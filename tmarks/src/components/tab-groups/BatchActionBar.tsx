@@ -1,4 +1,5 @@
 import { Trash2, Pin, CheckSquare, Download, X } from 'lucide-react'
+import { useIsMobile } from '@/hooks/useMediaQuery'
 
 interface BatchActionBarProps {
   selectedCount: number
@@ -21,12 +22,16 @@ export function BatchActionBar({
   onBatchExport,
   onCancel,
 }: BatchActionBarProps) {
+  const isMobile = useIsMobile()
+
   return (
-    <div className="bg-primary/10 border border-primary/20 rounded p-4 mb-6">
-      <div className="flex items-center justify-between">
-        <div className="flex items-center gap-4">
+    <div className={`bg-primary/10 border border-primary/20 rounded mb-6 ${
+      isMobile ? 'fixed bottom-16 left-0 right-0 z-20 rounded-none border-x-0 p-3' : 'p-4'
+    }`}>
+      <div className={`flex items-center ${isMobile ? 'flex-col gap-2' : 'justify-between'}`}>
+        <div className={`flex items-center ${isMobile ? 'w-full justify-between' : 'gap-4'}`}>
           <span className="text-sm font-medium text-foreground">
-            已选择 {selectedCount} 个标签页
+            已选择 {selectedCount} 个
           </span>
           <div className="flex items-center gap-2">
             <button
@@ -40,53 +45,53 @@ export function BatchActionBar({
               onClick={onDeselectAll}
               className="text-sm text-primary hover:text-primary/80 transition-colors"
             >
-              取消全选
+              取消
             </button>
           </div>
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className={`flex items-center gap-2 ${isMobile ? 'w-full justify-between' : ''}`}>
           <button
             onClick={onBatchPin}
-            className="flex items-center gap-2 px-3 py-1.5 border rounded hover:bg-muted transition-colors text-sm"
+            className={`flex items-center gap-2 px-3 py-1.5 border rounded hover:bg-muted transition-colors text-sm ${isMobile ? 'flex-1' : ''}`}
             style={{ backgroundColor: 'var(--card)', borderColor: 'var(--border)' }}
             disabled={selectedCount === 0}
           >
             <Pin className="w-4 h-4" />
-            固定
+            {!isMobile && '固定'}
           </button>
           <button
             onClick={onBatchTodo}
-            className="flex items-center gap-2 px-3 py-1.5 border rounded hover:bg-muted transition-colors text-sm"
+            className={`flex items-center gap-2 px-3 py-1.5 border rounded hover:bg-muted transition-colors text-sm ${isMobile ? 'flex-1' : ''}`}
             style={{ backgroundColor: 'var(--card)', borderColor: 'var(--border)' }}
             disabled={selectedCount === 0}
           >
             <CheckSquare className="w-4 h-4" />
-            待办
+            {!isMobile && '待办'}
           </button>
           <button
             onClick={onBatchExport}
-            className="flex items-center gap-2 px-3 py-1.5 border rounded hover:bg-muted transition-colors text-sm"
+            className={`flex items-center gap-2 px-3 py-1.5 border rounded hover:bg-muted transition-colors text-sm ${isMobile ? 'flex-1' : ''}`}
             style={{ backgroundColor: 'var(--card)', borderColor: 'var(--border)' }}
             disabled={selectedCount === 0}
           >
             <Download className="w-4 h-4" />
-            导出
+            {!isMobile && '导出'}
           </button>
           <button
             onClick={onBatchDelete}
-            className="flex items-center gap-2 px-3 py-1.5 bg-destructive text-destructive-foreground rounded hover:bg-destructive/90 transition-colors text-sm"
+            className={`flex items-center gap-2 px-3 py-1.5 bg-destructive text-destructive-foreground rounded hover:bg-destructive/90 transition-colors text-sm ${isMobile ? 'flex-1' : ''}`}
             disabled={selectedCount === 0}
           >
             <Trash2 className="w-4 h-4" />
-            删除
+            {!isMobile && '删除'}
           </button>
           <button
             onClick={onCancel}
-            className="flex items-center gap-2 px-3 py-1.5 bg-muted text-foreground rounded hover:bg-muted/80 transition-colors text-sm"
+            className={`flex items-center gap-2 px-3 py-1.5 bg-muted text-foreground rounded hover:bg-muted/80 transition-colors text-sm ${isMobile ? 'flex-1' : ''}`}
           >
             <X className="w-4 h-4" />
-            取消
+            {!isMobile && '取消'}
           </button>
         </div>
       </div>

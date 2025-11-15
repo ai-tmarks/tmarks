@@ -204,8 +204,8 @@ export function TagSidebar({
 
   return (
     <>
-      <div className="card flex flex-col h-full shadow-lg">
-        <div className="flex items-center justify-between mb-4 sm:mb-6">
+      <div className="card flex flex-col shadow-lg">
+        <div className="flex items-center justify-between mb-4 sm:mb-6 flex-shrink-0">
           <h3 className="text-lg sm:text-xl font-bold text-primary">
             标签
           </h3>
@@ -237,7 +237,7 @@ export function TagSidebar({
 
         {/* 创建标签表单 */}
         {!readOnly && showCreateForm && (
-          <form onSubmit={handleCreateTag} className="mb-4 sm:mb-5 animate-fade-in">
+          <form onSubmit={handleCreateTag} className="mb-4 sm:mb-5 animate-fade-in flex-shrink-0">
             <div className="flex gap-2">
               <input
                 type="text"
@@ -255,7 +255,7 @@ export function TagSidebar({
         )}
 
         {/* 搜索框和排序 */}
-        <div className="mb-4 sm:mb-5 space-y-3">
+        <div className="mb-4 sm:mb-5 space-y-3 flex-shrink-0">
           <div className="relative">
             <svg className="absolute left-3 sm:left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground/40 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
@@ -350,7 +350,7 @@ export function TagSidebar({
         </div>
 
         {/* 标签列表 */}
-        <div className="flex-1 overflow-y-auto scrollbar-hide p-1">
+        <div className="flex-1 overflow-y-auto scrollbar-hide p-1 min-h-0">
           {isTagLoading && (
             <div className="text-center py-8 text-muted-foreground/60 text-sm">
               <svg className="animate-spin h-6 w-6 mx-auto mb-2" viewBox="0 0 24 24" fill="none">

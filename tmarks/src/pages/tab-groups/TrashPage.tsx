@@ -8,8 +8,12 @@ import { zhCN } from 'date-fns/locale'
 import { useToastStore } from '@/stores/toastStore'
 import { ConfirmDialog } from '@/components/common/ConfirmDialog'
 import { logger } from '@/lib/logger'
+import { useIsMobile } from '@/hooks/useMediaQuery'
+import { MobileHeader } from '@/components/common/MobileHeader'
+import { BottomNav } from '@/components/common/BottomNav'
 
 export function TrashPage() {
+  const isMobile = useIsMobile()
   const { success, error: showError } = useToastStore()
   const [tabGroups, setTabGroups] = useState<TabGroup[]>([])
   const [isLoading, setIsLoading] = useState(true)
@@ -112,22 +116,36 @@ export function TrashPage() {
   }
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      {/* Header */}
-      <div className="mb-8">
-        <Link
-          to="/tab"
-          className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground mb-4 transition-colors"
-        >
-          <ArrowLeft className="w-5 h-5" />
-          <span>返回标签页组</span>
-        </Link>
-        <div className="flex items-center gap-3 mb-2">
-          <Archive className="w-8 h-8 text-muted-foreground" />
-          <h1 className="text-3xl font-bold text-foreground">回收站</h1>
-        </div>
-        <p className="text-muted-foreground">已删除的标签页组将保留在这里，可以恢复或永久删除</p>
-      </div>
+    <div className={`h-screen flex flex-col bg-background ${isMobile ? 'overflow-hidden' : ''}`}>
+      {/* 移动端顶部工具栏 */}
+      {isMobile && (
+        <MobileHeader
+          title="回收站"
+          showMenu={false}
+          showSearch={false}
+          showMore={false}
+        />
+      )}
+
+      <div className={`flex-1 overflow-y-auto ${isMobile ? 'pb-20 min-h-0' : ''}`}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          {/* Header - 桌面端显示 */}
+          {!isMobile && (
+            <div className="mb-8">
+              <Link
+                to="/tab"
+                className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground mb-4 transition-colors"
+              >
+                <ArrowLeft className="w-5 h-5" />
+                <span>返回标签页组</span>
+              </Link>
+              <div className="flex items-center gap-3 mb-2">
+                <Archive className="w-8 h-8 text-muted-foreground" />
+                <h1 className="text-3xl font-bold text-foreground">回收站</h1>
+              </div>
+              <p className="text-muted-foreground">已删除的标签页组将保留在这里，可以恢复或永久删除</p>
+            </div>
+          )}
 
       {/* Empty State */}
       {tabGroups.length === 0 ? (
@@ -188,14 +206,19 @@ export function TrashPage() {
         </div>
       )}
 
-      {/* Confirm Dialog */}
-      <ConfirmDialog
-        isOpen={confirmDialog.isOpen}
-        title={confirmDialog.title}
-        message={confirmDialog.message}
-        onConfirm={confirmDialog.onConfirm}
-        onCancel={() => setConfirmDialog({ ...confirmDialog, isOpen: false })}
-      />
+          {/* Confirm Dialog */}
+          <ConfirmDialog
+            isOpen={confirmDialog.isOpen}
+            title={confirmDialog.title}
+            message={confirmDialog.message}
+            onConfirm={confirmDialog.onConfirm}
+            onCancel={() => setConfirmDialog({ ...confirmDialog, isOpen: false })}
+          />
+        </div>
+      </div>
+
+      {/* 移动端底部导航 */}
+      {isMobile && <BottomNav />}
     </div>
   )
 }

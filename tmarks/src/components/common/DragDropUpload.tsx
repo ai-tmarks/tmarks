@@ -156,8 +156,8 @@ export function DragDropUpload({
   // 样式类名
   const containerClasses = [
     'relative border-2 border-dashed rounded-lg transition-all duration-200 cursor-pointer',
-    'hover:border-gray-400 dark:hover:border-gray-500',
-    'focus-within:ring-2 focus-within:ring-blue-500 focus-within:ring-offset-2',
+    'hover:border-muted-foreground/50',
+    'focus-within:ring-2 focus-within:ring-primary focus-within:ring-offset-2',
     className
   ]
 
@@ -165,12 +165,12 @@ export function DragDropUpload({
     containerClasses.push('opacity-50 cursor-not-allowed')
   } else if (state.isDragOver) {
     if (state.isValidDrag) {
-      containerClasses.push('border-green-500 bg-green-50 dark:bg-green-900/20')
+      containerClasses.push('border-success bg-success/10')
     } else {
-      containerClasses.push('border-red-500 bg-red-50 dark:bg-red-900/20')
+      containerClasses.push('border-destructive bg-destructive/10')
     }
   } else {
-    containerClasses.push('border-gray-300 dark:border-gray-600')
+    containerClasses.push('border-border')
   }
 
   return (
@@ -193,30 +193,30 @@ export function DragDropUpload({
         />
 
         {children || (
-          <div className="p-6 sm:p-8 text-center">
-            <div className="flex flex-col items-center space-y-3 sm:space-y-4">
+          <div className="p-8 text-center">
+            <div className="flex flex-col items-center space-y-4">
               {/* 图标 */}
-              <div className={`p-3 sm:p-3 rounded-full ${
+              <div className={`p-3 rounded-full ${
                 state.isDragOver
                   ? state.isValidDrag
-                    ? 'bg-green-100 dark:bg-green-900/30'
-                    : 'bg-red-100 dark:bg-red-900/30'
-                  : 'bg-gray-100 dark:bg-gray-800'
+                    ? 'bg-success/20'
+                    : 'bg-destructive/20'
+                  : 'bg-muted'
               }`}>
                 {state.isDragOver ? (
                   state.isValidDrag ? (
-                    <CheckCircle className="h-8 w-8 sm:h-8 sm:w-8 text-green-600 dark:text-green-400" />
+                    <CheckCircle className="h-8 w-8 text-success" />
                   ) : (
-                    <AlertCircle className="h-8 w-8 sm:h-8 sm:w-8 text-red-600 dark:text-red-400" />
+                    <AlertCircle className="h-8 w-8 text-destructive" />
                   )
                 ) : (
-                  <Upload className="h-8 w-8 sm:h-8 sm:w-8 text-gray-400" />
+                  <Upload className="h-8 w-8 text-muted-foreground" />
                 )}
               </div>
 
               {/* 文本 */}
-              <div className="space-y-2">
-                <p className="text-base sm:text-lg font-medium text-gray-900 dark:text-gray-100">
+              <div className="space-y-1">
+                <p className="text-base font-medium text-foreground">
                   {state.isDragOver
                     ? state.isValidDrag
                       ? '松开以上传文件'
@@ -224,17 +224,18 @@ export function DragDropUpload({
                     : '拖拽文件到此处或点击选择'
                   }
                 </p>
-                <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-400">
-                  {accept !== '*' && `支持格式: ${accept}`}
-                  {maxSize && ` • 最大 ${formatFileSize(maxSize)}`}
-                </p>
+                {accept !== '*' && !state.isDragOver && (
+                  <p className="text-sm text-muted-foreground">
+                    支持格式: {accept}
+                  </p>
+                )}
               </div>
 
               {/* 上传按钮 */}
               {!state.isDragOver && (
                 <button
                   type="button"
-                  className="inline-flex items-center px-4 py-3 sm:px-4 sm:py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-50 touch-manipulation"
+                  className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-primary-foreground bg-primary hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary disabled:opacity-50 touch-manipulation"
                   disabled={disabled}
                 >
                   <FileText className="h-4 w-4 mr-2" />
@@ -253,16 +254,16 @@ export function DragDropUpload({
 
       {/* 错误提示 */}
       {state.error && (
-        <div className="flex items-center justify-between p-3 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-md">
+        <div className="flex items-center justify-between p-3 bg-destructive/10 border border-destructive/20 rounded-md">
           <div className="flex items-center space-x-2">
-            <AlertCircle className="h-4 w-4 text-red-600 dark:text-red-400" />
-            <span className="text-sm text-red-700 dark:text-red-300">
+            <AlertCircle className="h-4 w-4 text-destructive" />
+            <span className="text-sm text-destructive">
               {state.error}
             </span>
           </div>
           <button
             onClick={clearError}
-            className="text-red-600 dark:text-red-400 hover:text-red-800 dark:hover:text-red-200"
+            className="text-destructive hover:text-destructive/80"
           >
             <span className="sr-only">关闭</span>
             ×

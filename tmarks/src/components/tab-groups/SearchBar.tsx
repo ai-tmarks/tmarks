@@ -1,6 +1,7 @@
 import { Search, CheckCircle, BarChart3, Archive, ArrowUpDown } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { type SortOption } from './SortSelector'
+import { useIsMobile } from '@/hooks/useMediaQuery'
 
 interface SearchBarProps {
   searchQuery: string
@@ -19,6 +20,8 @@ export function SearchBar({
   onBatchModeToggle,
   batchMode,
 }: SearchBarProps) {
+  const isMobile = useIsMobile()
+
   const sortOptions: { value: SortOption; label: string }[] = [
     { value: 'created', label: '按创建时间' },
     { value: 'title', label: '按标题' },
@@ -28,7 +31,7 @@ export function SearchBar({
   const currentSortLabel = sortOptions.find(opt => opt.value === sortBy)?.label || '排序'
 
   return (
-    <div className="flex items-center gap-3 flex-1">
+    <div className="flex items-center gap-2 flex-1">
       {/* Search Input */}
       <div className="flex-1 relative min-w-0">
         <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
@@ -73,23 +76,27 @@ export function SearchBar({
         <CheckCircle className="w-5 h-5" />
       </button>
 
-      {/* Statistics Link - Icon Only */}
-      <Link
-        to="/tab/statistics"
-        className="w-10 h-10 flex-shrink-0 flex items-center justify-center border border-border rounded hover:bg-muted transition-colors text-muted-foreground"
-        title="统计"
-      >
-        <BarChart3 className="w-5 h-5" />
-      </Link>
+      {/* Statistics Link - 移动端隐藏（在底部导航） */}
+      {!isMobile && (
+        <Link
+          to="/tab/statistics"
+          className="w-10 h-10 flex-shrink-0 flex items-center justify-center border border-border rounded hover:bg-muted transition-colors text-muted-foreground"
+          title="统计"
+        >
+          <BarChart3 className="w-5 h-5" />
+        </Link>
+      )}
 
-      {/* Trash Link - Icon Only */}
-      <Link
-        to="/tab/trash"
-        className="w-10 h-10 flex-shrink-0 flex items-center justify-center border border-border rounded hover:bg-muted transition-colors text-muted-foreground"
-        title="回收站"
-      >
-        <Archive className="w-5 h-5" />
-      </Link>
+      {/* Trash Link - 移动端隐藏（在底部导航） */}
+      {!isMobile && (
+        <Link
+          to="/tab/trash"
+          className="w-10 h-10 flex-shrink-0 flex items-center justify-center border border-border rounded hover:bg-muted transition-colors text-muted-foreground"
+          title="回收站"
+        >
+          <Archive className="w-5 h-5" />
+        </Link>
+      )}
     </div>
   )
 }
