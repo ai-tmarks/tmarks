@@ -1,4 +1,4 @@
-import { Download, Chrome, CheckCircle, AlertCircle, Globe } from 'lucide-react'
+import { Download, Chrome, CheckCircle, AlertCircle } from 'lucide-react'
 
 export function ExtensionPage() {
   const handleDownload = (browser: 'chrome' | 'firefox' | 'edge' | 'opera' | 'brave' | '360' | 'qq' | 'sogou') => {
@@ -33,89 +33,89 @@ export function ExtensionPage() {
 
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-3">
           {/* Chrome */}
-          <div className="text-center p-3 rounded-xl border-2 transition-all" style={{ background: 'var(--card)', borderColor: 'var(--border)' }}>
-            <div className="w-10 h-10 mx-auto mb-2 rounded-full bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center">
-              <Chrome className="w-6 h-6 text-white" />
+          <div className="text-center p-3 rounded-xl border-2 transition-all hover:border-primary" style={{ background: 'var(--card)', borderColor: 'var(--border)' }}>
+            <div className="w-10 h-10 mx-auto mb-2 flex items-center justify-center">
+              <Chrome className="w-10 h-10" style={{ color: 'var(--foreground)' }} />
             </div>
             <h3 className="text-sm font-bold mb-1" style={{ color: 'var(--foreground)' }}>Chrome</h3>
-            <button onClick={() => handleDownload('chrome')} className="w-full inline-flex items-center justify-center gap-1 px-3 py-1.5 rounded-lg bg-gradient-to-br from-blue-500 to-blue-600 text-white text-xs font-semibold shadow-lg hover:shadow-xl transition-all hover:scale-105 active:scale-95">
+            <button onClick={() => handleDownload('chrome')} className="w-full inline-flex items-center justify-center gap-1 px-3 py-1.5 rounded-lg bg-primary text-primary-foreground text-xs font-semibold shadow-sm hover:shadow-md transition-all hover:scale-105 active:scale-95">
               <Download className="w-3 h-3" />下载
             </button>
           </div>
 
           {/* Firefox */}
-          <div className="text-center p-3 rounded-xl border-2 transition-all" style={{ background: 'var(--card)', borderColor: 'var(--border)' }}>
-            <div className="w-10 h-10 mx-auto mb-2 rounded-full bg-gradient-to-br from-orange-500 to-orange-600 flex items-center justify-center">
-              <Globe className="w-6 h-6 text-white" />
+          <div className="text-center p-3 rounded-xl border-2 transition-all hover:border-primary" style={{ background: 'var(--card)', borderColor: 'var(--border)' }}>
+            <div className="w-10 h-10 mx-auto mb-2 flex items-center justify-center">
+              <Chrome className="w-10 h-10" style={{ color: 'var(--foreground)' }} />
             </div>
             <h3 className="text-sm font-bold mb-1" style={{ color: 'var(--foreground)' }}>Firefox</h3>
-            <button onClick={() => handleDownload('firefox')} className="w-full inline-flex items-center justify-center gap-1 px-3 py-1.5 rounded-lg bg-gradient-to-br from-orange-500 to-orange-600 text-white text-xs font-semibold shadow-lg hover:shadow-xl transition-all hover:scale-105 active:scale-95">
+            <button onClick={() => handleDownload('firefox')} className="w-full inline-flex items-center justify-center gap-1 px-3 py-1.5 rounded-lg bg-primary text-primary-foreground text-xs font-semibold shadow-sm hover:shadow-md transition-all hover:scale-105 active:scale-95">
               <Download className="w-3 h-3" />下载
             </button>
           </div>
 
           {/* Edge */}
-          <div className="text-center p-3 rounded-xl border-2 transition-all" style={{ background: 'var(--card)', borderColor: 'var(--border)' }}>
-            <div className="w-10 h-10 mx-auto mb-2 rounded-full bg-gradient-to-br from-blue-600 to-blue-700 flex items-center justify-center">
-              <Chrome className="w-6 h-6 text-white" />
+          <div className="text-center p-3 rounded-xl border-2 transition-all hover:border-primary" style={{ background: 'var(--card)', borderColor: 'var(--border)' }}>
+            <div className="w-10 h-10 mx-auto mb-2 flex items-center justify-center">
+              <Chrome className="w-10 h-10" style={{ color: 'var(--foreground)' }} />
             </div>
             <h3 className="text-sm font-bold mb-1" style={{ color: 'var(--foreground)' }}>Edge</h3>
-            <button onClick={() => handleDownload('edge')} className="w-full inline-flex items-center justify-center gap-1 px-3 py-1.5 rounded-lg bg-gradient-to-br from-blue-600 to-blue-700 text-white text-xs font-semibold shadow-lg hover:shadow-xl transition-all hover:scale-105 active:scale-95">
+            <button onClick={() => handleDownload('edge')} className="w-full inline-flex items-center justify-center gap-1 px-3 py-1.5 rounded-lg bg-primary text-primary-foreground text-xs font-semibold shadow-sm hover:shadow-md transition-all hover:scale-105 active:scale-95">
               <Download className="w-3 h-3" />下载
             </button>
           </div>
 
           {/* Opera */}
-          <div className="text-center p-3 rounded-xl border-2 transition-all" style={{ background: 'var(--card)', borderColor: 'var(--border)' }}>
-            <div className="w-10 h-10 mx-auto mb-2 rounded-full bg-gradient-to-br from-red-500 to-red-600 flex items-center justify-center">
-              <Globe className="w-6 h-6 text-white" />
+          <div className="text-center p-3 rounded-xl border-2 transition-all hover:border-primary" style={{ background: 'var(--card)', borderColor: 'var(--border)' }}>
+            <div className="w-10 h-10 mx-auto mb-2 flex items-center justify-center">
+              <Chrome className="w-10 h-10" style={{ color: 'var(--foreground)' }} />
             </div>
             <h3 className="text-sm font-bold mb-1" style={{ color: 'var(--foreground)' }}>Opera</h3>
-            <button onClick={() => handleDownload('opera')} className="w-full inline-flex items-center justify-center gap-1 px-3 py-1.5 rounded-lg bg-gradient-to-br from-red-500 to-red-600 text-white text-xs font-semibold shadow-lg hover:shadow-xl transition-all hover:scale-105 active:scale-95">
+            <button onClick={() => handleDownload('opera')} className="w-full inline-flex items-center justify-center gap-1 px-3 py-1.5 rounded-lg bg-primary text-primary-foreground text-xs font-semibold shadow-sm hover:shadow-md transition-all hover:scale-105 active:scale-95">
               <Download className="w-3 h-3" />下载
             </button>
           </div>
 
           {/* Brave */}
-          <div className="text-center p-3 rounded-xl border-2 transition-all" style={{ background: 'var(--card)', borderColor: 'var(--border)' }}>
-            <div className="w-10 h-10 mx-auto mb-2 rounded-full bg-gradient-to-br from-orange-600 to-orange-700 flex items-center justify-center">
-              <Chrome className="w-6 h-6 text-white" />
+          <div className="text-center p-3 rounded-xl border-2 transition-all hover:border-primary" style={{ background: 'var(--card)', borderColor: 'var(--border)' }}>
+            <div className="w-10 h-10 mx-auto mb-2 flex items-center justify-center">
+              <Chrome className="w-10 h-10" style={{ color: 'var(--foreground)' }} />
             </div>
             <h3 className="text-sm font-bold mb-1" style={{ color: 'var(--foreground)' }}>Brave</h3>
-            <button onClick={() => handleDownload('brave')} className="w-full inline-flex items-center justify-center gap-1 px-3 py-1.5 rounded-lg bg-gradient-to-br from-orange-600 to-orange-700 text-white text-xs font-semibold shadow-lg hover:shadow-xl transition-all hover:scale-105 active:scale-95">
+            <button onClick={() => handleDownload('brave')} className="w-full inline-flex items-center justify-center gap-1 px-3 py-1.5 rounded-lg bg-primary text-primary-foreground text-xs font-semibold shadow-sm hover:shadow-md transition-all hover:scale-105 active:scale-95">
               <Download className="w-3 h-3" />下载
             </button>
           </div>
 
           {/* 360浏览器 */}
-          <div className="text-center p-3 rounded-xl border-2 transition-all" style={{ background: 'var(--card)', borderColor: 'var(--border)' }}>
-            <div className="w-10 h-10 mx-auto mb-2 rounded-full bg-gradient-to-br from-green-500 to-green-600 flex items-center justify-center">
-              <Chrome className="w-6 h-6 text-white" />
+          <div className="text-center p-3 rounded-xl border-2 transition-all hover:border-primary" style={{ background: 'var(--card)', borderColor: 'var(--border)' }}>
+            <div className="w-10 h-10 mx-auto mb-2 flex items-center justify-center">
+              <Chrome className="w-10 h-10" style={{ color: 'var(--foreground)' }} />
             </div>
             <h3 className="text-sm font-bold mb-1" style={{ color: 'var(--foreground)' }}>360</h3>
-            <button onClick={() => handleDownload('360')} className="w-full inline-flex items-center justify-center gap-1 px-3 py-1.5 rounded-lg bg-gradient-to-br from-green-500 to-green-600 text-white text-xs font-semibold shadow-lg hover:shadow-xl transition-all hover:scale-105 active:scale-95">
+            <button onClick={() => handleDownload('360')} className="w-full inline-flex items-center justify-center gap-1 px-3 py-1.5 rounded-lg bg-primary text-primary-foreground text-xs font-semibold shadow-sm hover:shadow-md transition-all hover:scale-105 active:scale-95">
               <Download className="w-3 h-3" />下载
             </button>
           </div>
 
           {/* QQ浏览器 */}
-          <div className="text-center p-3 rounded-xl border-2 transition-all" style={{ background: 'var(--card)', borderColor: 'var(--border)' }}>
-            <div className="w-10 h-10 mx-auto mb-2 rounded-full bg-gradient-to-br from-blue-400 to-blue-500 flex items-center justify-center">
-              <Chrome className="w-6 h-6 text-white" />
+          <div className="text-center p-3 rounded-xl border-2 transition-all hover:border-primary" style={{ background: 'var(--card)', borderColor: 'var(--border)' }}>
+            <div className="w-10 h-10 mx-auto mb-2 flex items-center justify-center">
+              <Chrome className="w-10 h-10" style={{ color: 'var(--foreground)' }} />
             </div>
             <h3 className="text-sm font-bold mb-1" style={{ color: 'var(--foreground)' }}>QQ</h3>
-            <button onClick={() => handleDownload('qq')} className="w-full inline-flex items-center justify-center gap-1 px-3 py-1.5 rounded-lg bg-gradient-to-br from-blue-400 to-blue-500 text-white text-xs font-semibold shadow-lg hover:shadow-xl transition-all hover:scale-105 active:scale-95">
+            <button onClick={() => handleDownload('qq')} className="w-full inline-flex items-center justify-center gap-1 px-3 py-1.5 rounded-lg bg-primary text-primary-foreground text-xs font-semibold shadow-sm hover:shadow-md transition-all hover:scale-105 active:scale-95">
               <Download className="w-3 h-3" />下载
             </button>
           </div>
 
           {/* 搜狗浏览器 */}
-          <div className="text-center p-3 rounded-xl border-2 transition-all" style={{ background: 'var(--card)', borderColor: 'var(--border)' }}>
-            <div className="w-10 h-10 mx-auto mb-2 rounded-full bg-gradient-to-br from-orange-400 to-orange-500 flex items-center justify-center">
-              <Chrome className="w-6 h-6 text-white" />
+          <div className="text-center p-3 rounded-xl border-2 transition-all hover:border-primary" style={{ background: 'var(--card)', borderColor: 'var(--border)' }}>
+            <div className="w-10 h-10 mx-auto mb-2 flex items-center justify-center">
+              <Chrome className="w-10 h-10" style={{ color: 'var(--foreground)' }} />
             </div>
             <h3 className="text-sm font-bold mb-1" style={{ color: 'var(--foreground)' }}>搜狗</h3>
-            <button onClick={() => handleDownload('sogou')} className="w-full inline-flex items-center justify-center gap-1 px-3 py-1.5 rounded-lg bg-gradient-to-br from-orange-400 to-orange-500 text-white text-xs font-semibold shadow-lg hover:shadow-xl transition-all hover:scale-105 active:scale-95">
+            <button onClick={() => handleDownload('sogou')} className="w-full inline-flex items-center justify-center gap-1 px-3 py-1.5 rounded-lg bg-primary text-primary-foreground text-xs font-semibold shadow-sm hover:shadow-md transition-all hover:scale-105 active:scale-95">
               <Download className="w-3 h-3" />下载
             </button>
           </div>
