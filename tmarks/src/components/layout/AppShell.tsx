@@ -12,6 +12,7 @@ import { useAuthStore } from '@/stores/authStore'
 import { ThemeToggle } from '@/components/common/ThemeToggle'
 import { ColorThemeSelector } from '@/components/common/ColorThemeSelector'
 import { MobileBottomNav } from '@/components/layout/MobileBottomNav'
+import { Footer } from '@/components/layout/Footer'
 
 export function AppShell() {
   const { theme, colorTheme } = useThemeStore()
@@ -142,10 +143,11 @@ export function AppShell() {
       </header>
 
       {/* 主内容区 */}
-      <main className="w-full px-3 sm:px-6 pb-16 sm:pb-0">
-        <div className="mx-auto" style={{ maxWidth: '100%' }}>
+      <main className="w-full px-3 sm:px-6 pb-16 sm:pb-0 flex flex-col min-h-0 flex-1">
+        <div className="mx-auto flex-1" style={{ maxWidth: '100%' }}>
           <Outlet />
         </div>
+        <Footer />
       </main>
 
       {/* 移动端底部导航 */}

@@ -17,6 +17,10 @@ import { PermissionsPage } from '@/pages/settings/PermissionsPage'
 import { GeneralSettingsPage } from '@/pages/settings/GeneralSettingsPage'
 import { PublicSharePage } from '@/pages/share/PublicSharePage'
 import { ExtensionPage } from '@/pages/extension/ExtensionPage'
+import { AboutPage } from '@/pages/info/AboutPage'
+import { HelpPage } from '@/pages/info/HelpPage'
+import { PrivacyPage } from '@/pages/info/PrivacyPage'
+import { TermsPage } from '@/pages/info/TermsPage'
 
 export function AppRouter() {
   return (
@@ -44,6 +48,10 @@ export function AppRouter() {
           <Route path="/import-export" element={<ImportExportPage />} />
           <Route path="/permissions" element={<PermissionsPage />} />
           <Route path="/extension" element={<ExtensionPage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/help" element={<HelpPage />} />
+          <Route path="/privacy" element={<PrivacyPage />} />
+          <Route path="/terms" element={<TermsPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Route>
       </Route>
