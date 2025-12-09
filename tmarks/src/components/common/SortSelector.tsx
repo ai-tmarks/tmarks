@@ -92,7 +92,7 @@ export function SortSelector({ value, onChange, className = '' }: SortSelectorPr
           )
           break
         case 'Enter':
-        case ' ':
+        case ' ': {
           e.preventDefault()
           const option = SORT_OPTIONS[focusedIndex]
           if (focusedIndex >= 0 && option) {
@@ -101,6 +101,7 @@ export function SortSelector({ value, onChange, className = '' }: SortSelectorPr
             buttonRef.current?.focus()
           }
           break
+        }
       }
     }
 

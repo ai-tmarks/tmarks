@@ -89,9 +89,9 @@ export function AppShell() {
         </div>
       </header>
 
-      {/* 主内容区 - 黄金比例容器 */}
-      <main className="w-full pb-16 sm:pb-6 pt-3 sm:pt-6 flex flex-col min-h-0 flex-1">
-        <div className="mx-auto w-full px-3 sm:px-6" style={{ maxWidth: '1200px' }}>
+      {/* 主内容区 - 居中容器 */}
+      <main className="w-full pb-16 sm:pb-6 pt-3 sm:pt-6 flex flex-col min-h-0 flex-1 bg-muted/30">
+        <div className="mx-auto w-full px-3 sm:px-6" style={{ maxWidth: '1000px' }}>
           <Outlet />
         </div>
       </main>

@@ -31,23 +31,27 @@ export function useDragPerformance(options: UseDragPerformanceOptions = {}) {
   /**
    * 节流的拖拽更新函数
    */
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const throttledUpdate = useCallback(
-    throttle((callback: () => void) => {
-      if (useRAF) {
-        // 取消之前的 RAF
-        if (rafIdRef.current !== null) {
-          cancelAnimationFrame(rafIdRef.current)
-        }
-        
-        // 使用 RAF 确保在浏览器重绘前执行
-        rafIdRef.current = requestAnimationFrame(() => {
+    throttle(
+      (callback: () => void) => {
+        if (useRAF) {
+          // 取消之前的 RAF
+          if (rafIdRef.current !== null) {
+            cancelAnimationFrame(rafIdRef.current)
+          }
+          
+          // 使用 RAF 确保在浏览器重绘前执行
+          rafIdRef.current = requestAnimationFrame(() => {
+            callback()
+            rafIdRef.current = null
+          })
+        } else {
           callback()
-          rafIdRef.current = null
-        })
-      } else {
-        callback()
-      }
-    }, throttleMs),
+        }
+      },
+      throttleMs
+    ),
     [throttleMs, useRAF]
   )
 

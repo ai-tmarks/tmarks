@@ -1,0 +1,91 @@
+/**
+ * VSCode 风格的树形连接线
+ * 使用 CSS 伪元素绘制，性能更好，代码更简洁
+ */
+
+/* 树形节点容器 */
+.tree-node {
+  position: relative;
+}
+
+/* 树形节点行 */
+.tree-node-row {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  cursor: pointer;
+}
+
+.tree-node-row:hover {
+  background-color: var(--muted);
+}
+
+.tree-node-row.selected {
+  background-color: rgb(var(--primary) / 0.1);
+}
+
+/* 缩进容器 */
+.tree-indent {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 100%;
+  flex-shrink: 0;
+}
+
+.tree-indent:first-child {
+  width: 24px;
+}
+
+/* 垂直线 - 使用伪元素 */
+.tree-indent.has-vertical-line::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background-color: var(--border, #e5e7eb);
+}
+
+/* L 形转角 - 使用伪元素 */
+.tree-indent.has-corner::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 50%;
+  border-left: 1px solid var(--border, #e5e7eb);
+  border-bottom: 1px solid var(--border, #e5e7eb);
+}
+
+/* 子节点容器 */
+.tree-children {
+  position: relative;
+}
+
+/* 从父节点延伸的垂直线 */
+.tree-children::before {
+  content: '';
+  position: absolute;
+  left: 12px; /* 对齐父节点的缩进 */
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background-color: var(--border, #e5e7eb);
+}
+
+/* 最后一个子节点，垂直线只到节点中间 */
+.tree-node:last-child > .tree-children::before {
+  bottom: 50%;
+}
+
+/* 深色主题适配 */
+.dark .tree-indent.has-vertical-line::before,
+.dark .tree-indent.has-corner::after,
+.dark .tree-children::before {
+  background-color: var(--border, #374151);
+  border-color: var(--border, #374151);
+}

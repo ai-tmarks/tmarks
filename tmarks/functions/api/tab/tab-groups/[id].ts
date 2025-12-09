@@ -88,7 +88,7 @@ export const onRequestGet: PagesFunction<Env, RouteParams, DualAuthContext>[] = 
          FROM tab_group_items tgi
          JOIN tab_groups tg ON tgi.group_id = tg.id
          WHERE tgi.group_id = ? AND tg.user_id = ?
-         ORDER BY tgi.position ASC`
+         ORDER BY COALESCE(tgi.is_pinned, 0) DESC, tgi.position ASC`
       )
         .bind(groupId, userId)
         .all<TabGroupItemRow>()
@@ -116,7 +116,13 @@ export const onRequestPatch: PagesFunction<Env, RouteParams, DualAuthContext>[] 
     const groupId = context.params.id
 
     try {
-      const body = (await context.request.json()) as UpdateTabGroupRequest
+      let body: UpdateTabGroupRequest
+      try {
+        body = (await context.request.json()) as UpdateTabGroupRequest
+      } catch (parseError) {
+        console.error('Failed to parse request body:', parseError)
+        return badRequest('Invalid request body: ' + (parseError instanceof Error ? parseError.message : 'JSON parse error'))
+      }
 
       // Check if tab group exists and belongs to user
       const groupRow = await context.env.DB.prepare(
@@ -171,9 +177,12 @@ export const onRequestPatch: PagesFunction<Env, RouteParams, DualAuthContext>[] 
       params.push(new Date().toISOString())
       params.push(groupId)
 
+      // Add user_id to WHERE clause params
+      params.push(userId)
+
       try {
         await context.env.DB.prepare(
-          `UPDATE tab_groups SET ${updates.join(', ')} WHERE id = ?`
+          `UPDATE tab_groups SET ${updates.join(', ')} WHERE id = ? AND user_id = ?`
         )
           .bind(...params)
           .run()
@@ -181,9 +190,9 @@ export const onRequestPatch: PagesFunction<Env, RouteParams, DualAuthContext>[] 
         // If update fails (likely due to missing columns), try without color/tags
         if (hasColorOrTags && body.title !== undefined) {
           await context.env.DB.prepare(
-            'UPDATE tab_groups SET title = ?, updated_at = ? WHERE id = ?'
+            'UPDATE tab_groups SET title = ?, updated_at = ? WHERE id = ? AND user_id = ?'
           )
-            .bind(sanitizeString(body.title, 200), new Date().toISOString(), groupId)
+            .bind(sanitizeString(body.title, 200), new Date().toISOString(), groupId, userId)
             .run()
         } else {
           throw e

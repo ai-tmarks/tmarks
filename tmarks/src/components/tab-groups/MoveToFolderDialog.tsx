@@ -114,9 +114,9 @@ export function MoveToFolderDialog({
       return (
         <div key={folder.id}>
           <div
-            className={`flex items-center gap-2 px-3 py-2 rounded-lg cursor-pointer transition-colors ${
+            className={`flex items-center gap-2 px-3 py-2 rounded-lg cursor-pointer transition-all ${
               isSelected
-                ? 'bg-primary text-primary-content'
+                ? 'bg-primary text-primary-foreground font-medium ring-2 ring-primary ring-offset-2 ring-offset-background'
                 : 'hover:bg-muted'
             }`}
             style={{ paddingLeft: `${level * 20 + 12}px` }}
@@ -184,7 +184,7 @@ export function MoveToFolderDialog({
 
         {/* 文件夹列表 */}
         <div
-          className={`border rounded-xl overflow-hidden ${isMobile ? 'mb-4' : 'mb-6'}`}
+          className={`border rounded-xl ${isMobile ? 'mb-4' : 'mb-6'}`}
           style={{
             borderColor: 'var(--border)',
             maxHeight: isMobile ? '50vh' : '400px',
@@ -192,21 +192,22 @@ export function MoveToFolderDialog({
           }}
         >
           {/* 根目录选项 */}
-          <div
-            className={`flex items-center gap-2 px-3 py-2 cursor-pointer transition-colors border-b ${
-              selectedFolderId === null
-                ? 'bg-primary text-primary-content'
-                : 'hover:bg-muted'
-            }`}
-            style={{ borderColor: 'var(--border)' }}
-            onClick={() => setSelectedFolderId(null)}
-          >
-            <Home className="w-4 h-4 flex-shrink-0" />
-            <span className="flex-1 text-sm font-medium">根目录</span>
+          <div className="p-1 border-b" style={{ borderColor: 'var(--border)' }}>
+            <div
+              className={`flex items-center gap-2 px-3 py-2 rounded-lg cursor-pointer transition-all ${
+                selectedFolderId === null
+                  ? 'bg-primary text-primary-foreground font-medium ring-2 ring-primary ring-offset-2 ring-offset-background'
+                  : 'hover:bg-muted'
+              }`}
+              onClick={() => setSelectedFolderId(null)}
+            >
+              <Home className="w-4 h-4 flex-shrink-0" />
+              <span className="flex-1 text-sm font-medium">根目录</span>
+            </div>
           </div>
 
           {/* 文件夹树 */}
-          <div className="py-1">
+          <div className="p-1">
             {rootFolders.length > 0 ? (
               renderFolderTree(rootFolders)
             ) : (

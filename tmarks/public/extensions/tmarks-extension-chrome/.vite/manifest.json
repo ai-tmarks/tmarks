@@ -1,0 +1,85 @@
+{
+  "../../../../@crx/manifest": {
+    "file": "assets/crx-manifest.js-CvSlyVsQ.js",
+    "name": "crx-manifest.js",
+    "src": "../../../../@crx/manifest",
+    "isEntry": true
+  },
+  "_SuccessMessage-Jgh_UX5_.js": {
+    "file": "assets/SuccessMessage-Jgh_UX5_.js",
+    "name": "SuccessMessage",
+    "imports": [
+      "_index-DBgeZ1W-.js"
+    ]
+  },
+  "_index-CTsxccMe.js": {
+    "file": "assets/index-CTsxccMe.js",
+    "name": "index",
+    "isDynamicEntry": true,
+    "imports": [
+      "_prompts-CZcZabTo.js",
+      "_index-DBgeZ1W-.js"
+    ]
+  },
+  "_index-DBgeZ1W-.js": {
+    "file": "assets/index-DBgeZ1W-.js",
+    "name": "index"
+  },
+  "_index-DdN560Xu.js": {
+    "file": "assets/index-DdN560Xu.js",
+    "name": "index"
+  },
+  "_prompts-CZcZabTo.js": {
+    "file": "assets/prompts-CZcZabTo.js",
+    "name": "prompts"
+  },
+  "src/background/index.ts": {
+    "file": "assets/index.ts-D7o3X9c_.js",
+    "name": "index.ts",
+    "src": "src/background/index.ts",
+    "isEntry": true,
+    "imports": [
+      "_index-DBgeZ1W-.js",
+      "_index-CTsxccMe.js",
+      "_index-DdN560Xu.js",
+      "_prompts-CZcZabTo.js"
+    ]
+  },
+  "src/content/index.ts": {
+    "file": "assets/index.ts-CompeOYk.js",
+    "name": "index.ts",
+    "src": "src/content/index.ts",
+    "isEntry": true
+  },
+  "src/options/index.html": {
+    "file": "assets/options-B5jpx7s5.js",
+    "name": "options",
+    "src": "src/options/index.html",
+    "isEntry": true,
+    "imports": [
+      "_SuccessMessage-Jgh_UX5_.js",
+      "_index-DBgeZ1W-.js",
+      "_prompts-CZcZabTo.js"
+    ],
+    "dynamicImports": [
+      "_index-CTsxccMe.js"
+    ],
+    "css": [
+      "assets/options-TkisuMHn.css"
+    ]
+  },
+  "src/popup/index.html": {
+    "file": "assets/popup-BfTmnm8w.js",
+    "name": "popup",
+    "src": "src/popup/index.html",
+    "isEntry": true,
+    "imports": [
+      "_SuccessMessage-Jgh_UX5_.js",
+      "_index-DBgeZ1W-.js",
+      "_index-DdN560Xu.js"
+    ],
+    "css": [
+      "assets/popup-Sl3rrrLQ.css"
+    ]
+  }
+}

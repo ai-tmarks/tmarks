@@ -55,11 +55,16 @@ export function ApiKeysPage() {
   const quota = data?.quota || { used: 0, limit: 3 }
 
   return (
-    <div className="container mx-auto px-3 sm:px-4 py-6 sm:py-8 max-w-5xl">
-      <div className="card">
-        {/* 标题栏 */}
-        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
-          <h1 className="text-xl sm:text-2xl font-bold text-foreground">API Keys 管理</h1>
+    <div className="w-full space-y-4 sm:space-y-6">
+      {/* 标题卡片 */}
+      <div className="card p-4 sm:p-6">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+          <div>
+            <h1 className="text-xl sm:text-2xl font-bold text-foreground">API Keys 管理</h1>
+            <p className="text-sm text-muted-foreground mt-1">
+              管理您的 API 密钥，用于第三方应用访问
+            </p>
+          </div>
           <button
             className="btn btn-primary w-full sm:w-auto touch-manipulation"
             onClick={() => setShowCreateModal(true)}
@@ -68,7 +73,10 @@ export function ApiKeysPage() {
             + 创建新的 API Key
           </button>
         </div>
+      </div>
 
+      {/* 内容卡片 */}
+      <div className="card p-4 sm:p-6">
         {/* 说明文字 */}
         <div className="mb-4 sm:mb-6 p-3 sm:p-4 bg-muted/30 border border-border rounded-lg">
           <p className="text-xs sm:text-sm text-muted-foreground mb-2 leading-relaxed">

@@ -51,13 +51,15 @@ export function TabItem({
     listeners,
     setNodeRef,
     transform,
-    transition,
     isDragging,
-  } = useSortable({ id: item.id })
+  } = useSortable({
+    id: item.id,
+    animateLayoutChanges: () => false, // 禁用布局动画，避免闪烁
+  })
 
   const style = {
     transform: CSS.Transform.toString(transform),
-    transition: isDragging ? 'none' : transition,
+    transition: 'none', // 完全禁用 transition，避免从下往上拖拽时闪烁
     opacity: isDragging ? 0.4 : 1,
   }
 
@@ -67,7 +69,7 @@ export function TabItem({
     <div
       ref={setNodeRef}
       style={style}
-      className={`group flex items-center gap-3 rounded border transition-all ${
+      className={`group flex items-center gap-3 rounded border ${
         isMobile ? 'p-4 min-h-[60px]' : 'p-3'
       } ${
         isHighlighted

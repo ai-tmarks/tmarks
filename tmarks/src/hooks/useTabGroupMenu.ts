@@ -11,9 +11,6 @@ export interface TabGroupMenuActions {
   onCreateFolderAbove: (group: TabGroup) => void
   onCreateFolderInside: (group: TabGroup) => void
   onCreateFolderBelow: (group: TabGroup) => void
-  onCreateGroupAbove: (group: TabGroup) => void
-  onCreateGroupInside: (group: TabGroup) => void
-  onCreateGroupBelow: (group: TabGroup) => void
   onPinToTop: (group: TabGroup) => void
   onRemoveDuplicates: (group: TabGroup) => void
   onLock: (group: TabGroup) => void
@@ -319,49 +316,6 @@ export function useTabGroupMenu({ onRefresh, onStartRename, onOpenMoveDialog }: 
     }
   }
 
-  const onCreateGroupAbove = async (group: TabGroup) => {
-    try {
-      await tabGroupsService.createTabGroup({
-        title: '新分组',
-        parent_id: group.parent_id,
-        is_folder: false
-      })
-      await onRefresh?.()
-    } catch (err) {
-      console.error('Failed to create group:', err)
-      alert('创建分组失败')
-    }
-  }
-
-  const onCreateGroupInside = async (group: TabGroup) => {
-    if (group.is_folder !== 1) return
-    try {
-      await tabGroupsService.createTabGroup({
-        title: '新分组',
-        parent_id: group.id,
-        is_folder: false
-      })
-      await onRefresh?.()
-    } catch (err) {
-      console.error('Failed to create group:', err)
-      alert('创建分组失败')
-    }
-  }
-
-  const onCreateGroupBelow = async (group: TabGroup) => {
-    try {
-      await tabGroupsService.createTabGroup({
-        title: '新分组',
-        parent_id: group.parent_id,
-        is_folder: false
-      })
-      await onRefresh?.()
-    } catch (err) {
-      console.error('Failed to create group:', err)
-      alert('创建分组失败')
-    }
-  }
-
   const onPinToTop = async (group: TabGroup) => {
     try {
       // 将该项的 position 设置为 -1（最小值），这样排序时会在最前面
@@ -461,9 +415,6 @@ export function useTabGroupMenu({ onRefresh, onStartRename, onOpenMoveDialog }: 
     onCreateFolderAbove,
     onCreateFolderInside,
     onCreateFolderBelow,
-    onCreateGroupAbove,
-    onCreateGroupInside,
-    onCreateGroupBelow,
     onPinToTop,
     onRemoveDuplicates,
     onLock,

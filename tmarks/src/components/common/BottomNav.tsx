@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom'
-import { Layers, CheckSquare, BarChart3, Trash2 } from 'lucide-react'
+import { Layers, CheckSquare, Trash2 } from 'lucide-react'
 
 interface NavItem {
   path: string
@@ -17,11 +17,6 @@ const navItems: NavItem[] = [
     path: '/tab/todo',
     icon: <CheckSquare className="w-5 h-5" />,
     label: '待办',
-  },
-  {
-    path: '/tab/statistics',
-    icon: <BarChart3 className="w-5 h-5" />,
-    label: '统计',
   },
   {
     path: '/tab/trash',

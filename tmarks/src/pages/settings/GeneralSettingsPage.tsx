@@ -108,46 +108,48 @@ export function GeneralSettingsPage() {
   ]
 
   return (
-    <div className="mx-auto p-3 sm:p-6 space-y-4 sm:space-y-6 w-full max-w-full sm:max-w-[95vw] lg:max-w-[61.8vw] xl:max-w-[1400px]">
-      {/* 页面标题和操作按钮 */}
-      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 sm:gap-4">
-        <div className="flex-1 min-w-0">
-          <h1 className="text-xl sm:text-2xl font-bold text-foreground">通用设置</h1>
-          <p className="text-xs sm:text-sm text-muted-foreground mt-1">
-            {user?.username && <span className="font-medium text-foreground">{user.username}</span>}
-            {user?.username && ' · '}
-            配置应用的通用行为和用户体验
-          </p>
-        </div>
-        <div className="flex gap-2 flex-shrink-0">
-          <button
-            onClick={handleLogout}
-            className="btn btn-ghost btn-sm sm:btn flex items-center gap-2 text-error hover:bg-error/10"
-            title="登出账号"
-          >
-            <LogOut className="w-4 h-4" />
-            <span className="hidden sm:inline">登出</span>
-          </button>
-          <button
-            onClick={handleReset}
-            className="btn btn-secondary btn-sm sm:btn flex items-center gap-2"
-          >
-            <RotateCcw className="w-4 h-4" />
-            <span className="hidden sm:inline">重置</span>
-          </button>
-          <button
-            onClick={handleSave}
-            disabled={updatePreferences.isPending}
-            className="btn btn-primary btn-sm sm:btn flex items-center gap-2"
-          >
-            <Save className="w-4 h-4" />
-            <span className="hidden sm:inline">{updatePreferences.isPending ? '保存中...' : '保存设置'}</span>
-            <span className="sm:hidden">保存</span>
-          </button>
+    <div className="w-full space-y-4 sm:space-y-6">
+      {/* 页面标题卡片 */}
+      <div className="card p-4 sm:p-6">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 sm:gap-4">
+          <div className="flex-1 min-w-0">
+            <h1 className="text-xl sm:text-2xl font-bold text-foreground">通用设置</h1>
+            <p className="text-xs sm:text-sm text-muted-foreground mt-1">
+              {user?.username && <span className="font-medium text-foreground">{user.username}</span>}
+              {user?.username && ' · '}
+              配置应用的通用行为和用户体验
+            </p>
+          </div>
+          <div className="flex gap-2 flex-shrink-0">
+            <button
+              onClick={handleLogout}
+              className="btn btn-ghost btn-sm sm:btn flex items-center gap-2 text-error hover:bg-error/10"
+              title="登出账号"
+            >
+              <LogOut className="w-4 h-4" />
+              <span className="hidden sm:inline">登出</span>
+            </button>
+            <button
+              onClick={handleReset}
+              className="btn btn-secondary btn-sm sm:btn flex items-center gap-2"
+            >
+              <RotateCcw className="w-4 h-4" />
+              <span className="hidden sm:inline">重置</span>
+            </button>
+            <button
+              onClick={handleSave}
+              disabled={updatePreferences.isPending}
+              className="btn btn-primary btn-sm sm:btn flex items-center gap-2"
+            >
+              <Save className="w-4 h-4" />
+              <span className="hidden sm:inline">{updatePreferences.isPending ? '保存中...' : '保存设置'}</span>
+              <span className="sm:hidden">保存</span>
+            </button>
+          </div>
         </div>
       </div>
 
-      {/* 标签页容器 */}
+      {/* 标签页容器卡片 */}
       <div className="card p-3 sm:p-6">
         <SettingsTabs tabs={tabs} activeTab={activeTab} onTabChange={setActiveTab}>
           {activeTab === 'basic' && (

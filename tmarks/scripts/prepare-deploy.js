@@ -54,6 +54,12 @@ function copyDir(src, dest) {
   const entries = fs.readdirSync(src, { withFileTypes: true });
 
   for (const entry of entries) {
+    // 跳过废弃的备份目录
+    if (entry.name.startsWith('_deprecated')) {
+      console.log(`⏭ 跳过废弃目录: ${entry.name}`);
+      continue;
+    }
+
     const srcPath = path.join(src, entry.name);
     const destPath = path.join(dest, entry.name);
 
