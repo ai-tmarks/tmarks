@@ -1,0 +1,50 @@
+{
+  "name": "aitmarks",
+  "version": "1.0.0",
+  "description": "智能书签管理浏览器扩展 - 支持AI标签推荐、标签页组管理、多浏览器兼容",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/build-multi-browser.mjs",
+    "build:legacy": "node scripts/build-and-pack.mjs",
+    "build:only": "tsc && vite build",
+    "build:chrome": "node scripts/build-multi-browser.mjs chrome",
+    "build:firefox": "node scripts/build-multi-browser.mjs firefox",
+    "preview": "vite preview",
+    "icons": "node scripts/generate-icons.mjs"
+  },
+  "keywords": [],
+  "author": "TMarks Team",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.2.1",
+    "@types/chrome": "^0.1.31",
+    "@types/dompurify": "^3.0.5",
+    "@types/node": "^24.10.1",
+    "@types/react": "^18.3.27",
+    "@types/react-dom": "^18.3.7",
+    "@types/webextension-polyfill": "^0.12.4",
+    "@vitejs/plugin-react": "^5.1.1",
+    "archiver": "^7.0.1",
+    "autoprefixer": "^10.4.22",
+    "postcss": "^8.5.6",
+    "sharp": "^0.34.5",
+    "tailwindcss": "^3.4.18",
+    "terser": "^5.44.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.4",
+    "webextension-polyfill": "^0.12.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.70.0",
+    "dexie": "^4.2.1",
+    "dompurify": "^3.3.0",
+    "lucide-react": "^0.554.0",
+    "lunar-javascript": "^1.7.7",
+    "openai": "^6.9.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zustand": "^5.0.8"
+  }
+}

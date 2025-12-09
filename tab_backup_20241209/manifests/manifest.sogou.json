@@ -1,0 +1,49 @@
+{
+  "manifest_version": 3,
+  "name": "AI 书签助手",
+  "version": "1.0.0",
+  "description": "智能标签推荐的浏览器书签管理工具 - 搜狗浏览器专用版",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "action": {
+    "default_title": "AI 书签助手",
+    "default_popup": "src/popup/index.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  },
+  "background": {
+    "service_worker": "src/background/index.ts",
+    "type": "module"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabs",
+    "scripting",
+    "notifications"
+  ],
+  "host_permissions": [
+    "https://api.openai.com/*",
+    "https://api.anthropic.com/*",
+    "https://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content/index.ts"]
+    }
+  ],
+  "options_ui": {
+    "page": "src/options/index.html",
+    "open_in_tab": true
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}

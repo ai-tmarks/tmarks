@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 .yiqian
+.cankao
 
 # Editor directories and files
 .vscode/*
