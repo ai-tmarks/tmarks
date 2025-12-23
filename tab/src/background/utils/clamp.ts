@@ -25,5 +25,5 @@ export function clampTopLevelCount(value: number): number {
     return 5;
   }
   const rounded = Math.round(value);
-  return Math.max(3, Math.min(7, rounded));
+  return Math.max(2, Math.min(7, rounded));
 }

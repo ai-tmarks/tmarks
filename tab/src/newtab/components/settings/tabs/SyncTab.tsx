@@ -12,9 +12,6 @@ import { SettingSection, ToggleItem, SelectItem } from '../components/SettingIte
 export function SyncTab() {
   const { settings, updateSettings } = useNewtabStore();
   const [tmarksUrl, setTmarksUrl] = useState('');
-  const [importAllLoading, setImportAllLoading] = useState(false);
-  const [importAllMessage, setImportAllMessage] = useState<string | null>(null);
-  const [importAllError, setImportAllError] = useState<string | null>(null);
 
   useEffect(() => {
     const loadTMarksUrl = async () => {
@@ -29,50 +26,8 @@ export function SyncTab() {
     loadTMarksUrl();
   }, []);
 
-  const handleImportConfirm = async () => {
-    try {
-      setImportAllMessage(null);
-      setImportAllError(null);
-      setImportAllLoading(true);
-
-      const resp = (await chrome.runtime.sendMessage({
-        type: 'IMPORT_ALL_BOOKMARKS_TO_NEWTAB',
-      })) as { success: boolean; data?: any; error?: string };
-
-      if (!resp?.success) {
-        throw new Error(resp?.error || '导入失败');
-      }
-
-      const folderTitle = resp.data?.folderTitle || 'Imported';
-      const folders = resp.data?.counts?.folders ?? 0;
-      const bookmarks = resp.data?.counts?.bookmarks ?? 0;
-      setImportAllMessage(`导入完成：${folderTitle}（目录 ${folders} 个，书签 ${bookmarks} 个）`);
-    } catch (e) {
-      setImportAllError(e instanceof Error ? e.message : '导入失败');
-    } finally {
-      setImportAllLoading(false);
-    }
-  };
-
   return (
     <div className="space-y-6">
-      <SettingSection title="导入浏览器书签到工作区">
-        <button
-          onClick={handleImportConfirm}
-          disabled={importAllLoading}
-          className="w-full px-4 py-2 rounded-lg bg-blue-500 hover:bg-blue-600 disabled:bg-white/20 text-white text-sm transition-colors"
-        >
-          {importAllLoading ? '导入中...' : '导入浏览器书签到 Tmarks'}
-        </button>
-
-        {importAllMessage && (
-          <div className="text-xs text-green-400">{importAllMessage}</div>
-        )}
-        {importAllError && (
-          <div className="text-xs text-red-400">{importAllError}</div>
-        )}
-      </SettingSection>
-
       <SettingSection title="TMarks 同步">
         <ToggleItem
           label="显示置顶书签"

@@ -3,6 +3,7 @@
  */
 
 import { withRetry, isRetryableError } from './retry';
+import { logger } from '@/lib/utils/logger';
 
 // 队列项类型
 interface QueueItem<T = unknown> {
@@ -64,7 +65,7 @@ export async function enqueue<T>(type: string, payload: T): Promise<void> {
   }
 
   await saveQueue(queue);
-  console.log(`[SyncQueue] 已加入队列: ${type}`);
+  logger.log('已加入同步队列:', type);
 
   // 如果在线，立即尝试处理
   if (isOnline) {
@@ -79,7 +80,7 @@ export async function processQueue(): Promise<void> {
   if (isProcessing || !isOnline) return;
   
   isProcessing = true;
-  console.log('[SyncQueue] 开始处理队列');
+  logger.debug('开始处理同步队列');
 
   try {
     const queue = await loadQueue();
@@ -89,7 +90,7 @@ export async function processQueue(): Promise<void> {
       const handler = handlers.get(item.type);
       
       if (!handler) {
-        console.warn(`[SyncQueue] 未找到处理器: ${item.type}`);
+        logger.warn('未找到队列处理器:', item.type);
         continue;
       }
 
@@ -101,13 +102,13 @@ export async function processQueue(): Promise<void> {
             initialDelay: 500,
             shouldRetry: isRetryableError,
             onRetry: (_, attempt) => {
-              console.log(`[SyncQueue] 重试 ${item.type} (${attempt + 1})`);
+              logger.debug(`重试 ${item.type} (${attempt + 1})`);
             },
           }
         );
-        console.log(`[SyncQueue] 处理成功: ${item.type}`);
+        logger.debug('队列处理成功:', item.type);
       } catch (error) {
-        console.error(`[SyncQueue] 处理失败: ${item.type}`, error);
+        logger.error('队列处理失败:', item.type, error);
         
         // 增加重试次数
         item.retries++;
@@ -116,13 +117,13 @@ export async function processQueue(): Promise<void> {
         if (item.retries < MAX_RETRIES) {
           remaining.push(item);
         } else {
-          console.warn(`[SyncQueue] 已达最大重试次数，丢弃: ${item.type}`);
+          logger.warn('已达最大重试次数，丢弃:', item.type);
         }
       }
     }
 
     await saveQueue(remaining);
-    console.log(`[SyncQueue] 队列处理完成，剩余: ${remaining.length}`);
+    logger.debug('队列处理完成，剩余:', remaining.length);
   } finally {
     isProcessing = false;
   }
@@ -141,7 +142,7 @@ export async function getQueueLength(): Promise<number> {
  */
 export async function clearQueue(): Promise<void> {
   await chrome.storage.local.remove(QUEUE_STORAGE_KEY);
-  console.log('[SyncQueue] 队列已清空');
+  logger.log('同步队列已清空');
 }
 
 /**
@@ -163,7 +164,7 @@ async function saveQueue(queue: QueueItem[]): Promise<void> {
   try {
     await chrome.storage.local.set({ [QUEUE_STORAGE_KEY]: queue });
   } catch (error) {
-    console.error('[SyncQueue] 保存队列失败:', error);
+    logger.error('保存同步队列失败:', error);
   }
 }
 
@@ -174,13 +175,13 @@ export function initSyncQueue(): void {
   if (typeof window === 'undefined') return;
 
   window.addEventListener('online', () => {
-    console.log('[SyncQueue] 网络已恢复');
+    logger.log('网络已恢复');
     isOnline = true;
     processQueue();
   });
 
   window.addEventListener('offline', () => {
-    console.log('[SyncQueue] 网络已断开');
+    logger.log('网络已断开');
     isOnline = false;
   });
 

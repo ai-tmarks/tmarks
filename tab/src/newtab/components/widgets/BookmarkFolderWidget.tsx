@@ -203,7 +203,10 @@ export const BookmarkFolderWidget = memo(function BookmarkFolderWidget({
         )}
       </div>
 
-      <span className="mt-1.5 text-xs text-white/80 truncate max-w-full px-1">
+      <span 
+        className="mt-1.5 text-xs text-white truncate max-w-full px-1 drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]"
+        style={{ textShadow: '0 1px 3px rgba(0,0,0,0.9), 0 0 8px rgba(0,0,0,0.5)' }}
+      >
         {title}
       </span>
     </button>

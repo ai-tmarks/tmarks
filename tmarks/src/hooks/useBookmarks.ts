@@ -21,11 +21,9 @@ export function useBookmarks(params?: BookmarkQueryParams, options?: { staleTime
   return useQuery({
     queryKey: [BOOKMARKS_QUERY_KEY, params],
     queryFn: () => bookmarksService.getBookmarks(params),
-    staleTime: options?.staleTime || 30 * 60 * 1000, // 30分钟 (从5分钟增加)
-    gcTime: options?.gcTime || 24 * 60 * 60 * 1000, // 24小时 (从10分钟增加)
-    refetchOnWindowFocus: 'always', // 窗口聚焦时总是刷新（避免 staleTime 过长造成数据不同步）
-    refetchInterval: 60 * 1000,
-    refetchIntervalInBackground: false,
+    staleTime: options?.staleTime || 30 * 60 * 1000, // 30分钟
+    gcTime: options?.gcTime || 24 * 60 * 60 * 1000, // 24小时
+    refetchOnWindowFocus: 'always', // 窗口聚焦时刷新，保持数据同步
   })
 }
 
@@ -51,9 +49,7 @@ export function useInfiniteBookmarks(
     getNextPageParam: (lastPage) => (lastPage.meta?.has_more ? lastPage.meta.next_cursor : undefined),
     staleTime: options?.staleTime ?? 30 * 60 * 1000, // 30分钟
     gcTime: options?.cacheTime ?? 24 * 60 * 60 * 1000, // 24小时
-    refetchOnWindowFocus: 'always',
-    refetchInterval: 60 * 1000,
-    refetchIntervalInBackground: false,
+    refetchOnWindowFocus: 'always', // 窗口聚焦时刷新，保持数据同步
   })
 }
 

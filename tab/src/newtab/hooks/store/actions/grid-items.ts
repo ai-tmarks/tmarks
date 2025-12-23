@@ -7,6 +7,7 @@ import type { NewTabState } from '../types';
 import { generateId, pruneEmptyFoldersCascade } from '../utils';
 import { debouncedSync } from '../sync';
 import { getWidgetMeta, getDefaultWidgetConfig } from '../../../components/widgets/widgetRegistry';
+import { syncCreateBookmarkToTMarks } from '../../../services/tmarks-sync';
 
 export interface GridItemActions {
   addGridItem: (
@@ -36,14 +37,13 @@ export function createGridItemActions(
 ): GridItemActions {
   return {
     addGridItem: (type, options = {}) => {
-      const { shortcuts, shortcutGroups, shortcutFolders, settings, gridItems, activeGroupId, currentFolderId, saveData } = get();
+      const { shortcutGroups, gridItems, activeGroupId, currentFolderId, saveData } = get();
       const meta = getWidgetMeta(type);
       const defaultConfig = getDefaultWidgetConfig(type);
 
       const targetGroupId = options.groupId ?? activeGroupId ?? 'home';
       const targetParentId = (options.parentId ?? currentFolderId) ?? null;
 
-      // 计算同 scope 内的最大 position
       const scopeItems = gridItems.filter(
         (item) => (item.groupId ?? 'home') === targetGroupId && (item.parentId ?? null) === targetParentId
       );
@@ -65,7 +65,7 @@ export function createGridItemActions(
       const newGridItems = [...gridItems, newItem];
       set({ gridItems: newGridItems });
       saveData();
-      debouncedSync({ shortcuts, groups: shortcutGroups, folders: shortcutFolders, settings, gridItems: newGridItems });
+      debouncedSync({ groups: shortcutGroups, gridItems: newGridItems });
 
       // 处理浏览器书签同步
       const { isApplyingBrowserBookmarks } = get();
@@ -106,6 +106,21 @@ export function createGridItemActions(
                 ),
               });
               state.saveData();
+
+              // 同步到 TMarks 服务器
+              const itemWithBrowserId = { ...newItem, browserBookmarkId: created.id };
+              syncCreateBookmarkToTMarks(itemWithBrowserId).then((result) => {
+                if (result.success && result.tmarksBookmarkId) {
+                  set({
+                    gridItems: get().gridItems.map((i) =>
+                      i.id === newItem.id ? { ...i, tmarksBookmarkId: result.tmarksBookmarkId } : i
+                    ),
+                  });
+                  state.saveData();
+                }
+              }).catch((e) => {
+                console.warn('[NewTab] Failed to sync to TMarks:', e);
+              });
             }
           } catch (e) {
             console.warn('[NewTab] Failed to create browser bookmark:', e);
@@ -131,11 +146,11 @@ export function createGridItemActions(
     },
 
     updateGridItem: (id, updates) => {
-      const { shortcuts, shortcutGroups, shortcutFolders, settings, gridItems, saveData } = get();
+      const { shortcutGroups, gridItems, saveData } = get();
       const newGridItems = gridItems.map((item) => (item.id === id ? { ...item, ...updates } : item));
       set({ gridItems: newGridItems });
       saveData();
-      debouncedSync({ shortcuts, groups: shortcutGroups, folders: shortcutFolders, settings, gridItems: newGridItems });
+      debouncedSync({ groups: shortcutGroups, gridItems: newGridItems });
 
       const { isApplyingBrowserBookmarks } = get();
       const target = gridItems.find((i) => i.id === id);
@@ -168,7 +183,7 @@ export function createGridItemActions(
     },
 
     removeGridItem: (id) => {
-      const { shortcuts, shortcutGroups, shortcutFolders, settings, gridItems, currentFolderId, saveData, browserBookmarksRootId } = get();
+      const { shortcutGroups, gridItems, currentFolderId, saveData, browserBookmarksRootId } = get();
       const target = gridItems.find((i) => i.id === id);
       if (!target) return;
 
@@ -205,7 +220,7 @@ export function createGridItemActions(
       const cleaned = pruneEmptyFoldersCascade(reordered, nextCurrentFolderId, protectedBrowserBookmarkIds);
       set({ gridItems: cleaned.items, currentFolderId: cleaned.currentFolderId });
       saveData();
-      debouncedSync({ shortcuts, groups: shortcutGroups, folders: shortcutFolders, settings, gridItems: cleaned.items });
+      debouncedSync({ groups: shortcutGroups, gridItems: cleaned.items });
 
       const { isApplyingBrowserBookmarks } = get();
       if (!isApplyingBrowserBookmarks) {
@@ -236,12 +251,11 @@ export function createGridItemActions(
         }
       }
 
-      // 清理空分组
       get().cleanupEmptyGroups();
     },
 
     removeGridFolder: (id, mode) => {
-      const { shortcuts, shortcutGroups, shortcutFolders, settings, gridItems, currentFolderId, saveData } = get();
+      const { shortcutGroups, gridItems, currentFolderId, saveData } = get();
       const target = gridItems.find((i) => i.id === id);
       if (!target || target.type !== 'bookmarkFolder') return;
 
@@ -301,7 +315,7 @@ export function createGridItemActions(
       const cleaned = pruneEmptyFoldersCascade(reordered, nextCurrentFolderId, protectedBrowserBookmarkIds);
       set({ gridItems: cleaned.items, currentFolderId: cleaned.currentFolderId });
       saveData();
-      debouncedSync({ shortcuts, groups: shortcutGroups, folders: shortcutFolders, settings, gridItems: cleaned.items });
+      debouncedSync({ groups: shortcutGroups, gridItems: cleaned.items });
 
       const state = get();
       if (!state.isApplyingBrowserBookmarks && cleaned.removedBrowserBookmarkIds.length > 0) {
@@ -321,19 +335,18 @@ export function createGridItemActions(
         })();
       }
 
-      // 清理空分组
       get().cleanupEmptyGroups();
     },
 
     reorderGridItems: (fromIndex, toIndex) => {
-      const { shortcuts, shortcutGroups, shortcutFolders, settings, gridItems, saveData } = get();
+      const { shortcutGroups, gridItems, saveData } = get();
       const newGridItems = [...gridItems];
       const [removed] = newGridItems.splice(fromIndex, 1);
       newGridItems.splice(toIndex, 0, removed);
       const reordered = newGridItems.map((item, index) => ({ ...item, position: index }));
       set({ gridItems: reordered });
       saveData();
-      debouncedSync({ shortcuts, groups: shortcutGroups, folders: shortcutFolders, settings, gridItems: reordered });
+      debouncedSync({ groups: shortcutGroups, gridItems: reordered });
     },
 
     getFilteredGridItems: () => {

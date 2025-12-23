@@ -38,6 +38,7 @@ interface Props {
   isBatchMode?: boolean;
   isSelected?: boolean;
   onToggleSelect?: (id: string) => void;
+  shortcutStyle?: 'icon' | 'card';
 }
 
 export const WidgetRenderer = memo(function WidgetRenderer({
@@ -49,6 +50,7 @@ export const WidgetRenderer = memo(function WidgetRenderer({
   isBatchMode,
   isSelected,
   onToggleSelect,
+  shortcutStyle,
 }: Props) {
   const Component = WIDGET_COMPONENTS[item.type];
   const { cols, rows } = getSizeSpan(item.size);
@@ -78,6 +80,7 @@ export const WidgetRenderer = memo(function WidgetRenderer({
         isBatchMode={isBatchMode}
         isSelected={isSelected}
         onToggleSelect={onToggleSelect}
+        shortcutStyle={shortcutStyle}
       />
     </div>
   );

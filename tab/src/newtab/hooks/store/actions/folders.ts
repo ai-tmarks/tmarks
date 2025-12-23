@@ -2,7 +2,7 @@
  * 文件夹相关 Actions
  */
 
-import type { Shortcut, ShortcutGroup, ShortcutFolder, NewTabSettings, GridItem } from '../../../types';
+import type { Shortcut, ShortcutGroup, ShortcutFolder, GridItem } from '../../../types';
 import { generateId } from '../utils';
 import { debouncedSync } from '../sync';
 
@@ -19,7 +19,6 @@ export function createFolderActions(
     shortcuts: Shortcut[];
     shortcutGroups: ShortcutGroup[];
     shortcutFolders: ShortcutFolder[];
-    settings: NewTabSettings;
     gridItems: GridItem[];
     activeGroupId: string | null;
     saveData: () => Promise<void>;
@@ -28,8 +27,7 @@ export function createFolderActions(
 ): FolderActions {
   return {
     addFolder: (name, groupId) => {
-      const { shortcuts, shortcutGroups, shortcutFolders, activeGroupId, settings, gridItems, saveData } =
-        get();
+      const { shortcutGroups, shortcutFolders, activeGroupId, gridItems, saveData } = get();
       const newFolder: ShortcutFolder = {
         id: generateId(),
         name,
@@ -40,45 +38,27 @@ export function createFolderActions(
       const newFolders = [...shortcutFolders, newFolder];
       set({ shortcutFolders: newFolders });
       saveData();
-      debouncedSync({
-        shortcuts,
-        groups: shortcutGroups,
-        folders: newFolders,
-        settings,
-        gridItems,
-      });
+      debouncedSync({ groups: shortcutGroups, gridItems });
       return newFolder.id;
     },
 
     updateFolder: (id, updates) => {
-      const { shortcuts, shortcutGroups, shortcutFolders, settings, gridItems, saveData } = get();
+      const { shortcutGroups, shortcutFolders, gridItems, saveData } = get();
       const newFolders = shortcutFolders.map((f) => (f.id === id ? { ...f, ...updates } : f));
       set({ shortcutFolders: newFolders });
       saveData();
-      debouncedSync({
-        shortcuts,
-        groups: shortcutGroups,
-        folders: newFolders,
-        settings,
-        gridItems,
-      });
+      debouncedSync({ groups: shortcutGroups, gridItems });
     },
 
     removeFolder: (id) => {
-      const { shortcuts, shortcutGroups, shortcutFolders, settings, gridItems, saveData } = get();
+      const { shortcuts, shortcutGroups, shortcutFolders, gridItems, saveData } = get();
       const updatedShortcuts = shortcuts.map((s) =>
         s.folderId === id ? { ...s, folderId: undefined } : s
       );
       const filtered = shortcutFolders.filter((f) => f.id !== id);
       set({ shortcutFolders: filtered, shortcuts: updatedShortcuts });
       saveData();
-      debouncedSync({
-        shortcuts: updatedShortcuts,
-        groups: shortcutGroups,
-        folders: filtered,
-        settings,
-        gridItems,
-      });
+      debouncedSync({ groups: shortcutGroups, gridItems });
     },
 
     getFolderShortcuts: (folderId) => {
@@ -87,19 +67,13 @@ export function createFolderActions(
     },
 
     moveShortcutToFolder: (shortcutId, folderId) => {
-      const { shortcuts, shortcutGroups, shortcutFolders, settings, gridItems, saveData } = get();
+      const { shortcuts, shortcutGroups, gridItems, saveData } = get();
       const newShortcuts = shortcuts.map((s) =>
         s.id === shortcutId ? { ...s, folderId } : s
       );
       set({ shortcuts: newShortcuts });
       saveData();
-      debouncedSync({
-        shortcuts: newShortcuts,
-        groups: shortcutGroups,
-        folders: shortcutFolders,
-        settings,
-        gridItems,
-      });
+      debouncedSync({ groups: shortcutGroups, gridItems });
     },
   };
 }

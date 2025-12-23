@@ -22,6 +22,7 @@
   --tab-popup-primary-to: oklch(0.6 0.22 300);
   --tab-popup-primary-text: oklch(1 0 0);
   --tab-popup-primary-shadow: oklch(0.59 0.2 255 / 0.25);
+  --tab-popup-primary-shadow-strong: oklch(0.59 0.2 255 / 0.35);
 
   --tab-popup-success-from: oklch(0.65 0.17 165);
   --tab-popup-success-via: oklch(0.65 0.15 175);
@@ -48,6 +49,8 @@
   --tab-popup-section-amber-icon: oklch(0.7 0.16 70);
   --tab-popup-section-amber-title: oklch(0.4 0.1 50);
   --tab-popup-section-amber-text: oklch(0.6 0.15 60);
+  --tab-popup-section-amber-badge-bg: oklch(0.92 0.08 85);
+  --tab-popup-section-amber-badge-text: oklch(0.5 0.15 60);
 
   --tab-popup-section-blue-border: oklch(0.85 0.1 255);
   --tab-popup-section-blue-from: oklch(0.95 0.03 255);
@@ -75,6 +78,8 @@
   --tab-popup-action-emerald-bg: oklch(0.95 0.04 165);
   --tab-popup-action-emerald-bg-hover: oklch(0.88 0.1 165);
   --tab-popup-action-emerald-text: oklch(0.5 0.15 165);
+  --tab-popup-action-emerald-active-bg: oklch(0.65 0.17 165);
+  --tab-popup-action-emerald-active-text: oklch(1 0 0);
   --tab-popup-action-amber-bg: oklch(0.96 0.04 85);
   --tab-popup-action-amber-bg-hover: oklch(0.92 0.08 85);
   --tab-popup-action-amber-text: oklch(0.6 0.15 60);
@@ -100,11 +105,25 @@
   /* Onboarding */
   --tab-popup-onboarding-bg: oklch(0.1 0.02 260);
   --tab-popup-onboarding-overlay: oklch(0.1 0.02 260 / 0.85);
+  --tab-popup-onboarding-radial-top: oklch(0.59 0.2 255 / 0.15);
+  --tab-popup-onboarding-radial-bottom: oklch(0.6 0.22 300 / 0.12);
   --tab-popup-onboarding-card-bg: oklch(1 0 0 / 0.1);
   --tab-popup-onboarding-card-border: oklch(1 0 0 / 0.1);
   --tab-popup-onboarding-shadow: oklch(0.2 0.1 250 / 0.35);
+  --tab-popup-onboarding-subtle-border: oklch(1 0 0 / 0.08);
+  --tab-popup-onboarding-subtle-bg: oklch(1 0 0 / 0.06);
+  --tab-popup-onboarding-label: oklch(1 0 0 / 0.6);
+  --tab-popup-onboarding-desc: oklch(1 0 0 / 0.7);
   --tab-popup-onboarding-tip-bg: oklch(1 0 0 / 0.12);
   --tab-popup-onboarding-tip-text: oklch(1 0 0);
+
+  /* 保存位置栏 (NewTab) */
+  --tab-popup-save-target-bg: oklch(0.96 0.02 255);
+  --tab-popup-save-target-border: oklch(0.85 0.08 255);
+  --tab-popup-save-target-icon: oklch(0.5 0.2 255);
+  --tab-popup-save-target-text: var(--foreground);
+  --tab-popup-save-target-badge-bg: oklch(0.9 0.06 255);
+  --tab-popup-save-target-badge-text: oklch(0.5 0.2 255);
 
   /* Options 页面 */
   --tab-options-page-bg-from: oklch(0.96 0 0);
@@ -171,6 +190,14 @@
   --tab-options-cache-sync-bg: oklch(0.5 0.2 255);
   --tab-options-cache-sync-hover: oklch(0.45 0.2 255);
   --tab-options-cache-sync-text: oklch(1 0 0);
+
+  /* 标签 */
+  --tab-tag-selected-bg: oklch(0.59 0.2 255);
+  --tab-tag-selected-text: oklch(1 0 0);
+  --tab-tag-unselected-bg: var(--card);
+  --tab-tag-unselected-text: var(--foreground);
+  --tab-tag-border: var(--border);
+  --tab-tag-new-indicator: oklch(0.7 0.16 70);
 }
 
 /* Dark mode */
@@ -200,6 +227,8 @@
   --tab-popup-section-amber-icon: oklch(0.88 0.12 85);
   --tab-popup-section-amber-title: oklch(1 0 0);
   --tab-popup-section-amber-text: oklch(0.85 0.1 75);
+  --tab-popup-section-amber-badge-bg: oklch(0.7 0.16 70 / 0.2);
+  --tab-popup-section-amber-badge-text: oklch(0.88 0.12 85);
 
   --tab-popup-section-blue-border: oklch(0.59 0.2 255 / 0.35);
   --tab-popup-section-blue-from: oklch(0.59 0.2 255 / 0.1);
@@ -226,6 +255,8 @@
   --tab-popup-action-emerald-bg: oklch(0.65 0.17 165 / 0.16);
   --tab-popup-action-emerald-bg-hover: oklch(0.65 0.17 165 / 0.22);
   --tab-popup-action-emerald-text: oklch(0.82 0.12 165);
+  --tab-popup-action-emerald-active-bg: oklch(0.65 0.17 165);
+  --tab-popup-action-emerald-active-text: oklch(1 0 0);
   --tab-popup-action-amber-bg: oklch(0.7 0.16 70 / 0.16);
   --tab-popup-action-amber-bg-hover: oklch(0.7 0.16 70 / 0.22);
   --tab-popup-action-amber-text: oklch(0.88 0.12 85);
@@ -245,6 +276,14 @@
 
   --tab-popup-footer-bg: oklch(0.08 0.01 260 / 0.92);
   --tab-popup-footer-border: oklch(1 0 0 / 0.1);
+
+  /* 保存位置栏 (NewTab) - 暗色 */
+  --tab-popup-save-target-bg: oklch(0.59 0.2 255 / 0.1);
+  --tab-popup-save-target-border: oklch(0.59 0.2 255 / 0.35);
+  --tab-popup-save-target-icon: oklch(0.85 0.1 255);
+  --tab-popup-save-target-text: oklch(0.92 0 0);
+  --tab-popup-save-target-badge-bg: oklch(0.59 0.2 255 / 0.2);
+  --tab-popup-save-target-badge-text: oklch(0.85 0.1 255);
 
   --tab-options-page-bg-from: oklch(0.08 0.01 260);
   --tab-options-page-bg-via: oklch(0.12 0.01 260);
@@ -285,4 +324,12 @@
   --tab-options-cache-metric-slate-bg: oklch(0.4 0 0 / 0.2);
   --tab-options-cache-metric-slate-value: oklch(0.85 0 0);
   --tab-options-cache-metric-slate-label: oklch(0.65 0 0);
+
+  /* 标签 - 暗色 */
+  --tab-tag-selected-bg: oklch(0.7 0.15 255);
+  --tab-tag-selected-text: oklch(0.1 0 0);
+  --tab-tag-unselected-bg: oklch(1 0 0 / 0.08);
+  --tab-tag-unselected-text: oklch(0.9 0 0);
+  --tab-tag-border: oklch(1 0 0 / 0.15);
+  --tab-tag-new-indicator: oklch(0.85 0.12 85);
 }

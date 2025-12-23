@@ -80,16 +80,16 @@
   /* ========================================
    * iOS 风格组件（ActionSheet, ConfirmModal）
    * ======================================== */
-  --ios-sheet-bg: oklch(0.22 0 0 / 0.95);
-  --ios-sheet-bg-solid: oklch(0.22 0 0);
-  --ios-action-primary: oklch(0.6 0.18 250);
-  --ios-action-danger: oklch(0.6 0.22 25);
-  --ios-text-primary: oklch(1 0 0);
-  --ios-text-secondary: oklch(1 0 0 / 0.7);
-  --ios-text-muted: oklch(1 0 0 / 0.5);
-  --ios-divider: oklch(1 0 0 / 0.1);
-  --ios-hover: oklch(1 0 0 / 0.05);
-  --ios-active: oklch(1 0 0 / 0.1);
+  --ios-sheet-bg: oklch(0.98 0 0 / 0.95);
+  --ios-sheet-bg-solid: oklch(0.98 0 0);
+  --ios-action-primary: oklch(0.5 0.2 250);
+  --ios-action-danger: oklch(0.55 0.22 25);
+  --ios-text-primary: oklch(0.15 0 0);
+  --ios-text-secondary: oklch(0.15 0 0 / 0.7);
+  --ios-text-muted: oklch(0.3 0 0);
+  --ios-divider: oklch(0 0 0 / 0.1);
+  --ios-hover: oklch(0 0 0 / 0.05);
+  --ios-active: oklch(0 0 0 / 0.1);
 
   /* ========================================
    * 滚动条

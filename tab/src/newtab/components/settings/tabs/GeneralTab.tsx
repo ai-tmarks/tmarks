@@ -99,7 +99,7 @@ export function GeneralTab() {
       <SettingSection title="使用说明">
         <div className="text-sm text-white/70 leading-relaxed space-y-2">
           <div>1. 编辑模式下，双击文件夹可以进入文件夹。</div>
-          <div>2. 首页滚轮切分组：在图标区域内可滚动时优先滚动，滚到边界继续滚动才会切换分组。</div>
+          <div>2. 滚轮切换：左右两侧30%区域滚轮切换分组，中间40%区域滚轮切换图标翻页。</div>
           <div>3. 单个分组图标过多时，可在图标区域滚动进行左右翻页。</div>
         </div>
       </SettingSection>

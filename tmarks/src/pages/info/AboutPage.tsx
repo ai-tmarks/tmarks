@@ -132,7 +132,7 @@ export function AboutPage() {
           </li>
         </ul>
         <a
-          href="https://github.com/your-username/tmarks"
+          href="https://github.com/ai-tmarks/tmarks"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-primary inline-flex items-center gap-2"

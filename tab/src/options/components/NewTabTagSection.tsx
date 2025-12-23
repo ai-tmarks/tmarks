@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { NEWTAB_FOLDER_PROMPT_TEMPLATE, NEWTAB_FOLDER_PROMPT_TEMPLATE_V2 } from '@/lib/constants/newtabPrompts';
+import { NEWTAB_FOLDER_PROMPT_TEMPLATE } from '@/lib/constants/newtabPrompts';
 
 interface NewTabTagSectionProps {
   formData: {
@@ -17,38 +17,6 @@ export function NewTabTagSection({ formData, setFormData, setSuccessMessage }: N
   const [isLoadingFolderPaths, setIsLoadingFolderPaths] = useState(false);
   const [folderPathsError, setFolderPathsError] = useState<string | null>(null);
   const [folderPaths, setFolderPaths] = useState<string[]>([]);
-  const [isImporting, setIsImporting] = useState(false);
-  const [importError, setImportError] = useState<string | null>(null);
-
-  const importAllBookmarksToNewtab = async () => {
-    try {
-      setImportError(null);
-      if (!chrome?.runtime?.sendMessage) {
-        throw new Error('当前环境不支持 chrome.runtime');
-      }
-
-      const confirmed = window.confirm('将复制浏览器所有书签到“Tmakrs”文件夹下（不会修改原始书签）。确定继续？');
-      if (!confirmed) return;
-
-      setIsImporting(true);
-      const resp = (await chrome.runtime.sendMessage({
-        type: 'IMPORT_ALL_BOOKMARKS_TO_NEWTAB',
-      })) as { success: boolean; data?: { importFolderId: string; counts: { folders: number; bookmarks: number } }; error?: string };
-
-      if (!resp?.success) {
-        throw new Error(resp?.error || '导入失败');
-      }
-
-      const folders = resp.data?.counts?.folders ?? 0;
-      const bookmarks = resp.data?.counts?.bookmarks ?? 0;
-      setSuccessMessage(`导入完成：文件夹 ${folders} 个，书签 ${bookmarks} 个`);
-      setTimeout(() => setSuccessMessage(null), 2500);
-    } catch (e) {
-      setImportError(e instanceof Error ? e.message : '导入失败');
-    } finally {
-      setIsImporting(false);
-    }
-  };
 
   const loadFolderPaths = async () => {
     try {
@@ -61,7 +29,14 @@ export function NewTabTagSection({ formData, setFormData, setSuccessMessage }: N
 
       const resp = (await chrome.runtime.sendMessage({
         type: 'GET_NEWTAB_FOLDERS',
-      })) as { success: boolean; data?: { rootId: string; folders: Array<{ id: string; title: string; parentId: string | null; path: string }> }; error?: string };
+      })) as {
+        success: boolean;
+        data?: {
+          rootId: string;
+          folders: Array<{ id: string; title: string; parentId: string | null; path: string }>;
+        };
+        error?: string;
+      };
 
       if (!resp?.success) {
         throw new Error(resp?.error || '加载候选路径失败');
@@ -73,6 +48,7 @@ export function NewTabTagSection({ formData, setFormData, setSuccessMessage }: N
         .filter(Boolean);
 
       setFolderPaths(paths);
+      setSuccessMessage('加载候选路径成功');
     } catch (e) {
       setFolderPathsError(e instanceof Error ? e.message : '加载候选路径失败');
       setFolderPaths([]);
@@ -92,10 +68,10 @@ export function NewTabTagSection({ formData, setFormData, setSuccessMessage }: N
             配置 Popup「保存到 NewTab」的文件夹 AI 推荐。
           </p>
           <p className="mt-2 text-xs text-[var(--tab-options-text-muted)]">
-            NewTab 根目录固定为浏览器书签栏下的文件夹：Tmakrs。
+            NewTab 根目录固定为浏览器书签栏下的文件夹：TMarks。
           </p>
           <p className="mt-1 text-xs text-[var(--tab-options-text-muted)]">
-            后续“AI 整理”会在该根目录范围内创建备份并复制生成整理后的书签结构（可通过下方“AI 分类范围”调整）。
+            后续"AI 整理"会在该根目录范围内创建备份并复制生成整理后的书签结构（可通过下方"AI 分类范围"调整）。
           </p>
         </div>
 
@@ -115,7 +91,9 @@ export function NewTabTagSection({ formData, setFormData, setSuccessMessage }: N
               aria-checked={formData.enableNewtabAI}
               onClick={() => setFormData({ ...formData, enableNewtabAI: !formData.enableNewtabAI })}
               className={`relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-[var(--tab-options-button-primary-bg)] focus:ring-offset-2 ${
-                formData.enableNewtabAI ? 'bg-[var(--tab-options-button-primary-bg)]' : 'bg-[var(--tab-options-button-hover-bg)]'
+                formData.enableNewtabAI
+                  ? 'bg-[var(--tab-options-button-primary-bg)]'
+                  : 'bg-[var(--tab-options-button-hover-bg)]'
               }`}
             >
               <span
@@ -164,159 +142,98 @@ export function NewTabTagSection({ formData, setFormData, setSuccessMessage }: N
               </button>
             </div>
             <p className="mt-2 text-xs text-[var(--tab-options-text-muted)]">
-              用于后续“AI 批量整理/分类既有书签”功能的作用范围。默认只处理 NewTab 根目录。
+              用于后续"AI 批量整理/分类既有书签"功能的作用范围。默认只处理 NewTab 根目录。
             </p>
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-[var(--tab-options-text)] mb-2">导入浏览器书签到 NewTab</label>
-            <p className="text-xs text-[var(--tab-options-text-muted)]">
-              将浏览器所有书签复制到“Tmakrs”文件夹下的一个新子文件夹中，便于后续 AI 整理。不会修改原始书签。
-            </p>
-            <div className="mt-3 flex items-center gap-3">
-              <button
-                type="button"
-                onClick={importAllBookmarksToNewtab}
-                disabled={isImporting}
-                className="px-3 py-2 rounded-lg text-sm font-medium bg-[var(--tab-options-button-primary-bg)] hover:bg-[var(--tab-options-button-primary-hover)] text-[var(--tab-options-button-primary-text)] disabled:opacity-60"
-              >
-                {isImporting ? '导入中...' : '一键导入全部书签'}
-              </button>
-              {importError && (
-                <div className="text-xs text-red-500">{importError}</div>
-              )}
-            </div>
-          </div>
-
-          <div>
-            <label className="block text-sm font-medium text-[var(--tab-options-text)] mb-3">
-              最大推荐文件夹数
+            <label className="block text-sm font-medium text-[var(--tab-options-text)] mb-2">
+              推荐文件夹数量: {formData.newtabFolderRecommendCount}
             </label>
             <input
-              type="number"
+              type="range"
               min="1"
               max="20"
-              value={formData.newtabFolderRecommendCount ?? 10}
-              onChange={(e) => setFormData({ ...formData, newtabFolderRecommendCount: parseInt(e.target.value) || 10 })}
-              disabled={!formData.enableNewtabAI}
-              className="w-full px-3 py-2 border border-[color:var(--tab-options-button-border)] rounded-lg bg-[color:var(--tab-options-card-bg)] text-[var(--tab-options-title)] focus:outline-none focus:ring-2 focus:ring-[var(--tab-options-button-primary-bg)] disabled:opacity-60"
+              value={formData.newtabFolderRecommendCount}
+              onChange={(e) =>
+                setFormData({ ...formData, newtabFolderRecommendCount: Number(e.target.value) })
+              }
+              className="w-full"
             />
-            <p className="mt-2 text-xs text-[var(--tab-options-text-muted)]">范围 1-20。</p>
+            <p className="mt-1 text-xs text-[var(--tab-options-text-muted)]">
+              AI 推荐的候选文件夹数量（1-20）
+            </p>
           </div>
 
           <div>
             <div className="flex items-center justify-between mb-2">
               <label className="block text-sm font-medium text-[var(--tab-options-text)]">
-                NewTab 文件夹级 Prompt
+                自定义 Prompt
               </label>
               <button
                 type="button"
-                onClick={() => setFormData({ ...formData, enableNewtabFolderPrompt: !formData.enableNewtabFolderPrompt })}
-                disabled={!formData.enableNewtabAI}
-                className={`px-3 py-1 rounded-lg text-xs font-medium transition-colors ${
-                  formData.enableNewtabAI && formData.enableNewtabFolderPrompt
-                    ? 'bg-[var(--tab-options-button-primary-bg)] text-[var(--tab-options-button-primary-text)] hover:bg-[var(--tab-options-button-primary-hover)]'
-                    : 'bg-[var(--tab-options-button-hover-bg)] text-[var(--tab-options-button-text)] hover:bg-[color:var(--tab-options-button-border)]'
+                role="switch"
+                aria-checked={formData.enableNewtabFolderPrompt}
+                onClick={() =>
+                  setFormData({ ...formData, enableNewtabFolderPrompt: !formData.enableNewtabFolderPrompt })
+                }
+                className={`relative inline-flex h-5 w-9 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none ${
+                  formData.enableNewtabFolderPrompt
+                    ? 'bg-[var(--tab-options-button-primary-bg)]'
+                    : 'bg-[var(--tab-options-button-hover-bg)]'
                 }`}
               >
-                {formData.enableNewtabFolderPrompt ? '已启用' : '已禁用'}
+                <span
+                  className={`pointer-events-none inline-block h-4 w-4 transform rounded-full bg-[var(--tab-options-switch-thumb)] shadow ring-0 transition duration-200 ease-in-out ${
+                    formData.enableNewtabFolderPrompt ? 'translate-x-4' : 'translate-x-0'
+                  }`}
+                />
               </button>
             </div>
-
-            <p className="mt-1 text-xs text-[var(--tab-options-text-muted)]">
-              用于“文件夹级别”的保存位置推荐：AI 只能从候选文件夹路径列表中选择，不会生成标签。
-            </p>
-
-            {formData.enableNewtabAI && formData.enableNewtabFolderPrompt && (
-              <div className="space-y-3">
+            {formData.enableNewtabFolderPrompt && (
+              <div className="space-y-2">
                 <textarea
                   value={formData.newtabFolderPrompt}
                   onChange={(e) => setFormData({ ...formData, newtabFolderPrompt: e.target.value })}
-                  rows={10}
-                  className="w-full px-3 py-2 border border-[color:var(--tab-options-button-border)] rounded-lg bg-[color:var(--tab-options-card-bg)] text-[var(--tab-options-title)] focus:outline-none focus:ring-2 focus:ring-[var(--tab-options-button-primary-bg)] font-mono text-xs"
-                  placeholder="可用变量：{{title}} {{url}} {{description}} {{recommendCount}} {{folderPaths}}"
+                  placeholder={NEWTAB_FOLDER_PROMPT_TEMPLATE}
+                  rows={8}
+                  className="w-full rounded-lg border border-[var(--tab-options-card-border)] bg-[var(--tab-options-card-bg)] px-3 py-2 text-sm text-[var(--tab-options-text)] placeholder-[var(--tab-options-text-muted)] focus:outline-none focus:ring-2 focus:ring-[var(--tab-options-button-primary-bg)]"
                 />
+                <p className="text-xs text-[var(--tab-options-text-muted)]">
+                  可用变量: {'{{title}}'}, {'{{url}}'}, {'{{description}}'}, {'{{folderPaths}}'},{' '}
+                  {'{{recommendCount}}'}
+                </p>
+              </div>
+            )}
+          </div>
 
-                <div className="rounded-lg border border-[color:var(--tab-options-card-border)] bg-[color:var(--tab-options-card-bg)] p-3 space-y-2">
-                  <div className="flex items-center justify-between gap-2">
-                    <div>
-                      <div className="text-sm font-medium text-[var(--tab-options-title)]">候选路径预览</div>
-                      <div className="mt-1 text-xs text-[var(--tab-options-text-muted)]">
-                        路径格式示例：Tmakrs/邮箱/国外/临时邮箱
-                      </div>
-                    </div>
-                    <div className="flex gap-2">
-                      <button
-                        type="button"
-                        onClick={loadFolderPaths}
-                        disabled={isLoadingFolderPaths}
-                        className="text-xs px-2 py-1 bg-[var(--tab-options-button-hover-bg)] hover:bg-[color:var(--tab-options-button-border)] text-[var(--tab-options-button-text)] rounded-md transition-colors duration-200 disabled:opacity-60"
-                      >
-                        {isLoadingFolderPaths ? '加载中...' : folderPaths.length > 0 ? '刷新' : '加载'}
-                      </button>
-                      <button
-                        type="button"
-                        onClick={() => {
-                          navigator.clipboard.writeText(folderPaths.join('\n')).then(() => {
-                            setSuccessMessage('候选路径已复制到剪贴板');
-                            setTimeout(() => setSuccessMessage(null), 2000);
-                          });
-                        }}
-                        disabled={folderPaths.length === 0}
-                        className="text-xs px-2 py-1 bg-[var(--tab-options-button-primary-bg)] hover:bg-[var(--tab-options-button-primary-hover)] text-[var(--tab-options-button-primary-text)] rounded-md transition-colors duration-200 disabled:opacity-60"
-                      >
-                        复制路径
-                      </button>
-                    </div>
+          <div>
+            <button
+              type="button"
+              onClick={loadFolderPaths}
+              disabled={isLoadingFolderPaths}
+              className="rounded-lg bg-[var(--tab-options-button-primary-bg)] px-4 py-2 text-sm font-medium text-[var(--tab-options-button-primary-text)] hover:opacity-90 disabled:opacity-50"
+            >
+              {isLoadingFolderPaths ? '加载中...' : '加载候选路径'}
+            </button>
+            {folderPathsError && (
+              <p className="mt-2 text-xs text-red-500">{folderPathsError}</p>
+            )}
+            {folderPaths.length > 0 && (
+              <div className="mt-2 max-h-32 overflow-y-auto rounded-lg border border-[var(--tab-options-card-border)] bg-[var(--tab-options-card-bg)] p-2">
+                <p className="text-xs text-[var(--tab-options-text-muted)] mb-1">
+                  已加载 {folderPaths.length} 个候选路径:
+                </p>
+                {folderPaths.slice(0, 10).map((path, i) => (
+                  <div key={i} className="text-xs text-[var(--tab-options-text)]">
+                    {path}
                   </div>
-
-                  {folderPathsError && (
-                    <div className="text-xs text-red-500">{folderPathsError}</div>
-                  )}
-
-                  {folderPaths.length > 0 ? (
-                    <pre className="text-xs text-[var(--tab-options-text-muted)] whitespace-pre-wrap max-h-40 overflow-y-auto">
-{folderPaths.join('\n')}
-                    </pre>
-                  ) : (
-                    <div className="text-xs text-[var(--tab-options-text-muted)]">尚未加载候选路径。</div>
-                  )}
-                </div>
-
-                <div className="p-3 bg-[color:var(--tab-options-tag-bg)] rounded-lg">
-                  <p className="text-xs font-medium text-[var(--tab-options-pill-text)] mb-1">💡 专业示例 Prompt：</p>
-                  <pre className="text-xs text-[var(--tab-options-text-muted)] whitespace-pre-wrap max-h-32 overflow-y-auto">
-{NEWTAB_FOLDER_PROMPT_TEMPLATE}
-                  </pre>
-                  <div className="mt-2 flex gap-2">
-                    <button
-                      type="button"
-                      onClick={() => setFormData({ ...formData, newtabFolderPrompt: NEWTAB_FOLDER_PROMPT_TEMPLATE })}
-                      className="text-xs px-2 py-1 bg-[var(--tab-options-button-primary-bg)] hover:bg-[var(--tab-options-button-primary-hover)] text-[var(--tab-options-button-primary-text)] rounded-md transition-colors duration-200"
-                    >
-                      使用此示例
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => setFormData({ ...formData, newtabFolderPrompt: NEWTAB_FOLDER_PROMPT_TEMPLATE_V2 })}
-                      className="text-xs px-2 py-1 bg-[var(--tab-options-button-primary-bg)] hover:bg-[var(--tab-options-button-primary-hover)] text-[var(--tab-options-button-primary-text)] rounded-md transition-colors duration-200"
-                    >
-                      使用示例 2
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => {
-                        navigator.clipboard.writeText(NEWTAB_FOLDER_PROMPT_TEMPLATE).then(() => {
-                          setSuccessMessage('示例 Prompt 已复制到剪贴板');
-                          setTimeout(() => setSuccessMessage(null), 2000);
-                        });
-                      }}
-                      className="text-xs px-2 py-1 bg-[var(--tab-options-button-primary-bg)] hover:bg-[var(--tab-options-button-primary-hover)] text-[var(--tab-options-button-primary-text)] rounded-md transition-colors duration-200"
-                    >
-                      复制示例
-                    </button>
+                ))}
+                {folderPaths.length > 10 && (
+                  <div className="text-xs text-[var(--tab-options-text-muted)]">
+                    ...还有 {folderPaths.length - 10} 个
                   </div>
-                </div>
+                )}
               </div>
             )}
           </div>

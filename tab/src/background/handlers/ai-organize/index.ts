@@ -45,7 +45,7 @@ export async function handleAiOrganizeNewtabWorkspace(
     typeof payload.promptTemplate === 'string' ? payload.promptTemplate.trim() : '';
   const enableHistoryHeat = Boolean(payload.enableHistoryHeat);
   const historyDays = clampHistoryDays(Number(payload.historyDays ?? 30));
-  const topHistoryLimit = clampHistoryTopN(Number(payload.historyHeatTopN ?? 20));
+  const topHistoryLimit = clampHistoryTopN(Number(payload.historyHeatTopN ?? 10));
   const strictHierarchy = Boolean(payload.strictHierarchy);
   const allowNewFolders = strictHierarchy ? false : payload.allowNewFolders !== false;
   const preferOriginalPaths = payload.preferOriginalPaths !== false;
@@ -187,7 +187,9 @@ export async function handleAiOrganizeNewtabWorkspace(
     .split('{{domainSummariesJson}}')
     .join(JSON.stringify(domainSummariesPayload))
     .split('{{topLevelCount}}')
-    .join(String(requestedTopLevelCount));
+    .join(String(requestedTopLevelCount))
+    .split('{{topHistoryLimit}}')
+    .join(String(topHistoryLimit));
 
   const aiResult = await callAI({
     provider: config.aiConfig.provider as any,
@@ -238,11 +240,58 @@ export async function handleAiOrganizeNewtabWorkspace(
     throw new Error('AI 返回结果不可解析或为空');
   }
 
+  // 统计一级目录数量并限制
+  const topLevelFolders = new Set<string>();
+  for (const dm of domainMoves) {
+    const topLevel = dm.path.split('/')[0];
+    if (topLevel) topLevelFolders.add(topLevel);
+  }
+
+  const actualTopLevelCount = topLevelFolders.size;
+  let mergedCount = 0;
+
+  // 如果一级目录超过限制，将超出的目录合并到 fallbackPath
+  if (actualTopLevelCount > requestedTopLevelCount) {
+    // 统计每个一级目录的域名数量
+    const topLevelDomainCounts = new Map<string, number>();
+    for (const dm of domainMoves) {
+      const topLevel = dm.path.split('/')[0];
+      if (topLevel) {
+        topLevelDomainCounts.set(topLevel, (topLevelDomainCounts.get(topLevel) || 0) + 1);
+      }
+    }
+
+    // 按域名数量排序，保留前 N 个最大的一级目录
+    const sortedTopLevels = Array.from(topLevelDomainCounts.entries())
+      .sort((a, b) => b[1] - a[1])
+      .map(([name]) => name);
+
+    const keepTopLevels = new Set(sortedTopLevels.slice(0, requestedTopLevelCount));
+    const mergeTopLevels = new Set(sortedTopLevels.slice(requestedTopLevelCount));
+
+    // 将超出的一级目录下的域名合并到 fallbackPath
+    for (const dm of domainMoves) {
+      const topLevel = dm.path.split('/')[0];
+      if (topLevel && mergeTopLevels.has(topLevel)) {
+        dm.path = fallbackPath;
+        mergedCount++;
+      }
+    }
+
+    await reportAiOrganizeProgress({
+      sessionId,
+      level: 'warn',
+      step: 'limit',
+      message: `AI 返回 ${actualTopLevelCount} 个一级目录，超过限制 ${requestedTopLevelCount}，已将 ${mergedCount} 个域名合并到「${fallbackPath}」`,
+      detail: { kept: Array.from(keepTopLevels), merged: Array.from(mergeTopLevels) },
+    });
+  }
+
   await reportAiOrganizeProgress({
     sessionId,
     level: 'success',
     step: 'parse',
-    message: `已解析 AI 规划: domainMoves=${domainMoves.length}，fallbackPath=${fallbackPath}`,
+    message: `已解析 AI 规划: domainMoves=${domainMoves.length}，一级目录=${Math.min(actualTopLevelCount, requestedTopLevelCount)}，fallbackPath=${fallbackPath}`,
   });
 
   const domainToPath = new Map<string, string>();

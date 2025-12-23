@@ -72,6 +72,7 @@ export interface GridItem {
   groupId?: string;
   parentId?: string | null;
   browserBookmarkId?: string;
+  tmarksBookmarkId?: string; // TMarks 服务器书签 ID，用于同步
   // 快捷方式数据（仅 type='shortcut' 时使用）
   shortcut?: {
     url: string;

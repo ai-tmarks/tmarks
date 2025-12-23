@@ -6,6 +6,7 @@ import type { GridItem } from '../../../types';
 import type { NewTabState } from '../types';
 import { pruneEmptyFoldersCascade } from '../utils';
 import { debouncedSync } from '../sync';
+import { syncTrashBookmarksToTMarks } from '../../../services/tmarks-sync';
 
 export interface BrowserBookmarkActions {
   setBrowserBookmarksRootId: (rootId: string | null) => void;
@@ -47,13 +48,13 @@ export function createBrowserBookmarkActions(
     },
 
     setGroupBookmarkFolderId: (groupId, folderId) => {
-      const { shortcuts, shortcutGroups, shortcutFolders, settings, gridItems, saveData } = get();
+      const { shortcutGroups, gridItems, saveData } = get();
       const nextGroups = shortcutGroups.map((group) =>
         group.id === groupId ? { ...group, bookmarkFolderId: folderId ?? undefined } : group
       );
       set({ shortcutGroups: nextGroups });
       saveData();
-      debouncedSync({ shortcuts, groups: nextGroups, folders: shortcutFolders, settings, gridItems });
+      debouncedSync({ groups: nextGroups, gridItems });
     },
 
     setIsApplyingBrowserBookmarks: (isApplying) => {
@@ -163,12 +164,27 @@ export function createBrowserBookmarkActions(
         }
       }
 
+      // 收集需要同步删除到 TMarks 的书签 ID
+      const tmarksIdsToTrash: string[] = [];
+      for (const item of gridItems) {
+        if (toDelete.has(item.id) && item.tmarksBookmarkId) {
+          tmarksIdsToTrash.push(item.tmarksBookmarkId);
+        }
+      }
+
       const filtered = gridItems.filter((item) => !toDelete.has(item.id));
       const nextCurrentFolderId = currentFolderId && toDelete.has(currentFolderId) ? null : currentFolderId;
       const protectedBrowserBookmarkIds = new Set<string>([browserBookmarksRootId].filter(Boolean) as string[]);
       const cleaned = pruneEmptyFoldersCascade(filtered, nextCurrentFolderId, protectedBrowserBookmarkIds);
       set({ gridItems: cleaned.items, currentFolderId: cleaned.currentFolderId });
       saveData();
+
+      // 异步同步删除到 TMarks 服务器（移入回收站）
+      if (tmarksIdsToTrash.length > 0) {
+        syncTrashBookmarksToTMarks(tmarksIdsToTrash).catch((error) => {
+          console.error('[TMarks Sync] 同步删除失败:', error);
+        });
+      }
 
       // 清理空分组
       get().cleanupEmptyGroups();

@@ -49,6 +49,7 @@ export function NewTab() {
   }, [loadData]);
 
   // 滚轮切换分组 - 使用稳定的回调，通过 ref 访问最新状态
+  // 页面分三区：左30%和右30%切换分组，中间40%切换图标翻页
   const handleWheel = useCallback((e: WheelEvent) => {
     const { shortcutGroups: groups, activeGroupId: currentGroupId, setActiveGroup: setGroup } = stateRef.current;
     
@@ -57,25 +58,35 @@ export function NewTab() {
       return;
     }
     
-    // 检查是否在可滚动元素内
+    // 检查是否在可滚动元素内（弹窗等）
     const target = e.target as HTMLElement;
     const scrollableParent = target.closest('.overflow-y-auto, .overflow-auto');
     if (scrollableParent) {
       const { scrollTop, scrollHeight, clientHeight } = scrollableParent;
-      // 如果内容可滚动且不在边界，不切换分组
       if (scrollHeight > clientHeight) {
         if (e.deltaY < 0 && scrollTop > 0) return;
         if (e.deltaY > 0 && scrollTop + clientHeight < scrollHeight) return;
       }
     }
 
-    // 构建分组列表：所有分组的 ID
+    // 根据鼠标位置判断区域：左30% | 中间40% | 右30%
+    const mouseX = e.clientX;
+    const windowWidth = window.innerWidth;
+    const leftBoundary = windowWidth * 0.3;
+    const rightBoundary = windowWidth * 0.7;
+    
+    // 中间 40% 区域：让 WidgetGrid 处理图标翻页，不在这里处理
+    if (mouseX >= leftBoundary && mouseX <= rightBoundary) {
+      // 中间区域不切换分组，交给 WidgetGrid 的 handleWheel 处理
+      return;
+    }
+
+    // 左30% 或 右30% 区域：切换分组
     const groupIds = groups.map(g => g.id);
     if (groupIds.length === 0) return;
     
     const currentIndex = groupIds.indexOf(currentGroupId || '');
     
-    // 如果当前没有选中分组或找不到当前分组，默认为第一个
     if (currentIndex === -1) {
       setGroup(groupIds[0]);
       return;
@@ -91,9 +102,8 @@ export function NewTab() {
     }
 
     if (newIndex !== currentIndex) {
-      e.preventDefault(); // 阻止默认滚动行为
+      e.preventDefault();
       setGroup(groupIds[newIndex]);
-      // 锁定一段时间，防止连续切换
       isWheelLocked.current = true;
       if (wheelTimeoutRef.current) {
         clearTimeout(wheelTimeoutRef.current);

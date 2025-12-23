@@ -49,6 +49,7 @@
   --tab-popup-primary-to: var(--primary);
   --tab-popup-primary-text: var(--primary-foreground);
   --tab-popup-primary-shadow: oklch(0 0 0 / 0.2);
+  --tab-popup-primary-shadow-strong: oklch(0 0 0 / 0.3);
 
   --tab-popup-success-from: var(--primary);
   --tab-popup-success-via: var(--ring);
@@ -75,6 +76,8 @@
   --tab-popup-section-amber-icon: var(--primary);
   --tab-popup-section-amber-title: var(--card-foreground);
   --tab-popup-section-amber-text: var(--muted-foreground);
+  --tab-popup-section-amber-badge-bg: var(--secondary);
+  --tab-popup-section-amber-badge-text: var(--secondary-foreground);
 
   --tab-popup-section-blue-border: var(--border);
   --tab-popup-section-blue-from: var(--muted);
@@ -102,6 +105,8 @@
   --tab-popup-action-emerald-bg: var(--secondary);
   --tab-popup-action-emerald-bg-hover: var(--muted);
   --tab-popup-action-emerald-text: var(--secondary-foreground);
+  --tab-popup-action-emerald-active-bg: var(--primary);
+  --tab-popup-action-emerald-active-text: var(--primary-foreground);
   --tab-popup-action-amber-bg: var(--secondary);
   --tab-popup-action-amber-bg-hover: var(--muted);
   --tab-popup-action-amber-text: var(--secondary-foreground);
@@ -127,11 +132,25 @@
   /* Onboarding */
   --tab-popup-onboarding-bg: var(--foreground);
   --tab-popup-onboarding-overlay: color-mix(in oklch, var(--foreground) 85%, transparent);
+  --tab-popup-onboarding-radial-top: color-mix(in oklch, var(--background) 12%, transparent);
+  --tab-popup-onboarding-radial-bottom: color-mix(in oklch, var(--background) 10%, transparent);
   --tab-popup-onboarding-card-bg: color-mix(in oklch, var(--background) 12%, transparent);
   --tab-popup-onboarding-card-border: color-mix(in oklch, var(--background) 12%, transparent);
   --tab-popup-onboarding-shadow: color-mix(in oklch, var(--foreground) 20%, transparent);
+  --tab-popup-onboarding-subtle-border: color-mix(in oklch, var(--background) 8%, transparent);
+  --tab-popup-onboarding-subtle-bg: color-mix(in oklch, var(--background) 6%, transparent);
+  --tab-popup-onboarding-label: color-mix(in oklch, var(--background) 60%, transparent);
+  --tab-popup-onboarding-desc: color-mix(in oklch, var(--background) 70%, transparent);
   --tab-popup-onboarding-tip-bg: color-mix(in oklch, var(--background) 18%, transparent);
   --tab-popup-onboarding-tip-text: var(--primary-foreground);
+
+  /* 保存位置栏 (NewTab) */
+  --tab-popup-save-target-bg: var(--muted);
+  --tab-popup-save-target-border: var(--border);
+  --tab-popup-save-target-icon: var(--foreground);
+  --tab-popup-save-target-text: var(--foreground);
+  --tab-popup-save-target-badge-bg: var(--secondary);
+  --tab-popup-save-target-badge-text: var(--secondary-foreground);
 
   /* Options 页面 */
   --tab-options-page-bg-from: var(--background);
@@ -257,6 +276,14 @@
 
   --tab-scrollbar-thumb: color-mix(in oklch, var(--foreground) 28%, transparent);
   --tab-scrollbar-thumb-hover: color-mix(in oklch, var(--foreground) 38%, transparent);
+
+  /* 保存位置栏 (NewTab) - 暗色 */
+  --tab-popup-save-target-bg: var(--muted);
+  --tab-popup-save-target-border: var(--border);
+  --tab-popup-save-target-icon: var(--foreground);
+  --tab-popup-save-target-text: var(--foreground);
+  --tab-popup-save-target-badge-bg: var(--secondary);
+  --tab-popup-save-target-badge-text: var(--secondary-foreground);
 
   --tab-options-pill-bg: color-mix(in oklch, var(--foreground) 10%, transparent);
   --tab-options-button-hover-bg: color-mix(in oklch, var(--foreground) 8%, transparent);

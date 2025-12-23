@@ -23,4 +23,5 @@ export interface WidgetRendererProps {
   isBatchMode?: boolean;
   isSelected?: boolean;
   onToggleSelect?: (id: string) => void;
+  shortcutStyle?: 'icon' | 'card';
 }

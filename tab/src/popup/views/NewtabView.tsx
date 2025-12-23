@@ -217,7 +217,7 @@ export function NewtabSections({
                 className="inline-flex items-center rounded-lg bg-[var(--tab-popup-action-neutral-bg)] px-2.5 py-1 text-xs font-medium text-[var(--tab-popup-text)] hover:bg-[var(--tab-popup-action-neutral-bg-hover)] transition-colors"
                 title={s.path}
               >
-                <span className="truncate max-w-[240px]">{s.path.replace(/^Tmakrs\//, '')}</span>
+                <span className="truncate max-w-[240px]">{s.path.replace(/^TMarks\//, '')}</span>
               </button>
             ))}
           </div>

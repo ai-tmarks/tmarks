@@ -142,7 +142,7 @@ export function HelpPage() {
         </p>
         <div className="flex flex-col sm:flex-row gap-3">
           <a
-            href="https://github.com/your-username/tmarks/issues"
+            href="https://github.com/ai-tmarks/tmarks/issues"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-secondary flex items-center gap-2 justify-center"

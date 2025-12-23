@@ -2,7 +2,7 @@
  * 分组相关 Actions
  */
 
-import type { Shortcut, ShortcutGroup, ShortcutFolder, NewTabSettings, GridItem } from '../../../types';
+import type { Shortcut, ShortcutGroup, GridItem } from '../../../types';
 import { generateId } from '../utils';
 import { debouncedSync } from '../sync';
 
@@ -26,8 +26,6 @@ export function createGroupActions(
   get: () => {
     shortcuts: Shortcut[];
     shortcutGroups: ShortcutGroup[];
-    shortcutFolders: ShortcutFolder[];
-    settings: NewTabSettings;
     gridItems: GridItem[];
     activeGroupId: string | null;
     saveData: () => Promise<void>;
@@ -55,7 +53,7 @@ export function createGroupActions(
     },
 
     addGroup: (name, icon, options) => {
-      const { shortcuts, shortcutGroups, shortcutFolders, settings, gridItems, saveData } = get();
+      const { shortcutGroups, gridItems, saveData } = get();
       const newGroup: ShortcutGroup = {
         id: generateId(),
         name,
@@ -66,13 +64,7 @@ export function createGroupActions(
       const newGroups = [...shortcutGroups, newGroup];
       set({ shortcutGroups: newGroups });
       saveData();
-      debouncedSync({
-        shortcuts,
-        groups: newGroups,
-        folders: shortcutFolders,
-        settings,
-        gridItems,
-      });
+      debouncedSync({ groups: newGroups, gridItems });
 
       if (!options?.skipBookmarkFolderCreation) {
         void ensureGroupFolderId(newGroup.id, {
@@ -83,26 +75,18 @@ export function createGroupActions(
     },
 
     updateGroup: (id, updates) => {
-      const { shortcuts, shortcutGroups, shortcutFolders, settings, gridItems, saveData } = get();
+      const { shortcutGroups, gridItems, saveData } = get();
       const newGroups = shortcutGroups.map((g) => (g.id === id ? { ...g, ...updates } : g));
       set({ shortcutGroups: newGroups });
       saveData();
-      debouncedSync({
-        shortcuts,
-        groups: newGroups,
-        folders: shortcutFolders,
-        settings,
-        gridItems,
-      });
+      debouncedSync({ groups: newGroups, gridItems });
     },
 
     removeGroup: (id, options) => {
       const {
         shortcutGroups,
-        shortcutFolders,
         shortcuts,
         activeGroupId,
-        settings,
         gridItems,
         saveData,
         setBrowserBookmarkWriteLockUntil,
@@ -129,7 +113,6 @@ export function createGroupActions(
         .filter((g) => g.id !== id)
         .map((group, index) => ({ ...group, position: index }));
 
-      // 如果当前激活的分组被删除，同时重置 currentFolderId
       const shouldResetCurrentFolder = activeGroupId === id;
 
       set({
@@ -140,13 +123,7 @@ export function createGroupActions(
         ...(shouldResetCurrentFolder ? { currentFolderId: null } : {}),
       });
       saveData();
-      debouncedSync({
-        shortcuts: updatedShortcuts,
-        groups: filtered,
-        folders: shortcutFolders,
-        settings,
-        gridItems: updatedGridItems,
-      });
+      debouncedSync({ groups: filtered, gridItems: updatedGridItems });
 
       if (targetGroup.bookmarkFolderId && !options?.skipBrowserBookmarkDeletion) {
         (async () => {
@@ -165,38 +142,27 @@ export function createGroupActions(
     },
 
     setGroupBookmarkFolderId: (groupId, folderId) => {
-      const { shortcuts, shortcutGroups, shortcutFolders, settings, gridItems, saveData } = get();
+      const { shortcutGroups, gridItems, saveData } = get();
       const nextGroups = shortcutGroups.map((group) =>
         group.id === groupId ? { ...group, bookmarkFolderId: folderId ?? undefined } : group
       );
       set({ shortcutGroups: nextGroups });
       saveData();
-      debouncedSync({
-        shortcuts,
-        groups: nextGroups,
-        folders: shortcutFolders,
-        settings,
-        gridItems,
-      });
+      debouncedSync({ groups: nextGroups, gridItems });
     },
 
     cleanupEmptyGroups: () => {
       const {
         shortcutGroups,
-        shortcutFolders,
-        shortcuts,
         activeGroupId,
-        settings,
         gridItems,
         saveData,
         setBrowserBookmarkWriteLockUntil,
       } = get();
 
-      // 找出空的分组（除了首页）
       const emptyGroupIds = shortcutGroups
         .filter((group) => {
-          if (group.id === 'home') return false; // 首页不删除
-          // 检查该分组下是否有任何 gridItems
+          if (group.id === 'home') return false;
           const hasItems = gridItems.some(
             (item) => (item.groupId ?? 'home') === group.id && (item.parentId ?? null) === null
           );
@@ -206,7 +172,6 @@ export function createGroupActions(
 
       if (emptyGroupIds.length === 0) return;
 
-      // 收集需要删除的浏览器书签文件夹 ID
       const bookmarkFolderIdsToDelete: string[] = [];
       emptyGroupIds.forEach((groupId) => {
         const group = shortcutGroups.find((g) => g.id === groupId);
@@ -215,14 +180,11 @@ export function createGroupActions(
         }
       });
 
-      // 过滤掉空分组
       const filtered = shortcutGroups
         .filter((g) => !emptyGroupIds.includes(g.id))
         .map((group, index) => ({ ...group, position: index }));
 
-      // 如果当前激活的分组被删除，切换到首页
       const newActiveGroupId = emptyGroupIds.includes(activeGroupId ?? '') ? 'home' : activeGroupId;
-      // 如果激活分组被删除，同时重置 currentFolderId
       const shouldResetCurrentFolder = emptyGroupIds.includes(activeGroupId ?? '');
 
       set({
@@ -231,15 +193,8 @@ export function createGroupActions(
         ...(shouldResetCurrentFolder ? { currentFolderId: null } : {}),
       });
       saveData();
-      debouncedSync({
-        shortcuts,
-        groups: filtered,
-        folders: shortcutFolders,
-        settings,
-        gridItems,
-      });
+      debouncedSync({ groups: filtered, gridItems });
 
-      // 删除浏览器书签中的空分组文件夹
       if (bookmarkFolderIdsToDelete.length > 0) {
         (async () => {
           try {

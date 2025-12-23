@@ -4,8 +4,9 @@
 
 import { useState, useCallback, useEffect, useRef } from 'react';
 import { StorageService } from '@/lib/utils/storage';
-import { createTMarksClient } from '@/lib/api/tmarks';
+import { createTMarksClient, type TMarks } from '@/lib/api/tmarks';
 import { getTMarksUrls } from '@/lib/constants/urls';
+import { logger } from '@/lib/utils/logger';
 import type { TMarksBookmark, SyncState } from '../types';
 import type { Message } from '@/types';
 
@@ -18,8 +19,12 @@ interface CachedPinnedBookmarks {
   timestamp: number;
 }
 
-// 创建 TMarks 客户端
-async function getTMarksClient() {
+// 客户端缓存（模块级别单例）
+let cachedClient: TMarks | null = null;
+let cachedClientConfig: { apiKey: string; apiBaseUrl: string } | null = null;
+
+// 创建或获取缓存的 TMarks 客户端
+async function getTMarksClient(): Promise<TMarks> {
   const configuredUrl = await StorageService.getBookmarkSiteApiUrl();
   const apiKey = await StorageService.getBookmarkSiteApiKey();
 
@@ -36,7 +41,27 @@ async function getTMarksClient() {
     apiBaseUrl = getTMarksUrls().API_BASE;
   }
 
-  return createTMarksClient({ apiKey, baseUrl: apiBaseUrl });
+  // 检查缓存是否有效（配置未变化）
+  if (
+    cachedClient &&
+    cachedClientConfig &&
+    cachedClientConfig.apiKey === apiKey &&
+    cachedClientConfig.apiBaseUrl === apiBaseUrl
+  ) {
+    return cachedClient;
+  }
+
+  // 创建新客户端并缓存
+  cachedClient = createTMarksClient({ apiKey, baseUrl: apiBaseUrl });
+  cachedClientConfig = { apiKey, apiBaseUrl };
+
+  return cachedClient;
+}
+
+// 清除客户端缓存（配置变更时调用）
+export function clearTMarksClientCache(): void {
+  cachedClient = null;
+  cachedClientConfig = null;
 }
 
 export function useTMarksSync() {
@@ -55,12 +80,12 @@ export function useTMarksSync() {
       const cached = result[PINNED_BOOKMARKS_CACHE_KEY] as CachedPinnedBookmarks | undefined;
 
       if (cached && cached.bookmarks) {
-        console.log('[TMarks] 从缓存加载置顶书签:', cached.bookmarks.length, '个');
+        logger.log('从缓存加载置顶书签:', cached.bookmarks.length, '个');
         return cached.bookmarks;
       }
       return null;
     } catch (error) {
-      console.error('[TMarks] 加载缓存失败:', error);
+      logger.error('加载缓存失败:', error);
       return null;
     }
   }, []);
@@ -73,9 +98,9 @@ export function useTMarksSync() {
         timestamp: Date.now(),
       };
       await chrome.storage.local.set({ [PINNED_BOOKMARKS_CACHE_KEY]: cached });
-      console.log('[TMarks] 已缓存置顶书签');
+      logger.log('已缓存置顶书签');
     } catch (error) {
-      console.error('[TMarks] 保存缓存失败:', error);
+      logger.error('保存缓存失败:', error);
     }
   }, []);
 
@@ -103,7 +128,7 @@ export function useTMarksSync() {
         page_size: 20,
       });
 
-      console.log('[TMarks] 获取置顶书签响应:', {
+      logger.debug('获取置顶书签响应:', {
         total: response.data?.bookmarks?.length,
         bookmarks: response.data?.bookmarks?.map((b) => ({
           id: b.id,
@@ -116,7 +141,7 @@ export function useTMarksSync() {
         // 双重过滤：确保只显示 is_pinned 为 true 的书签
         const pinnedOnly = response.data.bookmarks.filter((b) => b.is_pinned === true);
         
-        console.log('[TMarks] 过滤后置顶书签:', pinnedOnly.length);
+        logger.log('过滤后置顶书签:', pinnedOnly.length);
 
         const bookmarks: TMarksBookmark[] = pinnedOnly.map((b) => ({
           id: b.id,
@@ -139,7 +164,7 @@ export function useTMarksSync() {
       return response.data?.bookmarks || [];
     } catch (error) {
       const message = error instanceof Error ? error.message : '同步失败';
-      console.error('[TMarks] 获取置顶书签失败:', error);
+      logger.error('获取置顶书签失败:', error);
       setSyncState((s) => ({
         ...s,
         isSyncing: false,
@@ -190,7 +215,7 @@ export function useTMarksSync() {
   useEffect(() => {
     const handleMessage = (message: Message) => {
       if (message.type === 'REFRESH_PINNED_BOOKMARKS') {
-        console.log('[TMarks] 收到刷新置顶书签消息');
+        logger.log('收到刷新置顶书签消息');
         // 强制从后端刷新
         if (fetchPinnedBookmarksRef.current) {
           fetchPinnedBookmarksRef.current(true);
@@ -219,9 +244,9 @@ export function useTMarksSync() {
       const client = await getTMarksClient();
       await client.bookmarks.reorderPinnedBookmarks(bookmarkIds);
       
-      console.log('[TMarks] 置顶书签顺序已更新并同步到后端');
+      logger.log('置顶书签顺序已更新并同步到后端');
     } catch (error) {
-      console.error('[TMarks] 更新置顶书签顺序失败:', error);
+      logger.error('更新置顶书签顺序失败:', error);
       // 失败时重新从后端获取
       await fetchPinnedBookmarks(true);
     }
@@ -232,10 +257,10 @@ export function useTMarksSync() {
     try {
       const client = await getTMarksClient();
       await client.bookmarks.recordClick(bookmarkId);
-      console.log('[TMarks] 已记录书签点击:', bookmarkId);
+      logger.debug('已记录书签点击:', bookmarkId);
     } catch (error) {
       // 静默失败，不影响用户体验
-      console.warn('[TMarks] 记录书签点击失败:', error);
+      logger.warn('记录书签点击失败:', error);
     }
   }, []);
 
@@ -244,10 +269,10 @@ export function useTMarksSync() {
     try {
       const client = await getTMarksClient();
       await client.tags.incrementClick(tagId);
-      console.log('[TMarks] 已记录标签点击:', tagId);
+      logger.debug('已记录标签点击:', tagId);
     } catch (error) {
       // 静默失败，不影响用户体验
-      console.warn('[TMarks] 记录标签点击失败:', error);
+      logger.warn('记录标签点击失败:', error);
     }
   }, []);
 

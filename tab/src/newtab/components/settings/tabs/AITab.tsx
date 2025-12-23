@@ -260,13 +260,13 @@ function LimitsSection({ settings, updateSettings }: { settings: any; updateSett
           <div className="text-sm text-white/80">期望的一级分类数量</div>
           <input
             type="number"
-            min={3}
+            min={2}
             max={7}
             value={settings.workspaceAiOrganizeTopLevelCount ?? 5}
             onChange={(e) => {
               const raw = Number(e.target.value);
               if (Number.isNaN(raw)) return;
-              const clamped = Math.max(3, Math.min(7, Math.round(raw)));
+              const clamped = Math.max(2, Math.min(7, Math.round(raw)));
               updateSettings({ workspaceAiOrganizeTopLevelCount: clamped });
             }}
             className="w-28 bg-white/10 text-white text-sm rounded-lg px-3 py-1.5 outline-none border border-white/10"
@@ -277,7 +277,7 @@ function LimitsSection({ settings, updateSettings }: { settings: any; updateSett
       <div className="text-xs text-white/50 -mt-1 space-y-1">
         <p>为避免 AI Prompt 过大，这里限制参与分类规划的"域名数量"（按书签数量排序取前 N 个域名）。整理仍会应用到工作区全部书签。</p>
         <p>当域名超过该上限时，会按此上限拆分为多批发送；AI 会在日志中看到"已拆分多批，收到全部批次后才输出"。</p>
-        <p>一级分类数量推荐 3-7 个，AI 会尽量按照你设定的数量生成顶级目录。</p>
+        <p>一级分类数量推荐 2-7 个，AI 会尽量按照你设定的数量生成顶级目录，超出限制的分组会被合并。</p>
       </div>
     </>
   );

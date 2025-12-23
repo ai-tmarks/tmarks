@@ -287,11 +287,11 @@ export const useNewtabStore = create<NewTabState>((set, get) => {
 
     // 设置操作
     updateSettings: (updates) => {
-      const { shortcuts, shortcutGroups, shortcutFolders, settings, gridItems, saveData } = get();
+      const { shortcutGroups, settings, gridItems, saveData } = get();
       const newSettings = { ...settings, ...updates };
       set({ settings: newSettings });
       saveData();
-      debouncedSync({ shortcuts, groups: shortcutGroups, folders: shortcutFolders, settings: newSettings, gridItems });
+      debouncedSync({ groups: shortcutGroups, gridItems });
     },
 
     // 快捷方式 Actions

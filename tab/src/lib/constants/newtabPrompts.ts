@@ -1,131 +1,126 @@
-export const NEWTAB_FOLDER_PROMPT_TEMPLATE = `你是一个书签文件夹推荐助手。
+/**
+ * NewTab 文件夹推荐 Prompt 模板
+ */
 
-任务：这是"文件夹级别"的保存位置推荐。
-你需要根据网页信息，从"候选文件夹路径列表"中选择最合适的 1-{{recommendCount}} 个文件夹路径，用于保存该网址。
-注意：这不是标签推荐任务，禁止输出标签或创建新路径。
+/**
+ * 单个书签 - 文件夹推荐 Prompt
+ * 用于保存书签时推荐合适的文件夹
+ */
+export const NEWTAB_FOLDER_PROMPT_TEMPLATE = `你是书签文件夹分类助手。根据网页信息，从候选路径中选择最合适的保存位置。
 
-网页信息:
+## 网页信息
 - 标题: {{title}}
 - URL: {{url}}
 - 描述: {{description}}
 
-候选文件夹路径列表（只允许从下面选择，禁止编造不存在的路径）：
+## 候选文件夹路径（只能从以下选择，禁止编造）
 {{folderPaths}}
 
-要求（必须严格执行）：
-1. 返回 1-{{recommendCount}} 个路径，按匹配度从高到低排序。
-2. 每个路径给出 confidence (0-1)，数值越大表示越适合。
-3. 只允许选择候选列表里**完全一致**的路径字符串；不允许改写、补全、合并或新增路径。
-4. 输出必须严格为单个 JSON 对象，结构如下：
-   {"suggestedFolders": [{"path": "...", "confidence": 0.9}], "reason": null}
-5. JSON 输出要求（严格遵循）：
-   - 必须输出且仅输出一个合法 JSON 对象
-   - 不得包含多余文本、解释、Markdown、换行提示
-   - 不得输出思考过程、reasoning_content、警告或其它键
-   - 如无法满足要求，请返回 {"suggestedFolders": [], "reason": null}
-6. 只返回 JSON，不要任何其他内容`;
+## 匹配策略（按优先级执行）
 
-export const NEWTAB_FOLDER_PROMPT_TEMPLATE_V2 = `你是一个"网页 → 书签文件夹路径"分类器。
+### 第一优先级：已有路径精确匹配
+- 检查 URL 域名是否与某个文件夹名称直接相关
+- 检查标题关键词是否与某个文件夹名称匹配
+- 如果用户已有明确对应的文件夹，优先选择
 
-你的任务是：根据网页标题/URL/描述，从候选文件夹路径列表中挑选最合适的 1-{{recommendCount}} 个保存路径。
+### 第二优先级：语义相似度匹配
+- 分析网页主题，匹配语义最接近的文件夹
+- 工具类网站按产品名/平台名归类
 
-硬性约束（必须严格执行）：
-1) 只允许返回候选列表里**完全一致**的 path 字符串，禁止新增、改写、补全、组合路径。
-2) 这是文件夹选择任务，不是标签推荐任务；禁止输出标签、关键词、分类建议等额外内容。
+## 输出要求
+- 返回 {{recommendCount}} 个路径（候选不足则返回全部）
+- 按匹配度降序排列
+- confidence 范围 0-1，即使匹配度低也给 0.3-0.5
+- 路径必须与候选列表完全一致，禁止修改
 
-网页信息：
-- title: {{title}}
-- url: {{url}}
-- description: {{description}}
+## 输出格式（严格 JSON，无其他内容）
+{"suggestedFolders":[{"path":"TMarks/开发","confidence":0.9},{"path":"TMarks/工具","confidence":0.6}]}
 
-候选文件夹路径列表：
-{{folderPaths}}
+## 示例
+输入: title="GitHub Copilot", url="https://github.com/features/copilot"
+候选: ["TMarks/开发", "TMarks/AI", "TMarks/工具"]
+输出: {"suggestedFolders":[{"path":"TMarks/开发","confidence":0.95},{"path":"TMarks/AI","confidence":0.8},{"path":"TMarks/工具","confidence":0.5}]}`;
 
-评分建议（用于你内部判断）：
-- 主题匹配：目录语义是否覆盖网页主题
-- 粒度匹配：优先更具体的子目录（例如"邮箱/国外/临时邮箱"优于"邮箱"）
-- 工具/服务类：优先按产品名/平台名归类（例如 Cloudflare、阿里云）
-
-输出格式（必须严格为单个 JSON 对象）：
-{"suggestedFolders": [{"path": "...", "confidence": 0.9}], "reason": null}
-
-JSON 输出要求：
-- 必须输出且仅输出一个合法 JSON 对象
-- 禁止输出 Markdown、解释、换行提示、reasoning_content 或任何额外键
-- 如没有合适候选，返回 {"suggestedFolders": [], "reason": null}`;
-
-export const NEWTAB_WORKSPACE_ORGANIZE_PROMPT_TEMPLATE = `你是一个浏览器书签"批量整理"助手。
-
-## 任务
-把 NewTab 工作区内的全部书签，按"域名/网站类别"重新整理到文件夹结构。
+/**
+ * 批量整理 - 工作区书签整理 Prompt
+ * 用于按域名批量整理书签到文件夹结构
+ * 
+ * 目录层级规则：
+ * - 一级分类/书签
+ * - 一级分类/二级分类/书签
+ * - 最多两层文件夹，不允许三层
+ */
+export const NEWTAB_WORKSPACE_ORGANIZE_PROMPT_TEMPLATE = `你是书签批量整理助手。使用聚类思想将域名分类到文件夹结构中。
 
 ## 输入数据
-- 用户自定义规则（最高优先级）：{{rules}}
-- 域名数据 JSON：{{domainSummariesJson}}
-- 期望一级目录数量：{{topLevelCount}}（3-7个，允许±1浮动）
+- 用户规则（最高优先级）: {{rules}}
+- 域名数据 JSON: {{domainSummariesJson}}
+- 目标一级目录数: {{topLevelCount}}
 
-### 关键字段说明
-- topHistoryDomains：**高频访问域名**，必须放在一级目录，不允许放入子目录
-- folderPaths：用户现有目录结构，参考命名风格
-- strictHierarchy：true=禁止新建一级目录
-- allowNewFolders：false=禁止新建任何目录
-- preferOriginalPaths：true=优先保留原路径
+### 域名数据结构说明
+- topHistoryDomains: 用户最常访问的 Top {{topHistoryLimit}} 高频域名（按热度排序），这些域名**必须**放一级目录
+- batches[].domains: 所有待整理的域名列表
+- folderPaths: 用户现有的文件夹路径，参考命名风格
 
-## 核心原则（按优先级排序）
+## 目录层级规则（重要）
+只允许两种结构：
+- 一级分类/书签（如：开发/github.com）
+- 一级分类/二级分类/书签（如：开发/前端/react.dev）
 
-### 1. 高频域名必须放一级目录（最高优先级）
-- **topHistoryDomains 中的所有域名必须直接放在一级目录**
-- 路径格式：\`一级目录名\`（如："开发工具"、"社交媒体"）
-- **禁止**放入二级目录（如："工具/开发" 是错误的）
-- 这是硬性要求，优先级高于所有其他规则
+禁止三层文件夹（如：开发/前端/框架/书签 是错误的）
 
-### 2. 避免过度细分（聚合原则）
-- **宁可粗分，不要细分**：相似域名应聚合到同一目录
-- 每个一级目录下的域名数量应该**均衡**，避免出现只有1-2个域名的目录
-- 如果某个分类只有少量域名（<3个），考虑合并到更大的类别
-- 优先使用宽泛的分类名（如"开发"而非"前端开发/React"）
+## 整理方法
 
-### 3. 目录结构限制
-- 一级目录数量：严格控制在 {{topLevelCount}} 个左右
-- 最多2层：允许 \`A\` 或 \`A/B\`，禁止 \`A/B/C\`
-- 命名要求：简短（2-4字）、易懂、体现业务特征
+### 第一步：域名聚合
+将相似域名聚合到一起：
+- 同一产品/服务的不同子域名 → 合并
+- 功能相似的网站 → 合并
 
-### 4. 层级策略
-- strictHierarchy=true：禁止新建一级目录，只能微调现有层级
-- allowNewFolders=false：禁止新建任何目录
-- preferOriginalPaths=true：优先保留原路径
+### 第二步：形成分类
+- 聚合后的组形成一级或二级分类
+- 一级目录数量控制在 {{topLevelCount}} 个左右
+- 每个分类至少 3 个域名，否则合并到更大类别
 
-### 5. 用户规则优先
-规则格式：
-- 类别: domain1, domain2（如：开发: github.com, stackoverflow.com）
-- domain -> 路径（如：github.com -> 开发）
+## 核心规则
 
-## 分类建议（参考）
-| 类别 | 适用域名示例 |
-|------|-------------|
-| 开发 | github, stackoverflow, npm, docker |
-| 设计 | figma, dribbble, behance |
-| 社交 | twitter, facebook, weibo, zhihu |
-| 视频 | youtube, bilibili, netflix |
-| 购物 | amazon, taobao, jd |
-| 新闻 | bbc, cnn, sina |
-| 工具 | notion, trello, google |
-| 学习 | coursera, udemy, mooc |
+### 1. 优先使用现有文件夹
+- 如果 folderPaths 中已有合适的文件夹，优先将域名放入现有文件夹
+- topHistoryDomains（Top {{topHistoryLimit}} 高频域名）应放入最匹配的一级分类文件夹
+- 非高频域名可以放入二级分类文件夹
 
-## 输出格式
+### 2. 聚合原则
+- 宁粗勿细，避免过度细分
+- 少于 3 个域名的分类 → 合并到更大类别
+- 相似域名应聚合到同一文件夹
+
+### 3. 配置开关
+- strictHierarchy=true: 禁止新建一级目录
+- allowNewFolders=false: 禁止新建任何目录
+- preferOriginalPaths=true: 优先保留原路径
+
+## 常见分类参考
+- 开发: github, stackoverflow, npm, docker, gitlab
+- 设计: figma, dribbble, behance, canva
+- 社交: twitter, facebook, weibo, zhihu, reddit
+- 视频: youtube, bilibili, netflix, twitch
+- 购物: amazon, taobao, jd, ebay
+- 新闻: bbc, cnn, sina, hackernews
+- 工具: notion, trello, google, dropbox
+- 学习: coursera, udemy, mooc, leetcode
+
+## 输出格式（严格 JSON，无其他内容）
 {
   "domainMoves": [
     {"domain": "github.com", "path": "开发"},
-    {"domain": "stackoverflow.com", "path": "开发"},
+    {"domain": "react.dev", "path": "开发/前端"},
     {"domain": "figma.com", "path": "设计"}
   ],
   "fallbackPath": "其他"
 }
 
 ## 硬性约束
-1. 必须输出且仅输出一个合法 JSON 对象，禁止任何解释文字、Markdown
-2. 必须覆盖所有输入域名，domain 字符串必须与输入完全一致
-3. topHistoryDomains 中的域名 path 必须是一级目录（不含 /）
-4. 其他域名 path 最多两层（最多一个 /）
-5. 无法判断的域名放入 fallbackPath
-`;
+1. 只输出 JSON，禁止解释文字、Markdown
+2. 覆盖所有输入域名，domain 字符串必须与输入完全一致
+3. path 只能是一级目录或一级/二级，禁止三层
+4. 优先将域名放入现有的 folderPaths 文件夹中
+5. 无法判断的域名放入 fallbackPath`;

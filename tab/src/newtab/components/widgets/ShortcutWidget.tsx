@@ -13,6 +13,7 @@ export const ShortcutWidget = memo(function ShortcutWidget({
   isBatchMode,
   isSelected,
   onToggleSelect,
+  shortcutStyle = 'icon',
 }: WidgetRendererProps) {
   const shortcut = item.shortcut;
   
@@ -112,7 +113,6 @@ export const ShortcutWidget = memo(function ShortcutWidget({
     return () => element.removeEventListener('mousemove', handleMouseMove);
   }, []);
 
-  const iconSize = 56;
   const initial = (title.charAt(0) || '?').toUpperCase();
 
   const Container: React.ElementType = isEditing || isBatchMode ? 'div' : 'a';
@@ -125,6 +125,69 @@ export const ShortcutWidget = memo(function ShortcutWidget({
       : {
           href: shortcut.url,
         };
+
+  // 卡片样式
+  if (shortcutStyle === 'card') {
+    return (
+      <Container
+        {...containerProps}
+        onClick={handleClick}
+        className="group relative flex items-center gap-3 h-full p-3 rounded-xl glass-card transition-all duration-200 cursor-pointer hover:scale-[1.02] active:scale-[0.98]"
+      >
+        {/* 批量选择复选框 */}
+        {isBatchMode && (
+          <div className="absolute top-2 right-2 z-30">
+            {isSelected ? (
+              <div className="w-4 h-4 rounded-full bg-blue-500 flex items-center justify-center">
+                <svg className="w-2.5 h-2.5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+            ) : (
+              <div className="w-4 h-4 rounded-full border border-white/40 bg-black/20" />
+            )}
+          </div>
+        )}
+
+        {/* 图标 */}
+        <div
+          ref={iconRef}
+          className="relative flex-shrink-0 rounded-lg overflow-hidden"
+          style={{ width: '40px', height: '40px' }}
+        >
+          {imgLoading && !imgError && imgSrc && (
+            <div className="absolute inset-0 bg-white/10 animate-pulse rounded-lg" />
+          )}
+          {!imgError && imgSrc ? (
+            <img
+              src={imgSrc}
+              alt={title}
+              draggable={false}
+              onDragStart={(e) => e.preventDefault()}
+              className={`w-full h-full object-cover transition-opacity duration-200 ${imgLoading ? 'opacity-0' : 'opacity-100'}`}
+              onLoad={handleImgLoad}
+              onError={handleImgError}
+            />
+          ) : (
+            <div className="w-full h-full flex items-center justify-center bg-white/10 rounded-lg">
+              <span className="text-sm font-medium text-white/80">{initial}</span>
+            </div>
+          )}
+        </div>
+
+        {/* 标题 */}
+        <span 
+          className="flex-1 text-sm text-white truncate"
+          title={title}
+        >
+          {title}
+        </span>
+      </Container>
+    );
+  }
+
+  // 图标样式（默认）
+  const iconSize = 56;
 
   return (
     <Container
@@ -179,7 +242,11 @@ export const ShortcutWidget = memo(function ShortcutWidget({
         )}
       </div>
       
-      <span className="mt-1.5 text-xs text-white/90 truncate max-w-full px-1" title={title}>
+      <span 
+        className="mt-1.5 text-xs text-white truncate max-w-full px-1 drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]" 
+        title={title}
+        style={{ textShadow: '0 1px 3px rgba(0,0,0,0.9), 0 0 8px rgba(0,0,0,0.5)' }}
+      >
         {title}
       </span>
     </Container>

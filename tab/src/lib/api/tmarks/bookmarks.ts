@@ -58,6 +58,46 @@ export class BookmarksAPI extends TMarksClient {
     return this.delete<void>(`/tab/bookmarks/${id}`);
   }
 
+  /**
+   * 软删除书签（移入回收站）
+   * PATCH /api/tab/bookmarks/:id/trash
+   */
+  async trashBookmark(id: string): Promise<void> {
+    return this.patch<void>(`/tab/bookmarks/${id}/trash`, {});
+  }
+
+  /**
+   * 从回收站恢复书签
+   * PATCH /api/tab/bookmarks/:id/restore
+   */
+  async restoreBookmark(id: string): Promise<CreateBookmarkResponse> {
+    return this.patch<CreateBookmarkResponse>(`/tab/bookmarks/${id}/restore`, {});
+  }
+
+  /**
+   * 永久删除书签（从回收站彻底删除）
+   * DELETE /api/tab/bookmarks/:id/permanent
+   */
+  async permanentDeleteBookmark(id: string): Promise<void> {
+    return this.delete<void>(`/tab/bookmarks/${id}/permanent`);
+  }
+
+  /**
+   * 获取回收站书签列表
+   * GET /api/tab/bookmarks/trash
+   */
+  async getTrashBookmarks(params?: Omit<GetBookmarksParams, 'trashed'>): Promise<GetBookmarksResponse> {
+    return this.get<GetBookmarksResponse>('/tab/bookmarks/trash', params);
+  }
+
+  /**
+   * 清空回收站
+   * DELETE /api/tab/bookmarks/trash/empty
+   */
+  async emptyTrash(): Promise<{ message: string; count: number }> {
+    return this.delete<{ message: string; count: number }>('/tab/bookmarks/trash/empty');
+  }
+
   
   // ============ 辅助方法 ============
 

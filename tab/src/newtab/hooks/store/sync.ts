@@ -1,8 +1,10 @@
 /**
  * NewTab 数据同步服务
+ * 只同步核心数据：分组名称 + 快捷方式（标题、网址、所属分组、位置）
+ * 不同步：图标(favicon/icon)
  */
 
-import type { Shortcut, ShortcutGroup, ShortcutFolder, NewTabSettings, GridItem } from '../../types';
+import type { ShortcutGroup, GridItem } from '../../types';
 import { StorageService } from '@/lib/utils/storage';
 import { getTMarksUrls } from '@/lib/constants/urls';
 
@@ -10,10 +12,7 @@ import { getTMarksUrls } from '@/lib/constants/urls';
  * 同步 NewTab 数据到后端（静默执行，不阻塞 UI）
  */
 export async function syncNewtabToBackend(data: {
-  shortcuts: Shortcut[];
   groups: ShortcutGroup[];
-  folders: ShortcutFolder[];
-  settings: NewTabSettings;
   gridItems: GridItem[];
 }) {
   try {
@@ -29,6 +28,17 @@ export async function syncNewtabToBackend(data: {
       ? configuredUrl
       : getTMarksUrls(configuredUrl || undefined).API_BASE;
 
+    // 从 gridItems 中提取快捷方式（保留位置信息）
+    const shortcuts = data.gridItems
+      .filter((item) => item.type === 'shortcut' && item.shortcut?.url)
+      .map((item) => ({
+        id: item.id,
+        title: item.shortcut!.title,
+        url: item.shortcut!.url,
+        group_id: item.groupId,
+        position: item.position,
+      }));
+
     const response = await fetch(`${baseUrl}/tab/newtab/sync`, {
       method: 'POST',
       headers: {
@@ -36,50 +46,12 @@ export async function syncNewtabToBackend(data: {
         'X-API-Key': apiKey,
       },
       body: JSON.stringify({
-        shortcuts: data.shortcuts.map((s) => ({
-          id: s.id,
-          title: s.title,
-          url: s.url,
-          favicon: s.favicon,
-          group_id: s.groupId,
-          folder_id: s.folderId,
-          position: s.position,
-        })),
-        groups: data.groups.map((g) => ({
+        groups: data.groups.map((g, index) => ({
           id: g.id,
           name: g.name,
-          icon: g.icon,
-          position: g.position,
+          position: g.position ?? index,
         })),
-        folders: data.folders.map((f) => ({
-          id: f.id,
-          name: f.name,
-          icon: f.icon,
-          group_id: f.groupId,
-          position: f.position,
-        })),
-        settings: {
-          columns: data.settings.shortcutColumns,
-          style: data.settings.shortcutStyle,
-          showTitle: true,
-          backgroundType: data.settings.wallpaper.type,
-          backgroundValue: data.settings.wallpaper.value,
-          backgroundBlur: data.settings.wallpaper.blur,
-          backgroundDim: data.settings.wallpaper.brightness,
-          showSearch: data.settings.showSearch,
-          showClock: data.settings.showClock,
-          showPinnedBookmarks: data.settings.showPinnedBookmarks,
-          searchEngine: data.settings.searchEngine,
-        },
-        gridItems: data.gridItems.map((item) => ({
-          id: item.id,
-          type: item.type,
-          size: item.size,
-          position: item.position,
-          group_id: item.groupId,
-          shortcut: item.shortcut,
-          config: item.config,
-        })),
+        shortcuts,
       }),
     });
 
@@ -97,10 +69,7 @@ export async function syncNewtabToBackend(data: {
 let syncTimeout: ReturnType<typeof setTimeout> | null = null;
 
 export function debouncedSync(data: {
-  shortcuts: Shortcut[];
   groups: ShortcutGroup[];
-  folders: ShortcutFolder[];
-  settings: NewTabSettings;
   gridItems: GridItem[];
 }) {
   if (syncTimeout) {

@@ -19,6 +19,7 @@ interface SortableGridItemProps {
   isBatchMode?: boolean;
   isSelected?: boolean;
   onToggleSelect?: (id: string) => void;
+  shortcutStyle?: 'icon' | 'card';
 }
 
 export function SortableGridItem({
@@ -31,6 +32,7 @@ export function SortableGridItem({
   isBatchMode,
   isSelected,
   onToggleSelect,
+  shortcutStyle,
 }: SortableGridItemProps) {
   const { cols, rows } = getSizeSpan(item.size);
   const {
@@ -76,6 +78,7 @@ export function SortableGridItem({
         isBatchMode={isBatchMode}
         isSelected={isSelected}
         onToggleSelect={onToggleSelect}
+        shortcutStyle={shortcutStyle}
       />
     </div>
   );

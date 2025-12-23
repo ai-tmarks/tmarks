@@ -2,7 +2,7 @@
  * 快捷方式相关 Actions
  */
 
-import type { Shortcut, ShortcutGroup, ShortcutFolder, NewTabSettings, GridItem } from '../../../types';
+import type { Shortcut, ShortcutGroup, GridItem } from '../../../types';
 import { generateId } from '../utils';
 import { debouncedSync } from '../sync';
 
@@ -19,8 +19,6 @@ export function createShortcutActions(
   get: () => {
     shortcuts: Shortcut[];
     shortcutGroups: ShortcutGroup[];
-    shortcutFolders: ShortcutFolder[];
-    settings: NewTabSettings;
     gridItems: GridItem[];
     activeGroupId: string | null;
     saveData: () => Promise<void>;
@@ -30,7 +28,7 @@ export function createShortcutActions(
 ): ShortcutActions {
   return {
     addShortcut: (shortcut) => {
-      const { shortcuts, shortcutGroups, settings, gridItems, saveData } = get();
+      const { shortcuts, shortcutGroups, gridItems, saveData } = get();
       const newShortcut: Shortcut = {
         ...shortcut,
         id: generateId(),
@@ -56,60 +54,35 @@ export function createShortcutActions(
         }
       })();
 
-      const { shortcutFolders } = get();
-      debouncedSync({
-        shortcuts: newShortcuts,
-        groups: shortcutGroups,
-        folders: shortcutFolders,
-        settings,
-        gridItems,
-      });
+      debouncedSync({ groups: shortcutGroups, gridItems });
     },
 
     updateShortcut: (id, updates) => {
-      const { shortcuts, shortcutGroups, shortcutFolders, settings, gridItems, saveData } = get();
+      const { shortcuts, shortcutGroups, gridItems, saveData } = get();
       const newShortcuts = shortcuts.map((s) => (s.id === id ? { ...s, ...updates } : s));
       set({ shortcuts: newShortcuts });
       saveData();
-      debouncedSync({
-        shortcuts: newShortcuts,
-        groups: shortcutGroups,
-        folders: shortcutFolders,
-        settings,
-        gridItems,
-      });
+      debouncedSync({ groups: shortcutGroups, gridItems });
     },
 
     removeShortcut: (id) => {
-      const { shortcuts, shortcutGroups, shortcutFolders, settings, gridItems, saveData } = get();
+      const { shortcuts, shortcutGroups, gridItems, saveData } = get();
       const filtered = shortcuts.filter((s) => s.id !== id);
       const reordered = filtered.map((s, index) => ({ ...s, position: index }));
       set({ shortcuts: reordered });
       saveData();
-      debouncedSync({
-        shortcuts: reordered,
-        groups: shortcutGroups,
-        folders: shortcutFolders,
-        settings,
-        gridItems,
-      });
+      debouncedSync({ groups: shortcutGroups, gridItems });
     },
 
     reorderShortcuts: (fromIndex, toIndex) => {
-      const { shortcuts, shortcutGroups, shortcutFolders, settings, gridItems, saveData } = get();
+      const { shortcuts, shortcutGroups, gridItems, saveData } = get();
       const newShortcuts = [...shortcuts];
       const [removed] = newShortcuts.splice(fromIndex, 1);
       newShortcuts.splice(toIndex, 0, removed);
       const reordered = newShortcuts.map((s, index) => ({ ...s, position: index }));
       set({ shortcuts: reordered });
       saveData();
-      debouncedSync({
-        shortcuts: reordered,
-        groups: shortcutGroups,
-        folders: shortcutFolders,
-        settings,
-        gridItems,
-      });
+      debouncedSync({ groups: shortcutGroups, gridItems });
     },
 
     incrementClickCount: (id) => {

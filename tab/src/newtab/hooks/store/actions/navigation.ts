@@ -33,7 +33,7 @@ export function createNavigationActions(
     },
 
     moveGridItemToFolder: (id, folderId) => {
-      const { shortcuts, shortcutGroups, shortcutFolders, settings, gridItems, saveData, browserBookmarksRootId } = get();
+      const { shortcutGroups, gridItems, saveData, browserBookmarksRootId } = get();
       const moving = gridItems.find((i) => i.id === id);
       if (!moving) return;
 
@@ -89,7 +89,7 @@ export function createNavigationActions(
       const cleaned = pruneEmptyFoldersCascade(newGridItems, get().currentFolderId, protectedBrowserBookmarkIds);
       set({ gridItems: cleaned.items, currentFolderId: cleaned.currentFolderId });
       saveData();
-      debouncedSync({ shortcuts, groups: shortcutGroups, folders: shortcutFolders, settings, gridItems: cleaned.items });
+      debouncedSync({ groups: shortcutGroups, gridItems: cleaned.items });
 
       const state = get();
       if (!state.isApplyingBrowserBookmarks && cleaned.removedBrowserBookmarkIds.length > 0) {
@@ -113,7 +113,6 @@ export function createNavigationActions(
         get().mirrorHomeItemsToBrowser([id]);
       }
 
-      // 清理空分组
       get().cleanupEmptyGroups();
 
       const state2 = get();
@@ -139,7 +138,7 @@ export function createNavigationActions(
     },
 
     reorderGridItemsInCurrentScope: (activeId, overId) => {
-      const { shortcuts, shortcutGroups, shortcutFolders, settings, gridItems, activeGroupId, currentFolderId, saveData } = get();
+      const { shortcutGroups, gridItems, activeGroupId, currentFolderId, saveData } = get();
       const targetGroupId = activeGroupId ?? 'home';
       const scopeItems = gridItems
         .filter((item) => (item.groupId ?? 'home') === targetGroupId && (item.parentId ?? null) === (currentFolderId ?? null))
@@ -162,7 +161,7 @@ export function createNavigationActions(
 
       set({ gridItems: newGridItems });
       saveData();
-      debouncedSync({ shortcuts, groups: shortcutGroups, folders: shortcutFolders, settings, gridItems: newGridItems });
+      debouncedSync({ groups: shortcutGroups, gridItems: newGridItems });
 
       const state = get();
       const activeItem = scopeItems[fromIndex];
@@ -188,7 +187,7 @@ export function createNavigationActions(
     },
 
     reorderGridItemsInFolderScope: (folderId, activeId, overId) => {
-      const { shortcuts, shortcutGroups, shortcutFolders, settings, gridItems, saveData } = get();
+      const { shortcutGroups, gridItems, saveData } = get();
       const folder = gridItems.find((i) => i.id === folderId);
       if (!folder) return;
 
@@ -214,7 +213,7 @@ export function createNavigationActions(
 
       set({ gridItems: newGridItems });
       saveData();
-      debouncedSync({ shortcuts, groups: shortcutGroups, folders: shortcutFolders, settings, gridItems: newGridItems });
+      debouncedSync({ groups: shortcutGroups, gridItems: newGridItems });
 
       const state = get();
       const activeItem = scopeItems[fromIndex];
@@ -239,11 +238,8 @@ export function createNavigationActions(
       }
     },
 
-    /**
-     * 合并两个文件夹：将源文件夹的所有内容移动到目标文件夹，然后删除源文件夹
-     */
     mergeFolders: (sourceFolderId, targetFolderId) => {
-      const { shortcuts, shortcutGroups, shortcutFolders, settings, gridItems, saveData, browserBookmarksRootId } = get();
+      const { shortcutGroups, gridItems, saveData, browserBookmarksRootId } = get();
 
       const sourceFolder = gridItems.find((i) => i.id === sourceFolderId && i.type === 'bookmarkFolder');
       const targetFolder = gridItems.find((i) => i.id === targetFolderId && i.type === 'bookmarkFolder');
@@ -253,22 +249,18 @@ export function createNavigationActions(
         return;
       }
 
-      // 不能合并到自己
       if (sourceFolderId === targetFolderId) return;
 
-      // 获取源文件夹的所有直接子项
       const sourceChildren = gridItems
         .filter((item) => (item.parentId ?? null) === sourceFolderId)
         .sort((a, b) => a.position - b.position);
 
-      // 获取目标文件夹的现有子项数量，用于计算新的 position
       const targetChildren = gridItems
         .filter((item) => (item.parentId ?? null) === targetFolderId)
         .sort((a, b) => a.position - b.position);
 
       const basePosition = targetChildren.length;
 
-      // 移动所有子项到目标文件夹
       let newGridItems = gridItems.map((item) => {
         if ((item.parentId ?? null) === sourceFolderId) {
           const newPosition = basePosition + sourceChildren.findIndex((c) => c.id === item.id);
@@ -282,10 +274,8 @@ export function createNavigationActions(
         return item;
       });
 
-      // 删除源文件夹
       newGridItems = newGridItems.filter((item) => item.id !== sourceFolderId);
 
-      // 重新计算目标文件夹内的 position
       const mergedChildren = newGridItems
         .filter((item) => (item.parentId ?? null) === targetFolderId)
         .sort((a, b) => a.position - b.position);
@@ -296,20 +286,17 @@ export function createNavigationActions(
         return nextPos !== undefined ? { ...item, position: nextPos } : item;
       });
 
-      // 清理空文件夹
       const protectedBrowserBookmarkIds = new Set<string>([browserBookmarksRootId].filter(Boolean) as string[]);
       const cleaned = pruneEmptyFoldersCascade(newGridItems, get().currentFolderId, protectedBrowserBookmarkIds);
 
       set({ gridItems: cleaned.items, currentFolderId: cleaned.currentFolderId });
       saveData();
-      debouncedSync({ shortcuts, groups: shortcutGroups, folders: shortcutFolders, settings, gridItems: cleaned.items });
+      debouncedSync({ groups: shortcutGroups, gridItems: cleaned.items });
 
-      // 处理浏览器书签同步
       const state = get();
       if (!state.isApplyingBrowserBookmarks) {
         (async () => {
           try {
-            // 移动源文件夹的子书签到目标文件夹
             if (targetFolder.browserBookmarkId) {
               state.setBrowserBookmarkWriteLockUntil(Date.now() + 2000);
 
@@ -328,7 +315,6 @@ export function createNavigationActions(
               }
             }
 
-            // 删除源文件夹的浏览器书签
             if (sourceFolder.browserBookmarkId) {
               try {
                 await chrome.bookmarks.removeTree(sourceFolder.browserBookmarkId);
@@ -339,7 +325,6 @@ export function createNavigationActions(
               }
             }
 
-            // 删除清理过程中移除的空文件夹
             if (cleaned.removedBrowserBookmarkIds.length > 0) {
               for (const bid of cleaned.removedBrowserBookmarkIds) {
                 try {
@@ -357,24 +342,15 @@ export function createNavigationActions(
         })();
       }
 
-      // 清理空分组
       get().cleanupEmptyGroups();
     },
 
-    /**
-     * 将两个快捷方式合并创建新文件夹
-     * @param shortcutId1 第一个快捷方式 ID（被拖拽的）
-     * @param shortcutId2 第二个快捷方式 ID（目标）
-     * @param folderName 可选的文件夹名称
-     * @returns 新创建的文件夹 ID，失败返回 null
-     */
     createFolderFromShortcuts: (shortcutId1, shortcutId2, folderName) => {
-      const { shortcuts, shortcutGroups, shortcutFolders, settings, gridItems, saveData } = get();
+      const { shortcutGroups, gridItems, saveData } = get();
 
       const item1 = gridItems.find((i) => i.id === shortcutId1);
       const item2 = gridItems.find((i) => i.id === shortcutId2);
 
-      // 验证两个项目都存在且都是快捷方式类型
       if (!item1 || !item2) {
         console.warn('[NewTab] createFolderFromShortcuts: 快捷方式不存在');
         return null;
@@ -385,19 +361,15 @@ export function createNavigationActions(
         return null;
       }
 
-      // 不能合并自己
       if (shortcutId1 === shortcutId2) return null;
 
-      // 使用目标快捷方式的位置和分组信息
       const targetGroupId = item2.groupId ?? 'home';
       const targetParentId = item2.parentId ?? null;
       const targetPosition = item2.position;
 
-      // 生成文件夹名称
       const defaultFolderName = folderName || '新文件夹';
       const folderId = generateId();
 
-      // 创建新文件夹
       const newFolder: GridItem = {
         id: folderId,
         type: 'bookmarkFolder',
@@ -411,7 +383,6 @@ export function createNavigationActions(
         createdAt: Date.now(),
       };
 
-      // 更新两个快捷方式的 parentId 和 position
       let newGridItems = gridItems.map((item) => {
         if (item.id === shortcutId1) {
           return { ...item, parentId: folderId, groupId: targetGroupId, position: 0 };
@@ -422,10 +393,8 @@ export function createNavigationActions(
         return item;
       });
 
-      // 添加新文件夹
       newGridItems = [...newGridItems, newFolder];
 
-      // 重新计算同 scope 内其他项目的 position
       const scopeItems = newGridItems
         .filter((item) => 
           (item.groupId ?? 'home') === targetGroupId && 
@@ -437,7 +406,6 @@ export function createNavigationActions(
 
       const posById = new Map<string, number>();
       scopeItems.forEach((item, index) => {
-        // 新文件夹占据原来 item2 的位置
         if (item.id === folderId) {
           posById.set(item.id, targetPosition);
         } else if (item.position >= targetPosition) {
@@ -447,7 +415,6 @@ export function createNavigationActions(
         }
       });
 
-      // 重新排序
       const reorderedScopeItems = scopeItems.sort((a, b) => {
         const posA = posById.get(a.id) ?? a.position;
         const posB = posById.get(b.id) ?? b.position;
@@ -465,9 +432,8 @@ export function createNavigationActions(
 
       set({ gridItems: newGridItems });
       saveData();
-      debouncedSync({ shortcuts, groups: shortcutGroups, folders: shortcutFolders, settings, gridItems: newGridItems });
+      debouncedSync({ groups: shortcutGroups, gridItems: newGridItems });
 
-      // 处理浏览器书签同步
       const state = get();
       if (!state.isApplyingBrowserBookmarks) {
         (async () => {
@@ -480,14 +446,12 @@ export function createNavigationActions(
             if (parentBookmarkId) {
               state.setBrowserBookmarkWriteLockUntil(Date.now() + 2000);
 
-              // 创建浏览器书签文件夹
               const createdFolder = await chrome.bookmarks.create({
                 parentId: parentBookmarkId,
                 title: defaultFolderName,
                 index: targetPosition,
               });
 
-              // 更新 gridItem 的 browserBookmarkId
               set({
                 gridItems: get().gridItems.map((i) =>
                   i.id === folderId ? { ...i, browserBookmarkId: createdFolder.id } : i
@@ -495,7 +459,6 @@ export function createNavigationActions(
               });
               state.saveData();
 
-              // 移动两个快捷方式的浏览器书签到新文件夹
               if (item1.browserBookmarkId) {
                 try {
                   await chrome.bookmarks.move(item1.browserBookmarkId, {
@@ -528,29 +491,27 @@ export function createNavigationActions(
     },
 
     cleanupEmptySecondLevelFolders: () => {
-      const { gridItems, currentFolderId, shortcuts, shortcutGroups, shortcutFolders, settings, saveData } = get();
+      const { gridItems, currentFolderId, shortcutGroups, saveData } = get();
       const { items, currentFolderId: nextFolderId, changed } = pruneEmptySecondLevelFolders(gridItems, currentFolderId);
       if (!changed) return;
 
       set({ gridItems: items, currentFolderId: nextFolderId });
       saveData();
-      debouncedSync({ shortcuts, groups: shortcutGroups, folders: shortcutFolders, settings, gridItems: items });
+      debouncedSync({ groups: shortcutGroups, gridItems: items });
 
-      // 清理空分组
       get().cleanupEmptyGroups();
     },
 
     cleanupAllEmptyFolders: () => {
-      const { gridItems, currentFolderId, shortcuts, shortcutGroups, shortcutFolders, settings, saveData, browserBookmarksRootId } = get();
+      const { gridItems, currentFolderId, shortcutGroups, saveData, browserBookmarksRootId } = get();
       const protectedBrowserBookmarkIds = new Set<string>([browserBookmarksRootId].filter(Boolean) as string[]);
       const cleaned = pruneEmptyFoldersCascade(gridItems, currentFolderId, protectedBrowserBookmarkIds);
       if (!cleaned.changed) return;
 
       set({ gridItems: cleaned.items, currentFolderId: cleaned.currentFolderId });
       saveData();
-      debouncedSync({ shortcuts, groups: shortcutGroups, folders: shortcutFolders, settings, gridItems: cleaned.items });
+      debouncedSync({ groups: shortcutGroups, gridItems: cleaned.items });
 
-      // 删除浏览器书签中的空文件夹
       const state = get();
       if (!state.isApplyingBrowserBookmarks && cleaned.removedBrowserBookmarkIds.length > 0) {
         (async () => {
@@ -569,7 +530,6 @@ export function createNavigationActions(
         })();
       }
 
-      // 清理空分组
       get().cleanupEmptyGroups();
     },
 
