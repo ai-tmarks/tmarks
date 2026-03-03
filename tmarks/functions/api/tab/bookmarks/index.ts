@@ -179,15 +179,23 @@ export const onRequestGet: PagesFunction<Env, RouteParams, ApiKeyAuthContext>[] 
   },
 ]
 
-// POST /api/bookmarks - 创建书签
+// POST /api/bookmarks - 创建书签（支持单个和批量）
 export const onRequestPost: PagesFunction<Env, RouteParams, ApiKeyAuthContext>[] = [
   requireApiKeyAuth('bookmarks.create'),
   async (context) => {
     const userId = context.data.user_id
 
     try {
-      const body = (await context.request.json()) as CreateBookmarkRequest
+      const body = (await context.request.json()) as any
 
+      // 检测是否为批量创建请求
+      if (body.bookmarks && Array.isArray(body.bookmarks)) {
+        // 批量创建逻辑
+        const { batchCreateBookmarks } = await import('./batch-handler')
+        return await batchCreateBookmarks(context, userId, body.bookmarks)
+      }
+
+      // 单个书签创建逻辑
       if (!body.title || !body.url) {
         return badRequest('Title and URL are required')
       }
