@@ -199,18 +199,25 @@ export const onRequestPost: PagesFunction<Env, RouteParams, ApiKeyAuthContext>[]
     try {
       const body = (await context.request.json()) as CreateBookmarkRequest
 
-      console.log('[Bookmarks POST] ========== REQUEST DEBUG v2 ==========')
+      console.log('[Bookmarks POST] ========== REQUEST DEBUG v3 ==========')
       console.log('[Bookmarks POST] Request body keys:', Object.keys(body))
       console.log('[Bookmarks POST] Has bookmarks array:', !!body.bookmarks)
       console.log('[Bookmarks POST] Bookmarks length:', body.bookmarks?.length)
       console.log('[Bookmarks POST] Body type:', typeof body)
       console.log('[Bookmarks POST] Is array:', Array.isArray(body))
+      console.log('[Bookmarks POST] bookmarks is array:', Array.isArray(body.bookmarks))
       console.log('[Bookmarks POST] Full body:', JSON.stringify(body).substring(0, 500))
+      console.log('[Bookmarks POST] Condition check:', {
+        hasBookmarks: !!body.bookmarks,
+        isArray: Array.isArray(body.bookmarks),
+        hasLength: body.bookmarks && body.bookmarks.length > 0,
+        finalResult: body.bookmarks && Array.isArray(body.bookmarks) && body.bookmarks.length > 0
+      })
       console.log('[Bookmarks POST] ==========================================')
 
       // 检测是否为批量创建请求
       if (body.bookmarks && Array.isArray(body.bookmarks) && body.bookmarks.length > 0) {
-        console.log('[Bookmarks POST] ===== BATCH MODE DETECTED v2 =====')
+        console.log('[Bookmarks POST] ===== BATCH MODE DETECTED v3 =====')
         console.log('[Bookmarks POST] Bookmarks count:', body.bookmarks.length)
         console.log('[Bookmarks POST] First bookmark:', JSON.stringify(body.bookmarks[0]))
         
