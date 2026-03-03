@@ -215,7 +215,16 @@ export const onRequestPost: PagesFunction<Env, RouteParams, ApiKeyAuthContext>[]
       // 单个书签创建逻辑
       if (!body.title || !body.url) {
         console.log('[Bookmarks POST] Missing title or URL')
-        return badRequest('Title and URL are required')
+        return badRequest({
+          message: 'Title and URL are required',
+          code: 'MISSING_FIELDS',
+          details: {
+            hasTitle: !!body.title,
+            hasUrl: !!body.url,
+            hasBookmarks: !!body.bookmarks,
+            bodyKeys: Object.keys(body)
+          }
+        })
       }
 
       if (!isValidUrl(body.url)) {
