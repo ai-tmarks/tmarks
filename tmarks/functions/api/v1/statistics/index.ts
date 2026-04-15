@@ -14,7 +14,7 @@ interface DomainCount {
   count: number
 }
 
-/api/v1/statistics - 
+// GET /api/v1/statistics - Retrieve user statistics
 export const onRequestGet: PagesFunction<Env, string, AuthContext>[] = [
   requireAuth,
   async (context) => {

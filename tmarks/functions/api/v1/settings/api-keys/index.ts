@@ -22,7 +22,7 @@ async function getUserApiKeyLimit(_db: D1Database, _userId: string): Promise<num
   return 999
 }
 
-/api/v1/settings/api-keys - 
+// GET /api/v1/settings/api-keys - Retrieve API keys
 interface ApiKeyRow {
   id: string
   key_prefix: string
@@ -79,7 +79,7 @@ export const onRequestGet: PagesFunction<Env, RouteParams, AuthContext>[] = [
   },
 ]
 
-/api/v1/settings/api-keys -  API Key
+// POST /api/v1/settings/api-keys - Create new API Key
 export const onRequestPost: PagesFunction<Env, RouteParams, AuthContext>[] = [
   requireAuth,
   async (context) => {

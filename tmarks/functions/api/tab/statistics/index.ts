@@ -10,7 +10,7 @@ interface DomainCount {
   count: number
 }
 
-/api/tab/statistics - 
+// GET /api/tab/statistics - Retrieve tab statistics
 export const onRequestGet: PagesFunction<Env, string, DualAuthContext>[] = [
   requireDualAuth('tab_groups.read'),
   async (context) => {

@@ -20,7 +20,7 @@ interface TabGroupRow {
   updated_at: string
 }
 
-/api/v1/tab-groups/trash - 
+// GET /api/v1/tab-groups/trash - Retrieve trashed tab groups
 export const onRequestGet: PagesFunction<Env, string, AuthContext>[] = [
   requireAuth,
   async (context) => {

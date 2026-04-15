@@ -17,7 +17,7 @@ interface TabGroupRow {
   updated_at: string
 }
 
-/api/tab/tab-groups/trash - 
+// GET /api/tab/tab-groups/trash - Retrieve trashed tab groups
   requireDualAuth('tab_groups.read'),
   async (context) => {
     const userId = context.data.user_id

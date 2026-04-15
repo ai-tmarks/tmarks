@@ -12,7 +12,7 @@ import {
   validatePreferences
 } from './preferences-helpers'
 
-/api/v1/preferences - 
+// GET /api/v1/preferences - Retrieve user preferences
 export const onRequestGet: PagesFunction<Env, RouteParams, AuthContext>[] = [
   requireAuth,
   async (context) => {
@@ -39,7 +39,7 @@ export const onRequestGet: PagesFunction<Env, RouteParams, AuthContext>[] = [
   },
 ]
 
-/api/v1/preferences - 
+// PATCH /api/v1/preferences - Update user preferences
 export const onRequestPatch: PagesFunction<Env, RouteParams, AuthContext>[] = [
   requireAuth,
   async (context) => {

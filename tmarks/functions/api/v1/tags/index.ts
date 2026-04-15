@@ -14,7 +14,7 @@ interface TagWithCount extends Tag {
   bookmark_count: number
 }
 
-/api/v1/tags - 
+// GET /api/v1/tags - Retrieve all tags
 export const onRequestGet: PagesFunction<Env, RouteParams, AuthContext>[] = [
   requireAuth,
   async (context) => {
@@ -57,7 +57,7 @@ export const onRequestGet: PagesFunction<Env, RouteParams, AuthContext>[] = [
   },
 ]
 
-/api/v1/tags - 
+// POST /api/v1/tags - Create a new tag
 export const onRequestPost: PagesFunction<Env, RouteParams, AuthContext>[] = [
   requireAuth,
   async (context) => {
