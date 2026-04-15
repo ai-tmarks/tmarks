@@ -1,7 +1,7 @@
 /**
  * 
  * 
- * �?
+
  */
 import type { CacheConfig, CacheLevel } from './types'
 import type { Env } from '../types'
@@ -12,10 +12,10 @@ export const CACHE_PRESETS: Record<CacheLevel, CacheConfig> = {
   /**
    * Level 0:  ()
    * - : 
-   * - : $0/�?()
+
    * - : 30-100ms
    * - : ，
-   * - KV : ~100-500 �?�?()
+
    */
   0: {
     level: 0,
@@ -24,8 +24,8 @@ export const CACHE_PRESETS: Record<CacheLevel, CacheConfig> = {
       rateLimit: false,     //  KV  ()
       publicShare: true,    //  ()
       defaultList: true,    //  ()
-      tagFilter: false,     // �?()
-      search: false,        // �?()
+      tagFilter: false,     // 
+      search: false,        // 
       complexQuery: false,
     },
     ttl: {
@@ -47,10 +47,7 @@ export const CACHE_PRESETS: Record<CacheLevel, CacheConfig> = {
   },
   /**
    * Level 1:  KV 
-   * - : �?(<100 /�?
-   * - : $0-2/�?()
-   * - : 50-100ms, �?40-50%
-   * - :  KV  (<1000 �?�?
+
    */
   1: {
     level: 1,
@@ -58,7 +55,7 @@ export const CACHE_PRESETS: Record<CacheLevel, CacheConfig> = {
     strategies: {
       rateLimit: false,     //  KV  ()
       publicShare: true,    //  ()
-      defaultList: false,   // �?()
+      defaultList: false,   // 
       tagFilter: false,
       search: false,
       complexQuery: false,
@@ -83,9 +80,7 @@ export const CACHE_PRESETS: Record<CacheLevel, CacheConfig> = {
   /**
    * Level 2:  KV  ()
    * - :  (1000-10000 )
-   * - : ~$8-12/�?
-   * - : 30-50ms, �?70-80%
-   * - :  KV，�?
+
    */
   2: {
     level: 2,
@@ -94,7 +89,7 @@ export const CACHE_PRESETS: Record<CacheLevel, CacheConfig> = {
       rateLimit: true,      
       publicShare: true,
       defaultList: true,    
-      tagFilter: false,     // �?()
+      tagFilter: false,     // 
       search: false,
       complexQuery: false,
     },
@@ -116,10 +111,9 @@ export const CACHE_PRESETS: Record<CacheLevel, CacheConfig> = {
     },
   },
   /**
-   * Level 3:  KV  (�?
+
    * - :  (>10000 )
-   * - : ~$15-25/�?
-   * - : 20-30ms, �?85-90%
+
    * - :  KV，
    */
   3: {
@@ -129,8 +123,8 @@ export const CACHE_PRESETS: Record<CacheLevel, CacheConfig> = {
       rateLimit: true,
       publicShare: true,
       defaultList: true,
-      tagFilter: true,      // �?
-      search: false,        // �?()
+      tagFilter: true,      // 
+      search: false,        // 
       complexQuery: false,
     },
     ttl: {
@@ -152,10 +146,10 @@ export const CACHE_PRESETS: Record<CacheLevel, CacheConfig> = {
   },
 }
 /**
- * �?
+
  */
 export function loadCacheConfig(env: Env): CacheConfig {
-  // �?KV 
+
   if (env.ENABLE_KV_CACHE === 'false') {
     return CACHE_PRESETS[0]
   }
@@ -201,17 +195,17 @@ export function loadCacheConfig(env: Env): CacheConfig {
  * 
  */
 export function validateCacheConfig(config: CacheConfig): boolean {
-  // �?
+
   if (config.level < 0 || config.level > 3) {
     return false
   }
-  // �?TTL
+
   for (const ttl of Object.values(config.ttl)) {
-    if (ttl < 0 || ttl > 86400) {  // �?24 
+    if (ttl < 0 || ttl > 86400) {  // 
       return false
     }
   }
-  // �?
+
   if (config.memoryCache.maxAge < 0 || config.memoryCache.maxAge > 3600) {
     return false
   }

@@ -1,9 +1,7 @@
 /**
- * �?
- * : Cloudflare Workers �?Argon2id，�?PBKDF2 
- * PBKDF2 �?NIST ，�?
+
  */
-const PBKDF2_ITERATIONS = 100000 // OWASP �?
+const PBKDF2_ITERATIONS = 100000 // OWASP 
 const SALT_LENGTH = 16
 const HASH_LENGTH = 32
 /**
@@ -12,9 +10,9 @@ const HASH_LENGTH = 32
 export async function hashPassword(password: string): Promise<string> {
   const encoder = new TextEncoder()
   const passwordBuffer = encoder.encode(password)
-  // �?
+
   const salt = crypto.getRandomValues(new Uint8Array(SALT_LENGTH))
-  // �?
+
   const keyMaterial = await crypto.subtle.importKey(
     'raw',
     passwordBuffer,
@@ -33,12 +31,12 @@ export async function hashPassword(password: string): Promise<string> {
     keyMaterial,
     HASH_LENGTH * 8
   )
-  // �?
+
   const hash = new Uint8Array(hashBuffer)
   const result = new Uint8Array(salt.length + hash.length)
   result.set(salt, 0)
   result.set(hash, salt.length)
-  // �?base64
+
   return `pbkdf2_sha256:${PBKDF2_ITERATIONS}:${arrayBufferToBase64(result)}`
 }
 /**
@@ -96,7 +94,7 @@ export async function hashRefreshToken(token: string): Promise<string> {
   return arrayBufferToBase64(new Uint8Array(hashBuffer))
 }
 /**
- *  UUID v4（，36 �?
+
  */
 export function generateUUID(): string {
   const bytes = crypto.getRandomValues(new Uint8Array(16))
@@ -106,24 +104,22 @@ export function generateUUID(): string {
   return `${hex.slice(0, 8)}-${hex.slice(8, 12)}-${hex.slice(12, 16)}-${hex.slice(16, 20)}-${hex.slice(20)}`
 }
 /**
- * �?UUID�?2 ，Base64 �?
- * �?UUID ，， URL
+
  */
 export function generateShortUUID(): string {
   const bytes = crypto.getRandomValues(new Uint8Array(16))
   bytes[6] = (bytes[6] & 0x0f) | 0x40 // Version 4
   bytes[8] = (bytes[8] & 0x3f) | 0x80 // Variant 10
-  // Base64 URL （�?padding�?
+
   const binary = Array.from(bytes, b => String.fromCharCode(b)).join('')
   const base64 = btoa(binary)
   return base64.replace(/\+/g, '-').replace(/\//g, '_').replace(/=/g, '')
 }
 /**
- *  NanoID（�?21 ，URL �?
- *  URL  ID， UUID �?
+
  */
 export function generateNanoId(length: number = 21): string {
-  //  URL �?4 ）
+
   const alphabet = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_-'
   const randomValues = new Uint8Array(length)
   crypto.getRandomValues(randomValues)
@@ -147,14 +143,14 @@ function timingSafeEqual(a: Uint8Array, b: Uint8Array): boolean {
   return result === 0
 }
 /**
- * ArrayBuffer �?Base64
+
  */
 function arrayBufferToBase64(buffer: Uint8Array): string {
   const binary = Array.from(buffer, (byte) => String.fromCharCode(byte)).join('')
   return btoa(binary)
 }
 /**
- * Base64 �?ArrayBuffer
+
  */
 function base64ToArrayBuffer(base64: string): Uint8Array {
   const binary = atob(base64)

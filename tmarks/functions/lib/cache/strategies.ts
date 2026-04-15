@@ -5,7 +5,7 @@
  */
 import type { CacheStrategyType, QueryParams } from './types'
 /**
- * �?
+
  */
 export function generateCacheKey(
   type: CacheStrategyType,
@@ -67,18 +67,18 @@ export function getQueryType(params?: QueryParams): CacheStrategyType {
   if (params.keyword) {
     return 'search'
   }
-  // �?
+
   if (params.tags && params.tags.length > 0) {
     return 'tagFilter'
   }
-  //  (�?
+
   if (!params.archived && !params.pinned && !params.sort) {
     return 'defaultList'
   }
   return 'complexQuery'
 }
 /**
- * �?
+
  */
 export function shouldCacheQuery(
   type: CacheStrategyType,
@@ -90,15 +90,15 @@ export function shouldCacheQuery(
   if (type === 'defaultList') {
     return true
   }
-  // ：�?(�?�?
+
   if (type === 'tagFilter' && params?.tags) {
     return params.tags.length <= 3
   }
-  // ： (�?0)
+
   if (type === 'search' && params?.keyword) {
     return params.keyword.length <= 50
   }
-  // ：�?
+
   return false
 }
 /**
@@ -114,11 +114,11 @@ export function getCacheInvalidationPrefix(
   if (type === 'rateLimit') {
     return `ratelimit:${userId}:`
   }
-  // �?
+
   return `bookmarks:${userId}:`
 }
 /**
- *  (�?
+
  */
 export function hashQueryParams(params: QueryParams): string {
   const sorted = Object.keys(params)

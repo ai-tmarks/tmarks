@@ -5,10 +5,9 @@
  */
 /**
  * 
- * - 0: �?(�?
- * - 1: �?()
+
  * - 2:  ()
- * - 3: �?()
+
  */
 export type CacheLevel = 0 | 1 | 2 | 3
 /**
@@ -18,7 +17,7 @@ export type CacheStrategyType =
   | 'rateLimit'      //  ()
   | 'publicShare'    
   | 'defaultList'    
-  | 'tagFilter'      // �?
+  | 'tagFilter'      // 
   | 'search'         
   | 'complexQuery'   
 /**
@@ -27,16 +26,16 @@ export type CacheStrategyType =
 export interface CacheConfig {
   level: CacheLevel
   enabled: boolean
-  /** �?*/
+  /** 
   strategies: Record<CacheStrategyType, boolean>
-  /** TTL  (�? */
+  /** TTL  (
   ttl: Record<CacheStrategyType, number>
   memoryCache: {
     enabled: boolean
-    maxAge: number  // �?
+    maxAge: number  // 
   }
   batchOperations: {
-    writeCache: boolean   // �?
+    writeCache: boolean   // 
     asyncWrite: boolean   
   }
 }
@@ -45,14 +44,14 @@ export interface CacheConfig {
  */
 export interface CacheEntry<T = unknown> {
   data: T
-  expires: number  // �?
+  expires: number  // 
 }
 /**
  * 
  */
 export interface CacheSetOptions {
   async?: boolean
-  /** �?TTL (�? */
+  /** 
   ttl?: number
 }
 /**
@@ -68,7 +67,7 @@ export interface CacheStats {
   strategies: Record<CacheStrategyType, boolean>
 }
 /**
- *  (�?
+
  */
 export interface QueryParams {
   keyword?: string

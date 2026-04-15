@@ -1,14 +1,14 @@
 /**
- *  URL 
- * �?URL
- *  AWS S3 Presigned URL �?
+ * Signed URL Generator
+ * Generates secure signed URLs for temporary resource access
+ * Similar to AWS S3 Presigned URLs
  */
 
 export interface SignedUrlParams {
   userId: string
-  resourceId: string //  ID（ snapshot ID�?
-  expiresIn?: number // （），�?1 
-  action?: string // （ 'view', 'download'�?
+  resourceId: string // Resource ID (e.g. snapshot ID)
+  expiresIn?: number // Expiration time (seconds), default 1 hour
+  action?: string // Action type (e.g. 'view', 'download')
 }
 
 export interface SignedUrlData {
@@ -19,17 +19,17 @@ export interface SignedUrlData {
 }
 
 /**
- *  URL
- * @param params 
- * @param secret 
- * @returns 
+ * Generate signed URL
+ * @param params URL parameters
+ * @param secret Secret key for signing
+ * @returns Signature and expiration timestamp
  */
 export async function generateSignedUrl(
   params: SignedUrlParams,
   secret: string
 ): Promise<{ signature: string; expires: number }> {
   const now = Math.floor(Date.now() / 1000)
-  const expires = now + (params.expiresIn || 3600) //  1 
+  const expires = now + (params.expiresIn || 3600) // Default 1 hour
 
   const data: SignedUrlData = {
     userId: params.userId,
@@ -38,7 +38,7 @@ export async function generateSignedUrl(
     action: params.action,
   }
 
-  // �?
+  // Generate signature
   const message = `${data.userId}:${data.resourceId}:${data.expires}:${data.action || ''}`
   const signature = await sign(message, secret)
 
@@ -46,14 +46,14 @@ export async function generateSignedUrl(
 }
 
 /**
- *  URL
- * @param signature �?
- * @param expires 
- * @param userId  ID
- * @param resourceId  ID
- * @param action 
- * @param secret 
- * @returns 
+ * Verify signed URL
+ * @param signature Signature string
+ * @param expires Expiration timestamp
+ * @param userId User ID
+ * @param resourceId Resource ID
+ * @param action Action type
+ * @param secret Secret key for verification
+ * @returns Validation result
  */
 export async function verifySignedUrl(
   signature: string,
@@ -63,13 +63,13 @@ export async function verifySignedUrl(
   secret: string,
   action?: string
 ): Promise<{ valid: boolean; error?: string }> {
-  // �?
+  // Check expiration
   const now = Math.floor(Date.now() / 1000)
   if (expires < now) {
     return { valid: false, error: 'URL has expired' }
   }
 
-  // �?
+  // Verify signature
   const message = `${userId}:${resourceId}:${expires}:${action || ''}`
   const expectedSignature = await sign(message, secret)
 
@@ -81,7 +81,7 @@ export async function verifySignedUrl(
 }
 
 /**
- * 
+ * Extract signed URL parameters from request
  */
 export function extractSignedParams(request: Request): {
   signature: string | null
@@ -113,7 +113,7 @@ export function extractSignedParams(request: Request): {
 }
 
 /**
- *  HMAC-SHA256 
+ * Generate HMAC-SHA256 signature
  */
 async function sign(message: string, secret: string): Promise<string> {
   const encoder = new TextEncoder()
@@ -130,7 +130,7 @@ async function sign(message: string, secret: string): Promise<string> {
 
   const signature = await crypto.subtle.sign('HMAC', key, messageData)
   
-  // �?hex （）
+  // Convert to hex string (lowercase)
   return Array.from(new Uint8Array(signature))
     .map(b => b.toString(16).padStart(2, '0'))
     .join('')

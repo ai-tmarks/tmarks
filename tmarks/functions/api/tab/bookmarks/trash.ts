@@ -1,5 +1,5 @@
 /**
- *  API - �?
+
  * : /api/tab/bookmarks/trash
  * : API Key (X-API-Key header)
  */
@@ -16,7 +16,6 @@ interface TrashQueryParams {
   sort?: string
 }
 
-// GET /api/tab/bookmarks/trash - �?
 export const onRequestGet: PagesFunction<Env, string, ApiKeyAuthContext>[] = [
   requireApiKeyAuth('bookmarks.read'),
   async (context) => {
@@ -52,11 +51,9 @@ export const onRequestGet: PagesFunction<Env, string, ApiKeyAuthContext>[] = [
         .bind(...queryParams)
         .all<BookmarkRow>()
 
-      // �?
       const hasMore = bookmarks.length > pageSize
       const items = hasMore ? bookmarks.slice(0, pageSize) : bookmarks
 
-      // �?
       const bookmarksWithTags = await Promise.all(
         items.map(async (bookmark) => {
           const { results: tags } = await context.env.DB.prepare(

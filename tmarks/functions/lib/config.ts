@@ -1,13 +1,12 @@
 /**
  * 
- * : �?Cloudflare  (context.env) �?
- * �? wrangler.toml �?Cloudflare Dashboard 
+
  */
 
 import type { Env } from './types'
 
 /**
- * �?()
+
  */
 export const DEFAULT_CONFIG = {
   JWT_ACCESS_TOKEN_EXPIRES_IN: '365d',
@@ -15,21 +14,21 @@ export const DEFAULT_CONFIG = {
 } as const
 
 /**
- * �?JWT 
+
  */
 export function getJwtAccessTokenExpiresIn(env?: Env): string {
   return env?.JWT_ACCESS_TOKEN_EXPIRES_IN || DEFAULT_CONFIG.JWT_ACCESS_TOKEN_EXPIRES_IN
 }
 
 /**
- * �?JWT 
+
  */
 export function getJwtRefreshTokenExpiresIn(env?: Env): string {
   return env?.JWT_REFRESH_TOKEN_EXPIRES_IN || DEFAULT_CONFIG.JWT_REFRESH_TOKEN_EXPIRES_IN
 }
 
 /**
- * �?
+
  * @param env - Cloudflare 
  * @returns 
  */

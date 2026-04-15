@@ -50,7 +50,7 @@ export const onRequestPost: PagesFunction<Env>[] = [
     }
 
     if (!user) {
-      // �?
+
       const ip = context.request.headers.get('CF-Connecting-IP') || 'unknown'
       await context.env.DB.prepare(
         `INSERT INTO audit_logs (event_type, payload, ip, created_at)
@@ -70,7 +70,7 @@ export const onRequestPost: PagesFunction<Env>[] = [
     const isValid = await verifyPassword(body.password, user.password_hash)
 
     if (!isValid) {
-      // �?
+
       const ip = context.request.headers.get('CF-Connecting-IP') || 'unknown'
       await context.env.DB.prepare(
         `INSERT INTO audit_logs (user_id, event_type, payload, ip, created_at)
@@ -119,7 +119,6 @@ export const onRequestPost: PagesFunction<Env>[] = [
       .bind(user.id, refreshTokenHash, refreshTokenExpiresAt.toISOString(), new Date().toISOString())
       .run()
 
-    // �?
     const ip = context.request.headers.get('CF-Connecting-IP') || 'unknown'
     const userAgent = context.request.headers.get('User-Agent') || 'unknown'
 

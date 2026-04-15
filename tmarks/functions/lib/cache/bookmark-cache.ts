@@ -1,13 +1,13 @@
 /**
  * 
  * 
- * �?
+
  */
 import { CacheService } from './service'
 import { generateCacheKey, getQueryType, getCacheInvalidationPrefix } from './strategies'
 import type { QueryParams } from './types'
 /**
- * �?
+
  */
 export class BookmarkCacheManager {
   constructor(private cache: CacheService) {}
@@ -39,14 +39,14 @@ export class BookmarkCacheManager {
     await this.cache.set(queryType, cacheKey, data, options)
   }
   /**
-   * �?
+
    */
   async invalidateUserBookmarks(userId: string): Promise<void> {
     const prefix = getCacheInvalidationPrefix(userId)
     await this.cache.invalidate(prefix)
   }
   /**
-   * �?
+
    */
   async invalidateQuery(userId: string, params?: QueryParams): Promise<void> {
     const queryType = getQueryType(params)
@@ -62,7 +62,7 @@ export class BookmarkCacheManager {
       // Level 3: 
       this.refreshCommonQueries(userId)
     } else {
-      // Level 0-2: �?
+
       await this.invalidateUserBookmarks(userId)
     }
   }
@@ -75,7 +75,7 @@ export class BookmarkCacheManager {
       try {
         await this.invalidateUserBookmarks(userId)
         // ：
-        // ，�?
+
       } catch (error) {
         console.warn('Refresh common queries error:', error)
       }
@@ -83,7 +83,7 @@ export class BookmarkCacheManager {
   }
 }
 /**
- * �?
+
  */
 export function createBookmarkCacheManager(cache: CacheService): BookmarkCacheManager {
   return new BookmarkCacheManager(cache)

@@ -1,8 +1,4 @@
-/**
- *  API
- * : /api/tab/statistics
- * : API Key (X-API-Key header) �?JWT Token (Bearer)
- */
+
 
 import type { PagesFunction } from '@cloudflare/workers-types'
 import type { Env } from '../../../lib/types'
@@ -14,7 +10,7 @@ interface DomainCount {
   count: number
 }
 
-// GET /api/tab/statistics - 
+/api/tab/statistics - 
 export const onRequestGet: PagesFunction<Env, string, DualAuthContext>[] = [
   requireDualAuth('tab_groups.read'),
   async (context) => {
@@ -23,12 +19,11 @@ export const onRequestGet: PagesFunction<Env, string, DualAuthContext>[] = [
     const days = parseInt(url.searchParams.get('days') || '30')
 
     try {
-      // 
+      
       const startDate = new Date()
       startDate.setDate(startDate.getDate() - days)
       const startDateStr = startDate.toISOString().split('T')[0]
 
-      // 🚀 �?- 
       const [
         groupsResult,
         deletedGroupsResult,
@@ -39,33 +34,29 @@ export const onRequestGet: PagesFunction<Env, string, DualAuthContext>[] = [
         domains,
         groupSizes
       ] = await Promise.all([
-        // 1. 
+        
         context.env.DB.prepare(
           'SELECT COUNT(*) as count FROM tab_groups WHERE user_id = ? AND is_deleted = 0'
         )
           .bind(userId)
           .all<{ count: number }>(),
 
-        // 2. �?        context.env.DB.prepare(
           'SELECT COUNT(*) as count FROM tab_groups WHERE user_id = ? AND is_deleted = 1'
         )
           .bind(userId)
           .all<{ count: number }>(),
 
-        // 3. �?        context.env.DB.prepare(
           'SELECT COUNT(*) as count FROM tab_group_items WHERE group_id IN (SELECT id FROM tab_groups WHERE user_id = ?)'
         )
           .bind(userId)
           .all<{ count: number }>(),
 
-        // 4. 
         context.env.DB.prepare(
           'SELECT COUNT(*) as count FROM shares WHERE user_id = ?'
         )
           .bind(userId)
           .all<{ count: number }>(),
 
-        // 5. 
         context.env.DB.prepare(
           `SELECT DATE(created_at) as date, COUNT(*) as count 
            FROM tab_groups 
@@ -76,7 +67,6 @@ export const onRequestGet: PagesFunction<Env, string, DualAuthContext>[] = [
           .bind(userId, startDateStr)
           .all<{ date: string; count: number }>(),
 
-        // 6. �?        context.env.DB.prepare(
           `SELECT DATE(created_at) as date, COUNT(*) as count 
            FROM tab_group_items 
            WHERE group_id IN (SELECT id FROM tab_groups WHERE user_id = ?) 
@@ -87,7 +77,6 @@ export const onRequestGet: PagesFunction<Env, string, DualAuthContext>[] = [
           .bind(userId, startDateStr)
           .all<{ date: string; count: number }>(),
 
-        // 7.  Top 10
         context.env.DB.prepare(
           `SELECT 
             CASE 
@@ -105,7 +94,6 @@ export const onRequestGet: PagesFunction<Env, string, DualAuthContext>[] = [
           .bind(userId)
           .all<DomainCount>(),
 
-        // 8. 
         context.env.DB.prepare(
           `SELECT 
             CASE 

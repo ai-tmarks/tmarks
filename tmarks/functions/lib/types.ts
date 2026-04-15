@@ -1,10 +1,10 @@
 export interface Env {
   DB: D1Database
-  // TMARKS_KV?: KVNamespace // （、）- �?
+  // TMARKS_KV?: KVNamespace // Unified cache (public sharing, rate limiting, etc.) - Removed
   SNAPSHOTS_BUCKET?: R2Bucket // R2 bucket for bookmark snapshots
-  R2_PUBLIC_URL?: string // （）�?R2 （ https://r2.example.com�?
-  R2_MAX_TOTAL_BYTES?: string // R2 （），； <= 0 �?
-  CORS_ALLOWED_ORIGINS?: string // CORS （， https://example.com,https://app.example.com�?
+  R2_PUBLIC_URL?: string // (Optional) Public URL for R2 storage for cover images (e.g. https://r2.example.com)
+  R2_MAX_TOTAL_BYTES?: string // R2 total storage quota (bytes), optional; not configured or <= 0 means unlimited
+  CORS_ALLOWED_ORIGINS?: string // CORS allowed origins list (comma-separated, e.g. https://example.com,https://app.example.com)
   ALLOW_REGISTRATION?: string
   JWT_SECRET: string
   ENCRYPTION_KEY: string

@@ -29,8 +29,8 @@ interface CreateBookmarkRequest {
   description?: string
   cover_image?: string
   favicon?: string
-  tag_ids?: string[]  // ：�?ID 
-  tags?: string[]     // ：（�?
+  tag_ids?: string[]  // ：
+  tags?: string[]     // ：（
   is_pinned?: boolean
   is_public?: boolean
   bookmarks?: Array<{  // 
@@ -66,7 +66,6 @@ export const onRequestGet: PagesFunction<Env, RouteParams, ApiKeyAuthContext>[] 
       const bookmarkIds = bookmarks.map(b => b.id)
       const tagsByBookmarkId = await fetchBookmarkTags(context.env.DB, bookmarkIds)
 
-      // �?
       const bookmarksWithTags: BookmarkWithTags[] = bookmarks.map(row => {
         const normalized = normalizeBookmark(row)
         return {
@@ -91,7 +90,6 @@ export const onRequestGet: PagesFunction<Env, RouteParams, ApiKeyAuthContext>[] 
   },
 ]
 
-// POST /api/bookmarks - （�?
 export const onRequestPost: PagesFunction<Env, RouteParams, ApiKeyAuthContext>[] = [
   requireApiKeyAuth('bookmarks.create'),
   async (context) => {
@@ -130,7 +128,6 @@ export const onRequestPost: PagesFunction<Env, RouteParams, ApiKeyAuthContext>[]
       let coverImage = body.cover_image ? sanitizeString(body.cover_image, 2000) : null
       const favicon = body.favicon ? sanitizeString(body.favicon, 2000) : null
 
-      // URL（�?
       const existing = await context.env.DB.prepare(
         'SELECT id, deleted_at FROM bookmarks WHERE user_id = ? AND url = ?'
       )
@@ -223,7 +220,7 @@ export const onRequestPost: PagesFunction<Env, RouteParams, ApiKeyAuthContext>[]
           .bind(bookmarkId, userId)
           .run()
       } else {
-        // �?
+
         bookmarkId = generateUUID()
         await context.env.DB.prepare(
           `INSERT INTO bookmarks (id, user_id, title, url, description, cover_image, cover_image_id, favicon, is_pinned, is_public, created_at, updated_at)
@@ -246,7 +243,6 @@ export const onRequestPost: PagesFunction<Env, RouteParams, ApiKeyAuthContext>[]
         }
       }
 
-      // �?
       const bookmarkRow = await context.env.DB.prepare('SELECT * FROM bookmarks WHERE id = ? AND user_id = ?')
         .bind(bookmarkId, userId)
         .first<BookmarkRow>()

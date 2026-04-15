@@ -1,6 +1,6 @@
 /**
  * 
- * �?
+
  */
 import { internalError, badRequest, unauthorized, forbidden, notFound, conflict } from './response'
 export interface ErrorContext {
@@ -19,12 +19,12 @@ export interface ErrorDetails {
   context?: ErrorContext
 }
 /**
- * �?
+
  */
 export function handleError(error: unknown, context?: ErrorContext): Response {
   const errorDetails = normalizeError(error, context)
   logError(errorDetails)
-  // �?
+
   switch (errorDetails.code) {
     case 'VALIDATION_ERROR':
     case 'INVALID_INPUT':
@@ -48,11 +48,11 @@ export function handleError(error: unknown, context?: ErrorContext): Response {
   }
 }
 /**
- * �?
+
  */
 function normalizeError(error: unknown, context?: ErrorContext): ErrorDetails {
   if (error instanceof Error) {
-    // �?
+
     if (error.message.includes('UNIQUE constraint failed')) {
       return {
         code: 'DUPLICATE_RESOURCE',
@@ -113,7 +113,7 @@ function logError(errorDetails: ErrorDetails): void {
   console.error('Error occurred:', JSON.stringify(logData, null, 2))
 }
 /**
- * �?
+
  */
 export function createErrorContext(request: Request, userId?: string): ErrorContext {
   return {
@@ -128,7 +128,7 @@ export function createErrorContext(request: Request, userId?: string): ErrorCont
   }
 }
 /**
- * �?
+
  */
 export function withErrorHandling<T extends unknown[], R>(
   fn: (...args: T) => Promise<R>,

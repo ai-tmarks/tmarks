@@ -1,6 +1,6 @@
 /**
  * API Key Authentication Middleware
- * �?API Key 
+ * Validates API Key and checks permissions
  */
 
 import { Context } from 'hono'
@@ -13,15 +13,15 @@ interface ApiKeyAuthOptions {
 }
 
 /**
- * API Key �?
- * @param options 
- * @returns �?
+ * Create API Key authentication middleware
+ * @param options Configuration options
+ * @returns Middleware function
  */
 export function requireApiKey(options: ApiKeyAuthOptions) {
   return async (c: Context, next: () => Promise<void>) => {
     const { requiredPermission } = options
 
-    // 1.  API Key
+    // 1. Extract API Key
     const apiKey = c.req.header('X-API-Key')
 
     if (!apiKey) {
@@ -36,7 +36,7 @@ export function requireApiKey(options: ApiKeyAuthOptions) {
       )
     }
 
-    // 2.  API Key
+    // 2. Validate API Key
     const validation = await validateApiKey(apiKey, c.env.DB)
 
     if (!validation.valid || !validation.data || !validation.permissions) {
@@ -53,7 +53,7 @@ export function requireApiKey(options: ApiKeyAuthOptions) {
 
     const { data: keyData, permissions } = validation
 
-    // 3. �?
+    // 3. Check permissions
     if (!checkPermission(permissions, requiredPermission)) {
       return c.json(
         {
@@ -68,7 +68,7 @@ export function requireApiKey(options: ApiKeyAuthOptions) {
       )
     }
 
-    // 4. （D1�?
+    // 4. Rate limiting (D1 based)
     const rateLimitResult = await consumeRateLimit(keyData.id, c.env.DB)
     if (!rateLimitResult.allowed) {
       return c.json(
@@ -89,21 +89,21 @@ export function requireApiKey(options: ApiKeyAuthOptions) {
       )
     }
 
-    // 5.  IP
+    // 5. Get request IP
     const ip = c.req.header('CF-Connecting-IP') || c.req.header('X-Forwarded-For') || null
 
-    // 6. �?
+    // 6. Update last used timestamp
     await updateLastUsed(keyData.id, ip, c.env.DB)
 
-    // 7. 
+    // 7. Set context variables
     c.set('user_id', keyData.user_id)
     c.set('api_key_id', keyData.id)
     c.set('api_key_permissions', permissions)
 
-    // 8. 
+    // 8. Continue to next handler
     await next()
 
-    // 9. �?
+    // 9. Log API usage
     const status = c.res.status
     const endpoint = c.req.path
     const method = c.req.method
@@ -123,8 +123,8 @@ export function requireApiKey(options: ApiKeyAuthOptions) {
 }
 
 /**
- *  API Key 
- * �?API Key ，（�?
+ * Optional API Key authentication middleware
+ * Validates API Key if present, continues without auth if not provided
  */
 export function optionalApiKey() {
   return async (c: Context, next: () => Promise<void>) => {

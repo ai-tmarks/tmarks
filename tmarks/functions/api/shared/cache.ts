@@ -4,7 +4,7 @@ import { getCacheInvalidationPrefix } from '../../lib/cache/strategies'
 
 /**
  * 
- * ，�?
+
  */
 export async function invalidatePublicShareCache(env: Env, userId: string) {
   //  slug

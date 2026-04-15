@@ -2,25 +2,25 @@ import type { Env } from './types'
 import type { D1Database } from '@cloudflare/workers-types'
 
 /**
- * R2 
+ * R2 Storage Quota Management
  *
- * ： R2 （ + ）�?
- * ：�?D1 �?bookmark_snapshots.file_size �?bookmark_images.file_size �?
+ * Calculation method: R2 total storage (snapshots + images)
+ * Data source: Query D1 database bookmark_snapshots.file_size and bookmark_images.file_size
  */
 
-// ： <= 0 「�?
+// Note: If not configured or <= 0, means "unlimited"
 type UsageRow = {
   total: number | null
 }
 
 /**
- * �?R2 （�?
+ * Get R2 storage quota limit (bytes)
  *
- * �?
- * - �?/ : 「�?
- * - : 「�?
- * - <= 0: 「�?
- * - > 0: �?
+ * Rules:
+ * - Not configured/empty: "unlimited"
+ * - Invalid format: "unlimited"
+ * - <= 0: "unlimited"
+ * - > 0: Use configured value
  */
 export function getR2MaxTotalBytes(env: Env): number {
   const raw = env.R2_MAX_TOTAL_BYTES
@@ -44,11 +44,11 @@ export function getR2MaxTotalBytes(env: Env): number {
 }
 
 /**
- * �?R2 （）
+ * Get current R2 storage usage (bytes)
  *
- * �?
- * - bookmark_snapshots.file_size：�?HTML +（ V2 ）�?
- * - bookmark_images.file_size：（ image_hash �?
+ * Data sources:
+ * - bookmark_snapshots.file_size: Snapshot HTML + images (V2 format)
+ * - bookmark_images.file_size: Cover images (deduplicated by image_hash)
  */
 export async function getCurrentR2UsageBytes(db: D1Database): Promise<number> {
   const snapshotRow = await db
@@ -78,7 +78,7 @@ export interface R2QuotaCheckResult {
 }
 
 /**
- *  additionalBytes ，�?
+ * Check if adding additionalBytes would exceed quota
  */
 export async function checkR2Quota(
   db: D1Database,
@@ -87,7 +87,7 @@ export async function checkR2Quota(
 ): Promise<R2QuotaCheckResult> {
   const limitBytes = getR2MaxTotalBytes(env)
 
-  // ：�?D1 ，�?
+  // Optimization: If unlimited, skip D1 query
   if (!Number.isFinite(limitBytes)) {
     return { allowed: true, limitBytes, usedBytes: 0 }
   }

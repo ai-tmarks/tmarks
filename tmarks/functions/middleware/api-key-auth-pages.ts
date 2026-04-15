@@ -1,6 +1,6 @@
 /**
  * API Key Authentication Middleware for Cloudflare Pages Functions
- *  API �?API Key 
+ * Validates API Key and checks permissions for Pages Functions routes
  */
 import type { PagesFunction } from '@cloudflare/workers-types'
 import type { Env, RouteParams } from '../lib/types'
@@ -15,8 +15,8 @@ export interface ApiKeyAuthContext extends Record<string, unknown> {
   api_key_permissions: string[]
 }
 /**
- *  API Key �?
- * @param requiredPermission 
+ * Create API Key authentication middleware
+ * @param requiredPermission Required permission string
  */
 export function requireApiKeyAuth(
   requiredPermission: string
@@ -24,7 +24,7 @@ export function requireApiKeyAuth(
   return async (context) => {
     const request = context.request
     try {
-      // 1.  API Key
+      // 1. Extract API Key
       const apiKey = request.headers.get('X-API-Key')
       if (!apiKey) {
         return unauthorized({
@@ -32,7 +32,7 @@ export function requireApiKeyAuth(
           message: 'API Key is required. Please provide X-API-Key header.',
         })
       }
-      // 2.  API Key
+      // 2. Validate API Key
       const validation = await validateApiKey(apiKey, context.env.DB)
       if (!validation.valid || !validation.data || !validation.permissions) {
         return unauthorized({
@@ -41,7 +41,7 @@ export function requireApiKeyAuth(
         })
       }
       const { data: keyData, permissions } = validation
-      // 3. �?
+      // 3. Check permissions
       if (!hasPermission(permissions, requiredPermission)) {
         return forbidden({
           code: 'INSUFFICIENT_PERMISSIONS',
@@ -50,7 +50,7 @@ export function requireApiKeyAuth(
           available: permissions,
         })
       }
-      // 4. ?????D1?
+      // 4. Rate limiting (D1 based)
       const rateLimitResult = await consumeRateLimit(keyData.id, context.env.DB)
       const rateLimitHeaders: Record<string, string> = {
         'X-RateLimit-Limit': String(rateLimitResult.limit),
@@ -70,16 +70,16 @@ export function requireApiKeyAuth(
           }
         )
       }
-      // 5.  IP
+      // 5. Get request IP
       const ip =
         request.headers.get('CF-Connecting-IP') ||
         request.headers.get('X-Forwarded-For') ||
         null
-      // 6.  context.data（）
+      // 6. Pass user info to context.data (for downstream handlers)
       context.data.user_id = keyData.user_id
       context.data.api_key_id = keyData.id
       context.data.api_key_permissions = permissions
-      // 8. （，�?
+      // 8. Update last used info (async, non-blocking)
       context.waitUntil(
         (async () => {
           try {
@@ -93,7 +93,7 @@ export function requireApiKeyAuth(
           }
         })()
       )
-      // 9.  API （，）
+      // 9. Log API usage (async, non-blocking)
       context.waitUntil(
         (async () => {
           try {
@@ -103,7 +103,7 @@ export function requireApiKeyAuth(
                 user_id: keyData.user_id,
                 endpoint: new URL(request.url).pathname,
                 method: request.method,
-                status: 200, 
+                status: 200, // Default status, actual status logged after response
                 ip,
               },
               context.env.DB
@@ -113,8 +113,8 @@ export function requireApiKeyAuth(
           }
         })()
       )
-      // 10. ，（ undefined �?next()�?
-      // �?Pages Functions ，�?undefined 
+      // 10. Continue to next handler (may return undefined, next() handles it)
+      // Note: Pages Functions middleware can return undefined
       const response = await context.next()
       const headers = new Headers(response.headers)
       Object.entries(rateLimitHeaders).forEach(([k, v]) => headers.set(k, v))

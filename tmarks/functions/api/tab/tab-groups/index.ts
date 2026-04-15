@@ -1,7 +1,7 @@
 /**
  *  API - 
  * : /api/tab/tab-groups
- * : API Key (X-API-Key header) �?JWT Token (Bearer)
+
  */
 
 import type { PagesFunction } from '@cloudflare/workers-types'

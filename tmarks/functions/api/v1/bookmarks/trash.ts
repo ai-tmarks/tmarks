@@ -1,5 +1,5 @@
 /**
- * �?API
+
  * : /api/v1/bookmarks/trash
  * : JWT Token (Bearer)
  */
@@ -16,7 +16,6 @@ interface TrashQueryParams {
   sort?: string
 }
 
-// GET /api/v1/bookmarks/trash - �?
 export const onRequestGet: PagesFunction<Env, string, AuthContext>[] = [
   requireAuth,
   async (context) => {
@@ -52,11 +51,9 @@ export const onRequestGet: PagesFunction<Env, string, AuthContext>[] = [
         .bind(...queryParams)
         .all<BookmarkRow>()
 
-      // �?
       const hasMore = bookmarks.length > pageSize
       const items = hasMore ? bookmarks.slice(0, pageSize) : bookmarks
 
-      // �?
       const bookmarksWithTags = await Promise.all(
         items.map(async (bookmark) => {
           const { results: tags } = await context.env.DB.prepare(

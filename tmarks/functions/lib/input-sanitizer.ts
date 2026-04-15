@@ -1,6 +1,5 @@
 /**
- * �?
- *  XSS、SQL �?
+
  */
 /**
  * HTML 
@@ -36,19 +35,19 @@ export function sanitizeString(input: string, options: {
   if (result.length > maxLength) {
     result = result.substring(0, maxLength)
   }
-  // HTML （ HTML�?
+
   if (!allowHtml) {
     result = escapeHtml(result)
   }
   return result
 }
 /**
- * �?URL
+
  */
 export function sanitizeUrl(url: string): string | null {
   try {
     const parsed = new URL(url.trim())
-    // �?HTTP �?HTTPS 
+
     if (!['http:', 'https:'].includes(parsed.protocol)) {
       return null
     }
@@ -92,7 +91,7 @@ export function sanitizeUsername(username: string): string | null {
  */
 export function sanitizeTagName(tagName: string): string | null {
   const trimmed = tagName.trim()
-  // �?-50，�?
+
   if (trimmed.length === 0 || trimmed.length > 50) {
     return null
   }
@@ -103,7 +102,7 @@ export function sanitizeTagName(tagName: string): string | null {
   return cleaned
 }
 /**
- * �?
+
  */
 export function sanitizeFileName(fileName: string): string {
   return fileName
@@ -113,7 +112,7 @@ export function sanitizeFileName(fileName: string): string {
     .substring(0, 255)
 }
 /**
- * �?
+
  */
 export function sanitizeColor(color: string): string | null {
   const trimmed = color.trim()
@@ -122,7 +121,7 @@ export function sanitizeColor(color: string): string | null {
   if (hexRegex.test(trimmed)) {
     return trimmed.toLowerCase()
   }
-  // �?
+
   const allowedColors = [
     'red', 'blue', 'green', 'yellow', 'orange', 'purple', 
     'pink', 'cyan', 'gray', 'black', 'white'
@@ -157,7 +156,7 @@ export function sanitizePaginationParams(params: {
   const pageSize = Math.min(100, Math.max(1, parseInt(String(params.pageSize || 30))))
   const result: { page: number; pageSize: number; cursor?: string } = { page, pageSize }
   if (params.cursor && typeof params.cursor === 'string') {
-    // （�?UUID ）
+
     if (/^[a-zA-Z0-9-]+$/.test(params.cursor)) {
       result.cursor = params.cursor
     }
@@ -165,7 +164,7 @@ export function sanitizePaginationParams(params: {
   return result
 }
 /**
- * �?
+
  */
 export function sanitizeObject<T extends Record<string, unknown>>(
   obj: T,

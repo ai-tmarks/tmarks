@@ -25,14 +25,10 @@ export const onRequestGet: PagesFunction<Env, string, AuthContext>[] = [
     try {
       const db = context.env.DB
 
-      // �?
-      // 6.  - �?
       const { dateGroupBy, dateSelect } = getDateGroupSql(granularity, 'created_at')
 
-      // 7. （ bookmark_click_events�?- �?
       const { dateGroupBy: clickDateGroupBy, dateSelect: clickDateSelect } = getDateGroupSql(granularity, 'clicked_at')
 
-      // 🚀 �?- 
       const [
         summary,
         tagCount,
@@ -44,7 +40,7 @@ export const onRequestGet: PagesFunction<Env, string, AuthContext>[] = [
         clickTrends,
         bookmarkClickStats,
       ] = await Promise.all([
-        // 1. �?
+
         db.prepare(
           `SELECT 
             COUNT(*) as total_bookmarks,
@@ -113,7 +109,6 @@ export const onRequestGet: PagesFunction<Env, string, AuthContext>[] = [
           .bind(userId)
           .all(),
 
-        // 6. �?Top 10
         db.prepare(
           `SELECT id, title, url, last_clicked_at
           FROM bookmarks
@@ -139,7 +134,6 @@ export const onRequestGet: PagesFunction<Env, string, AuthContext>[] = [
           .bind(userId, ...[startDate, endDate].filter(Boolean))
           .all(),
 
-        // 8. （�?bookmark_click_events�?
         db.prepare(
           `SELECT
             ${clickDateSelect},

@@ -73,7 +73,6 @@ export async function handleBatchCreate(
       const isArchived = item.is_archived ? 1 : 0
       const isPublic = item.is_public ? 1 : 0
 
-      // �?URL �?      const existing = await db.prepare(
         'SELECT id, deleted_at FROM bookmarks WHERE user_id = ? AND url = ?'
       )
         .bind(userId, url)
@@ -130,7 +129,6 @@ export async function handleBatchCreate(
     }
   }
 
-  // �?  if (result.errors && result.errors.length === 0) {
     delete result.errors
   }
 

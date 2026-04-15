@@ -1,8 +1,4 @@
-/**
- * �?API
- * : /api/tab/tab-groups/trash
- * : API Key (X-API-Key header) �?JWT Token (Bearer)
- */
+
 
 import type { PagesFunction } from '@cloudflare/workers-types'
 import type { Env } from '../../../lib/types'
@@ -21,20 +17,19 @@ interface TabGroupRow {
   updated_at: string
 }
 
-// GET /api/tab/tab-groups/trash - �?export const onRequestGet: PagesFunction<Env, string, DualAuthContext>[] = [
+/api/tab/tab-groups/trash - 
   requireDualAuth('tab_groups.read'),
   async (context) => {
     const userId = context.data.user_id
 
     try {
-      // Get deleted tab groups
+      
       const { results: groups } = await context.env.DB.prepare(
         'SELECT * FROM tab_groups WHERE user_id = ? AND is_deleted = 1 ORDER BY deleted_at DESC'
       )
         .bind(userId)
         .all<TabGroupRow>()
 
-      // Get item counts for each group
       const groupsWithCounts = await Promise.all(
         (groups || []).map(async (group) => {
           const { results: items } = await context.env.DB.prepare(

@@ -1,12 +1,12 @@
 import { generateUUID } from './crypto'
 /**
+ * Create or link tags to a bookmark
+ * Creates new tags if they don't exist, links existing tags
  * 
- * 、
- * 
- * @param db - D1 �?
- * @param bookmarkId -  ID
- * @param tagNames - 
- * @param userId -  ID
+ * @param db - D1 Database instance
+ * @param bookmarkId - Bookmark ID
+ * @param tagNames - Array of tag names
+ * @param userId - User ID
  */
 export async function createOrLinkTags(
   db: D1Database,
@@ -16,25 +16,25 @@ export async function createOrLinkTags(
 ): Promise<void> {
   if (!tagNames || tagNames.length === 0) return
   const now = new Date().toISOString()
-  // ：， N+1 
+  // Optimization: Use batch operations to avoid N+1 queries
   const trimmedNames = tagNames.map(name => name.trim()).filter(name => name.length > 0)
   if (trimmedNames.length === 0) return
-  //  IN 
+  // Query existing tags using IN clause
   const placeholders = trimmedNames.map(() => '?').join(',')
   const { results: existingTags } = await db
     .prepare(`SELECT id, name FROM tags WHERE user_id = ? AND LOWER(name) IN (${placeholders}) AND deleted_at IS NULL`)
     .bind(userId, ...trimmedNames.map(name => name.toLowerCase()))
     .all<{ id: string; name: string }>()
-  // �?ID （�?
+  // Build tag name to ID map (case-insensitive)
   const tagMap = new Map<string, string>()
   for (const tag of existingTags || []) {
     tagMap.set(tag.name.toLowerCase(), tag.id)
   }
-  // �?
+  // Find tags that need to be created
   const tagsToCreate = trimmedNames.filter(name => !tagMap.has(name.toLowerCase()))
-  // �?
+  // Create new tags
   if (tagsToCreate.length > 0) {
-    // （D1 �?
+    // Use batch insert (D1 supports batch operations)
     const insertStatements = tagsToCreate.map(name => {
       const tagId = generateUUID()
       tagMap.set(name.toLowerCase(), tagId)
@@ -44,7 +44,7 @@ export async function createOrLinkTags(
     })
     await db.batch(insertStatements)
   }
-  // �?
+  // Link tags to bookmark
   const linkStatements = trimmedNames.map(name => {
     const tagId = tagMap.get(name.toLowerCase())
     if (!tagId) {

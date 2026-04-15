@@ -1,8 +1,4 @@
-/**
- * API Keys 
- * GET /api/v1/settings/api-keys - �?API Keys
- * POST /api/v1/settings/api-keys -  API Key
- */
+
 
 import type { PagesFunction } from '@cloudflare/workers-types'
 import type { Env, RouteParams } from '../../lib/types'
@@ -19,15 +15,14 @@ interface CreateApiKeyRequest {
   expires_at?: string | null
 }
 
-// �?API Key 
 async function getUserApiKeyLimit(_db: D1Database, _userId: string): Promise<number> {
-  // ，�?API Key
+  
   void _db
   void _userId
   return 999
 }
 
-// GET /api/v1/settings/api-keys - �?API Keys
+/api/v1/settings/api-keys - 
 interface ApiKeyRow {
   id: string
   key_prefix: string
@@ -58,7 +53,6 @@ export const onRequestGet: PagesFunction<Env, RouteParams, AuthContext>[] = [
         .bind(userId)
         .all<ApiKeyRow>()
 
-      // 
       const quota = await context.env.DB.prepare(
         `SELECT COUNT(*) as count FROM api_keys WHERE user_id = ? AND status = 'active'`
       )
@@ -85,14 +79,14 @@ export const onRequestGet: PagesFunction<Env, RouteParams, AuthContext>[] = [
   },
 ]
 
-// POST /api/v1/settings/api-keys -  API Key
+/api/v1/settings/api-keys -  API Key
 export const onRequestPost: PagesFunction<Env, RouteParams, AuthContext>[] = [
   requireAuth,
   async (context) => {
     const userId = context.data.user_id
 
     try {
-      // 1. �?
+      
       const quota = await context.env.DB.prepare(
         `SELECT COUNT(*) as count FROM api_keys WHERE user_id = ? AND status = 'active'`
       )
@@ -110,7 +104,6 @@ export const onRequestPost: PagesFunction<Env, RouteParams, AuthContext>[] = [
         })
       }
 
-      // 2. 
       const body = (await context.request.json()) as CreateApiKeyRequest
       const { name, description, permissions, expires_at, template } = body
 
@@ -121,17 +114,16 @@ export const onRequestPost: PagesFunction<Env, RouteParams, AuthContext>[] = [
         })
       }
 
-      // 3. 
       let permissionsList: string[] = []
 
       if (template && PERMISSION_TEMPLATES[template]) {
-        // 
+        
         permissionsList = PERMISSION_TEMPLATES[template].permissions
       } else if (permissions && Array.isArray(permissions)) {
-        // �?
+        
         permissionsList = permissions
       } else {
-        // 
+        
         permissionsList = PERMISSION_TEMPLATES.BASIC.permissions
       }
 
@@ -142,12 +134,10 @@ export const onRequestPost: PagesFunction<Env, RouteParams, AuthContext>[] = [
         })
       }
 
-      // 4. 
       let expiresAt: string | null = null
       if (expires_at) {
         let expiresDate: Date
 
-        //  (30d, 90d �? �?ISO 
         if (expires_at.match(/^\d+d$/)) {
           const days = parseInt(expires_at.slice(0, -1))
           expiresDate = new Date()
@@ -165,13 +155,10 @@ export const onRequestPost: PagesFunction<Env, RouteParams, AuthContext>[] = [
         expiresAt = expiresDate.toISOString()
       }
 
-      // 5.  API Key
       const { key, prefix, hash } = await generateApiKey('live')
 
-      // 6.  UUID
       const keyId = crypto.randomUUID()
 
-      // 7. 
       await context.env.DB.prepare(
         `INSERT INTO api_keys
          (id, user_id, key_hash, key_prefix, name, description, permissions, status, expires_at)
@@ -189,10 +176,9 @@ export const onRequestPost: PagesFunction<Env, RouteParams, AuthContext>[] = [
         )
         .run()
 
-      // 8.  Key（）
       return created({
         id: keyId,
-        key, // ⚠️  Key �?
+        key, 
         key_prefix: prefix,
         name: name.trim(),
         description: description?.trim() || null,

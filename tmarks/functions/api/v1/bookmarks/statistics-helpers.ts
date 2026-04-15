@@ -23,7 +23,7 @@ export interface BookmarkStatistics {
     domain: string
     count: number
   }>
-  // ，（�?  bookmark_clicks: Array<{
+
     id: string
     title: string
     url: string

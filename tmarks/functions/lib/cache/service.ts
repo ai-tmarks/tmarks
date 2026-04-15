@@ -1,7 +1,7 @@
 /**
  * 
  * 
- * ，�?
+
  */
 import type { Env } from '../types'
 import type {
@@ -14,7 +14,7 @@ import type {
 import { loadCacheConfig } from './config'
 import { shouldCacheQuery } from './strategies'
 /**
- * �?
+
  */
 export class CacheService {
   private config: CacheConfig
@@ -85,7 +85,7 @@ export class CacheService {
     }
   }
   /**
-   * （�?
+
    */
   async invalidate(prefix: string): Promise<void> {
     try {
@@ -138,7 +138,7 @@ export class CacheService {
     return this.config.enabled && this.config.strategies[type]
   }
   /**
-   * �?
+
    */
   private getFromMemory<T>(key: string): T | null {
     const entry = this.memCache.get(key)
@@ -154,7 +154,7 @@ export class CacheService {
    * 
    */
   private setToMemory<T>(key: string, data: T, ttlSeconds?: number): void {
-    // ：，�?
+
     if (this.memCache.size > 500) {
       const now = Date.now()
       for (const [k, entry] of this.memCache.entries()) {

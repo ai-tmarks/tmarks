@@ -1,5 +1,5 @@
 /**
- * �?
+
  */
 
 import type { EventContext } from '@cloudflare/workers-types'
@@ -104,7 +104,6 @@ export async function batchCreateBookmarks(
       const isArchived = item.is_archived ? 1 : 0
       const isPublic = item.is_public ? 1 : 0
 
-      // �?URL �?
       const existing = await context.env.DB.prepare(
         'SELECT id, deleted_at FROM bookmarks WHERE user_id = ? AND url = ?'
       )
@@ -142,12 +141,11 @@ export async function batchCreateBookmarks(
           )
           .run()
 
-        // �?
         await context.env.DB.prepare('DELETE FROM bookmark_tags WHERE bookmark_id = ?')
           .bind(bookmarkId)
           .run()
       } else {
-        // �?
+
         bookmarkId = generateUUID()
         await context.env.DB.prepare(
           `INSERT INTO bookmarks (id, user_id, title, url, description, cover_image, cover_image_id, favicon, is_pinned, is_archived, is_public, created_at, updated_at)
@@ -195,7 +193,6 @@ export async function batchCreateBookmarks(
     }
   }
 
-  // �?
   if (result.errors!.length === 0) {
     delete result.errors
   }

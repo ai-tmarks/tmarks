@@ -1,5 +1,5 @@
 /**
- * �?R2 （�?
+
  */
 import type { R2Bucket, D1Database } from '@cloudflare/workers-types'
 import type { Env } from './types'
@@ -13,7 +13,7 @@ interface UploadImageResult {
   imageHash?: string
   fileSize?: number
   mimeType?: string
-  isReused?: boolean // �?
+  isReused?: boolean // 
   error?: string
 }
 interface ExistingImage {
@@ -23,13 +23,13 @@ interface ExistingImage {
   mime_type: string
 }
 /**
- * �?URL  R2（）
+
  * @param imageUrl  URL
  * @param userId  ID
  * @param bookmarkId  ID
  * @param bucket R2 Bucket
  * @param db D1 Database
- * @param r2PublicUrl R2 （ https://r2.example.com�?
+
  * @param env Cloudflare （）
  * @returns 
  */
@@ -48,7 +48,7 @@ export async function uploadCoverImageToR2(
       headers: {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
       },
-      signal: AbortSignal.timeout(10000), // 10�?
+      signal: AbortSignal.timeout(10000), // 10
     })
     if (!response.ok) {
       return {
@@ -61,7 +61,7 @@ export async function uploadCoverImageToR2(
     const imageData = await response.arrayBuffer()
     const contentType = response.headers.get('content-type') || 'image/jpeg'
     const fileSize = imageData.byteLength
-    // 3. （�?10MB�?
+
     if (fileSize > 10 * 1024 * 1024) {
       return {
         success: false,
@@ -69,7 +69,7 @@ export async function uploadCoverImageToR2(
         error: 'Image too large (max 10MB)',
       }
     }
-    // 4. �?
+
     if (!contentType.startsWith('image/')) {
       return {
         success: false,
@@ -77,9 +77,9 @@ export async function uploadCoverImageToR2(
         error: 'Not a valid image',
       }
     }
-    // 5. （SHA-256�?
+
     const imageHash = await calculateHash(imageData)
-    // 6. （�?
+
     const existing = await db
       .prepare('SELECT id, r2_key, file_size, mime_type FROM bookmark_images WHERE image_hash = ? LIMIT 1')
       .bind(imageHash)
@@ -89,7 +89,7 @@ export async function uploadCoverImageToR2(
     if (existing) {
       imageId = existing.id
       r2Key = existing.r2_key
-      // �?R2 
+
       const r2Url = `${r2PublicUrl.replace(/\/$/, '')}/${r2Key}`
       return {
         success: true,
@@ -116,7 +116,7 @@ export async function uploadCoverImageToR2(
         error: `Image storage limit exceeded: used ${usedGB.toFixed(2)}GB / ${limitGB.toFixed(2)}GB`,
       }
     }
-    // 9. �?R2
+
     await bucket.put(r2Key, imageData, {
       httpMetadata: {
         contentType: contentType,
@@ -138,7 +138,7 @@ export async function uploadCoverImageToR2(
       )
       .bind(imageId, bookmarkId, userId, imageHash, r2Key, fileSize, contentType, imageUrl, now, now)
       .run()
-    // 11.  URL（ R2 �?
+
     const r2Url = `${r2PublicUrl.replace(/\/$/, '')}/${r2Key}`
     return {
       success: true,
@@ -159,7 +159,7 @@ export async function uploadCoverImageToR2(
   }
 }
 /**
- * �?SHA-256 
+
  */
 async function calculateHash(data: ArrayBuffer): Promise<string> {
   const hashBuffer = await crypto.subtle.digest('SHA-256', data)
@@ -168,7 +168,7 @@ async function calculateHash(data: ArrayBuffer): Promise<string> {
   return hashHex
 }
 /**
- * �?Content-Type �?
+
  */
 function getExtensionFromContentType(contentType: string): string {
   const typeMap: Record<string, string> = {
@@ -182,8 +182,7 @@ function getExtensionFromContentType(contentType: string): string {
   return typeMap[contentType.toLowerCase()] || '.jpg'
 }
 /**
- * （ R2�?
- * ：，R2 �?
+
  */
 export async function deleteBookmarkImage(
   bookmarkId: string,
@@ -199,14 +198,14 @@ export async function deleteBookmarkImage(
     if (!image) {
       return
     }
-    // 2. （�?
+
     const { count } = await db
       .prepare('SELECT COUNT(*) as count FROM bookmark_images WHERE image_hash = ?')
       .bind(image.image_hash)
       .first<{ count: number }>() || { count: 0 }
-    // 3. �?
+
     await db.prepare('DELETE FROM bookmark_images WHERE id = ?').bind(image.id).run()
-    // 4. ，�?R2 
+
     if (count <= 1) {
       await bucket.delete(image.r2_key)
     }
@@ -219,7 +218,7 @@ export async function deleteBookmarkImage(
  */
 export async function cleanupOrphanedImages(db: D1Database, bucket: R2Bucket): Promise<number> {
   try {
-    // （bookmark_id �?
+
     const { results: orphaned } = await db
       .prepare(
         `SELECT bi.id, bi.r2_key, bi.image_hash
@@ -233,14 +232,14 @@ export async function cleanupOrphanedImages(db: D1Database, bucket: R2Bucket): P
     }
     let deletedCount = 0
     for (const image of orphaned) {
-      // �?
+
       const { count } = await db
         .prepare('SELECT COUNT(*) as count FROM bookmark_images WHERE image_hash = ?')
         .bind(image.image_hash)
         .first<{ count: number }>() || { count: 0 }
-      // �?
+
       await db.prepare('DELETE FROM bookmark_images WHERE id = ?').bind(image.id).run()
-      // ，�?R2 
+
       if (count <= 1) {
         await bucket.delete(image.r2_key)
       }

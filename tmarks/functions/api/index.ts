@@ -7,7 +7,6 @@
 import type { PagesFunction } from '@cloudflare/workers-types'
 import type { Env } from '../lib/types'
 
-// GET /api - API �?
 export const onRequestGet: PagesFunction<Env> = async () => {
   return Response.json({
     name: 'TMarks API',

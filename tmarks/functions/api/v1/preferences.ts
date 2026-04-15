@@ -12,7 +12,7 @@ import {
   validatePreferences
 } from './preferences-helpers'
 
-// GET /api/v1/preferences - 
+/api/v1/preferences - 
 export const onRequestGet: PagesFunction<Env, RouteParams, AuthContext>[] = [
   requireAuth,
   async (context) => {
@@ -39,7 +39,7 @@ export const onRequestGet: PagesFunction<Env, RouteParams, AuthContext>[] = [
   },
 ]
 
-// PATCH /api/v1/preferences - 
+/api/v1/preferences - 
 export const onRequestPatch: PagesFunction<Env, RouteParams, AuthContext>[] = [
   requireAuth,
   async (context) => {
@@ -50,13 +50,11 @@ export const onRequestPatch: PagesFunction<Env, RouteParams, AuthContext>[] = [
       const sortBySupported = await hasSortByColumn(context.env.DB)
       const automationSupported = await hasAutomationColumns(context.env.DB)
 
-      // 
       const validationError = validatePreferences(body)
       if (validationError) {
         return badRequest(validationError)
       }
 
-      // 
       const updates: string[] = []
       const values: SQLParam[] = []
 
@@ -165,7 +163,6 @@ export const onRequestPatch: PagesFunction<Env, RouteParams, AuthContext>[] = [
       values.push(now)
       values.push(userId)
 
-      //  batch ：�?
       const insertStmt = context.env.DB.prepare(
         `INSERT INTO user_preferences (user_id)
          VALUES (?)
@@ -180,7 +177,6 @@ export const onRequestPatch: PagesFunction<Env, RouteParams, AuthContext>[] = [
 
       await context.env.DB.batch([insertStmt, updateStmt])
 
-      // 
       const preferences = await context.env.DB.prepare(
         'SELECT * FROM user_preferences WHERE user_id = ?'
       )

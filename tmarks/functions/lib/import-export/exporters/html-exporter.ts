@@ -1,5 +1,5 @@
 /**
- * HTML �?
+
  *  Netscape ，
  */
 
@@ -19,8 +19,7 @@ export class HtmlExporter implements Exporter {
     try {
       //  HTML 
       const htmlContent = this.generateHtml(data, options)
-      
-      // �?
+
       const filename = this.generateFilename(data.exported_at)
       
       return {
@@ -37,8 +36,7 @@ export class HtmlExporter implements Exporter {
   private generateHtml(data: TMarksExportData, options?: ExportOptions): string {
     const includeMetadata = options?.include_metadata ?? true
     const includeTags = options?.include_tags ?? true
-    
-    // （�?    const bookmarksByFolder = this.organizeBookmarksByFolder(data.bookmarks, includeTags)
+
     const tabGroupsSection = generateTabGroupsNetscapeSection({
       tabGroups: data.tab_groups,
       exportedAt: data.exported_at,
@@ -65,18 +63,16 @@ ${includeMetadata ? this.generateMetadataComment(data) : ''}
 
   private organizeBookmarksByFolder(bookmarks: Array<Record<string, unknown>>, includeTags: boolean): Map<string, Array<Record<string, unknown>>> {
     const folderMap = new Map<string, Array<Record<string, unknown>>>()
-    
-    // �?    folderMap.set('�?, [])
-    
+
     bookmarks.forEach(bookmark => {
       if (!includeTags || bookmark.tags.length === 0) {
         // 
-        const uncategorized = folderMap.get('�?)
+        const uncategorized = folderMap.get('
         if (uncategorized) {
           uncategorized.push(bookmark)
         }
       } else {
-        // ，�?
+
         bookmark.tags.forEach((tag: string) => {
           if (!folderMap.has(tag)) {
             folderMap.set(tag, [])
@@ -90,9 +86,9 @@ ${includeMetadata ? this.generateMetadataComment(data) : ''}
     })
     
     // 
-    const uncategorized = folderMap.get('�?)
+    const uncategorized = folderMap.get('
     if (uncategorized && uncategorized.length === 0) {
-      folderMap.delete('�?)
+      folderMap.delete('
     }
     
     return folderMap
@@ -120,15 +116,13 @@ ${includeMetadata ? this.generateMetadataComment(data) : ''}
   private generateBookmarkEntry(bookmark: Record<string, unknown>): string {
     const addDate = bookmark.created_at ? this.toUnixTimestamp(bookmark.created_at) : this.toUnixTimestamp(new Date().toISOString())
     const lastModified = bookmark.updated_at ? this.toUnixTimestamp(bookmark.updated_at) : addDate
-    
-    // �?
+
     const attributes = [
       `HREF="${this.escapeHtml(bookmark.url)}"`,
       `ADD_DATE="${addDate}"`,
       `LAST_MODIFIED="${lastModified}"`
     ]
-    
-    // �?
+
     if (bookmark.is_pinned) {
       attributes.push('PERSONAL_TOOLBAR_FOLDER="true"')
     }
@@ -181,7 +175,7 @@ ${includeMetadata ? this.generateMetadataComment(data) : ''}
   }
 
   private escapeHtml(text: string): string {
-    // �?HTML 
+
     return text
       .replace(/&/g, '&amp;')
       .replace(/</g, '&lt;')
@@ -247,14 +241,14 @@ ${includeMetadata ? this.generateMetadataComment(data) : ''}
 }
 
 /**
- *  HTML �?
+
  */
 export function createHtmlExporter(): HtmlExporter {
   return new HtmlExporter()
 }
 
 /**
- *  HTML �?
+
  */
 export async function exportToHtml(
   data: TMarksExportData, 

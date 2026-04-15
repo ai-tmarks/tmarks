@@ -1,6 +1,7 @@
 /**
- * API Key Logger - 
- * ，�? */
+ * API Key Logger - Records API key usage and provides statistics
+ * Automatically cleans up old logs, keeping only the latest 100 entries per key
+ */
 
 interface LogEntry {
   api_key_id: string
@@ -12,8 +13,8 @@ interface LogEntry {
 }
 
 /**
- *  API Key 
- * @param entry 
+ * Log API Key usage
+ * @param entry Log entry data
  * @param db D1 Database
  */
 export async function logApiKeyUsage(entry: LogEntry, db: D1Database): Promise<void> {
@@ -33,21 +34,23 @@ export async function logApiKeyUsage(entry: LogEntry, db: D1Database): Promise<v
       )
       .run()
 
-    // （ Key �?100 ）
+    // Async cleanup (keep only latest 100 logs per key)
     await cleanupOldLogs(entry.api_key_id, db)
   } catch (error) {
-    // ，
+    // Don't throw error, just log it
     console.error('Failed to log API key usage:', error)
   }
 }
 
 /**
- * ，�?100 �? * @param apiKeyId API Key ID
+ * Cleanup old logs, keep only the latest 100 entries
+ * @param apiKeyId API Key ID
  * @param db D1 Database
  */
 async function cleanupOldLogs(apiKeyId: string, db: D1Database): Promise<void> {
   try {
-    //  100 �?    await db
+    // Keep only the latest 100 logs
+    await db
       .prepare(
         `DELETE FROM api_key_logs
          WHERE api_key_id = ?
@@ -66,10 +69,11 @@ async function cleanupOldLogs(apiKeyId: string, db: D1Database): Promise<void> {
 }
 
 /**
- *  API Key 
+ * Get API Key usage logs
  * @param apiKeyId API Key ID
- * @param limit （�?10�? * @param db D1 Database
- * @returns 
+ * @param limit Maximum number of logs to return (default: 10)
+ * @param db D1 Database
+ * @returns Array of log entries
  */
 export async function getApiKeyLogs(
   apiKeyId: string,
@@ -91,10 +95,10 @@ export async function getApiKeyLogs(
 }
 
 /**
- *  API Key 
+ * Get API Key usage statistics
  * @param apiKeyId API Key ID
  * @param db D1 Database
- * @returns 
+ * @returns Statistics object with total requests, last used time and IP
  */
 export async function getApiKeyStats(
   apiKeyId: string,

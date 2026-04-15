@@ -14,17 +14,17 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
   try {
     const db = context.env.DB
 
-    // ：�?IP �?5 �?
+    // Rate limiting: Max 5 registration attempts per IP per hour
     const clientIP = context.request.headers.get('CF-Connecting-IP') || 'unknown'
 
-    // （�?
+    // Log registration attempt (ignore errors)
     try {
       await db.prepare(
         `INSERT INTO audit_logs (user_id, event_type, ip, payload, created_at)
          VALUES ('system', 'register_attempt', ?, ?, datetime('now'))`
       ).bind(clientIP, JSON.stringify({ ip: clientIP })).run()
     } catch {
-      // �?
+      // Ignore audit log errors
     }
 
     const rateCheck = await db.prepare(
@@ -41,7 +41,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
       })
     }
 
-    // �?
+    // Check if registration is enabled
     if (context.env.ALLOW_REGISTRATION !== 'true') {
       return badRequest('Registration is currently disabled')
     }
@@ -68,7 +68,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
     const username = sanitizeString(body.username, 20)
     const email = body.email ? sanitizeString(body.email, 255) : null
 
-    // �?
+    // Check if username exists
     const existingUser = await db.prepare(
       'SELECT id FROM users WHERE LOWER(username) = LOWER(?)'
     )
@@ -79,7 +79,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
       return conflict('Username already exists')
     }
 
-    // 
+    // Check if email exists
     if (email) {
       const existingEmail = await db.prepare(
         'SELECT id FROM users WHERE LOWER(email) = LOWER(?)'
@@ -92,10 +92,10 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
       }
     }
 
-    // 
+    // Hash password
     const passwordHash = await hashPassword(body.password)
 
-    //  UUID
+    // Generate UUID
     const userId = generateUUID()
 
     const now = new Date()
@@ -103,7 +103,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
     const ip = context.request.headers.get('CF-Connecting-IP') || 'unknown'
     const userAgent = context.request.headers.get('User-Agent') || 'unknown'
 
-    // 
+    // Create user
     await db.prepare(
       `INSERT INTO users (id, username, email, password_hash, created_at, updated_at)
        VALUES (?, ?, ?, ?, ?, ?)`
@@ -111,7 +111,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
       .bind(userId, username, email, passwordHash, nowISO, nowISO)
       .run()
 
-    // 
+    // Create default preferences
     try {
       await db.prepare(
         `INSERT INTO user_preferences (user_id, theme, page_size, view_mode, density, tag_layout, sort_by, updated_at)
@@ -121,7 +121,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
         .run()
     } catch (error) {
       if (error instanceof Error && (/no such column: tag_layout/i.test(error.message) || /no such column: sort_by/i.test(error.message))) {
-        // �?tag_layout �?sort_by
+        // Fallback for older schema without tag_layout and sort_by
         await db.prepare(
           `INSERT INTO user_preferences (user_id, theme, page_size, view_mode, density, updated_at)
            VALUES (?, 'light', 30, 'list', 'normal', ?)`
@@ -133,7 +133,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
       }
     }
 
-    //  (�?
+    // Log registration (ignore errors)
     try {
       await db.prepare(
         `INSERT INTO audit_logs (user_id, event_type, payload, ip, user_agent, created_at)
@@ -148,7 +148,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
         )
         .run()
     } catch (auditError) {
-      // �?�?
+
       console.error('Failed to create audit log:', auditError)
     }
 

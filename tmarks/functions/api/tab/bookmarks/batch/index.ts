@@ -47,7 +47,7 @@ interface BatchCreateResult {
 
 /**
  * GET /api/tab/bookmarks/batch
- * �?GET 
+
  */
 export const onRequestGet: PagesFunction<Env, RouteParams>[] = [
   async () => {

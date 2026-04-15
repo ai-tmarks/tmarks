@@ -1,5 +1,5 @@
 /**
- * JSON �?
+
  *  TMarks  JSON 
  */
 
@@ -17,11 +17,9 @@ export class JsonExporter implements Exporter {
     try {
       // 
       const filteredData = this.filterData(data, options)
-      
-      // �?JSON
+
       const jsonContent = this.formatJson(filteredData, options)
-      
-      // �?
+
       const filename = this.generateFilename(data.exported_at)
       
       return {
@@ -47,7 +45,6 @@ export class JsonExporter implements Exporter {
       }))
     }
 
-    // �?
     if (!options?.include_metadata) {
       delete filtered.metadata
     }
@@ -92,7 +89,7 @@ export class JsonExporter implements Exporter {
   }
 
   /**
-   * �?
+
    */
   validateData(data: TMarksExportData): { valid: boolean; errors: string[] } {
     const errors: string[] = []
@@ -104,7 +101,6 @@ export class JsonExporter implements Exporter {
     if (!Array.isArray(data.bookmarks)) errors.push('Bookmarks must be an array')
     if (!Array.isArray(data.tags)) errors.push('Tags must be an array')
 
-    // �?
     data.bookmarks.forEach((bookmark, index) => {
       if (!bookmark.id) errors.push(`Bookmark ${index}: missing id`)
       if (!bookmark.title) errors.push(`Bookmark ${index}: missing title`)
@@ -113,7 +109,6 @@ export class JsonExporter implements Exporter {
       if (!Array.isArray(bookmark.tags)) errors.push(`Bookmark ${index}: tags must be an array`)
     })
 
-    // �?
     data.tags.forEach((tag, index) => {
       if (!tag.id) errors.push(`Tag ${index}: missing id`)
       if (!tag.name) errors.push(`Tag ${index}: missing name`)
@@ -137,7 +132,7 @@ export class JsonExporter implements Exporter {
   }
 
   private isValidColor(color: string): boolean {
-    // �?
+
     return /^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/.test(color)
   }
 
@@ -166,14 +161,14 @@ export class JsonExporter implements Exporter {
 }
 
 /**
- *  JSON �?
+
  */
 export function createJsonExporter(): JsonExporter {
   return new JsonExporter()
 }
 
 /**
- *  JSON �?
+
  */
 export async function exportToJson(
   data: TMarksExportData, 

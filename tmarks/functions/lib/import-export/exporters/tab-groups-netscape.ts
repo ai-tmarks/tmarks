@@ -1,5 +1,4 @@
 /**
- * Tab Groups �?Netscape �? * 「 + 」，�? */
 
 import type { ExportTabGroup, ExportTabGroupItem } from '../../../../shared/import-export-types'
 

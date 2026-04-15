@@ -1,5 +1,5 @@
 /**
- *  API - �?
+
  * : /api/tab/bookmarks/trash/empty
  * : API Key (X-API-Key header)
  */
@@ -9,14 +9,13 @@ import type { Env } from '../../../lib/types'
 import { success, internalError } from '../../../lib/response'
 import { requireApiKeyAuth, ApiKeyAuthContext } from '../../../../middleware/api-key-auth-pages'
 
-// DELETE /api/tab/bookmarks/trash/empty - �?
 export const onRequestDelete: PagesFunction<Env, string, ApiKeyAuthContext>[] = [
   requireApiKeyAuth('bookmarks.delete'),
   async (context) => {
     const userId = context.data.user_id
 
     try {
-      // �?ID
+
       const { results: trashBookmarks } = await context.env.DB.prepare(
         'SELECT id FROM bookmarks WHERE user_id = ? AND deleted_at IS NOT NULL'
       )

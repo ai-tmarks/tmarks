@@ -1,5 +1,5 @@
 /**
- * �?API
+
  * : /api/v1/bookmarks/trash/empty
  * : JWT Token (Bearer)
  */
@@ -9,14 +9,13 @@ import type { Env } from '../../lib/types'
 import { success, internalError } from '../../lib/response'
 import { requireAuth, AuthContext } from '../../../../middleware/auth'
 
-// DELETE /api/v1/bookmarks/trash/empty - �?
 export const onRequestDelete: PagesFunction<Env, string, AuthContext>[] = [
   requireAuth,
   async (context) => {
     const userId = context.data.user_id
 
     try {
-      // �?ID
+
       const { results: trashBookmarks } = await context.env.DB.prepare(
         'SELECT id FROM bookmarks WHERE user_id = ? AND deleted_at IS NOT NULL'
       )

@@ -14,7 +14,7 @@ interface DomainCount {
   count: number
 }
 
-// GET /api/v1/statistics - 
+/api/v1/statistics - 
 export const onRequestGet: PagesFunction<Env, string, AuthContext>[] = [
   requireAuth,
   async (context) => {
@@ -27,7 +27,7 @@ export const onRequestGet: PagesFunction<Env, string, AuthContext>[] = [
     const startDateStr = startDate.toISOString().split('T')[0]
 
     try {
-      // 🚀 �?- 
+      
       const [
         groupsResult,
         deletedGroupsResult,
@@ -38,35 +38,31 @@ export const onRequestGet: PagesFunction<Env, string, AuthContext>[] = [
         domains,
         groupSizes
       ] = await Promise.all([
-        // 1. 
+        
         context.env.DB.prepare(
           'SELECT COUNT(*) as count FROM tab_groups WHERE user_id = ? AND is_deleted = 0'
         )
           .bind(userId)
           .all<{ count: number }>(),
 
-        // 2. �?
         context.env.DB.prepare(
           'SELECT COUNT(*) as count FROM tab_groups WHERE user_id = ? AND is_deleted = 1'
         )
           .bind(userId)
           .all<{ count: number }>(),
 
-        // 3. �?
         context.env.DB.prepare(
           'SELECT COUNT(*) as count FROM tab_group_items WHERE group_id IN (SELECT id FROM tab_groups WHERE user_id = ?)'
         )
           .bind(userId)
           .all<{ count: number }>(),
 
-        // 4. 
         context.env.DB.prepare(
           'SELECT COUNT(*) as count FROM tab_group_shares WHERE group_id IN (SELECT id FROM tab_groups WHERE user_id = ?)'
         )
           .bind(userId)
           .all<{ count: number }>(),
 
-        // 5. 
         context.env.DB.prepare(
           `SELECT DATE(created_at) as date, COUNT(*) as count 
            FROM tab_groups 
@@ -77,7 +73,6 @@ export const onRequestGet: PagesFunction<Env, string, AuthContext>[] = [
           .bind(userId, startDateStr)
           .all<{ date: string; count: number }>(),
 
-        // 6. �?
         context.env.DB.prepare(
           `SELECT DATE(created_at) as date, COUNT(*) as count 
            FROM tab_group_items 
@@ -89,7 +84,6 @@ export const onRequestGet: PagesFunction<Env, string, AuthContext>[] = [
           .bind(userId, startDateStr)
           .all<{ date: string; count: number }>(),
 
-        // 7.  Top 10
         context.env.DB.prepare(
           `SELECT 
             CASE 
@@ -107,7 +101,6 @@ export const onRequestGet: PagesFunction<Env, string, AuthContext>[] = [
           .bind(userId)
           .all<DomainCount>(),
 
-        // 8. 
         context.env.DB.prepare(
           `SELECT 
             CASE 

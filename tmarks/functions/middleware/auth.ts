@@ -9,7 +9,7 @@ export interface AuthContext extends Record<string, unknown> {
 }
 
 /**
- * �?-  JWT �?
+ * Authentication Middleware - Requires valid JWT token
  */
 export const requireAuth: PagesFunction<Env, RouteParams, AuthContext> = async (context) => {
   const token = extractJWT(context.request)
@@ -21,7 +21,7 @@ export const requireAuth: PagesFunction<Env, RouteParams, AuthContext> = async (
   try {
     const payload = await verifyJWT(token, context.env.JWT_SECRET)
 
-    //  context.data
+    // Pass user info to context.data
     context.data.user_id = payload.sub
     context.data.session_id = payload.session_id
 
@@ -33,7 +33,7 @@ export const requireAuth: PagesFunction<Env, RouteParams, AuthContext> = async (
 }
 
 /**
- *  - �?token ，�?
+ * Optional Authentication Middleware - Validates token if present, continues if not
  */
 export const optionalAuth: PagesFunction<Env, RouteParams, Partial<AuthContext>> = async (context) => {
   const token = extractJWT(context.request)
@@ -44,7 +44,7 @@ export const optionalAuth: PagesFunction<Env, RouteParams, Partial<AuthContext>>
       context.data.user_id = payload.sub
       context.data.session_id = payload.session_id
     } catch {
-      // ，�?
+      // Ignore invalid token, continue without auth
     }
   }
 

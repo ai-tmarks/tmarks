@@ -1,5 +1,4 @@
 /**
- * API Key Validator - �? */
 
 import { hashApiKey } from './generator'
 import { hasPermission } from '../../../shared/permissions'
@@ -40,7 +39,6 @@ export async function validateApiKey(
     // 2. 
     const keyHash = await hashApiKey(apiKey)
 
-    // 3. �?    const keyData = await db
       .prepare(
         `SELECT id, user_id, permissions, status, expires_at, last_used_at, last_used_ip
          FROM api_keys
@@ -53,7 +51,6 @@ export async function validateApiKey(
       return { valid: false, error: 'API Key not found' }
     }
 
-    // 4. �?    if (keyData.status === 'revoked') {
       return { valid: false, error: 'API Key has been revoked' }
     }
 
@@ -61,10 +58,9 @@ export async function validateApiKey(
       return { valid: false, error: 'API Key has expired' }
     }
 
-    // 5. �?    if (keyData.expires_at) {
       const expiresAt = new Date(keyData.expires_at)
       if (expiresAt < new Date()) {
-        // �?        await markAsExpired(keyData.id, db)
+
         return { valid: false, error: 'API Key has expired' }
       }
     }
@@ -84,9 +80,9 @@ export async function validateApiKey(
 }
 
 /**
- * �?API Key �? * @param permissions API Key 
+
  * @param requiredPermission 
- * @returns �? */
+
 export function checkPermission(permissions: string[], requiredPermission: string): boolean {
   return hasPermission(permissions, requiredPermission)
 }
@@ -108,7 +104,7 @@ async function markAsExpired(keyId: string, db: D1Database): Promise<void> {
 }
 
 /**
- *  API Key �? * @param keyId API Key ID
+
  * @param ip  IP
  * @param db D1 Database
  */

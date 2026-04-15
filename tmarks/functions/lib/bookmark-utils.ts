@@ -2,7 +2,7 @@ import type { Bookmark, BookmarkRow } from './types'
 
 /**
  *  Bookmark 
- *  SQLite �?0/1 �?boolean �?
+
  */
 export function normalizeBookmark(row: BookmarkRow): Bookmark {
   return {

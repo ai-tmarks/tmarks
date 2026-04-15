@@ -4,12 +4,6 @@ import { requireAuth, AuthContext } from '../../../middleware/auth'
 import { success, internalError } from '../../../lib/response'
 import { getCurrentR2UsageBytes, getR2MaxTotalBytes } from '../../../lib/storage-quota'
 
-/**
- * R2 
- * GET /api/v1/settings/storage
- *
- *  R2 （，）�?
- */
 export const onRequestGet: PagesFunction<Env, RouteParams, AuthContext>[] = [
   requireAuth,
   async (context) => {

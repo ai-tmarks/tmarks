@@ -5,7 +5,7 @@ export interface JWTPayload {
   session_id?: string
 }
 /**
- *  JWT
+ * Generate JWT token
  */
 export async function generateJWT(
   payload: Omit<JWTPayload, 'exp' | 'iat'>,
@@ -29,7 +29,7 @@ export async function generateJWT(
   return `${encodedHeader}.${encodedPayload}.${signature}`
 }
 /**
- * �?JWT
+ * Verify JWT token
  */
 export async function verifyJWT(token: string, secret: string): Promise<JWTPayload> {
   const parts = token.split('.')
@@ -41,9 +41,9 @@ export async function verifyJWT(token: string, secret: string): Promise<JWTPaylo
   if (signature !== expectedSignature) {
     throw new Error('Invalid signature')
   }
-  //  payload
+  // Decode payload
   const payload: JWTPayload = JSON.parse(base64UrlDecode(encodedPayload))
-  // �?
+  // Check expiration
   const now = Math.floor(Date.now() / 1000)
   if (payload.exp < now) {
     throw new Error('Token expired')
@@ -51,7 +51,7 @@ export async function verifyJWT(token: string, secret: string): Promise<JWTPaylo
   return payload
 }
 /**
- * �?JWT
+ * Extract JWT from request
  */
 export function extractJWT(request: Request): string | null {
   const authHeader = request.headers.get('Authorization')
@@ -61,7 +61,7 @@ export function extractJWT(request: Request): string | null {
   return authHeader.substring(7)
 }
 /**
- *  Web Crypto API 
+ * Sign data using Web Crypto API
  */
 async function sign(data: string, secret: string): Promise<string> {
   const encoder = new TextEncoder()
@@ -78,7 +78,7 @@ async function sign(data: string, secret: string): Promise<string> {
   return base64UrlEncode(signature)
 }
 /**
- * Base64 URL 
+ * Base64 URL encode
  */
 function base64UrlEncode(data: string | ArrayBuffer): string {
   let base64: string
@@ -92,7 +92,7 @@ function base64UrlEncode(data: string | ArrayBuffer): string {
   return base64.replace(/\+/g, '-').replace(/\//g, '_').replace(/=/g, '')
 }
 /**
- * Base64 URL 
+ * Base64 URL decode
  */
 function base64UrlDecode(data: string): string {
   let base64 = data.replace(/-/g, '+').replace(/_/g, '/')
@@ -102,7 +102,7 @@ function base64UrlDecode(data: string): string {
   return atob(base64)
 }
 /**
- * �?(�?"15m", "7d")
+ * Parse expiry string (e.g. "15m", "7d")
  */
 export function parseExpiry(expiry: string): number {
   const match = expiry.match(/^(\d+)([smhd])$/)
