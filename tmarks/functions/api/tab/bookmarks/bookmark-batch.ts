@@ -91,9 +91,9 @@ export async function handleBatchCreate(
            SET title = ?, description = ?, cover_image = ?, favicon = ?,
                is_pinned = ?, is_archived = ?, is_public = ?,
                deleted_at = NULL, updated_at = ?
-           WHERE id = ?`
+           WHERE id = ? AND user_id = ?`
         )
-          .bind(title, description, coverImage, favicon, isPinned, isArchived, isPublic, now, bookmarkId)
+          .bind(title, description, coverImage, favicon, isPinned, isArchived, isPublic, now, bookmarkId, userId)
           .run()
       } else {
         bookmarkId = generateUUID()

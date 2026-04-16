@@ -135,7 +135,7 @@ export const onRequestPatch: PagesFunction<Env, RouteParams, AuthContext>[] = [
 
           //  (30d, 90d )  ISO 
           if (expires_at.match(/^\d+d$/)) {
-            const days = parseInt(expires_at.slice(0, -1))
+            const days = parseInt(expires_at.slice(0, -1), 10)
             expiresDate = new Date()
             expiresDate.setDate(expiresDate.getDate() + days)
           } else {

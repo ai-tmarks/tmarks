@@ -121,14 +121,14 @@ export async function batchCreateBookmarks(
           continue
         }
 
-        // 
+        //
         bookmarkId = existing.id
         await context.env.DB.prepare(
           `UPDATE bookmarks
            SET title = ?, description = ?, cover_image = ?, favicon = ?,
                is_pinned = ?, is_archived = ?, is_public = ?,
                deleted_at = NULL, updated_at = ?
-           WHERE id = ?`
+           WHERE id = ? AND user_id = ?`
         )
           .bind(
             title,
@@ -139,7 +139,8 @@ export async function batchCreateBookmarks(
             isArchived,
             isPublic,
             now,
-            bookmarkId
+            bookmarkId,
+            userId
           )
           .run()
       } else {

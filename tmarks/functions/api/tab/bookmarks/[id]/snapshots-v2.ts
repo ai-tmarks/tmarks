@@ -90,7 +90,9 @@ export const onRequestPost: PagesFunction<Env, 'id', ApiKeyAuthContext>[] = [
         return success({ message: 'Content unchanged, no new snapshot created', is_duplicate: true })
       }
 
-      const version = (versionResult?.next_version as number) || 1
+      const version = (versionResult && typeof versionResult.next_version === 'number')
+        ? versionResult.next_version
+        : 1
       const timestamp = Date.now()
 
       // 1. （CPU ，）

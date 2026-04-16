@@ -16,6 +16,7 @@ export async function generateApiKey(env: 'live' | 'test' = 'live'): Promise<{
 
   const base62Chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
 
+  const randomBytes = new Uint8Array(20)
   crypto.getRandomValues(randomBytes)
 
   const randomStr = Array.from(randomBytes)
@@ -42,6 +43,7 @@ export async function hashApiKey(key: string): Promise<string> {
   const data = encoder.encode(key)
   const hashBuffer = await crypto.subtle.digest('SHA-256', data)
 
+  const hashArray = new Uint8Array(hashBuffer)
   const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('')
 
   return hashHex

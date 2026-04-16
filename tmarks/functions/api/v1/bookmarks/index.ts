@@ -22,8 +22,8 @@ export const onRequestGet: PagesFunction<Env, RouteParams, AuthContext>[] = [
       const groupId = url.searchParams.get('groupId')
       const sortBy = url.searchParams.get('sortBy') || 'created_at'
       const sortOrder = url.searchParams.get('sortOrder') || 'DESC'
-      const limit = parseInt(url.searchParams.get('limit') || '50')
-      const offset = parseInt(url.searchParams.get('offset') || '0')
+      const limit = parseInt(url.searchParams.get('limit') || '50', 10) || 50
+      const offset = parseInt(url.searchParams.get('offset') || '0', 10) || 0
 
       let query = `
         SELECT DISTINCT b.*

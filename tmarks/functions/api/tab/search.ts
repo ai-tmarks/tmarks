@@ -26,7 +26,7 @@ export const onRequestGet: PagesFunction<Env, RouteParams, ApiKeyAuthContext>[] 
     }
 
     const searchTerm = `%${query.trim()}%`
-    const limit = Math.min(parseInt(url.searchParams.get('limit') || '20'), 100)
+    const limit = Math.min(parseInt(url.searchParams.get('limit') || '20', 10) || 20, 100)
 
     try {
       // Search bookmarks

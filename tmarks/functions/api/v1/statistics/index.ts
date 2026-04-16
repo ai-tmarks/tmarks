@@ -20,7 +20,7 @@ export const onRequestGet: PagesFunction<Env, string, AuthContext>[] = [
   async (context) => {
     const userId = context.data.user_id
     const url = new URL(context.request.url)
-    const days = parseInt(url.searchParams.get('days') || '30')
+    const days = parseInt(url.searchParams.get('days') || '30', 10) || 30
 
     const startDate = new Date()
     startDate.setDate(startDate.getDate() - days)

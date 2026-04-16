@@ -56,7 +56,7 @@ export const onRequestGet: PagesFunction<Env, RouteParams, AuthContext>[] = [
     const userId = context.data.user_id
     const url = new URL(context.request.url)
 
-    const pageSize = Math.min(parseInt(url.searchParams.get('page_size') || '30'), 100)
+    const pageSize = Math.min(parseInt(url.searchParams.get('page_size') || '30', 10) || 30, 100)
     const pageCursor = url.searchParams.get('page_cursor') || ''
 
     try {

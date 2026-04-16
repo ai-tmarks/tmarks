@@ -73,7 +73,7 @@ export async function verifySignedUrl(
   const message = `${userId}:${resourceId}:${expires}:${action || ''}`
   const expectedSignature = await sign(message, secret)
 
-  if (signature !== expectedSignature) {
+  if (!timingSafeEqual(signature, expectedSignature)) {
     return { valid: false, error: 'Invalid signature' }
   }
 
@@ -115,6 +115,18 @@ export function extractSignedParams(request: Request): {
 /**
  * Generate HMAC-SHA256 signature
  */
+function timingSafeEqual(a: string, b: string): boolean {
+  if (a.length !== b.length) return false
+  const encoder = new TextEncoder()
+  const ab = encoder.encode(a)
+  const bb = encoder.encode(b)
+  let result = 0
+  for (let i = 0; i < ab.length; i++) {
+    result |= ab[i] ^ bb[i]
+  }
+  return result === 0
+}
+
 async function sign(message: string, secret: string): Promise<string> {
   const encoder = new TextEncoder()
   const keyData = encoder.encode(secret)

@@ -66,7 +66,7 @@ export const onRequestGet: PagesFunction<Env, 'hash'> = async (context) => {
            AND s.version = ?
            AND b.deleted_at IS NULL`
       )
-      .bind(bookmarkId, userId, parseInt(version))
+      .bind(bookmarkId, userId, parseInt(version, 10) || 0)
       .first()
 
     if (!snapshot) {

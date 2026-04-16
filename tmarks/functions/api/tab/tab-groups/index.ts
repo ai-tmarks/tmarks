@@ -63,7 +63,7 @@ export const onRequestGet: PagesFunction<Env, RouteParams, DualAuthContext>[] = 
     const userId = context.data.user_id
     const url = new URL(context.request.url)
 
-    const pageSize = Math.min(parseInt(url.searchParams.get('page_size') || '30'), 100)
+    const pageSize = Math.min(parseInt(url.searchParams.get('page_size') || '30', 10) || 30, 100)
     const pageCursor = url.searchParams.get('page_cursor') || ''
 
     try {
@@ -215,10 +215,14 @@ export const onRequestPost: PagesFunction<Env, RouteParams, DualAuthContext>[] =
       await context.env.DB.batch(stmts)
 
       const groupRow = await context.env.DB.prepare(
-        'SELECT * FROM tab_groups WHERE id = ?'
+        'SELECT * FROM tab_groups WHERE id = ? AND user_id = ?'
       )
-        .bind(groupId)
+        .bind(groupId, userId)
         .first<TabGroupRow>()
+
+      if (!groupRow) {
+        return internalError('Failed to load tab group after creation')
+      }
 
       const { results: items } = await context.env.DB.prepare(
         `SELECT tgi.*

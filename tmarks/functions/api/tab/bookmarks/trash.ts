@@ -29,7 +29,7 @@ export const onRequestGet: PagesFunction<Env, string, ApiKeyAuthContext>[] = [
     }
 
     try {
-      const pageSize = Math.min(Math.max(parseInt(params.page_size || '20'), 1), 100)
+      const pageSize = Math.min(Math.max(parseInt(params.page_size || '20', 10) || 20, 1), 100)
       const sort = params.sort === 'deleted_at_asc' ? 'ASC' : 'DESC'
 
       let query = `

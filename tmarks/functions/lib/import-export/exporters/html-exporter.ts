@@ -70,15 +70,16 @@ ${includeMetadata ? this.generateMetadataComment(data) : ''}
     folderMap.set('Uncategorized', [])
 
     bookmarks.forEach(bookmark => {
-      if (!includeTags || bookmark.tags.length === 0) {
-        // 
+      const tags = bookmark.tags as string[] | undefined
+      if (!includeTags || !tags || tags.length === 0) {
+        //
         const uncategorized = folderMap.get('Uncategorized')
         if (uncategorized) {
           uncategorized.push(bookmark)
         }
       } else {
 
-        bookmark.tags.forEach((tag: string) => {
+        tags.forEach((tag: string) => {
           if (!folderMap.has(tag)) {
             folderMap.set(tag, [])
           }

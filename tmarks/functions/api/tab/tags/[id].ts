@@ -117,8 +117,8 @@ export const onRequestPatch: PagesFunction<Env, RouteParams, ApiKeyAuthContext>[
         .bind(...values)
         .run()
 
-      const tag = await context.env.DB.prepare('SELECT * FROM tags WHERE id = ?')
-        .bind(tagId)
+      const tag = await context.env.DB.prepare('SELECT * FROM tags WHERE id = ? AND user_id = ?')
+        .bind(tagId, userId)
         .first()
 
       return success({ tag })
@@ -151,14 +151,13 @@ export const onRequestDelete: PagesFunction<Env, RouteParams, ApiKeyAuthContext>
 
       // 
       await context.env.DB.prepare(
-        'UPDATE tags SET deleted_at = ?, updated_at = ? WHERE id = ?'
+        'UPDATE tags SET deleted_at = ?, updated_at = ? WHERE id = ? AND user_id = ?'
       )
-        .bind(now, now, tagId)
+        .bind(now, now, tagId, userId)
         .run()
 
-      // 
-      await context.env.DB.prepare('DELETE FROM bookmark_tags WHERE tag_id = ?')
-        .bind(tagId)
+      await context.env.DB.prepare('DELETE FROM bookmark_tags WHERE tag_id = ? AND user_id = ?')
+        .bind(tagId, userId)
         .run()
 
       return noContent()

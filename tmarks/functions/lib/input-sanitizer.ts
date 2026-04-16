@@ -152,8 +152,8 @@ export function sanitizePaginationParams(params: {
   pageSize: number
   cursor?: string
 } {
-  const page = Math.max(1, parseInt(String(params.page || 1)))
-  const pageSize = Math.min(100, Math.max(1, parseInt(String(params.pageSize || 30))))
+  const page = Math.max(1, parseInt(String(params.page || 1), 10) || 1)
+  const pageSize = Math.min(100, Math.max(1, parseInt(String(params.pageSize || 30), 10) || 30))
   const result: { page: number; pageSize: number; cursor?: string } = { page, pageSize }
   if (params.cursor && typeof params.cursor === 'string') {
 
