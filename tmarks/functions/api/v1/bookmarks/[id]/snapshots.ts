@@ -5,12 +5,12 @@
  */
 
 import type { PagesFunction } from '@cloudflare/workers-types'
-import type { Env } from '../../lib/types'
-import { success, badRequest, notFound, internalError } from '../../lib/response'
+import type { Env } from '../../../../lib/types'
+import { success, badRequest, notFound, internalError } from '../../../../lib/response'
 import { requireAuth, AuthContext } from '../../../../middleware/auth'
-import { generateSignedUrl } from '../../lib/signed-url'
-import { generateNanoId } from '../../lib/crypto'
-import { checkR2Quota } from '../../lib/storage-quota'
+import { generateSignedUrl } from '../../../../lib/signed-url'
+import { generateNanoId } from '../../../../lib/crypto'
+import { checkR2Quota } from '../../../../lib/storage-quota'
 import { cleanupOldSnapshots } from './snapshot-cleanup'
 
 //  Web Crypto API  SHA-256 

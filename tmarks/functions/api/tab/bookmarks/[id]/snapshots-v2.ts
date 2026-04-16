@@ -4,11 +4,11 @@
  */
 
 import type { PagesFunction } from '@cloudflare/workers-types'
-import type { Env } from '../../lib/types'
-import { success, badRequest, notFound, internalError } from '../../lib/response'
+import type { Env } from '../../../../lib/types'
+import { success, badRequest, notFound, internalError } from '../../../../lib/response'
 import { requireApiKeyAuth, ApiKeyAuthContext } from '../../../../middleware/api-key-auth-pages'
-import { generateSignedUrl } from '../../lib/signed-url'
-import { checkR2Quota } from '../../lib/storage-quota'
+import { generateSignedUrl } from '../../../../lib/signed-url'
+import { checkR2Quota } from '../../../../lib/storage-quota'
 import {
   decodeBase64Image,
   uploadImagesConcurrently,

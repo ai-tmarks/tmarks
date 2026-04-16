@@ -5,10 +5,10 @@
  */
 
 import type { PagesFunction } from '@cloudflare/workers-types'
-import type { Env, BookmarkRow, RouteParams } from '../../lib/types'
-import { success, notFound, internalError } from '../../lib/response'
+import type { Env, BookmarkRow, RouteParams } from '../../../../lib/types'
+import { success, notFound, internalError } from '../../../../lib/response'
 import { requireAuth, AuthContext } from '../../../../middleware/auth'
-import { normalizeBookmark } from '../../lib/bookmark-utils'
+import { normalizeBookmark } from '../../../../lib/bookmark-utils'
 
 // PATCH /api/v1/bookmarks/:id/restore - 
 export const onRequestPatch: PagesFunction<Env, RouteParams, AuthContext>[] = [

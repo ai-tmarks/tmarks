@@ -1,10 +1,10 @@
 
 
 import type { PagesFunction } from '@cloudflare/workers-types'
-import type { Env, RouteParams } from '../../lib/types'
-import { success, badRequest, created, internalError } from '../../lib/response'
+import type { Env, RouteParams } from '../../../../lib/types'
+import { success, badRequest, created, internalError } from '../../../../lib/response'
 import { requireAuth, AuthContext } from '../../../../middleware/auth'
-import { generateApiKey } from '../../lib/api-key/generator'
+import { generateApiKey } from '../../../../lib/api-key/generator'
 import { PERMISSION_TEMPLATES } from '../../../../../shared/permissions'
 
 interface CreateApiKeyRequest {

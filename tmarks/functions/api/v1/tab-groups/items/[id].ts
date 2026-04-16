@@ -5,10 +5,10 @@
  */
 
 import type { PagesFunction } from '@cloudflare/workers-types'
-import type { Env, RouteParams } from '../../lib/types'
-import { success, badRequest, notFound, internalError } from '../../lib/response'
+import type { Env, RouteParams } from '../../../../lib/types'
+import { success, badRequest, notFound, internalError } from '../../../../lib/response'
 import { requireAuth, AuthContext } from '../../../../middleware/auth'
-import { sanitizeString } from '../../lib/validation'
+import { sanitizeString } from '../../../../lib/validation'
 
 interface TabGroupItemRow {
   id: string

@@ -5,8 +5,8 @@
  */
 
 import type { PagesFunction } from '@cloudflare/workers-types'
-import type { Env, RouteParams } from '../../lib/types'
-import { success, notFound, internalError } from '../../lib/response'
+import type { Env, RouteParams } from '../../../../lib/types'
+import { success, notFound, internalError } from '../../../../lib/response'
 import { requireApiKeyAuth, ApiKeyAuthContext } from '../../../../middleware/api-key-auth-pages'
 
 // PATCH /api/tags/:id/click - 

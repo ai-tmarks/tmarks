@@ -6,10 +6,10 @@
  */
 
 import type { PagesFunction } from '@cloudflare/workers-types'
-import type { Env, RouteParams, SQLParam } from '../../lib/types'
-import { success, badRequest, notFound, internalError } from '../../lib/response'
+import type { Env, RouteParams, SQLParam } from '../../../../lib/types'
+import { success, badRequest, notFound, internalError } from '../../../../lib/response'
 import { requireAuth, AuthContext } from '../../../../middleware/auth'
-import { getApiKeyStats } from '../../lib/api-key/logger'
+import { getApiKeyStats } from '../../../../lib/api-key/logger'
 import { PERMISSION_TEMPLATES } from '../../../../../shared/permissions'
 
 interface UpdateApiKeyRequest {

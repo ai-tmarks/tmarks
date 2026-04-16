@@ -5,8 +5,8 @@
  */
 
 import type { PagesFunction } from '@cloudflare/workers-types'
-import type { Env, RouteParams } from '../../lib/types'
-import { notFound, internalError } from '../../lib/response'
+import type { Env, RouteParams } from '../../../../lib/types'
+import { notFound, internalError } from '../../../../lib/response'
 import { requireDualAuth, DualAuthContext } from '../../../../middleware/dual-auth'
 
 interface TabGroupRow {

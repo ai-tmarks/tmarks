@@ -5,10 +5,10 @@
  */
 
 import type { PagesFunction } from '@cloudflare/workers-types'
-import type { Env } from '../../lib/types'
-import { success, badRequest, notFound, internalError } from '../../lib/response'
+import type { Env } from '../../../../lib/types'
+import { success, badRequest, notFound, internalError } from '../../../../lib/response'
 import { requireApiKeyAuth, ApiKeyAuthContext } from '../../../../middleware/api-key-auth-pages'
-import { checkR2Quota } from '../../lib/storage-quota'
+import { checkR2Quota } from '../../../../lib/storage-quota'
 
 //  nanoid  ID（21 ）
 function generateNanoId(): string {

@@ -5,8 +5,8 @@
  */
 
 import type { PagesFunction } from '@cloudflare/workers-types'
-import type { Env } from '../../lib/types'
-import { success, internalError } from '../../lib/response'
+import type { Env } from '../../../../lib/types'
+import { success, internalError } from '../../../../lib/response'
 import { requireAuth, AuthContext } from '../../../../middleware/auth'
 
 export const onRequestDelete: PagesFunction<Env, string, AuthContext>[] = [

@@ -1,6 +1,6 @@
 import type { PagesFunction } from '@cloudflare/workers-types'
-import type { Env } from '../../lib/types'
-import { success, notFound, internalError } from '../../lib/response'
+import type { Env } from '../../../../lib/types'
+import { success, notFound, internalError } from '../../../../lib/response'
 import { requireAuth, AuthContext } from '../../../../middleware/auth'
 
 // POST /api/v1/bookmarks/:id/click - 

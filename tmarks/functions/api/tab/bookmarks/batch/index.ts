@@ -5,13 +5,13 @@
  */
 
 import type { PagesFunction } from '@cloudflare/workers-types'
-import type { Env, RouteParams } from '../../../lib/types'
-import { success, badRequest, internalError } from '../../../lib/response'
+import type { Env, RouteParams } from '../../../../lib/types'
+import { success, badRequest, internalError } from '../../../../lib/response'
 import { requireApiKeyAuth, ApiKeyAuthContext } from '../../../../middleware/api-key-auth-pages'
-import { isValidUrl, sanitizeString } from '../../../lib/validation'
-import { generateUUID } from '../../../lib/crypto'
+import { isValidUrl, sanitizeString } from '../../../../lib/validation'
+import { generateUUID } from '../../../../lib/crypto'
 import { invalidatePublicShareCache } from '../../../shared/cache'
-import { replaceBookmarkTags, replaceBookmarkTagsByNames } from '../../../lib/tags'
+import { replaceBookmarkTags, replaceBookmarkTagsByNames } from '../../../../lib/tags'
 
 interface BatchCreateBookmarkItem {
   title: string
